@@ -1,0 +1,61 @@
+{
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": true,
+        "markdown": true,
+        "python": true,
+        "json": true,
+        "yaml": true
+    },
+    "github.copilot.advanced": {
+        "length": 500,
+        "temperature": 0.1,
+        "top_p": 1,
+        "inlineSuggestEnable": true,
+        "listCount": 10
+    },
+    "github.copilot.editor.enableAutoCompletions": true,
+    "github.copilot.editor.enableCodeActions": true,
+    "github.copilot.renameSuggestions.triggerAutomatically": false,
+    "github.copilot.chat.enable": true,
+    "github.copilot.chat.welcomeMessage": "always",
+    "github.copilot.workspaceContext": {
+        "enabled": true,
+        "includeWorkspaceInstructions": true,
+        "maxFileCount": 50,
+        "maxTokens": 8000
+    },
+    "github.copilot.preferences": {
+        "includeCodeContext": true,
+        "includeFileContext": true,
+        "includeWorkspaceContext": true,
+        "respectGitignore": true
+    },
+    "github.copilot.python": {
+        "advanced": {
+            "useTypeHints": true,
+            "useDocstrings": true,
+            "preferExplicitTypes": false,
+            "followPEP8": true
+        }
+    },
+    "github.copilot.markdown": {
+        "advanced": {
+            "preserveFormatting": true,
+            "respectStructure": true,
+            "maintainConsistency": true
+        }
+    },
+    "github.copilot.suggestions": {
+        "count": 3,
+        "cycleCompletions": true,
+        "experimental": {
+            "filterCompletions": true
+        }
+    },
+    "github.copilot.conversation": {
+        "defaultSystemPrompt": "You are working on a Python fundamentals curriculum project. Always preserve existing educational content and structure. Follow the guidelines in .github/copilot-instructions.md. Prioritize file preservation and minimal, targeted changes.",
+        "includeCodeContext": true,
+        "maxTokens": 4096
+    }
+}
