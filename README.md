@@ -14,7 +14,6 @@ pyfundamentals/
 │   ├── sessions/
 │   │   ├── L1/
 │   │   │   ├── S1.md          # Session 1: Python Introduction & Environment Setup
-│   │   │   ├── S2.md          # Session 2: Variables & Data Types
 │   │   │   └── Plan.md        # Level 1 complete curriculum
 │   │   └── misc/              # Additional resources
 ├── 💻 src/
@@ -48,8 +47,7 @@ pyfundamentals/
 ## 🚧 **Current Status**
 
 - **Session 1:** Ready
-- **Session 2:** In Progress
-- **Sessions 3-10:** Pending/Yet to start
+- **Sessions 2-10:** Pending/Yet to start
 
 ---
 
@@ -105,8 +103,6 @@ We welcome contributions! Whether it's:
 ## 📞 **About & Get In Touch**
 
 ### ShyvnTech & Swamy's Tech Skills Academy
-
-⭐ **Start your journey from Noob → Nerd with Session 1!** ⭐
 
 _Ready to become curious about Python? Let's begin your transformation!_ 🚀
 
