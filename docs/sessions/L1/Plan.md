@@ -14,18 +14,18 @@
 
 ## 🎯 **Level 1 Learning Path (Noob → Nerd)**
 
-| Session | Topic                                                | Duration | Type         | Status             |
-| ------- | ---------------------------------------------------- | -------- | ------------ | ------------------ |
-| 1       | Python Introduction & Environment Setup              | 30 min   | 📚 Knowledge | ✅ **Ready**       |
-| 2       | Variables & Data Types                               | 30 min   | 📚 Knowledge | 🚧 **In Progress** |
-| 3       | Operators & Expressions                              | 30 min   | 📚 Knowledge | 🔄 Coming Soon     |
-| 4       | Conditional Statements & Python Indentation Rules    | 30 min   | 📚 Knowledge | 🔄 Coming Soon     |
-| 5       | Loops & Iteration                                    | 30 min   | 📚 Knowledge | 🔄 Coming Soon     |
-| 6       | Basic Debugging, Reading Errors & Built-in Functions | 30 min   | 📚 Knowledge | 🔄 Coming Soon     |
-| 7       | Lists & Loops                                        | 30 min   | 📚 Knowledge | 🔄 Coming Soon     |
-| 8       | Dictionaries & Basic Testing                         | 30 min   | 📚 Knowledge | 🔄 Coming Soon     |
-| 9       | 🚀 Mini Project 1: Simple Calculator                 | 30 min   | 🛠️ Project   | 🔄 Coming Soon     |
-| 10      | 🚀 Mini Project 2: Personal Profile Generator        | 30 min   | 🛠️ Project   | 🔄 Coming Soon     |
+| Session | Topic                                                 | Duration | Type         | Status             |
+| ------- | ----------------------------------------------------- | -------- | ------------ | ------------------ |
+| 1       | Python Introduction, Environment & Built-in Functions | 30 min   | 📚 Knowledge | ✅ **Ready**       |
+| 2       | Variables & Data Types                                | 30 min   | 📚 Knowledge | 🚧 **In Progress** |
+| 3       | Operators & Expressions                               | 30 min   | 📚 Knowledge | 🔄 Coming Soon     |
+| 4       | Conditionals, Indentation & Introduction to Modules   | 30 min   | 📚 Knowledge | 🔄 Coming Soon     |
+| 5       | Loops & Iteration                                     | 30 min   | 📚 Knowledge | 🔄 Coming Soon     |
+| 6       | Basic Debugging, Reading Errors & Built-in Functions  | 30 min   | 📚 Knowledge | 🔄 Coming Soon     |
+| 7       | Lists & Loops                                         | 30 min   | 📚 Knowledge | 🔄 Coming Soon     |
+| 8       | Dictionaries & Basic Testing                          | 30 min   | 📚 Knowledge | 🔄 Coming Soon     |
+| 9       | 🚀 Mini Project 1: Simple Calculator                  | 30 min   | 🛠️ Project   | 🔄 Coming Soon     |
+| 10      | 🚀 Mini Project 2: Personal Profile Generator         | 30 min   | 🛠️ Project   | 🔄 Coming Soon     |
 
 ---
 
@@ -37,7 +37,7 @@
 - Installing Python 3.13+ and VS Code
 - Understanding Python execution (PVM explanation)
 - Python Interactive Shell (REPL) exploration
-- Built-in functions: `print()`, `input()`, f-strings
+- Built-in functions: `print()`, `input()`, `type()`, `help()`, f-strings
 - Your first scripts: From "Hello World" to interaction
 - Introduction to comments (covered in practice files)
 
@@ -67,15 +67,18 @@
 
 ---
 
-### 🔄 Session 4: Conditional Statements & Python Indentation Rules
+### 🔄 Session 4: Conditional Statements, Indentation & Introduction to Modules
 
 - **Python Indentation Rules**: Why Python uses indentation instead of braces
 - `if`, `elif`, `else` statements
 - Boolean logic: `and`, `or`, `not`
-- Nested conditions and clean formatting
-- Best practices for readable conditional code
+- **Built-in Functions vs Modules**: Understanding the difference and when to use each
+- **Introduction to `import`**: Bringing external functionality into your programs
+- **The `random` Module**: Generating random numbers, choices, and shuffling
+- **Module Usage Patterns**: Different ways to import (`import`, `from...import`)
+- Nested conditions and clean formatting with imported functions
 
-🧪 _Mini Practice_: Age category classifier or grading system with proper indentation.
+🧪 _Mini Practice_: Build a random decision maker or number guessing game using conditionals and the random module.
 
 ---
 
@@ -199,7 +202,7 @@ By completing Level 1, you will transition from **Noob to Nerd** and will:
 
 ### **🎯 Session-by-Session Checkpoints:**
 
-- **Session 1**: Can install Python, run scripts, use built-in functions print() and input()
+- **Session 1**: Can install Python, run scripts, use built-in functions print(), input(), type(), and help()
 - **Sessions 2-3**: Comfortable with variables, data types, and operators
 - **Sessions 4-5**: Understands conditionals, loops, and control flow
 - **Session 6**: Can read error messages, debug problems, and use built-in functions
