@@ -102,7 +102,7 @@ We welcome contributions! Whether it's:
 
 ## 📞 **About & Get In Touch**
 
-### ShyvnTech & Swamy's Tech Skills Academy
+### [ShyvnTech](https://www.linkedin.com/company/shyvntech) & [Swamy's Tech Skills Academy](https://www.linkedin.com/company/swamy-s-tech-skills-academy)
 
 _Ready to become curious about Python? Let's begin your transformation!_ 🚀
 
