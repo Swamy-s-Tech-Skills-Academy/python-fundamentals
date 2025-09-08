@@ -4,7 +4,8 @@
 
 > 1. **Level:** Noob → Nerd *(first exposure, installing Python, printing output)*
 > 1. **Format:** 2 phases × (4 sessions + 1 mini project) = 10 sessions total
-> 1. **Outcome:** 2 Mini Projects to cement your foundation
+> 1. **Outcome:** 2 Mini Projects to cement your foundation  
+> 1. **Total Duration:** ~6–7 hours (10 × 30–45 min)
 
 ## Powered by ShyvnTech & Swamy's Tech Skills Academy
 
@@ -16,16 +17,42 @@
 
 | Phase | Session | Topic                                                 | Duration  | Type         | Status         |
 | ----- | ------- | ----------------------------------------------------- | --------- | ------------ | -------------- |
-| A     | 1       | Python Introduction, Environment & Built-in Functions | 30 min    | 📚 Knowledge | ✅ Ready        |
+| A     | 1       | Python Introduction, Environment & Built-in Functions | 30 min    | 📚 Knowledge | ✅ Ready 📂     |
 | A     | 2       | Variables & Data Types                                | 30 min    | 📚 Knowledge | 🚧 In Progress |
 | A     | 3       | Operators & Expressions                               | 30 min    | 📚 Knowledge | 🔄 Coming Soon |
 | A     | 4       | Conditionals, Indentation & Introduction to Modules   | 30 min    | 📚 Knowledge | 🔄 Coming Soon |
-| A     | 🚀 MP1  | Mini Project 1: Simple Calculator                     | 30–45 min | 🛠️ Project  | 🔄 Coming Soon |
+| A     | 🚀 MP1  | Mini Project 1: Simple Calculator *(after Session 4)* | 30–45 min | 🛠️ Project  | 🔄 Coming Soon |
 | B     | 5       | Loops & Iteration                                     | 30 min    | 📚 Knowledge | 🔄 Coming Soon |
 | B     | 6       | Basic Debugging, Reading Errors & Built-in Functions  | 30 min    | 📚 Knowledge | 🔄 Coming Soon |
 | B     | 7       | Lists & Loops                                         | 30 min    | 📚 Knowledge | 🔄 Coming Soon |
 | B     | 8       | Dictionaries & Basic Testing                          | 30 min    | 📚 Knowledge | 🔄 Coming Soon |
-| B     | 🚀 MP2  | Mini Project 2: Personal Profile Generator            | 30–45 min | 🛠️ Project  | 🔄 Coming Soon |
+| B     | 🚀 MP2  | Mini Project 2: Personal Profile Generator *(after 8)*| 30–45 min | 🛠️ Project  | 🔄 Coming Soon |
+
+---
+
+## 🗺️ **Visual Roadmap**
+
+```mermaid
+flowchart LR
+    A[🎯 Noob] --> B[📚 Core Basics<br/>Sessions 1-2]
+    B --> C[🔢 Operators<br/>Session 3]
+    C --> D[🤔 Conditionals<br/>Session 4]
+    D --> E[🚀 Mini Project 1<br/>After Session 4]
+    E --> F[🔄 Loops<br/>Session 5]
+    F --> G[🐛 Debugging<br/>Session 6]
+    G --> H[📋 Lists<br/>Session 7]
+    H --> I[📚 Dicts<br/>Session 8]
+    I --> J[🚀 Mini Project 2<br/>After Session 8]
+    J --> K[🎓 Nerd]
+    
+    classDef startEnd fill:#e1f5fe,stroke:#01579b,stroke-width:3px,color:#000
+    classDef session fill:#f3e5f5,stroke:#4a148c,stroke-width:2px,color:#000
+    classDef project fill:#e8f5e8,stroke:#1b5e20,stroke-width:3px,color:#000
+    
+    class A,K startEnd
+    class B,C,D,F,G,H,I session
+    class E,J project
+```
 
 ---
 
@@ -43,7 +70,7 @@
 * Your first scripts: From "Hello World" to interaction
 * Introduction to comments
 
-🧪 *Practice Files*:
+🧪 *Practice Files*:  
 `src/L1/S1/01_hello.py`, `src/L1/S1/02_interactive_hello.py`, `src/L1/S1/bytecode_demo.py`
 
 ---
@@ -55,7 +82,8 @@
 * Dynamic typing, `type()`, `isinstance()`
 * Type conversion and casting
 
-🧪 *Mini Practice*: Store and display personal details with different data types.
+🧪 *Mini Practice*: Store and display personal details with different data types.  
+📌 *Feeds into Mini Project 1*: User input and storage are core to the calculator.
 
 ---
 
@@ -66,7 +94,8 @@
 * Assignment operators: `=`, `+=`, `-=`, etc.
 * Operator precedence and parentheses
 
-🧪 *Mini Practice*: Build a basic calculator with different operations.
+🧪 *Mini Practice*: Build a basic calculator with different operations.  
+📌 *Feeds into Mini Project 1*: Calculator logic.
 
 ---
 
@@ -79,7 +108,8 @@
 * Importing modules (`import`, `from...import`)
 * `random` module: random numbers, choices, shuffling
 
-🧪 *Mini Practice*: Build a number guessing game using conditionals + `random`.
+🧪 *Mini Practice*: Build a number guessing game using conditionals + `random`.  
+📌 *Feeds into Mini Project 1*: Conditional checks & input handling.
 
 ---
 
@@ -97,6 +127,11 @@
 
 🧪 *Deliverable*: `simple_calculator.py`
 
+🎯 *Stretch Goals*:
+
+* Add power (`**`) and square root
+* Add a memory function to store last result
+
 ---
 
 ## 📅 **Phase B: Expanding Skills + Mini Project 2**
@@ -108,7 +143,8 @@
 * Loop controls: `break`, `continue`, `pass`
 * Nested loops and performance considerations
 
-🧪 *Mini Practice*: FizzBuzz challenge, countdown timer, pattern printing.
+🧪 *Mini Practice*: FizzBuzz challenge, countdown timer, pattern printing.  
+📌 *Feeds into Mini Project 2*: Looping over profiles.
 
 ---
 
@@ -120,7 +156,8 @@
 * Debugging with `print()`
 * Built-in functions: `len()`, `max()`, `min()`, `sum()`, `type()`
 
-🧪 *Mini Practice*: Debug broken code samples.
+🧪 *Mini Practice*: Debug broken code samples.  
+📌 *Feeds into Mini Project 2*: Debugging profile input.
 
 ---
 
@@ -131,7 +168,8 @@
 * Iteration with lists
 * Practical list usage: filtering, modifying, building from user input
 
-🧪 *Mini Practice*: Task list manager with lists + loops.
+🧪 *Mini Practice*: Task list manager with lists + loops.  
+📌 *Feeds into Mini Project 2*: Storing multiple hobbies or goals.
 
 ---
 
@@ -143,7 +181,8 @@
 * Why testing matters
 * Manual testing vs using `assert`
 
-🧪 *Mini Practice*: Student gradebook with dictionaries + asserts.
+🧪 *Mini Practice*: Student gradebook with dictionaries + asserts.  
+📌 *Feeds into Mini Project 2*: User profiles as dictionaries + validation.
 
 ---
 
@@ -160,6 +199,12 @@
 * Basic input validation
 
 🧪 *Deliverable*: `profile_generator.py`
+
+🎯 *Stretch Goals*:
+
+* Export profile to JSON file
+* Allow search/filter by name
+* Add “edit profile” option
 
 ---
 
@@ -211,5 +256,3 @@ After Level 1, you’re ready to explore:
 ---
 
 ✨ Happy Coding! 🐍
-
----

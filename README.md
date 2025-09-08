@@ -60,16 +60,8 @@ python-fundamentals/
 ### **✅ Completed & Ready:**
 
 - **📚 Level 1 Documentation:** Complete curriculum plan and structure
-- **📖 Session 1:** Full content with practice files and examples
-  - Environment setup and installation guides
-  - Python introduction and core concepts
-  - Interactive shell (REPL) exploration
-  - Practice files: `01_hello.py`, `02_interactive_hello.py`, `bytecode_demo.py`
-- **🔧 Development Infrastructure:** Documentation quality automation
-  - Markdown linting with `markdownlint-cli2`
-  - Link validation with Lychee
-  - GitHub Actions CI/CD pipeline
-  - PowerShell automation scripts
+- **📖 Session 1:** Full content with practice files - [**View Session 1**](docs/sessions/L1/S1.md)
+- **🔧 Development Infrastructure:** Documentation quality automation with CI/CD pipeline
 
 ### **🚧 In Development:**
 

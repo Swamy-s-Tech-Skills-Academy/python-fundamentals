@@ -420,6 +420,11 @@ scripts/repo-structure.txt
 
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+*.bin
+*.obj
 .venv/
-.vscode/
 .env
+.DS_Store
+.vscode/
