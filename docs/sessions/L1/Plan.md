@@ -33,25 +33,36 @@
 ## 🗺️ **Visual Roadmap**
 
 ```mermaid
-flowchart LR
-    A[🎯 Noob] --> B[📚 Core Basics<br/>Sessions 1-2]
-    B --> C[🔢 Operators<br/>Session 3]
-    C --> D[🤔 Conditionals<br/>Session 4]
-    D --> E[🚀 Mini Project 1<br/>After Session 4]
-    E --> F[🔄 Loops<br/>Session 5]
-    F --> G[🐛 Debugging<br/>Session 6]
-    G --> H[📋 Lists<br/>Session 7]
-    H --> I[📚 Dicts<br/>Session 8]
-    I --> J[🚀 Mini Project 2<br/>After Session 8]
-    J --> K[🎓 Nerd]
-    
+flowchart TB
+    A[🎯 Noob] --> PhaseA
+    PhaseA --> PhaseB
+    PhaseB --> K[🎓 Nerd]
+
+    subgraph PhaseA[📘 Phase A: Core Foundations]
+        B1[📚 Session 1<br/>Intro & Environment]
+        B2[📚 Session 2<br/>Variables & Data Types]
+        B3[🔢 Session 3<br/>Operators & Expressions]
+        B4[🤔 Session 4<br/>Conditionals & Modules]
+        B5[🚀 MP1<br/>Mini Project 1: Calculator]
+        B1 --> B2 --> B3 --> B4 --> B5
+    end
+
+    subgraph PhaseB[📘 Phase B: Expanding Skills]
+        C1[🔄 Session 5<br/>Loops & Iteration]
+        C2[🐛 Session 6<br/>Debugging & Built-ins]
+        C3[📋 Session 7<br/>Lists & Loops]
+        C4[📚 Session 8<br/>Dicts & Testing]
+        C5[🚀 MP2<br/>Mini Project 2: Profile Generator]
+        C1 --> C2 --> C3 --> C4 --> C5
+    end
+
     classDef startEnd fill:#e1f5fe,stroke:#01579b,stroke-width:3px,color:#000
     classDef session fill:#f3e5f5,stroke:#4a148c,stroke-width:2px,color:#000
     classDef project fill:#e8f5e8,stroke:#1b5e20,stroke-width:3px,color:#000
-    
+
     class A,K startEnd
-    class B,C,D,F,G,H,I session
-    class E,J project
+    class B1,B2,B3,B4,C1,C2,C3,C4 session
+    class B5,C5 project
 ```
 
 ---
