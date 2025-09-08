@@ -9,21 +9,32 @@ A comprehensive, transformation-focused Python curriculum designed to take you f
 ## 📋 **Repository Structure**
 
 ```text
-pyfundamentals/
+python-fundamentals/
 ├── 📚 docs/
-│   ├── sessions/
-│   │   ├── L1/
-│   │   │   ├── S1.md          # Session 1: Python Introduction & Environment Setup
-│   │   │   └── Plan.md        # Level 1 complete curriculum
-│   │   └── misc/              # Additional resources
+│   ├── images/                 # Screenshots and educational images
+│   │   └── S1/                # Session 1 images (help screenshots, bytecode diagram)
+│   └── sessions/
+│       └── L1/                # Level 1: Noob → Nerd
+│           ├── Plan.md        # Complete Level 1 curriculum plan
+│           ├── req.md         # Level 1 requirements and structure
+│           └── S1.md          # Session 1: Python Introduction & Environment Setup
 ├── 💻 src/
 │   └── L1/
 │       └── S1/                # Session 1 practice files
 │           ├── 01_hello.py
 │           ├── 02_interactive_hello.py
 │           └── bytecode_demo.py
-├── 📄 README.md               # This file
-└── 📄 LICENSE                 # MIT License
+├── 🔧 scripts/               # Development and utility scripts
+│   ├── docs-lint.ps1         # Markdown linting script
+│   ├── docs-links.ps1        # Link validation script
+│   └── show-tree.ps1         # Repository structure generator
+├── ⚙️ .github/
+│   ├── workflows/
+│   │   └── docs-quality.yml  # CI/CD for documentation quality
+│   └── copilot-instructions.md
+├── 📄 README.md              # This file
+├── 📄 LICENSE                # MIT License
+└── 📋 Configuration files    # .markdownlint*, lychee.toml, .gitignore
 ```
 
 ---
@@ -142,6 +153,12 @@ CI runs automatically on PRs and pushes that modify documentation, but you can a
 3. View markdownlint + Lychee results; download the `lychee-report` artifact for details
 
 Reason: Manual trigger accelerates iteration when adjusting large batches of links or performing structural renumbering.
+
+## Finding Folder Structure
+
+```powershell
+.\show-tree.ps1 -Path "../" -Depth 6 -OutFile "repo-structure.txt"
+```
 
 ---
 
