@@ -5,7 +5,12 @@
 # Using forward slashes works on Windows too.
 
 ignores:
-  - "04_LegacyContent/_Backup/**"
   - "**/node_modules/**"
   - "**/.venv/**"
   - "**/.vscode/**"
+  - "**/*.png"
+  - "**/*.PNG"
+  - "**/*.jpg"
+  - "**/*.jpeg"
+  - "**/*.gif"
+  - "**/*.svg"

@@ -6,13 +6,7 @@ on:
   pull_request:
     paths:
       - "README.md"
-      - "01_LeadArchitectKnowledgeBase/**/*.md"
-      - "02_LearningJourney/**/*.md"
-      - "03_ReferenceLibrary/**/*.md"
-      - "04_LegacyContent/**/*.md"
-      # Include placeholder keep files so adding/removing them triggers quality gate
-      - "04_LegacyContent/**/.keep"
-      - "05_Todos/**/*.md"
+      - "docs/**/*.md"
       - ".github/**/*.md"
       - "lychee.toml"
       - ".markdownlint.*"
@@ -21,12 +15,7 @@ on:
     branches: [main]
     paths:
       - "README.md"
-      - "01_LeadArchitectKnowledgeBase/**/*.md"
-      - "02_LearningJourney/**/*.md"
-      - "03_ReferenceLibrary/**/*.md"
-      - "04_LegacyContent/**/*.md"
-      - "04_LegacyContent/**/.keep"
-      - "05_Todos/**/*.md"
+      - "docs/**/*.md"
       - ".github/**/*.md"
       - "lychee.toml"
       - ".markdownlint.*"
@@ -50,11 +39,7 @@ jobs:
         with:
           globs: |
             README.md
-            01_LeadArchitectKnowledgeBase/**/*.md
-            02_LearningJourney/**/*.md
-            03_ReferenceLibrary/**/*.md
-            04_LegacyContent/**/*.md
-            05_Todos/**/*.md
+            docs/**/*.md
             .github/**/*.md
 
   link-check:
@@ -72,11 +57,7 @@ jobs:
           args: >-
             --config lychee.toml --no-progress
             README.md
-            01_LeadArchitectKnowledgeBase/**/*.md
-            02_LearningJourney/**/*.md
-            03_ReferenceLibrary/**/*.md
-            04_LegacyContent/**/*.md
-            05_Todos/**/*.md
+            docs/**/*.md
             .github/**/*.md
           fail: true
       - name: Upload Lychee report
