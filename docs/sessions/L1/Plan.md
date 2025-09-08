@@ -2,8 +2,8 @@
 
 **From clueless to curious: Your first exposure to Python programming**
 
-**Level:** Noob → Nerd _(first exposure, installing Python, printing output)_  
-**Format:** 10 sessions × 30 minutes = 5 hours total learning  
+**Level:** Noob → Nerd *(first exposure, installing Python, printing output)*
+**Format:** 2 phases × (4 sessions + 1 mini project) = 10 sessions total
 **Outcome:** 2 Mini Projects to cement your foundation
 
 ## Powered by ShyvnTech & Swamy's Tech Skills Academy
@@ -14,18 +14,18 @@
 
 ## 🎯 **Level 1 Learning Path (Noob → Nerd)**
 
-| Session | Topic                                                 | Duration | Type         | Status             |
-| ------- | ----------------------------------------------------- | -------- | ------------ | ------------------ |
-| 1       | Python Introduction, Environment & Built-in Functions | 30 min   | 📚 Knowledge | ✅ **Ready**       |
-| 2       | Variables & Data Types                                | 30 min   | 📚 Knowledge | 🚧 **In Progress** |
-| 3       | Operators & Expressions                               | 30 min   | 📚 Knowledge | 🔄 Coming Soon     |
-| 4       | Conditionals, Indentation & Introduction to Modules   | 30 min   | 📚 Knowledge | 🔄 Coming Soon     |
-| 5       | Loops & Iteration                                     | 30 min   | 📚 Knowledge | 🔄 Coming Soon     |
-| 6       | Basic Debugging, Reading Errors & Built-in Functions  | 30 min   | 📚 Knowledge | 🔄 Coming Soon     |
-| 7       | Lists & Loops                                         | 30 min   | 📚 Knowledge | 🔄 Coming Soon     |
-| 8       | Dictionaries & Basic Testing                          | 30 min   | 📚 Knowledge | 🔄 Coming Soon     |
-| 9       | 🚀 Mini Project 1: Simple Calculator                  | 30 min   | 🛠️ Project   | 🔄 Coming Soon     |
-| 10      | 🚀 Mini Project 2: Personal Profile Generator         | 30 min   | 🛠️ Project   | 🔄 Coming Soon     |
+| Phase | Session | Topic                                                 | Duration  | Type         | Status         |
+| ----- | ------- | ----------------------------------------------------- | --------- | ------------ | -------------- |
+| A     | 1       | Python Introduction, Environment & Built-in Functions | 30 min    | 📚 Knowledge | ✅ Ready        |
+| A     | 2       | Variables & Data Types                                | 30 min    | 📚 Knowledge | 🚧 In Progress |
+| A     | 3       | Operators & Expressions                               | 30 min    | 📚 Knowledge | 🔄 Coming Soon |
+| A     | 4       | Conditionals, Indentation & Introduction to Modules   | 30 min    | 📚 Knowledge | 🔄 Coming Soon |
+| A     | 🚀 MP1  | Mini Project 1: Simple Calculator                     | 30–45 min | 🛠️ Project  | 🔄 Coming Soon |
+| B     | 5       | Loops & Iteration                                     | 30 min    | 📚 Knowledge | 🔄 Coming Soon |
+| B     | 6       | Basic Debugging, Reading Errors & Built-in Functions  | 30 min    | 📚 Knowledge | 🔄 Coming Soon |
+| B     | 7       | Lists & Loops                                         | 30 min    | 📚 Knowledge | 🔄 Coming Soon |
+| B     | 8       | Dictionaries & Basic Testing                          | 30 min    | 📚 Knowledge | 🔄 Coming Soon |
+| B     | 🚀 MP2  | Mini Project 2: Personal Profile Generator            | 30–45 min | 🛠️ Project  | 🔄 Coming Soon |
 
 ---
 
@@ -41,7 +41,7 @@
 - Your first scripts: From "Hello World" to interaction
 - Introduction to comments (covered in practice files)
 
-🧪 _Practice Files_: `src/L1/S1/01_hello.py`, `src/L1/S1/02_interactive_hello.py`, `src/L1/S1/bytecode_demo.py`
+🧪 *Practice Files*: `src/L1/S1/01_hello.py`, `src/L1/S1/02_interactive_hello.py`, `src/L1/S1/bytecode_demo.py`
 
 ---
 
@@ -52,7 +52,7 @@
 - Dynamic typing, `type()`, `isinstance()`
 - Type conversion and casting
 
-🧪 _Mini Practice_: Store and display personal details with different data types.
+🧪 *Mini Practice*: Store and display personal details with different data types.
 
 ---
 
@@ -63,7 +63,7 @@
 - Assignment operators: `=`, `+=`, `-=`, etc.
 - Operator precedence and parentheses
 
-🧪 _Mini Practice_: Build a basic calculator with different operations.
+🧪 *Mini Practice*: Build a basic calculator with different operations.
 
 ---
 
@@ -78,7 +78,7 @@
 - **Module Usage Patterns**: Different ways to import (`import`, `from...import`)
 - Nested conditions and clean formatting with imported functions
 
-🧪 _Mini Practice_: Build a random decision maker or number guessing game using conditionals and the random module.
+🧪 *Mini Practice*: Build a random decision maker or number guessing game using conditionals and the random module.
 
 ---
 
@@ -89,7 +89,7 @@
 - Loop controls: `break`, `continue`, `pass`
 - Nested loops and performance considerations
 
-🧪 _Mini Practice_: FizzBuzz challenge, countdown timer, pattern printing.
+🧪 *Mini Practice*: FizzBuzz challenge, countdown timer, pattern printing.
 
 ---
 
@@ -102,7 +102,7 @@
 - **Built-in Functions**: `len()`, `max()`, `min()`, `sum()`, `type()`
 - **Using Built-ins for Debugging**: Checking lengths, types, values
 
-🧪 _Mini Practice_: Debug broken code samples, use built-in functions to inspect data.
+🧪 *Mini Practice*: Debug broken code samples, use built-in functions to inspect data.
 
 ---
 
@@ -115,7 +115,7 @@
 - **Practical List Operations**: Filtering, searching, and modifying lists
 - **Lists and User Input**: Building lists from user interactions
 
-🧪 _Mini Practice_: Create a task list manager using lists and loops.
+🧪 *Mini Practice*: Create a task list manager using lists and loops.
 
 ---
 
@@ -129,7 +129,7 @@
 - **Introduction to `assert`**: Simple checks like `assert 2 + 2 == 4`
 - **Testing Data Structures**: Using assert to verify list and dictionary operations
 
-🧪 _Mini Practice_: Create a student gradebook using dictionaries with built-in testing.
+🧪 *Mini Practice*: Create a student gradebook using dictionaries with built-in testing.
 
 ---
 
@@ -153,7 +153,7 @@
 - User input validation and debugging
 - Problem-solving with basic programming constructs
 
-🧪 _Deliverable_: Working calculator saved as `simple_calculator.py`
+🧪 *Deliverable*: Working calculator saved as `simple_calculator.py`
 
 ---
 
@@ -177,7 +177,7 @@
 - User interaction and input validation
 - Built-in functions for data manipulation
 
-🧪 _Deliverable_: Profile generator saved as `profile_generator.py`
+🧪 *Deliverable*: Profile generator saved as `profile_generator.py`
 
 ---
 
