@@ -106,9 +106,9 @@ Shortcut on Windows (PowerShell):
 
 ```powershell
 # Lint
-./tools/docs-lint.ps1
+./scripts/docs-lint.ps1
 # Or auto-fix where possible
-./tools/docs-lint.ps1 -Fix
+./scripts/docs-lint.ps1 -Fix
 ```
 
 ### Link check (Lychee)
@@ -127,10 +127,10 @@ Shortcut on Windows (PowerShell):
 
 ```powershell
 # Extract links only
-./tools/docs-links.ps1 -DumpOnly
+./scripts/docs-links.ps1 -DumpOnly
 
 # Validate links (recommended)
-./tools/docs-links.ps1
+./scripts/docs-links.ps1
 ```
 
 ### Manual Docs Quality Workflow
