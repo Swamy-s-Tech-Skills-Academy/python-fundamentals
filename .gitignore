@@ -416,3 +416,15 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+scripts/repo-structure.txt
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.bin
+*.obj
+.venv/
+.env
+.DS_Store
+.vscode/

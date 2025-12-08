@@ -1,6 +1,6 @@
 # Filename: src/L1/S1/01_hello.py
 
-print("Hello, World!")
+print('Hello, World!')
 print("Welcome to Python Fundamentals!")
 print("This is Session 1")
 

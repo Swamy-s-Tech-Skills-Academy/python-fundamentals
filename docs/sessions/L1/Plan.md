@@ -1,10 +1,11 @@
 # 🐍 Level 1: Noob → Nerd - Python Fundamentals
 
-**From clueless to curious: Your first exposure to Python programming**
+## From clueless to curious: Your first exposure to Python programming
 
-**Level:** Noob → Nerd _(first exposure, installing Python, printing output)_  
-**Format:** 10 sessions × 30 minutes = 5 hours total learning  
-**Outcome:** 2 Mini Projects to cement your foundation
+> 1. **Level:** Noob → Nerd *(first exposure, installing Python, printing output)*
+> 1. **Format:** 2 phases × (4 sessions + 1 mini project) = 10 sessions total
+> 1. **Outcome:** 2 Mini Projects to cement your foundation  
+> 1. **Total Duration:** ~6–7 hours (10 × 30–45 min)
 
 ## Powered by ShyvnTech & Swamy's Tech Skills Academy
 
@@ -14,259 +15,255 @@
 
 ## 🎯 **Level 1 Learning Path (Noob → Nerd)**
 
-| Session | Topic                                                 | Duration | Type         | Status             |
-| ------- | ----------------------------------------------------- | -------- | ------------ | ------------------ |
-| 1       | Python Introduction, Environment & Built-in Functions | 30 min   | 📚 Knowledge | ✅ **Ready**       |
-| 2       | Variables & Data Types                                | 30 min   | 📚 Knowledge | 🚧 **In Progress** |
-| 3       | Operators & Expressions                               | 30 min   | 📚 Knowledge | 🔄 Coming Soon     |
-| 4       | Conditionals, Indentation & Introduction to Modules   | 30 min   | 📚 Knowledge | 🔄 Coming Soon     |
-| 5       | Loops & Iteration                                     | 30 min   | 📚 Knowledge | 🔄 Coming Soon     |
-| 6       | Basic Debugging, Reading Errors & Built-in Functions  | 30 min   | 📚 Knowledge | 🔄 Coming Soon     |
-| 7       | Lists & Loops                                         | 30 min   | 📚 Knowledge | 🔄 Coming Soon     |
-| 8       | Dictionaries & Basic Testing                          | 30 min   | 📚 Knowledge | 🔄 Coming Soon     |
-| 9       | 🚀 Mini Project 1: Simple Calculator                  | 30 min   | 🛠️ Project   | 🔄 Coming Soon     |
-| 10      | 🚀 Mini Project 2: Personal Profile Generator         | 30 min   | 🛠️ Project   | 🔄 Coming Soon     |
+| Phase | Session | Topic                                                 | Duration  | Type         | Status         |
+| ----- | ------- | ----------------------------------------------------- | --------- | ------------ | -------------- |
+| A     | 1       | Python Introduction, Environment & Built-in Functions | 30 min    | 📚 Knowledge | ✅ Ready 📂     |
+| A     | 2       | Variables & Data Types                                | 30 min    | 📚 Knowledge | 🚧 In Progress |
+| A     | 3       | Operators & Expressions                               | 30 min    | 📚 Knowledge | 🔄 Coming Soon |
+| A     | 4       | Conditionals, Indentation & Introduction to Modules   | 30 min    | 📚 Knowledge | 🔄 Coming Soon |
+| A     | 🚀 MP1  | Mini Project 1: Simple Calculator *(after Session 4)* | 30–45 min | 🛠️ Project  | 🔄 Coming Soon |
+| B     | 5       | Loops & Iteration                                     | 30 min    | 📚 Knowledge | 🔄 Coming Soon |
+| B     | 6       | Basic Debugging, Reading Errors & Built-in Functions  | 30 min    | 📚 Knowledge | 🔄 Coming Soon |
+| B     | 7       | Lists & Loops                                         | 30 min    | 📚 Knowledge | 🔄 Coming Soon |
+| B     | 8       | Dictionaries & Basic Testing                          | 30 min    | 📚 Knowledge | 🔄 Coming Soon |
+| B     | 🚀 MP2  | Mini Project 2: Personal Profile Generator *(after 8)*| 30–45 min | 🛠️ Project  | 🔄 Coming Soon |
+
+---
+
+## 🗺️ **Visual Roadmap**
+
+```mermaid
+flowchart TB
+    A[🎯 Noob] --> PhaseA
+    PhaseA --> PhaseB
+    PhaseB --> K[🎓 Nerd]
+
+    subgraph PhaseA[📘 Phase A: Core Foundations]
+        B1[📚 Session 1<br/>Intro & Environment]
+        B2[📚 Session 2<br/>Variables & Data Types]
+        B3[🔢 Session 3<br/>Operators & Expressions]
+        B4[🤔 Session 4<br/>Conditionals & Modules]
+        B5[🚀 MP1<br/>Mini Project 1: Calculator]
+        B1 --> B2 --> B3 --> B4 --> B5
+    end
+
+    subgraph PhaseB[📘 Phase B: Expanding Skills]
+        C1[🔄 Session 5<br/>Loops & Iteration]
+        C2[🐛 Session 6<br/>Debugging & Built-ins]
+        C3[📋 Session 7<br/>Lists & Loops]
+        C4[📚 Session 8<br/>Dicts & Testing]
+        C5[🚀 MP2<br/>Mini Project 2: Profile Generator]
+        C1 --> C2 --> C3 --> C4 --> C5
+    end
+
+    classDef startEnd fill:#e1f5fe,stroke:#01579b,stroke-width:3px,color:#000
+    classDef session fill:#f3e5f5,stroke:#4a148c,stroke-width:2px,color:#000
+    classDef project fill:#e8f5e8,stroke:#1b5e20,stroke-width:3px,color:#000
+
+    class A,K startEnd
+    class B1,B2,B3,B4,C1,C2,C3,C4 session
+    class B5,C5 project
+```
 
 ---
 
 ## 📅 **Session-by-Session Breakdown**
 
+## 📅 **Phase A: Core Foundations + Mini Project 1**
+
 ### ✅ Session 1: Python Introduction & Environment Setup
 
-- What is Python? History, usage, job market
-- Installing Python 3.13+ and VS Code
-- Understanding Python execution (PVM explanation)
-- Python Interactive Shell (REPL) exploration
-- Built-in functions: `print()`, `input()`, `type()`, `help()`, f-strings
-- Your first scripts: From "Hello World" to interaction
-- Introduction to comments (covered in practice files)
+* What is Python? History, usage, job market
+* Installing Python 3.13+ and VS Code
+* Understanding Python execution (PVM explanation)
+* Python Interactive Shell (REPL) exploration
+* Built-in functions: `print()`, `input()`, `type()`, `help()`, f-strings
+* Your first scripts: From "Hello World" to interaction
+* Introduction to comments
 
-🧪 _Practice Files_: `src/L1/S1/01_hello.py`, `src/L1/S1/02_interactive_hello.py`, `src/L1/S1/bytecode_demo.py`
+🧪 *Practice Files*:  
+`src/L1/S1/01_hello.py`, `src/L1/S1/02_interactive_hello.py`, `src/L1/S1/bytecode_demo.py`
 
 ---
 
 ### 🔄 Session 2: Variables & Data Types
 
-- Variable naming conventions and assignment
-- Data types: `int`, `float`, `str`, `bool`
-- Dynamic typing, `type()`, `isinstance()`
-- Type conversion and casting
+* Variable naming conventions and assignment
+* Data types: `int`, `float`, `str`, `bool`
+* Dynamic typing, `type()`, `isinstance()`
+* Type conversion and casting
 
-🧪 _Mini Practice_: Store and display personal details with different data types.
+🧪 *Mini Practice*: Store and display personal details with different data types.  
+📌 *Feeds into Mini Project 1*: User input and storage are core to the calculator.
 
 ---
 
 ### 🔄 Session 3: Operators & Expressions
 
-- Arithmetic operators: `+`, `-`, `*`, `/`, `//`, `%`, `**`
-- Comparison operators: `==`, `!=`, `<`, `>`, `<=`, `>=`
-- Assignment operators: `=`, `+=`, `-=`, etc.
-- Operator precedence and parentheses
+* Arithmetic operators: `+`, `-`, `*`, `/`, `//`, `%`, `**`
+* Comparison operators: `==`, `!=`, `<`, `>`, `<=`, `>=`
+* Assignment operators: `=`, `+=`, `-=`, etc.
+* Operator precedence and parentheses
 
-🧪 _Mini Practice_: Build a basic calculator with different operations.
+🧪 *Mini Practice*: Build a basic calculator with different operations.  
+📌 *Feeds into Mini Project 1*: Calculator logic.
+
+---
+
+### 🔄 Session 4: Conditional Statements, Indentation & Modules
+
+* Python indentation rules (why no braces)
+* `if`, `elif`, `else` statements
+* Boolean logic: `and`, `or`, `not`
+* Built-in functions vs modules
+* Importing modules (`import`, `from...import`)
+* `random` module: random numbers, choices, shuffling
+
+🧪 *Mini Practice*: Build a number guessing game using conditionals + `random`.  
+📌 *Feeds into Mini Project 1*: Conditional checks & input handling.
 
 ---
 
-### 🔄 Session 4: Conditional Statements, Indentation & Introduction to Modules
+### 🚀 Mini Project 1: Simple Calculator
 
-- **Python Indentation Rules**: Why Python uses indentation instead of braces
-- `if`, `elif`, `else` statements
-- Boolean logic: `and`, `or`, `not`
-- **Built-in Functions vs Modules**: Understanding the difference and when to use each
-- **Introduction to `import`**: Bringing external functionality into your programs
-- **The `random` Module**: Generating random numbers, choices, and shuffling
-- **Module Usage Patterns**: Different ways to import (`import`, `from...import`)
-- Nested conditions and clean formatting with imported functions
+**Goal:** Build a command-line calculator for basic arithmetic.
 
-🧪 _Mini Practice_: Build a random decision maker or number guessing game using conditionals and the random module.
+**Features:**
+
+* Addition, subtraction, multiplication, division
+* User-friendly input handling
+* Input validation
+* Runs until user quits
+* Clean, structured code
+
+🧪 *Deliverable*: `simple_calculator.py`
+
+🎯 *Stretch Goals*:
+
+* Add power (`**`) and square root
+* Add a memory function to store last result
 
 ---
+
+## 📅 **Phase B: Expanding Skills + Mini Project 2**
 
 ### 🔄 Session 5: Loops & Iteration
 
-- `for` loops with `range()` and iterables
-- `while` loops and loop conditions
-- Loop controls: `break`, `continue`, `pass`
-- Nested loops and performance considerations
+* `for` loops with `range()` and iterables
+* `while` loops and loop conditions
+* Loop controls: `break`, `continue`, `pass`
+* Nested loops and performance considerations
 
-🧪 _Mini Practice_: FizzBuzz challenge, countdown timer, pattern printing.
+🧪 *Mini Practice*: FizzBuzz challenge, countdown timer, pattern printing.  
+📌 *Feeds into Mini Project 2*: Looping over profiles.
 
 ---
 
-### 🔄 Session 6: Basic Debugging, Reading Errors & Built-in Functions
+### 🔄 Session 6: Basic Debugging & Built-in Functions
 
-- **Understanding Error Types**: What syntax errors vs runtime errors mean
-- **Reading Error Messages**: How to interpret Python's error output
-- **Common Beginner Mistakes**: Indentation, typos, missing colons
-- **Built-in Function Debugging**: Using print() to see what your code is doing
-- **Built-in Functions**: `len()`, `max()`, `min()`, `sum()`, `type()`
-- **Using Built-ins for Debugging**: Checking lengths, types, values
+* Error types: syntax vs runtime
+* Reading error messages
+* Common beginner mistakes
+* Debugging with `print()`
+* Built-in functions: `len()`, `max()`, `min()`, `sum()`, `type()`
 
-🧪 _Mini Practice_: Debug broken code samples, use built-in functions to inspect data.
+🧪 *Mini Practice*: Debug broken code samples.  
+📌 *Feeds into Mini Project 2*: Debugging profile input.
 
 ---
 
 ### 🔄 Session 7: Lists & Loops
 
-- **Lists Fundamentals**: Creation, indexing, slicing, basic methods
-- **List Operations**: `append()`, `remove()`, `len()`, accessing elements
-- **Loops with Lists**: Using `for` loops to iterate through lists
-- **Range and Iteration**: `range()` function and list processing
-- **Practical List Operations**: Filtering, searching, and modifying lists
-- **Lists and User Input**: Building lists from user interactions
+* List creation, indexing, slicing, basic methods
+* Operations: `append()`, `remove()`, `len()`, accessing elements
+* Iteration with lists
+* Practical list usage: filtering, modifying, building from user input
 
-🧪 _Mini Practice_: Create a task list manager using lists and loops.
+🧪 *Mini Practice*: Task list manager with lists + loops.  
+📌 *Feeds into Mini Project 2*: Storing multiple hobbies or goals.
 
 ---
 
 ### 🔄 Session 8: Dictionaries & Basic Testing
 
-- **Dictionaries**: Key-value pairs, creation, access, update, deletion
-- **Dictionary Methods**: `.keys()`, `.values()`, `.items()`, `.get()`
-- **Loops with Dictionaries**: Iterating through keys, values, and items
-- **Why Testing Matters**: Understanding why we check if our code works
-- **Manual Testing**: "Does my code do what I expect?"
-- **Introduction to `assert`**: Simple checks like `assert 2 + 2 == 4`
-- **Testing Data Structures**: Using assert to verify list and dictionary operations
+* Dictionaries: creation, update, deletion
+* Methods: `.keys()`, `.values()`, `.items()`, `.get()`
+* Iterating over dictionaries
+* Why testing matters
+* Manual testing vs using `assert`
 
-🧪 _Mini Practice_: Create a student gradebook using dictionaries with built-in testing.
-
----
-
-### 🔄 Session 9: 🚀 Mini Project 1 - Simple Calculator
-
-**Project Goal**: Build a command-line calculator that performs basic arithmetic operations.
-
-**Features to Implement**:
-
-- Basic operations: addition, subtraction, multiplication, division
-- User-friendly input handling and menu system
-- Input validation for invalid entries
-- Continuous operation until user chooses to quit
-- Clean, well-organized code with clear structure
-
-**Skills Applied**:
-
-- Variables, operators, and conditionals
-- Loops for continuous operation
-- Built-in functions for calculations and validation
-- User input validation and debugging
-- Problem-solving with basic programming constructs
-
-🧪 _Deliverable_: Working calculator saved as `simple_calculator.py`
+🧪 *Mini Practice*: Student gradebook with dictionaries + asserts.  
+📌 *Feeds into Mini Project 2*: User profiles as dictionaries + validation.
 
 ---
 
-### 🔄 Session 10: 🚀 Mini Project 2 - Personal Profile Generator
+### 🚀 Mini Project 2: Personal Profile Generator
 
-**Project Goal**: Create an interactive profile generator and display system.
+**Goal:** Create an interactive profile generator and display system.
 
-**Features to Implement**:
+**Features:**
 
-- Collect user information (name, age, hobbies, goals)
-- Store data in appropriate data structures (dictionaries and lists)
-- Display formatted profile with styling
-- Option to create multiple profiles
-- Simple data validation and error handling
+* Collect user info (name, age, hobbies, goals)
+* Store in dictionaries + lists
+* Display formatted profile
+* Handle multiple profiles
+* Basic input validation
 
-**Skills Applied**:
+🧪 *Deliverable*: `profile_generator.py`
 
-- Data types, lists, and dictionaries
-- Loops for data collection and processing
-- String formatting and display
-- User interaction and input validation
-- Built-in functions for data manipulation
+🎯 *Stretch Goals*:
 
-🧪 _Deliverable_: Profile generator saved as `profile_generator.py`
+* Export profile to JSON file
+* Allow search/filter by name
+* Add “edit profile” option
 
 ---
 
-## 🎓 **Level 1 Learning Outcomes (Noob → Nerd)**
+## 🎓 **Level 1 Learning Outcomes**
 
-By completing Level 1, you will transition from **Noob to Nerd** and will:
+By completing Level 1, you will:
 
-- ✅ **Set up** Python development environment confidently
-- ✅ **Write and run** your first Python scripts using proper syntax
-- ✅ **Understand** Python's execution model and what happens behind the scenes
-- ✅ **Use** built-in functions: comments, print(), and input() for basic interaction
-- ✅ **Work with** variables, data types, and basic operators
-- ✅ **Control program flow** with conditions and loops using proper indentation
-- ✅ **Debug code** by reading error messages and using print statements
-- ✅ **Store and manipulate data** using lists and dictionaries
-- ✅ **Use built-in functions** effectively for common tasks
-- ✅ **Apply basic testing** to check if code works correctly
-- ✅ **Complete** 2 mini projects that showcase foundational skills
-- ✅ **Feel confident** moving to Level 2: Nerd → Novice
+* ✅ Set up Python environment confidently
+* ✅ Write & run first Python scripts
+* ✅ Use built-in functions effectively
+* ✅ Work with variables, operators, and conditionals
+* ✅ Control program flow with loops
+* ✅ Debug errors using messages and print statements
+* ✅ Store/manipulate data using lists & dictionaries
+* ✅ Apply basic testing with asserts
+* ✅ Complete 2 mini projects showing your skills
+* ✅ Be ready for **Level 2: Nerd → Novice**
+
+---
 
 ## 📊 **Assessment Criteria**
 
-### **🎯 Session-by-Session Checkpoints:**
+* **Phase A**: Can install Python, work with variables, operators, and conditionals → Complete Calculator Project
+* **Phase B**: Can debug, work with loops, lists, and dictionaries → Complete Profile Generator Project
 
-- **Session 1**: Can install Python, run scripts, use built-in functions print(), input(), type(), and help()
-- **Sessions 2-3**: Comfortable with variables, data types, and operators
-- **Sessions 4-5**: Understands conditionals, loops, and control flow
-- **Session 6**: Can read error messages, debug problems, and use built-in functions
-- **Session 7**: Works with lists and loops effectively
-- **Session 8**: Uses dictionaries and applies basic testing to check if code works
-- **Sessions 9-10**: Successfully completes both mini projects
+**Mini Project Success Indicators:**
 
-### **🚀 Mini Project Success Indicators:**
-
-**Simple Calculator Project (Session 9):**
-
-- ✅ Handles all four basic operations correctly
-- ✅ Includes input validation for invalid entries
-- ✅ Runs continuously until user chooses to quit
-- ✅ Code is clean, well-documented, and properly organized
-- ✅ Uses loops and built-in functions to organize functionality
-
-**Personal Profile Generator Project (Session 10):**
-
-- ✅ Collects and stores user information using dictionaries
-- ✅ Handles multiple data types (strings, numbers, lists)
-- ✅ Displays formatted output with good styling
-- ✅ Includes basic input validation
-- ✅ Code demonstrates understanding of data structures
-
-### **🧠 Transformation Indicators:**
-
-You've successfully transformed from **Noob → Nerd** when you:
-
-- No longer feel intimidated by Python code
-- Can read and understand basic Python scripts
-- Feel curious about what else Python can do
-- Want to learn more programming concepts
-- Can explain basic Python concepts to others
-- Completed both mini projects with confidence
+* Calculator works with all four operations, validates input, runs continuously.
+* Profile generator collects + displays user data, supports multiple profiles, validates inputs.
 
 ---
 
 ## 🎓 **Next Steps & Resources**
 
-### 🚀 **After Completing Level 1**
+After Level 1, you’re ready to explore:
 
-**What's Next?**
+* Functions & modular programming
+* File handling
+* Error handling (exceptions)
+* Advanced data structures
 
-After mastering Level 1 fundamentals, you'll be ready to explore more advanced Python concepts. While we're still designing the curriculum for future levels, here are some areas you might encounter:
+**Tools Recommended:**
 
-- 🏗️ **Level 2: Nerd → Novice** - Building on your foundation with more advanced concepts
-
-> **Note**: Future curriculum is under development. Some concepts may be introduced earlier than initially planned, and the exact progression will be refined based on student needs and feedback.
-
-### 🛠️ **Recommended Development Environment**
-
-**Essential Setup:**
-
-- **Python 3.13+** (Latest stable version recommended)
-- **VS Code** with Python extension
-- **Git** for version control
-
-**Optional but Helpful:**
-
-- **Jupyter Notebook** for interactive coding
-- **PyCharm Community Edition** as alternative IDE
-- **Replit** for online coding practice
+* Python 3.13+
+* VS Code with Python extension
+* Git for version control
+* (Optional) Jupyter Notebook, PyCharm, Replit
 
 ---
 
-Happy Coding! 🐍✨
+✨ Happy Coding! 🐍
