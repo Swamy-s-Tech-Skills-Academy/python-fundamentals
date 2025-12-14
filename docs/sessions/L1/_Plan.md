@@ -1,3 +1,91 @@
+---
+learning_level: "Noob → Nerd"
+level_number: 1
+prerequisites: []
+total_duration: "~6–7 hours"
+format: "2 phases × (4 sessions + 1 mini project) = 10 sessions total"
+outcome: "2 Mini Projects to cement your foundation"
+transformation_focus: "Evolving mindset from complete beginner to someone genuinely curious about programming"
+learning_objectives:
+  - "Set up Python environment confidently"
+  - "Write & run first Python scripts"
+  - "Use built-in functions effectively"
+  - "Work with variables, operators, and conditionals"
+  - "Control program flow with loops"
+  - "Debug errors using messages and print statements"
+  - "Store/manipulate data using lists & dictionaries"
+  - "Apply basic testing with asserts"
+  - "Complete 2 mini projects showing your skills"
+  - "Be ready for Level 2: Nerd → Novice"
+related_topics:
+  prerequisites: []
+  builds_upon: []
+  enables:
+    - "docs/sessions/L2/Plan.md"
+  cross_refs: []
+sessions:
+  - session: 1
+    topic: "Python Introduction, Environment & Built-in Functions"
+    duration: "30 min"
+    type: "Knowledge"
+    status: "Ready"
+    file: "docs/sessions/L1/01_S1.md"
+  - session: 2
+    topic: "Variables & Data Types"
+    duration: "30 min"
+    type: "Knowledge"
+    status: "Ready"
+    file: "docs/sessions/L1/02_S2.md"
+  - session: 3
+    topic: "Operators & Expressions"
+    duration: "30 min"
+    type: "Knowledge"
+    status: "Ready"
+    file: "docs/sessions/L1/03_S3.md"
+  - session: 4
+    topic: "Conditionals, Indentation & Introduction to Modules"
+    duration: "30 min"
+    type: "Knowledge"
+    status: "Ready"
+    file: "docs/sessions/L1/04_S4.md"
+  - session: "MP1"
+    topic: "Mini Project 1: Simple Calculator"
+    duration: "30–45 min"
+    type: "Project"
+    status: "Ready"
+    file: "docs/sessions/L1/05_MP1.md"
+  - session: 5
+    topic: "Loops & Iteration"
+    duration: "30 min"
+    type: "Knowledge"
+    status: "Ready"
+    file: "docs/sessions/L1/06_S5.md"
+  - session: 6
+    topic: "Basic Debugging, Reading Errors & Built-in Functions"
+    duration: "30 min"
+    type: "Knowledge"
+    status: "Ready"
+    file: "docs/sessions/L1/07_S6.md"
+  - session: 7
+    topic: "Lists & Loops"
+    duration: "30 min"
+    type: "Knowledge"
+    status: "Ready"
+    file: "docs/sessions/L1/08_S7.md"
+  - session: 8
+    topic: "Dictionaries & Basic Testing"
+    duration: "30 min"
+    type: "Knowledge"
+    status: "Ready"
+    file: "docs/sessions/L1/09_S8.md"
+  - session: "MP2"
+    topic: "Mini Project 2: Personal Profile Generator"
+    duration: "30–45 min"
+    type: "Project"
+    status: "Ready"
+    file: "docs/sessions/L1/10_MP2.md"
+---
+
 # 🐍 Level 1: Noob → Nerd - Python Fundamentals
 
 ## From clueless to curious: Your first exposure to Python programming
@@ -18,15 +106,15 @@
 | Phase | Session | Topic                                                 | Duration  | Type         | Status         |
 | ----- | ------- | ----------------------------------------------------- | --------- | ------------ | -------------- |
 | A     | 1       | Python Introduction, Environment & Built-in Functions | 30 min    | 📚 Knowledge | ✅ Ready 📂     |
-| A     | 2       | Variables & Data Types                                | 30 min    | 📚 Knowledge | 🚧 In Progress |
-| A     | 3       | Operators & Expressions                               | 30 min    | 📚 Knowledge | 🔄 Coming Soon |
-| A     | 4       | Conditionals, Indentation & Introduction to Modules   | 30 min    | 📚 Knowledge | 🔄 Coming Soon |
-| A     | 🚀 MP1  | Mini Project 1: Simple Calculator *(after Session 4)* | 30–45 min | 🛠️ Project  | 🔄 Coming Soon |
-| B     | 5       | Loops & Iteration                                     | 30 min    | 📚 Knowledge | 🔄 Coming Soon |
-| B     | 6       | Basic Debugging, Reading Errors & Built-in Functions  | 30 min    | 📚 Knowledge | 🔄 Coming Soon |
-| B     | 7       | Lists & Loops                                         | 30 min    | 📚 Knowledge | 🔄 Coming Soon |
-| B     | 8       | Dictionaries & Basic Testing                          | 30 min    | 📚 Knowledge | 🔄 Coming Soon |
-| B     | 🚀 MP2  | Mini Project 2: Personal Profile Generator *(after 8)*| 30–45 min | 🛠️ Project  | 🔄 Coming Soon |
+| A     | 2       | Variables & Data Types                                | 30 min    | 📚 Knowledge | ✅ Ready 📂     |
+| A     | 3       | Operators & Expressions                               | 30 min    | 📚 Knowledge | ✅ Ready 📂     |
+| A     | 4       | Conditionals, Indentation & Introduction to Modules   | 30 min    | 📚 Knowledge | ✅ Ready 📂     |
+| A     | 🚀 MP1  | Mini Project 1: Simple Calculator *(after Session 4)* | 30–45 min | 🛠️ Project  | ✅ Ready 📂     |
+| B     | 5       | Loops & Iteration                                     | 30 min    | 📚 Knowledge | ✅ Ready 📂     |
+| B     | 6       | Basic Debugging, Reading Errors & Built-in Functions  | 30 min    | 📚 Knowledge | ✅ Ready 📂     |
+| B     | 7       | Lists & Loops                                         | 30 min    | 📚 Knowledge | ✅ Ready 📂     |
+| B     | 8       | Dictionaries & Basic Testing                          | 30 min    | 📚 Knowledge | ✅ Ready 📂     |
+| B     | 🚀 MP2  | Mini Project 2: Personal Profile Generator *(after 8)*| 30–45 min | 🛠️ Project  | ✅ Ready 📂     |
 
 ---
 
