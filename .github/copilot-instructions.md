@@ -33,13 +33,13 @@
 
 ### **Current Organization:**
 ```
-pyfundamentals/
+python-fundamentals/
 ├── docs/
 │   └── sessions/
 │       └── L1/              # Level 1: Noob → Nerd
-│           ├── Plan.md      # Overall Level 1 curriculum plan
-│           ├── S1.md        # Session 1: Environment & Setup
-│           └── S2.md        # Session 2: Variables & Data Types
+│           ├── _Plan.md     # Overall Level 1 curriculum plan
+│           ├── 01_S1.md     # Session 1: Environment & Setup
+│           └── 02_S2.md     # Session 2: Variables & Data Types
 ├── src/
 │   └── L1/
 │       └── S1/              # Session 1 practice files
@@ -50,8 +50,8 @@ pyfundamentals/
 ```
 
 ### **File Relationships:**
-- `docs/sessions/L1/S1.md` ↔ `src/L1/S1/` (practice files)
-- `docs/sessions/L1/Plan.md` → Overall curriculum structure
+- `docs/sessions/L1/01_S1.md` ↔ `src/L1/S1/` (practice files)
+- `docs/sessions/L1/_Plan.md` → Overall curriculum structure
 - `README.md` → Entry point with navigation links
 
 ---

@@ -43,7 +43,7 @@ python-fundamentals/
 
 | Level | Journey Stage                  | Focus                                                                                                                                                                              | Status             |
 | ----- | ------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------ |
-| 1     | Noob → Nerd                    | _Environment setup, variables, data types, operators, conditionals, loops, debugging, lists, dictionaries, testing, 2 mini projects_. 📋 **[View Plan](docs/sessions/L1/Plan.md)** | 🟢 **In progress** |
+| 1     | Noob → Nerd                    | _Environment setup, variables, data types, operators, conditionals, loops, debugging, lists, dictionaries, testing, 2 mini projects_. 📋 **[View Plan](docs/sessions/L1/_Plan.md)** | 🟢 **In progress** |
 | 2     | Nerd → Novice                  | _Curriculum under development_                                                                                                                                                     | ⏭️ Coming Next     |
 | 3     | Novice → Learner               | _Curriculum under development_                                                                                                                                                     | 🔄 Future          |
 | 4     | Learner → Beginner             | _Curriculum under development_                                                                                                                                                     | 🔄 Future          |
