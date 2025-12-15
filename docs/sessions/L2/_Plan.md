@@ -12,8 +12,8 @@ learning_objectives:
   - "Use list comprehensions effectively"
   - "Define and use functions for code reusability"
   - "Handle errors gracefully with try/except blocks"
-  - "Read from and write to files"
-  - "Work with CSV and JSON data formats"
+  - "Read from and write to text files"
+  - "Organize code into modules"
   - "Organize code into reusable functions"
   - "Complete 2 mini projects demonstrating problem-solving skills"
   - "Be ready for Level 3: Novice → Learner"
@@ -69,19 +69,19 @@ sessions:
     status: "Planned"
     file: "docs/sessions/L2/07_S6.md"
   - session: 7
-    topic: "File Handling: Reading & Writing Files"
+    topic: "File Handling: Reading & Writing Text Files"
     duration: "30 min"
     type: "Knowledge"
     status: "Planned"
     file: "docs/sessions/L2/08_S7.md"
   - session: 8
-    topic: "File Handling: CSV & JSON Formats"
+    topic: "Modules Deep Dive & Code Organization"
     duration: "30 min"
     type: "Knowledge"
     status: "Planned"
     file: "docs/sessions/L2/09_S8.md"
   - session: "MP2"
-    topic: "Mini Project 2: File-Based Application"
+    topic: "Mini Project 2: Text File Application"
     duration: "30–45 min"
     type: "Project"
     status: "Planned"
@@ -114,9 +114,9 @@ sessions:
 | A     | 🚀 MP1  | Mini Project 1: Data Processor *(after Session 4)*   | 30–45 min | 🛠️ Project  | 🔄 Planned 📂  |
 | B     | 5       | Functions: Parameters & Return Values                 | 30 min    | 📚 Knowledge | 🔄 Planned 📂  |
 | B     | 6       | Functions: Scope & Code Organization                   | 30 min    | 📚 Knowledge | 🔄 Planned 📂  |
-| B     | 7       | File Handling: Reading & Writing Files                | 30 min    | 📚 Knowledge | 🔄 Planned 📂  |
-| B     | 8       | File Handling: CSV & JSON Formats                      | 30 min    | 📚 Knowledge | 🔄 Planned 📂  |
-| B     | 🚀 MP2  | Mini Project 2: File-Based Application *(after 8)*     | 30–45 min | 🛠️ Project  | 🔄 Planned 📂  |
+| B     | 7       | File Handling: Reading & Writing Text Files           | 30 min    | 📚 Knowledge | 🔄 Planned 📂  |
+| B     | 8       | Modules Deep Dive & Code Organization                 | 30 min    | 📚 Knowledge | 🔄 Planned 📂  |
+| B     | 🚀 MP2  | Mini Project 2: Text File Application *(after 8)*     | 30–45 min | 🛠️ Project  | 🔄 Planned 📂  |
 
 ---
 
@@ -140,9 +140,9 @@ flowchart TB
     subgraph PhaseB[📘 Phase B: File Operations & Advanced Functions]
         C1[🔧 Session 5<br/>Functions: Parameters]
         C2[🔧 Session 6<br/>Functions: Scope]
-        C3[📁 Session 7<br/>File I/O]
-        C4[📊 Session 8<br/>CSV & JSON]
-        C5[🚀 MP2<br/>Mini Project 2: File App]
+        C3[📁 Session 7<br/>Text File I/O]
+        C4[📦 Session 8<br/>Modules Deep Dive]
+        C5[🚀 MP2<br/>Mini Project 2: Text File App]
         C1 --> C2 --> C3 --> C4 --> C5
     end
 
@@ -270,59 +270,60 @@ flowchart TB
 
 ---
 
-### 🔄 Session 7: File Handling: Reading & Writing Files
+### 🔄 Session 7: File Handling: Reading & Writing Text Files
 
 * Opening files: `open()` function
 * File modes: `'r'`, `'w'`, `'a'`, `'x'`
 * Reading files: `read()`, `readline()`, `readlines()`
 * Writing files: `write()`, `writelines()`
-* Context managers: `with` statement
+* Context managers: `with` statement (best practice)
 * File paths and working with directories
 * Error handling for file operations
+* Practical examples: reading configuration, writing logs
 
 🧪 *Mini Practice*: Read from text files, write to text files, handle file errors.  
-📌 *Feeds into Mini Project 2*: Reading and writing data files.
+📌 *Feeds into Mini Project 2*: Reading and writing text data files.
 
 ---
 
-### 🔄 Session 8: File Handling: CSV & JSON Formats
+### 🔄 Session 8: Modules Deep Dive & Code Organization
 
-* **CSV files**: Comma-separated values format
-* Reading CSV files (manual parsing)
-* Writing CSV files
-* **JSON files**: JavaScript Object Notation
-* Reading JSON files with `json` module
-* Writing JSON files
-* Data serialization concepts
-* When to use CSV vs JSON
+* Creating your own modules
+* `__name__` and `__main__`: Understanding module execution
+* Importing from your own modules
+* Organizing code into multiple files
+* Best practices for module design
+* Code organization: when to split into modules
+* Combining functions and modules for larger projects
 
-🧪 *Mini Practice*: Read/write CSV data, work with JSON configuration files.  
-📌 *Feeds into Mini Project 2*: Storing and loading structured data.
+🧪 *Mini Practice*: Create a module with utility functions, import and use it.  
+📌 *Feeds into Mini Project 2*: Structuring a multi-file application.
 
 ---
 
-### 🚀 Mini Project 2: File-Based Application
+### 🚀 Mini Project 2: Text File Application
 
-**Goal:** Build a practical application that reads from and writes to files, handles CSV/JSON data, and uses well-organized functions.
+**Goal:** Build a practical application that reads from and writes to text files, uses well-organized functions, and demonstrates modular code structure.
 
 **Features:**
 
-* Read data from a file (CSV or JSON)
+* Read data from a text file
 * Process the data using functions
 * Display results or statistics
-* Write processed data to a new file
+* Write processed data to a new text file
 * Handle file errors gracefully
 * Organize code into multiple functions
+* (Optional) Split code into a module
 * Use proper error handling throughout
 
-🧪 *Deliverable*: `file_application.py`
+🧪 *Deliverable*: `text_file_application.py` (or multiple files if using modules)
 
 🎯 *Stretch Goals*:
 
-* Support both CSV and JSON formats
+* Organize code into a separate module file
 * Add data filtering/searching capabilities
 * Create a simple menu system
-* Export results in multiple formats
+* Support multiple input/output file formats
 
 ---
 
@@ -335,7 +336,7 @@ By completing Level 2, you will:
 * ✅ Define and use functions for code reusability
 * ✅ Handle errors gracefully with try/except blocks
 * ✅ Read from and write to text files
-* ✅ Work with CSV and JSON data formats
+* ✅ Organize code into modules
 * ✅ Organize code into reusable, well-structured functions
 * ✅ Understand variable scope and best practices
 * ✅ Complete 2 mini projects demonstrating problem-solving skills
@@ -346,12 +347,12 @@ By completing Level 2, you will:
 ## 📊 **Assessment Criteria**
 
 * **Phase A**: Can work with sets/tuples, use list comprehensions, define functions, handle errors → Complete Data Processor Project
-* **Phase B**: Can use advanced function features, read/write files, work with CSV/JSON → Complete File-Based Application Project
+* **Phase B**: Can use advanced function features, read/write text files, organize code into modules → Complete Text File Application Project
 
 **Mini Project Success Indicators:**
 
 * Data Processor works with sets, tuples, list comprehensions, and handles errors gracefully.
-* File-Based Application reads/writes files correctly, handles CSV/JSON, and uses well-organized functions.
+* Text File Application reads/writes text files correctly, uses well-organized functions, and demonstrates modular code structure.
 
 ---
 
@@ -361,6 +362,7 @@ After Level 2, you're ready to explore:
 
 * Object-Oriented Programming (classes and objects)
 * Advanced error handling and custom exceptions
+* Working with CSV and JSON file formats (Level 4)
 * Working with databases
 * Building more complex applications
 

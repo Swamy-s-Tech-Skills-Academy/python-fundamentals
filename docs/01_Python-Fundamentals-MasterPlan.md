@@ -85,9 +85,9 @@
 | A     | MP1     | **🚀 Mini Project 1: Data Processor**                      | 🛠️ Project   | 🔄 **Planned** |
 | B     | 5       | **Functions: Parameters & Return Values**                    | 📚 Knowledge | 🔄 **Planned** |
 | B     | 6       | **Functions: Scope & Code Organization**                   | 📚 Knowledge | 🔄 **Planned** |
-| B     | 7       | **File Handling: Reading & Writing Files**                 | 📚 Knowledge | 🔄 **Planned** |
-| B     | 8       | **File Handling: CSV & JSON Formats**                      | 📚 Knowledge | 🔄 **Planned** |
-| B     | MP2     | **🚀 Mini Project 2: File-Based Application**              | 🛠️ Project   | 🔄 **Planned** |
+| B     | 7       | **File Handling: Reading & Writing Text Files**            | 📚 Knowledge | 🔄 **Planned** |
+| B     | 8       | **Modules Deep Dive & Code Organization**                  | 📚 Knowledge | 🔄 **Planned** |
+| B     | MP2     | **🚀 Mini Project 2: Text File Application**              | 🛠️ Project   | 🔄 **Planned** |
 
 **Key Learning Focus:**
 
@@ -104,15 +104,15 @@
 - **Functions advanced**: Parameters (positional, keyword, default), return values, multiple returns
 - **Functions scope**: Local vs global scope, variable visibility, best practices
 - **File handling**: Reading from and writing to text files, file modes, context managers
-- **Data formats**: Working with CSV and JSON files, data serialization
-- **Mini Project 2: File-Based Application** - Applying Sessions 5-8 concepts
+- **Modules deep dive**: Creating modules, `__name__` and `__main__`, organizing code into modules
+- **Mini Project 2: Text File Application** - Applying Sessions 5-8 concepts
 
 **Mini Projects:**
 
 - **Data Processor** - Process collections using sets, tuples, and list comprehensions with error handling
-- **File-Based Application** - Build a practical application that reads/writes files and handles CSV/JSON data
+- **Text File Application** - Build a practical application that reads/writes text files using well-organized functions
 
-**Learning Outcome:** "I can write reusable functions, handle errors gracefully, and work with files to solve real problems!"
+**Learning Outcome:** "I can write reusable functions, handle errors gracefully, and work with text files to solve real problems!"
 
 ---
 
@@ -168,6 +168,10 @@
   - Key-value stores and when to use them
   - Data modeling for NoSQL
   - Python integration with NoSQL systems
+- **File-Based Data Formats**
+  - **CSV files**: Reading and writing CSV data, manual parsing, CSV module
+  - **JSON files**: Reading and writing JSON files, data serialization
+  - When to use CSV vs JSON vs databases
 - **Data Persistence Patterns**
   - File-based storage vs. database storage
   - Data serialization (pickle, JSON, CSV)
