@@ -1,0 +1,52 @@
+# Cross-Level Integration
+
+**Version**: 1.0  
+**Last Updated**: December 2025
+
+---
+
+## 🔗 Cross-Level Integration
+
+All new content must connect to:
+
+- Upstream prerequisites (previous sessions/levels)
+- Peer topics it builds upon (same level, earlier sessions)
+- Downstream applications it enables (later sessions/levels)
+- Related concepts across the curriculum
+
+**Connection Pattern**:
+
+```markdown
+## 📅 Session Flow
+
+| Part | Activity | Description |
+| ---- | -------- | ----------- |
+| 1    | Review   | Concepts from Session X |
+| 2    | Learn    | New concepts building on Session Y |
+| 3    | Practice  | Apply concepts for Session Z |
+
+---
+
+## 🔗 Related Sessions
+
+**Prerequisites**:
+- [Session X](docs/sessions/L1/0X_SX.md) - Required concepts
+
+**Builds Upon**:
+- [Session Y](docs/sessions/L1/0Y_SY.md) - Foundational concepts
+
+**Enables**:
+- [Session Z](docs/sessions/L1/0Z_SZ.md) - Advanced applications
+```
+
+---
+
+## Integration Requirements
+
+When creating content, always:
+
+1. **Identify Prerequisites**: What sessions must learners complete first?
+2. **Link to Foundations**: What does this session build upon?
+3. **Show Applications**: What sessions does this enable?
+4. **Cross-Reference**: Connect to related concepts across levels
+5. **Level Mapping**: Which level does this content belong to?

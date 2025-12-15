@@ -1,0 +1,57 @@
+# Primary Directives
+
+**Version**: 1.0  
+**Last Updated**: December 2025
+
+---
+
+## 🎯 Primary Directives
+
+### 1. Python Fundamentals Educational Content Rules (MANDATORY)
+
+**All content creation must follow these rules without exception.**
+
+See: `01_educational-content-rules.mdc` for complete details.
+
+### 2. Automation-First Approach
+
+✅ **ALWAYS**: Create reusable PowerShell scripts for repetitive tasks  
+✅ **ALWAYS**: Use existing scripts in `scripts/` first  
+✅ **ALWAYS**: Enhance existing scripts rather than duplicating  
+❌ **NEVER**: Execute individual commands for tasks repeated 2+ times
+
+**Decision Tree**:
+
+1. Check `scripts/` for existing script
+2. Enhance existing script if close match
+3. Create new `.ps1` for any repeated task
+4. Document with examples and parameters
+
+**Available Automation** (scripts/):
+
+- `docs-lint.ps1` - Markdown linting script
+- `docs-links.ps1` - Link validation script
+- `show-tree.ps1` - Repository structure generator
+
+### 3. Update Verification Protocol (CRITICAL)
+
+**After ANY structural change, IMMEDIATELY update**:
+
+1. ✅ `.github/copilot-instructions.md` - Repository Structure section
+2. ✅ `README.md` - Repository Structure section
+3. ✅ Relevant documentation files
+4. ✅ Test all Python code files still work
+5. ✅ Run markdownlint: `npx --yes markdownlint-cli2 "docs/**/*.md"`
+
+**Self-Check Question**: "Did I update the instruction file?" - If no, STOP and do it NOW.
+
+### 4. File Naming Validation (CRITICAL)
+
+**Before creating or committing ANY numbered file, validate naming**:
+
+1. ✅ **Python files**: Use `01_`, `02_`, etc. prefixes (e.g., `01_hello.py`)
+2. ✅ **Session docs**: Use `01_S1.md`, `02_S2.md`, `_Plan.md` format (underscore prefix sorts first)
+3. ✅ **Directory structure**: Use `L{level}/S{session}/` format
+4. ✅ **Verify paths**: All references use correct `L{level}/S{session}/` structure
+
+**Self-Check Question**: "Do all file references use the correct L{level}/S{session}/ format?" - If no, FIX immediately.

@@ -1,0 +1,163 @@
+# Repository Structure & Context
+
+**Version**: 1.0  
+**Last Updated**: December 2025
+
+---
+
+## 🧭 Repository Context
+
+**Python Fundamentals** is a comprehensive educational Python curriculum repository for Swamy's Tech Skills Academy. It provides:
+
+- Structured learning roadmap from complete beginner to confident Python programmer
+- 9 progressive levels with 10 sessions each (30 minutes per session)
+- Hands-on practice files and mini projects
+- Clear progression: Noob → Nerd → Novice → Learner → Beginner → Practitioner → Skilled Coder → Specialist → Professional → Curious Learner
+
+**Target Audience**: Complete beginners → Confident Python programmers
+
+**Learning Framework**: 9-level progression with 30-minute focused sessions and hands-on practice
+
+### 🚨 CRITICAL: Repository Purpose & Code Organization
+
+**This repository (`python-fundamentals`) contains BOTH educational content AND practice code:**
+
+- ✅ **Educational Content**: Markdown documentation in `docs/sessions/` with session plans and explanations
+- ✅ **Practice Code**: Working Python files in `src/L{level}/S{session}/` for hands-on learning
+- ✅ **Working Examples**: All code examples must run without errors
+- ✅ **Beginner-Friendly**: All code should be understandable by complete beginners
+- ✅ **Educational Focus**: Code teaches concepts, not production implementations
+
+**Code Organization:**
+
+All practice code is stored in `src/` directory organized by level and session:
+
+- `src/L1/S1/` - Level 1, Session 1 practice files
+- `src/L1/S2/` - Level 1, Session 2 practice files
+- Each session directory contains numbered practice files: `01_name.py`, `02_name.py`, etc.
+
+**Code Examples in Educational Content:**
+
+When including code examples in session documentation:
+
+- ✅ Reference practice files in `src/L{level}/S{session}/` directories
+- ✅ Include code snippets in documentation with proper formatting
+- ✅ Ensure all code examples are working and tested
+- ✅ Add educational comments explaining concepts
+
+---
+
+## 📁 Repository Structure
+
+### Current Structure
+
+```text
+python-fundamentals/
+├── .cursor/                               # Cursor AI configuration
+│   └── rules/                             # Project rules (this directory)
+│       ├── 01_educational-content-rules.mdc
+│       ├── 02_repository-structure.mdc
+│       ├── 03_quality-assurance.mdc
+│       ├── 04_markdown-standards.mdc
+│       ├── 05_primary-directives.mdc
+│       ├── 06_cross-level-integration.mdc
+│       └── README.md
+├── .github/                               # GitHub configuration
+│   ├── copilot-instructions.md            # GitHub Copilot instructions
+│   └── workflows/
+│       └── docs-quality.yml               # CI/CD for documentation quality
+├── docs/                                  # Documentation hub
+│   ├── images/                            # Educational images and screenshots
+│   │   └── S1/                            # Session 1 images
+│   └── sessions/                          # Session documentation
+│       └── L1/                            # Level 1: Noob → Nerd
+│           ├── _Plan.md                   # Level 1 curriculum plan (underscore sorts first)
+│           └── 01_S1.md                   # Session 1 documentation
+├── scripts/                               # PowerShell utility scripts
+│   ├── docs-lint.ps1                     # Markdown linting script
+│   ├── docs-links.ps1                    # Link validation script
+│   ├── show-tree.ps1                     # Repository structure generator
+│   └── repo-structure.txt                # Generated structure
+├── src/                                   # Practice code files
+│   └── L1/                               # Level 1
+│       └── S1/                           # Session 1
+│           ├── 01_hello.py
+│           ├── 02_interactive_hello.py
+│           └── bytecode_demo.py
+├── LICENSE                                 # MIT License
+├── README.md                               # Main repository documentation
+├── lychee.toml                            # Link checker configuration
+├── .markdownlint.json                     # Markdown linting rules
+└── .markdownlint-cli2.yaml                 # Markdown linting CLI config
+```
+
+---
+
+## 📁 Content Organization
+
+### Session Documentation
+
+**Location**: `docs/sessions/L{level}/`
+
+**Structure**:
+- `_Plan.md` - Complete level curriculum plan (underscore prefix sorts first)
+- `01_S1.md`, `02_S2.md`, etc. - Numbered session documentation
+- Each session document references practice files in `src/L{level}/S{session}/`
+
+### Practice Code Files
+
+**Location**: `src/L{level}/S{session}/`
+
+**Structure**:
+- Numbered practice files: `01_name.py`, `02_name.py`, etc.
+- All files must be working and tested
+- File headers include filename and session reference
+
+### Images and Assets
+
+**Location**: `docs/images/S{session}/`
+
+**Structure**:
+- Educational images organized by session
+- Reference images in session documentation using relative paths
+- Example: `../../images/S1/Help_V1.PNG`
+
+### Level and Session Creation Policy
+
+**Important**: Level and session directories are created **as needed** when content is ready.
+
+**Policy**:
+- ✅ Create `L{level}/S{session}/` directories when you have content ready to add
+- ✅ Follow the 9-level progression structure (L1 through L9)
+- ✅ Each level contains 10 sessions (S1 through S10) plus 2 mini projects
+- ✅ Add content progressively following Educational Content Rules
+- ✅ Create folder structure incrementally as curriculum develops
+
+## 📞 Support & Escalation
+
+**Questions about content placement?** → Check `README.md` and `.github/copilot-instructions.md`
+
+**Content too long?** → Split into multiple parts or simplify for 30-minute sessions
+
+**Encoding issues?** → Search for replacement characters, replace with Unicode equivalents
+
+**Link broken?** → Update URLs or fix internal file references
+
+**Structure outdated?** → Update `.github/copilot-instructions.md` and `README.md` immediately
+
+---
+
+## For More Information
+
+- **Repository**: Python Fundamentals (Swamy's Tech Skills Academy)
+- **Main Documentation**: `README.md`
+- **📋 Single Source of Truth**: `docs/RepositoryStructure.md` - **This is the authoritative repository structure documentation**
+- **Level 1 Plan**: `docs/sessions/L1/_Plan.md`
+- **Session 1**: `docs/sessions/L1/01_S1.md`
+- **GitHub Copilot Instructions**: `.github/copilot-instructions.md` (should reference `docs/RepositoryStructure.md`)
+- **Utility Scripts**: `scripts/` directory
+
+**Note**: 
+- `docs/RepositoryStructure.md` is the **single source of truth** for repository structure
+- `.cursor/rules/` and `.github/copilot-instructions.md` should reference `docs/RepositoryStructure.md` for structure details
+- Both provide guidance for AI assistants working with this repository
