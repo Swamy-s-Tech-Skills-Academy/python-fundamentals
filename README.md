@@ -8,33 +8,32 @@ A comprehensive, transformation-focused Python curriculum designed to take you f
 
 ## 📋 **Repository Structure**
 
+> 📖 **Full structure details:** See [docs/RepositoryStructure.md](docs/RepositoryStructure.md) for complete documentation.
+
 ```text
 python-fundamentals/
 ├── 📚 docs/
 │   ├── images/                 # Screenshots and educational images
-│   │   └── S1/                # Session 1 images (help screenshots, bytecode diagram)
+│   │   └── S1/                 # Session 1 images
+│   ├── RepositoryStructure.md  # Complete structure documentation
 │   └── sessions/
-│       └── L1/                # Level 1: Noob → Nerd
-│           ├── Plan.md        # Complete Level 1 curriculum plan
-│           ├── req.md         # Level 1 requirements and structure
-│           └── S1.md          # Session 1: Python Introduction & Environment Setup
+│       └── L1/                 # Level 1: Noob → Nerd (10 sessions)
+│           ├── _Plan.md        # Complete Level 1 curriculum plan
+│           ├── 01_S1.md        # Session 1: Python Introduction & Environment
+│           ├── 02_S2.md        # Session 2: Variables & Data Types
+│           ├── ...             # Sessions 3-8
+│           ├── 05_MP1.md       # Mini Project 1: Simple Calculator
+│           └── 10_MP2.md       # Mini Project 2: Profile Generator
 ├── 💻 src/
 │   └── L1/
-│       └── S1/                # Session 1 practice files
-│           ├── 01_hello.py
-│           ├── 02_interactive_hello.py
-│           └── bytecode_demo.py
-├── 🔧 scripts/               # Development and utility scripts
-│   ├── docs-lint.ps1         # Markdown linting script
-│   ├── docs-links.ps1        # Link validation script
-│   └── show-tree.ps1         # Repository structure generator
-├── ⚙️ .github/
-│   ├── workflows/
-│   │   └── docs-quality.yml  # CI/CD for documentation quality
-│   └── copilot-instructions.md
-├── 📄 README.md              # This file
-├── 📄 LICENSE                # MIT License
-└── 📋 Configuration files    # .markdownlint*, lychee.toml, .gitignore
+│       ├── S1/ ... S8/         # Session practice files (3 files each)
+│       ├── MP1/                # Mini Project 1: simple_calculator.py
+│       └── MP2/                # Mini Project 2: profile_generator.py
+├── 🔧 scripts/                 # Development and utility scripts
+├── ⚙️ .github/                 # Workflows and copilot-instructions.md
+├── 📄 README.md                # This file
+├── 📄 LICENSE                  # MIT License
+└── 📋 Configuration files      # .markdownlint*, lychee.toml, .gitignore
 ```
 
 ---
@@ -59,14 +58,14 @@ python-fundamentals/
 
 ### **✅ Completed & Ready:**
 
-- **📚 Level 1 Documentation:** Complete curriculum plan and structure
-- **📖 Session 1:** Full content with practice files - [**View Session 1**](docs/sessions/L1/S1.md)
+- **📚 Level 1 Documentation:** Complete curriculum plan with all 10 sessions
+- **📖 Sessions 1-8:** Full content with practice files - [**View Session 1**](docs/sessions/L1/01_S1.md)
+- **🚀 Mini Projects:** Calculator (MP1) and Profile Generator (MP2) complete
 - **🔧 Development Infrastructure:** Documentation quality automation with CI/CD pipeline
 
 ### **🚧 In Development:**
 
-- **📖 Session 2:** Variables & Data Types _(in progress)_
-- **📖 Sessions 3-10:** Coming soon
+- **📖 Level 2:** Nerd → Novice _(coming next)_
 
 ### **📊 Repository Health:**
 
@@ -79,7 +78,7 @@ python-fundamentals/
 
 ## 🚀 **Quick Start**
 
-**📖 Start:** [`docs/sessions/L1/Plan.md`](docs/sessions/L1/Plan.md) - Level 1 complete guide
+**📖 Start:** [`docs/sessions/L1/_Plan.md`](docs/sessions/L1/_Plan.md) - Level 1 complete guide
 
 ---
 
