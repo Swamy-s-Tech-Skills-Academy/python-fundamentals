@@ -1,6 +1,6 @@
 # 🐍 Master Plan for Python Fundamentals Course
 
-**From Clueless to Curious: A 9-Level Transformation Journey**
+## From Clueless to Curious: A 9-Level Transformation Journey
 
 > **Philosophy:** Each level builds confidence, curiosity, and practical skills through 30-minute focused sessions with hands-on practice and real-world applications.
 
@@ -11,7 +11,7 @@
 
 ## 📋 **Course Architecture Overview**
 
-**Format:** 9 Levels × 10 Sessions × 30 minutes = 45 hours total learning  
+**Format:** 9 Levels × (10 Sessions × 30 minutes) = 9 Levels × 5 hours = 45 hours total learning  
 **Outcome:** Complete transformation from absolute beginner to curious professional  
 **Approach:** Progressive complexity with practical application at every step
 
@@ -27,30 +27,37 @@
 
 **Actual Session Breakdown:**
 
-| Session | Topic                                                    | Type         | Status             |
-| ------- | -------------------------------------------------------- | ------------ | ------------------ |
-| 1       | **Python Introduction & Environment Setup**              | 📚 Knowledge | ✅ **Ready**       |
-| 2       | **Variables & Data Types**                               | 📚 Knowledge | 🚧 **In Progress** |
-| 3       | **Operators & Expressions**                              | 📚 Knowledge | 🔄 Coming Soon     |
-| 4       | **Conditional Statements & Python Indentation Rules**    | 📚 Knowledge | 🔄 Coming Soon     |
-| 5       | **Loops & Iteration**                                    | 📚 Knowledge | 🔄 Coming Soon     |
-| 6       | **Basic Debugging, Reading Errors & Built-in Functions** | 📚 Knowledge | 🔄 Coming Soon     |
-| 7       | **Lists & Loops**                                        | 📚 Knowledge | 🔄 Coming Soon     |
-| 8       | **Dictionaries & Basic Testing**                         | 📚 Knowledge | 🔄 Coming Soon     |
-| 9       | **🚀 Mini Project 1: Simple Calculator**                 | 🛠️ Project   | 🔄 Coming Soon     |
-| 10      | **🚀 Mini Project 2: Personal Profile Generator**        | 🛠️ Project   | 🔄 Coming Soon     |
+| Phase | Session | Topic                                                      | Type         | Status         |
+| ----- | ------- | ---------------------------------------------------------- | ------------ | -------------- |
+| A     | 1       | **Python Introduction, Environment & Built-in Functions**  | 📚 Knowledge | ✅ **Ready**   |
+| A     | 2       | **Variables & Data Types**                                 | 📚 Knowledge | ✅ **Ready**   |
+| A     | 3       | **Operators & Expressions**                                | 📚 Knowledge | ✅ **Ready**   |
+| A     | 4       | **Conditionals, Indentation & Introduction to Modules**    | 📚 Knowledge | ✅ **Ready**   |
+| A     | MP1     | **🚀 Mini Project 1: Simple Calculator**                   | 🛠️ Project   | ✅ **Ready**   |
+| B     | 5       | **Loops & Iteration**                                      | 📚 Knowledge | ✅ **Ready**   |
+| B     | 6       | **Basic Debugging, Reading Errors & Built-in Functions**   | 📚 Knowledge | ✅ **Ready**   |
+| B     | 7       | **Lists & Loops**                                          | 📚 Knowledge | ✅ **Ready**   |
+| B     | 8       | **Dictionaries & Basic Testing**                           | 📚 Knowledge | ✅ **Ready**   |
+| B     | MP2     | **🚀 Mini Project 2: Personal Profile Generator**           | 🛠️ Project   | ✅ **Ready**   |
 
 **Key Learning Focus:**
+
+**Phase A (Sessions 1-4 + MP1):**
 
 - Python installation & VS Code setup with PVM execution understanding
 - Variables, data types (`int`, `float`, `str`, `bool`), and dynamic typing
 - Arithmetic, comparison, and assignment operators with precedence
 - **Python indentation rules** and conditional statements (`if/elif/else`)
+- Introduction to modules and the `random` module
+- **Mini Project 1: Simple Calculator** - Applying Sessions 1-4 concepts
+
+**Phase B (Sessions 5-8 + MP2):**
+
 - Loops (`for`, `while`) with `range()`, `break`, `continue` controls
 - **Error reading skills** and built-in functions (`len()`, `max()`, `min()`, `sum()`, `type()`)
 - Lists fundamentals with iteration and basic operations
 - Dictionaries (key-value pairs) with **basic testing using `assert`**
-- Two hands-on mini projects applying all learned concepts
+- **Mini Project 2: Personal Profile Generator** - Applying Sessions 5-8 concepts
 
 **Mini Projects:**
 
@@ -356,14 +363,14 @@
 | Level | From → To                    | Core Focus            | Key Technologies           | Learning Mindset            |
 | ----- | ---------------------------- | --------------------- | -------------------------- | --------------------------- |
 | 1     | Noob → Nerd                  | Python Basics         | Python, VS Code            | "I can code!"               |
-| 2     | Nerd → Novice                | Problem Solving       | Python + SQL               | "I can solve problems!"     |
-| 3     | Novice → Learner             | Integration           | APIs, NoSQL, CLI           | "I can build tools!"        |
-| 4     | Learner → Beginner           | **OOP**               | Classes, Objects           | "I can organize code!"      |
-| 5     | Beginner → Practitioner      | **KISS/DRY/YAGNI**    | SQL + NoSQL Integration    | "I write clean code!"       |
+| 2     | Nerd → Novice                | Problem Solving       | Functions, Files, Modules  | "I can solve problems!"     |
+| 3     | Novice → Learner             | **OOP**               | Classes, Objects           | "I can organize code!"      |
+| 4     | Learner → Beginner           | Data Storage          | SQL, NoSQL, APIs           | "I can store data!"         |
+| 5     | Beginner → Practitioner      | **KISS/DRY/YAGNI**    | CLI, Testing, Git         | "I write clean code!"       |
 | 6     | Practitioner → Skilled Coder | **Design Patterns**   | Architecture               | "I design systems!"         |
 | 7     | Skilled Coder → Specialist   | **Standard Library**  | os, datetime, collections  | "I master Python's core!"   |
 | 8     | Specialist → Professional    | **Third-party Libs**  | requests, openpyxl, pytest | "I use professional tools!" |
-| 9     | Professional → Python Expert | **Advanced Features** | asyncio, multiprocessing   | "I'm a Python expert!"      |
+| 9     | Professional → Curious Learner | **Advanced Features** | asyncio, multiprocessing   | "I'm a Python expert!"      |
 
 ---
 
