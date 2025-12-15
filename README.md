@@ -8,33 +8,7 @@ A comprehensive, transformation-focused Python curriculum designed to take you f
 
 ## 📋 **Repository Structure**
 
-> 📖 **Full structure details:** See [docs/RepositoryStructure.md](docs/RepositoryStructure.md) for complete documentation.
-
-```text
-python-fundamentals/
-├── 📚 docs/
-│   ├── images/                 # Screenshots and educational images
-│   │   └── S1/                 # Session 1 images
-│   ├── RepositoryStructure.md  # Complete structure documentation
-│   └── sessions/
-│       └── L1/                 # Level 1: Noob → Nerd (10 sessions)
-│           ├── _Plan.md        # Complete Level 1 curriculum plan
-│           ├── 01_S1.md        # Session 1: Python Introduction & Environment
-│           ├── 02_S2.md        # Session 2: Variables & Data Types
-│           ├── ...             # Sessions 3-8
-│           ├── 05_MP1.md       # Mini Project 1: Simple Calculator
-│           └── 10_MP2.md       # Mini Project 2: Profile Generator
-├── 💻 src/
-│   └── L1/
-│       ├── S1/ ... S8/         # Session practice files (3 files each)
-│       ├── MP1/                # Mini Project 1: simple_calculator.py
-│       └── MP2/                # Mini Project 2: profile_generator.py
-├── 🔧 scripts/                 # Development and utility scripts
-├── ⚙️ .github/                 # Workflows and copilot-instructions.md
-├── 📄 README.md                # This file
-├── 📄 LICENSE                  # MIT License
-└── 📋 Configuration files      # .markdownlint*, lychee.toml, .gitignore
-```
+📖 **See:** [docs/RepositoryStructure.md](docs/RepositoryStructure.md) — Complete structure documentation (single source of truth)
 
 ---
 

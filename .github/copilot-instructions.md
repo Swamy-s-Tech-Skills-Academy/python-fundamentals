@@ -31,25 +31,10 @@
 
 ## 📋 **PROJECT STRUCTURE OVERVIEW**
 
-### **Current Organization:**
-```
-python-fundamentals/
-├── docs/
-│   └── sessions/
-│       └── L1/              # Level 1: Noob → Nerd
-│           ├── _Plan.md     # Overall Level 1 curriculum plan
-│           ├── 01_S1.md     # Session 1: Environment & Setup
-│           └── 02_S2.md     # Session 2: Variables & Data Types
-├── src/
-│   └── L1/
-│       └── S1/              # Session 1 practice files
-│           ├── 01_hello.py
-│           ├── 02_interactive_hello.py
-│           └── bytecode_demo.py
-└── README.md                # Project overview and quick start
-```
+📖 **See:** [docs/RepositoryStructure.md](../docs/RepositoryStructure.md) — Complete structure documentation (single source of truth)
 
-### **File Relationships:**
+### **Key File Relationships:**
+
 - `docs/sessions/L1/01_S1.md` ↔ `src/L1/S1/` (practice files)
 - `docs/sessions/L1/_Plan.md` → Overall curriculum structure
 - `README.md` → Entry point with navigation links
