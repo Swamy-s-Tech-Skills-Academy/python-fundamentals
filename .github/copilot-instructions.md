@@ -122,7 +122,7 @@ print("🚀 Advanced Python Preview")
 [Session 1](docs/sessions/S1.md)
 
 # NEW
-[Session 1](docs/sessions/L1/S1.md)
+[Session 1](docs/sessions/L1/01_S1.md)
 ```
 
 ---
