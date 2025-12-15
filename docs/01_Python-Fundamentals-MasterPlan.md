@@ -29,15 +29,15 @@
 
 | Phase | Session | Topic                                                      | Type         | Status         |
 | ----- | ------- | ---------------------------------------------------------- | ------------ | -------------- |
-| A     | 1       | **Python Introduction, Environment & Built-in Functions**  | 📚 Knowledge | ✅ **Ready**   |
+| A     | 1       | **Python Introduction & Environment Setup**                 | 📚 Knowledge | ✅ **Ready**   |
 | A     | 2       | **Variables & Data Types**                                 | 📚 Knowledge | ✅ **Ready**   |
 | A     | 3       | **Operators & Expressions**                                | 📚 Knowledge | ✅ **Ready**   |
 | A     | 4       | **Conditionals, Indentation & Introduction to Modules**    | 📚 Knowledge | ✅ **Ready**   |
 | A     | MP1     | **🚀 Mini Project 1: Simple Calculator**                   | 🛠️ Project   | ✅ **Ready**   |
 | B     | 5       | **Loops & Iteration**                                      | 📚 Knowledge | ✅ **Ready**   |
-| B     | 6       | **Basic Debugging, Reading Errors & Built-in Functions**   | 📚 Knowledge | ✅ **Ready**   |
+| B     | 6       | **Basic Debugging & Built-in Functions**                  | 📚 Knowledge | ✅ **Ready**   |
 | B     | 7       | **Lists & Loops**                                          | 📚 Knowledge | ✅ **Ready**   |
-| B     | 8       | **Dictionaries & Basic Testing**                           | 📚 Knowledge | ✅ **Ready**   |
+| B     | 8       | **Dictionaries & Testing**                                 | 📚 Knowledge | ✅ **Ready**   |
 | B     | MP2     | **🚀 Mini Project 2: Personal Profile Generator**           | 🛠️ Project   | ✅ **Ready**   |
 
 **Key Learning Focus:**
@@ -70,30 +70,49 @@
 
 ### **🔧 Level 2: Nerd → Novice** _(Skill Development)_
 
-**Focus:** Intermediate concepts, problem-solving confidence  
+**Focus:** Functions, error handling, file operations, modular programming  
 **Duration:** 5 hours (10 sessions × 30 min)  
 **Status:** 🚧 **In Development**
 
-**Core Topics:**
+**Actual Session Breakdown:**
 
-- Advanced data structures (sets, tuples, dictionaries deep-dive)
-- List comprehensions and generators
-- **Functions & Modular Programming** - Function definition, parameters, return values, scope, code organization
-- **Error Handling & Exception Management** - Exception handling, try/except blocks, debugging techniques, testing basics
-- Working with modules and packages (import, `__name__`, `__main__`)
-- **Virtual Environments & Package Management** - Creating venv, pip install, dependency isolation, requirements.txt
-- **File Handling & Data Persistence** - Reading/writing files, CSV/JSON formats, data storage patterns
-- Regular expressions basics
-- Working with dates, times, and timezones
-- Algorithm thinking and optimization basics
+| Phase | Session | Topic                                                      | Type         | Status         |
+| ----- | ------- | ---------------------------------------------------------- | ------------ | -------------- |
+| A     | 1       | **Advanced Data Structures: Sets & Tuples**                 | 📚 Knowledge | 🔄 **Planned** |
+| A     | 2       | **List Comprehensions**                                    | 📚 Knowledge | 🔄 **Planned** |
+| A     | 3       | **Functions: Definition & Basics**                         | 📚 Knowledge | 🔄 **Planned** |
+| A     | 4       | **Error Handling: try/except Basics**                      | 📚 Knowledge | 🔄 **Planned** |
+| A     | MP1     | **🚀 Mini Project 1: Data Processor**                      | 🛠️ Project   | 🔄 **Planned** |
+| B     | 5       | **Functions: Parameters & Return Values**                    | 📚 Knowledge | 🔄 **Planned** |
+| B     | 6       | **Functions: Scope & Code Organization**                   | 📚 Knowledge | 🔄 **Planned** |
+| B     | 7       | **File Handling: Reading & Writing Files**                 | 📚 Knowledge | 🔄 **Planned** |
+| B     | 8       | **File Handling: CSV & JSON Formats**                      | 📚 Knowledge | 🔄 **Planned** |
+| B     | MP2     | **🚀 Mini Project 2: File-Based Application**              | 🛠️ Project   | 🔄 **Planned** |
+
+**Key Learning Focus:**
+
+**Phase A (Sessions 1-4 + MP1):**
+
+- Advanced data structures: Sets (unique collections) and Tuples (immutable sequences)
+- List comprehensions: Elegant way to create and transform lists
+- **Functions basics**: Defining functions, calling functions, code reusability
+- **Error handling**: try/except blocks, handling common errors gracefully
+- **Mini Project 1: Data Processor** - Applying Sessions 1-4 concepts
+
+**Phase B (Sessions 5-8 + MP2):**
+
+- **Functions advanced**: Parameters (positional, keyword, default), return values, multiple returns
+- **Functions scope**: Local vs global scope, variable visibility, best practices
+- **File handling**: Reading from and writing to text files, file modes, context managers
+- **Data formats**: Working with CSV and JSON files, data serialization
+- **Mini Project 2: File-Based Application** - Applying Sessions 5-8 concepts
 
 **Mini Projects:**
 
-- Text File Analyzer with JSON Configuration
-- Personal File Organizer with Error Handling
-- Console-Based Configuration Manager
+- **Data Processor** - Process collections using sets, tuples, and list comprehensions with error handling
+- **File-Based Application** - Build a practical application that reads/writes files and handles CSV/JSON data
 
-**Learning Outcome:** "I can solve real problems with Python and handle errors gracefully!"
+**Learning Outcome:** "I can write reusable functions, handle errors gracefully, and work with files to solve real problems!"
 
 ---
 
@@ -363,7 +382,7 @@
 | Level | From → To                    | Core Focus            | Key Technologies           | Learning Mindset            |
 | ----- | ---------------------------- | --------------------- | -------------------------- | --------------------------- |
 | 1     | Noob → Nerd                  | Python Basics         | Python, VS Code            | "I can code!"               |
-| 2     | Nerd → Novice                | Problem Solving       | Functions, Files, Modules  | "I can solve problems!"     |
+| 2     | Nerd → Novice                | Functions & Files     | Functions, Error Handling, File I/O | "I can solve problems!"     |
 | 3     | Novice → Learner             | **OOP**               | Classes, Objects           | "I can organize code!"      |
 | 4     | Learner → Beginner           | Data Storage          | SQL, NoSQL, APIs           | "I can store data!"         |
 | 5     | Beginner → Practitioner      | **KISS/DRY/YAGNI**    | CLI, Testing, Git         | "I write clean code!"       |
@@ -378,8 +397,10 @@
 
 ### **Technical Skills Progression:**
 
-- **Levels 1-3:** Core Python mastery, SQL & NoSQL fundamentals, console application development
-- **Level 4:** Object-Oriented Programming mastery
+- **Level 1:** Python basics, variables, operators, conditionals, loops, lists, dictionaries
+- **Level 2:** Functions, error handling, file operations, advanced data structures
+- **Level 3:** Object-Oriented Programming mastery
+- **Level 4:** Data storage, SQL & NoSQL fundamentals, APIs
 - **Level 5:** Clean code principles (KISS, DRY, YAGNI) with advanced database integration
 - **Level 6:** Design patterns and architectural thinking for console applications
 - **Level 7:** Python Standard Library mastery (os, datetime, collections, itertools, logging)
