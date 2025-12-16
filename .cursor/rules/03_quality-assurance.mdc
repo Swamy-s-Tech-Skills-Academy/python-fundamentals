@@ -1,0 +1,58 @@
+# Quality Assurance Checklist
+
+**Version**: 1.0  
+**Last Updated**: December 2025
+
+---
+
+## ✅ Quality Assurance Checklist
+
+**Before ANY content creation or modification**:
+
+### Content Quality (Python Fundamentals Educational Standards)
+
+- [ ] **Zero-Copy Policy Verified**: No verbatim text from sources; completely transformed
+- [ ] **Transformative Workflow Applied**: Fresh outline, new examples, original explanations
+- [ ] **30-Minute Segment Compliance**: Content fits within 30-minute learning session
+- [ ] **Session Structure Complete**: Overview, objectives, prerequisites, content, practice files, takeaways, troubleshooting
+- [ ] **Original Examples**: All code, diagrams, and exercises are original
+- [ ] **Working Code**: All Python practice files run without errors
+- [ ] **Learning Objectives**: Clear, specific, and measurable outcomes
+- [ ] **Progressive Scaffolding**: Foundations → Practice → Next Steps
+- [ ] **Proper Level Assignment**: Content matches level (L1 through L9)
+- [ ] **Cross-References**: Prerequisites and enables relationships included
+- [ ] **Reasoning Quality**: Code design decisions include explicit reasoning (why this approach?)
+- [ ] **Quality Gate Passed**: All quality gate questions answered affirmatively
+
+### Technical Quality
+
+- [ ] Character encoding verified (UTF-8, no replacement characters)
+- [ ] **File references validated**: All file references point to existing files
+- [ ] **No broken references**: All markdown links resolve correctly
+- [ ] **File naming validated**: Python files use `01_`, `02_`, etc. prefixes
+- [ ] **Directory structure validated**: Uses `L{level}/S{session}/` format
+- [ ] **Python code tested**: All `.py` files run without syntax errors
+- [ ] Markdownlint passes: `npx --yes markdownlint-cli2 "docs/**/*.md"`
+- [ ] Lychee link check passes: Use lychee with `lychee.toml` configuration
+- [ ] Code fences have language specified (`python`, `powershell`, `bash`, etc.)
+- [ ] Blank lines proper (MD022/031/032)
+- [ ] 2-space list indentation (MD007)
+
+### Documentation Updates (CRITICAL)
+
+- [ ] ✅ `.github/copilot-instructions.md` updated if structure changed
+- [ ] ✅ `README.md` updated if structure changed
+- [ ] ✅ Related documentation updated
+- [ ] ✅ All practice file references in session docs are correct
+
+### File Reference Validation (CRITICAL)
+
+- [ ] ✅ **All file references validated**: Check all practice file references in session documentation
+- [ ] ✅ **No broken references**: All markdown links work in preview
+- [ ] ✅ **File names match exactly**: All references include numeric prefixes (`01_`, `02_`, etc.)
+- [ ] ✅ **Correct path structure**: All references use `L{level}/S{session}/` format
+- [ ] ✅ **All Python imports work**: If code imports modules, verify they exist
+- [ ] ✅ **Image references correct**: All image paths resolve correctly
+- [ ] ✅ **Updated after changes**: If you rename/move files, update ALL references immediately
+- [ ] ✅ **No missing prefixes**: References don't omit numeric prefixes in file names
+- [ ] ✅ **Level/session structure**: All paths include both level and session identifiers

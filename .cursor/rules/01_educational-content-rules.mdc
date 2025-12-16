@@ -1,0 +1,682 @@
+# Educational Content Rules (Python Fundamentals)
+
+**Version**: 1.0  
+**Last Updated**: December 2025  
+**Priority**: MANDATORY - All content creation must follow these rules without exception
+
+---
+
+## 🚫 Zero-Copy Policy (Non-Negotiable)
+
+**CRITICAL**: All educational content must be transformative, not reformative.
+
+❌ **NEVER** copy text verbatim from books, articles, websites, videos, or third-party materials  
+❌ **NEVER** mirror a source's outline, section order, headings, or example sequence  
+❌ **NEVER** use "light paraphrasing" — must transform completely  
+✅ **ALWAYS** create diagrams in Mermaid-first style with ASCII fallback (never embed copyrighted figures)  
+✅ **ALWAYS** write fresh, minimal code from first principles  
+✅ Brief quotations allowed ONLY with quotation marks and source citation
+
+---
+
+## 🔄 Transformative Workflow (Required Every Time)
+
+**Step-by-step process for creating original educational content**:
+
+1. **Source Intake**: Skim for intent and big ideas; don't copy notes verbatim
+2. **Concept Map**: Create fresh outline with different sectioning tailored to Python Fundamentals curriculum
+3. **Teach Differently**: Use new analogies, scenarios, datasets, use-cases (avoid source examples)
+4. **Produce Original Artifacts**: Explanations, Mermaid diagrams (with ASCII fallback), minimal examples
+5. **Cross-Link in Python Fundamentals**: Add prerequisites/builds-upon/enables across levels and sessions
+6. **Similarity Audit**: Ensure no sentences/structures resemble source
+7. **Optional References**: Add "References/Inspired by" links (no copied phrasing)
+
+**Goal**: Create transformative educational content, not just reformative. Entirely new presentation, examples, and explanations that teach the same concepts through original methods.
+
+---
+
+## 🧠 CoT/ReAct for Content CREATION (Required Every Time)
+
+**Use Chain-of-Thought (CoT) and ReAct methodology when creating educational content**:
+
+### Phase 1: THINK (Chain-of-Thought)
+
+1. **UNDERSTAND**: What concept needs to be taught? What's the learning objective?
+2. **DECOMPOSE**: Break the concept into digestible chunks (aim for 3-5 key points)
+3. **SEQUENCE**: Order chunks in logical learning progression (simple → complex)
+4. **ANTICIPATE**: What misconceptions might learners have? What questions will arise?
+
+### Phase 2: REASON (Analysis)
+
+5. **PREREQUISITES**: What must learners already know? Are those concepts covered in earlier sessions?
+6. **CONNECTIONS**: How does this connect to previous sessions? What future topics does it enable?
+7. **EXAMPLES**: What original examples best illustrate each concept? (Remember: no copying!)
+8. **EDGE CASES**: What common mistakes or pitfalls should be addressed?
+
+### Phase 3: ACT (Production)
+
+9. **CREATE**: Write the content following the session structure template
+10. **EXEMPLIFY**: Develop original code examples that demonstrate each concept
+11. **VISUALIZE**: Create Mermaid diagrams (with ASCII fallback) for complex concepts
+12. **PRACTICE**: Design exercises that reinforce learning
+
+### Phase 4: VERIFY (Quality Check)
+
+13. **CLARITY**: Would a complete beginner understand this without prior context?
+14. **COMPLETENESS**: Does this cover the learning objectives fully?
+15. **PROGRESSION**: Does this fit naturally in the curriculum sequence?
+16. **ORIGINALITY**: Is this transformative (not just reformative)?
+
+### CoT/ReAct Decision Framework
+
+```text
+┌─────────────────────────────────────────────────────────────────┐
+│                    CONTENT CREATION FLOW                        │
+├─────────────────────────────────────────────────────────────────┤
+│  THINK: What am I teaching? → Break into chunks → Order them    │
+│    ↓                                                            │
+│  REASON: Prerequisites? → Connections? → Examples? → Pitfalls?  │
+│    ↓                                                            │
+│  ACT: Write content → Create examples → Add diagrams → Exercises│
+│    ↓                                                            │
+│  VERIFY: Clear? → Complete? → Progressive? → Original?          │
+│    ↓                                                            │
+│  ITERATE: If any VERIFY check fails → Return to relevant phase  │
+└─────────────────────────────────────────────────────────────────┘
+```
+
+### Example: Creating Session Content
+
+**Scenario**: Creating content for "Variables & Data Types" (Session 2)
+
+**THINK**:
+- Objective: Learners understand what variables are and Python's basic data types
+- Chunks: (1) Variables as containers, (2) Naming rules, (3) Data types, (4) Type conversion
+- Sequence: Variables first (need storage before types), then types, then conversion
+
+**REASON**:
+- Prerequisites: Session 1 (can run Python, use print/input)
+- Connections: Enables Session 3 (operators need values to operate on)
+- Examples: Store name, age, price, is_student → demonstrate all types
+- Pitfalls: Confusing `=` (assignment) with `==` (comparison), string vs int for numbers
+
+**ACT**:
+- Write explanation of variables using "labeled box" analogy
+- Create `01_variables.py` with name/age/price examples
+- Create Mermaid diagram showing variable assignment
+- Design exercise: "Store your profile details in variables"
+
+**VERIFY**:
+- ✅ Beginner can follow without prior Python knowledge
+- ✅ Covers all 4 learning objectives
+- ✅ Builds on Session 1, enables Session 3
+- ✅ Original examples (not from any textbook)
+
+### Reasoning in Educational Content
+
+When writing session documentation and explanations, make the thought process explicit:
+
+#### ✅ DO: Show the "Why" Behind Code Design Decisions
+
+```markdown
+## Code Design Decision: Choosing a Data Structure
+
+**Context**: We need to store student names and their grades for quick lookup.
+
+**Reasoning Chain**:
+1. Student names are unique identifiers (no duplicates needed)
+2. Need to associate each name with a grade (key-value relationship)
+3. Will frequently look up grades by name (fast access required)
+4. Order doesn't matter for this use case
+
+**Decision**: Dictionary (`dict`) - `{"Alice": 95, "Bob": 87}`
+**Trade-off**: Fast O(1) lookup, but requires unique keys
+**Alternative Considered**: List of tuples - slower O(n) lookup, but allows duplicates
+```
+
+#### ❌ AVOID: Stating Facts Without Reasoning
+
+```markdown
+## Code Design Decision: Choosing a Data Structure
+Use a dictionary for student grades.  ← No reasoning provided
+```
+
+**Why This Matters**: Learners need to understand the thought process behind code decisions, not just memorize syntax. This builds problem-solving skills.
+
+### ReAct Pattern for Code Examples
+
+Use this iterative pattern when creating code examples:
+
+```text
+THOUGHT: Why is this code structure optimal for teaching this concept?
+ACTION:  Write the code example with clear comments explaining the reasoning
+OBSERVE: Does this demonstrate the concept clearly for a beginner?
+REPEAT:  Until the code example effectively teaches the concept
+```
+
+**Example Application**:
+
+```text
+THOUGHT: Beginners need to see why we use variables instead of hardcoding values
+ACTION:  Create example showing same calculation with and without variables
+OBSERVE: Does this clearly show the benefit? Need to add explanation
+THOUGHT: Should I show a scenario where variables make code reusable?
+ACTION:  Add second example showing how variables enable code reuse
+OBSERVE: Now the concept is clear - variables make code flexible and reusable
+```
+
+---
+
+## ⏱️ 30-Minute Learning Segments
+
+✅ **Modular content** designed for focused 30-minute sessions  
+✅ **Multi-Part Structure**: Complex topics split into Part 1, Part 2, ... Part N  
+✅ **One-Shot Learning**: Each segment complete and actionable within time limit  
+✅ **Target Length**: 150 lines of content maximum per response (flexible for educational clarity)
+
+### ⚠️ CRITICAL: Splitting vs. Trimming Policy
+
+**MANDATORY APPROACH**: When content exceeds 150 lines, **ALWAYS SPLIT** into multiple parts. **NEVER TRIM** or condense content.
+
+**Why Splitting is Required:**
+- ✅ **Preserves ALL educational content** - No loss of examples, explanations, or concepts
+- ✅ **Maintains learning value** - Each part remains complete and actionable
+- ✅ **Better learning experience** - Learners get comprehensive coverage across parts
+- ✅ **Follows 25-minute principle** - Each part fits within focused learning session
+
+**Why Trimming is Prohibited:**
+- ❌ **Loses educational content** - Examples, explanations, or concepts may be removed
+- ❌ **Reduces learning value** - Condensed content may miss important details
+- ❌ **Violates zero-copy policy** - If source had comprehensive content, we should preserve it
+- ❌ **Poor learning experience** - Learners miss important information
+
+**Splitting Process:**
+1. **Identify logical breakpoints** - Split at natural topic boundaries (e.g., "Foundation" → "Implementation" → "Advanced")
+2. **Preserve all content** - Move content to appropriate part, don't delete
+3. **Maintain completeness** - Each part should be self-contained and complete
+4. **Use proper naming** - Follow naming convention: `Part1-A.md`, `Part1-B.md`, etc.
+5. **Update references** - Update all file references after splitting
+
+**Example**: If a file has 300 lines covering "Factory Pattern Fundamentals" and "Factory Pattern Advanced", split into:
+- `01_Factory-Pattern-Part1-A.md` (Fundamentals - 150 lines)
+- `01_Factory-Pattern-Part1-B.md` (Advanced - 150 lines)
+
+**NOT**: Condense to 150 lines by removing examples or explanations.
+
+---
+
+## 📋 Required Content Structure
+
+### Session Documentation Structure
+
+Every session documentation file MUST include:
+
+**Session Documentation Structure** (docs/sessions/L{level}/S{session}.md):
+1. **Session Overview** - Duration (30 minutes), type, level
+2. **Learning Objectives** - What students will learn
+3. **Prerequisites** - What's needed before starting
+4. **Content Sections** - Progressive learning steps
+5. **Practice Files** - References to source code (src/L{level}/S{session}/)
+6. **Key Takeaways** - Summary of concepts
+7. **Troubleshooting** - Common issues and solutions
+
+**Note**: YAML frontmatter is optional for session documentation. Focus on clear structure and educational flow.
+
+### File Naming Convention
+
+**Python Practice Files** (src/L{level}/S{session}/):
+- ✅ Use descriptive names with numeric prefixes: `01_hello.py`, `02_interactive_hello.py`
+- ✅ Format: `{number}_{descriptive_name}.py`
+- ✅ Example: `01_hello.py`, `02_interactive_hello.py`, `bytecode_demo.py`
+
+**Session Documentation** (docs/sessions/L{level}/):
+- ✅ Use numbered format with level and session identifiers: `01_S1.md`, `02_S2.md`, `_Plan.md`
+- ✅ Format: `{number}_S{session}.md` or `_Plan.md` (underscore prefix sorts first)
+- ✅ Example: `L1/01_S1.md`, `L1/02_S2.md`, `L1/_Plan.md`
+
+**Directory Structure**:
+- ✅ Levels: Always use `L{number}` format (L1, L2, L3, etc.)
+- ✅ Sessions: Always use `S{number}` format (S1, S2, S3, etc.)
+- ✅ Path references: Use `src/L1/S1/` not `src/S1/`
+- ✅ Documentation paths: Use `docs/sessions/L1/S1.md` not `docs/sessions/S1.md`
+
+**Why This Rule Exists**:
+- Maintains consistent numbering across the repository
+- Prevents confusion about file ordering
+- Ensures predictable file organization
+- `01_` clearly indicates the first item, `00_` is ambiguous
+
+### Learning Order Requirements (CRITICAL)
+
+**CRITICAL**: Session numbering MUST reflect logical learning dependencies, not arbitrary ordering.
+
+**Standard Python Fundamentals Learning Progression** (Level 1: Noob → Nerd):
+
+1. **S1**: Python Introduction & Environment Setup - Foundation
+2. **S2**: Variables & Data Types - Core building blocks
+3. **S3**: Operators & Expressions - Calculations and logic
+4. **S4**: Conditionals, Indentation & Modules - Control flow
+5. **MP1**: Mini Project 1: Simple Calculator - Apply Sessions 1-4
+6. **S5**: Loops & Iteration - Repetition and iteration
+7. **S6**: Basic Debugging & Built-in Functions - Error handling
+8. **S7**: Lists & Loops - Data structures
+9. **S8**: Dictionaries & Basic Testing - Advanced data structures
+10. **MP2**: Mini Project 2: Personal Profile Generator - Apply Sessions 5-8
+
+**Why This Order Matters**:
+
+- Variables (S2) must come BEFORE Operators (S3) - need to understand data storage first
+- Conditionals (S4) must come BEFORE Loops (S5) - loops use conditional logic
+- Lists (S7) must come BEFORE Dictionaries (S8) - dictionaries build on list concepts
+- Mini Projects consolidate learning from previous sessions
+
+**When Creating New Content**:
+
+- ✅ Verify prerequisites are in sessions BEFORE the new content
+- ✅ Check that "enables" relationships point to sessions numbered AFTER
+- ✅ Ensure learning dependencies match session numbering order
+- ❌ NEVER place content that depends on later-numbered sessions
+
+### File Naming Convention for Split Files
+
+**CRITICAL**: When files are split into multiple parts, use simplified letter suffixes.
+
+**Pattern**:
+
+- `Topic-Part1-Part1.md` → `Topic-Part1-A.md`
+- `Topic-Part1-Part2.md` → `Topic-Part1-B.md`
+- `Topic-Part2-Part1.md` → `Topic-Part2-A.md`
+- `Topic-Part2-Part2.md` → `Topic-Part2-B.md`
+- `Topic-Part1-Part2-Part1.md` → `Topic-Part1-B-A.md`
+- `Topic-Part1-Part2-Part2.md` → `Topic-Part1-B-B.md`
+
+**Rules**:
+1. ✅ **Keep first Part number** - First `Part1`, `Part2`, etc. stays as-is
+2. ✅ **Convert subsequent Part numbers to letters** - `Part1` → `A`, `Part2` → `B`, etc.
+3. ✅ **Use uppercase letters** - A, B, C, D, etc. (not a, b, c)
+4. ✅ **Maintain order** - Letters reflect the original Part number sequence
+
+**Examples**:
+- ✅ `01_OOP-Introduction-Part1-A.md` (was `Part1-Part1`)
+- ✅ `01_OOP-Introduction-Part1-B.md` (was `Part1-Part2`)
+- ✅ `02_Classes-and-Objects-Part2-A.md` (was `Part2-Part1`)
+- ✅ `03_Encapsulation-Part1-B-A.md` (was `Part1-Part2-Part1`)
+
+**Benefits**:
+- Cleaner, more readable file names
+- Easier to understand part relationships
+- Consistent naming pattern
+
+---
+
+## 🎓 Educational Excellence Standards
+
+All content must demonstrate:
+
+- ✅ **Clear objectives and outcomes**: Specific, measurable learning goals
+- ✅ **Progressive scaffolding**: Foundations → Practice → Pitfalls → Next Steps
+- ✅ **Original examples, datasets, and exercises**: Never reuse source examples
+- ✅ **Mermaid-first visuals**: Primary Mermaid diagrams with ASCII fallback for compatibility
+- ✅ **Cross-references across tracks**: Development, AI/ML, Data Science, DevOps
+
+---
+
+## ✅ Quality Gate Questions (Before Publishing)
+
+**Self-check before finalizing any educational content**:
+
+1. ✅ Is this explanation clearer than the source material?
+2. ✅ Does this fit naturally in the learning progression?
+3. ✅ Would a learner understand this without the original source?
+4. ✅ Are the examples relevant and practical?
+5. ✅ Does this content add educational value beyond the reference?
+6. ✅ Is this content within 150 lines for effective delivery?
+
+---
+
+## 📁 Content Placement Policy
+
+✅ `docs/sessions/L{level}/` is EXCLUSIVELY for session documentation  
+✅ `src/L{level}/S{session}/` is EXCLUSIVELY for practice code files  
+❌ Never mix planning materials, workflow docs, or meta content in session directories  
+✅ Group logically by learning progression (Level → Session)  
+✅ Place content in correct level and session folders
+
+### 🚨 CRITICAL: Code Examples Policy
+
+**This repository includes both educational content AND practice code files.**
+
+**Code Examples in Educational Content:**
+
+- ✅ **Working Examples**: All code examples must run without errors
+- ✅ **Beginner-Friendly**: Code should be understandable by complete beginners
+- ✅ **Educational Comments**: Include clear comments explaining concepts
+- ✅ **Practice Files**: Store working code in `src/L{level}/S{session}/` directories
+- ✅ **Progressive Complexity**: Start simple, build complexity gradually
+
+**When Creating Code Examples:**
+
+1. **Keep it working**: All code must run without syntax errors
+2. **Add educational comments**: Explain what the code demonstrates
+3. **File headers**: Include filename and session reference in comments
+4. **Focus on learning**: Code should teach concepts clearly
+
+**Example Structure:**
+
+```python
+# Filename: src/L1/S1/01_hello.py
+# Session 1: Python Introduction & Environment Setup
+
+print('Hello, World!')
+# This is a single-line comment
+```
+
+**Practice Files Location:**
+- Store all practice code in `src/L{level}/S{session}/` directories
+- Reference practice files in session documentation
+- Example: `src/L1/S1/01_hello.py`, `src/L1/S1/02_interactive_hello.py`
+
+### Content Organization
+
+**Session Documentation** (docs/sessions/L{level}/):
+- Store all session documentation in `docs/sessions/L{level}/` directories
+- Format: `01_S1.md`, `02_S2.md`, `_Plan.md` (underscore prefix sorts first)
+- Each session should reference practice files in `src/L{level}/S{session}/`
+
+**Practice Code** (src/L{level}/S{session}/):
+- Store all practice Python files in `src/L{level}/S{session}/` directories
+- Format: `01_descriptive_name.py`, `02_descriptive_name.py`
+- All code must be working and tested
+
+**Images** (docs/images/):
+- Store educational images in `docs/images/S{session}/` directories
+- Reference images in session documentation using relative paths
+
+**Content Workflow**:
+
+1. **Create Session Documentation**: Write session content in `docs/sessions/L{level}/{number}_S{session}.md`
+2. **Create Practice Files**: Write working Python code in `src/L{level}/S{session}/`
+3. **Link Together**: Reference practice files in session documentation
+4. **Test Everything**: Ensure all code runs and all links work
+5. **Quality Check**: Run markdownlint and link validation before committing
+
+**Content Creation Workflow**:
+
+1. **PLAN**: Review curriculum structure and learning objectives
+   - Identify appropriate level and session
+   - Check prerequisites and dependencies
+   - Plan content structure following session documentation format
+
+2. **CREATE**: Develop session content following Educational Content Rules
+   - Write session documentation in `docs/sessions/L{level}/S{session}.md`
+   - Create practice files in `src/L{level}/S{session}/`
+   - Ensure all code examples are working and tested
+   - Follow 30-minute session format
+
+3. **REVIEW**: Apply comprehensive review checklist
+   - Verify session structure is complete
+   - Test all Python code files
+   - Check all file references work
+   - Validate markdown formatting
+
+4. **VERIFY**: Final quality checks before committing
+   - Run markdownlint
+   - Run link checker
+   - Test all code examples
+   - Verify all paths are correct
+
+5. **COMMIT**: After all checks pass, commit changes
+
+### Level and Session Creation Policy
+
+**Important**: Level and session directories are created **as needed** when content is ready.
+
+**Policy**:
+- ✅ Create `L{level}/S{session}/` directories when you have content ready to add
+- ✅ Follow the 9-level progression structure (L1 through L9)
+- ✅ Each level contains 10 sessions (S1 through S10) plus 2 mini projects
+- ✅ Add content progressively following Educational Content Rules
+- ✅ Create folder structure incrementally as curriculum develops
+
+**Rationale**: This prevents creating empty structures that may never be populated, while allowing for planned curriculum to be established when content is ready.
+
+---
+
+## 🔗 File Reference Requirements (CRITICAL)
+
+### Mandatory Practices
+
+**CRITICAL**: All file references MUST point to existing files or be clearly marked as planned content.
+
+### When Creating File References
+
+1. ✅ **Verify file exists** before adding reference
+2. ✅ **Use exact file names** - match actual file names exactly
+3. ✅ **Use correct paths** - `src/L1/S1/01_hello.py`, `docs/sessions/L1/01_S1.md`
+4. ✅ **Test references** - verify all links work in markdown preview
+5. ✅ **Update after changes** - when renaming files, update ALL references immediately
+
+### When Renaming or Moving Files
+
+**CRITICAL WORKFLOW**:
+
+1. Identify all files that reference the file being renamed/moved
+2. Update ALL references to use new file name/path
+3. Test all links in markdown preview
+4. Verify all code imports still work (if applicable)
+5. Run markdownlint to ensure formatting is correct
+
+### Reference Patterns
+
+- **Practice Files**: Reference as `src/L1/S1/01_hello.py` in session documentation
+- **Session Documentation**: Reference as `docs/sessions/L1/01_S1.md` or `[Session 1](docs/sessions/L1/01_S1.md)`
+- **Images**: Reference as `../../images/S1/Help_V1.PNG` from session documentation
+- **Planned Content**: References to files that don't exist yet are acceptable IF clearly marked as planned
+
+### Validation Checklist
+
+Before committing:
+- [ ] All references point to existing files (or are clearly planned)
+- [ ] Navigation links work in markdown preview
+- [ ] All Python code files run without errors
+- [ ] All image references resolve correctly
+- [ ] Run markdownlint: `npx --yes markdownlint-cli2 "docs/**/*.md"`
+- [ ] Run link checker: Use lychee with `lychee.toml` configuration
+
+---
+
+## 🎯 Mini Project Guidelines
+
+**CRITICAL**: All mini projects must be **practical and achievable** for students at their current level.
+
+### Mini Project Policy
+
+✅ **ALWAYS** build on concepts from previous sessions  
+✅ **ALWAYS** include clear requirements and success criteria  
+✅ **ALWAYS** provide practice files and examples  
+✅ **ALWAYS** include stretch goals for advanced students  
+❌ **NEVER** require concepts not yet covered in the curriculum  
+❌ **NEVER** make projects too complex for the current level  
+
+**Rationale**: Mini projects consolidate learning and build confidence. They should be achievable but challenging.
+
+**Examples of Mini Projects**:
+- **Level 1, MP1**: Simple Calculator (uses Sessions 1-4: variables, operators, conditionals)
+- **Level 1, MP2**: Personal Profile Generator (uses Sessions 5-8: loops, lists, dictionaries)
+
+**When Creating Mini Projects**:
+1. Review prerequisite sessions to ensure all needed concepts are covered
+2. Provide clear requirements and success criteria
+3. Include example solutions or guidance
+4. Add stretch goals for students who finish early
+5. Test all code examples thoroughly
+
+---
+
+## 🔍 Comprehensive Content Review Process
+
+**MANDATORY**: All content in `docs/sessions/` and `src/` folders must undergo comprehensive review before committing.
+
+**Review Scope**: All session documentation and practice code files should be reviewed for quality, accuracy, and educational value.
+
+### Review Request Protocol
+
+**When a review is REQUESTED**:
+
+- ✅ **MANDATORY**: Review EACH AND EVERY file individually - no file should be skipped
+- ✅ **MANDATORY**: Open and examine every file in the specified scope
+- ✅ **MANDATORY**: Apply the review checklist to every single file
+- ❌ **NEVER**: Skip files, assume compliance, or review only a sample
+- ❌ **NEVER**: Review only files that "look problematic" - review ALL files
+
+**Scope of Review**:
+- If reviewing `docs/sessions/L{level}/`: Review ALL files in that level
+- If reviewing `src/L{level}/S{session}/`: Review ALL Python files in that session
+- If reviewing a specific session: Review both documentation and practice files
+- If reviewing specific files: Review each requested file individually
+
+### Review Methodology
+
+**Use CoT, ReAct, and Reasoning for every review**:
+
+1. **OBSERVE**: Systematically scan and catalog all files
+   - List every file in the review scope
+   - No file should be excluded or skipped
+2. **ANALYZE**: Review each file individually with deep analysis
+   - Open and examine every file
+   - Apply review checklist to each file
+3. **REASON**: Apply logical reasoning to identify issues and patterns
+4. **VERIFY**: Cross-check findings and validate compliance
+5. **ACT**: Document findings and update content as needed
+
+### Individual File Review Checklist
+
+**Review EACH AND EVERY file individually** - no file should be skipped:
+
+#### 1. Session Documentation Review (docs/sessions/L{level}/S{session}.md)
+- [ ] Session overview present (duration, type, level)
+- [ ] Learning objectives are clear and measurable
+- [ ] Prerequisites listed (if any)
+- [ ] Content sections are well-structured
+- [ ] Practice files referenced correctly
+- [ ] Key takeaways included
+- [ ] Troubleshooting section included (if applicable)
+- [ ] All links work (practice files, images, cross-references)
+
+#### 2. Practice Code Review (src/L{level}/S{session}/*.py)
+- [ ] File headers include filename and session reference
+- [ ] Code runs without syntax errors
+- [ ] Code is beginner-friendly with clear comments
+- [ ] File naming follows convention: `01_name.py`, `02_name.py`
+- [ ] All code examples are educational and working
+- [ ] No placeholder code or TODOs
+
+#### 3. File Naming Review
+- [ ] Python files use numeric prefixes: `01_`, `02_`, etc.
+- [ ] Session docs use format: `01_S1.md`, `02_S2.md`, `_Plan.md`
+- [ ] Directory structure uses: `L{level}/S{session}/`
+- [ ] All paths are consistent
+
+#### 4. File References Review
+- [ ] All practice file references point to existing files
+- [ ] All image references resolve correctly
+- [ ] All cross-session references use correct paths
+- [ ] No broken links remain
+- [ ] File names in references match actual file names exactly (including `01_`, `02_` prefixes)
+- [ ] References use correct `L{level}/S{session}/` directory structure
+- [ ] No references to renamed or moved files without updates
+
+#### 5. Content Quality Review
+- [ ] Code examples are working and tested
+- [ ] Diagrams are clear (Mermaid or ASCII)
+- [ ] Content is transformative (not copied)
+- [ ] Learning objectives are clear and measurable
+- [ ] Progressive scaffolding present (Foundations → Practice → Next Steps)
+
+#### 6. Zero-Copy Policy Review
+- [ ] No verbatim text from sources
+- [ ] No mirrored outlines or section order
+- [ ] Original examples and explanations
+- [ ] Diagrams are original (Mermaid/ASCII, not embedded copyrighted figures)
+- [ ] Content adds educational value beyond source
+
+#### 7. Learning Progression Review
+- [ ] Session numbering reflects logical learning dependencies
+- [ ] Prerequisites come before dependent content
+- [ ] Learning order is logical and sequential
+- [ ] Mini projects consolidate previous sessions appropriately
+
+#### 8. Reasoning and Explanation Quality Review
+- [ ] Code design decisions include explicit reasoning (why this approach?)
+- [ ] Examples show the thought process, not just syntax
+- [ ] Alternative approaches mentioned with reasons for choice
+- [ ] Reasoning chain is traceable from problem to solution
+- [ ] Beginners can understand WHY, not just WHAT
+
+### Deep Dive Review Process
+
+**When performing comprehensive review**:
+
+1. **Systematic File Scanning**
+   ```powershell
+   # Get all session documentation files
+   Get-ChildItem "docs\sessions" -Recurse -Filter "*.md"
+   
+   # Get all practice code files
+   Get-ChildItem "src" -Recurse -Filter "*.py"
+   ```
+
+2. **Individual File Analysis**
+   - Open each file
+   - Check session documentation structure
+   - Verify all practice file references
+   - Test all Python code files
+   - Check file naming conventions
+   - Validate all file references
+   - Review content quality indicators
+
+3. **Code Testing**
+   ```powershell
+   # Test all Python files
+   Get-ChildItem "src" -Recurse -Filter "*.py" | ForEach-Object {
+       python $_.FullName
+   }
+   ```
+
+4. **Content Quality Analysis**
+   - Check for code examples
+   - Check for diagrams (Mermaid/ASCII)
+   - Check for headings
+   - Check for suspicious patterns
+   - Verify zero-copy compliance
+
+5. **Documentation**
+   - Document all findings
+   - Create issue list with file paths
+   - Prioritize issues (critical vs. warnings)
+   - Track fixes and verification
+
+### Review Tools
+
+**Use these tools for comprehensive review**:
+
+- Markdown linting: `npx --yes markdownlint-cli2 "docs/**/*.md"`
+- Link checking: Use lychee with `lychee.toml` configuration
+- Python syntax: Test all `.py` files manually or with scripts
+
+### Review Frequency
+
+- **Before committing**: Review all modified files
+- **After creating new sessions**: Review both documentation and practice files
+- **Periodic audits**: Comprehensive review of entire level when complete
+- **After major changes**: Full review of affected sections
+
+### Review Documentation
+
+**Always document review findings**:
+
+- Create review reports with findings
+- List all issues found (with file paths)
+- Track compliance statistics
+- Document fixes applied
+- Verify fixes after remediation

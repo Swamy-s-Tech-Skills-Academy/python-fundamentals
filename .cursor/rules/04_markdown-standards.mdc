@@ -1,0 +1,323 @@
+# Markdown Authoring Standards
+
+**Version**: 1.0  
+**Last Updated**: December 2025
+
+---
+
+## 🎨 Markdown Authoring Standards
+
+### Character Encoding (CRITICAL)
+
+- ✅ Use UTF-8 encoding for all files
+- ❌ NEVER use (replacement character) - breaks previews
+- ✅ If preview broken, search for replacement character first
+- ✅ Validate UTF-8 integrity after content changes
+
+### Core Markdown Rules
+
+- Spaces only (no hard tabs) - MD010
+- 2-space indentation for nested lists - MD007
+- Language specified for code fences - MD040
+- Blank lines around headings/lists/fences - MD022/MD031/MD032
+- Wrap filenames/paths/code in backticks
+- Line length ~120 chars (tables/URLs may exceed)
+
+### Code Fences
+
+Supported languages: `text`, `mermaid`, `bash`, `powershell`, `json`, `yaml`, `python`, `typescript`, `javascript`, `csharp`
+
+### Diagrams
+
+- Mermaid-first (primary visualization method)
+- Include ASCII fallback for compatibility and plain-text viewing
+- Consistent styling across repository
+- NEVER embed copyrighted figures
+
+---
+
+## 📋 Session Documentation Structure
+
+### Required Structure
+
+All session documentation files should follow this structure:
+
+```markdown
+# Session {N}: {Title}
+
+**Duration:** 30 minutes  
+**Type:** 📚 Knowledge  
+**Level:** {Level Name}
+
+---
+
+## 🎯 Session Overview & Agenda
+
+### What You'll Learn:
+- ✅ Learning objective 1
+- ✅ Learning objective 2
+
+### Session Flow:
+| Part | Activity | Description |
+| ---- | -------- | ----------- |
+| 1    | ...      | ...         |
+
+---
+
+## 📋 Before You Begin
+
+### Prerequisites:
+✅ Prerequisite 1  
+✅ Prerequisite 2
+
+---
+
+## 💻 Part 1: {Section Title}
+
+[Content sections...]
+
+---
+
+## 🚀 Part N: Hands-on Practice
+
+### Practice Files:
+🧪 *Practice Files*:  
+`src/L1/S1/01_hello.py`, `src/L1/S1/02_interactive_hello.py`
+
+---
+
+## 📝 Key Takeaways
+
+[Summary...]
+
+---
+
+## 🔧 Troubleshooting
+
+[Common issues...]
+```
+
+### Structure Checklist
+
+Before finalizing session documentation:
+
+1. ✅ **Session Overview** - Duration, type, level clearly stated
+2. ✅ **Learning Objectives** - Clear, specific, measurable outcomes
+3. ✅ **Prerequisites** - What's needed before starting
+4. ✅ **Content Sections** - Progressive learning steps
+5. ✅ **Practice Files** - References to source code
+6. ✅ **Key Takeaways** - Summary of concepts
+7. ✅ **Troubleshooting** - Common issues and solutions (if applicable)
+
+---
+
+## 🔗 File Reference Validation (CRITICAL)
+
+### Required Practices
+
+**CRITICAL**: All file references in markdown content MUST point to existing files.
+
+### Common Broken Reference Patterns
+
+#### ❌ **ERROR: Incorrect Path Format**
+
+**Problem Pattern:**
+
+```markdown
+# WRONG - Incorrect path format
+[Session 1](docs/sessions/S1.md)
+[Session 1](docs/sessions/L1/S1.md)
+[Practice File](src/S1/01_hello.py)
+```
+
+**Root Cause:**
+
+- Missing level identifier in path
+- Not using `L{level}/S{session}/` directory structure
+- Paths don't match actual repository structure
+
+**Correct Format:**
+
+```markdown
+# CORRECT - Proper path format
+[Session 1](docs/sessions/L1/01_S1.md)
+[Practice File](src/L1/S1/01_hello.py)
+```
+
+#### ❌ **ERROR: Non-Existent Files**
+
+**Problem Pattern:**
+
+```markdown
+# WRONG - File doesn't exist
+🧪 *Practice Files*:  
+`src/L1/S1/03_advanced.py`
+```
+
+**Root Cause:**
+
+- File was renamed or doesn't exist
+- Reference uses wrong filename
+- Need to check actual file names before referencing
+
+**Correct Format:**
+
+```markdown
+# CORRECT - References actual file
+🧪 *Practice Files*:  
+`src/L1/S1/01_hello.py`, `src/L1/S1/02_interactive_hello.py`
+```
+
+#### ❌ **ERROR: Missing Numeric Prefixes**
+
+**Problem Pattern:**
+
+```markdown
+# WRONG - Missing numeric prefix in reference
+[Session 1](docs/sessions/L1/S1.md)
+🧪 *Practice Files*: `src/L1/S1/hello.py`
+```
+
+**Root Cause:**
+
+- References don't include numeric prefixes (`01_`, `02_`, etc.)
+- File names in references don't match actual file names
+- Need to use exact file names including prefixes
+
+**Correct Format:**
+
+```markdown
+# CORRECT - Includes numeric prefixes
+[Session 1](docs/sessions/L1/01_S1.md)
+🧪 *Practice Files*: `src/L1/S1/01_hello.py`
+```
+
+#### ❌ **ERROR: Incorrect Level/Session Structure**
+
+**Problem Pattern:**
+
+```markdown
+# WRONG - Missing level or session in path
+[Session 2](docs/sessions/02_S2.md)
+[Practice File](src/S2/01_variables.py)
+```
+
+**Root Cause:**
+
+- Paths don't include level identifier (`L1/`, `L2/`, etc.)
+- Missing session directory in practice file paths
+- Not following `L{level}/S{session}/` structure
+
+**Correct Format:**
+
+```markdown
+# CORRECT - Full level/session structure
+[Session 2](docs/sessions/L1/02_S2.md)
+[Practice File](src/L1/S2/01_variables.py)
+```
+
+### File Reference Rules
+
+1. ✅ **Always verify file exists** before adding reference
+2. ✅ **Use exact file names** - match actual file names exactly (including `01_`, `02_` prefixes)
+3. ✅ **Use correct paths** - `src/L{level}/S{session}/` and `docs/sessions/L{level}/`
+4. ✅ **Include numeric prefixes** - All file references must include numeric prefixes (`01_`, `02_`, etc.)
+5. ✅ **Test references** - verify all links work in markdown preview
+6. ✅ **Update all references** - when renaming/moving files, update ALL references immediately
+7. ✅ **Use relative paths correctly** - ensure paths resolve from current file location
+8. ✅ **Check after file operations** - After renaming, splitting, or moving files, validate all references
+
+### Reference Patterns
+
+**When referencing practice files:**
+
+```markdown
+🧪 *Practice Files*:  
+`src/L1/S1/01_hello.py`, `src/L1/S1/02_interactive_hello.py`
+```
+
+**When referencing session documentation:**
+
+```markdown
+[Session 1](docs/sessions/L1/01_S1.md)
+[Level 1 Plan](docs/sessions/L1/_Plan.md)
+```
+
+**When referencing images:**
+
+```markdown
+![Help System](../../images/S1/Help_V1.PNG)
+```
+
+### Validation Checklist
+
+Before committing any file with references:
+
+1. ✅ **Check file exists**: Verify each referenced file exists in the expected location
+2. ✅ **Verify file names match exactly**: Check numeric prefixes (`01_`, `02_`, etc.) are included
+3. ✅ **Test navigation**: Click links in markdown preview to verify they work
+4. ✅ **Update after changes**: If you rename/move files, update ALL references immediately
+5. ✅ **Use correct paths**: Relative paths must resolve from current file's directory
+6. ✅ **Check level/session structure**: Ensure `L{level}/S{session}/` format is used correctly
+7. ✅ **Run link checker**: Use lychee with `lychee.toml` configuration
+
+### File Reference Prevention Guidelines
+
+**When creating new files:**
+
+1. Check if file already exists with similar name
+2. Use consistent naming: `01_name.py`, `02_name.py`, etc.
+3. Verify directory structure: `L{level}/S{session}/`
+4. Document file references as you create them
+
+**When renaming files:**
+
+1. Find all references: Search for old filename in documentation
+2. Update all references to include new name with numeric prefix
+3. Test navigation manually
+4. Run link checker to verify
+
+**When splitting files:**
+
+1. Create new part files with proper naming
+2. **IMMEDIATELY** find all references to original file
+3. Update ALL references to point to correct part files
+4. Test navigation manually
+5. Run link checker to verify
+
+### Automated Validation
+
+**Before committing, ALWAYS run:**
+
+```powershell
+# Lint markdown files
+npx --yes markdownlint-cli2 "docs/**/*.md"
+
+# Check links (using lychee)
+docker run --rm -w /input -v "${PWD}:/input" lycheeverse/lychee:latest --config lychee.toml --no-progress README.md docs/**/*.md
+```
+
+**Or use provided scripts:**
+
+```powershell
+# Lint documentation
+./scripts/docs-lint.ps1
+
+# Validate links
+./scripts/docs-links.ps1
+```
+
+### Prevention Guidelines
+
+**When creating new files:**
+
+1. Check if file already exists with similar name
+2. Use consistent naming: `01_name.py`, `02_name.py`, etc.
+3. Verify directory structure: `L{level}/S{session}/`
+
+**When renaming files:**
+
+1. Find all references: Search for old filename in documentation
+2. Update all references
+3. Test navigation manually
+4. Run link checker to verify
