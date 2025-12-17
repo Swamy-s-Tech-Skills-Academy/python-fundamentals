@@ -9,6 +9,7 @@ if age >= 18:
     print("You are an adult! 🧑")
 else:
     print("You are a minor! 👶")
+print("I belong to main block")
 
 # if-elif-else chain
 print("\n=== Grade Calculator ===")
