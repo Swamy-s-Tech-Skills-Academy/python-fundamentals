@@ -229,10 +229,10 @@ Before moving to Level 3, you should be able to:
 
 Before moving to Level 4, you should be able to:
 
-- ✅ Refactor a dictionary-based script (e.g., contact manager) into 2–3 collaborating classes
-- ✅ Explain why a specific attribute belongs on one class and not another
-- ✅ Create objects, call their methods, and access their attributes without errors
-- ✅ Use `__str__` to make objects print in a human-readable format
+- ✅ **Can you** refactor a dictionary-based script (e.g., contact manager) into 2–3 collaborating classes?
+- ✅ **Can you** explain why a specific attribute belongs on one class and not another?
+- ✅ **Can you** create objects, call their methods, and access their attributes without errors?
+- ✅ **Can you** use `__str__` to make objects print in a human-readable format?
 
 **Common Anti-Patterns to Avoid:**
 
@@ -293,10 +293,10 @@ Before moving to Level 4, you should be able to:
 
 Before moving to Level 5, you should be able to:
 
-- ✅ Identify at least one "code smell" in a small script and refactor it
-- ✅ Write a simple unit test using `assert` or `unittest` that verifies a class method works correctly
-- ✅ Explain why a class has too many responsibilities (God Object) and how to split it
-- ✅ Apply KISS, DRY, or YAGNI to a real code example
+- ✅ **Can you** identify at least one "code smell" in a small script and refactor it?
+- ✅ **Can you** write a simple unit test using `assert` or `unittest` that verifies a class method works correctly?
+- ✅ **Can you** explain why a class has too many responsibilities (God Object) and how to split it?
+- ✅ **Can you** apply KISS, DRY, or YAGNI to a real code example?
 
 **Common Anti-Patterns to Avoid:**
 
@@ -352,6 +352,15 @@ Before moving to Level 5, you should be able to:
 - **File‑Based Data Dashboard / Reporter** – build a console‑based dashboard that reads data files, computes key metrics, and writes reports
 
 **Learning Outcome:** "I can confidently read, clean, transform, and write common text/CSV/JSON data from Python, and build small file‑based tools that solve real data‑wrangling problems."
+
+**Exit Criteria:**
+
+Before moving to Level 6, you should be able to:
+
+- ✅ **Can you** read a CSV file, filter rows based on criteria, and write the results to a new file?
+- ✅ **Can you** parse a JSON file with nested structures and extract specific data fields?
+- ✅ **Can you** handle missing or malformed data gracefully (without crashing)?
+- ✅ **Can you** explain when to use CSV vs JSON for storing data?
 
 ---
 
@@ -449,6 +458,15 @@ Before moving to Level 5, you should be able to:
 
 **Learning Outcome:** "I understand the basic ideas behind document‑style storage and HTTP/JSON APIs, and I can build small Python tools that fetch data from web APIs and persist them in JSON for later use."
 
+**Exit Criteria:**
+
+Before moving to Level 8, you should be able to:
+
+- ✅ **Can you** explain when JSON documents are better than relational tables?
+- ✅ **Can you** cache API data locally and explain cache invalidation risks?
+- ✅ **Can you** handle API errors (timeouts, 404s, rate limits) gracefully?
+- ✅ **Can you** make a GET request to a JSON API and parse the response?
+
 ---
 
 ### **🧹 Level 8: Integration Novice → Practitioner** _(Clean Code & Tooling in Practice)_
@@ -516,7 +534,8 @@ Before moving to Level 9, you should be able to:
 **AI Usage Guidelines:**
 
 - ✅ **Use AI for**: Explaining unfamiliar code, generating test cases, suggesting refactorings, finding bugs
-- ✅ **Always**: Review AI output critically, understand what it does, and test it yourself
+- ✅ **Always**: Review AI output critically, understand what it does, and **test it yourself** (AI outputs must always be reviewed with tests or examples)
+- ✅ **AI is a reasoning accelerator, not a correctness oracle** – verify everything
 - ❌ **Don't**: Copy-paste AI code without understanding, rely on AI for core learning, skip manual practice
 
 ---
@@ -571,10 +590,11 @@ Before moving to Level 9, you should be able to:
 
 Before moving to Level 10, you should be able to:
 
-- ✅ Refactor a small application to use at least one design pattern (Strategy, Factory, or Observer) where it clearly improves the code
-- ✅ Explain when a pattern helps vs when it adds unnecessary complexity
-- ✅ Separate concerns into at least two distinct layers (e.g., UI vs business logic)
-- ✅ Identify when you're over-engineering and when you're under-engineering
+- ✅ **Can you** refactor a small application to use at least one design pattern (Strategy, Factory, or Observer) where it clearly improves the code?
+- ✅ **Can you** explain when a pattern helps vs when it adds unnecessary complexity?
+- ✅ **Can you** separate concerns into at least two distinct layers (e.g., UI vs business logic)?
+- ✅ **Can you** identify when you're over-engineering and when you're under-engineering?
+- ✅ **Can you** explain this system to a new teammate in 3 minutes? (Architecture Narrative)
 
 **Common Anti-Patterns to Avoid:**
 
