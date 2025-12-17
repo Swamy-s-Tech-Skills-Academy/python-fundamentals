@@ -116,36 +116,36 @@
 
 ---
 
-### **📚 Level 3: Novice → Learner** _(Object-Oriented Programming)_
+### **🔢 Level 3: Novice → Object Thinker** _(Core OOP Fundamentals)_
 
-**Focus:** **OOP fundamentals**, code organization, reusability  
+**Focus:** Solidify **core OOP thinking** – moving from scripts to objects.  
 **Duration:** 5 hours (10 sessions × 30 min)  
 **Status:** 🔄 **Planned**
 
 **Core Topics:**
 
 - **Object-Oriented Programming (OOP) Fundamentals**
-  - Classes and objects creation
-  - Attributes and methods design
-  - Encapsulation and data hiding
-  - Inheritance and polymorphism
-  - Special methods (`__init__`, `__str__`, `__repr__`)
-  - Property decorators and getters/setters
-- **Clean Code Principles Introduction**
-  - **KISS:** Keep It Simple, Stupid - Write clear, understandable code
-  - **DRY:** Don't Repeat Yourself - Eliminate code duplication
-  - **YAGNI:** You Aren't Gonna Need It - Avoid over-engineering
-- Custom exceptions and error handling in OOP context
-- Code organization and project structure with classes
-- Introduction to testing with classes (unittest basics)
+  - Why we use objects instead of only functions and scripts
+  - Defining classes and creating objects (instances)
+  - Using `__init__` to set up object state
+  - Instance attributes vs shared data; reading and updating object state safely
+  - Defining and calling instance methods with `self`
+  - Simple encapsulation and invariants (keeping objects in a valid state)
+  - Friendly object representations with `__str__` / `__repr__` (intro level)
+- **Working with Multiple Objects**
+  - “Has‑a” relationships (composition) between classes
+  - Passing objects to functions and methods
+  - Simple collections of objects (lists of objects)
+
+> **Note:** Deeper OOP topics like inheritance hierarchies, polymorphism, and advanced design patterns are intentionally deferred to later levels so this level can focus on truly understanding objects first.
 
 **Mini Projects:**
 
-- Personal Finance Tracker (using classes and clean code principles)
-- Simple Console Game with Character Classes
-- Library Book Management System (OOP design)
+- Simple **Profile / Contact Manager** implemented with 1–3 small classes
+- **Task / Todo Manager** backed by objects instead of plain dictionaries
+- Small **Inventory or Library Item Tracker** using objects and lists of objects
 
-**Learning Outcome:** "I understand OOP principles and can create well-organized, reusable code following clean code practices!"
+**Learning Outcome:** "I can design and use simple classes and objects with confidence, and I understand when OOP helps me organize code better than scripts alone."
 
 ---
 
