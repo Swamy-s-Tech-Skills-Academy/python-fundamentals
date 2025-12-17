@@ -97,6 +97,22 @@
 
 **Learning Outcome:** "I can write basic Python programs with proper structure, understand error messages, and I'm genuinely curious to learn more!"
 
+**Exit Criteria:**
+
+Before moving to Level 2, you should be able to:
+
+- ✅ Write a Python script that uses variables, conditionals, and loops without syntax errors
+- ✅ Read and understand basic error messages (NameError, TypeError, IndentationError)
+- ✅ Use lists and dictionaries to store and retrieve data
+- ✅ Explain why Python uses indentation instead of braces
+
+**Common Anti-Patterns to Avoid:**
+
+- ❌ **Copy-Paste Without Understanding** – Typing code without knowing what each line does
+- ❌ **Ignoring Error Messages** – Not reading the full error traceback to find the problem
+- ❌ **Magic Numbers Everywhere** – Using `42` or `"admin"` directly instead of variables
+- ❌ **No Comments** – Writing code that only you can understand (even you won't remember in a week)
+
 ---
 
 ### **🔧 Level 2: Nerd → Novice** _(Skill Development)_
@@ -144,6 +160,22 @@
 - **Contact Manager** - Build a practical contact management application that reads/writes files using well-organized modular code
 
 **Learning Outcome:** "I can write reusable functions, handle errors gracefully, and work with files to solve real problems!"
+
+**Exit Criteria:**
+
+Before moving to Level 3, you should be able to:
+
+- ✅ Refactor a 50-line script into 3–5 well-named functions
+- ✅ Use `try/except` to handle at least two different error types gracefully
+- ✅ Read data from a file, process it, and write results to another file
+- ✅ Explain the difference between a function definition and a function call
+
+**Common Anti-Patterns to Avoid:**
+
+- ❌ **God Function** – One function that does everything (200+ lines)
+- ❌ **Silent Failures** – Using `except: pass` without logging or handling the error
+- ❌ **Global Variables Everywhere** – Modifying global state from inside functions
+- ❌ **No Error Handling** – Assuming files always exist and operations always succeed
 
 ---
 
@@ -193,6 +225,22 @@
 
 **Learning Outcome:** "I can design and use simple classes and objects with confidence, refactor small scripts into object‑oriented code, and recognize when OOP structure makes my programs easier to understand and extend."
 
+**Exit Criteria:**
+
+Before moving to Level 4, you should be able to:
+
+- ✅ Refactor a dictionary-based script (e.g., contact manager) into 2–3 collaborating classes
+- ✅ Explain why a specific attribute belongs on one class and not another
+- ✅ Create objects, call their methods, and access their attributes without errors
+- ✅ Use `__str__` to make objects print in a human-readable format
+
+**Common Anti-Patterns to Avoid:**
+
+- ❌ **God Object** – One class that does everything (violates Single Responsibility)
+- ❌ **Anemic Model** – Classes that are just data containers with no behavior (all getters/setters, no logic)
+- ❌ **Premature Inheritance** – Using inheritance when composition would be simpler
+- ❌ **Classes for Everything** – Creating classes for simple functions that don't need state
+
 ---
 
 ### **🏗️ Level 4: Object Thinker → Design Learner** _(OOP Design & Clean Code Intro)_
@@ -240,6 +288,22 @@
 - **Clean OOP Console App** – small but well‑organized application (e.g. task manager, booking tracker) with tests and a simple multi‑module layout
 
 **Learning Outcome:** "I can take a small problem, design sensible classes for it, refactor messy code into a cleaner object‑oriented structure, and apply basic clean‑code principles and tests to keep my designs maintainable."
+
+**Exit Criteria:**
+
+Before moving to Level 5, you should be able to:
+
+- ✅ Identify at least one "code smell" in a small script and refactor it
+- ✅ Write a simple unit test using `assert` or `unittest` that verifies a class method works correctly
+- ✅ Explain why a class has too many responsibilities (God Object) and how to split it
+- ✅ Apply KISS, DRY, or YAGNI to a real code example
+
+**Common Anti-Patterns to Avoid:**
+
+- ❌ **Over-Engineering** – Adding patterns and abstractions before you feel the pain
+- ❌ **Copy-Paste Refactoring** – Duplicating code instead of extracting shared logic (violates DRY)
+- ❌ **Premature Abstraction** – Creating base classes or interfaces "just in case" (violates YAGNI)
+- ❌ **If-Else Hell** – Long chains of conditionals that should be replaced with polymorphism or strategy
 
 ---
 
@@ -403,7 +467,7 @@
 | A     | 4       | **Git Basics: Commits, Branches, and Clean Histories**        | 📚 Knowledge | 🔄 **Planned** |
 | A     | MP1     | **🚀 Mini Project 1: CLI Wrapper Around an Existing Project**  | 🛠️ Project   | 🔄 **Planned** |
 | B     | 5       | **Everyday Testing with pytest / unittest (No TDD Dogma)**    | 📚 Knowledge | 🔄 **Planned** |
-| B     | 6       | **Debugging Strategies: Prints, Debuggers, and Logging**      | 📚 Knowledge | 🔄 **Planned** |
+| B     | 6       | **AI as Pair Programmer: Prompting for Refactoring & Code Review** | 📚 Knowledge | 🔄 **Planned** |
 | B     | 7       | **Formatting & Linting (black, isort, flake8 – Concept Intro)**| 📚 Knowledge | 🔄 **Planned** |
 | B     | 8       | **Polishing a Small Project: From Script to “Mini Product”**  | 📚 Knowledge | 🔄 **Planned** |
 | B     | MP2     | **🚀 Mini Project 2: Polished, Tested CLI Tool in Git Repo**   | 🛠️ Project   | 🔄 **Planned** |
@@ -421,7 +485,7 @@
 **Phase B (Sessions 5–8 + MP2):**
 
 - Practice **lightweight testing** of real code with pytest or unittest (focus on arranging tests, not full TDD)  
-- Learn practical debugging: when to use prints, when to use an interactive debugger, and when to switch to logging  
+- Use **AI as a pair programmer**: learn to prompt for refactoring suggestions, code explanations, and test generation (then review AI output critically – AI augments, doesn't replace understanding)  
 - See how **formatting and linting tools** (black, isort, flake8) improve readability and consistency without going deep into configuration  
 - Take one small project through a “polish” pass: tests, logging, CLI, basic docs/README, and a clean Git history  
 - **Mini Project 2: Polished, Tested CLI Tool in Git Repo** – a small but “real” tool that someone else could clone and run
@@ -432,6 +496,28 @@
 - **Polished Practitioner‑Level Tool** – a small, well‑structured, tested, and documented CLI app that represents a learner’s first “portfolio‑ready” Python project
 
 **Learning Outcome:** "I can structure, test, debug, version‑control, and polish small Python projects so they look and behave like real tools a teammate could use and maintain."
+
+**Exit Criteria:**
+
+Before moving to Level 9, you should be able to:
+
+- ✅ Create a Git repository, make meaningful commits, and explain what changed in each commit
+- ✅ Write at least 3 pytest tests that verify a function or class works correctly
+- ✅ Use AI tools to generate test cases or refactoring suggestions, then review and adapt the output
+- ✅ Run `black` and `flake8` on your code and fix the issues they find
+
+**Common Anti-Patterns to Avoid:**
+
+- ❌ **Blind AI Trust** – Using AI-generated code without understanding what it does
+- ❌ **No Version Control** – Not using Git because "it's just a small project"
+- ❌ **Tests That Don't Test** – Writing tests that always pass or test the wrong thing
+- ❌ **Over-Configuration** – Spending hours configuring tools instead of using sensible defaults
+
+**AI Usage Guidelines:**
+
+- ✅ **Use AI for**: Explaining unfamiliar code, generating test cases, suggesting refactorings, finding bugs
+- ✅ **Always**: Review AI output critically, understand what it does, and test it yourself
+- ❌ **Don't**: Copy-paste AI code without understanding, rely on AI for core learning, skip manual practice
 
 ---
 
@@ -480,6 +566,22 @@
 - **Patterned Console / Plugin Tool** – a small but well‑structured application that demonstrates Strategy/Factory/Observer/Decorator plus basic layering
 
 **Learning Outcome:** "I can recognize when a small number of design patterns and architectural ideas will help, and I can apply them to structure my Python applications so they are easier to extend and maintain."
+
+**Exit Criteria:**
+
+Before moving to Level 10, you should be able to:
+
+- ✅ Refactor a small application to use at least one design pattern (Strategy, Factory, or Observer) where it clearly improves the code
+- ✅ Explain when a pattern helps vs when it adds unnecessary complexity
+- ✅ Separate concerns into at least two distinct layers (e.g., UI vs business logic)
+- ✅ Identify when you're over-engineering and when you're under-engineering
+
+**Common Anti-Patterns to Avoid:**
+
+- ❌ **Pattern Overload** – Using patterns everywhere "just because" (violates YAGNI)
+- ❌ **Premature Abstraction** – Creating interfaces and base classes before you have 2–3 concrete implementations
+- ❌ **Anemic Domain Model** – All logic in services, classes are just data containers
+- ❌ **Tight Coupling** – Classes that directly depend on concrete implementations instead of abstractions
 
 ---
 
@@ -896,7 +998,7 @@
 - Choose a **realistic yet manageable domain** (tracker, dashboard, small SaaS‑like tool, automation utility, etc.) with clear users and outcomes  
 - Write a short **design document** that sketches architecture, data stores, key APIs, and any background jobs or messaging flows  
 - Decide which earlier building blocks to include (SQL/NoSQL, Redis, RabbitMQ/Kafka, CLI vs HTTP API, etc.) and how they fit together  
-- Implement the **core end‑to‑end flow** first (one or two main user journeys) before adding optional features  
+- **🎯 Capstone Scope Control**: Implement **ONE primary end‑to‑end flow** first (one or two main user journeys). Everything else is optional stretch goals. **Your capstone succeeds if ONE scenario works well.**  
 - **Mini Project 1: Capstone MVP** – a working slice of the final project that exercises key technologies and patterns from previous levels
 
 **Phase B (Sessions 5–8 + MP2):**
@@ -912,7 +1014,34 @@
 - **Capstone MVP** – the first fully working version of the capstone that demonstrates an end‑to‑end flow using the learner’s chosen stack  
 - **Capstone v1.0 Release & Portfolio Entry** – a polished, documented, tested, and versioned project that can be linked in a CV or profile
 
-**Learning Outcome:** "I can design, implement, document, test, package, and ship a small but realistic Python system that I’m proud to show others, and I know how to plan my next steps as a curious professional."
+**Learning Outcome:** "I can design, implement, document, test, package, and ship a small but realistic Python system that I'm proud to show others, and I know how to plan my next steps as a curious professional."
+
+**Exit Criteria:**
+
+To complete Level 18, you should have:
+
+- ✅ A working capstone project with **ONE primary end‑to‑end flow** that works well
+- ✅ Documentation (README, architecture overview) that another developer could use to understand and run your project
+- ✅ CI/CD pipeline that runs tests and linting automatically
+- ✅ A portfolio case study that explains what you built, why, and what you learned
+
+**🎯 Capstone Scope Control (Critical):**
+
+> **Your capstone succeeds if ONE end‑to‑end scenario works well.**
+
+**Do:**
+
+- ✅ Focus on **one primary user journey** (e.g., "User creates a task, views it, marks it complete")
+- ✅ Make that flow **polished, tested, and documented**
+- ✅ Add other features as **optional stretch goals** only after the core works
+
+**Don't:**
+
+- ❌ Try to build every feature you can imagine
+- ❌ Add complexity "just because" (violates YAGNI)
+- ❌ Burn out trying to make it perfect – **done is better than perfect**
+
+**Remember:** A small, well‑executed project is far more impressive than a large, half‑finished one.
 
 ---
 
