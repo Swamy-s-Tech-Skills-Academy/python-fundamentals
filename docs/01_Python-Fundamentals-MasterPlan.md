@@ -308,36 +308,51 @@
 
 ---
 
-### **🚀 Level 7: Skilled Coder → Specialist** _(Python Standard Library Mastery)_
+### **🌐 Level 7: DB Beginner → Integration Novice** _(Intro to NoSQL & HTTP/JSON APIs)_
 
-**Focus:** Essential Python libraries, system programming, data processing  
+**Focus:** Gently introduce **NoSQL‑style thinking** and **HTTP/JSON APIs**, and show how to integrate external data with local storage.  
 **Duration:** 5 hours (10 sessions × 30 min)  
 **Status:** 🔄 **Planned**
 
-**Core Topics:**
+**Actual Session Breakdown:**
 
-- **Essential Standard Library Modules**
-  - `os` and `pathlib` - File system operations and path handling
-  - `datetime` and `time` - Date/time manipulation and scheduling
-  - `json` and `csv` - Data format handling and processing
-  - `collections` - Advanced data structures (Counter, defaultdict, namedtuple)
-  - `itertools` - Efficient iteration tools and combinations
-- **System and Environment Programming**
-  - `sys` and `platform` - System information and configuration
-  - `subprocess` - Running external commands and processes
-  - `logging` - Professional logging and debugging
-- **Data Processing and Validation**
-  - `re` (regex) - Pattern matching and text processing
-  - `hashlib` and `secrets` - Security and data integrity
-  - `urllib` - URL handling and basic web requests
+| Phase | Session | Topic                                                          | Type         | Status         |
+| ----- | ------- | -------------------------------------------------------------- | ------------ | -------------- |
+| A     | 1       | **From Tables to Documents: NoSQL Concepts with JSON**        | 📚 Knowledge | 🔄 **Planned** |
+| A     | 2       | **Using JSON Files as a Simple Document Store**               | 📚 Knowledge | 🔄 **Planned** |
+| A     | 3       | **Modeling Data in Documents (Keys, Collections, Nested Data)**| 📚 Knowledge | 🔄 **Planned** |
+| A     | 4       | **Query‑Like Operations over In‑Memory / File‑Based Docs**    | 📚 Knowledge | 🔄 **Planned** |
+| A     | MP1     | **🚀 Mini Project 1: JSON‑Backed “NoSQL” Notes / Profile Store**| 🛠️ Project  | 🔄 **Planned** |
+| B     | 5       | **HTTP & REST Basics: Requests, Responses, Status Codes**     | 📚 Knowledge | 🔄 **Planned** |
+| B     | 6       | **Consuming JSON APIs with `requests` (GET + Query Params)**  | 📚 Knowledge | 🔄 **Planned** |
+| B     | 7       | **Handling API Errors, Timeouts & Basic Response Validation** | 📚 Knowledge | 🔄 **Planned** |
+| B     | 8       | **Combining APIs with Local Storage (Caching Remote Data)**   | 📚 Knowledge | 🔄 **Planned** |
+| B     | MP2     | **🚀 Mini Project 2: API‑Powered App with Local JSON Cache**   | 🛠️ Project   | 🔄 **Planned** |
+
+**Key Learning Focus:**
+
+**Phase A (Sessions 1–4 + MP1):**
+
+- Understand how **document‑style data** (nested JSON) differs from relational tables  
+- Use JSON files as a simple, file‑based **document store** (pseudo‑NoSQL)  
+- Practice modeling data in documents: choosing keys, nesting, and collections  
+- Implement simple “query‑like” operations in Python (filters, searches) over in‑memory/file‑based JSON data  
+- **Mini Project 1: JSON‑Backed Notes / Profile Store** – e.g. a notes/profile/tag manager that stores and retrieves data from JSON documents instead of tables
+
+**Phase B (Sessions 5–8 + MP2):**
+
+- Learn the basics of **HTTP & REST**: URLs, methods, status codes, and JSON payloads  
+- Use the `requests` library to call public JSON APIs (GET, simple query params)  
+- Handle common API problems: bad responses, timeouts, missing fields; add light validation/parsing  
+- Combine **remote API data with local JSON storage** to cache results and reduce repeated calls  
+- **Mini Project 2: API‑Powered App with Local JSON Cache** – e.g. a weather/dashboard/news viewer that fetches from an API, caches locally, and reads from cache when appropriate
 
 **Mini Projects:**
 
-- System Information Dashboard (using os, platform, subprocess)
-- Log File Processor with Advanced Collections (using logging, collections, itertools)
-- File Organization Tool with Pattern Matching (using pathlib, re, hashlib)
+- **JSON “NoSQL” Notes / Profile Store** – simple CRUD over JSON‑stored documents using Python filters and searches  
+- **API‑Powered Cached App** – small console app that fetches JSON from a public API, stores it locally, and serves data from both sources
 
-**Learning Outcome:** "I can leverage Python's standard library to build powerful system tools and data processing applications!"
+**Learning Outcome:** "I understand the basic ideas behind document‑style storage and HTTP/JSON APIs, and I can build small Python tools that fetch data from web APIs and persist them in JSON for later use."
 
 ---
 
