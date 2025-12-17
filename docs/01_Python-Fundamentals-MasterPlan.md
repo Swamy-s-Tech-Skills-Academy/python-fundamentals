@@ -548,6 +548,54 @@
 
 ---
 
+### **🚀 Level 12: Pro Toolsmith → Curious Learner** _(Advanced Features & Packaging Capstone)_
+
+**Focus:** Explore **advanced Python features and packaging**, and build a small, shareable project that ties the entire journey together.  
+**Duration:** 5 hours (10 sessions × 30 min)  
+**Status:** 🔄 **Planned**
+
+**Actual Session Breakdown:**
+
+| Phase | Session | Topic                                                                | Type         | Status         |
+| ----- | ------- | -------------------------------------------------------------------- | ------------ | -------------- |
+| A     | 1       | **When to Reach for Advanced Features (Trade‑offs & Pitfalls)**     | 📚 Knowledge | 🔄 **Planned** |
+| A     | 2       | **Generators, Iterators & Lazy Evaluation (Beyond `for` Loops)**    | 📚 Knowledge | 🔄 **Planned** |
+| A     | 3       | **Concurrency Basics: `threading` vs `multiprocessing`**            | 📚 Knowledge | 🔄 **Planned** |
+| A     | 4       | **Asyncio Intro: `async`/`await` and Event Loops (Conceptual)**     | 📚 Knowledge | 🔄 **Planned** |
+| A     | MP1     | **🚀 Mini Project 1: Simple Concurrent / Async Fetcher or Worker**   | 🛠️ Project   | 🔄 **Planned** |
+| B     | 5       | **Measuring Performance with `timeit` and `cProfile`**              | 📚 Knowledge | 🔄 **Planned** |
+| B     | 6       | **Practical Optimization: Hot Spots, Caching & Small Refactors**    | 📚 Knowledge | 🔄 **Planned** |
+| B     | 7       | **Packaging & Distribution: `pyproject.toml`, Wheels & venv Basics**| 📚 Knowledge | 🔄 **Planned** |
+| B     | 8       | **Sharing Your Work: Publishing, Docs, and Next‑Step Roadmaps**     | 📚 Knowledge | 🔄 **Planned** |
+| B     | MP2     | **🚀 Mini Project 2: Installable Capstone Package / CLI Tool**       | 🛠️ Project   | 🔄 **Planned** |
+
+**Key Learning Focus:**
+
+**Phase A (Sessions 1–4 + MP1):**
+
+- Build intuition for **when** advanced features (generators, concurrency, async) are helpful and when they add unnecessary complexity  
+- Go beyond basic iteration with **generators and iterators** to produce values lazily and compose data pipelines more efficiently  
+- Compare **threads vs processes** conceptually and try simple parallelization patterns for I/O‑bound vs CPU‑bound tasks  
+- Get a high‑level, beginner‑friendly view of **asyncio** and `async`/`await`, with at least one small, clear example  
+- **Mini Project 1: Simple Concurrent / Async Fetcher or Worker** – e.g. a multi‑URL fetcher, thumbnail generator, or parallel file checker that demonstrates one concrete concurrency/async benefit
+
+**Phase B (Sessions 5–8 + MP2):**
+
+- Use `timeit` and `cProfile` to **measure performance** and find hot spots instead of guessing  
+- Apply a few **simple optimizations** (better data structures, caching, avoiding redundant work) driven by measurement  
+- Learn the basics of **packaging and distribution**: `pyproject.toml`, building a wheel, and using virtual environments to test installs  
+- Discuss how to **share and grow** a project: hosted docs, READMEs, simple changelogs, and paths toward open‑source contribution or further specialization  
+- **Mini Project 2: Installable Capstone Package / CLI Tool** – turn a small but meaningful project (possibly from an earlier level) into an installable package or CLI with a `pyproject.toml`, basic docs, and at least a local/TestPyPI installation
+
+**Mini Projects:**
+
+- **Concurrent / Async Mini Tool** – a compact project that clearly demonstrates one advantage of concurrency or async in a controlled, understandable way  
+- **Capstone Package / CLI** – a polished, installable project that showcases the learner’s end‑to‑end skills from Level 1 all the way through Level 12
+
+**Learning Outcome:** "I understand what advanced Python features can do, when to use them, and how to package and share my own tools, so I can keep exploring Python with curiosity and confidence beyond this course."
+
+---
+
 ## 📊 **Overall Learning Journey Map**
 
 | Level | From → To                            | Core Focus                      | Key Technologies                         | Learning Mindset                 |
