@@ -78,28 +78,28 @@ python-fundamentals/
 │   └── L2/
 │       ├── S1/                 # Session 1 practice files
 │       │   ├── 01_sets_basics.py
-│       │   ├── 02_set_operations.py
-│       │   └── 03_tuples.py
+│       │   ├── 02_tuples_basics.py
+│       │   └── 03_conversions.py
 │       ├── S2/                 # Session 2 practice files
-│       │   ├── 01_list_comp_basics.py
-│       │   ├── 02_filtering.py
-│       │   └── 03_advanced_comprehensions.py
+│       │   ├── 01_basic_comprehensions.py
+│       │   ├── 02_filtered_comprehensions.py
+│       │   └── 03_practical_examples.py
 │       ├── S3/                 # Session 3 practice files
-│       │   ├── 01_defining_functions.py
-│       │   ├── 02_function_calls.py
-│       │   └── 03_reusable_functions.py
+│       │   ├── 01_basic_functions.py
+│       │   ├── 02_reusable_functions.py
+│       │   └── 03_organized_code.py
 │       ├── S4/                 # Session 4 practice files
-│       │   ├── 01_try_except.py
-│       │   ├── 02_handling_errors.py
-│       │   └── 03_robust_code.py
+│       │   ├── 01_basic_error_handling.py
+│       │   ├── 02_multiple_exceptions.py
+│       │   └── 03_else_finally.py
 │       ├── S5/                 # Session 5 practice files
-│       │   ├── 01_parameters.py
-│       │   ├── 02_return_values.py
-│       │   └── 03_advanced_functions.py
+│       │   ├── 01_basic_parameters.py
+│       │   ├── 02_parameter_types.py
+│       │   └── 03_return_values.py
 │       ├── S6/                 # Session 6 practice files
-│       │   ├── 01_scope_basics.py
-│       │   ├── 02_code_organization.py
-│       │   └── 03_function_composition.py
+│       │   ├── 01_local_scope.py
+│       │   ├── 02_global_scope.py
+│       │   └── 03_code_organization.py
 │       ├── S7/                 # Session 7 practice files
 │       │   ├── 01_reading_files.py
 │       │   ├── 02_writing_files.py
