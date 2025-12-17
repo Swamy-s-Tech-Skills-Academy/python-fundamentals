@@ -118,34 +118,49 @@
 
 ### **🔢 Level 3: Novice → Object Thinker** _(Core OOP Fundamentals)_
 
-**Focus:** Solidify **core OOP thinking** – moving from scripts to objects.  
+**Focus:** Solidify **core OOP thinking** – moving from scripts to well‑modeled objects.  
 **Duration:** 5 hours (10 sessions × 30 min)  
 **Status:** 🔄 **Planned**
 
-**Core Topics:**
+**Actual Session Breakdown:**
 
-- **Object-Oriented Programming (OOP) Fundamentals**
-  - Why we use objects instead of only functions and scripts
-  - Defining classes and creating objects (instances)
-  - Using `__init__` to set up object state
-  - Instance attributes vs shared data; reading and updating object state safely
-  - Defining and calling instance methods with `self`
-  - Simple encapsulation and invariants (keeping objects in a valid state)
-  - Friendly object representations with `__str__` / `__repr__` (intro level)
-- **Working with Multiple Objects**
-  - “Has‑a” relationships (composition) between classes
-  - Passing objects to functions and methods
-  - Simple collections of objects (lists of objects)
+| Phase | Session | Topic                                                      | Type         | Status         |
+| ----- | ------- | ---------------------------------------------------------- | ------------ | -------------- |
+| A     | 1       | **Why OOP? From Scripts to Objects**                       | 📚 Knowledge | 🔄 **Planned** |
+| A     | 2       | **Defining Classes & Creating Objects**                    | 📚 Knowledge | 🔄 **Planned** |
+| A     | 3       | **`__init__`, Attributes & Basic Encapsulation**          | 📚 Knowledge | 🔄 **Planned** |
+| A     | 4       | **Instance Methods & Working with Object State**          | 📚 Knowledge | 🔄 **Planned** |
+| A     | MP1     | **🚀 Mini Project 1: Object‑Based Profile Manager**        | 🛠️ Project   | 🔄 **Planned** |
+| B     | 5       | **Composing Multiple Objects (Has‑a Relationships)**      | 📚 Knowledge | 🔄 **Planned** |
+| B     | 6       | **Collections of Objects (Lists of Objects)**             | 📚 Knowledge | 🔄 **Planned** |
+| B     | 7       | **User‑Friendly Objects with `__str__` / `__repr__`**     | 📚 Knowledge | 🔄 **Planned** |
+| B     | 8       | **Refactoring Scripts into Classes (OOP in Practice)**    | 📚 Knowledge | 🔄 **Planned** |
+| B     | MP2     | **🚀 Mini Project 2: Object‑Oriented Task / Inventory App**| 🛠️ Project   | 🔄 **Planned** |
 
-> **Note:** Deeper OOP topics like inheritance hierarchies, polymorphism, and advanced design patterns are intentionally deferred to later levels so this level can focus on truly understanding objects first.
+**Key Learning Focus:**
+
+**Phase A (Sessions 1-4 + MP1):**
+
+- Build an **intuitive mental model of objects**: when and why to use classes vs plain scripts  
+- Learn to define simple classes and construct objects with `__init__`  
+- Store and update object state via instance attributes safely  
+- Call instance methods correctly and avoid “global data everywhere”  
+- **Mini Project 1: Object‑Based Profile Manager** – represent a user profile (or contact) using 1–2 small classes instead of dictionaries
+
+**Phase B (Sessions 5-8 + MP2):**
+
+- Model **relationships between objects** using composition (“has‑a”)  
+- Work with **collections of objects** (lists of class instances) and iterate over them  
+- Make objects easier to debug and display with `__str__` / `__repr__` (intro level)  
+- Practice refactoring an existing script into a class‑based design  
+- **Mini Project 2: Object‑Oriented Task / Inventory App** – manage tasks, todos, or items using multiple interacting objects and collections
 
 **Mini Projects:**
 
-- Simple **Profile / Contact Manager** implemented with 1–3 small classes
-- **Task / Todo Manager** backed by objects instead of plain dictionaries
-- Small **Inventory or Library Item Tracker** using objects and lists of objects
+- **Object‑Based Profile / Contact Manager** – basic CRUD on user profiles using classes and lists of objects  
+- **Task / Todo or Inventory Manager** – simple console app using objects to represent tasks/items and operations on them
 
-**Learning Outcome:** "I can design and use simple classes and objects with confidence, and I understand when OOP helps me organize code better than scripts alone."
+**Learning Outcome:** "I can design and use simple classes and objects with confidence, refactor small scripts into object‑oriented code, and recognize when OOP structure makes my programs easier to understand and extend."
 
 ---
 
