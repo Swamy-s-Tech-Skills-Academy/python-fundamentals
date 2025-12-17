@@ -105,7 +105,7 @@
 - **Functions scope**: Local vs global scope, variable visibility, best practices
 - **File handling**: Reading from and writing to text files, file modes, context managers
 - **Modules deep dive**: Creating modules, `__name__` and `__main__`, organizing code into modules
-- **Mini Project 2: Text File Application** - Applying Sessions 5-8 concepts
+- **Mini Project 2: Contact Manager** - Applying Sessions 5-8 concepts
 
 **Mini Projects:**
 
