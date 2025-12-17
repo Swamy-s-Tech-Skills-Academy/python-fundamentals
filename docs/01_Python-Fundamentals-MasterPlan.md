@@ -260,37 +260,51 @@
 
 ---
 
-### **🎨 Level 6: Practitioner → Skilled Coder** _(Design Patterns & Architecture)_
+### **🗃️ Level 6: Data Wrangler → DB Beginner** _(Relational Databases with SQLite)_
 
-**Focus:** **Design patterns**, scalable solutions, advanced architecture  
+**Focus:** Build a strong **relational database (SQL + SQLite)** foundation and connect it to Python programs.  
 **Duration:** 5 hours (10 sessions × 30 min)  
 **Status:** 🔄 **Planned**
 
-**Core Topics:**
+**Actual Session Breakdown:**
 
-- **Design Patterns Fundamentals**
-  - **Creational Patterns:**
-    - Singleton Pattern - Single instance management
-    - Factory Pattern - Object creation abstraction
-    - Builder Pattern - Complex object construction
-  - **Behavioral Patterns:**
-    - Observer Pattern - Event-driven programming
-    - Strategy Pattern - Algorithm selection
-    - Command Pattern - Action encapsulation
-  - **Structural Patterns:**
-    - Decorator Pattern - Feature extension
-    - Adapter Pattern - Interface compatibility
-- Advanced OOP concepts and composition
-- Code architecture principles (SOLID basics)
-- Advanced testing strategies (mocking, fixtures)
-- Performance optimization techniques
+| Phase | Session | Topic                                                          | Type         | Status         |
+| ----- | ------- | -------------------------------------------------------------- | ------------ | -------------- |
+| A     | 1       | **Why Databases? From Files to Tables**                       | 📚 Knowledge | 🔄 **Planned** |
+| A     | 2       | **Tables, Rows & Keys: Designing a Simple Schema**           | 📚 Knowledge | 🔄 **Planned** |
+| A     | 3       | **SQL Basics: SELECT, INSERT, UPDATE, DELETE**               | 📚 Knowledge | 🔄 **Planned** |
+| A     | 4       | **Filtering & Ordering Data (WHERE, ORDER BY, LIMIT)**       | 📚 Knowledge | 🔄 **Planned** |
+| A     | MP1     | **🚀 Mini Project 1: CLI over a Single‑Table SQLite DB**      | 🛠️ Project   | 🔄 **Planned** |
+| B     | 5       | **Connecting Python to SQLite (sqlite3 Fundamentals)**       | 📚 Knowledge | 🔄 **Planned** |
+| B     | 6       | **Parameterized Queries & Avoiding SQL Injection**           | 📚 Knowledge | 🔄 **Planned** |
+| B     | 7       | **Simple Joins & Multi‑Table Designs (Intro Only)**          | 📚 Knowledge | 🔄 **Planned** |
+| B     | 8       | **Migrating a File‑Based App to SQLite (End‑to‑End)**        | 📚 Knowledge | 🔄 **Planned** |
+| B     | MP2     | **🚀 Mini Project 2: SQLite‑Backed Record Manager**           | 🛠️ Project   | 🔄 **Planned** |
+
+**Key Learning Focus:**
+
+**Phase A (Sessions 1–4 + MP1):**
+
+- Understand **why and when** to move from CSV/JSON files to a relational database  
+- Learn core relational concepts: tables, rows, columns, primary keys, simple relationships  
+- Write basic SQL for everyday tasks: `SELECT`, `INSERT`, `UPDATE`, `DELETE`  
+- Use `WHERE`, `ORDER BY`, and `LIMIT` to filter and sort data  
+- **Mini Project 1: CLI over a Single‑Table SQLite DB** – e.g. a student/contact/task table with basic add/list/update/delete operations via SQL
+
+**Phase B (Sessions 5–8 + MP2):**
+
+- Use Python’s **sqlite3** module to connect, execute queries, and handle results  
+- Use **parameterized queries** to keep code safe and avoid SQL injection patterns  
+- Get a gentle introduction to **multi‑table designs and simple joins** without deep normalization theory  
+- Practice taking a small **file‑based app from Level 5** and migrating its storage layer to SQLite  
+- **Mini Project 2: SQLite‑Backed Record Manager** – e.g. a gradebook, contact manager, or inventory tool whose data now lives in SQLite instead of flat files
 
 **Mini Projects:**
 
-- Plugin-Based Application Architecture
-- Event-Driven Notification System
+- **Single‑Table SQLite CLI Tool** – simple CRUD over one table using SQL directly  
+- **SQLite‑Backed Record Manager** – small console app that stores and queries records using SQLite instead of CSV/JSON
 
-**Learning Outcome:** "I can design scalable, maintainable software architectures using proven patterns!"
+**Learning Outcome:** "I can design a simple relational schema, write basic SQL queries, and connect a Python application to a SQLite database to store and retrieve data reliably."
 
 ---
 
