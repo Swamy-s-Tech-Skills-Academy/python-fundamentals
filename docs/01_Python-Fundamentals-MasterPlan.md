@@ -164,86 +164,99 @@
 
 ---
 
-### **🏗️ Level 4: Learner → Beginner** _(Data Storage & Persistence)_
+### **🏗️ Level 4: Object Thinker → Design Learner** _(OOP Design & Clean Code Intro)_
 
-**Focus:** **Database fundamentals**, data persistence, SQL and NoSQL  
+**Focus:** Turn basic OOP skills into **good small designs** and introduce clean‑code thinking.  
 **Duration:** 5 hours (10 sessions × 30 min)  
 **Status:** 🔄 **Planned**
 
-**Core Topics:**
+**Actual Session Breakdown:**
 
-- **SQL Database Fundamentals (SQLite)**
-  - Database design and normalization
-  - CRUD operations (Create, Read, Update, Delete)
-  - Joins, indexes, and query optimization
-  - Python database connectivity (sqlite3)
-  - ORM concepts introduction
-- **NoSQL Database Fundamentals**
-  - Document-based storage (JSON files, MongoDB concepts)
-  - Key-value stores and when to use them
-  - Data modeling for NoSQL
-  - Python integration with NoSQL systems
-- **File-Based Data Formats**
-  - **CSV files**: Reading and writing CSV data, manual parsing, CSV module
-  - **JSON files**: Reading and writing JSON files, data serialization
-  - When to use CSV vs JSON vs databases
-- **Data Persistence Patterns**
-  - File-based storage vs. database storage
-  - Data serialization (pickle, JSON, CSV)
-  - Configuration management and settings storage
-- **Working with APIs and External Data**
-  - HTTP requests and JSON APIs
-  - Data validation and cleaning
-  - External Libraries in Practice (requests, json)
+| Phase | Session | Topic                                                         | Type         | Status         |
+| ----- | ------- | ------------------------------------------------------------- | ------------ | -------------- |
+| A     | 1       | **From Requirements to Classes (Thinking in Models)**        | 📚 Knowledge | 🔄 **Planned** |
+| A     | 2       | **Designing Responsibilities & Avoiding “God Classes”**      | 📚 Knowledge | 🔄 **Planned** |
+| A     | 3       | **Improving Class Interfaces (KISS for Methods & Classes)**  | 📚 Knowledge | 🔄 **Planned** |
+| A     | 4       | **Intro to Refactoring: Making Existing Code Cleaner**       | 📚 Knowledge | 🔄 **Planned** |
+| A     | MP1     | **🚀 Mini Project 1: Refactor a Script into a Class Design**  | 🛠️ Project   | 🔄 **Planned** |
+| B     | 5       | **Clean Code Principles: KISS, DRY, YAGNI (Applied)**        | 📚 Knowledge | 🔄 **Planned** |
+| B     | 6       | **Reading & Reviewing Code: Finding Smells in OOP Code**     | 📚 Knowledge | 🔄 **Planned** |
+| B     | 7       | **Intro Unit Tests for Classes (Arrange–Act–Assert)**        | 📚 Knowledge | 🔄 **Planned** |
+| B     | 8       | **Organizing a Small OOP Project (Modules & Packages)**      | 📚 Knowledge | 🔄 **Planned** |
+| B     | MP2     | **🚀 Mini Project 2: Clean, Tested OOP Console Application**  | 🛠️ Project   | 🔄 **Planned** |
+
+**Key Learning Focus:**
+
+**Phase A (Sessions 1–4 + MP1):**
+
+- Take simple problem statements and **turn them into small class models**  
+- Assign responsibilities to classes so each one “does one thing well”  
+- Keep class and method interfaces simple and readable (KISS at class level)  
+- Practice basic refactorings (extract method, rename, split classes) on existing Level 2–3 style code  
+- **Mini Project 1: Refactor a Script into a Class Design** – choose a previous Level 2/3 script (e.g. data processor or profile manager) and redesign it as a cleaner set of classes
+
+**Phase B (Sessions 5–8 + MP2):**
+
+- Apply **KISS, DRY, YAGNI** to real OOP code, not just theory  
+- Learn to **read and review code**: spot duplication, long methods, and unclear names  
+- Write **very first unit tests for classes** (no heavy framework, just core patterns and maybe unittest/pytest basics)  
+- Organize a tiny project into modules/packages (`models.py`, `services.py`, etc.) to prepare for larger apps in later levels  
+- **Mini Project 2: Clean, Tested OOP Console Application** – a small console app (e.g. Todo/Booking/Tracker) with clear class design, basic tests, and a simple project structure
 
 **Mini Projects:**
 
-- Console-Based Student Record System (SQLite + OOP)
-- Personal Task Manager with NoSQL Backend
-- Weather Data Collector with Multi-format Storage
+- **Refactored Data / Profile Manager** – turning a previous data‑heavy script into a clearer set of classes with better naming and structure  
+- **Clean OOP Console App** – small but well‑organized application (e.g. task manager, booking tracker) with tests and a simple multi‑module layout
 
-**Learning Outcome:** "I can design and implement robust data storage solutions using both SQL and NoSQL databases!"
+**Learning Outcome:** "I can take a small problem, design sensible classes for it, refactor messy code into a cleaner object‑oriented structure, and apply basic clean‑code principles and tests to keep my designs maintainable."
 
 ---
 
-### **💼 Level 5: Beginner → Practitioner** _(Advanced Programming & Professional Practices)_
+### **📂 Level 5: Design Learner → Data Wrangler** _(Files & Data Formats)_
 
-**Focus:** **Advanced concepts**, professional development practices  
+**Focus:** Become fluent with **real‑world files and data formats** (text, CSV, JSON, simple serialization).  
 **Duration:** 5 hours (10 sessions × 30 min)  
 **Status:** 🔄 **Planned**
 
-**Core Topics:**
+**Actual Session Breakdown:**
 
-- **Advanced Function Concepts**
-  - Decorators, lambda functions, closures
-  - Generators and iterators deep-dive
-  - Context managers and `with` statements
-  - Functional programming concepts
-- **Command-Line Interfaces & Automation**
-  - argparse and click for CLI development
-  - System automation and scripting
-  - Working with environment variables and configuration
-- **Version Control Integration**
-  - Git basics for Python projects
-  - Project structure and organization
-  - Collaboration workflows
-- **Advanced Testing and Debugging**
-  - unittest and pytest frameworks
-  - Test-driven development (TDD) introduction
-  - Debugging techniques and tools
-  - Performance considerations and profiling
-- **Documentation and Code Quality**
-  - Docstrings and code documentation
-  - Code review practices and standards
-  - Refactoring techniques
+| Phase | Session | Topic                                                          | Type         | Status         |
+| ----- | ------- | -------------------------------------------------------------- | ------------ | -------------- |
+| A     | 1       | **Reviewing File I/O: Text vs Binary, Paths, Encodings**      | 📚 Knowledge | 🔄 **Planned** |
+| A     | 2       | **CSV Basics: Reading & Writing Tabular Data**                | 📚 Knowledge | 🔄 **Planned** |
+| A     | 3       | **JSON Basics: Nested Structures & Config‑Style Data**        | 📚 Knowledge | 🔄 **Planned** |
+| A     | 4       | **From Raw Text to Structured Data (Parsing & Cleaning)**     | 📚 Knowledge | 🔄 **Planned** |
+| A     | MP1     | **🚀 Mini Project 1: CSV/JSON Data Cleaner & Reporter**        | 🛠️ Project   | 🔄 **Planned** |
+| B     | 5       | **Building Simple Data Pipelines (Read → Transform → Write)** | 📚 Knowledge | 🔄 **Planned** |
+| B     | 6       | **Basic Serialization & Settings Files (Configs & States)**   | 📚 Knowledge | 🔄 **Planned** |
+| B     | 7       | **Robust File Handling: Errors, Missing Data & Validation**   | 📚 Knowledge | 🔄 **Planned** |
+| B     | 8       | **End‑to‑End File‑Based Mini App (Putting It All Together)**  | 📚 Knowledge | 🔄 **Planned** |
+| B     | MP2     | **🚀 Mini Project 2: File‑Based Data Dashboard / Reporter**    | 🛠️ Project   | 🔄 **Planned** |
+
+**Key Learning Focus:**
+
+**Phase A (Sessions 1–4 + MP1):**
+
+- Deepen understanding of **file I/O** from Level 2: text vs binary, encodings, safe path handling  
+- Work confidently with **CSV files**: headers, rows, reading, writing, and simple transformations  
+- Work confidently with **JSON files**: nested structures, lists vs dicts, mapping JSON ↔ Python data structures  
+- Practice turning **raw or messy text** into structured CSV/JSON data with minimal parsing and cleaning logic  
+- **Mini Project 1: CSV/JSON Data Cleaner & Reporter** – read a CSV or JSON file, clean/transform the data, and write out a simple summary or cleaned file
+
+**Phase B (Sessions 5–8 + MP2):**
+
+- Build **simple data pipelines** that read from one format, transform in Python, and write to another file  
+- Introduce **basic serialization and configuration** patterns (e.g. JSON settings, simple config files)  
+- Handle common file/data issues: missing files, bad rows, invalid values, and fallback defaults  
+- Design a small, end‑to‑end **file‑based mini application** that students can run and customize  
+- **Mini Project 2: File‑Based Data Dashboard / Reporter** – e.g. a gradebook/expense/report tool that reads CSV/JSON, computes summaries, and writes human‑readable reports
 
 **Mini Projects:**
 
-- Command-Line Personal Finance Manager (CLI + Database + Testing)
-- Automated File Processing Tool with Logging and Error Handling
-- Multi-format Data Converter with Full Documentation
+- **CSV/JSON Data Cleaner & Reporter** – clean and summarize a small dataset stored in CSV/JSON  
+- **File‑Based Data Dashboard / Reporter** – build a console‑based dashboard that reads data files, computes key metrics, and writes reports
 
-**Learning Outcome:** "I write clean, maintainable code following industry best practices!"
+**Learning Outcome:** "I can confidently read, clean, transform, and write common text/CSV/JSON data from Python, and build small file‑based tools that solve real data‑wrangling problems."
 
 ---
 
