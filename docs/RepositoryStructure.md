@@ -9,24 +9,37 @@ This document provides a detailed overview of the Python Fundamentals repository
 ```text
 python-fundamentals/
 ├── 📚 docs/
+│   ├── 01_Python-Fundamentals-MasterPlan.md  # Complete 18-level course master plan
 │   ├── images/                 # Screenshots and educational images
 │   │   └── S1/                 # Session 1 images
 │   ├── RepositoryStructure.md  # This file
 │   └── sessions/
-│       └── L1/                 # Level 1: Noob → Nerd
-│           ├── _Plan.md        # Complete Level 1 curriculum plan (sorts first)
-│           ├── 01_S1.md        # Session 1: Python Introduction & Environment
-│           ├── 02_S2.md        # Session 2: Variables & Data Types
-│           ├── 03_S3.md        # Session 3: Operators & Expressions
-│           ├── 04_S4.md        # Session 4: Conditionals & Modules
-│           ├── 05_MP1.md       # Mini Project 1: Simple Calculator
-│           ├── 06_S5.md        # Session 5: Loops & Iteration
-│           ├── 07_S6.md        # Session 6: Debugging & Built-ins
-│           ├── 08_S7.md        # Session 7: Lists & Loops
-│           ├── 09_S8.md        # Session 8: Dictionaries & Testing
-│           └── 10_MP2.md       # Mini Project 2: Profile Generator
+│       ├── L1/                 # Level 1: Noob → Nerd
+│       │   ├── _Plan.md        # Complete Level 1 curriculum plan (sorts first)
+│       │   ├── 01_S1.md        # Session 1: Python Introduction & Environment
+│       │   ├── 02_S2.md        # Session 2: Variables & Data Types
+│       │   ├── 03_S3.md        # Session 3: Operators & Expressions
+│       │   ├── 04_S4.md        # Session 4: Conditionals & Modules
+│       │   ├── 05_MP1.md       # Mini Project 1: Simple Calculator
+│       │   ├── 06_S5.md        # Session 5: Loops & Iteration
+│       │   ├── 07_S6.md        # Session 6: Debugging & Built-ins
+│       │   ├── 08_S7.md        # Session 7: Lists & Loops
+│       │   ├── 09_S8.md        # Session 8: Dictionaries & Testing
+│       │   └── 10_MP2.md       # Mini Project 2: Profile Generator
+│       └── L2/                 # Level 2: Nerd → Novice
+│           ├── _Plan.md        # Complete Level 2 curriculum plan
+│           ├── 01_S1.md        # Session 1: Sets & Tuples
+│           ├── 02_S2.md        # Session 2: List Comprehensions
+│           ├── 03_S3.md        # Session 3: Functions Basics
+│           ├── 04_S4.md        # Session 4: Error Handling
+│           ├── 05_MP1.md       # Mini Project 1: Data Processor
+│           ├── 06_S5.md        # Session 5: Functions Parameters
+│           ├── 07_S6.md        # Session 6: Functions Scope
+│           ├── 08_S7.md        # Session 7: File Handling
+│           ├── 09_S8.md        # Session 8: Modules Deep Dive
+│           └── 10_MP2.md       # Mini Project 2: Contact Manager
 ├── 💻 src/
-│   └── L1/
+│   ├── L1/
 │       ├── S1/                 # Session 1 practice files
 │       │   ├── 01_hello.py
 │       │   ├── 02_interactive_hello.py
@@ -63,6 +76,43 @@ python-fundamentals/
 │       │   └── simple_calculator.py
 │       └── MP2/                # Mini Project 2
 │           └── profile_generator.py
+│   └── L2/
+│       ├── S1/                 # Session 1 practice files
+│       │   ├── 01_sets_basics.py
+│       │   ├── 02_tuples_basics.py
+│       │   └── 03_conversions.py
+│       ├── S2/                 # Session 2 practice files
+│       │   ├── 01_basic_comprehensions.py
+│       │   ├── 02_filtered_comprehensions.py
+│       │   └── 03_practical_examples.py
+│       ├── S3/                 # Session 3 practice files
+│       │   ├── 01_basic_functions.py
+│       │   ├── 02_reusable_functions.py
+│       │   └── 03_organized_code.py
+│       ├── S4/                 # Session 4 practice files
+│       │   ├── 01_basic_error_handling.py
+│       │   ├── 02_multiple_exceptions.py
+│       │   └── 03_else_finally.py
+│       ├── S5/                 # Session 5 practice files
+│       │   ├── 01_basic_parameters.py
+│       │   ├── 02_parameter_types.py
+│       │   └── 03_return_values.py
+│       ├── S6/                 # Session 6 practice files
+│       │   ├── 01_local_scope.py
+│       │   ├── 02_global_scope.py
+│       │   └── 03_code_organization.py
+│       ├── S7/                 # Session 7 practice files
+│       │   ├── 01_reading_files.py
+│       │   ├── 02_writing_files.py
+│       │   └── 03_file_operations.py
+│       ├── S8/                 # Session 8 practice files
+│       │   ├── 01_creating_modules.py
+│       │   ├── 02_name_main.py
+│       │   └── 03_multi_file_project.py
+│       ├── MP1/                # Mini Project 1
+│       │   └── data_processor.py
+│       └── MP2/                # Mini Project 2
+│           └── contact_manager.py
 ├── 🔧 scripts/                 # Development and utility scripts
 │   ├── docs-lint.ps1           # Markdown linting script
 │   ├── docs-links.ps1          # Link validation script
@@ -190,9 +240,25 @@ Cursor AI configuration:
 | 9 | `09_S8.md` | Dictionaries & Testing | 3 files |
 | 10 | `10_MP2.md` | Mini Project: Profile Generator | 1 file |
 
+### Level 2 (Nerd → Novice) - ✅ Complete
+
+| # | File | Topic | Practice Files |
+|---|------|-------|----------------|
+| - | `_Plan.md` | Level Overview | - |
+| 1 | `01_S1.md` | Sets & Tuples | 3 files |
+| 2 | `02_S2.md` | List Comprehensions | 3 files |
+| 3 | `03_S3.md` | Functions: Definition & Basics | 3 files |
+| 4 | `04_S4.md` | Error Handling: try/except | 3 files |
+| 5 | `05_MP1.md` | Mini Project: Data Processor | 1 file |
+| 6 | `06_S5.md` | Functions: Parameters & Return | 3 files |
+| 7 | `07_S6.md` | Functions: Scope & Organization | 3 files |
+| 8 | `08_S7.md` | File Handling: Read & Write | 3 files |
+| 9 | `09_S8.md` | Modules Deep Dive | 3 files |
+| 10 | `10_MP2.md` | Mini Project: Contact Manager | 1 file |
+
 ### Future Levels
 
-- 🔄 **Level 2-9**: Planned for future development
+- 🔄 **Level 3-9**: Planned for future development
 
 ---
 
@@ -200,9 +266,9 @@ Cursor AI configuration:
 
 - **Main README**: [README.md](../README.md)
 - **Level 1 Plan**: [docs/sessions/L1/_Plan.md](sessions/L1/_Plan.md)
-- **Session 1**: [docs/sessions/L1/01_S1.md](sessions/L1/01_S1.md)
-- **Mini Project 1**: [docs/sessions/L1/05_MP1.md](sessions/L1/05_MP1.md)
-- **Mini Project 2**: [docs/sessions/L1/10_MP2.md](sessions/L1/10_MP2.md)
+- **Level 2 Plan**: [docs/sessions/L2/_Plan.md](sessions/L2/_Plan.md)
+- **L1 Session 1**: [docs/sessions/L1/01_S1.md](sessions/L1/01_S1.md)
+- **L2 Session 1**: [docs/sessions/L2/01_S1.md](sessions/L2/01_S1.md)
 
 ---
 

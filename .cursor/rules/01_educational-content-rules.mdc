@@ -433,7 +433,7 @@ print('Hello, World!')
 
 **Policy**:
 - ✅ Create `L{level}/S{session}/` directories when you have content ready to add
-- ✅ Follow the 9-level progression structure (L1 through L9)
+- ✅ Follow the multi-level progression structure (currently L1 through L18) and keep level references in sync with the master plan
 - ✅ Each level contains 10 sessions (S1 through S10) plus 2 mini projects
 - ✅ Add content progressively following Educational Content Rules
 - ✅ Create folder structure incrementally as curriculum develops

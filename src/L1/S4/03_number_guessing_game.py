@@ -10,6 +10,7 @@ print("Can you guess it?\n")
 
 # Generate secret number
 secret = random.randint(1, 10)
+print(f"(For testing purposes, the secret number is: {secret})")  # Remove or comment out in real game
 
 # Get player's guess
 guess = int(input("Enter your guess (1-10): "))
