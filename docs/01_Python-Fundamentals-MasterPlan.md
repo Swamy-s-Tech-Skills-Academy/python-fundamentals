@@ -590,9 +590,298 @@
 **Mini Projects:**
 
 - **Concurrent / Async Mini Tool** – a compact project that clearly demonstrates one advantage of concurrency or async in a controlled, understandable way  
-- **Capstone Package / CLI** – a polished, installable project that showcases the learner’s end‑to‑end skills from Level 1 all the way through Level 12
+- **Capstone Package / CLI** – a polished, installable project that showcases the learner’s end‑to‑end skills from Level 1 through advanced Python features and packaging
 
 **Learning Outcome:** "I understand what advanced Python features can do, when to use them, and how to package and share my own tools, so I can keep exploring Python with curiosity and confidence beyond this course."
+
+---
+
+### **🗄️ Level 13: Curious Learner → Data Platform Explorer** _(Production Relational Databases)_
+
+**Focus:** Move from **toy databases** to working confidently with **production-grade relational databases** (Microsoft SQL Server and PostgreSQL) from Python.  
+**Duration:** 5 hours (10 sessions × 30 min)  
+**Status:** 🔄 **Planned**
+
+**Actual Session Breakdown:**
+
+| Phase | Session | Topic                                                                                 | Type         | Status         |
+| ----- | ------- | ------------------------------------------------------------------------------------- | ------------ | -------------- |
+| A     | 1       | **SQL Server & PostgreSQL Overview: Architecture, Tools & Local Setup**              | 📚 Knowledge | 🔄 **Planned** |
+| A     | 2       | **Connecting from Python: Drivers, Connection Strings & Parameterized Queries**      | 📚 Knowledge | 🔄 **Planned** |
+| A     | 3       | **Schemas, Keys & Constraints in Production Databases**                              | 📚 Knowledge | 🔄 **Planned** |
+| A     | 4       | **Indexes & Query Performance 101 (Execution Plans at a Glance)**                    | 📚 Knowledge | 🔄 **Planned** |
+| A     | MP1     | **🚀 Mini Project 1: Port a SQLite App to PostgreSQL or SQL Server**                 | 🛠️ Project   | 🔄 **Planned** |
+| B     | 5       | **Working with SQLAlchemy (Core + Simple ORM Models)**                               | 📚 Knowledge | 🔄 **Planned** |
+| B     | 6       | **Environments & Migrations: Dev/Test/Prod, Alembic‑Style Migration Basics**         | 📚 Knowledge | 🔄 **Planned** |
+| B     | 7       | **Multi‑Database Support & Vendor Differences (SQLite vs PostgreSQL vs SQL Server)** | 📚 Knowledge | 🔄 **Planned** |
+| B     | 8       | **Designing a Reusable Data Access Layer for a Small App**                           | 📚 Knowledge | 🔄 **Planned** |
+| B     | MP2     | **🚀 Mini Project 2: Production‑Style Data Layer Library / Module**                   | 🛠️ Project   | 🔄 **Planned** |
+
+**Key Learning Focus:**
+
+**Phase A (Sessions 1–4 + MP1):**
+
+- Understand the **role of enterprise databases** and how SQL Server and PostgreSQL fit into real systems  
+- Install and use basic tools (`sqlcmd` / SQL Server Management Studio, `psql` / pgAdmin) to inspect databases and run queries  
+- Connect to SQL Server/PostgreSQL from Python using appropriate drivers and **safe, parameterized queries**  
+- Design and refine schemas with **primary keys, foreign keys, unique constraints, and basic normalization**  
+- Read simple **execution plans**, add indexes, and observe how they affect query performance  
+- **Mini Project 1: Port a SQLite App to PostgreSQL or SQL Server** – take a Level 6‑style app and move its data layer to a real RDBMS, updating connection code and SQL where needed
+
+**Phase B (Sessions 5–8 + MP2):**
+
+- Use **SQLAlchemy Core and a small slice of ORM** to reduce boilerplate and model tables as Python classes  
+- Understand **environment separation** (dev/test/prod) and the concept of migrations (Alembic‑style) for evolving schemas over time  
+- Compare vendor differences (types, AUTO INCREMENT vs IDENTITY/SERIAL, LIMIT/OFFSET vs TOP) and design code that can adapt where reasonable  
+- Organize a **reusable data access layer** (DAL) as a module that can be imported by services/CLIs in later levels  
+- **Mini Project 2: Production‑Style Data Layer Library / Module** – package a small DAL (for tasks/orders/etc.) that supports SQLite in dev and PostgreSQL or SQL Server in “production” using configuration
+
+**Mini Projects:**
+
+- **SQLite → Postgres/SQL Server Migration** – update a previous SQLite‑backed mini‑project to run on PostgreSQL or SQL Server with proper connection handling and schema setup  
+- **Reusable Data Layer Module** – a small but realistic DAL package that other projects in later levels can import and build on
+
+**Learning Outcome:** "I can connect Python applications to production‑grade relational databases (SQL Server and PostgreSQL), design sensible schemas with keys and indexes, and build a small, reusable data layer that prepares me for real backend work."
+
+---
+
+### **🧱 Level 14: Data Platform Explorer → Data Systems Builder** _(Document DBs & Caching)_
+
+**Focus:** Learn to **model data for a document database** and use **Redis as a cache/key‑value store**, understanding when and why to choose them and how to integrate them with your existing relational stack.  
+**Duration:** 5 hours (10 sessions × 30 min)  
+**Status:** 🔄 **Planned**
+
+**Actual Session Breakdown:**
+
+| Phase | Session | Topic                                                                                          | Type         | Status         |
+| ----- | ------- | ---------------------------------------------------------------------------------------------- | ------------ | -------------- |
+| A     | 1       | **Document Databases 101: Collections, Documents & When to Use Them**                         | 📚 Knowledge | 🔄 **Planned** |
+| A     | 2       | **Hands‑On with a Mongo‑Style Document DB from Python (CRUD & Simple Queries)**               | 📚 Knowledge | 🔄 **Planned** |
+| A     | 3       | **Modeling in a Document DB: Embedding vs Referencing & Basic Aggregations**                  | 📚 Knowledge | 🔄 **Planned** |
+| A     | 4       | **Indexes, Query Patterns & Evolving Schemas in Document DBs**                                | 📚 Knowledge | 🔄 **Planned** |
+| A     | MP1     | **🚀 Mini Project 1: Document‑Backed Feature for an Existing App**                             | 🛠️ Project   | 🔄 **Planned** |
+| B     | 5       | **Redis Fundamentals: Keys, Expiry & Basic Data Structures**                                  | 📚 Knowledge | 🔄 **Planned** |
+| B     | 6       | **Caching Patterns with Redis: Read‑Through, Write‑Through & TTL‑Based Caches**              | 📚 Knowledge | 🔄 **Planned** |
+| B     | 7       | **Combining Relational + Document DB + Redis in a Small System**                              | 📚 Knowledge | 🔄 **Planned** |
+| B     | 8       | **Connection Management, Timeouts & Configuration for Doc DB + Redis**                        | 📚 Knowledge | 🔄 **Planned** |
+| B     | MP2     | **🚀 Mini Project 2: Hybrid Data Stack Demo (RDBMS + Document DB + Redis Cache)**             | 🛠️ Project   | 🔄 **Planned** |
+
+**Key Learning Focus:**
+
+**Phase A (Sessions 1–4 + MP1):**
+
+- Understand when **document databases** are a better fit than strict relational schemas (flexible documents, evolving fields, nested data)  
+- Learn core concepts: collections, documents, `_id`, basic queries and filters, and how they relate to JSON and Python dicts  
+- Practice **modeling data** using embedding vs referencing, and run simple aggregation‑style queries for summaries/reports  
+- See how **indexes** improve common query patterns and what “schema on read” feels like in practice  
+- **Mini Project 1: Document‑Backed Feature** – add a feature (e.g. activity log, flexible profile, settings, or audit history) to an existing app using a document DB instead of a relational table
+
+**Phase B (Sessions 5–8 + MP2):**
+
+- Learn **Redis basics**: connecting, setting/getting keys, expirations (TTL), and a small set of core data structures (strings, hashes, lists)  
+- Implement simple **caching patterns**: cached lookups, per‑user data cache, rate‑limit‑style counters using TTLs  
+- Design a tiny system that uses **relational DB for core records**, **document DB for flexible/secondary data**, and **Redis for fast caching**  
+- Apply **connection management and configuration** patterns: environment variables, connection pooling concepts, sane timeouts/fallbacks  
+- **Mini Project 2: Hybrid Data Stack Demo** – a small API/CLI that reads/writes from RDBMS, stores flexible metadata in a document DB, and uses Redis to cache expensive reads
+
+**Mini Projects:**
+
+- **Document‑Backed Feature** – enhance a previous relational project by moving one flexible/optional data area into a document DB  
+- **Hybrid Data Stack Demo** – a small end‑to‑end example that combines RDBMS, document DB, and Redis caching in a coherent, understandable way
+
+**Learning Outcome:** "I can choose when to use a document database versus a relational database, integrate a Mongo‑style document store and Redis into a Python application, and design small systems that use the right data store for the right job."
+
+---
+
+### **📡 Level 15: Data Systems Builder → Service Integrator** _(Messaging, Streaming & Deep Testing)_
+
+**Focus:** Understand **messaging and streaming systems** (RabbitMQ & Kafka) and learn how to design, test, and debug small **message‑driven Python services** with solid unit and integration tests.  
+**Duration:** 5 hours (10 sessions × 30 min)  
+**Status:** 🔄 **Planned**
+
+**Actual Session Breakdown:**
+
+| Phase | Session | Topic                                                                                  | Type         | Status         |
+| ----- | ------- | -------------------------------------------------------------------------------------- | ------------ | -------------- |
+| A     | 1       | **Messaging & Streaming 101: Queues, Topics & When to Use Them**                      | 📚 Knowledge | 🔄 **Planned** |
+| A     | 2       | **RabbitMQ from Python: Producers, Consumers & Acknowledgements**                     | 📚 Knowledge | 🔄 **Planned** |
+| A     | 3       | **Kafka from Python: Topics, Partitions & Simple Consumer Groups**                    | 📚 Knowledge | 🔄 **Planned** |
+| A     | 4       | **Designing Message‑Driven Flows for a Small Application**                            | 📚 Knowledge | 🔄 **Planned** |
+| A     | MP1     | **🚀 Mini Project 1: RabbitMQ‑Backed Background Worker for an Existing Feature**      | 🛠️ Project   | 🔄 **Planned** |
+| B     | 5       | **Advanced Unit Testing: Mocks, Fakes & Testing Around Message Boundaries**          | 📚 Knowledge | 🔄 **Planned** |
+| B     | 6       | **Integration Testing with Real Infrastructure (DB + RabbitMQ + Kafka via Containers)** | 📚 Knowledge | 🔄 **Planned** |
+| B     | 7       | **Contract & Schema Testing for Messages (Payload Validation & Backwards Compatibility)** | 📚 Knowledge | 🔄 **Planned** |
+| B     | 8       | **End‑to‑End Scenarios & Debugging Asynchronous Flows**                              | 📚 Knowledge | 🔄 **Planned** |
+| B     | MP2     | **🚀 Mini Project 2: Message‑Driven Mini Service with Full Test Suite**               | 🛠️ Project   | 🔄 **Planned** |
+
+**Key Learning Focus:**
+
+**Phase A (Sessions 1–4 + MP1):**
+
+- Build a clear intuition for **why messaging/streaming exists** (decoupling, buffering, resilience) and basic trade‑offs versus direct HTTP calls  
+- Learn core RabbitMQ concepts (exchanges, queues, bindings) and implement a simple **producer/consumer** pair in Python with acknowledgements  
+- Learn core Kafka concepts (topics, partitions, offsets, consumer groups) and implement a **basic producer and consumer** in Python  
+- Design a **message‑driven flow** for a small feature (commands vs events, idempotent processing at a conceptual level)  
+- **Mini Project 1: RabbitMQ‑Backed Background Worker** – take an existing feature (e.g. email sending, report generation, thumbnail creation) and move the heavy work into a RabbitMQ worker process
+
+**Phase B (Sessions 5–8 + MP2):**
+
+- Deepen **unit testing** skills at service boundaries using mocks/fakes for message brokers and external systems  
+- Set up **integration tests** that run against real infrastructure (databases, RabbitMQ, Kafka) using local containers or test instances  
+- Introduce simple **contract/schema testing** for message payloads so producers and consumers stay compatible over time  
+- Practice designing and running **end‑to‑end test scenarios** that cover async behaviour, retries, and failure handling paths  
+- **Mini Project 2: Message‑Driven Mini Service with Full Test Suite** – build a tiny but realistic service that processes messages via RabbitMQ/Kafka and is covered by unit, integration, and basic contract tests
+
+**Mini Projects:**
+
+- **RabbitMQ‑Backed Background Worker** – offload one expensive operation from a previous project into an asynchronous worker using RabbitMQ  
+- **Message‑Driven Mini Service with Tests** – a small but complete service that demonstrates messaging, streaming concepts, and robust testing around them
+
+**Learning Outcome:** "I can design small message‑driven Python services that use RabbitMQ and Kafka, and I know how to write unit, integration, and basic contract tests so that these services remain reliable as they evolve."
+
+---
+
+### **🌐 Level 16: Service Integrator → Service Builder** _(End‑to‑End Service Foundations)_
+
+**Focus:** Build a **small, end‑to‑end HTTP service** that exposes APIs, talks to real databases, and is structured with clear layers and tests – turning all previous levels into a working service.  
+**Duration:** 5 hours (10 sessions × 30 min)  
+**Status:** 🔄 **Planned**
+
+**Actual Session Breakdown:**
+
+| Phase | Session | Topic                                                                                  | Type         | Status         |
+| ----- | ------- | -------------------------------------------------------------------------------------- | ------------ | -------------- |
+| A     | 1       | **From Scripts to Services: HTTP, REST & Resource Modeling Basics**                   | 📚 Knowledge | 🔄 **Planned** |
+| A     | 2       | **Designing API Endpoints & Request/Response Schemas (JSON Contracts)**               | 📚 Knowledge | 🔄 **Planned** |
+| A     | 3       | **Implementing a Simple CRUD API with a Python Web Framework**                        | 📚 Knowledge | 🔄 **Planned** |
+| A     | 4       | **Hooking the API to the Data Layer (DB Repositories + Basic Validation)**            | 📚 Knowledge | 🔄 **Planned** |
+| A     | MP1     | **🚀 Mini Project 1: CRUD Microservice for an Existing Domain (Tasks/Contacts/etc.)** | 🛠️ Project   | 🔄 **Planned** |
+| B     | 5       | **Service Structure: Routers/Controllers, Services & Repositories**                   | 📚 Knowledge | 🔄 **Planned** |
+| B     | 6       | **Basic Security & Guardrails: Simple Auth, Input Validation & Error Handling**       | 📚 Knowledge | 🔄 **Planned** |
+| B     | 7       | **Testing the Service: Unit Tests for Logic, Functional Tests for Endpoints**         | 📚 Knowledge | 🔄 **Planned** |
+| B     | 8       | **Running the Service Locally: Environments, Config & Simple Documentation**          | 📚 Knowledge | 🔄 **Planned** |
+| B     | MP2     | **🚀 Mini Project 2: End‑to‑End Service with DB, Tests & API Documentation**          | 🛠️ Project   | 🔄 **Planned** |
+
+**Key Learning Focus:**
+
+**Phase A (Sessions 1–4 + MP1):**
+
+- Understand how to go from **Python scripts** to a simple **HTTP/JSON API** that exposes clear resources (tasks, users, orders, etc.)  
+- Design **endpoint contracts** (URLs, methods, request/response bodies, status codes) and represent them as JSON schemas or simple models  
+- Implement a small CRUD API using a modern Python web framework (e.g. FastAPI or Flask) with clear separation between routing and logic  
+- Connect API endpoints to the **existing data layer** (from Levels 6, 13, 14) via repository functions, with basic validation and error handling  
+- **Mini Project 1: CRUD Microservice** – build a minimal but real microservice (e.g. Task/Contact/Order service) that supports create/read/update/delete via HTTP
+
+**Phase B (Sessions 5–8 + MP2):**
+
+- Apply layering: **routers/controllers → services → repositories**, and keep business rules out of the HTTP layer  
+- Add basic **auth/guardrails** appropriate to the course level (e.g. simple API key or token stub, role‑less auth, or “owner‑only” checks)  
+- Write tests at two levels: **unit tests** for business logic and repository functions, and **functional tests** for HTTP endpoints (using a test client)  
+- Run the service locally with simple **environment‑based configuration**, and provide lightweight **API documentation** (OpenAPI/docs page or Markdown)  
+- **Mini Project 2: End‑to‑End Service** – an API service that uses a real DB, has clear layers, includes tests, and is documented enough for another learner to consume
+
+**Mini Projects:**
+
+- **CRUD Microservice** – a small REST‑style API wrapped around an existing domain (tasks, contacts, inventory, etc.) backed by a real database  
+- **End‑to‑End Service with Docs** – a more polished version with layers, tests, error handling, and basic documentation for consumers
+
+**Learning Outcome:** "I can design and implement a small, well‑structured HTTP API service in Python that talks to real databases, has clear layers, and is covered by meaningful tests and documentation."
+
+---
+
+### **🛡️ Level 17: Service Builder → Systems Crafter** _(Service Hardening & Observability)_
+
+**Focus:** Make services **robust and observable** by improving configuration, logging, metrics, health checks, and learning how to run them in **Docker‑based environments** that feel closer to production.  
+**Duration:** 5 hours (10 sessions × 30 min)  
+**Status:** 🔄 **Planned**
+
+**Actual Session Breakdown:**
+
+| Phase | Session | Topic                                                                                   | Type         | Status         |
+| ----- | ------- | --------------------------------------------------------------------------------------- | ------------ | -------------- |
+| A     | 1       | **Service Hardening 101: Failure Modes, Timeouts & Retries**                           | 📚 Knowledge | 🔄 **Planned** |
+| A     | 2       | **Structured Logging & Log Levels for Services**                                       | 📚 Knowledge | 🔄 **Planned** |
+| A     | 3       | **Configuration Management: Env Vars, Config Files & 12‑Factor Basics**               | 📚 Knowledge | 🔄 **Planned** |
+| A     | 4       | **Health Checks & Basic Metrics (Counters, Timers, Gauges)**                           | 📚 Knowledge | 🔄 **Planned** |
+| A     | MP1     | **🚀 Mini Project 1: Harden an Existing Service (Timeouts, Logs, Health Endpoint)**    | 🛠️ Project   | 🔄 **Planned** |
+| B     | 5       | **Docker for Python Services: Writing a Simple, Production‑Friendly Dockerfile**      | 📚 Knowledge | 🔄 **Planned** |
+| B     | 6       | **Docker Compose: Running Service + DB/Redis/RabbitMQ Together Locally**               | 📚 Knowledge | 🔄 **Planned** |
+| B     | 7       | **Observability in Containers: Logs, Metrics & Simple Dashboards**                     | 📚 Knowledge | 🔄 **Planned** |
+| B     | 8       | **Production‑Like Environments: Resource Limits, Readiness & Rollout Basics**          | 📚 Knowledge | 🔄 **Planned** |
+| B     | MP2     | **🚀 Mini Project 2: Containerized, Observable Mini Stack (Service + Infra)**          | 🛠️ Project   | 🔄 **Planned** |
+
+**Key Learning Focus:**
+
+**Phase A (Sessions 1–4 + MP1):**
+
+- Identify common **failure modes** in services (network errors, timeouts, partial failures) and introduce basic timeouts/retries where appropriate  
+- Use **structured logging** and log levels (DEBUG/INFO/WARN/ERROR) to make issues diagnosable in production‑like environments  
+- Apply simple **configuration management** patterns: environment variables, layered configs, secrets separation, and 12‑factor‑style ideas  
+- Implement lightweight **health and readiness checks** plus **basic metrics** (e.g. request counts, latency timings, error rates) using a friendly Python metrics library  
+- **Mini Project 1: Harden an Existing Service** – take the Level 16 service and add better error handling, logging, configuration, and a `/health`‑style endpoint with simple metrics
+
+**Phase B (Sessions 5–8 + MP2):**
+
+- Write a **production‑friendly Dockerfile** for a Python service (small image, clear entrypoint, correct working directory and dependencies)  
+- Use **Docker Compose** to run a local stack: service + database + Redis/RabbitMQ, wiring configuration via environment variables  
+- Learn how to **collect logs and metrics from containers**, and view them in simple dashboards or CLI tools for troubleshooting  
+- Understand high‑level **deployment concepts**: resource limits, graceful shutdown, rolling restarts, and what “production‑like” really means for learners  
+- **Mini Project 2: Containerized, Observable Mini Stack** – package the Level 16/17 service and its dependencies into a small Docker Compose setup, complete with logs, health checks, and basic metrics
+
+**Mini Projects:**
+
+- **Hardened Service** – a version of the Level 16 API with improved configuration, logging, health checks, and basic metrics  
+- **Observable Containerized Stack** – a small multi‑container environment (service + infra) that demonstrates how to run, observe, and troubleshoot a Python service
+
+**Learning Outcome:** "I can take a working Python service and harden it with better configuration, logging, health checks, metrics, and Docker‑based deployment so it behaves more like a real production system."
+
+---
+
+### **🏁 Level 18: Systems Crafter → Curious Professional** _(Capstone Project & Portfolio)_
+
+**Focus:** Consolidate everything into a **single capstone project** with real‑world structure, docs, tests, packaging, and CI/CD – and turn it into a strong **portfolio piece and learning roadmap**.  
+**Duration:** 5 hours (10 sessions × 30 min)  
+**Status:** 🔄 **Planned**
+
+**Actual Session Breakdown:**
+
+| Phase | Session | Topic                                                                                                 | Type         | Status         |
+| ----- | ------- | ----------------------------------------------------------------------------------------------------- | ------------ | -------------- |
+| A     | 1       | **Choosing & Scoping Your Capstone (Domain, Users, Success Criteria)**                               | 📚 Knowledge | 🔄 **Planned** |
+| A     | 2       | **Writing a Lightweight Design Doc (Architecture, Data, Interfaces)**                                | 📚 Knowledge | 🔄 **Planned** |
+| A     | 3       | **Integrating Building Blocks: DB, Caching, Messaging & HTTP APIs**                                  | 📚 Knowledge | 🔄 **Planned** |
+| A     | 4       | **Capstone Implementation Sprint 1 (Core Functionality)**                                            | 📚 Knowledge | 🔄 **Planned** |
+| A     | MP1     | **🚀 Mini Project 1: Capstone MVP (End‑to‑End Happy Path Working)**                                  | 🛠️ Project   | 🔄 **Planned** |
+| B     | 5       | **Docs & Developer Experience: README, API Docs & Quickstart**                                       | 📚 Knowledge | 🔄 **Planned** |
+| B     | 6       | **CI/CD Basics: Automated Tests, Linting & Simple Deployment Pipeline (e.g. GitHub Actions)**        | 📚 Knowledge | 🔄 **Planned** |
+| B     | 7       | **Polishing & Refactoring: Code Quality Pass, Logging/Metrics Review, Packaging for Reuse**          | 📚 Knowledge | 🔄 **Planned** |
+| B     | 8       | **Storytelling & Next Steps: Writing a Portfolio Case Study & Future Learning Roadmap**              | 📚 Knowledge | 🔄 **Planned** |
+| B     | MP2     | **🚀 Mini Project 2: Capstone v1.0 Release (Tagged, Documented & Showcased in Portfolio)**           | 🛠️ Project   | 🔄 **Planned** |
+
+**Key Learning Focus:**
+
+**Phase A (Sessions 1–4 + MP1):**
+
+- Choose a **realistic yet manageable domain** (tracker, dashboard, small SaaS‑like tool, automation utility, etc.) with clear users and outcomes  
+- Write a short **design document** that sketches architecture, data stores, key APIs, and any background jobs or messaging flows  
+- Decide which earlier building blocks to include (SQL/NoSQL, Redis, RabbitMQ/Kafka, CLI vs HTTP API, etc.) and how they fit together  
+- Implement the **core end‑to‑end flow** first (one or two main user journeys) before adding optional features  
+- **Mini Project 1: Capstone MVP** – a working slice of the final project that exercises key technologies and patterns from previous levels
+
+**Phase B (Sessions 5–8 + MP2):**
+
+- Create high‑quality **developer documentation**: a clear README, architecture overview, and basic API docs or usage examples  
+- Configure **CI/CD basics**: run tests and linters automatically on push/PR, and optionally publish a package or Docker image to a registry  
+- Do a final **refactoring and polishing pass**: tidy modules, improve naming, ensure logs/metrics are meaningful, and package/shared components are reusable  
+- Write a short **portfolio case study**: problem, approach, stack, challenges, and what was learned, plus a personal roadmap for next skills  
+- **Mini Project 2: Capstone v1.0 Release** – tag a release, ensure CI passes, docs are up to date, and the project is ready to be shown to others
+
+**Mini Projects:**
+
+- **Capstone MVP** – the first fully working version of the capstone that demonstrates an end‑to‑end flow using the learner’s chosen stack  
+- **Capstone v1.0 Release & Portfolio Entry** – a polished, documented, tested, and versioned project that can be linked in a CV or profile
+
+**Learning Outcome:** "I can design, implement, document, test, package, and ship a small but realistic Python system that I’m proud to show others, and I know how to plan my next steps as a curious professional."
 
 ---
 
