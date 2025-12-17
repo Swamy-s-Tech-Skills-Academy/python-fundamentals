@@ -500,6 +500,54 @@
 
 ---
 
+### **🔌 Level 11: Stdlib Specialist → Pro Toolsmith** _(Third‑Party Ecosystem)_
+
+**Focus:** Get comfortable with a **curated set of third‑party libraries and tools** that show up in real Python projects (HTTP, spreadsheets, CLIs, testing, config).  
+**Duration:** 5 hours (10 sessions × 30 min)  
+**Status:** 🔄 **Planned**
+
+**Actual Session Breakdown:**
+
+| Phase | Session | Topic                                                                  | Type         | Status         |
+| ----- | ------- | ---------------------------------------------------------------------- | ------------ | -------------- |
+| A     | 1       | **Third‑Party Libraries 101: pip, venvs & Choosing Dependencies**     | 📚 Knowledge | 🔄 **Planned** |
+| A     | 2       | **HTTP & JSON APIs with `requests` (GET + Params + JSON)**            | 📚 Knowledge | 🔄 **Planned** |
+| A     | 3       | **Working with Excel & Tabular Data using `openpyxl`**                | 📚 Knowledge | 🔄 **Planned** |
+| A     | 4       | **Configuration & Secrets: `.env`, `configparser`, Basic Validation** | 📚 Knowledge | 🔄 **Planned** |
+| A     | MP1     | **🚀 Mini Project 1: API‑to‑Excel Reporter CLI**                       | 🛠️ Project   | 🔄 **Planned** |
+| B     | 5       | **Building Polished CLIs with `click`**                               | 📚 Knowledge | 🔄 **Planned** |
+| B     | 6       | **Better Terminal UX with `rich` and Progress with `tqdm`**           | 📚 Knowledge | 🔄 **Planned** |
+| B     | 7       | **Everyday Testing with `pytest` (Basics & Parametrized Tests)**      | 📚 Knowledge | 🔄 **Planned** |
+| B     | 8       | **Formatting & Linting in Practice (black, isort, flake8 Intro)**     | 📚 Knowledge | 🔄 **Planned** |
+| B     | MP2     | **🚀 Mini Project 2: Fully Tooled CLI App in a Clean Repo**           | 🛠️ Project   | 🔄 **Planned** |
+
+**Key Learning Focus:**
+
+**Phase A (Sessions 1–4 + MP1):**
+
+- Understand how to **install and manage dependencies** safely (pip, virtual environments at a conceptual level)  
+- Use `requests` to call real JSON APIs (status codes, basic error handling, decoding JSON)  
+- Read and write **Excel workbooks** with `openpyxl`, and relate them to CSV/JSON workflows from earlier levels  
+- Store configuration and secrets more safely with `.env`‑style files and `configparser` / simple validation patterns  
+- **Mini Project 1: API‑to‑Excel Reporter CLI** – for example, fetch from a public API and write a cleaned/filtered summary into an Excel file via a CLI
+
+**Phase B (Sessions 5–8 + MP2):**
+
+- Build **user‑friendly CLIs** with `click` (commands, options, help text)  
+- Improve terminal UX using `rich` (colours, tables) and `tqdm` for progress bars on longer operations  
+- Write and run **pytest** tests for a small project (basic assertions, parametrized tests, simple fixtures)  
+- Introduce an opinionated **format/lint workflow** (black, isort, flake8) and wire them into the everyday dev loop  
+- **Mini Project 2: Fully Tooled CLI App** – a small, realistic CLI (e.g. data fetcher/reporter) that uses `requests`, `openpyxl` or CSV, `click`, `rich`/`tqdm`, pytest tests, and basic formatting/linting in a clean Git repo
+
+**Mini Projects:**
+
+- **API‑to‑Excel Reporter CLI** – fetch JSON data from an API and export it into Excel with a simple CLI interface  
+- **Fully Tooled CLI App** – a portfolio‑ready CLI that demonstrates dependency management, good UX, tests, and basic formatting/linting
+
+**Learning Outcome:** "I can confidently bring in and use key third‑party libraries – for HTTP APIs, spreadsheets, CLIs, testing, and formatting – and wire them into small projects that look and feel like real, professional Python tools."
+
+---
+
 ## 📊 **Overall Learning Journey Map**
 
 | Level | From → To                            | Core Focus                      | Key Technologies                         | Learning Mindset                 |
