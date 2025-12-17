@@ -9,7 +9,7 @@ This document provides a detailed overview of the Python Fundamentals repository
 ```text
 python-fundamentals/
 ├── 📚 docs/
-│   ├── 01_Python-Fundamentals-MasterPlan.md  # Complete 12-level course master plan
+│   ├── 01_Python-Fundamentals-MasterPlan.md  # Complete 18-level course master plan
 │   ├── images/                 # Screenshots and educational images
 │   │   └── S1/                 # Session 1 images
 │   ├── RepositoryStructure.md  # This file

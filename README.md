@@ -1,6 +1,6 @@
 # 🐍 Python Fundamentals: From clueless to curious
 
-A comprehensive, transformation-focused Python curriculum designed to take you from complete beginner to confident Python programmer through 12 progressive levels.
+A comprehensive, transformation-focused Python curriculum designed to take you from complete beginner to confident Python programmer through 18 progressive levels.
 
 > **Format:** Each level contains 5 hours of training (10 sessions × 30 minutes) culminating in 2 hands-on mini projects.
 
@@ -10,26 +10,32 @@ A comprehensive, transformation-focused Python curriculum designed to take you f
 
 📖 **See:** [docs/RepositoryStructure.md](docs/RepositoryStructure.md) — Complete structure documentation (single source of truth)
 
-📋 **See:** [docs/01_Python-Fundamentals-MasterPlan.md](docs/01_Python-Fundamentals-MasterPlan.md) — Complete 12-level course master plan
+📋 **See:** [docs/01_Python-Fundamentals-MasterPlan.md](docs/01_Python-Fundamentals-MasterPlan.md) — Complete 18-level course master plan
 
 ---
 
-## 🎯 **The 12-Level Python Journey**
+## 🎯 **The 18-Level Python Journey**
 
-| Level | Journey Stage                        | Focus                                                                                                                                                                              | Status         |
-| ----- | ------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------- |
-| 1     | Noob → Nerd                          | _Environment setup, variables, data types, operators, conditionals, loops, debugging, lists, dictionaries, testing, 2 mini projects_. 📋 **[View Plan](docs/sessions/L1/_Plan.md)** | ✅ **Complete** |
-| 2     | Nerd → Novice                        | _Sets, tuples, list comprehensions, functions, error handling, file I/O, modules, 2 mini projects_. 📋 **[View Plan](docs/sessions/L2/_Plan.md)** | ✅ **Complete** |
-| 3     | Novice → Object Thinker              | _Core OOP fundamentals: classes, objects, methods, encapsulation._                                                                                                                | ⏭️ Coming Next |
-| 4     | Object Thinker → Design Learner      | _OOP design & beginner clean code: simple patterns in classes, basic testing, and refactoring habits._                                                                           | 🔄 Future      |
-| 5     | Design Learner → Data Wrangler       | _Files and data formats: CSV, JSON, basic serialization, and file‑driven mini‑projects._                                                                                         | 🔄 Future      |
-| 6     | Data Wrangler → DB Beginner          | _Relational databases with SQLite: schema design, CRUD, simple joins, and Python integration._                                                                                   | 🔄 Future      |
-| 7     | DB Beginner → Integration Novice     | _Intro to NoSQL concepts and HTTP/JSON APIs; integrating external data sources safely._                                                                                          | 🔄 Future      |
-| 8     | Integration Novice → Practitioner    | _Clean code practices, CLI tooling, Git workflows, and systematic testing/debugging._                                                                                            | 🔄 Future      |
-| 9     | Practitioner → Patterned Coder       | _Core design patterns and lightweight architecture for console and small apps._                                                                                                  | 🔄 Future      |
-| 10    | Patterned Coder → Stdlib Specialist  | _Python Standard Library mastery (os/pathlib, datetime, collections/itertools, logging, etc.)._                                                                                 | 🔄 Future      |
-| 11    | Stdlib Specialist → Pro Toolsmith    | _Key third‑party libraries: requests, openpyxl, click/rich, pytest, config tools, and modern Python tooling._                                                                   | 🔄 Future      |
-| 12    | Pro Toolsmith → Curious Learner      | _Advanced Python features (asyncio, multiprocessing), performance profiling, packaging, and professional/career practices._                                                      | 🔄 Future      |
+| Level | Journey Stage                                  | Focus                                                                                                                                                                              | Status         |
+| ----- | ---------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------- |
+| 1     | Noob → Nerd                                    | _Environment setup, variables, data types, operators, conditionals, loops, debugging, lists, dictionaries, testing, 2 mini projects_. 📋 **[View Plan](docs/sessions/L1/_Plan.md)** | ✅ **Complete** |
+| 2     | Nerd → Novice                                  | _Sets, tuples, list comprehensions, functions, error handling, file I/O, modules, 2 mini projects_. 📋 **[View Plan](docs/sessions/L2/_Plan.md)** | ✅ **Complete** |
+| 3     | Novice → Object Thinker                        | _Core OOP fundamentals: classes, objects, methods, encapsulation._                                                                                                                | ⏭️ Coming Next |
+| 4     | Object Thinker → Design Learner                | _OOP design & beginner clean code: simple patterns in classes, basic testing, and refactoring habits._                                                                           | 🔄 Future      |
+| 5     | Design Learner → Data Wrangler                 | _Files and data formats: CSV, JSON, basic serialization, and file‑driven mini‑projects._                                                                                         | 🔄 Future      |
+| 6     | Data Wrangler → DB Beginner                    | _Relational databases with SQLite: schema design, CRUD, simple joins, and Python integration._                                                                                   | 🔄 Future      |
+| 7     | DB Beginner → Integration Novice               | _Intro to NoSQL concepts and HTTP/JSON APIs; integrating external data sources safely._                                                                                          | 🔄 Future      |
+| 8     | Integration Novice → Practitioner              | _Clean code practices, CLI tooling, Git workflows, and systematic testing/debugging._                                                                                            | 🔄 Future      |
+| 9     | Practitioner → Patterned Coder                 | _Core design patterns and lightweight architecture for console and small apps._                                                                                                  | 🔄 Future      |
+| 10    | Patterned Coder → Stdlib Specialist            | _Python Standard Library mastery (os/pathlib, datetime, collections/itertools, logging, etc.)._                                                                                 | 🔄 Future      |
+| 11    | Stdlib Specialist → Pro Toolsmith              | _Key third‑party libraries: requests, openpyxl, click/rich, pytest, config tools, and modern Python tooling._                                                                   | 🔄 Future      |
+| 12    | Pro Toolsmith → Curious Learner                | _Advanced Python features (asyncio, multiprocessing), performance profiling, packaging, and professional/career practices._                                                      | 🔄 Future      |
+| 13    | Curious Learner → Data Platform Explorer       | _Production relational databases: SQL Server, PostgreSQL, and light ORM patterns._                                                                                               | 🔄 Future      |
+| 14    | Data Platform Explorer → Data Systems Builder  | _Document databases and caching: Mongo-style Document DB and Redis caching patterns._                                                                                            | 🔄 Future      |
+| 15    | Data Systems Builder → Service Integrator      | _Messaging, streaming, and robust testing with RabbitMQ, Kafka, and advanced unit/integration tests._                                                                           | 🔄 Future      |
+| 16    | Service Integrator → Service Builder           | _End-to-end service design: simple HTTP API plus database integration and tests._                                                                                                | 🔄 Future      |
+| 17    | Service Builder → Systems Crafter              | _Service hardening and observability: configuration, logging, metrics, and basic Docker/deployment._                                                                            | 🔄 Future      |
+| 18    | Systems Crafter → Curious Professional         | _Capstone project and portfolio: multi-component Python project with docs, CI/CD, and real-world packaging/shipping._                                                            | 🔄 Future      |
 
 ---
 
@@ -71,7 +77,7 @@ A comprehensive, transformation-focused Python curriculum designed to take you f
 - ✅ **Bite-Sized Progress**: 30-minute sessions fit any schedule
 - ✅ **Project-Driven**: Each level ends with concrete achievements
 - ✅ **Growth Mindset**: From Noob to Curious Learner - continuous journey
-- ✅ **12-Level Roadmap**: Clear progression with defined milestones
+- ✅ **18-Level Roadmap**: Clear progression with defined milestones
 - ✅ **Real-World Skills**: Practical coding that builds confidence
 
 ---

@@ -1,6 +1,6 @@
 # 🐍 Master Plan for Python Fundamentals Course
 
-## From Clueless to Curious: A 12-Level Transformation Journey
+## From Clueless to Curious: An 18-Level Transformation Journey
 
 > **Philosophy:** Each level builds confidence, curiosity, and practical skills through 30-minute focused sessions with hands-on practice and real-world applications.
 
@@ -11,13 +11,13 @@
 
 ## 📋 **Course Architecture Overview**
 
-**Format:** 12 Levels × (10 Sessions × 30 minutes) = 12 Levels × 5 hours = 60 hours total learning  
+**Format:** 18 Levels × (10 Sessions × 30 minutes) = 18 Levels × 5 hours = 90 hours total learning  
 **Outcome:** Complete transformation from absolute beginner to curious professional  
 **Approach:** Progressive complexity with practical application at every step
 
 ---
 
-## 🎯 **The 12-Level Transformation Journey**
+## 🎯 **The 18-Level Transformation Journey**
 
 ### **🌱 Level 1: Noob → Nerd** _(Foundation Building)_
 
@@ -598,20 +598,26 @@
 
 ## 📊 **Overall Learning Journey Map**
 
-| Level | From → To                            | Core Focus                      | Key Technologies                         | Learning Mindset                 |
-| ----- | ------------------------------------ | -------------------------------- | ---------------------------------------- | -------------------------------- |
-| 1     | Noob → Nerd                          | Python Basics                   | Python, VS Code                          | "I can code!"                    |
-| 2     | Nerd → Novice                        | Functions & Files               | Functions, Error Handling, File I/O      | "I can solve problems!"          |
-| 3     | Novice → Object Thinker              | Core OOP                        | Classes, Objects                         | "I can think in objects!"        |
-| 4     | Object Thinker → Design Learner      | OOP Design & Clean Code Intro   | Classes, Methods, Basic Testing          | "I can design simple models!"    |
-| 5     | Design Learner → Data Wrangler       | Files & Data Formats            | CSV, JSON, Serialization                 | "I can wrangle data!"            |
-| 6     | Data Wrangler → DB Beginner          | Relational Databases            | SQLite, SQL, CRUD                        | "I can persist data safely!"     |
-| 7     | DB Beginner → Integration Novice     | NoSQL & HTTP APIs (Intro)       | JSON APIs, NoSQL Concepts                | "I can integrate with systems!"  |
-| 8     | Integration Novice → Practitioner    | Clean Code & Tooling            | CLI, Git, Testing, Debugging             | "I write clean, reliable code!"  |
-| 9     | Practitioner → Patterned Coder       | Design Patterns & Architecture  | Core Patterns, SOLID-lite                | "I design systems that scale!"   |
-| 10    | Patterned Coder → Stdlib Specialist  | Standard Library Mastery        | os, pathlib, datetime, collections       | "I master Python's toolbox!"     |
-| 11    | Stdlib Specialist → Pro Toolsmith    | Third-Party Ecosystem           | requests, openpyxl, click, rich, pytest  | "I use professional tools well!" |
-| 12    | Pro Toolsmith → Curious Learner      | Advanced Features & Packaging   | asyncio, multiprocessing, packaging      | "I'm a curious Python expert!"   |
+| Level | From → To                                  | Core Focus                           | Key Technologies                                    | Learning Mindset                           |
+| ----- | ------------------------------------------ | ------------------------------------- | --------------------------------------------------- | ------------------------------------------ |
+| 1     | Noob → Nerd                                | Python Basics                        | Python, VS Code                                     | "I can code!"                              |
+| 2     | Nerd → Novice                              | Functions & Files                    | Functions, Error Handling, File I/O                 | "I can solve problems!"                    |
+| 3     | Novice → Object Thinker                    | Core OOP                             | Classes, Objects                                    | "I can think in objects!"                  |
+| 4     | Object Thinker → Design Learner            | OOP Design & Clean Code Intro        | Classes, Methods, Basic Testing                     | "I can design simple models!"              |
+| 5     | Design Learner → Data Wrangler             | Files & Data Formats                 | CSV, JSON, Serialization                            | "I can wrangle data!"                      |
+| 6     | Data Wrangler → DB Beginner                | Relational Databases                 | SQLite, SQL, CRUD                                   | "I can persist data safely!"               |
+| 7     | DB Beginner → Integration Novice           | NoSQL & HTTP APIs (Intro)            | JSON APIs, NoSQL Concepts                           | "I can integrate with systems!"            |
+| 8     | Integration Novice → Practitioner          | Clean Code & Tooling                 | CLI, Git, Testing, Debugging                        | "I write clean, reliable code!"            |
+| 9     | Practitioner → Patterned Coder             | Design Patterns & Architecture       | Core Patterns, SOLID-lite                           | "I design systems that scale!"             |
+| 10    | Patterned Coder → Stdlib Specialist        | Standard Library Mastery             | os, pathlib, datetime, collections                  | "I master Python's toolbox!"               |
+| 11    | Stdlib Specialist → Pro Toolsmith          | Third-Party Ecosystem                | requests, openpyxl, click, rich, pytest             | "I use professional tools well!"           |
+| 12    | Pro Toolsmith → Curious Learner            | Advanced Features & Packaging        | asyncio, multiprocessing, packaging                 | "I'm a curious Python expert!"             |
+| 13    | Curious Learner → Data Platform Explorer   | Production Relational Databases      | SQL Server, PostgreSQL, SQL tools / light ORM       | "I can work with real production databases!" |
+| 14    | Data Platform Explorer → Data Systems Builder | Document DBs & Caching            | Mongo-style Document DB, Redis                      | "I can choose and use the right data store!" |
+| 15    | Data Systems Builder → Service Integrator  | Messaging, Streaming & Deep Testing  | RabbitMQ, Kafka, pytest (unit & integration tests)  | "I can integrate and test systems end-to-end!" |
+| 16    | Service Integrator → Service Builder       | End-to-End Service Foundations       | HTTP APIs, DB integration, testing                  | "I can build a small, tested service!"     |
+| 17    | Service Builder → Systems Crafter          | Service Hardening & Observability    | Logging, metrics, configuration, Docker basics      | "I can run and observe my services!"       |
+| 18    | Systems Crafter → Curious Professional     | Capstone Project & Next-Step Roadmap | Packaging, CI/CD, documentation, portfolio building | "I keep growing as a curious professional!" |
 
 ---
 
@@ -630,7 +636,13 @@
 - **Level 9:** Design patterns and architectural thinking for console applications  
 - **Level 10:** Python Standard Library mastery (os, pathlib, datetime, collections, itertools, logging)  
 - **Level 11:** Professional third-party libraries (requests, openpyxl, click, rich, pytest, config tools)  
-- **Level 12:** Advanced Python features (asyncio, multiprocessing, metaclasses, packaging and distribution)
+- **Level 12:** Advanced Python features (asyncio, multiprocessing, metaclasses, packaging and distribution)  
+- **Level 13:** Production relational databases (SQL Server, PostgreSQL, basic ORM usage)  
+- **Level 14:** Document databases and caching (Mongo-style Document DB, Redis caching patterns)  
+- **Level 15:** Messaging and streaming with robust testing (RabbitMQ, Kafka, advanced unit and integration testing)  
+- **Level 16:** End-to-end service design (simple HTTP API plus database and tests)  
+- **Level 17:** Service hardening and observability (configuration, logging, metrics, basic Docker/deployment)  
+- **Level 18:** Capstone project and portfolio (shipping a real multi-component Python project with docs and CI/CD)
 
 ### **Mindset Transformation:**
 
@@ -662,9 +674,16 @@
 - **Explore advanced Python features** like concurrency and metaclasses  
 - **Develop professional coding practices** and package development skills
 
-### **Phase 4 (Long-term):** Post-Course Specialization
+### **Phase 4 (Extended):** Levels 13-18
 
-- **Choose specialized tracks** based on solid Python foundation
+- **Work with production-grade databases** (SQL Server, PostgreSQL, document DBs, Redis)  
+- **Integrate messaging and streaming systems** (RabbitMQ, Kafka) with Python services  
+- **Deepen testing practice** with unit and integration tests against real infrastructure  
+- **Build and ship capstone projects** that combine APIs, data stores, messaging, packaging, docs, and CI/CD
+
+### **Phase 5 (Long-term):** Post-Course Specialization
+
+- **Choose specialized tracks** (e.g., web backend, data engineering, DevOps, ML) based on a solid Python and systems foundation
 - **Contribute to open source** projects with confidence
 - **Continue learning** domain-specific libraries and frameworks
 
