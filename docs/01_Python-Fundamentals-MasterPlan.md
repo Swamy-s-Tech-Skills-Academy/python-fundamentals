@@ -410,6 +410,15 @@ Before moving to Level 6, you should be able to:
 
 **Learning Outcome:** "I can design a simple relational schema, write basic SQL queries, and connect a Python application to a SQLite database to store and retrieve data reliably."
 
+**Exit Criteria:**
+
+Before moving to Level 7, you should be able to:
+
+- ✅ **Can you** design a simple schema with 2–3 related tables and explain the relationships?
+- ✅ **Can you** write SQL queries for INSERT, SELECT, UPDATE, and DELETE operations?
+- ✅ **Can you** use parameterized queries to prevent SQL injection?
+- ✅ **Can you** explain when to use a database vs a JSON/CSV file?
+
 ---
 
 ### **🌐 Level 7: DB Beginner → Integration Novice** _(Intro to NoSQL & HTTP/JSON APIs)_
@@ -603,6 +612,16 @@ Before moving to Level 10, you should be able to:
 - ❌ **Anemic Domain Model** – All logic in services, classes are just data containers
 - ❌ **Tight Coupling** – Classes that directly depend on concrete implementations instead of abstractions
 
+**Architecture Narrative Exercise:**
+
+From Level 9 onwards, practice explaining your system architecture:
+
+- **Can you** explain why each component exists? (What would break if we removed it?)
+- **Can you** explain this system to a new teammate in 3 minutes?
+- **Can you** identify the boundaries between layers and explain their responsibilities?
+
+This builds architectural communication skills essential for professional development.
+
 ---
 
 ### **🧰 Level 10: Patterned Coder → Stdlib Specialist** _(Python Standard Library Mastery)_
@@ -649,7 +668,16 @@ Before moving to Level 10, you should be able to:
 - **File & Data Utility** – small console tool that organizes files, summarizes logs, or produces simple reports using `os`, `pathlib`, `datetime`, and `collections`  
 - **System / Log Toolkit** – a utility that inspects the environment, runs subprocesses, logs activity, and does basic regex‑based filtering
 
-**Learning Outcome:** "I can confidently use Python’s Standard Library to work with files, dates, collections, system information, subprocesses, logging, and simple text patterns, so I reach for built‑in modules first when solving everyday problems."
+**Learning Outcome:** "I can confidently use Python's Standard Library to work with files, dates, collections, system information, subprocesses, logging, and simple text patterns, so I reach for built‑in modules first when solving everyday problems."
+
+**Exit Criteria:**
+
+Before moving to Level 11, you should be able to:
+
+- ✅ **Can you** use `pathlib` to work with file paths in a cross-platform way?
+- ✅ **Can you** use `datetime` to parse dates, format them, and do simple date arithmetic?
+- ✅ **Can you** use `collections.Counter` or `defaultdict` to simplify a data-processing task?
+- ✅ **Can you** explain why you'd use stdlib modules instead of writing custom code?
 
 ---
 
@@ -699,6 +727,15 @@ Before moving to Level 10, you should be able to:
 
 **Learning Outcome:** "I can confidently bring in and use key third‑party libraries – for HTTP APIs, spreadsheets, CLIs, testing, and formatting – and wire them into small projects that look and feel like real, professional Python tools."
 
+**Exit Criteria:**
+
+Before moving to Level 12, you should be able to:
+
+- ✅ **Can you** use `requests` to call a JSON API and handle errors gracefully?
+- ✅ **Can you** write at least 3 pytest tests with parametrization or fixtures?
+- ✅ **Can you** use `click` to build a CLI with commands and options?
+- ✅ **Can you** explain when to add a third-party library vs using stdlib?
+
 ---
 
 ### **🚀 Level 12: Pro Toolsmith → Curious Learner** _(Advanced Features & Packaging Capstone)_
@@ -746,6 +783,15 @@ Before moving to Level 10, you should be able to:
 - **Capstone Package / CLI** – a polished, installable project that showcases the learner’s end‑to‑end skills from Level 1 through advanced Python features and packaging
 
 **Learning Outcome:** "I understand what advanced Python features can do, when to use them, and how to package and share my own tools, so I can keep exploring Python with curiosity and confidence beyond this course."
+
+**Exit Criteria:**
+
+Before moving to Level 13, you should be able to:
+
+- ✅ **Can you** explain when to use generators vs regular functions?
+- ✅ **Can you** explain the difference between `threading` and `multiprocessing` conceptually?
+- ✅ **Can you** create a simple installable package with `pyproject.toml`?
+- ✅ **Can you** measure performance with `timeit` and identify a bottleneck?
 
 ---
 
