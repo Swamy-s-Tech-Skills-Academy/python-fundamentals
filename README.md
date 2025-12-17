@@ -14,17 +14,17 @@ A comprehensive, transformation-focused Python curriculum designed to take you f
 
 ## 🎯 **The 9-Level Python Journey**
 
-| Level | Journey Stage                  | Focus                                                                                                                                                                              | Status             |
-| ----- | ------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------ |
+| Level | Journey Stage                  | Focus                                                                                                                                                                              | Status         |
+| ----- | ------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------- |
 | 1     | Noob → Nerd                    | _Environment setup, variables, data types, operators, conditionals, loops, debugging, lists, dictionaries, testing, 2 mini projects_. 📋 **[View Plan](docs/sessions/L1/_Plan.md)** | ✅ **Complete** |
-| 2     | Nerd → Novice                  | _Sets, tuples, list comprehensions, functions, error handling, file I/O, modules, 2 mini projects_. 📋 **[View Plan](docs/sessions/L2/_Plan.md)** | ✅ **Complete**     |
-| 3     | Novice → Learner               | _Curriculum under development_                                                                                                                                                     | ⏭️ Coming Next          |
-| 4     | Learner → Beginner             | _Curriculum under development_                                                                                                                                                     | 🔄 Future          |
-| 5     | Beginner → Practitioner        | _Curriculum under development_                                                                                                                                                     | 🔄 Future          |
-| 6     | Practitioner → Skilled Coder   | _Curriculum under development_                                                                                                                                                     | 🔄 Future          |
-| 7     | Skilled Coder → Specialist     | _Curriculum under development_                                                                                                                                                     | 🔄 Future          |
-| 8     | Specialist → Professional      | _Curriculum under development_                                                                                                                                                     | 🔄 Future          |
-| 9     | Professional → Curious Learner | _Curriculum under development_                                                                                                                                                     | 🔄 Future          |
+| 2     | Nerd → Novice                  | _Sets, tuples, list comprehensions, functions, error handling, file I/O, modules, 2 mini projects_. 📋 **[View Plan](docs/sessions/L2/_Plan.md)** | ✅ **Complete** |
+| 3     | Novice → Learner               | _Curriculum under development_                                                                                                                                                     | ⏭️ Coming Next  |
+| 4     | Learner → Beginner             | _Curriculum under development_                                                                                                                                                     | 🔄 Future      |
+| 5     | Beginner → Practitioner        | _Curriculum under development_                                                                                                                                                     | 🔄 Future      |
+| 6     | Practitioner → Skilled Coder   | _Curriculum under development_                                                                                                                                                     | 🔄 Future      |
+| 7     | Skilled Coder → Specialist     | _Curriculum under development_                                                                                                                                                     | 🔄 Future      |
+| 8     | Specialist → Professional      | _Curriculum under development_                                                                                                                                                     | 🔄 Future      |
+| 9     | Professional → Curious Learner | _Curriculum under development_                                                                                                                                                     | 🔄 Future      |
 
 ---
 
@@ -32,14 +32,16 @@ A comprehensive, transformation-focused Python curriculum designed to take you f
 
 ### **✅ Completed & Ready:**
 
-- **📚 Level 1 Documentation:** Complete curriculum plan with all 10 sessions
-- **📖 Sessions 1-8:** Full content with practice files - [**View Session 1**](docs/sessions/L1/01_S1.md)
-- **🚀 Mini Projects:** Calculator (MP1) and Profile Generator (MP2) complete
+- **📚 Levels 1 & 2 Documentation:** Complete curriculum plans with all 10 sessions each
+- **📖 Level 1 & Level 2 Sessions:** Full content with practice files  
+  - [**View Level 1 Session 1**](docs/sessions/L1/01_S1.md)  
+  - [**View Level 2 Session 1**](docs/sessions/L2/01_S1.md)
+- **🚀 Mini Projects:** Calculator (L1 MP1), Profile Generator (L1 MP2), Data Processor (L2 MP1), and Contact Manager (L2 MP2) complete
 - **🔧 Development Infrastructure:** Documentation quality automation with CI/CD pipeline
 
 ### **🚧 In Development:**
 
-- **📖 Level 2:** Nerd → Novice _(coming next)_
+- **📖 Levels 3–9:** Curriculum design and implementation _(planned/under development)_
 
 ### **📊 Repository Health:**
 
