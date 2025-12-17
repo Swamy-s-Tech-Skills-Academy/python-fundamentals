@@ -1,6 +1,6 @@
 # 🐍 Python Fundamentals: From clueless to curious
 
-A comprehensive, transformation-focused Python curriculum designed to take you from complete beginner to confident Python programmer through 9 progressive levels.
+A comprehensive, transformation-focused Python curriculum designed to take you from complete beginner to confident Python programmer through 12 progressive levels.
 
 > **Format:** Each level contains 5 hours of training (10 sessions × 30 minutes) culminating in 2 hands-on mini projects.
 
@@ -12,19 +12,22 @@ A comprehensive, transformation-focused Python curriculum designed to take you f
 
 ---
 
-## 🎯 **The 9-Level Python Journey**
+## 🎯 **The 12-Level Python Journey**
 
-| Level | Journey Stage                  | Focus                                                                                                                                                                              | Status         |
-| ----- | ------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------- |
-| 1     | Noob → Nerd                    | _Environment setup, variables, data types, operators, conditionals, loops, debugging, lists, dictionaries, testing, 2 mini projects_. 📋 **[View Plan](docs/sessions/L1/_Plan.md)** | ✅ **Complete** |
-| 2     | Nerd → Novice                  | _Sets, tuples, list comprehensions, functions, error handling, file I/O, modules, 2 mini projects_. 📋 **[View Plan](docs/sessions/L2/_Plan.md)** | ✅ **Complete** |
-| 3     | Novice → Learner               | _Curriculum under development_                                                                                                                                                     | ⏭️ Coming Next  |
-| 4     | Learner → Beginner             | _Curriculum under development_                                                                                                                                                     | 🔄 Future      |
-| 5     | Beginner → Practitioner        | _Curriculum under development_                                                                                                                                                     | 🔄 Future      |
-| 6     | Practitioner → Skilled Coder   | _Curriculum under development_                                                                                                                                                     | 🔄 Future      |
-| 7     | Skilled Coder → Specialist     | _Curriculum under development_                                                                                                                                                     | 🔄 Future      |
-| 8     | Specialist → Professional      | _Curriculum under development_                                                                                                                                                     | 🔄 Future      |
-| 9     | Professional → Curious Learner | _Curriculum under development_                                                                                                                                                     | 🔄 Future      |
+| Level | Journey Stage                        | Focus                                                                                                                                                                              | Status         |
+| ----- | ------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------- |
+| 1     | Noob → Nerd                          | _Environment setup, variables, data types, operators, conditionals, loops, debugging, lists, dictionaries, testing, 2 mini projects_. 📋 **[View Plan](docs/sessions/L1/_Plan.md)** | ✅ **Complete** |
+| 2     | Nerd → Novice                        | _Sets, tuples, list comprehensions, functions, error handling, file I/O, modules, 2 mini projects_. 📋 **[View Plan](docs/sessions/L2/_Plan.md)** | ✅ **Complete** |
+| 3     | Novice → Object Thinker              | _Core OOP fundamentals: classes, objects, methods, encapsulation._                                                                                                                | 🔄 Future      |
+| 4     | Object Thinker → Design Learner      | _OOP design & beginner clean code: simple patterns in classes, basic testing, and refactoring habits._                                                                           | 🔄 Future      |
+| 5     | Design Learner → Data Wrangler       | _Files and data formats: CSV, JSON, basic serialization, and file‑driven mini‑projects._                                                                                         | 🔄 Future      |
+| 6     | Data Wrangler → DB Beginner          | _Relational databases with SQLite: schema design, CRUD, simple joins, and Python integration._                                                                                   | 🔄 Future      |
+| 7     | DB Beginner → Integration Novice     | _Intro to NoSQL concepts and HTTP/JSON APIs; integrating external data sources safely._                                                                                          | 🔄 Future      |
+| 8     | Integration Novice → Practitioner    | _Clean code practices, CLI tooling, Git workflows, and systematic testing/debugging._                                                                                            | 🔄 Future      |
+| 9     | Practitioner → Patterned Coder       | _Core design patterns and lightweight architecture for console and small apps._                                                                                                  | 🔄 Future      |
+| 10    | Patterned Coder → Stdlib Specialist  | _Python Standard Library mastery (os/pathlib, datetime, collections/itertools, logging, etc.)._                                                                                 | 🔄 Future      |
+| 11    | Stdlib Specialist → Pro Toolsmith    | _Key third‑party libraries: requests, openpyxl, click/rich, pytest, config tools, and modern Python tooling._                                                                   | 🔄 Future      |
+| 12    | Pro Toolsmith → Curious Learner      | _Advanced Python features (asyncio, multiprocessing), performance profiling, packaging, and professional/career practices._                                                      | 🔄 Future      |
 
 ---
 
@@ -66,7 +69,7 @@ A comprehensive, transformation-focused Python curriculum designed to take you f
 - ✅ **Bite-Sized Progress**: 30-minute sessions fit any schedule
 - ✅ **Project-Driven**: Each level ends with concrete achievements
 - ✅ **Growth Mindset**: From Noob to Curious Learner - continuous journey
-- ✅ **9-Level Roadmap**: Clear progression with defined milestones
+- ✅ **12-Level Roadmap**: Clear progression with defined milestones
 - ✅ **Real-World Skills**: Practical coding that builds confidence
 
 ---

@@ -1,6 +1,6 @@
 # 🐍 Master Plan for Python Fundamentals Course
 
-## From Clueless to Curious: A 9-Level Transformation Journey
+## From Clueless to Curious: A 12-Level Transformation Journey
 
 > **Philosophy:** Each level builds confidence, curiosity, and practical skills through 30-minute focused sessions with hands-on practice and real-world applications.
 
@@ -11,13 +11,13 @@
 
 ## 📋 **Course Architecture Overview**
 
-**Format:** 9 Levels × (10 Sessions × 30 minutes) = 9 Levels × 5 hours = 45 hours total learning  
+**Format:** 12 Levels × (10 Sessions × 30 minutes) = 12 Levels × 5 hours = 60 hours total learning  
 **Outcome:** Complete transformation from absolute beginner to curious professional  
 **Approach:** Progressive complexity with practical application at every step
 
 ---
 
-## 🎯 **The 9-Level Transformation Journey**
+## 🎯 **The 12-Level Transformation Journey**
 
 ### **🌱 Level 1: Noob → Nerd** _(Foundation Building)_
 
@@ -383,17 +383,20 @@
 
 ## 📊 **Overall Learning Journey Map**
 
-| Level | From → To                    | Core Focus            | Key Technologies           | Learning Mindset            |
-| ----- | ---------------------------- | --------------------- | -------------------------- | --------------------------- |
-| 1     | Noob → Nerd                  | Python Basics         | Python, VS Code            | "I can code!"               |
-| 2     | Nerd → Novice                | Functions & Files     | Functions, Error Handling, File I/O | "I can solve problems!"     |
-| 3     | Novice → Learner             | **OOP**               | Classes, Objects           | "I can organize code!"      |
-| 4     | Learner → Beginner           | Data Storage          | SQL, NoSQL, APIs           | "I can store data!"         |
-| 5     | Beginner → Practitioner      | **KISS/DRY/YAGNI**    | CLI, Testing, Git         | "I write clean code!"       |
-| 6     | Practitioner → Skilled Coder | **Design Patterns**   | Architecture               | "I design systems!"         |
-| 7     | Skilled Coder → Specialist   | **Standard Library**  | os, datetime, collections  | "I master Python's core!"   |
-| 8     | Specialist → Professional    | **Third-party Libs**  | requests, openpyxl, pytest | "I use professional tools!" |
-| 9     | Professional → Curious Learner | **Advanced Features** | asyncio, multiprocessing   | "I'm a Python expert!"      |
+| Level | From → To                            | Core Focus                      | Key Technologies                         | Learning Mindset                 |
+| ----- | ------------------------------------ | -------------------------------- | ---------------------------------------- | -------------------------------- |
+| 1     | Noob → Nerd                          | Python Basics                   | Python, VS Code                          | "I can code!"                    |
+| 2     | Nerd → Novice                        | Functions & Files               | Functions, Error Handling, File I/O      | "I can solve problems!"          |
+| 3     | Novice → Object Thinker              | Core OOP                        | Classes, Objects                         | "I can think in objects!"        |
+| 4     | Object Thinker → Design Learner      | OOP Design & Clean Code Intro   | Classes, Methods, Basic Testing          | "I can design simple models!"    |
+| 5     | Design Learner → Data Wrangler       | Files & Data Formats            | CSV, JSON, Serialization                 | "I can wrangle data!"            |
+| 6     | Data Wrangler → DB Beginner          | Relational Databases            | SQLite, SQL, CRUD                        | "I can persist data safely!"     |
+| 7     | DB Beginner → Integration Novice     | NoSQL & HTTP APIs (Intro)       | JSON APIs, NoSQL Concepts                | "I can integrate with systems!"  |
+| 8     | Integration Novice → Practitioner    | Clean Code & Tooling            | CLI, Git, Testing, Debugging             | "I write clean, reliable code!"  |
+| 9     | Practitioner → Patterned Coder       | Design Patterns & Architecture  | Core Patterns, SOLID-lite                | "I design systems that scale!"   |
+| 10    | Patterned Coder → Stdlib Specialist  | Standard Library Mastery        | os, pathlib, datetime, collections       | "I master Python's toolbox!"     |
+| 11    | Stdlib Specialist → Pro Toolsmith    | Third-Party Ecosystem           | requests, openpyxl, click, rich, pytest  | "I use professional tools well!" |
+| 12    | Pro Toolsmith → Curious Learner      | Advanced Features & Packaging   | asyncio, multiprocessing, packaging      | "I'm a curious Python expert!"   |
 
 ---
 
@@ -401,15 +404,18 @@
 
 ### **Technical Skills Progression:**
 
-- **Level 1:** Python basics, variables, operators, conditionals, loops, lists, dictionaries
-- **Level 2:** Functions, error handling, file operations, advanced data structures
-- **Level 3:** Object-Oriented Programming mastery
-- **Level 4:** Data storage, SQL & NoSQL fundamentals, APIs
-- **Level 5:** Clean code principles (KISS, DRY, YAGNI) with advanced database integration
-- **Level 6:** Design patterns and architectural thinking for console applications
-- **Level 7:** Python Standard Library mastery (os, datetime, collections, itertools, logging)
-- **Level 8:** Professional third-party libraries (requests, openpyxl, pytest, click, rich)
-- **Level 9:** Advanced Python features (asyncio, multiprocessing, metaclasses, package development)
+- **Level 1:** Python basics, variables, operators, conditionals, loops, lists, dictionaries  
+- **Level 2:** Functions, error handling, file operations, advanced data structures  
+- **Level 3:** Core Object-Oriented Programming (classes, objects, attributes, methods)  
+- **Level 4:** OOP design patterns at a beginner level and clean code principles (KISS, DRY, YAGNI)  
+- **Level 5:** Working with files and data formats (CSV, JSON, basic serialization)  
+- **Level 6:** Relational database fundamentals (SQLite, SQL, CRUD, simple joins)  
+- **Level 7:** Introductory NoSQL concepts and HTTP/JSON API integration  
+- **Level 8:** Practical clean-code habits, CLI tooling, Git workflows, and testing/debugging practices  
+- **Level 9:** Design patterns and architectural thinking for console applications  
+- **Level 10:** Python Standard Library mastery (os, pathlib, datetime, collections, itertools, logging)  
+- **Level 11:** Professional third-party libraries (requests, openpyxl, click, rich, pytest, config tools)  
+- **Level 12:** Advanced Python features (asyncio, multiprocessing, metaclasses, packaging and distribution)
 
 ### **Mindset Transformation:**
 
@@ -422,22 +428,23 @@
 
 ## 🚀 **Implementation Strategy**
 
-### **Phase 1 (Immediate):** Levels 1-3
+### **Phase 1 (Immediate):** Levels 1-4
 
 - Complete foundational Python skills
 - Establish problem-solving confidence
 - Build practical application experience
 
-### **Phase 2 (Short-term):** Levels 4-6
+### **Phase 2 (Short-term):** Levels 5-8
 
-- **Introduce OOP concepts** systematically
-- **Implement KISS, DRY, YAGNI principles**
-- **Master essential design patterns**
+- **Develop data skills** with files, formats, and relational databases  
+- **Introduce NoSQL and HTTP APIs** at a beginner level  
+- **Embed clean code and tooling practices** across projects  
 
-### **Phase 3 (Medium-term):** Levels 7-9
+### **Phase 3 (Medium-term):** Levels 9-12
 
-- **Master Python's Standard Library** and essential third-party packages
-- **Explore advanced Python features** like concurrency and metaclasses
+- **Master design patterns and core architecture ideas**  
+- **Master Python's Standard Library** and essential third-party packages  
+- **Explore advanced Python features** like concurrency and metaclasses  
 - **Develop professional coding practices** and package development skills
 
 ### **Phase 4 (Long-term):** Post-Course Specialization
