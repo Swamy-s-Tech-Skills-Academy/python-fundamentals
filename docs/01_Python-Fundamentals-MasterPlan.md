@@ -356,85 +356,99 @@
 
 ---
 
-### **🏆 Level 8: Specialist → Professional** _(Popular Third-Party Libraries)_
+### **🧹 Level 8: Integration Novice → Practitioner** _(Clean Code & Tooling in Practice)_
 
-**Focus:** Essential third-party libraries, modern Python tooling  
+**Focus:** Turn learners into **working practitioners** by embedding clean‑code habits, CLI tooling, Git workflows, and everyday testing/debugging into their projects.  
 **Duration:** 5 hours (10 sessions × 30 min)  
 **Status:** 🔄 **Planned**
 
-**Core Topics:**
+**Actual Session Breakdown:**
 
-- **HTTP and API Libraries**
-  - `requests` - HTTP client library for API interactions
-  - `httpx` - Modern async HTTP client
-  - Building robust API clients with error handling
-- **Data Processing Libraries**
-  - `openpyxl` - Excel file manipulation
-  - `csv` and `json` (standard library) - Structured data handling
-  - Basic data manipulation and file format conversion
-- **Configuration and Environment Management**
-  - `python-decouple` - Environment variable management
-  - `configparser` - Configuration file handling
-  - `pydantic` - Data validation and settings management
-- **Command Line and User Interface**
-  - `click` - Creating beautiful command line interfaces
-  - `rich` - Rich text and beautiful formatting in terminal
-  - `tqdm` - Progress bars for long operations
-- **Testing and Quality Assurance**
-  - `pytest` - Advanced testing framework
-  - `pytest-cov` - Code coverage analysis
-  - `black` and `flake8` - Code formatting and linting
+| Phase | Session | Topic                                                          | Type         | Status         |
+| ----- | ------- | -------------------------------------------------------------- | ------------ | -------------- |
+| A     | 1       | **Practical KISS/DRY/YAGNI on Real Code**                      | 📚 Knowledge | 🔄 **Planned** |
+| A     | 2       | **Building User‑Friendly CLIs (argparse / click Intro)**       | 📚 Knowledge | 🔄 **Planned** |
+| A     | 3       | **Structuring Projects: Folders, Modules, and Entry Points**   | 📚 Knowledge | 🔄 **Planned** |
+| A     | 4       | **Git Basics: Commits, Branches, and Clean Histories**        | 📚 Knowledge | 🔄 **Planned** |
+| A     | MP1     | **🚀 Mini Project 1: CLI Wrapper Around an Existing Project**  | 🛠️ Project   | 🔄 **Planned** |
+| B     | 5       | **Everyday Testing with pytest / unittest (No TDD Dogma)**    | 📚 Knowledge | 🔄 **Planned** |
+| B     | 6       | **Debugging Strategies: Prints, Debuggers, and Logging**      | 📚 Knowledge | 🔄 **Planned** |
+| B     | 7       | **Formatting & Linting (black, isort, flake8 – Concept Intro)**| 📚 Knowledge | 🔄 **Planned** |
+| B     | 8       | **Polishing a Small Project: From Script to “Mini Product”**  | 📚 Knowledge | 🔄 **Planned** |
+| B     | MP2     | **🚀 Mini Project 2: Polished, Tested CLI Tool in Git Repo**   | 🛠️ Project   | 🔄 **Planned** |
+
+**Key Learning Focus:**
+
+**Phase A (Sessions 1–4 + MP1):**
+
+- Apply **KISS, DRY, YAGNI** directly to code they’ve already written (Levels 5–7)  
+- Build simple but **friendly CLIs** (argparse or a gentle click intro) with clear help text and arguments  
+- Learn to **lay out a small project**: where to put modules, how to define an entry point, and how to run it  
+- Get comfortable with **Git basics**: init, status, meaningful commits, simple branching, and ignoring build artifacts  
+- **Mini Project 1: CLI Wrapper Around an Existing Project** – wrap a prior mini project (e.g. Data Processor, SQLite manager, JSON cache) in a user‑friendly CLI and put it under version control
+
+**Phase B (Sessions 5–8 + MP2):**
+
+- Practice **lightweight testing** of real code with pytest or unittest (focus on arranging tests, not full TDD)  
+- Learn practical debugging: when to use prints, when to use an interactive debugger, and when to switch to logging  
+- See how **formatting and linting tools** (black, isort, flake8) improve readability and consistency without going deep into configuration  
+- Take one small project through a “polish” pass: tests, logging, CLI, basic docs/README, and a clean Git history  
+- **Mini Project 2: Polished, Tested CLI Tool in Git Repo** – a small but “real” tool that someone else could clone and run
 
 **Mini Projects:**
 
-- HTTP API Client with Rich Terminal Display (using requests, rich, click)
-- Excel Report Generator with CLI Interface (using openpyxl, click, tqdm)
-- Configuration-Driven Data Processor (using pydantic, decouple, pytest)
+- **CLI‑Enhanced Existing Project** – turn a previous level’s project into a user‑friendly command‑line tool under Git  
+- **Polished Practitioner‑Level Tool** – a small, well‑structured, tested, and documented CLI app that represents a learner’s first “portfolio‑ready” Python project
 
-**Learning Outcome:** "I can build professional applications using industry-standard libraries and modern Python tooling!"
+**Learning Outcome:** "I can structure, test, debug, version‑control, and polish small Python projects so they look and behave like real tools a teammate could use and maintain."
 
 ---
 
-### **🎓 Level 9: Professional → Curious Learner** _(Advanced Python Concepts & Best Practices)_
+### **🏛️ Level 9: Practitioner → Patterned Coder** _(Design Patterns & Architecture)_
 
-**Focus:** Advanced Python features, performance optimization, professional development practices  
+**Focus:** Learn a small, practical set of **design patterns and architectural habits** for building clearer, more maintainable small applications.  
 **Duration:** 5 hours (10 sessions × 30 min)  
 **Status:** 🔄 **Planned**
 
-**Core Topics:**
+**Actual Session Breakdown:**
 
-- **Advanced Python Language Features**
-  - Metaclasses and descriptors
-  - Context managers (`with` statements and `__enter__`/`__exit__`)
-  - Generators and coroutines (`yield`, `async`/`await`)
-  - Advanced decorators and function introspection
-- **Concurrency and Parallelism**
-  - `threading` - Multi-threading for I/O-bound tasks
-  - `multiprocessing` - Multi-processing for CPU-bound tasks
-  - `asyncio` - Asynchronous programming fundamentals
-  - `concurrent.futures` - High-level concurrency interface
-- **Performance Optimization and Profiling**
-  - `cProfile` and `timeit` - Performance measurement
-  - Memory profiling and optimization techniques
-  - Code optimization strategies and best practices
-- **Package Development and Distribution**
-  - Creating installable packages with `setuptools`
-  - `pyproject.toml` and modern packaging standards
-  - Virtual environments and dependency management
-  - Documentation with docstrings and Sphinx
-- **Professional Development Practices**
-  - Code review and collaboration workflows
-  - Continuous integration concepts
-  - Debugging complex applications
-  - Contributing to open source projects
+| Phase | Session | Topic                                                                  | Type         | Status         |
+| ----- | ------- | ---------------------------------------------------------------------- | ------------ | -------------- |
+| A     | 1       | **Why Patterns? When & When _Not_ to Use Them**                       | 📚 Knowledge | 🔄 **Planned** |
+| A     | 2       | **Strategy Pattern: Swappable Behaviours Without `if` Everywhere**    | 📚 Knowledge | 🔄 **Planned** |
+| A     | 3       | **Factory / Creator Functions: Centralizing Object Creation**         | 📚 Knowledge | 🔄 **Planned** |
+| A     | 4       | **Observer / Pub‑Sub (Intro to Event‑Driven Thinking)**               | 📚 Knowledge | 🔄 **Planned** |
+| A     | MP1     | **🚀 Mini Project 1: Refactor to Use One Core Pattern**               | 🛠️ Project   | 🔄 **Planned** |
+| B     | 5       | **Separation of Concerns & Layering (UI / Logic / Data)**             | 📚 Knowledge | 🔄 **Planned** |
+| B     | 6       | **Decorator vs Inheritance: Extending Behaviour Safely**              | 📚 Knowledge | 🔄 **Planned** |
+| B     | 7       | **SOLID‑Lite: SRP & Open/Closed in Small Python Projects**            | 📚 Knowledge | 🔄 **Planned** |
+| B     | 8       | **Putting It Together: A Patterned, Layered Console Application**     | 📚 Knowledge | 🔄 **Planned** |
+| B     | MP2     | **🚀 Mini Project 2: Patterned Console App / Plugin‑Style Tool**      | 🛠️ Project   | 🔄 **Planned** |
+
+**Key Learning Focus:**
+
+**Phase A (Sessions 1–4 + MP1):**
+
+- Understand the **purpose and limits** of patterns – avoiding both “no structure” and “over‑engineering”  
+- Learn the **Strategy pattern** to swap behaviours without big `if/elif` chains  
+- Use simple **Factory / creator functions** (or tiny factory classes) to centralize how objects are constructed  
+- Get an introductory feel for **Observer / pub‑sub** for event‑driven style flows in small apps  
+- **Mini Project 1: Refactor to Use One Core Pattern** – take a previous project (e.g. calculator, data processor, CLI tool) and refactor one part to use Strategy or Factory where it clearly helps
+
+**Phase B (Sessions 5–8 + MP2):**
+
+- Practice **separation of concerns**: keeping UI, business logic, and persistence concerns in different modules or layers  
+- Compare **Decorator vs inheritance** as ways to extend behaviour without breaking existing code  
+- Apply **SOLID‑lite** (especially Single Responsibility and Open/Closed) to keep classes and functions focused and extensible  
+- Design and implement a small **patterned, layered console application** that uses 1–2 patterns and a simple architectural structure  
+- **Mini Project 2: Patterned Console App / Plugin‑Style Tool** – e.g. a notifier, rules engine, or plugin‑style CLI where behaviours can be swapped/extended via patterns
 
 **Mini Projects:**
 
-- Multi-threaded Web Scraper with Progress Tracking (using threading, requests, rich)
-- High-Performance File Processor with Profiling (using multiprocessing, cProfile, pathlib)
-- Installable Python Package with Full Documentation (using setuptools, Sphinx, pytest)
+- **Pattern‑Refactored Existing Project** – enhance a familiar project by introducing a targeted pattern where it improves clarity or extensibility  
+- **Patterned Console / Plugin Tool** – a small but well‑structured application that demonstrates Strategy/Factory/Observer/Decorator plus basic layering
 
-**Learning Outcome:** "I am a confident Python expert who can write performant, maintainable code and contribute to professional software development projects!"
+**Learning Outcome:** "I can recognize when a small number of design patterns and architectural ideas will help, and I can apply them to structure my Python applications so they are easier to extend and maintain."
 
 ---
 
