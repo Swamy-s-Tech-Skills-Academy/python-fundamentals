@@ -452,6 +452,54 @@
 
 ---
 
+### **🧰 Level 10: Patterned Coder → Stdlib Specialist** _(Python Standard Library Mastery)_
+
+**Focus:** Become confident with the **core Python Standard Library** so you reach for built‑in tools instead of reinventing them.  
+**Duration:** 5 hours (10 sessions × 30 min)  
+**Status:** 🔄 **Planned**
+
+**Actual Session Breakdown:**
+
+| Phase | Session | Topic                                                          | Type         | Status         |
+| ----- | ------- | -------------------------------------------------------------- | ------------ | -------------- |
+| A     | 1       | **Filesystem Essentials with `os` and `pathlib`**             | 📚 Knowledge | 🔄 **Planned** |
+| A     | 2       | **Dates & Times with `datetime` and `time`**                  | 📚 Knowledge | 🔄 **Planned** |
+| A     | 3       | **Smart Collections: `collections` (Counter, defaultdict, etc.)** | 📚 Knowledge | 🔄 **Planned** |
+| A     | 4       | **Efficient Iteration with `itertools`**                      | 📚 Knowledge | 🔄 **Planned** |
+| A     | MP1     | **🚀 Mini Project 1: File & Data Utility Powered by Stdlib**   | 🛠️ Project   | 🔄 **Planned** |
+| B     | 5       | **System & Environment Info with `sys` and `platform`**       | 📚 Knowledge | 🔄 **Planned** |
+| B     | 6       | **Running Other Programs Safely with `subprocess`**           | 📚 Knowledge | 🔄 **Planned** |
+| B     | 7       | **Structured Logging with `logging`**                         | 📚 Knowledge | 🔄 **Planned** |
+| B     | 8       | **Text & Pattern Matching with `re` (Regex Intro)**           | 📚 Knowledge | 🔄 **Planned** |
+| B     | MP2     | **🚀 Mini Project 2: Stdlib‑Powered System / Log Toolkit**     | 🛠️ Project   | 🔄 **Planned** |
+
+**Key Learning Focus:**
+
+**Phase A (Sessions 1–4 + MP1):**
+
+- Use `os` and `pathlib` to **inspect and manipulate the filesystem** in a cross‑platform way  
+- Work with `datetime` and `time` to generate timestamps, do simple date/time math, and schedule repeated actions  
+- Leverage `collections` (such as `Counter`, `defaultdict`, and `namedtuple`) to simplify common data‑processing patterns  
+- Use `itertools` to express more complex loops (combinations, grouping, chaining) succinctly and efficiently  
+- **Mini Project 1: File & Data Utility Powered by Stdlib** – e.g. a log summarizer, file organizer, or mini report generator that leans heavily on these stdlib modules
+
+**Phase B (Sessions 5–8 + MP2):**
+
+- Use `sys` and `platform` to **inspect the environment and runtime**, making scripts more portable and introspective  
+- Learn to use `subprocess` to run other programs safely (capturing output, handling errors) instead of shelling out ad‑hoc  
+- Introduce the `logging` module to replace ad‑hoc prints with **structured, configurable logs**  
+- Use `re` for basic text and pattern matching (validation, simple extract/replace operations) in a safe, beginner‑friendly way  
+- **Mini Project 2: Stdlib‑Powered System / Log Toolkit** – e.g. a system info dashboard, log/backup organizer, or pattern‑based file processor that demonstrates practical use of multiple stdlib modules
+
+**Mini Projects:**
+
+- **File & Data Utility** – small console tool that organizes files, summarizes logs, or produces simple reports using `os`, `pathlib`, `datetime`, and `collections`  
+- **System / Log Toolkit** – a utility that inspects the environment, runs subprocesses, logs activity, and does basic regex‑based filtering
+
+**Learning Outcome:** "I can confidently use Python’s Standard Library to work with files, dates, collections, system information, subprocesses, logging, and simple text patterns, so I reach for built‑in modules first when solving everyday problems."
+
+---
+
 ## 📊 **Overall Learning Journey Map**
 
 | Level | From → To                            | Core Focus                      | Key Technologies                         | Learning Mindset                 |
