@@ -78,16 +78,16 @@
 
 | Phase | Session | Topic                                                      | Type         | Status         |
 | ----- | ------- | ---------------------------------------------------------- | ------------ | -------------- |
-| A     | 1       | **Advanced Data Structures: Sets & Tuples**                 | 📚 Knowledge | 🔄 **Planned** |
-| A     | 2       | **List Comprehensions**                                    | 📚 Knowledge | 🔄 **Planned** |
-| A     | 3       | **Functions: Definition & Basics**                         | 📚 Knowledge | 🔄 **Planned** |
-| A     | 4       | **Error Handling: try/except Basics**                      | 📚 Knowledge | 🔄 **Planned** |
-| A     | MP1     | **🚀 Mini Project 1: Data Processor**                      | 🛠️ Project   | 🔄 **Planned** |
-| B     | 5       | **Functions: Parameters & Return Values**                    | 📚 Knowledge | 🔄 **Planned** |
-| B     | 6       | **Functions: Scope & Code Organization**                   | 📚 Knowledge | 🔄 **Planned** |
-| B     | 7       | **File Handling: Reading & Writing Text Files**            | 📚 Knowledge | 🔄 **Planned** |
-| B     | 8       | **Modules Deep Dive & Code Organization**                  | 📚 Knowledge | 🔄 **Planned** |
-| B     | MP2     | **🚀 Mini Project 2: Text File Application**              | 🛠️ Project   | 🔄 **Planned** |
+| A     | 1       | **Advanced Data Structures: Sets & Tuples**                 | 📚 Knowledge | ✅ **Ready**   |
+| A     | 2       | **List Comprehensions**                                    | 📚 Knowledge | ✅ **Ready**   |
+| A     | 3       | **Functions: Definition & Basics**                         | 📚 Knowledge | ✅ **Ready**   |
+| A     | 4       | **Error Handling: try/except Basics**                      | 📚 Knowledge | ✅ **Ready**   |
+| A     | MP1     | **🚀 Mini Project 1: Data Processor**                      | 🛠️ Project   | ✅ **Ready**   |
+| B     | 5       | **Functions: Parameters & Return Values**                    | 📚 Knowledge | ✅ **Ready**   |
+| B     | 6       | **Functions: Scope & Code Organization**                   | 📚 Knowledge | ✅ **Ready**   |
+| B     | 7       | **File Handling: Reading & Writing Text Files**            | 📚 Knowledge | ✅ **Ready**   |
+| B     | 8       | **Modules Deep Dive & Code Organization**                  | 📚 Knowledge | ✅ **Ready**   |
+| B     | MP2     | **🚀 Mini Project 2: Contact Manager**                     | 🛠️ Project   | ✅ **Ready**   |
 
 **Key Learning Focus:**
 
@@ -110,9 +110,9 @@
 **Mini Projects:**
 
 - **Data Processor** - Process collections using sets, tuples, and list comprehensions with error handling
-- **Text File Application** - Build a practical application that reads/writes text files using well-organized functions
+- **Contact Manager** - Build a practical contact management application that reads/writes files using well-organized modular code
 
-**Learning Outcome:** "I can write reusable functions, handle errors gracefully, and work with text files to solve real problems!"
+**Learning Outcome:** "I can write reusable functions, handle errors gracefully, and work with files to solve real problems!"
 
 ---
 

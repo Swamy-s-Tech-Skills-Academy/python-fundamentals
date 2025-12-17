@@ -10,6 +10,8 @@ A comprehensive, transformation-focused Python curriculum designed to take you f
 
 📖 **See:** [docs/RepositoryStructure.md](docs/RepositoryStructure.md) — Complete structure documentation (single source of truth)
 
+📋 **See:** [docs/01_Python-Fundamentals-MasterPlan.md](docs/01_Python-Fundamentals-MasterPlan.md) — Complete 12-level course master plan
+
 ---
 
 ## 🎯 **The 12-Level Python Journey**
@@ -18,7 +20,7 @@ A comprehensive, transformation-focused Python curriculum designed to take you f
 | ----- | ------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------- |
 | 1     | Noob → Nerd                          | _Environment setup, variables, data types, operators, conditionals, loops, debugging, lists, dictionaries, testing, 2 mini projects_. 📋 **[View Plan](docs/sessions/L1/_Plan.md)** | ✅ **Complete** |
 | 2     | Nerd → Novice                        | _Sets, tuples, list comprehensions, functions, error handling, file I/O, modules, 2 mini projects_. 📋 **[View Plan](docs/sessions/L2/_Plan.md)** | ✅ **Complete** |
-| 3     | Novice → Object Thinker              | _Core OOP fundamentals: classes, objects, methods, encapsulation._                                                                                                                | 🔄 Future      |
+| 3     | Novice → Object Thinker              | _Core OOP fundamentals: classes, objects, methods, encapsulation._                                                                                                                | ⏭️ Coming Next |
 | 4     | Object Thinker → Design Learner      | _OOP design & beginner clean code: simple patterns in classes, basic testing, and refactoring habits._                                                                           | 🔄 Future      |
 | 5     | Design Learner → Data Wrangler       | _Files and data formats: CSV, JSON, basic serialization, and file‑driven mini‑projects._                                                                                         | 🔄 Future      |
 | 6     | Data Wrangler → DB Beginner          | _Relational databases with SQLite: schema design, CRUD, simple joins, and Python integration._                                                                                   | 🔄 Future      |
