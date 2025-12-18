@@ -250,6 +250,7 @@ docs/sessions/L1/01_S1.md
 - ✅ Be verified before committing
 
 **Common Errors to Avoid:**
+
 - ❌ Missing numeric prefixes: `S1.md` → ✅ `01_S1.md`
 - ❌ Missing level identifier: `sessions/S1/` → ✅ `sessions/L1/01_S1.md`
 - ❌ Incorrect path structure: `src/S1/` → ✅ `src/L1/S1/`
@@ -314,6 +315,7 @@ Before submitting any changes, verify:
 - Communicate your concerns
 
 **NEVER:**
+
 - Make assumptions about what's needed
 - Change content you don't fully understand
 - Rush through complex modifications
@@ -331,7 +333,7 @@ Before submitting any changes, verify:
 - **Main README**: `README.md` - Project overview and quick start guide
 - **Level 1 Plan**: `docs/sessions/L1/_Plan.md` - Complete Level 1 curriculum plan
 
-**Note**: 
+**Note**:
 
 - `docs/RepositoryStructure.md` is the **single source of truth** for repository structure
 - `.cursor/rules/` and `.github/copilot-instructions.md` should reference `docs/RepositoryStructure.md` for structure details
