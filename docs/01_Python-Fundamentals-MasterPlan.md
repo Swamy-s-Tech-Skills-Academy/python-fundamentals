@@ -19,26 +19,26 @@
 
 ## 📊 **Level Status Map**
 
-| Level | Stage (From → To)                        | Core Focus                      | Status         |
-| ----- | ----------------------------------------- | -------------------------------- | -------------- |
-| 1     | Noob → Nerd                               | Python Basics                   | ✅ **Complete** |
-| 2     | Nerd → Novice                             | Functions & Files               | ✅ **Complete** |
-| 3     | Novice → Object Thinker                   | Core OOP                        | ⏭️ **Coming Next** |
-| 4     | Object Thinker → Design Learner           | OOP Design & Clean Code Intro   | 🔄 **Planned** |
-| 5     | Design Learner → Data Wrangler            | Files & Data Formats            | 🔄 **Planned** |
-| 6     | Data Wrangler → DB Beginner               | Relational Databases            | 🔄 **Planned** |
-| 7     | DB Beginner → Integration Novice          | NoSQL & HTTP APIs (Intro)       | 🔄 **Planned** |
-| 8     | Integration Novice → Practitioner          | Clean Code & Tooling            | 🔄 **Planned** |
-| 9     | Practitioner → Patterned Coder            | Design Patterns & Architecture  | 🔄 **Planned** |
-| 10    | Patterned Coder → Stdlib Specialist      | Standard Library Mastery        | 🔄 **Planned** |
-| 11    | Stdlib Specialist → Pro Toolsmith         | Third-Party Ecosystem           | 🔄 **Planned** |
-| 12    | Pro Toolsmith → Curious Learner            | Advanced Features & Packaging  | 🔄 **Planned** |
-| 13    | Curious Learner → Data Platform Explorer  | Production Relational Databases  | 🔄 **Planned** |
-| 14    | Data Platform Explorer → Data Systems Builder | Document DBs & Caching      | 🔄 **Planned** |
-| 15    | Data Systems Builder → Service Integrator | Messaging, Streaming & Deep Testing | 🔄 **Planned** |
-| 16    | Service Integrator → Service Builder      | End-to-End Service Foundations  | 🔄 **Planned** |
-| 17    | Service Builder → Systems Crafter         | Service Hardening & Observability | 🔄 **Planned** |
-| 18    | Systems Crafter → Curious Professional    | Capstone Project & Next-Step Roadmap | 🔄 **Planned** |
+| Level | Stage (From → To) | Core Focus | Status |
+| --- | --- | --- | --- |
+| 1 | Noob → Nerd | Python Basics | ✅ **Complete** |
+| 2 | Nerd → Novice | Functions & Files | ✅ **Complete** |
+| 3 | Novice → Object Thinker | Core OOP | ⏭️ **Coming Next** |
+| 4 | Object Thinker → Design Learner | OOP Design & Clean Code Intro | 🔄 **Planned** |
+| 5 | Design Learner → Data Wrangler | Files & Data Formats | 🔄 **Planned** |
+| 6 | Data Wrangler → DB Beginner | Relational Databases | 🔄 **Planned** |
+| 7 | DB Beginner → Integration Novice | NoSQL & HTTP APIs (Intro) | 🔄 **Planned** |
+| 8 | Integration Novice → Practitioner | Clean Code & Tooling | 🔄 **Planned** |
+| 9 | Practitioner → Patterned Coder | Design Patterns & Architecture | 🔄 **Planned** |
+| 10 | Patterned Coder → Stdlib Specialist | Standard Library Mastery | 🔄 **Planned** |
+| 11 | Stdlib Specialist → Pro Toolsmith | Third-Party Ecosystem | 🔄 **Planned** |
+| 12 | Pro Toolsmith → Curious Learner | Advanced Features & Packaging | 🔄 **Planned** |
+| 13 | Curious Learner → Data Platform Explorer | Production Relational Databases | 🔄 **Planned** |
+| 14 | Data Platform Explorer → Data Systems Builder | Document DBs & Caching | 🔄 **Planned** |
+| 15 | Data Systems Builder → Service Integrator | Messaging, Streaming & Deep Testing | 🔄 **Planned** |
+| 16 | Service Integrator → Service Builder | End-to-End Service Foundations | 🔄 **Planned** |
+| 17 | Service Builder → Systems Crafter | Service Hardening & Observability | 🔄 **Planned** |
+| 18 | Systems Crafter → Curious Professional | Capstone Project & Next-Step Roadmap | 🔄 **Planned** |
 
 **Status Legend:**
 
