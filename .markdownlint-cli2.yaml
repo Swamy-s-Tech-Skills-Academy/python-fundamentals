@@ -9,6 +9,8 @@ ignores:
   - "**/.venv/**"
   - "**/.vscode/**"
   - ".git/**"
+  - "**/__pycache__/**"
+  - "**/*.pyc"
   - "**/*.png"
   - "**/*.PNG"
   - "**/*.jpg"
