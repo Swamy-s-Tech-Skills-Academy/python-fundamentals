@@ -9,7 +9,13 @@ $patterns = @(
     '.github/**/*.md'
 )
 
-$fixArg = if ($Fix) { '--fix' } else { '' }
-
 Write-Host 'Running markdownlint-cli2...' -ForegroundColor Cyan
-npx --yes markdownlint-cli2 $fixArg @patterns
+$args = @('markdownlint-cli2')
+
+if ($Fix) {
+    $args += '--fix'
+}
+
+$args += $patterns
+
+npx --yes @args
