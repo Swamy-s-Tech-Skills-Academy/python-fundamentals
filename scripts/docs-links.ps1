@@ -9,20 +9,18 @@ $patterns = @(
     '.github/**/*.md'
 )
 
-$patternsJoined = $patterns -join ' '
-
 function Invoke-LycheeDocker {
     param(
-        [string]$Args
+        [string[]]$Args
     )
-    docker run --rm -w /input -v "${PWD}:/input" lycheeverse/lychee:latest --config lychee.toml --no-progress $Args
+    docker run --rm -w /input -v "${PWD}:/input" lycheeverse/lychee:latest @Args
 }
 
 function Invoke-LycheeLocal {
     param(
-        [string]$Args
+        [string[]]$Args
     )
-    lychee --config lychee.toml --no-progress $Args
+    lychee @Args
 }
 
 function Test-DockerAvailable {
@@ -47,7 +45,7 @@ function Test-LycheeLocalAvailable {
 
 if ($DumpOnly) {
     Write-Host 'Lychee (dump links only)...' -ForegroundColor Cyan
-    $args = "--dump $patternsJoined"
+    $args = @('--config', 'lychee.toml', '--no-progress', '--dump') + $patterns
 
     if (Test-DockerAvailable) {
         Invoke-LycheeDocker -Args $args
@@ -64,7 +62,7 @@ if ($DumpOnly) {
 }
 else {
     Write-Host 'Lychee (validate links)...' -ForegroundColor Cyan
-    $args = "$patternsJoined"
+    $args = @('--config', 'lychee.toml', '--no-progress') + $patterns
 
     if (Test-DockerAvailable) {
         Invoke-LycheeDocker -Args $args
