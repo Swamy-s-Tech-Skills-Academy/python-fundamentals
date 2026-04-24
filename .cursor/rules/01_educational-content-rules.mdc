@@ -238,7 +238,7 @@ Every session documentation file MUST include:
 - ✅ Levels: Always use `L{number}` format (L1, L2, L3, etc.)
 - ✅ Sessions: Always use `S{number}` format (S1, S2, S3, etc.)
 - ✅ Path references: Use `src/L1/S1/` not `src/S1/`
-- ✅ Documentation paths: Use `docs/sessions/L1/S1.md` not `docs/sessions/S1.md`
+- ✅ Documentation paths: Use `docs/sessions/L1/01_S1.md` not `docs/sessions/S1.md`
 
 **Why This Rule Exists**:
 - Maintains consistent numbering across the repository
@@ -569,7 +569,7 @@ Before committing:
 - [ ] Code is beginner-friendly with clear comments
 - [ ] File naming follows convention: `01_name.py`, `02_name.py`
 - [ ] All code examples are educational and working
-- [ ] No placeholder code or TODOs
+- [ ] No unresolved placeholder code or TODOs in final deliverables (`src/` and completed examples)
 
 #### 3. File Naming Review
 - [ ] Python files use numeric prefixes: `01_`, `02_`, etc.
