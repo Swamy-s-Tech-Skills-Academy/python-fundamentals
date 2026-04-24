@@ -59,7 +59,7 @@ python-fundamentals/
 │       ├── S5/                 # Session 5 practice files
 │       │   ├── 01_for_loops.py
 │       │   ├── 02_while_loops.py
-│       │   └── 03_fizzbuzz.py
+│       │   └── 03_loop_controls_fizzbuzz.py
 │       ├── S6/                 # Session 6 practice files
 │       │   ├── 01_error_examples.py
 │       │   ├── 02_debug_practice.py

@@ -1,37 +1,27 @@
 # Filename: src/L1/S5/01_for_loops.py
+# Session 5: Loops & Iteration — for loops and range
 
-print("=== For Loops Demo ===\n")
+print("=== Session 5: for loops ===\n")
 
-# Basic counting
-print("--- Counting 1 to 5 ---")
-for i in range(1, 6):
-    print(i)
+# Why for-loop: use it when the number of repeats is known.
+print("Count from 1 to 5:")
+for number in range(1, 6):
+    print(number)
 
-# Sum of numbers
-print("\n--- Sum of 1 to 10 ---")
-total = 0
-for num in range(1, 11):
-    total += num
-print(f"Sum: {total}")
+print("\nEven numbers from 2 to 10:")
+for even in range(2, 11, 2):
+    print(even)
 
-# Iterating over a string
-print("\n--- Letters in 'Python' ---")
-for letter in "Python":
-    print(f"Letter: {letter}")
+print("\nCountdown with for-loop:")
+for left in range(5, 0, -1):
+    print(f"T-minus {left}")
+print("🚀 Lift off!")
 
-# Using enumerate
-print("\n--- Enumerate Demo ---")
-fruits = ["apple", "banana", "cherry"]
-for idx, fruit in enumerate(fruits, 1):
-    print(f"{idx}. {fruit}")
-
-# Countdown
-print("\n--- Countdown ---")
-for i in range(5, 0, -1):
-    print(i)
-print("🚀 Blast off!")
-
-# Multiplication table
-print("\n--- 7 Times Table ---")
-for i in range(1, 11):
-    print(f"7 x {i} = {7 * i}")
+# Nested loop: outer loop = rows, inner loop = columns.
+# Why nested loops matter: they help build grid/pattern style output.
+print("\nSimple pattern:")
+for row in range(1, 4):
+    line = ""
+    for _ in range(row):
+        line += "*"
+    print(line)
