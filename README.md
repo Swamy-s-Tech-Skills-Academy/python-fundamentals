@@ -52,13 +52,13 @@ A comprehensive, transformation-focused Python curriculum designed to take you f
 
 ### **🚧 In Development:**
 
-- **📖 Levels 3–9:** Curriculum design and implementation _(planned/under development)_
+- **📖 Levels 3–18:** Curriculum design and implementation _(planned/under development)_
 
 ### **📊 Repository Health:**
 
 - ✅ **Documentation Quality:** Automated linting and link checking
-- ✅ **Code Examples:** All Python files tested and working
-- ✅ **CI/CD Pipeline:** Automated quality checks on PRs
+- ✅ **Code Quality:** Python static checks (lint + byte-compile) available for `src/`
+- ✅ **CI/CD Pipeline:** Automated docs and Python quality checks on PRs
 - ✅ **Educational Structure:** Progressive 30-minute sessions
 
 ---
@@ -143,19 +143,32 @@ docker run --rm -w /input -v "${PWD}:/input" lycheeverse/lychee:latest --config 
 ./scripts/docs-links.ps1 -DumpOnly
 ```
 
-### **CI/CD Quality Workflow**
+### **Python Quality Checks (Local)**
 
-GitHub Actions automatically runs documentation quality checks on:
+Run static quality checks on practice scripts:
 
-- **Pull Requests** that modify documentation
-- **Pushes** to main branch that modify documentation
+```powershell
+ruff check src
+python -m compileall -q src
+```
+
+Configuration: `pyproject.toml`  
+Workflow: `.github/workflows/python-quality.yml`
+
+### **CI/CD Quality Workflows**
+
+GitHub Actions automatically runs quality checks on:
+
+- **Pull Requests** that modify documentation or Python source files
+- **Pushes** to main branch for documentation or Python source changes
 - **Manual triggers** via GitHub UI
 
-**Manual Trigger:**
+**Manual Triggers:**
 
 1. Open GitHub → Actions → "Docs Quality" workflow
-2. Click "Run workflow" (no inputs required)
-3. View markdownlint + Lychee results; download the `lychee-report` artifact for details
+2. (Optional) Open "Python Quality" workflow
+3. Click "Run workflow" (no inputs required)
+4. View markdownlint + Lychee results and/or Ruff + compileall results
 
 ### **Repository Structure Generation**
 
