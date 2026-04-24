@@ -23,7 +23,7 @@ related_topics:
   builds_upon:
     - "docs/sessions/L1/_Plan.md"
   enables:
-    - "docs/sessions/L3/_Plan.md"
+    - "docs/01_Python-Fundamentals-MasterPlan.md"
   cross_refs: []
 sessions:
   - session: 1
