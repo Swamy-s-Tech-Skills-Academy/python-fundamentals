@@ -31,9 +31,9 @@ else:
     if guess == secret:
         print("\n🎉 CORRECT! You're a mind reader!")
     elif guess < secret:
-        print("\n📈 Too low!")
+        print(f"\n📈 Too low! The number was {secret}.")
     else:
-        print("\n📉 Too high!")
+        print(f"\n📉 Too high! The number was {secret}.")
 
     # How far off? (only when guess was in 1..10)
     # abs() gives positive difference (distance between numbers)
