@@ -16,75 +16,75 @@ learning_objectives:
   - "Organize code into modules"
   - "Organize code into reusable functions"
   - "Complete 2 mini projects demonstrating problem-solving skills"
-  - "Be ready for Level 3: Novice → Learner"
+  - "Be ready for Level 3: Novice → Object Thinker"
 related_topics:
   prerequisites:
     - "docs/sessions/L1/_Plan.md"
   builds_upon:
     - "docs/sessions/L1/_Plan.md"
   enables:
-    - "docs/sessions/L3/Plan.md"
+    - "docs/sessions/L3/_Plan.md"
   cross_refs: []
 sessions:
   - session: 1
     topic: "Advanced Data Structures: Sets & Tuples"
     duration: "30 min"
     type: "Knowledge"
-    status: "Planned"
+    status: "Ready"
     file: "docs/sessions/L2/01_S1.md"
   - session: 2
     topic: "List Comprehensions"
     duration: "30 min"
     type: "Knowledge"
-    status: "Planned"
+    status: "Ready"
     file: "docs/sessions/L2/02_S2.md"
   - session: 3
     topic: "Functions: Definition & Basics"
     duration: "30 min"
     type: "Knowledge"
-    status: "Planned"
+    status: "Ready"
     file: "docs/sessions/L2/03_S3.md"
   - session: 4
     topic: "Error Handling: try/except Basics"
     duration: "30 min"
     type: "Knowledge"
-    status: "Planned"
+    status: "Ready"
     file: "docs/sessions/L2/04_S4.md"
   - session: "MP1"
     topic: "Mini Project 1: Data Processor"
     duration: "30–45 min"
     type: "Project"
-    status: "Planned"
+    status: "Ready"
     file: "docs/sessions/L2/05_MP1.md"
   - session: 5
     topic: "Functions: Parameters & Return Values"
     duration: "30 min"
     type: "Knowledge"
-    status: "Planned"
+    status: "Ready"
     file: "docs/sessions/L2/06_S5.md"
   - session: 6
     topic: "Functions: Scope & Code Organization"
     duration: "30 min"
     type: "Knowledge"
-    status: "Planned"
+    status: "Ready"
     file: "docs/sessions/L2/07_S6.md"
   - session: 7
     topic: "File Handling: Reading & Writing Text Files"
     duration: "30 min"
     type: "Knowledge"
-    status: "Planned"
+    status: "Ready"
     file: "docs/sessions/L2/08_S7.md"
   - session: 8
     topic: "Modules Deep Dive & Code Organization"
     duration: "30 min"
     type: "Knowledge"
-    status: "Planned"
+    status: "Ready"
     file: "docs/sessions/L2/09_S8.md"
   - session: "MP2"
-    topic: "Mini Project 2: Text File Application"
+    topic: "Mini Project 2: Contact Manager"
     duration: "30–45 min"
     type: "Project"
-    status: "Planned"
+    status: "Ready"
     file: "docs/sessions/L2/10_MP2.md"
 ---
 
@@ -107,16 +107,16 @@ sessions:
 
 | Phase | Session | Topic                                                 | Duration  | Type         | Status         |
 | ----- | ------- | ----------------------------------------------------- | --------- | ------------ | -------------- |
-| A     | 1       | Advanced Data Structures: Sets & Tuples                | 30 min    | 📚 Knowledge | 🔄 Planned 📂  |
-| A     | 2       | List Comprehensions                                    | 30 min    | 📚 Knowledge | 🔄 Planned 📂  |
-| A     | 3       | Functions: Definition & Basics                         | 30 min    | 📚 Knowledge | 🔄 Planned 📂  |
-| A     | 4       | Error Handling: try/except Basics                      | 30 min    | 📚 Knowledge | 🔄 Planned 📂  |
-| A     | 🚀 MP1  | Mini Project 1: Data Processor *(after Session 4)*   | 30–45 min | 🛠️ Project  | 🔄 Planned 📂  |
-| B     | 5       | Functions: Parameters & Return Values                 | 30 min    | 📚 Knowledge | 🔄 Planned 📂  |
-| B     | 6       | Functions: Scope & Code Organization                   | 30 min    | 📚 Knowledge | 🔄 Planned 📂  |
-| B     | 7       | File Handling: Reading & Writing Text Files           | 30 min    | 📚 Knowledge | 🔄 Planned 📂  |
-| B     | 8       | Modules Deep Dive & Code Organization                 | 30 min    | 📚 Knowledge | 🔄 Planned 📂  |
-| B     | 🚀 MP2  | Mini Project 2: Text File Application *(after 8)*     | 30–45 min | 🛠️ Project  | 🔄 Planned 📂  |
+| A     | 1       | Advanced Data Structures: Sets & Tuples                | 30 min    | 📚 Knowledge | ✅ Ready 📂    |
+| A     | 2       | List Comprehensions                                    | 30 min    | 📚 Knowledge | ✅ Ready 📂    |
+| A     | 3       | Functions: Definition & Basics                         | 30 min    | 📚 Knowledge | ✅ Ready 📂    |
+| A     | 4       | Error Handling: try/except Basics                      | 30 min    | 📚 Knowledge | ✅ Ready 📂    |
+| A     | 🚀 MP1  | Mini Project 1: Data Processor *(after Session 4)*   | 30–45 min | 🛠️ Project  | ✅ Ready 📂    |
+| B     | 5       | Functions: Parameters & Return Values                 | 30 min    | 📚 Knowledge | ✅ Ready 📂    |
+| B     | 6       | Functions: Scope & Code Organization                   | 30 min    | 📚 Knowledge | ✅ Ready 📂    |
+| B     | 7       | File Handling: Reading & Writing Text Files           | 30 min    | 📚 Knowledge | ✅ Ready 📂    |
+| B     | 8       | Modules Deep Dive & Code Organization                 | 30 min    | 📚 Knowledge | ✅ Ready 📂    |
+| B     | 🚀 MP2  | Mini Project 2: Contact Manager *(after 8)*           | 30–45 min | 🛠️ Project  | ✅ Ready 📂    |
 
 ---
 
@@ -230,7 +230,7 @@ flowchart TB
 * Organize code into reusable functions
 * Display processed results
 
-🧪 *Deliverable*: `data_processor.py`
+🧪 *Deliverable*: `src/L2/MP1/data_processor.py`
 
 🎯 *Stretch Goals*:
 
@@ -301,7 +301,7 @@ flowchart TB
 
 ---
 
-### 🚀 Mini Project 2: Text File Application
+### 🚀 Mini Project 2: Contact Manager
 
 **Goal:** Build a practical application that reads from and writes to text files, uses well-organized functions, and demonstrates modular code structure.
 
@@ -316,7 +316,7 @@ flowchart TB
 * (Optional) Split code into a module
 * Use proper error handling throughout
 
-🧪 *Deliverable*: `text_file_application.py` (or multiple files if using modules)
+🧪 *Deliverable*: `src/L2/MP2/contact_manager.py`
 
 🎯 *Stretch Goals*:
 
@@ -340,19 +340,19 @@ By completing Level 2, you will:
 * ✅ Organize code into reusable, well-structured functions
 * ✅ Understand variable scope and best practices
 * ✅ Complete 2 mini projects demonstrating problem-solving skills
-* ✅ Be ready for **Level 3: Novice → Learner**
+* ✅ Be ready for **Level 3: Novice → Object Thinker**
 
 ---
 
 ## 📊 **Assessment Criteria**
 
 * **Phase A**: Can work with sets/tuples, use list comprehensions, define functions, handle errors → Complete Data Processor Project
-* **Phase B**: Can use advanced function features, read/write text files, organize code into modules → Complete Text File Application Project
+* **Phase B**: Can use advanced function features, read/write text files, organize code into modules → Complete Contact Manager Project
 
 **Mini Project Success Indicators:**
 
 * Data Processor works with sets, tuples, list comprehensions, and handles errors gracefully.
-* Text File Application reads/writes text files correctly, uses well-organized functions, and demonstrates modular code structure.
+* Contact Manager reads/writes text files correctly, uses well-organized functions, and demonstrates modular code structure.
 
 ---
 
