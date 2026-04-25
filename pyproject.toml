@@ -1,0 +1,35 @@
+[project]
+name = "python-fundamentals"
+version = "0.0.0"
+description = "Educational Python curriculum (documentation + practice scripts; not a distributable package)."
+requires-python = ">=3.13"
+readme = "README.md"
+
+[tool.ruff]
+target-version = "py313"
+line-length = 120
+src = ["src"]
+
+[tool.ruff.lint]
+select = [
+  "E",   # pycodestyle errors
+  "F",   # Pyflakes
+  "I",   # isort (import sorting)
+  "W",   # pycodestyle warnings
+  "UP",  # pyupgrade
+]
+ignore = [
+  "E501",  # Allow long educational lines where needed
+  "E402",  # Many beginner scripts intentionally execute/import in teaching order
+  "F401",  # Some imports are intentionally present for demonstration
+  "F541",  # Placeholder f-strings appear in guided exercises
+  "I001",  # Do not enforce import sorting for pedagogy-first snippets
+  "UP015", # Keep explicit file modes in beginner-friendly examples
+  "UP024", # Keep IOError naming where taught in legacy lessons
+  "W291",  # Preserve existing trailing-whitespace style in some lesson snippets
+  "W292",  # Preserve existing EOF-newline style in legacy lesson snippets
+  "W293",  # Preserve blank-line whitespace in legacy lesson snippets
+]
+
+[tool.ruff.lint.isort]
+known-first-party = []

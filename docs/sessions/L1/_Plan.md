@@ -21,7 +21,7 @@ related_topics:
   prerequisites: []
   builds_upon: []
   enables:
-    - "docs/sessions/L2/Plan.md"
+    - "docs/sessions/L2/_Plan.md"
   cross_refs: []
 sessions:
   - session: 1
@@ -224,7 +224,7 @@ flowchart TB
 * Runs until user quits
 * Clean, structured code
 
-🧪 *Deliverable*: `simple_calculator.py`
+🧪 *Deliverable*: `src/L1/MP1/simple_calculator.py`
 
 🎯 *Stretch Goals*:
 
@@ -297,7 +297,7 @@ flowchart TB
 * Handle multiple profiles
 * Basic input validation
 
-🧪 *Deliverable*: `profile_generator.py`
+🧪 *Deliverable*: `src/L1/MP2/profile_generator.py`
 
 🎯 *Stretch Goals*:
 
