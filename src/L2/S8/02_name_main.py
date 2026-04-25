@@ -85,6 +85,7 @@ print("-" * 40)
 
 if demo_dir not in sys.path:
     sys.path.insert(0, demo_dir)
+# Clear cached module to ensure import behavior is demonstrated from fresh files.
 sys.modules.pop("bad_greetings", None)
 import bad_greetings
 
@@ -129,6 +130,7 @@ print("Created 'good_greetings.py' WITH __name__ protection...")
 print("\nNow watch what happens when we import it:")
 print("-" * 40)
 
+# Clear cached module so the protected import example is evaluated freshly.
 sys.modules.pop("good_greetings", None)
 import good_greetings
 
@@ -220,6 +222,7 @@ print("Created 'calculator_module.py' with embedded tests\n")
 
 print("When IMPORTED (like now):")
 print("-" * 40)
+# Clear cached module so this import uses the generated file for this run.
 sys.modules.pop("calculator_module", None)
 import calculator_module
 print("(no output - tests didn't run)")

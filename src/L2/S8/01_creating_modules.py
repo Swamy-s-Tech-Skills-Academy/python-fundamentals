@@ -109,6 +109,7 @@ print("   import string_utils")
 
 if demo_dir not in sys.path:
     sys.path.insert(0, demo_dir)
+# Ensure a fresh import so this demo always reflects the newly generated module file.
 sys.modules.pop("string_utils", None)
 import string_utils
 
