@@ -85,7 +85,7 @@ print("-" * 40)
 
 if demo_dir not in sys.path:
     sys.path.insert(0, demo_dir)
-# Clear cached module to ensure import behavior is demonstrated from fresh files.
+# Clear cached module to ensure import behavior is demonstrated from fresh files
 sys.modules.pop("bad_greetings", None)
 import bad_greetings
 

@@ -398,13 +398,14 @@ sys.path.insert(0, project_dir)
 # Manually run the test code (simulating direct execution)
 import importlib.util
 spec = importlib.util.spec_from_file_location("operations", f"{project_dir}/operations.py")
+if spec is None:
+    raise ImportError(f"Could not create module spec from {project_dir}/operations.py")
+
 ops = importlib.util.module_from_spec(spec)
-if spec and spec.loader:
-    spec.loader.exec_module(ops)
-else:
-    module_name = spec.name if spec else "operations"
-    module_origin = spec.origin if spec and spec.origin else f"{project_dir}/operations.py"
-    raise ImportError(f"Could not load module '{module_name}' from {module_origin}")
+if spec.loader is None:
+    raise ImportError(f"Could not load module '{spec.name}' from {spec.origin}")
+
+spec.loader.exec_module(ops)
 
 # Just demonstrate the functions work
 print(f"add(5, 3) = {ops.add(5, 3)}")

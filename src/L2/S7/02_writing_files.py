@@ -20,7 +20,7 @@ test_files = [
 
 
 def cleanup_test_files():
-    """Remove demo files if they exist."""
+    """Remove test files created during the demo."""
     for filename in test_files:
         if os.path.exists(filename):
             os.remove(filename)
