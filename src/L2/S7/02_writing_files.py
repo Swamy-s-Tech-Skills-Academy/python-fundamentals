@@ -8,6 +8,25 @@ This file demonstrates how to write and append to text files.
 """
 
 import os
+import atexit
+
+test_files = [
+    "greeting.txt",
+    "log.txt",
+    "fruits_wrong.txt",
+    "fruits_correct.txt",
+    "todos.txt",
+]
+
+
+def cleanup_test_files():
+    """Remove demo files if they exist."""
+    for filename in test_files:
+        if os.path.exists(filename):
+            os.remove(filename)
+
+
+atexit.register(cleanup_test_files)
 
 print("=" * 50)
 print("✍️ WRITING TEXT FILES IN PYTHON")
@@ -213,11 +232,6 @@ Why? The 'with' statement:
 print("=" * 50)
 print("🧹 Cleaning up test files...")
 print("=" * 50)
-
-test_files = [
-    "greeting.txt", "log.txt", "fruits_wrong.txt",
-    "fruits_correct.txt", "todos.txt"
-]
 
 for filename in test_files:
     if os.path.exists(filename):

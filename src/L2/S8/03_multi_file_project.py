@@ -10,6 +10,7 @@ for a real-world project structure.
 
 import os
 import shutil
+import tempfile
 
 print("=" * 60)
 print("🏗️ BUILDING A MULTI-FILE PROJECT")
@@ -43,8 +44,8 @@ print("=" * 60)
 print("📝 PART 2: Creating Project Files")
 print("=" * 60)
 
-# Create project directory
-project_dir = "my_calculator"
+# Create project directory in OS temp space to avoid polluting the repo root
+project_dir = os.path.join(tempfile.gettempdir(), "my_calculator")
 if os.path.exists(project_dir):
     shutil.rmtree(project_dir)
 os.makedirs(project_dir)
@@ -398,6 +399,10 @@ sys.path.insert(0, project_dir)
 import importlib.util
 spec = importlib.util.spec_from_file_location("operations", f"{project_dir}/operations.py")
 ops = importlib.util.module_from_spec(spec)
+if spec and spec.loader:
+    spec.loader.exec_module(ops)
+else:
+    raise ImportError("Could not load operations module for demo execution")
 
 # Just demonstrate the functions work
 print(f"add(5, 3) = {ops.add(5, 3)}")
