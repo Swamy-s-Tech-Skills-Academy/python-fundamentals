@@ -107,7 +107,8 @@ print("=" * 60)
 print("\n1️⃣ Method 1: Import entire module")
 print("   import string_utils")
 
-sys.path.insert(0, demo_dir)
+if demo_dir not in sys.path:
+    sys.path.insert(0, demo_dir)
 sys.modules.pop("string_utils", None)
 import string_utils
 
@@ -262,5 +263,8 @@ if os.path.exists(cache_dir):
 if os.path.exists(demo_dir):
     shutil.rmtree(demo_dir)
     print("Removed demo workspace")
+
+if demo_dir in sys.path:
+    sys.path.remove(demo_dir)
 
 print("\n✨ Module creation lesson complete!")

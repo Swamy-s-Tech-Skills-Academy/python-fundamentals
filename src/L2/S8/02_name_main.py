@@ -83,7 +83,8 @@ print("Created 'bad_greetings.py' without __name__ protection...")
 print("\nNow watch what happens when we import it:")
 print("-" * 40)
 
-sys.path.insert(0, demo_dir)
+if demo_dir not in sys.path:
+    sys.path.insert(0, demo_dir)
 sys.modules.pop("bad_greetings", None)
 import bad_greetings
 
@@ -313,5 +314,8 @@ if os.path.exists(cache_dir):
 if os.path.exists(demo_dir):
     shutil.rmtree(demo_dir)
     print("  Removed demo workspace")
+
+if demo_dir in sys.path:
+    sys.path.remove(demo_dir)
 
 print("\n✨ __name__ and __main__ lesson complete!")

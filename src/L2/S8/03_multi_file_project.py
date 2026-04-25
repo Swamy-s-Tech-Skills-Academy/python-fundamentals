@@ -402,7 +402,7 @@ ops = importlib.util.module_from_spec(spec)
 if spec and spec.loader:
     spec.loader.exec_module(ops)
 else:
-    raise ImportError("Could not load operations module for demo execution")
+    raise ImportError(f"Could not load operations module from {project_dir}/operations.py")
 
 # Just demonstrate the functions work
 print(f"add(5, 3) = {ops.add(5, 3)}")
