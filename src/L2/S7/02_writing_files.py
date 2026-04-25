@@ -234,9 +234,6 @@ print("=" * 50)
 print("🧹 Cleaning up test files...")
 print("=" * 50)
 
-for filename in test_files:
-    if os.path.exists(filename):
-        os.remove(filename)
-        print(f"  Removed: {filename}")
+cleanup_test_files()
 
 print("\n✨ All test files cleaned up!")

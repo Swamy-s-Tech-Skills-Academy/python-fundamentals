@@ -401,7 +401,9 @@ spec = importlib.util.spec_from_file_location("operations", f"{project_dir}/oper
 if spec is None:
     raise ImportError(f"Could not create module spec. Ensure {project_dir}/operations.py exists.")
 if spec.loader is None:
-    raise ImportError(f"Could not load module '{spec.name}' from {spec.origin}")
+    module_name = spec.name or "unknown module"
+    module_origin = spec.origin or "unknown origin"
+    raise ImportError(f"Could not load module '{module_name}' from {module_origin}")
 
 ops = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(ops)
