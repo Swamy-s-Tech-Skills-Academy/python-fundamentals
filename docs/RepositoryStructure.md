@@ -117,7 +117,7 @@ python-fundamentals/
 │   ├── docs-lint.ps1           # Markdown linting script
 │   ├── docs-links.ps1          # Link validation script
 │   ├── show-tree.ps1           # Repository structure generator
-│   └── repo-structure.txt      # Generated structure
+│   └── (generated outputs)     # Optional local outputs from scripts (not tracked)
 ├── ⚙️ .github/
 │   ├── workflows/
 │   │   ├── docs-quality.yml    # CI/CD for documentation quality
@@ -158,7 +158,7 @@ PowerShell utility scripts for development:
 - **`docs-lint.ps1`**: Markdown linting automation
 - **`docs-links.ps1`**: Link validation using Lychee
 - **`show-tree.ps1`**: Repository structure generator
-- **`repo-structure.txt`**: Generated structure output
+- **Generated outputs**: Optional local structure snapshots (not committed by default)
 
 ### `.github/`
 

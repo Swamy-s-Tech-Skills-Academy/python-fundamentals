@@ -8,12 +8,26 @@ This file demonstrates practical file operations including
 error handling, file existence checks, and real-world patterns.
 """
 
+import atexit
 import os
 from datetime import datetime
 
 print("=" * 50)
 print("🔄 COMPLETE FILE OPERATIONS")
 print("=" * 50)
+
+cleanup_files = ["test_file.txt", "config.txt", "highscore.txt", "app.log"]
+
+
+def cleanup_demo_files():
+    """Remove temporary demo files created by this lesson."""
+    for filename in cleanup_files:
+        if os.path.exists(filename):
+            os.remove(filename)
+            print(f"  Removed: {filename}")
+
+
+atexit.register(cleanup_demo_files)
 
 
 # ============================================================
@@ -36,7 +50,7 @@ def read_file_safely(filename):
     except PermissionError:
         print(f"❌ Error: No permission to read '{filename}'!")
         return None
-    except Exception as e:
+    except OSError as e:
         print(f"❌ Unexpected error: {e}")
         return None
 
@@ -290,10 +304,6 @@ print("\n" + "=" * 50)
 print("🧹 Cleaning up...")
 print("=" * 50)
 
-cleanup_files = ["test_file.txt", "config.txt", "highscore.txt", "app.log"]
-for f in cleanup_files:
-    if os.path.exists(f):
-        os.remove(f)
-        print(f"  Removed: {f}")
+cleanup_demo_files()
 
 print("\n✨ Session 7 complete! You've learned file handling! 📁")

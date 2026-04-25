@@ -466,4 +466,7 @@ To try it out:
     python main.py
 """)
 
+if project_dir in sys.path:
+    sys.path.remove(project_dir)
+
 print("\n✨ Multi-file project lesson complete!")

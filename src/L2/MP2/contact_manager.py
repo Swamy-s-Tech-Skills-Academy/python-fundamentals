@@ -61,7 +61,7 @@ def load_contacts(filename):
                     
     except FileNotFoundError:
         print("📁 No existing contacts file found. Starting fresh!")
-    except Exception as e:
+    except OSError as e:
         print(f"❌ Error loading contacts: {e}")
         
     return contacts
@@ -421,8 +421,8 @@ def main():
             print("👋 Goodbye!")
             break
             
-        except Exception as e:
-            print(f"\n❌ An unexpected error occurred: {e}")
+        except (EOFError, OSError) as e:
+            print(f"\n❌ Input or file error: {e}")
             print("   Please try again.")
 
 
