@@ -34,8 +34,8 @@ def process_scores(scores):
     # Transform: get only scores above 70 using comprehension
     passing_scores = [score for score in unique_scores if score >= 70]
     
-    # Calculate average from all original scores (including duplicates)
-    average = sum(scores) / len(scores) if scores else 0
+    # Calculate average from unique scores for consistency with set-based processing
+    average = sum(unique_scores) / len(unique_scores) if unique_scores else 0
     
     return unique_scores, score_tuples, passing_scores, average
 
