@@ -8,6 +8,13 @@ This file demonstrates the important __name__ == "__main__" pattern
 that controls when code runs.
 """
 
+import os
+import shutil
+import sys
+import tempfile
+
+demo_dir = tempfile.mkdtemp(prefix="pyfund_l2_s8_name_main_")
+
 print("=" * 60)
 print("🔑 UNDERSTANDING __name__ AND __main__")
 print("=" * 60)
@@ -69,13 +76,17 @@ print("=== Tests complete ===")
 '''
 
 # Write the bad module
-with open("bad_greetings.py", "w") as f:
+with open(os.path.join(demo_dir, "bad_greetings.py"), "w") as f:
     f.write(bad_module_code)
 
 print("Created 'bad_greetings.py' without __name__ protection...")
 print("\nNow watch what happens when we import it:")
 print("-" * 40)
 
+if demo_dir not in sys.path:
+    sys.path.insert(0, demo_dir)
+# Clear cached module to ensure import behavior is demonstrated from fresh files
+sys.modules.pop("bad_greetings", None)
 import bad_greetings
 
 print("-" * 40)
@@ -112,13 +123,15 @@ if __name__ == "__main__":
 '''
 
 # Write the good module
-with open("good_greetings.py", "w") as f:
+with open(os.path.join(demo_dir, "good_greetings.py"), "w") as f:
     f.write(good_module_code)
 
 print("Created 'good_greetings.py' WITH __name__ protection...")
 print("\nNow watch what happens when we import it:")
 print("-" * 40)
 
+# Clear cached module so the protected import example is evaluated freshly.
+sys.modules.pop("good_greetings", None)
 import good_greetings
 
 print("(nothing printed!)")
@@ -202,13 +215,15 @@ if __name__ == "__main__":
 '''
 
 # Write the module
-with open("calculator_module.py", "w") as f:
+with open(os.path.join(demo_dir, "calculator_module.py"), "w") as f:
     f.write(calculator_module)
 
 print("Created 'calculator_module.py' with embedded tests\n")
 
 print("When IMPORTED (like now):")
 print("-" * 40)
+# Clear cached module so this import uses the generated file for this run.
+sys.modules.pop("calculator_module", None)
 import calculator_module
 print("(no output - tests didn't run)")
 print("-" * 40)
@@ -284,17 +299,26 @@ print("=" * 60)
 print("🧹 Cleaning up...")
 print("=" * 60)
 
-import os
-import shutil
-
-files_to_remove = ["bad_greetings.py", "good_greetings.py", "calculator_module.py"]
+files_to_remove = [
+    os.path.join(demo_dir, "bad_greetings.py"),
+    os.path.join(demo_dir, "good_greetings.py"),
+    os.path.join(demo_dir, "calculator_module.py"),
+]
 for filename in files_to_remove:
     if os.path.exists(filename):
         os.remove(filename)
-        print(f"  Removed: {filename}")
+        print(f"  Removed: {os.path.basename(filename)}")
 
-if os.path.exists("__pycache__"):
-    shutil.rmtree("__pycache__")
+cache_dir = os.path.join(demo_dir, "__pycache__")
+if os.path.exists(cache_dir):
+    shutil.rmtree(cache_dir)
     print("  Removed: __pycache__/")
+
+if os.path.exists(demo_dir):
+    shutil.rmtree(demo_dir)
+    print("  Removed demo workspace")
+
+if demo_dir in sys.path:
+    sys.path.remove(demo_dir)
 
 print("\n✨ __name__ and __main__ lesson complete!")

@@ -10,6 +10,7 @@ for a real-world project structure.
 
 import os
 import shutil
+import tempfile
 
 print("=" * 60)
 print("🏗️ BUILDING A MULTI-FILE PROJECT")
@@ -43,8 +44,8 @@ print("=" * 60)
 print("📝 PART 2: Creating Project Files")
 print("=" * 60)
 
-# Create project directory
-project_dir = "my_calculator"
+# Create project directory in OS temp space to avoid polluting the repo root
+project_dir = os.path.join(tempfile.gettempdir(), "my_calculator")
 if os.path.exists(project_dir):
     shutil.rmtree(project_dir)
 os.makedirs(project_dir)
@@ -397,7 +398,15 @@ sys.path.insert(0, project_dir)
 # Manually run the test code (simulating direct execution)
 import importlib.util
 spec = importlib.util.spec_from_file_location("operations", f"{project_dir}/operations.py")
+if spec is None:
+    raise ImportError(f"Could not create module spec. Ensure {project_dir}/operations.py exists.")
+if spec.loader is None:
+    module_name = spec.name or "unknown module"
+    module_origin = spec.origin or "unknown origin"
+    raise ImportError(f"Could not load module '{module_name}' from {module_origin}")
+
 ops = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(ops)
 
 # Just demonstrate the functions work
 print(f"add(5, 3) = {ops.add(5, 3)}")
@@ -457,5 +466,8 @@ To try it out:
     cd {project_dir}
     python main.py
 """)
+
+if project_dir in sys.path:
+    sys.path.remove(project_dir)
 
 print("\n✨ Multi-file project lesson complete!")
