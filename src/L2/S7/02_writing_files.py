@@ -24,6 +24,7 @@ def cleanup_test_files():
     for filename in test_files:
         if os.path.exists(filename):
             os.remove(filename)
+            print(f"  Removed: {filename}")
 
 
 atexit.register(cleanup_test_files)

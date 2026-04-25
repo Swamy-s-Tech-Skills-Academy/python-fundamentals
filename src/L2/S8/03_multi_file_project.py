@@ -399,12 +399,11 @@ sys.path.insert(0, project_dir)
 import importlib.util
 spec = importlib.util.spec_from_file_location("operations", f"{project_dir}/operations.py")
 if spec is None:
-    raise ImportError(f"Could not create module spec from {project_dir}/operations.py")
-
-ops = importlib.util.module_from_spec(spec)
+    raise ImportError(f"Could not create module spec. Ensure {project_dir}/operations.py exists.")
 if spec.loader is None:
     raise ImportError(f"Could not load module '{spec.name}' from {spec.origin}")
 
+ops = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(ops)
 
 # Just demonstrate the functions work
