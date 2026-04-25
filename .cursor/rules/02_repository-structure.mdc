@@ -77,7 +77,7 @@ python-fundamentals/
 │   ├── docs-lint.ps1                     # Markdown linting script
 │   ├── docs-links.ps1                    # Link validation script
 │   ├── show-tree.ps1                     # Repository structure generator
-│   └── repo-structure.txt                # Generated structure
+│   └── (generated outputs)               # Optional local outputs from scripts (not tracked)
 ├── src/                                   # Practice code files
 │   └── L1/                               # Level 1
 │       └── S1/                           # Session 1
