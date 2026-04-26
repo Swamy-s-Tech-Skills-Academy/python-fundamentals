@@ -102,7 +102,7 @@ python-fundamentals/
 ### **Educational Approach:**
 
 - **30-minute sessions** - Realistic time constraints
-- **Content splitting policy** - When content exceeds 150 lines, ALWAYS SPLIT into multiple parts (never trim/condense)
+- **Content splitting policy** - For session/lesson educational content, when content exceeds 1000 lines, ALWAYS SPLIT into multiple parts (never trim/condense); roadmap/governance docs (e.g., `docs/01_Python-Fundamentals-MasterPlan.md`) are exempt unless explicitly requested
 - **Progressive complexity** - Each session builds on previous
 - **Hands-on practice** - Every concept has practical application
 - **Visual learning** - Emojis, diagrams, and clear formatting
