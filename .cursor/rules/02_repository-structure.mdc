@@ -1,7 +1,7 @@
 # Repository Structure & Context
 
-**Version**: 1.0  
-**Last Updated**: December 2025
+**Version**: 1.1  
+**Last Updated**: April 2026
 
 ---
 
@@ -49,47 +49,133 @@ When including code examples in session documentation:
 
 ## 📁 Repository Structure
 
-### Current Structure
+> **Single source of truth:** [`docs/RepositoryStructure.md`](../../docs/RepositoryStructure.md) — if this embedded tree and that file differ, **update the doc first**, then mirror the block here.
+
+**CI / tooling:** `.github/workflows/docs-quality.yml` (markdownlint + Lychee) and `python-quality.yml` (Ruff + `compileall`). `requires-python` is in `pyproject.toml` (e.g. `py -3.13` on Windows to match GitHub Actions).
 
 ```text
 python-fundamentals/
-├── .cursor/                               # Cursor AI configuration
-│   └── rules/                             # Project rules (this directory)
-│       ├── 01_educational-content-rules.mdc
-│       ├── 02_repository-structure.mdc
-│       ├── 03_quality-assurance.mdc
-│       ├── 04_markdown-standards.mdc
-│       ├── 05_primary-directives.mdc
-│       ├── 06_cross-level-integration.mdc
-│       └── README.md
-├── .github/                               # GitHub configuration
-│   ├── copilot-instructions.md            # GitHub Copilot instructions
-│   └── workflows/
-│       └── docs-quality.yml               # CI/CD for documentation quality
-├── docs/                                  # Documentation hub
-│   ├── images/                            # Educational images and screenshots
-│   │   └── S1/                            # Session 1 images
-│   └── sessions/                          # Session documentation
-│       └── L1/                            # Level 1: Noob → Nerd
-│           ├── _Plan.md                   # Level 1 curriculum plan (underscore sorts first)
-│           └── 01_S1.md                   # Session 1 documentation
-├── scripts/                               # PowerShell utility scripts
-│   ├── docs-lint.ps1                     # Markdown linting script
-│   ├── docs-links.ps1                    # Link validation script
-│   ├── show-tree.ps1                     # Repository structure generator
-│   └── (generated outputs)               # Optional local outputs from scripts (not tracked)
-├── src/                                   # Practice code files
-│   └── L1/                               # Level 1
-│       └── S1/                           # Session 1
-│           ├── 01_hello.py
-│           ├── 02_interactive_hello.py
-│           └── bytecode_demo.py
-├── LICENSE                                 # MIT License
-├── README.md                               # Main repository documentation
-├── lychee.toml                            # Link checker configuration
-├── .markdownlint.json                     # Markdown linting rules
-└── .markdownlint-cli2.yaml                 # Markdown linting CLI config
+├── 📚 docs/
+│   ├── 01_Python-Fundamentals-MasterPlan.md  # Complete 18-level course master plan
+│   ├── images/                 # Screenshots and educational images
+│   │   └── S1/                 # Session 1 images
+│   ├── RepositoryStructure.md  # This file
+│   └── sessions/
+│       ├── L1/                 # Level 1: Noob → Nerd
+│       │   ├── _Plan.md        # Complete Level 1 curriculum plan (sorts first)
+│       │   ├── 01_S1.md        # Session 1: Python Introduction & Environment
+│       │   ├── 02_S2.md        # Session 2: Variables & Data Types
+│       │   ├── 03_S3.md        # Session 3: Operators & Expressions
+│       │   ├── 04_S4.md        # Session 4: Conditionals & Modules
+│       │   ├── 05_MP1.md       # Mini Project 1: Simple Calculator
+│       │   ├── 06_S5.md        # Session 5: Loops & Iteration
+│       │   ├── 07_S6.md        # Session 6: Debugging & Built-ins
+│       │   ├── 08_S7.md        # Session 7: Lists & Loops
+│       │   ├── 09_S8.md        # Session 8: Dictionaries & Testing
+│       │   └── 10_MP2.md       # Mini Project 2: Profile Generator
+│       └── L2/                 # Level 2: Nerd → Novice
+│           ├── _Plan.md        # Complete Level 2 curriculum plan
+│           ├── 01_S1.md        # Session 1: Sets & Tuples
+│           ├── 02_S2.md        # Session 2: List Comprehensions
+│           ├── 03_S3.md        # Session 3: Functions Basics
+│           ├── 04_S4.md        # Session 4: Error Handling
+│           ├── 05_MP1.md       # Mini Project 1: Data Processor
+│           ├── 06_S5.md        # Session 5: Functions Parameters
+│           ├── 07_S6.md        # Session 6: Functions Scope
+│           ├── 08_S7.md        # Session 7: File Handling
+│           ├── 09_S8.md        # Session 8: Modules Deep Dive
+│           └── 10_MP2.md       # Mini Project 2: Contact Manager
+├── 💻 src/
+│   ├── L1/
+│       ├── S1/                 # Session 1 practice files
+│       │   ├── 01_hello.py
+│       │   ├── 02_interactive_hello.py
+│       │   └── bytecode_demo.py
+│       ├── S2/                 # Session 2 practice files
+│       │   ├── 01_variables.py
+│       │   ├── 02_data_types.py
+│       │   └── 03_type_conversion.py
+│       ├── S3/                 # Session 3 practice files
+│       │   ├── 01_arithmetic.py
+│       │   ├── 02_comparisons.py
+│       │   └── 03_mini_calculator.py
+│       ├── S4/                 # Session 4 practice files
+│       │   ├── 01_conditionals.py
+│       │   ├── 02_boolean_logic.py
+│       │   └── 03_number_guessing_game.py
+│       ├── S5/                 # Session 5 practice files
+│       │   ├── 01_for_loops.py
+│       │   ├── 02_while_loops.py
+│       │   └── 03_loop_controls_fizzbuzz.py
+│       ├── S6/                 # Session 6 practice files
+│       │   ├── 01_error_examples.py
+│       │   ├── 02_debug_practice.py
+│       │   └── 03_builtin_functions.py
+│       ├── S7/                 # Session 7 practice files
+│       │   ├── 01_list_basics.py
+│       │   ├── 02_list_methods.py
+│       │   └── 03_task_manager.py
+│       ├── S8/                 # Session 8 practice files
+│       │   ├── 01_dict_basics.py
+│       │   ├── 02_dict_iteration.py
+│       │   └── 03_gradebook.py
+│       ├── MP1/                # Mini Project 1
+│       │   └── simple_calculator.py
+│       └── MP2/                # Mini Project 2
+│           └── profile_generator.py
+│   └── L2/
+│       ├── S1/                 # Session 1 practice files
+│       │   ├── 01_sets_basics.py
+│       │   ├── 02_tuples_basics.py
+│       │   └── 03_conversions.py
+│       ├── S2/                 # Session 2 practice files
+│       │   ├── 01_basic_comprehensions.py
+│       │   ├── 02_filtered_comprehensions.py
+│       │   └── 03_practical_examples.py
+│       ├── S3/                 # Session 3 practice files
+│       │   ├── 01_basic_functions.py
+│       │   ├── 02_reusable_functions.py
+│       │   └── 03_organized_code.py
+│       ├── S4/                 # Session 4 practice files
+│       │   ├── 01_basic_error_handling.py
+│       │   ├── 02_multiple_exceptions.py
+│       │   └── 03_else_finally.py
+│       ├── S5/                 # Session 5 practice files
+│       │   ├── 01_basic_parameters.py
+│       │   ├── 02_parameter_types.py
+│       │   └── 03_return_values.py
+│       ├── S6/                 # Session 6 practice files
+│       │   ├── 01_local_scope.py
+│       │   ├── 02_global_scope.py
+│       │   └── 03_code_organization.py
+│       ├── S7/                 # Session 7 practice files
+│       │   ├── 01_reading_files.py
+│       │   ├── 02_writing_files.py
+│       │   └── 03_file_operations.py
+│       ├── S8/                 # Session 8 practice files
+│       │   ├── 01_creating_modules.py
+│       │   ├── 02_name_main.py
+│       │   └── 03_multi_file_project.py
+│       ├── MP1/                # Mini Project 1
+│       │   └── data_processor.py
+│       └── MP2/                # Mini Project 2
+│           └── contact_manager.py
+├── 🔧 scripts/                 # Development and utility scripts
+│   ├── docs-lint.ps1           # Markdown linting script
+│   ├── docs-links.ps1          # Link validation script
+│   ├── show-tree.ps1           # Repository structure generator
+│   └── (generated outputs)     # Optional local outputs from scripts (not tracked)
+├── ⚙️ .github/
+│   ├── workflows/
+│   │   ├── docs-quality.yml    # CI/CD for documentation quality
+│   │   └── python-quality.yml  # CI/CD for Python quality checks
+│   └── copilot-instructions.md
+├── 📄 README.md                # Main project README
+├── 📄 LICENSE                  # MIT License
+└── 📋 Configuration files      # .markdownlint*, lychee.toml, .gitignore, pyproject.toml
 ```
+
+The above block matches the “Complete Repository Structure” code fence in [`docs/RepositoryStructure.md`](../../docs/RepositoryStructure.md) (line for line), plus a short **CI** note at the top of this section. Path patterns, level tables, and the `.cursor/` description live in that file.
 
 ---
 
@@ -143,7 +229,7 @@ python-fundamentals/
 
 **Link broken?** → Update URLs or fix internal file references
 
-**Structure outdated?** → Update `.github/copilot-instructions.md` and `README.md` immediately
+**Structure outdated?** → Update `docs/RepositoryStructure.md` first, then `.github/copilot-instructions.md` and `README.md` (and this file’s tree if needed)
 
 ---
 
