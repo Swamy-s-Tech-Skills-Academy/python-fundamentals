@@ -430,6 +430,6 @@ __pycache__/
 .vscode/
 *.log
 
-## Local-only author reference (optional; not part of the published curriculum)
+# Not committed
 source-material/
 
