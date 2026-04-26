@@ -145,7 +145,7 @@ docker run --rm -w /input -v "${PWD}:/input" lycheeverse/lychee:latest --config 
 
 ### **Python Quality Checks (Local)**
 
-Run static quality checks on practice scripts:
+Run static quality checks on practice scripts. Use **Python 3.13+** to match `requires-python` in `pyproject.toml` and GitHub Actions (on Windows, e.g. `py -3.13`).
 
 ```powershell
 ruff check src

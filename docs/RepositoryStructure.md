@@ -127,7 +127,7 @@ python-fundamentals/
 │   └── copilot-instructions.md
 ├── 📄 README.md                # Main project README
 ├── 📄 LICENSE                  # MIT License
-└── 📋 Configuration files      # .markdownlint*, lychee.toml, .gitignore
+└── 📋 Configuration files      # .markdownlint*, lychee.toml, .gitignore, pyproject.toml
 ```
 
 ---
@@ -277,4 +277,13 @@ Cursor AI configuration:
 
 ---
 
-**Last Updated**: December 2025
+## 📥 Source material & “migrated” content (authors)
+
+For this curriculum, **“migrated”** means teaching content that lives in **`docs/`** and **`src/`** — the version-controlled lessons and practice scripts students and Copilot use. It does **not** mean copying third-party PDFs or web pages into the repository.
+
+- **Reference notes / PDFs** belong outside the published tree unless you have rights to share them. Authors may keep a **local-only** `source-material/` directory for private reading; that path is **gitignored** and is **not** required for the course to work.
+- **Zero-copy** when writing: follow `.cursor/rules/01_educational-content-rules.mdc` (transform the ideas; do not mirror sources).
+
+---
+
+**Last Updated**: April 2026
