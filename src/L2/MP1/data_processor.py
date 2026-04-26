@@ -15,8 +15,8 @@ def get_scores():
         print("Error: Please enter valid numbers separated by commas!")
         print("Using sample data instead.")
         return [85, 90, 85, 92, 90, 88, 85, 75, 95, 88]
-    except Exception as e:
-        print(f"Unexpected error: {e}")
+    except (EOFError, OSError) as e:
+        print(f"Input error: {e}")
         return []
 
 
@@ -34,7 +34,7 @@ def process_scores(scores):
     # Transform: get only scores above 70 using comprehension
     passing_scores = [score for score in unique_scores if score >= 70]
     
-    # Calculate average using comprehension and built-in functions
+    # Calculate average from unique scores for consistency with set-based processing
     average = sum(unique_scores) / len(unique_scores) if unique_scores else 0
     
     return unique_scores, score_tuples, passing_scores, average
@@ -95,4 +95,3 @@ def main():
 # Run the program
 if __name__ == "__main__":
     main()
-

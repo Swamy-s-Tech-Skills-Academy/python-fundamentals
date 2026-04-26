@@ -8,6 +8,14 @@ This file demonstrates how to create and use custom modules.
 We'll create a string utility module and use it!
 """
 
+import os
+import shutil
+import sys
+import tempfile
+
+demo_dir = tempfile.mkdtemp(prefix="pyfund_l2_s8_modules_")
+module_path = os.path.join(demo_dir, "string_utils.py")
+
 print("=" * 60)
 print("📦 CREATING YOUR OWN MODULES")
 print("=" * 60)
@@ -78,7 +86,7 @@ def word_frequency(text):
 '''
 
 # Write the module file
-with open("string_utils.py", "w") as f:
+with open(module_path, "w") as f:
     f.write(module_code)
 
 print("✅ Created 'string_utils.py' module!\n")
@@ -99,6 +107,10 @@ print("=" * 60)
 print("\n1️⃣ Method 1: Import entire module")
 print("   import string_utils")
 
+if demo_dir not in sys.path:
+    sys.path.insert(0, demo_dir)
+# Ensure a fresh import so this demo always reflects the newly generated module file.
+sys.modules.pop("string_utils", None)
 import string_utils
 
 result = string_utils.capitalize_words("hello world python")
@@ -239,15 +251,21 @@ print("\n" + "=" * 60)
 print("🧹 Cleaning up...")
 print("=" * 60)
 
-import os
-if os.path.exists("string_utils.py"):
-    os.remove("string_utils.py")
+if os.path.exists(module_path):
+    os.remove(module_path)
     print("Removed string_utils.py")
 
 # Clean up the cached module files too
-import shutil
-if os.path.exists("__pycache__"):
-    shutil.rmtree("__pycache__")
+cache_dir = os.path.join(demo_dir, "__pycache__")
+if os.path.exists(cache_dir):
+    shutil.rmtree(cache_dir)
     print("Removed __pycache__/")
+
+if os.path.exists(demo_dir):
+    shutil.rmtree(demo_dir)
+    print("Removed demo workspace")
+
+if demo_dir in sys.path:
+    sys.path.remove(demo_dir)
 
 print("\n✨ Module creation lesson complete!")

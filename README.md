@@ -182,6 +182,8 @@ Generate current repository structure for documentation:
 .\scripts\show-tree.ps1 -Path "." -Depth 4
 ```
 
+`scripts/repo-structure.txt` is an optional local artifact and is not tracked by Git.
+
 ---
 
 ## 🤝 **Contributing**
