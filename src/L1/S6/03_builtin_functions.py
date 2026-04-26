@@ -15,7 +15,7 @@ name = "Python Programming"
 
 
 def safe_average(values):
-    """Return average for non-empty input, otherwise None."""
+    """Return average of numeric values in a sequence, or None if empty."""
     if not values:
         return None
     return sum(values) / len(values)
@@ -78,6 +78,7 @@ print(f"Sum: {sum(scores)}")
 print(f"Min: {min(scores)}")
 print(f"Max: {max(scores)}")
 print(f"Range: {max(scores) - min(scores)}")
+average = safe_average(scores)
 if average is None:
     print("Average: N/A (no data)")
 else:
