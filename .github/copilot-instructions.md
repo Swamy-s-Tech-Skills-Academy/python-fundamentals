@@ -74,7 +74,9 @@ python-fundamentals/
 │   │   │   └── bytecode_demo.py
 │   │   ├── S2/ ... S8/      # Session 2-8 practice files
 │   │   ├── MP1/             # Mini Project 1 files
-│   │   │   └── simple_calculator.py
+│   │   │   ├── 01_simple_calculator.py
+│   │   │   ├── 02_simple_calculator_loop.py
+│   │   │   └── calculator_utils.py
 │   │   └── MP2/             # Mini Project 2 files
 │   │       └── profile_generator.py
 │   └── L2/                  # Level 2 practice files
