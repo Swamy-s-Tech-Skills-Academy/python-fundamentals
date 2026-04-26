@@ -173,10 +173,11 @@ OBSERVE: Now the concept is clear - variables make code flexible and reusable
 ✅ **Multi-Part Structure**: Complex topics split into Part 1, Part 2, ... Part N  
 ✅ **One-Shot Learning**: Each segment complete and actionable within time limit  
 ✅ **Target Length**: 1000 lines of content maximum per response (flexible for educational clarity)
+✅ **Scope**: Applies to session/lesson educational content and split-friendly instructional docs; roadmap/governance docs (for example `docs/01_Python-Fundamentals-MasterPlan.md`) are exempt unless explicitly requested
 
 ### ⚠️ CRITICAL: Splitting vs. Trimming Policy
 
-**MANDATORY APPROACH**: When content exceeds 1000 lines, **ALWAYS SPLIT** into multiple parts. **NEVER TRIM** or condense content.
+**MANDATORY APPROACH**: For in-scope educational content, when content exceeds 1000 lines, **ALWAYS SPLIT** into multiple parts. **NEVER TRIM** or condense content.
 
 **Why Splitting is Required:**
 - ✅ **Preserves ALL educational content** - No loss of examples, explanations, or concepts
