@@ -13,6 +13,13 @@ print("=" * 50)
 scores = [85, 92, 78, 96, 88, 73, 91]
 name = "Python Programming"
 
+
+def safe_average(values):
+    """Return average for non-empty input, otherwise None."""
+    if not values:
+        return None
+    return sum(values) / len(values)
+
 # len() - Length
 print("\n--- len() Examples ---")
 print(f"Scores list: {scores}")
@@ -33,8 +40,11 @@ print(f"Total of scores: {sum(scores)}")
 print(f"Sum of 1-10: {sum(range(1, 11))}")
 
 # Calculate average using len() and sum()
-average = sum(scores) / len(scores)
-print(f"Average score: {round(average, 2)}")
+average = safe_average(scores)
+if average is None:
+    print("Average score: N/A (no data)")
+else:
+    print(f"Average score: {round(average, 2)}")
 
 # abs()
 print("\n--- abs() Examples ---")
@@ -68,7 +78,10 @@ print(f"Sum: {sum(scores)}")
 print(f"Min: {min(scores)}")
 print(f"Max: {max(scores)}")
 print(f"Range: {max(scores) - min(scores)}")
-print(f"Average: {round(sum(scores) / len(scores), 2)}")
+if average is None:
+    print("Average: N/A (no data)")
+else:
+    print(f"Average: {round(average, 2)}")
 
 print("\n" + "=" * 50)
 print("✨ Built-in functions are powerful tools!")
