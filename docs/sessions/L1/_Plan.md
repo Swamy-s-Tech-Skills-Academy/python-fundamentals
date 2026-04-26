@@ -63,7 +63,7 @@ sessions:
     topic: "Basic Debugging, Reading Errors & Built-in Functions"
     duration: "30 min"
     type: "Knowledge"
-    status: "Planned"
+    status: "Ready"
     file: "docs/sessions/L1/07_S6.md"
   - session: 7
     topic: "Lists & Loops"
@@ -110,7 +110,7 @@ sessions:
 | A     | 4       | Conditionals, Indentation & Introduction to Modules    | 30 min    | 📚 Knowledge | ✅ Ready   |
 | A     | 🚀 MP1  | Mini Project 1: Simple Calculator *(after Session 4)*  | 30–45 min | 🛠️ Project   | ✅ Ready   |
 | B     | 5       | Loops & Iteration                                      | 30 min    | 📚 Knowledge | ✅ Ready   |
-| B     | 6       | Basic Debugging, Reading Errors & Built-in Functions   | 30 min    | 📚 Knowledge | 🔄 Planned |
+| B     | 6       | Basic Debugging, Reading Errors & Built-in Functions   | 30 min    | 📚 Knowledge | ✅ Ready   |
 | B     | 7       | Lists & Loops                                          | 30 min    | 📚 Knowledge | 🔄 Planned |
 | B     | 8       | Dictionaries & Basic Testing                           | 30 min    | 📚 Knowledge | 🔄 Planned |
 | B     | 🚀 MP2  | Mini Project 2: Personal Profile Generator *(after 8)* | 30–45 min | 🛠️ Project   | 🔄 Planned |
@@ -287,13 +287,13 @@ ASCII fallback:
 
 ---
 
-### 🔄 Session 6: Basic Debugging & Built-in Functions *(Planned)*
+### ✅ Session 6: Basic Debugging & Built-in Functions *(Ready)*
 
 * Error types: syntax vs runtime
 * Reading error messages
 * Common beginner mistakes
 * Debugging with `print()`
-* Built-in functions: `len()`, `max()`, `min()`, `sum()`, `type()`
+* Built-in functions: `len()`, `max()`, `min()`, `sum()`, `abs()`, `round()`
 
 🧪 *Mini Practice*: Debug broken code samples.  
 📌 *Feeds into Mini Project 2*: Debugging profile input.

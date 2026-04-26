@@ -73,7 +73,9 @@ python-fundamentals/
 │       │   ├── 02_dict_iteration.py
 │       │   └── 03_gradebook.py
 │       ├── MP1/                # Mini Project 1
-│       │   └── simple_calculator.py
+│       │   ├── 01_simple_calculator.py
+│       │   ├── 02_simple_calculator_loop.py
+│       │   └── calculator_utils.py
 │       └── MP2/                # Mini Project 2
 │           └── profile_generator.py
 │   └── L2/
@@ -204,7 +206,9 @@ Cursor AI configuration:
 
 ```markdown
 `src/L1/S1/01_hello.py`
-`src/L1/MP1/simple_calculator.py`
+`src/L1/MP1/01_simple_calculator.py`
+`src/L1/MP1/02_simple_calculator_loop.py`
+`src/L1/MP1/calculator_utils.py`
 ```
 
 ### Session Documentation References
@@ -234,7 +238,7 @@ Cursor AI configuration:
 | 2 | `02_S2.md` | Variables & Data Types | 3 files |
 | 3 | `03_S3.md` | Operators & Expressions | 3 files |
 | 4 | `04_S4.md` | Conditionals & Modules | 3 files |
-| 5 | `05_MP1.md` | Mini Project: Calculator | 1 file |
+| 5 | `05_MP1.md` | Mini Project: Calculator | 3 files |
 | 6 | `06_S5.md` | Loops & Iteration | 3 files |
 | 7 | `07_S6.md` | Debugging & Built-ins | 3 files |
 | 8 | `08_S7.md` | Lists & Loops | 3 files |
