@@ -69,19 +69,19 @@ sessions:
     topic: "Lists & Loops"
     duration: "30 min"
     type: "Knowledge"
-    status: "Planned"
+    status: "Ready"
     file: "docs/sessions/L1/S8.md"
   - session: 8
     topic: "Dictionaries & Basic Testing"
     duration: "30 min"
     type: "Knowledge"
-    status: "Planned"
+    status: "Ready"
     file: "docs/sessions/L1/S9.md"
   - session: "MP2"
     topic: "Mini Project 2: Personal Profile Generator"
     duration: "30–45 min"
     type: "Project"
-    status: "Planned"
+    status: "Ready"
     file: "docs/sessions/L1/S10_MP2.md"
 ---
 
@@ -111,9 +111,9 @@ sessions:
 | A     | 🚀 MP1  | Mini Project 1: Simple Calculator *(after Session 4)*  | 30–45 min | 🛠️ Project   | ✅ Ready   |
 | B     | 5       | Loops & Iteration                                      | 30 min    | 📚 Knowledge | ✅ Ready   |
 | B     | 6       | Basic Debugging, Reading Errors & Built-in Functions   | 30 min    | 📚 Knowledge | ✅ Ready   |
-| B     | 7       | Lists & Loops                                          | 30 min    | 📚 Knowledge | 🔄 Planned |
-| B     | 8       | Dictionaries & Basic Testing                           | 30 min    | 📚 Knowledge | 🔄 Planned |
-| B     | 🚀 MP2  | Mini Project 2: Personal Profile Generator *(after 8)* | 30–45 min | 🛠️ Project   | 🔄 Planned |
+| B     | 7       | Lists & Loops                                          | 30 min    | 📚 Knowledge | ✅ Ready   |
+| B     | 8       | Dictionaries & Basic Testing                           | 30 min    | 📚 Knowledge | ✅ Ready   |
+| B     | 🚀 MP2  | Mini Project 2: Personal Profile Generator *(after 8)* | 30–45 min | 🛠️ Project   | ✅ Ready   |
 
 ---
 
@@ -194,7 +194,7 @@ ASCII fallback:
 🧪 *Practice Files*:  
 `src/L1/S1/01_hello.py`, `src/L1/S1/02_interactive_hello.py`, `src/L1/S1/bytecode_demo.py`
 
-📖 *Documentation*: [01_S1.md](01_S1.md)
+📖 *Documentation*: [S1.md](S1.md)
 
 ---
 
@@ -208,7 +208,7 @@ ASCII fallback:
 🧪 *Practice Files*:  
 `src/L1/S2/01_variables.py`, `src/L1/S2/02_data_types.py`, `src/L1/S2/03_type_conversion.py`
 
-📖 *Documentation*: [02_S2.md](02_S2.md)
+📖 *Documentation*: [S2.md](S2.md)
 
 🧪 *Mini Practice*: Store and display personal details with different data types.  
 📌 *Feeds into Mini Project 1*: User input and storage are core to the calculator.
@@ -225,7 +225,7 @@ ASCII fallback:
 🧪 *Practice Files*:  
 `src/L1/S3/01_arithmetic.py`, `src/L1/S3/02_comparisons.py`, `src/L1/S3/03_mini_calculator.py`
 
-📖 *Documentation*: [03_S3.md](03_S3.md)
+📖 *Documentation*: [S3.md](S3.md)
 
 🧪 *Mini Practice*: Build a basic calculator with different operations.  
 📌 *Feeds into Mini Project 1*: Calculator logic.
@@ -259,7 +259,7 @@ ASCII fallback:
 * Clean, structured code
 
 🧪 *Practice Pack*: `src/L1/MP1/01_simple_calculator.py`, `src/L1/MP1/02_simple_calculator_loop.py`  
-📖 *Project Guide*: [05_MP1.md](05_MP1.md)
+📖 *Project Guide*: [S5_MP1.md](S5_MP1.md)
 
 🎯 *Stretch Goals*:
 
@@ -280,7 +280,7 @@ ASCII fallback:
 🧪 *Practice Files*:  
 `src/L1/S5/01_for_loops.py`, `src/L1/S5/02_while_loops.py`, `src/L1/S5/03_loop_controls_fizzbuzz.py`
 
-📖 *Documentation*: [06_S5.md](06_S5.md)
+📖 *Documentation*: [S6.md](S6.md)
 
 🧪 *Mini Practice*: FizzBuzz challenge, countdown timer, pattern printing.  
 📌 *Feeds into Mini Project 2*: Looping over profiles.
@@ -300,7 +300,7 @@ ASCII fallback:
 
 ---
 
-### 🔄 Session 7: Lists & Loops *(Planned)*
+### ✅ Session 7: Lists & Loops *(Ready)*
 
 * List creation, indexing, slicing, basic methods
 * Operations: `append()`, `remove()`, `len()`, accessing elements
@@ -312,7 +312,7 @@ ASCII fallback:
 
 ---
 
-### 🔄 Session 8: Dictionaries & Basic Testing *(Planned)*
+### ✅ Session 8: Dictionaries & Basic Testing *(Ready)*
 
 * Dictionaries: creation, update, deletion
 * Methods: `.keys()`, `.values()`, `.items()`, `.get()`
@@ -325,7 +325,7 @@ ASCII fallback:
 
 ---
 
-### 🚀 Mini Project 2: Personal Profile Generator *(Planned)*
+### 🚀 Mini Project 2: Personal Profile Generator *(Ready)*
 
 **Goal:** Create an interactive profile generator and display system.
 

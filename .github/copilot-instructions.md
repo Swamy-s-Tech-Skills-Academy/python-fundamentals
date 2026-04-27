@@ -60,11 +60,11 @@ python-fundamentals/
 │   └── sessions/
 │       ├── L1/              # Level 1: Noob → Nerd
 │       │   ├── _Plan.md
-│       │   ├── 01_S1.md
+│       │   ├── S1.md
 │       │   └── ...
 │       └── L2/              # Level 2: Nerd → Novice
 │           ├── _Plan.md
-│           ├── 01_S1.md
+│           ├── S1.md
 │           └── ...
 ├── src/
 │   ├── L1/
@@ -236,7 +236,7 @@ print("🚀 Advanced Python Preview")
 ```text
 # OLD (incorrect)
 docs/sessions/S1.md
-docs/sessions/L1/S1.md
+docs/sessions/L1/01_S1.md
 
 # NEW (correct)
 docs/sessions/L1/S1.md
@@ -246,14 +246,14 @@ docs/sessions/L1/S1.md
 
 **CRITICAL**: All file references must:
 
-- ✅ Include numeric prefixes (`01_`, `02_`, etc.) in file names
+- ✅ Keep Python practice file prefixes (`01_`, `02_`, etc.) and use exact existing session doc names (`S1.md`, `S5_MP1.md`, etc.)
 - ✅ Use correct `L{level}/S{session}/` directory structure
 - ✅ Match actual file names exactly
 - ✅ Be verified before committing
 
 **Common Errors to Avoid:**
 
-- ❌ Missing numeric prefixes: `S1.md` → ✅ `01_S1.md`
+- ❌ Wrong session doc name: `01_S1.md` → ✅ `S1.md`
 - ❌ Missing level identifier: `sessions/S1/` → ✅ `sessions/L1/S1.md`
 - ❌ Incorrect path structure: `src/S1/` → ✅ `src/L1/S1/`
 
@@ -267,7 +267,7 @@ Before submitting any changes, verify:
 
 - [ ] **Content preserved** - No educational material lost
 - [ ] **Structure intact** - Formatting and organization maintained
-- [ ] **Links work** - All file references are correct (include numeric prefixes)
+- [ ] **Links work** - All file references are correct and match actual file names exactly
 - [ ] **File references validated** - All references use `L{level}/S{session}/` structure
 - [ ] **Code examples** - All Python code is syntactically correct
 - [ ] **Reasoning quality** - Code design decisions include explicit reasoning (why this approach?)

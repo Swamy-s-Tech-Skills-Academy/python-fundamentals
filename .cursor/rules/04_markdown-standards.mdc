@@ -126,7 +126,7 @@ Before finalizing session documentation:
 ```markdown
 # WRONG - Incorrect path format
 [Session 1](docs/sessions/S1.md)
-[Session 1](docs/sessions/L1/S1.md)
+[Session 1](docs/sessions/L1/01_S1.md)
 [Practice File](src/S1/01_hello.py)
 ```
 
@@ -168,26 +168,26 @@ Before finalizing session documentation:
 `src/L1/S1/01_hello.py`, `src/L1/S1/02_interactive_hello.py`
 ```
 
-#### ❌ **ERROR: Missing Numeric Prefixes**
+#### ❌ **ERROR: Mismatched File Names**
 
 **Problem Pattern:**
 
 ```markdown
-# WRONG - Missing numeric prefix in reference
-[Session 1](docs/sessions/L1/S1.md)
+# WRONG - Uses outdated session doc naming
+[Session 1](docs/sessions/L1/01_S1.md)
 🧪 *Practice Files*: `src/L1/S1/hello.py`
 ```
 
 **Root Cause:**
 
-- References don't include numeric prefixes (`01_`, `02_`, etc.)
+- References use outdated file names
 - File names in references don't match actual file names
-- Need to use exact file names including prefixes
+- Need to use exact current file names
 
 **Correct Format:**
 
 ```markdown
-# CORRECT - Includes numeric prefixes
+# CORRECT - Matches current file names
 [Session 1](docs/sessions/L1/S1.md)
 🧪 *Practice Files*: `src/L1/S1/01_hello.py`
 ```
@@ -198,7 +198,7 @@ Before finalizing session documentation:
 
 ```markdown
 # WRONG - Missing level or session in path
-[Session 2](docs/sessions/02_S2.md)
+[Session 2](docs/sessions/S2.md)
 [Practice File](src/S2/01_variables.py)
 ```
 
@@ -219,9 +219,9 @@ Before finalizing session documentation:
 ### File Reference Rules
 
 1. ✅ **Always verify file exists** before adding reference
-2. ✅ **Use exact file names** - match actual file names exactly (including `01_`, `02_` prefixes)
+2. ✅ **Use exact file names** - match actual file names exactly
 3. ✅ **Use correct paths** - `src/L{level}/S{session}/` and `docs/sessions/L{level}/`
-4. ✅ **Include numeric prefixes** - All file references must include numeric prefixes (`01_`, `02_`, etc.)
+4. ✅ **Use current naming conventions** - Session docs like `S1.md`; Python practice files like `01_hello.py`
 5. ✅ **Test references** - verify all links work in markdown preview
 6. ✅ **Update all references** - when renaming/moving files, update ALL references immediately
 7. ✅ **Use relative paths correctly** - ensure paths resolve from current file location
@@ -254,7 +254,7 @@ Before finalizing session documentation:
 Before committing any file with references:
 
 1. ✅ **Check file exists**: Verify each referenced file exists in the expected location
-2. ✅ **Verify file names match exactly**: Check numeric prefixes (`01_`, `02_`, etc.) are included
+2. ✅ **Verify file names match exactly**: Use current file names as they exist in the repository
 3. ✅ **Test navigation**: Click links in markdown preview to verify they work
 4. ✅ **Update after changes**: If you rename/move files, update ALL references immediately
 5. ✅ **Use correct paths**: Relative paths must resolve from current file's directory
