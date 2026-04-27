@@ -22,7 +22,9 @@ python-fundamentals/
 │       │   ├── 04_S4.md        # Session 4: Conditionals & Modules
 │       │   ├── 05_MP1.md       # Mini Project 1: Simple Calculator
 │       │   ├── 06_S5.md        # Session 5: Loops & Iteration
-│       │   ├── 07_S6.md        # Session 6: Debugging & Built-ins
+│       │   ├── 07_S6.md        # Session 6: Debugging & Built-ins (landing)
+│       │   ├── 07_S6_P1.md     # Session 6 Part 1: Debugging Foundations
+│       │   ├── 07_S6_P2.md     # Session 6 Part 2: Built-ins, Practice, Exit Check
 │       │   ├── 08_S7.md        # Session 7: Lists & Loops
 │       │   ├── 09_S8.md        # Session 8: Dictionaries & Testing
 │       │   └── 10_MP2.md       # Mini Project 2: Profile Generator
@@ -240,7 +242,7 @@ Cursor AI configuration:
 | 4 | `04_S4.md` | Conditionals & Modules | 3 files |
 | 5 | `05_MP1.md` | Mini Project: Calculator | 3 files |
 | 6 | `06_S5.md` | Loops & Iteration | 3 files |
-| 7 | `07_S6.md` | Debugging & Built-ins | 3 files |
+| 7 | `07_S6.md` + `07_S6_P1.md` + `07_S6_P2.md` | Debugging & Built-ins | 3 files |
 | 8 | `08_S7.md` | Lists & Loops | 3 files |
 | 9 | `09_S8.md` | Dictionaries & Testing | 3 files |
 | 10 | `10_MP2.md` | Mini Project: Profile Generator | 1 file |
