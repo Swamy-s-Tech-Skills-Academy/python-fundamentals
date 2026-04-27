@@ -214,9 +214,9 @@ Cursor AI configuration:
 ### Session Documentation References
 
 ```markdown
-[Session 1](docs/sessions/L1/01_S1.md)
+[Session 1](docs/sessions/L1/S1.md)
 [Level 1 Plan](docs/sessions/L1/_Plan.md)
-[Mini Project 1](docs/sessions/L1/05_MP1.md)
+[Mini Project 1](docs/sessions/L1/S5_MP1.md)
 ```
 
 ### Image References
@@ -272,7 +272,7 @@ Cursor AI configuration:
 - **Main README**: [README.md](../README.md)
 - **Level 1 Plan**: [docs/sessions/L1/_Plan.md](sessions/L1/_Plan.md)
 - **Level 2 Plan**: [docs/sessions/L2/_Plan.md](sessions/L2/_Plan.md)
-- **L1 Session 1**: [docs/sessions/L1/01_S1.md](sessions/L1/01_S1.md)
+- **L1 Session 1**: [docs/sessions/L1/S1.md](sessions/L1/S1.md)
 - **L2 Session 1**: [docs/sessions/L2/01_S1.md](sessions/L2/01_S1.md)
 
 ---

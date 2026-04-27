@@ -140,7 +140,7 @@ Before finalizing session documentation:
 
 ```markdown
 # CORRECT - Proper path format
-[Session 1](docs/sessions/L1/01_S1.md)
+[Session 1](docs/sessions/L1/S1.md)
 [Practice File](src/L1/S1/01_hello.py)
 ```
 
@@ -188,7 +188,7 @@ Before finalizing session documentation:
 
 ```markdown
 # CORRECT - Includes numeric prefixes
-[Session 1](docs/sessions/L1/01_S1.md)
+[Session 1](docs/sessions/L1/S1.md)
 🧪 *Practice Files*: `src/L1/S1/01_hello.py`
 ```
 
@@ -212,7 +212,7 @@ Before finalizing session documentation:
 
 ```markdown
 # CORRECT - Full level/session structure
-[Session 2](docs/sessions/L1/02_S2.md)
+[Session 2](docs/sessions/L1/S2.md)
 [Practice File](src/L1/S2/01_variables.py)
 ```
 
@@ -239,7 +239,7 @@ Before finalizing session documentation:
 **When referencing session documentation:**
 
 ```markdown
-[Session 1](docs/sessions/L1/01_S1.md)
+[Session 1](docs/sessions/L1/S1.md)
 [Level 1 Plan](docs/sessions/L1/_Plan.md)
 ```
 

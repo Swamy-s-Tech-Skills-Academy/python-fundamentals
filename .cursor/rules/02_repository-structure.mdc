@@ -239,7 +239,7 @@ The above block matches the “Complete Repository Structure” code fence in [`
 - **Main Documentation**: `README.md`
 - **📋 Single Source of Truth**: `docs/RepositoryStructure.md` - **This is the authoritative repository structure documentation**
 - **Level 1 Plan**: `docs/sessions/L1/_Plan.md`
-- **Session 1**: `docs/sessions/L1/01_S1.md`
+- **Session 1**: `docs/sessions/L1/S1.md`
 - **GitHub Copilot Instructions**: `.github/copilot-instructions.md` (should reference `docs/RepositoryStructure.md`)
 - **Utility Scripts**: `scripts/` directory
 

@@ -239,7 +239,7 @@ Every session documentation file MUST include:
 - ✅ Levels: Always use `L{number}` format (L1, L2, L3, etc.)
 - ✅ Sessions: Always use `S{number}` format (S1, S2, S3, etc.)
 - ✅ Path references: Use `src/L1/S1/` not `src/S1/`
-- ✅ Documentation paths: Use `docs/sessions/L1/01_S1.md` not `docs/sessions/S1.md`
+- ✅ Documentation paths: Use `docs/sessions/L1/S1.md` not `docs/sessions/S1.md`
 
 **Why This Rule Exists**:
 - Maintains consistent numbering across the repository
@@ -453,7 +453,7 @@ print('Hello, World!')
 
 1. ✅ **Verify file exists** before adding reference
 2. ✅ **Use exact file names** - match actual file names exactly
-3. ✅ **Use correct paths** - `src/L1/S1/01_hello.py`, `docs/sessions/L1/01_S1.md`
+3. ✅ **Use correct paths** - `src/L1/S1/01_hello.py`, `docs/sessions/L1/S1.md`
 4. ✅ **Test references** - verify all links work in markdown preview
 5. ✅ **Update after changes** - when renaming files, update ALL references immediately
 
@@ -470,7 +470,7 @@ print('Hello, World!')
 ### Reference Patterns
 
 - **Practice Files**: Reference as `src/L1/S1/01_hello.py` in session documentation
-- **Session Documentation**: Reference as `docs/sessions/L1/01_S1.md` or `[Session 1](docs/sessions/L1/01_S1.md)`
+- **Session Documentation**: Reference as `docs/sessions/L1/S1.md` or `[Session 1](docs/sessions/L1/S1.md)`
 - **Images**: Reference as `../../images/S1/Help_V1.PNG` from session documentation
 - **Planned Content**: References to files that don't exist yet are acceptable IF clearly marked as planned
 
