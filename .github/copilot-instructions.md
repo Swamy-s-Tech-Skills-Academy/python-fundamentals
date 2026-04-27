@@ -236,7 +236,7 @@ print("🚀 Advanced Python Preview")
 ```text
 # OLD (incorrect)
 docs/sessions/S1.md
-docs/sessions/L1/S1.md
+docs/sessions/L1/01_S1.md
 
 # NEW (correct)
 docs/sessions/L1/S1.md
