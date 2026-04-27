@@ -63,7 +63,7 @@ This rule set is customized for the **Python Fundamentals** repository:
 
 **File Naming**:
 - Python files: `01_name.py`, `02_name.py`
-- Session docs: `01_S1.md`, `02_S2.md`, `_Plan.md` (underscore prefix sorts first)
+- Session docs: `S1.md`, `S2.md`, `_Plan.md` (underscore prefix sorts first)
 - Directories: `L1/S1/`, `L1/S2/`
 
 **Path References**:

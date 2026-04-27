@@ -16,28 +16,28 @@ python-fundamentals/
 │   └── sessions/
 │       ├── L1/                 # Level 1: Noob → Nerd
 │       │   ├── _Plan.md        # Complete Level 1 curriculum plan (sorts first)
-│       │   ├── 01_S1.md        # Session 1: Python Introduction & Environment
-│       │   ├── 02_S2.md        # Session 2: Variables & Data Types
-│       │   ├── 03_S3.md        # Session 3: Operators & Expressions
-│       │   ├── 04_S4.md        # Session 4: Conditionals & Modules
-│       │   ├── 05_MP1.md       # Mini Project 1: Simple Calculator
-│       │   ├── 06_S5.md        # Session 5: Loops & Iteration
-│       │   ├── 07_S6.md        # Session 6: Debugging & Built-ins
-│       │   ├── 08_S7.md        # Session 7: Lists & Loops
-│       │   ├── 09_S8.md        # Session 8: Dictionaries & Testing
-│       │   └── 10_MP2.md       # Mini Project 2: Profile Generator
+│       │   ├── S1.md        # Session 1: Python Introduction & Environment
+│       │   ├── S2.md        # Session 2: Variables & Data Types
+│       │   ├── S3.md        # Session 3: Operators & Expressions
+│       │   ├── S4.md        # Session 4: Conditionals & Modules
+│       │   ├── S5_MP1.md       # Mini Project 1: Simple Calculator
+│       │   ├── S6.md        # Session 5: Loops & Iteration
+│       │   ├── S7.md        # Session 6: Debugging & Built-ins
+│       │   ├── S8.md        # Session 7: Lists & Loops
+│       │   ├── S9.md        # Session 8: Dictionaries & Testing
+│       │   └── S10_MP2.md       # Mini Project 2: Profile Generator
 │       └── L2/                 # Level 2: Nerd → Novice
 │           ├── _Plan.md        # Complete Level 2 curriculum plan
-│           ├── 01_S1.md        # Session 1: Sets & Tuples
-│           ├── 02_S2.md        # Session 2: List Comprehensions
-│           ├── 03_S3.md        # Session 3: Functions Basics
-│           ├── 04_S4.md        # Session 4: Error Handling
-│           ├── 05_MP1.md       # Mini Project 1: Data Processor
-│           ├── 06_S5.md        # Session 5: Functions Parameters
-│           ├── 07_S6.md        # Session 6: Functions Scope
-│           ├── 08_S7.md        # Session 7: File Handling
-│           ├── 09_S8.md        # Session 8: Modules Deep Dive
-│           └── 10_MP2.md       # Mini Project 2: Contact Manager
+│           ├── S1.md        # Session 1: Sets & Tuples
+│           ├── S2.md        # Session 2: List Comprehensions
+│           ├── S3.md        # Session 3: Functions Basics
+│           ├── S4.md        # Session 4: Error Handling
+│           ├── S5_MP1.md       # Mini Project 1: Data Processor
+│           ├── S6.md        # Session 5: Functions Parameters
+│           ├── S7.md        # Session 6: Functions Scope
+│           ├── S8.md        # Session 7: File Handling
+│           ├── S9.md        # Session 8: Modules Deep Dive
+│           └── S10_MP2.md       # Mini Project 2: Contact Manager
 ├── 💻 src/
 │   ├── L1/
 │       ├── S1/                 # Session 1 practice files
@@ -142,8 +142,8 @@ Contains all educational documentation:
 - **`sessions/`**: Session documentation organized by level (L1, L2, etc.)
   - Each level contains:
     - `_Plan.md`: Complete level curriculum plan (underscore sorts first)
-    - `01_S1.md`, `02_S2.md`, etc.: Numbered session documentation
-    - `05_MP1.md`, `10_MP2.md`: Mini project documentation
+    - `S1.md`, `S2.md`, etc.: Session documentation files
+    - `S5_MP1.md`, `S10_MP2.md`: Mini project documentation
 
 ### `src/`
 
@@ -187,9 +187,9 @@ Cursor AI configuration:
 
 ### Session Documentation
 
-- Format: `{number}_S{session}.md` or `{number}_MP{number}.md`
+- Format: `S{session}.md` or `S{session}_MP{number}.md`
 - Plan: `_Plan.md` (underscore prefix sorts first)
-- Examples: `01_S1.md`, `05_MP1.md`, `_Plan.md`
+- Examples: `S1.md`, `S5_MP1.md`, `_Plan.md`
 - Location: `docs/sessions/L{level}/`
 
 ### Images
@@ -234,32 +234,32 @@ Cursor AI configuration:
 | # | File | Topic | Practice Files |
 |---|------|-------|----------------|
 | - | `_Plan.md` | Level Overview | - |
-| 1 | `01_S1.md` | Python Introduction & Environment | 3 files |
-| 2 | `02_S2.md` | Variables & Data Types | 3 files |
-| 3 | `03_S3.md` | Operators & Expressions | 3 files |
-| 4 | `04_S4.md` | Conditionals & Modules | 3 files |
-| 5 | `05_MP1.md` | Mini Project: Calculator | 3 files |
-| 6 | `06_S5.md` | Loops & Iteration | 3 files |
-| 7 | `07_S6.md` | Debugging & Built-ins | 3 files |
-| 8 | `08_S7.md` | Lists & Loops | 3 files |
-| 9 | `09_S8.md` | Dictionaries & Testing | 3 files |
-| 10 | `10_MP2.md` | Mini Project: Profile Generator | 1 file |
+| 1 | `S1.md` | Python Introduction & Environment | 3 files |
+| 2 | `S2.md` | Variables & Data Types | 3 files |
+| 3 | `S3.md` | Operators & Expressions | 3 files |
+| 4 | `S4.md` | Conditionals & Modules | 3 files |
+| 5 | `S5_MP1.md` | Mini Project: Calculator | 3 files |
+| 6 | `S6.md` | Loops & Iteration | 3 files |
+| 7 | `S7.md` | Debugging & Built-ins | 3 files |
+| 8 | `S8.md` | Lists & Loops | 3 files |
+| 9 | `S9.md` | Dictionaries & Testing | 3 files |
+| 10 | `S10_MP2.md` | Mini Project: Profile Generator | 1 file |
 
 ### Level 2 (Nerd → Novice) - ✅ Complete
 
 | # | File | Topic | Practice Files |
 |---|------|-------|----------------|
 | - | `_Plan.md` | Level Overview | - |
-| 1 | `01_S1.md` | Sets & Tuples | 3 files |
-| 2 | `02_S2.md` | List Comprehensions | 3 files |
-| 3 | `03_S3.md` | Functions: Definition & Basics | 3 files |
-| 4 | `04_S4.md` | Error Handling: try/except | 3 files |
-| 5 | `05_MP1.md` | Mini Project: Data Processor | 1 file |
-| 6 | `06_S5.md` | Functions: Parameters & Return | 3 files |
-| 7 | `07_S6.md` | Functions: Scope & Organization | 3 files |
-| 8 | `08_S7.md` | File Handling: Read & Write | 3 files |
-| 9 | `09_S8.md` | Modules Deep Dive | 3 files |
-| 10 | `10_MP2.md` | Mini Project: Contact Manager | 1 file |
+| 1 | `S1.md` | Sets & Tuples | 3 files |
+| 2 | `S2.md` | List Comprehensions | 3 files |
+| 3 | `S3.md` | Functions: Definition & Basics | 3 files |
+| 4 | `S4.md` | Error Handling: try/except | 3 files |
+| 5 | `S5_MP1.md` | Mini Project: Data Processor | 1 file |
+| 6 | `S6.md` | Functions: Parameters & Return | 3 files |
+| 7 | `S7.md` | Functions: Scope & Organization | 3 files |
+| 8 | `S8.md` | File Handling: Read & Write | 3 files |
+| 9 | `S9.md` | Modules Deep Dive | 3 files |
+| 10 | `S10_MP2.md` | Mini Project: Contact Manager | 1 file |
 
 ### Future Levels
 
