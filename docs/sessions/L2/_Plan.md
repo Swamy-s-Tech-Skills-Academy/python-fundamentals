@@ -85,7 +85,7 @@ sessions:
     duration: "30–45 min"
     type: "Project"
     status: "Ready"
-    file: "docs/sessions/L2/SS10_MP2.md"
+    file: "docs/sessions/L2/S10_MP2.md"
 ---
 
 # 🔧 Level 2: Nerd → Novice - Python Fundamentals
