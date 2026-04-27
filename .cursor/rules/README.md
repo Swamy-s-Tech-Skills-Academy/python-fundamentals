@@ -68,7 +68,7 @@ This rule set is customized for the **Python Fundamentals** repository:
 
 **Path References**:
 - Practice files: `src/L1/S1/01_hello.py`
-- Session docs: `docs/sessions/L1/01_S1.md`
+- Session docs: `docs/sessions/L1/S1.md`
 - Images: `docs/images/S1/Help_V1.PNG`
 
 **Quality Checks**:

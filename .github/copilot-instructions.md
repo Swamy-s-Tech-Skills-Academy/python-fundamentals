@@ -88,7 +88,7 @@ python-fundamentals/
 
 ### **File Relationships:**
 
-- `docs/sessions/L1/01_S1.md` ↔ `src/L1/S1/` (practice files)
+- `docs/sessions/L1/S1.md` ↔ `src/L1/S1/` (practice files)
 - `docs/sessions/L2/01_S1.md` ↔ `src/L2/S1/` (practice files)
 - `docs/sessions/L1/_Plan.md` → Overall curriculum structure
 - `docs/sessions/L2/_Plan.md` → Overall curriculum structure
@@ -239,7 +239,7 @@ docs/sessions/S1.md
 docs/sessions/L1/S1.md
 
 # NEW (correct)
-docs/sessions/L1/01_S1.md
+docs/sessions/L1/S1.md
 ```
 
 ### **File Reference Validation:**
@@ -254,7 +254,7 @@ docs/sessions/L1/01_S1.md
 **Common Errors to Avoid:**
 
 - ❌ Missing numeric prefixes: `S1.md` → ✅ `01_S1.md`
-- ❌ Missing level identifier: `sessions/S1/` → ✅ `sessions/L1/01_S1.md`
+- ❌ Missing level identifier: `sessions/S1/` → ✅ `sessions/L1/S1.md`
 - ❌ Incorrect path structure: `src/S1/` → ✅ `src/L1/S1/`
 
 **See `.cursor/rules/04_markdown-standards.mdc` for detailed file reference validation patterns.**

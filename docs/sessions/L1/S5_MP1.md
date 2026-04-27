@@ -1,10 +1,10 @@
 ---
 learning_level: "Noob → Nerd"
 prerequisites:
-  - "docs/sessions/L1/01_S1.md"
-  - "docs/sessions/L1/02_S2.md"
-  - "docs/sessions/L1/03_S3.md"
-  - "docs/sessions/L1/04_S4.md"
+  - "docs/sessions/L1/S1.md"
+  - "docs/sessions/L1/S2.md"
+  - "docs/sessions/L1/S3.md"
+  - "docs/sessions/L1/S4.md"
 estimated_time: "30–45 minutes"
 session_type: "Project"
 learning_objectives:
@@ -14,13 +14,13 @@ learning_objectives:
   - "Run the calculator in a loop until the user chooses to quit"
 related_topics:
   prerequisites:
-    - "docs/sessions/L1/01_S1.md"
-    - "docs/sessions/L1/02_S2.md"
-    - "docs/sessions/L1/03_S3.md"
-    - "docs/sessions/L1/04_S4.md"
+    - "docs/sessions/L1/S1.md"
+    - "docs/sessions/L1/S2.md"
+    - "docs/sessions/L1/S3.md"
+    - "docs/sessions/L1/S4.md"
   builds_upon: []
   enables:
-    - "docs/sessions/L1/06_S5.md"
+    - "docs/sessions/L1/S6.md"
   cross_refs: []
 ---
 
