@@ -1,10 +1,10 @@
 ---
 learning_level: "Nerd → Novice"
 prerequisites:
-  - "docs/sessions/L2/01_S1.md"
-  - "docs/sessions/L2/02_S2.md"
-  - "docs/sessions/L2/03_S3.md"
-  - "docs/sessions/L2/04_S4.md"
+  - "docs/sessions/L2/S1.md"
+  - "docs/sessions/L2/S2.md"
+  - "docs/sessions/L2/S3.md"
+  - "docs/sessions/L2/S4.md"
 estimated_time: "30-45 minutes"
 session_type: "Project"
 learning_objectives:
@@ -15,14 +15,14 @@ learning_objectives:
   - "Build a complete, working application"
 related_topics:
   prerequisites:
-    - "docs/sessions/L2/04_S4.md"
+    - "docs/sessions/L2/S4.md"
   builds_upon:
-    - "docs/sessions/L2/01_S1.md"
-    - "docs/sessions/L2/02_S2.md"
-    - "docs/sessions/L2/03_S3.md"
-    - "docs/sessions/L2/04_S4.md"
+    - "docs/sessions/L2/S1.md"
+    - "docs/sessions/L2/S2.md"
+    - "docs/sessions/L2/S3.md"
+    - "docs/sessions/L2/S4.md"
   enables:
-    - "docs/sessions/L2/06_S5.md"
+    - "docs/sessions/L2/S6.md"
   cross_refs: []
 ---
 
