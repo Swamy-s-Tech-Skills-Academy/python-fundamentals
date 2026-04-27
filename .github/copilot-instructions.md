@@ -89,7 +89,7 @@ python-fundamentals/
 ### **File Relationships:**
 
 - `docs/sessions/L1/S1.md` ↔ `src/L1/S1/` (practice files)
-- `docs/sessions/L2/01_S1.md` ↔ `src/L2/S1/` (practice files)
+- `docs/sessions/L2/S1.md` ↔ `src/L2/S1/` (practice files)
 - `docs/sessions/L1/_Plan.md` → Overall curriculum structure
 - `docs/sessions/L2/_Plan.md` → Overall curriculum structure
 - `docs/01_Python-Fundamentals-MasterPlan.md` → Master roadmap across all levels

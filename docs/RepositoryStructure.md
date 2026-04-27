@@ -273,7 +273,7 @@ Cursor AI configuration:
 - **Level 1 Plan**: [docs/sessions/L1/_Plan.md](sessions/L1/_Plan.md)
 - **Level 2 Plan**: [docs/sessions/L2/_Plan.md](sessions/L2/_Plan.md)
 - **L1 Session 1**: [docs/sessions/L1/S1.md](sessions/L1/S1.md)
-- **L2 Session 1**: [docs/sessions/L2/01_S1.md](sessions/L2/01_S1.md)
+- **L2 Session 1**: [docs/sessions/L2/S1.md](sessions/L2/S1.md)
 
 ---
 
