@@ -2,7 +2,7 @@
 
 """
 📦 Creating Your Own Modules
-Level 2, Session 8: Modules Deep Dive & Code Organization
+Level 2, Session 9: Modules Deep Dive & Code Organization
 
 This file demonstrates how to create and use custom modules.
 We'll create a string utility module and use it!
@@ -13,7 +13,7 @@ import shutil
 import sys
 import tempfile
 
-demo_dir = tempfile.mkdtemp(prefix="pyfund_l2_s8_modules_")
+demo_dir = tempfile.mkdtemp(prefix="pyfund_l2_s9_modules_")
 module_path = os.path.join(demo_dir, "string_utils.py")
 
 print("=" * 60)

@@ -2,7 +2,7 @@
 
 """
 🔑 Understanding __name__ and __main__
-Level 2, Session 8: Modules Deep Dive & Code Organization
+Level 2, Session 9: Modules Deep Dive & Code Organization
 
 This file demonstrates the important __name__ == "__main__" pattern
 that controls when code runs.
@@ -13,7 +13,7 @@ import shutil
 import sys
 import tempfile
 
-demo_dir = tempfile.mkdtemp(prefix="pyfund_l2_s8_name_main_")
+demo_dir = tempfile.mkdtemp(prefix="pyfund_l2_s9_name_main_")
 
 print("=" * 60)
 print("🔑 UNDERSTANDING __name__ AND __main__")
