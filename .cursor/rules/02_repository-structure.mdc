@@ -225,7 +225,7 @@ The above block matches the “Complete Repository Structure” code fence in [`
 
 **Questions about content placement?** → Check `README.md` and `.github/copilot-instructions.md`
 
-**Content too long?** → Split into multiple parts or simplify for 30-minute sessions
+**Content too long?** → Split into multiple parts (do not trim/simplify in-scope educational content)
 
 **Encoding issues?** → Search for replacement characters, replace with Unicode equivalents
 

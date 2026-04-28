@@ -337,7 +337,7 @@ ASCII fallback:
 * Handle multiple profiles
 * Basic input validation
 
-🧪 *Deliverable*: `profile_generator.py`
+🧪 *Deliverable*: `src/L1/MP2/profile_generator.py`
 
 🎯 *Stretch Goals*:
 
