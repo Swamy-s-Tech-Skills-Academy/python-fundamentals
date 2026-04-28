@@ -206,9 +206,9 @@ Cursor AI configuration:
 
 ```markdown
 `src/L1/S1/01_hello.py`
-`src/L1/MP1/01_simple_calculator.py`
-`src/L1/MP1/02_simple_calculator_loop.py`
-`src/L1/MP1/calculator_utils.py`
+`src/L1/S5_MP1/01_simple_calculator.py`
+`src/L1/S5_MP1/02_simple_calculator_loop.py`
+`src/L1/S5_MP1/calculator_utils.py`
 ```
 
 ### Session Documentation References
