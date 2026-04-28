@@ -230,7 +230,7 @@ flowchart TB
 * Organize code into reusable functions
 * Display processed results
 
-🧪 *Deliverable*: `src/L2/MP1/data_processor.py`
+🧪 *Deliverable*: `src/L2/S5_MP1/data_processor.py`
 
 🎯 *Stretch Goals*:
 
@@ -316,7 +316,7 @@ flowchart TB
 * (Optional) Split code into a module
 * Use proper error handling throughout
 
-🧪 *Deliverable*: `src/L2/MP2/contact_manager.py`
+🧪 *Deliverable*: `src/L2/S10_MP2/contact_manager.py`
 
 🎯 *Stretch Goals*:
 
