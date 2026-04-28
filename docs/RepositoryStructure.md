@@ -56,27 +56,27 @@ python-fundamentals/
 │       │   ├── 01_conditionals.py
 │       │   ├── 02_boolean_logic.py
 │       │   └── 03_number_guessing_game.py
-│       ├── S5/                 # Session 5 practice files
+│       ├── S6/                 # Session 6 practice files
 │       │   ├── 01_for_loops.py
 │       │   ├── 02_while_loops.py
 │       │   └── 03_loop_controls_fizzbuzz.py
-│       ├── S6/                 # Session 6 practice files
+│       ├── S7/                 # Session 7 practice files
 │       │   ├── 01_error_examples.py
 │       │   ├── 02_debug_practice.py
 │       │   └── 03_builtin_functions.py
-│       ├── S7/                 # Session 7 practice files
+│       ├── S8/                 # Session 8 practice files
 │       │   ├── 01_list_basics.py
 │       │   ├── 02_list_methods.py
 │       │   └── 03_task_manager.py
-│       ├── S8/                 # Session 8 practice files
+│       ├── S9/                 # Session 9 practice files
 │       │   ├── 01_dict_basics.py
 │       │   ├── 02_dict_iteration.py
 │       │   └── 03_gradebook.py
-│       ├── MP1/                # Mini Project 1
+│       ├── S5_MP1/             # Session 5 Mini Project 1
 │       │   ├── 01_simple_calculator.py
 │       │   ├── 02_simple_calculator_loop.py
 │       │   └── calculator_utils.py
-│       └── MP2/                # Mini Project 2
+│       └── S10_MP2/            # Session 10 Mini Project 2
 │           └── profile_generator.py
 │   └── L2/
 │       ├── S1/                 # Session 1 practice files
@@ -95,25 +95,25 @@ python-fundamentals/
 │       │   ├── 01_basic_error_handling.py
 │       │   ├── 02_multiple_exceptions.py
 │       │   └── 03_else_finally.py
-│       ├── S5/                 # Session 5 practice files
+│       ├── S6/                 # Session 6 practice files
 │       │   ├── 01_basic_parameters.py
 │       │   ├── 02_parameter_types.py
 │       │   └── 03_return_values.py
-│       ├── S6/                 # Session 6 practice files
+│       ├── S7/                 # Session 7 practice files
 │       │   ├── 01_local_scope.py
 │       │   ├── 02_global_scope.py
 │       │   └── 03_code_organization.py
-│       ├── S7/                 # Session 7 practice files
+│       ├── S8/                 # Session 8 practice files
 │       │   ├── 01_reading_files.py
 │       │   ├── 02_writing_files.py
 │       │   └── 03_file_operations.py
-│       ├── S8/                 # Session 8 practice files
+│       ├── S9/                 # Session 9 practice files
 │       │   ├── 01_creating_modules.py
 │       │   ├── 02_name_main.py
 │       │   └── 03_multi_file_project.py
-│       ├── MP1/                # Mini Project 1
+│       ├── S5_MP1/             # Session 5 Mini Project 1
 │       │   └── data_processor.py
-│       └── MP2/                # Mini Project 2
+│       └── S10_MP2/            # Session 10 Mini Project 2
 │           └── contact_manager.py
 ├── 🔧 scripts/                 # Development and utility scripts
 │   ├── docs-lint.ps1           # Markdown linting script
@@ -150,7 +150,7 @@ Contains all educational documentation:
 Contains all practice code files:
 
 - Organized by level (`L1/`, `L2/`, etc.)
-- Each level contains session directories (`S1/`, `S2/`, `MP1/`, etc.)
+- Each level contains session-aligned directories (`S1/`, `S5_MP1/`, `S10_MP2/`, etc.)
 - Practice files use numeric prefixes: `01_name.py`, `02_name.py`, etc.
 
 ### `scripts/`
