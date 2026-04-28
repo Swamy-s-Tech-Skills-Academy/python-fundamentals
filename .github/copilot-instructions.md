@@ -60,11 +60,11 @@ python-fundamentals/
 │   └── sessions/
 │       ├── L1/              # Level 1: Noob → Nerd
 │       │   ├── _Plan.md
-│       │   ├── 01_S1.md
+│       │   ├── S1.md
 │       │   └── ...
 │       └── L2/              # Level 2: Nerd → Novice
 │           ├── _Plan.md
-│           ├── 01_S1.md
+│           ├── S1.md
 │           └── ...
 ├── src/
 │   ├── L1/
@@ -74,7 +74,9 @@ python-fundamentals/
 │   │   │   └── bytecode_demo.py
 │   │   ├── S2/ ... S8/      # Session 2-8 practice files
 │   │   ├── MP1/             # Mini Project 1 files
-│   │   │   └── simple_calculator.py
+│   │   │   ├── 01_simple_calculator.py
+│   │   │   ├── 02_simple_calculator_loop.py
+│   │   │   └── calculator_utils.py
 │   │   └── MP2/             # Mini Project 2 files
 │   │       └── profile_generator.py
 │   └── L2/                  # Level 2 practice files
@@ -86,8 +88,8 @@ python-fundamentals/
 
 ### **File Relationships:**
 
-- `docs/sessions/L1/01_S1.md` ↔ `src/L1/S1/` (practice files)
-- `docs/sessions/L2/01_S1.md` ↔ `src/L2/S1/` (practice files)
+- `docs/sessions/L1/S1.md` ↔ `src/L1/S1/` (practice files)
+- `docs/sessions/L2/S1.md` ↔ `src/L2/S1/` (practice files)
 - `docs/sessions/L1/_Plan.md` → Overall curriculum structure
 - `docs/sessions/L2/_Plan.md` → Overall curriculum structure
 - `docs/01_Python-Fundamentals-MasterPlan.md` → Master roadmap across all levels
@@ -100,7 +102,7 @@ python-fundamentals/
 ### **Educational Approach:**
 
 - **30-minute sessions** - Realistic time constraints
-- **Content splitting policy** - When content exceeds 150 lines, ALWAYS SPLIT into multiple parts (never trim/condense)
+- **Content splitting policy** - For session/lesson educational content, when content exceeds 1000 lines, ALWAYS SPLIT into multiple parts (never trim/condense); roadmap/governance docs (e.g., `docs/01_Python-Fundamentals-MasterPlan.md`) are exempt unless explicitly requested
 - **Progressive complexity** - Each session builds on previous
 - **Hands-on practice** - Every concept has practical application
 - **Visual learning** - Emojis, diagrams, and clear formatting
@@ -234,25 +236,25 @@ print("🚀 Advanced Python Preview")
 ```text
 # OLD (incorrect)
 docs/sessions/S1.md
-docs/sessions/L1/S1.md
+docs/sessions/L1/01_S1.md
 
 # NEW (correct)
-docs/sessions/L1/01_S1.md
+docs/sessions/L1/S1.md
 ```
 
 ### **File Reference Validation:**
 
 **CRITICAL**: All file references must:
 
-- ✅ Include numeric prefixes (`01_`, `02_`, etc.) in file names
+- ✅ Keep Python practice file prefixes (`01_`, `02_`, etc.) and use exact existing session doc names (`S1.md`, `S5_MP1.md`, etc.)
 - ✅ Use correct `L{level}/S{session}/` directory structure
 - ✅ Match actual file names exactly
 - ✅ Be verified before committing
 
 **Common Errors to Avoid:**
 
-- ❌ Missing numeric prefixes: `S1.md` → ✅ `01_S1.md`
-- ❌ Missing level identifier: `sessions/S1/` → ✅ `sessions/L1/01_S1.md`
+- ❌ Wrong session doc name: `01_S1.md` → ✅ `S1.md`
+- ❌ Missing level identifier: `sessions/S1/` → ✅ `sessions/L1/S1.md`
 - ❌ Incorrect path structure: `src/S1/` → ✅ `src/L1/S1/`
 
 **See `.cursor/rules/04_markdown-standards.mdc` for detailed file reference validation patterns.**
@@ -265,7 +267,7 @@ Before submitting any changes, verify:
 
 - [ ] **Content preserved** - No educational material lost
 - [ ] **Structure intact** - Formatting and organization maintained
-- [ ] **Links work** - All file references are correct (include numeric prefixes)
+- [ ] **Links work** - All file references are correct and match actual file names exactly
 - [ ] **File references validated** - All references use `L{level}/S{session}/` structure
 - [ ] **Code examples** - All Python code is syntactically correct
 - [ ] **Reasoning quality** - Code design decisions include explicit reasoning (why this approach?)

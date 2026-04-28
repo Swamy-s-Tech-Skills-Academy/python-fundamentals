@@ -49,10 +49,10 @@
 
 - [ ] ✅ **All file references validated**: Check all practice file references in session documentation
 - [ ] ✅ **No broken references**: All markdown links work in preview
-- [ ] ✅ **File names match exactly**: All references include numeric prefixes (`01_`, `02_`, etc.)
+- [ ] ✅ **File names match exactly**: All references match existing file names exactly
 - [ ] ✅ **Correct path structure**: All references use `L{level}/S{session}/` format
 - [ ] ✅ **All Python imports work**: If code imports modules, verify they exist
 - [ ] ✅ **Image references correct**: All image paths resolve correctly
 - [ ] ✅ **Updated after changes**: If you rename/move files, update ALL references immediately
-- [ ] ✅ **No missing prefixes**: References don't omit numeric prefixes in file names
+- [ ] ✅ **No naming mismatches**: References don't use outdated file names or patterns
 - [ ] ✅ **Level/session structure**: All paths include both level and session identifiers

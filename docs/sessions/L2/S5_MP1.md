@@ -1,10 +1,10 @@
 ---
 learning_level: "Nerd → Novice"
 prerequisites:
-  - "docs/sessions/L2/01_S1.md"
-  - "docs/sessions/L2/02_S2.md"
-  - "docs/sessions/L2/03_S3.md"
-  - "docs/sessions/L2/04_S4.md"
+  - "docs/sessions/L2/S1.md"
+  - "docs/sessions/L2/S2.md"
+  - "docs/sessions/L2/S3.md"
+  - "docs/sessions/L2/S4.md"
 estimated_time: "30-45 minutes"
 session_type: "Project"
 learning_objectives:
@@ -15,14 +15,14 @@ learning_objectives:
   - "Build a complete, working application"
 related_topics:
   prerequisites:
-    - "docs/sessions/L2/04_S4.md"
+    - "docs/sessions/L2/S4.md"
   builds_upon:
-    - "docs/sessions/L2/01_S1.md"
-    - "docs/sessions/L2/02_S2.md"
-    - "docs/sessions/L2/03_S3.md"
-    - "docs/sessions/L2/04_S4.md"
+    - "docs/sessions/L2/S1.md"
+    - "docs/sessions/L2/S2.md"
+    - "docs/sessions/L2/S3.md"
+    - "docs/sessions/L2/S4.md"
   enables:
-    - "docs/sessions/L2/06_S5.md"
+    - "docs/sessions/L2/S6.md"
   cross_refs: []
 ---
 
@@ -56,10 +56,10 @@ Build a program that processes a list of student scores, removes duplicates, cal
 
 ### **Prerequisites:**
 
-✅ Completed [Session 1: Advanced Data Structures](01_S1.md)  
-✅ Completed [Session 2: List Comprehensions](02_S2.md)  
-✅ Completed [Session 3: Functions: Definition & Basics](03_S3.md)  
-✅ Completed [Session 4: Error Handling](04_S4.md)  
+✅ Completed [Session 1: Advanced Data Structures](S1.md)  
+✅ Completed [Session 2: List Comprehensions](S2.md)  
+✅ Completed [Session 3: Functions: Definition & Basics](S3.md)  
+✅ Completed [Session 4: Error Handling](S4.md)  
 ✅ Understand all Phase A concepts
 
 ---
@@ -381,8 +381,8 @@ Congratulations on completing Phase A! You've built a working application using 
 
 **Next Up:**
 
-- [Session 5: Functions: Parameters & Return Values](06_S5.md) - Make functions more powerful
-- [Session 6: Functions: Scope & Code Organization](07_S6.md) - Organize larger programs
+- [Session 5: Functions: Parameters & Return Values](S6.md) - Make functions more powerful
+- [Session 6: Functions: Scope & Code Organization](S7.md) - Organize larger programs
 
 ---
 

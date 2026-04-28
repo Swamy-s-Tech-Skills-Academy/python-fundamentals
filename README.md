@@ -45,8 +45,8 @@ A comprehensive, transformation-focused Python curriculum designed to take you f
 
 - **📚 Levels 1 & 2 Documentation:** Complete curriculum plans with all 10 sessions each
 - **📖 Level 1 & Level 2 Sessions:** Full content with practice files  
-  - [**View Level 1 Session 1**](docs/sessions/L1/01_S1.md)  
-  - [**View Level 2 Session 1**](docs/sessions/L2/01_S1.md)
+  - [**View Level 1 Session 1**](docs/sessions/L1/S1.md)  
+  - [**View Level 2 Session 1**](docs/sessions/L2/S1.md)
 - **🚀 Mini Projects:** Calculator (L1 MP1), Profile Generator (L1 MP2), Data Processor (L2 MP1), and Contact Manager (L2 MP2) complete
 - **🔧 Development Infrastructure:** Documentation quality automation with CI/CD pipeline
 
@@ -145,7 +145,7 @@ docker run --rm -w /input -v "${PWD}:/input" lycheeverse/lychee:latest --config 
 
 ### **Python Quality Checks (Local)**
 
-Run static quality checks on practice scripts:
+Run static quality checks on practice scripts. Use **Python 3.13+** to match `requires-python` in `pyproject.toml` and GitHub Actions (on Windows, e.g. `py -3.13`).
 
 ```powershell
 ruff check src

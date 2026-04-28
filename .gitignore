@@ -430,6 +430,6 @@ __pycache__/
 .vscode/
 *.log
 
-## Source Material
+# Not committed
 source-material/
 

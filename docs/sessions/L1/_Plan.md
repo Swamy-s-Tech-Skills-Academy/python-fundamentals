@@ -2,7 +2,7 @@
 learning_level: "Noob → Nerd"
 level_number: 1
 prerequisites: []
-total_duration: "~6–7 hours"
+total_duration: "~5–6 hours"
 format: "2 phases × (4 sessions + 1 mini project) = 10 sessions total"
 outcome: "2 Mini Projects to cement your foundation"
 transformation_focus: "Evolving mindset from complete beginner to someone genuinely curious about programming"
@@ -20,8 +20,7 @@ learning_objectives:
 related_topics:
   prerequisites: []
   builds_upon: []
-  enables:
-    - "docs/sessions/L2/_Plan.md"
+  enables: []
   cross_refs: []
 sessions:
   - session: 1
@@ -29,61 +28,61 @@ sessions:
     duration: "30 min"
     type: "Knowledge"
     status: "Ready"
-    file: "docs/sessions/L1/01_S1.md"
+    file: "docs/sessions/L1/S1.md"
   - session: 2
     topic: "Variables & Data Types"
     duration: "30 min"
     type: "Knowledge"
     status: "Ready"
-    file: "docs/sessions/L1/02_S2.md"
+    file: "docs/sessions/L1/S2.md"
   - session: 3
     topic: "Operators & Expressions"
     duration: "30 min"
     type: "Knowledge"
     status: "Ready"
-    file: "docs/sessions/L1/03_S3.md"
+    file: "docs/sessions/L1/S3.md"
   - session: 4
     topic: "Conditionals, Indentation & Introduction to Modules"
     duration: "30 min"
     type: "Knowledge"
     status: "Ready"
-    file: "docs/sessions/L1/04_S4.md"
+    file: "docs/sessions/L1/S4.md"
   - session: "MP1"
     topic: "Mini Project 1: Simple Calculator"
     duration: "30–45 min"
     type: "Project"
     status: "Ready"
-    file: "docs/sessions/L1/05_MP1.md"
+    file: "docs/sessions/L1/S5_MP1.md"
   - session: 5
     topic: "Loops & Iteration"
     duration: "30 min"
     type: "Knowledge"
     status: "Ready"
-    file: "docs/sessions/L1/06_S5.md"
+    file: "docs/sessions/L1/S6.md"
   - session: 6
     topic: "Basic Debugging, Reading Errors & Built-in Functions"
     duration: "30 min"
     type: "Knowledge"
     status: "Ready"
-    file: "docs/sessions/L1/07_S6.md"
+    file: "docs/sessions/L1/S7.md"
   - session: 7
     topic: "Lists & Loops"
     duration: "30 min"
     type: "Knowledge"
     status: "Ready"
-    file: "docs/sessions/L1/08_S7.md"
+    file: "docs/sessions/L1/S8.md"
   - session: 8
     topic: "Dictionaries & Basic Testing"
     duration: "30 min"
     type: "Knowledge"
     status: "Ready"
-    file: "docs/sessions/L1/09_S8.md"
+    file: "docs/sessions/L1/S9.md"
   - session: "MP2"
     topic: "Mini Project 2: Personal Profile Generator"
     duration: "30–45 min"
     type: "Project"
     status: "Ready"
-    file: "docs/sessions/L1/10_MP2.md"
+    file: "docs/sessions/L1/S10_MP2.md"
 ---
 
 # 🐍 Level 1: Noob → Nerd - Python Fundamentals
@@ -93,7 +92,7 @@ sessions:
 > 1. **Level:** Noob → Nerd *(first exposure, installing Python, printing output)*
 > 1. **Format:** 2 phases × (4 sessions + 1 mini project) = 10 sessions total
 > 1. **Outcome:** 2 Mini Projects to cement your foundation  
-> 1. **Total Duration:** ~6–7 hours (10 × 30–45 min)
+> 1. **Total Duration:** ~5–6 hours (8 × 30 min + 2 × 30–45 min)
 
 ## Powered by ShyvnTech & Swamy's Tech Skills Academy
 
@@ -103,18 +102,18 @@ sessions:
 
 ## 🎯 **Level 1 Learning Path (Noob → Nerd)**
 
-| Phase | Session | Topic                                                 | Duration  | Type         | Status         |
-| ----- | ------- | ----------------------------------------------------- | --------- | ------------ | -------------- |
-| A     | 1       | Python Introduction, Environment & Built-in Functions | 30 min    | 📚 Knowledge | ✅ Ready 📂     |
-| A     | 2       | Variables & Data Types                                | 30 min    | 📚 Knowledge | ✅ Ready 📂     |
-| A     | 3       | Operators & Expressions                               | 30 min    | 📚 Knowledge | ✅ Ready 📂     |
-| A     | 4       | Conditionals, Indentation & Introduction to Modules   | 30 min    | 📚 Knowledge | ✅ Ready 📂     |
-| A     | 🚀 MP1  | Mini Project 1: Simple Calculator *(after Session 4)* | 30–45 min | 🛠️ Project  | ✅ Ready 📂     |
-| B     | 5       | Loops & Iteration                                     | 30 min    | 📚 Knowledge | ✅ Ready 📂     |
-| B     | 6       | Basic Debugging, Reading Errors & Built-in Functions  | 30 min    | 📚 Knowledge | ✅ Ready 📂     |
-| B     | 7       | Lists & Loops                                         | 30 min    | 📚 Knowledge | ✅ Ready 📂     |
-| B     | 8       | Dictionaries & Basic Testing                          | 30 min    | 📚 Knowledge | ✅ Ready 📂     |
-| B     | 🚀 MP2  | Mini Project 2: Personal Profile Generator *(after 8)*| 30–45 min | 🛠️ Project  | ✅ Ready 📂     |
+| Phase | Session | Topic                                                  | Duration  | Type         | Status     |
+| ----- | ------- | ------------------------------------------------------ | --------- | ------------ | ---------- |
+| A     | 1       | Python Introduction, Environment & Built-in Functions  | 30 min    | 📚 Knowledge | ✅ Ready   |
+| A     | 2       | Variables & Data Types                                 | 30 min    | 📚 Knowledge | ✅ Ready   |
+| A     | 3       | Operators & Expressions                                | 30 min    | 📚 Knowledge | ✅ Ready   |
+| A     | 4       | Conditionals, Indentation & Introduction to Modules    | 30 min    | 📚 Knowledge | ✅ Ready   |
+| A     | 🚀 MP1  | Mini Project 1: Simple Calculator *(after Session 4)*  | 30–45 min | 🛠️ Project   | ✅ Ready   |
+| B     | 5       | Loops & Iteration                                      | 30 min    | 📚 Knowledge | ✅ Ready   |
+| B     | 6       | Basic Debugging, Reading Errors & Built-in Functions   | 30 min    | 📚 Knowledge | ✅ Ready   |
+| B     | 7       | Lists & Loops                                          | 30 min    | 📚 Knowledge | ✅ Ready   |
+| B     | 8       | Dictionaries & Basic Testing                           | 30 min    | 📚 Knowledge | ✅ Ready   |
+| B     | 🚀 MP2  | Mini Project 2: Personal Profile Generator *(after 8)* | 30–45 min | 🛠️ Project   | ✅ Ready   |
 
 ---
 
@@ -153,9 +152,32 @@ flowchart TB
     class B5,C5 project
 ```
 
----
+ASCII fallback:
 
-## 📅 **Session-by-Session Breakdown**
+```text
+[🎯 Noob]
+    |
+    v
+[📘 Phase A: Core Foundations]
+    ├─ [📚 Session 1: Intro & Environment]
+    ├─ [📚 Session 2: Variables & Data Types]
+    ├─ [🔢 Session 3: Operators & Expressions]
+    ├─ [🤔 Session 4: Conditionals & Modules]
+    └─ [🚀 MP1: Mini Project 1: Calculator]
+    |
+    v
+[📘 Phase B: Expanding Skills]
+    ├─ [🔄 Session 5: Loops & Iteration]
+    ├─ [🐛 Session 6: Debugging & Built-ins]
+    ├─ [📋 Session 7: Lists & Loops]
+    ├─ [📚 Session 8: Dicts & Testing]
+    └─ [🚀 MP2: Mini Project 2: Profile Generator]
+    |
+    v
+[🎓 Nerd]
+```
+
+---
 
 ## 📅 **Phase A: Core Foundations + Mini Project 1**
 
@@ -172,33 +194,45 @@ flowchart TB
 🧪 *Practice Files*:  
 `src/L1/S1/01_hello.py`, `src/L1/S1/02_interactive_hello.py`, `src/L1/S1/bytecode_demo.py`
 
+📖 *Documentation*: [S1.md](S1.md)
+
 ---
 
-### 🔄 Session 2: Variables & Data Types
+### ✅ Session 2: Variables & Data Types
 
 * Variable naming conventions and assignment
 * Data types: `int`, `float`, `str`, `bool`
 * Dynamic typing, `type()`, `isinstance()`
 * Type conversion and casting
 
+🧪 *Practice Files*:  
+`src/L1/S2/01_variables.py`, `src/L1/S2/02_data_types.py`, `src/L1/S2/03_type_conversion.py`
+
+📖 *Documentation*: [S2.md](S2.md)
+
 🧪 *Mini Practice*: Store and display personal details with different data types.  
 📌 *Feeds into Mini Project 1*: User input and storage are core to the calculator.
 
 ---
 
-### 🔄 Session 3: Operators & Expressions
+### ✅ Session 3: Operators & Expressions
 
 * Arithmetic operators: `+`, `-`, `*`, `/`, `//`, `%`, `**`
 * Comparison operators: `==`, `!=`, `<`, `>`, `<=`, `>=`
 * Assignment operators: `=`, `+=`, `-=`, etc.
 * Operator precedence and parentheses
 
+🧪 *Practice Files*:  
+`src/L1/S3/01_arithmetic.py`, `src/L1/S3/02_comparisons.py`, `src/L1/S3/03_mini_calculator.py`
+
+📖 *Documentation*: [S3.md](S3.md)
+
 🧪 *Mini Practice*: Build a basic calculator with different operations.  
 📌 *Feeds into Mini Project 1*: Calculator logic.
 
 ---
 
-### 🔄 Session 4: Conditional Statements, Indentation & Modules
+### ✅ Session 4: Conditional Statements, Indentation & Modules
 
 * Python indentation rules (why no braces)
 * `if`, `elif`, `else` statements
@@ -212,7 +246,7 @@ flowchart TB
 
 ---
 
-### 🚀 Mini Project 1: Simple Calculator
+### 🚀 Mini Project 1: Simple Calculator *(Ready)*
 
 **Goal:** Build a command-line calculator for basic arithmetic.
 
@@ -224,7 +258,8 @@ flowchart TB
 * Runs until user quits
 * Clean, structured code
 
-🧪 *Deliverable*: `src/L1/MP1/simple_calculator.py`
+🧪 *Practice Pack*: `src/L1/MP1/01_simple_calculator.py`, `src/L1/MP1/02_simple_calculator_loop.py`  
+📖 *Project Guide*: [S5_MP1.md](S5_MP1.md)
 
 🎯 *Stretch Goals*:
 
@@ -235,32 +270,37 @@ flowchart TB
 
 ## 📅 **Phase B: Expanding Skills + Mini Project 2**
 
-### 🔄 Session 5: Loops & Iteration
+### ✅ Session 5: Loops & Iteration
 
 * `for` loops with `range()` and iterables
 * `while` loops and loop conditions
 * Loop controls: `break`, `continue`, `pass`
 * Nested loops and performance considerations
 
+🧪 *Practice Files*:  
+`src/L1/S5/01_for_loops.py`, `src/L1/S5/02_while_loops.py`, `src/L1/S5/03_loop_controls_fizzbuzz.py`
+
+📖 *Documentation*: [S6.md](S6.md)
+
 🧪 *Mini Practice*: FizzBuzz challenge, countdown timer, pattern printing.  
 📌 *Feeds into Mini Project 2*: Looping over profiles.
 
 ---
 
-### 🔄 Session 6: Basic Debugging & Built-in Functions
+### ✅ Session 6: Basic Debugging & Built-in Functions *(Ready)*
 
 * Error types: syntax vs runtime
 * Reading error messages
 * Common beginner mistakes
 * Debugging with `print()`
-* Built-in functions: `len()`, `max()`, `min()`, `sum()`, `type()`
+* Built-in functions: `len()`, `max()`, `min()`, `sum()`, `abs()`, `round()`
 
 🧪 *Mini Practice*: Debug broken code samples.  
 📌 *Feeds into Mini Project 2*: Debugging profile input.
 
 ---
 
-### 🔄 Session 7: Lists & Loops
+### ✅ Session 7: Lists & Loops *(Ready)*
 
 * List creation, indexing, slicing, basic methods
 * Operations: `append()`, `remove()`, `len()`, accessing elements
@@ -272,7 +312,7 @@ flowchart TB
 
 ---
 
-### 🔄 Session 8: Dictionaries & Basic Testing
+### ✅ Session 8: Dictionaries & Basic Testing *(Ready)*
 
 * Dictionaries: creation, update, deletion
 * Methods: `.keys()`, `.values()`, `.items()`, `.get()`
@@ -285,7 +325,7 @@ flowchart TB
 
 ---
 
-### 🚀 Mini Project 2: Personal Profile Generator
+### 🚀 Mini Project 2: Personal Profile Generator *(Ready)*
 
 **Goal:** Create an interactive profile generator and display system.
 
@@ -297,7 +337,7 @@ flowchart TB
 * Handle multiple profiles
 * Basic input validation
 
-🧪 *Deliverable*: `src/L1/MP2/profile_generator.py`
+🧪 *Deliverable*: `profile_generator.py`
 
 🎯 *Stretch Goals*:
 
