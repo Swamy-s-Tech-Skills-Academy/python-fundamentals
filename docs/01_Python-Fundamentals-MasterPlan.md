@@ -85,7 +85,7 @@
 **Phase B (Sessions 5-8 + MP2):**
 
 - Loops (`for`, `while`) with `range()`, `break`, `continue` controls
-- **Error reading skills** and built-in functions (`len()`, `max()`, `min()`, `sum()`, `abs()`, `round()`)
+- **PEP 8 intro** (naming, spacing, comments) + **Error reading skills** and built-in functions (`len()`, `max()`, `min()`, `sum()`, `abs()`, `round()`)
 - Lists fundamentals with iteration and basic operations
 - Dictionaries (key-value pairs) with **basic testing using `assert`**
 - **Mini Project 2: Personal Profile Generator** - Applying Sessions 5-8 concepts
