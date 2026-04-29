@@ -93,10 +93,14 @@ Start with `01_simple_calculator.py`:
 
 1. Ask for operation (`+`, `-`, `*`, `/`)
 2. Ask for two numbers
-3. Validate that both inputs are numeric text
+3. Validate that both inputs are numeric text — uses `is_valid_number_text()` from `calculator_utils.py`
 4. Convert to `float`
 5. Use `if/elif/else` to choose operation
 6. Handle divide-by-zero explicitly
+
+> **About the import:** `calculator_utils.py` is a small helper file in the same folder.
+> `from calculator_utils import is_valid_number_text` loads that one function into your script.
+> This is the same `import` pattern from Session 4 — now applied to your own file instead of a built-in module.
 
 ### ⭐ Bonus — Return after Session 5 (Loops)
 
