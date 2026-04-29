@@ -98,9 +98,12 @@ Start with `01_simple_calculator.py`:
 5. Use `if/elif/else` to choose operation
 6. Handle divide-by-zero explicitly
 
-### Step 2: Loop-enabled calculator
+### ⭐ Bonus — Return after Session 5 (Loops)
 
-Move to `02_simple_calculator_loop.py`:
+> Loops have not been covered yet at this point in the curriculum.
+> Finish Session 5 first, then come back and tackle this extension.
+
+Open `02_simple_calculator_loop.py` once you know loops:
 
 1. Wrap calculator logic in a `while` loop
 2. Add `q` option to exit cleanly
@@ -117,7 +120,7 @@ Use this to verify your implementation:
 - [ ] Invalid operation input is handled clearly
 - [ ] Non-numeric input is rejected before conversion
 - [ ] Division by zero does not crash the program
-- [ ] Loop version exits only when user types `q`
+- [ ] ⭐ Bonus (after Session 5): loop version exits only when user types `q`
 - [ ] Output is readable and beginner-friendly
 
 ---
