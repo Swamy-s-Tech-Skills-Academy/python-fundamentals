@@ -5,13 +5,13 @@ prerequisites:
   - "docs/sessions/L1/S2.md"
   - "docs/sessions/L1/S3.md"
   - "docs/sessions/L1/S4.md"
-estimated_time: "30–45 minutes"
+estimated_time: "30 minutes"
 session_type: "Project"
 learning_objectives:
   - "Build a working CLI calculator that performs basic arithmetic operations"
   - "Validate and convert user input before calculation to avoid type-related failures"
   - "Use if/elif/else branching to select operations and handle divide-by-zero safely"
-  - "Run the calculator in a loop until the user chooses to quit"
+  - "Apply PEP 8 naming, spacing, and comment rules to write clean, readable code"
 related_topics:
   prerequisites:
     - "docs/sessions/L1/S1.md"
@@ -26,7 +26,7 @@ related_topics:
 
 # Mini Project 1: Simple Calculator
 
-**Duration:** 30–45 minutes  
+**Duration:** 30 minutes  
 **Type:** 🛠️ Project  
 **Level:** Noob → Nerd  
 **Session:** MP1
@@ -54,6 +54,7 @@ By the end of this mini project, you should be able to:
 - Validate number input before conversion
 - Use branching to route operations
 - Guard against divide-by-zero
+- Apply PEP 8 rules to write clean, readable code
 - Explain why validation and branching make the program safer
 
 ---
@@ -79,9 +80,8 @@ This project then builds toward:
 
 | File | Purpose |
 | --- | --- |
-| `src/L1/S5_MP1/calculator_utils.py` | Shared helper: `is_valid_number_text()` validates numeric input (imported by both calculators) |
+| `src/L1/S5_MP1/calculator_utils.py` | Shared helper: `is_valid_number_text()` validates numeric input (imported by the calculator) |
 | `src/L1/S5_MP1/01_simple_calculator.py` | One-run calculator with operation choice, numeric validation, and divide-by-zero handling |
-| `src/L1/S5_MP1/02_simple_calculator_loop.py` | Loop-enabled calculator that repeats until user quits |
 
 ---
 
