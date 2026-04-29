@@ -2,7 +2,7 @@
 
 """
 📦 Creating Your Own Modules
-Level 2, Session 9: Modules Deep Dive & Code Organization
+Level 2, Session 8: Modules Deep Dive & Code Organization
 
 This file demonstrates how to create and use custom modules.
 We'll create a string utility module and use it!

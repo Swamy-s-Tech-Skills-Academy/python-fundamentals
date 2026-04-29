@@ -8,7 +8,6 @@ This file demonstrates practical file operations including
 error handling, file existence checks, and real-world patterns.
 """
 
-import atexit
 import os
 from datetime import datetime
 
@@ -25,9 +24,6 @@ def cleanup_demo_files():
         if os.path.exists(filename):
             os.remove(filename)
             print(f"  Removed: {filename}")
-
-
-atexit.register(cleanup_demo_files)
 
 
 # ============================================================

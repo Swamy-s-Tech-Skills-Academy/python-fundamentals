@@ -2,7 +2,7 @@
 
 """
 🏗️ Building a Multi-File Project
-Level 2, Session 9: Modules Deep Dive & Code Organization
+Level 2, Session 8: Modules Deep Dive & Code Organization
 
 This file demonstrates how to organize code across multiple files
 for a real-world project structure.
@@ -10,6 +10,7 @@ for a real-world project structure.
 
 import os
 import shutil
+import sys
 import tempfile
 
 print("=" * 60)
@@ -392,7 +393,6 @@ This makes debugging much easier!
 # Actually run the operations module test
 print("Running operations.py test code:")
 print("-" * 40)
-import sys
 sys.path.insert(0, project_dir)
 
 # Manually run the test code (simulating direct execution)
@@ -452,7 +452,10 @@ print("\n" + "=" * 60)
 print("🧹 Cleanup")
 print("=" * 60)
 
-keep_project = input(f"\nKeep the '{project_dir}/' folder? (y/n): ").lower().strip()
+try:
+    keep_project = input(f"\nKeep the '{project_dir}/' folder? (y/n): ").lower().strip()
+except (EOFError, OSError):
+    keep_project = "n"
 
 if keep_project != 'y':
     if os.path.exists(project_dir):

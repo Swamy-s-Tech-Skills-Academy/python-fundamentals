@@ -79,6 +79,7 @@ This project then builds toward:
 
 | File | Purpose |
 | --- | --- |
+| `src/L1/S5_MP1/calculator_utils.py` | Shared helper: `is_valid_number_text()` validates numeric input (imported by both calculators) |
 | `src/L1/S5_MP1/01_simple_calculator.py` | One-run calculator with operation choice, numeric validation, and divide-by-zero handling |
 | `src/L1/S5_MP1/02_simple_calculator_loop.py` | Loop-enabled calculator that repeats until user quits |
 

@@ -4,7 +4,11 @@
 def get_user_input():
     """Get and validate user input."""
     name = input("Enter name: ")
-    age = int(input("Enter age: "))
+    try:
+        age = int(input("Enter age: "))
+    except ValueError:
+        print("Age must be a whole number. Setting age to -1.")
+        age = -1  # validate_age() will reject this
     return name, age
 
 def validate_age(age):

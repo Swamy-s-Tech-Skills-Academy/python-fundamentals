@@ -142,7 +142,7 @@ flowchart TB
         C2[🔧 Session 6<br/>Functions: Scope]
         C3[📁 Session 7<br/>Text File I/O]
         C4[📦 Session 8<br/>Modules Deep Dive]
-        C5[🚀 MP2<br/>Mini Project 2: Text File App]
+        C5[🚀 MP2<br/>Mini Project 2: Contact Manager]
         C1 --> C2 --> C3 --> C4 --> C5
     end
 

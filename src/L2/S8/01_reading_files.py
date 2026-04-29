@@ -7,6 +7,8 @@ Level 2, Session 7: File Handling
 This file demonstrates different ways to read text files in Python.
 """
 
+import os
+
 # First, let's create a sample file to read
 print("=" * 50)
 print("📁 CREATING A SAMPLE FILE")
@@ -176,7 +178,6 @@ print("""
 """)
 
 # Cleanup: remove the test files we created
-import os
 for filename in ["sample.txt", "numbers.txt", "spaces.txt"]:
     if os.path.exists(filename):
         os.remove(filename)

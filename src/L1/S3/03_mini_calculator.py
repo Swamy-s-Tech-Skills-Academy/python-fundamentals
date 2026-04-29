@@ -25,7 +25,11 @@ else:
     print("Floor division: Cannot divide by zero!")
     print("Modulo:         Cannot divide by zero!")
 
-print(f"Power:          {num1} ** {num2} = {num1**num2}")
+# Guard: 0 raised to a negative exponent is undefined (ZeroDivisionError)
+if num1 == 0 and num2 < 0:
+    print("Power:          Cannot raise 0 to a negative power!")
+else:
+    print(f"Power:          {num1} ** {num2} = {num1**num2}")
 
 print("\n👉 We just performed many operations on the same two values — that is real program behavior.\n")
 print("👉 Which operation do you use most in real life? (No wrong answer — just notice.)\n")

@@ -8,7 +8,6 @@ This file demonstrates how to write and append to text files.
 """
 
 import os
-import atexit
 
 test_files = [
     "greeting.txt",
@@ -26,8 +25,6 @@ def cleanup_test_files():
             os.remove(filename)
             print(f"  Removed: {filename}")
 
-
-atexit.register(cleanup_test_files)
 
 print("=" * 50)
 print("✍️ WRITING TEXT FILES IN PYTHON")
