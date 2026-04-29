@@ -102,17 +102,78 @@ Start with `01_simple_calculator.py`:
 > `from calculator_utils import is_valid_number_text` loads that one function into your script.
 > This is the same `import` pattern from Session 4 — now applied to your own file instead of a built-in module.
 
-### ⭐ Bonus — Return after Session 5 (Loops)
+### Step 2: PEP 8 style review
 
-> Loops have not been covered yet at this point in the curriculum.
-> Finish Session 5 first, then come back and tackle this extension.
+PEP 8 is Python's official style guide, written by Guido van Rossum (Python's creator).
+It covers naming, spacing, and commenting rules that make code readable — for yourself and for anyone who reads your code later.
 
-Open `02_simple_calculator_loop.py` once you know loops:
+Your calculator already works. Now open `01_simple_calculator.py` and check it against each rule below.
 
-1. Wrap calculator logic in a `while` loop
-2. Add `q` option to exit cleanly
-3. Keep the same validation + operation logic every round
-4. Print a clear goodbye message on exit
+#### Rule 1 — Meaningful variable names
+
+Names should describe what they hold. Use lowercase with underscores for multi-word names.
+
+| ✅ Clear | ❌ Vague |
+| --- | --- |
+| `operation` | `op` |
+| `first_raw` | `a` |
+| `second_raw` | `b` |
+| `first_is_number` | `check` |
+
+#### Rule 2 — Spaces around operators
+
+One space on each side of `=`, `+`, `-`, `*`, `/`, `==`, `not`.
+
+```python
+# ✅ Good
+result = first + second
+first_is_number = is_valid_number_text(first_raw)
+
+# ❌ Poor
+result=first+second
+first_is_number=is_valid_number_text(first_raw)
+```
+
+#### Rule 3 — No spaces inside parentheses or brackets
+
+No space immediately after `(` or before `)`.
+
+```python
+# ✅ Good
+float(first_raw)
+input("Enter first number: ")
+
+# ❌ Poor
+float( first_raw )
+input( "Enter first number: " )
+```
+
+#### Rule 4 — Space after commas
+
+One space after every comma in function calls and collections.
+
+```python
+# ✅ Good
+{"+", "-", "*", "/"}
+
+# ❌ Poor
+{"+","-","*","/"}
+```
+
+#### Rule 5 — Comments explain *why*, not *what*
+
+The code already shows *what* it does. Use `#` comments to explain *why* a decision was made.
+
+```python
+# ❌ What (the code already shows this)
+# checks if second equals zero
+
+# ✅ Why (useful — explains the reasoning)
+# Why: dividing by zero is undefined — guard before attempting division
+```
+
+Your `01_simple_calculator.py` already has `# Why:` comments.
+Check that at least one comment per major decision explains the *reason*, not just the action.
 
 ---
 
@@ -124,8 +185,11 @@ Use this to verify your implementation:
 - [ ] Invalid operation input is handled clearly
 - [ ] Non-numeric input is rejected before conversion
 - [ ] Division by zero does not crash the program
-- [ ] ⭐ Bonus (after Session 5): loop version exits only when user types `q`
 - [ ] Output is readable and beginner-friendly
+- [ ] Variable names are meaningful (`operation`, `first_raw` — not `op`, `a`, `b`)
+- [ ] Spaces around all operators (`result = first + second` — not `result=first+second`)
+- [ ] No spaces inside parentheses (`float(first_raw)` — not `float( first_raw )`)
+- [ ] At least one `# Why:` comment per major decision
 
 ---
 
@@ -136,7 +200,7 @@ Use this to verify your implementation:
 | `ValueError` on conversion | Input text was not numeric | Validate first, then convert |
 | Wrong branch runs | Condition order/logic issue | Re-check `if/elif` flow |
 | Crash on division | Denominator is `0` | Add explicit divide-by-zero guard |
-| Loop never ends | No `q` check or break path | Add quit condition in loop |
+| `ModuleNotFoundError` on import | Running from wrong directory | Run with `python src/L1/S5_MP1/01_simple_calculator.py` from repo root |
 
 ---
 
@@ -154,5 +218,6 @@ After this project, you can say:
 - "I can build a calculator that handles normal and edge cases."
 - "I know why input validation matters before doing arithmetic."
 - "I can combine operators and conditionals in one complete script."
+- "I can apply PEP 8 rules to make my code clean and readable."
 
-Next: strengthen loop thinking in [S6.md](S6.md), then apply the same pattern to future mini projects.
+Next: take loop skills further in [S6.md](S6.md), then apply the same validated-input pattern in Mini Project 2.
