@@ -258,7 +258,7 @@ ASCII fallback:
 * Runs until user quits
 * Clean, structured code
 
-🧪 *Practice Pack*: `src/L1/S5_MP1/01_simple_calculator.py`, `src/L1/S5_MP1/02_simple_calculator_loop.py`  
+🧪 *Practice Pack*: `src/L1/S5_MP1/01_simple_calculator.py`, `src/L1/S5_MP1/calculator_utils.py`  
 📖 *Project Guide*: [S5_MP1.md](S5_MP1.md)
 
 🎯 *Stretch Goals*:
