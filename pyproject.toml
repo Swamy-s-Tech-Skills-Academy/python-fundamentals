@@ -24,6 +24,7 @@ ignore = [
   "F401",  # Some imports are intentionally present for demonstration
   "F541",  # Placeholder f-strings appear in guided exercises
   "I001",  # Do not enforce import sorting for pedagogy-first snippets
+  "UP003", # type() is explicitly taught as a built-in; replacing it is pedagogically wrong
   "UP015", # Keep explicit file modes in beginner-friendly examples
   "UP024", # Keep IOError naming where taught in legacy lessons
   "W291",  # Preserve existing trailing-whitespace style in some lesson snippets
