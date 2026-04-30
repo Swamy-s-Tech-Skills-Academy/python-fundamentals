@@ -162,6 +162,10 @@ python-fundamentals/
 │       │   └── data_processor.py
 │       └── MP2/                # Mini Project 2
 │           └── contact_manager.py
+│   └── Working/                # Sandbox staging area (live-coding samples)
+│       ├── day1/               # Day 1 session samples (e.g. hello_world.py)
+│       ├── day2/               # Day 2 session samples
+│       └── dayN/               # Subsequent day samples
 ├── 🔧 scripts/                 # Development and utility scripts
 │   ├── docs-lint.ps1           # Markdown linting script
 │   ├── docs-links.ps1          # Link validation script
@@ -220,6 +224,45 @@ The above block matches the “Complete Repository Structure” code fence in [`
 - ✅ Each level contains 10 sessions (S1 through S10) plus 2 mini projects
 - ✅ Add content progressively following Educational Content Rules
 - ✅ Create folder structure incrementally as curriculum develops
+
+---
+
+## 🗂️ `src/Working/` — Sandbox Staging Area
+
+`src/Working/` is the **live-coding and experimentation zone**. It holds informal samples written during sessions or exploration. Files here are **not** required to follow strict naming conventions but should eventually be reviewed and promoted.
+
+### Purpose
+
+| Working folder | Formal folder |
+|---|---|
+| Quick experiments, live demos, scratchpad code | `src/L{level}/S{session}/` — production-quality practice files |
+| Flexible file names, evolving content | `01_name.py` numbering, complete, tested |
+| Named by teaching day: `day1/`, `day2/` | Named by session: `S1/`, `S2/` |
+
+### Promotion workflow
+
+When a `src/Working/dayN/` file is ready to become a formal practice file:
+
+1. **Identify the target session** — which `L{level}/S{session}/` does it belong to?
+2. **Rename** — apply the `01_name.py` numbering convention.
+3. **Polish** — add the standard file header, clean up comments, ensure it runs.
+4. **Move** → `src/L{level}/S{session}/`
+5. **Update session doc** — reference the new file in `docs/sessions/L{level}/S{session}.md`.
+6. **Delete the Working copy** once promoted (or keep as a raw reference — instructor's choice).
+
+### File structure convention in `src/Working/`
+
+- Subdirectory per teaching day: `day1/`, `day2/`, `day3/`, …
+- File names are descriptive but informal: `hello_world.py`, `sample1.py`, `data_types_demo.py`
+- The `hello_world.py` pattern — module docstring, `HELP_TEXT`, `main(argv: list[str]) -> int`, `raise SystemExit(main(sys.argv))` — is the **preferred template** for new Working files and promoted practice files.
+
+### Rules for AI assistants
+
+- ✅ `src/Working/` files may be incomplete, informal, or exploratory — do **not** apply the same strictness as `src/L{level}/S{session}/`
+- ✅ When asked to "bucket" or promote a Working file, follow the promotion workflow above
+- ✅ Do **not** auto-delete Working files unless explicitly asked
+- ❌ Do **not** run CI/lint checks on Working files as if they were formal session files
+- ❌ Do **not** add `src/Working/` paths to session documentation `docs/sessions/` — only promoted `src/L{level}/S{session}/` paths belong there
 
 ## 📞 Support & Escalation
 
