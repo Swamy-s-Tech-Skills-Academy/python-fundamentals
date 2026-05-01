@@ -23,17 +23,19 @@ def demo_complex_assignment() -> None:
 
     print("=== Complex Assignment ===\n")
 
-    # Multiple variables, same value (chained assignment)
-    january = march = may = july = august = october = december = 31
-    print(f"Months with 31 days - August: {august}, December: {december}")
+    # --- Chained assignment: same value to multiple names ---
+    # Standard delivery zones all share a 2-business-day lead time.
+    north = south = central = east = 2
+    print(f"Standard zones (days) — North: {north}, East: {east}")
 
-    # Separate assignments for 30-day months (verbose style)
-    april = june = september = november = 30
-    print(f"Months with 30 days - April: {april}, June: {june}")
+    # Remote delivery zones share a 5-business-day lead time.
+    highland = island = offshore = border = 5
+    print(f"Remote zones   (days) — Highland: {highland}, Island: {island}")
 
-    # Multiple targets, different values in one line (tuple unpacking)
-    python, java = "data", "science"
-    print(f"\npython = {python!r},  java = {java!r}")
+    # --- Multiple targets, different values in one line (tuple unpacking) ---
+    # Pair a city with its nearest fulfilment hub in a single statement.
+    city, hub = "Hyderabad", "Pune"
+    print(f"\nCity: {city!r},  Nearest hub: {hub!r}")
 
 
 # ---------------------------------------------------------------------------
@@ -46,39 +48,45 @@ def demo_type_conversion() -> None:
     print("\n=== Type Conversion ===\n")
 
     # Original variables and their types
-    a = "september"
-    b = 9
-    c = 5.8
-    d = True
+    sensor_code = "HUMIDITY_02"   # str
+    zone_number = 5               # int
+    humidity_percent = 63.4       # float
+    is_alert_active = False       # bool
 
     print("Original values and types:")
-    for name, value in (("a", a), ("b", b), ("c", c), ("d", d)):
-        print(f"  {name} = {value!r:12}  ->  {type(value).__name__}")
+    variables = (
+        ("sensor_code", sensor_code),
+        ("zone_number", zone_number),
+        ("humidity_percent", humidity_percent),
+        ("is_alert_active", is_alert_active),
+    )
+    for name, value in variables:
+        print(f"  {name} = {value!r:16}  ->  {type(value).__name__}")
 
     print()
 
-    # int  →  str
-    converted_b = str(b)
-    print(f"str({b})         -> {converted_b!r}  ({type(converted_b).__name__})")
+    # int  →  str  (e.g. building a log message)
+    zone_as_text = str(zone_number)
+    print(f"str({zone_number})          -> {zone_as_text!r}  ({type(zone_as_text).__name__})")
 
-    # float  →  int  (truncates decimal)
-    converted_c = int(c)
-    print(f"int({c})       -> {converted_c}    ({type(converted_c).__name__})")
+    # float  →  int  (truncates decimal — useful for whole-number comparisons)
+    humidity_whole = int(humidity_percent)
+    print(f"int({humidity_percent})       -> {humidity_whole}    ({type(humidity_whole).__name__})")
 
-    # bool  →  float  (True == 1, False == 0)
-    converted_d = float(d)
-    print(f"float({d})   -> {converted_d}   ({type(converted_d).__name__})")
+    # bool  →  float  (False == 0.0, used in weighted calculations)
+    alert_weight = float(is_alert_active)
+    print(f"float({is_alert_active})   -> {alert_weight}   ({type(alert_weight).__name__})")
 
-    # str (numeric)  →  int
-    e = "8"
-    converted_e = int(e)
-    print(f'int("{e}")        -> {converted_e}    ({type(converted_e).__name__})')
+    # str (numeric)  →  int  (reading a value stored as text)
+    raw_port = "8080"
+    port_number = int(raw_port)
+    print(f'int("{raw_port}")      -> {port_number}    ({type(port_number).__name__})')
 
-    # str (non-numeric)  →  int  — shows ValueError
+    # str (non-numeric)  →  int  — demonstrates ValueError
     print()
-    print("Attempting int('september') ...")
+    print(f"Attempting int({sensor_code!r}) ...")
     try:
-        _ = int(a)
+        _ = int(sensor_code)
     except ValueError as err:
         print(f"  ValueError: {err}")
         print("  (Only numeric strings can be converted to int/float.)")

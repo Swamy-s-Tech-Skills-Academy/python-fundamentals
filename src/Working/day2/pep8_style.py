@@ -47,9 +47,9 @@ def demo_naming() -> None:
     print("=== 1. Naming Conventions ===\n")
 
     # --- Vague names (hard to understand at a glance) ---
-    t = 22.4          # What is t measuring? Units?
-    w = 14.0          # Wind? Weight? Width?
-    s = True          # Status of what?
+    raw_a = 22.4      # What is this measuring? Units?
+    raw_b = 14.0      # Wind? Weight? Width?
+    raw_c = True      # Status of what?
 
     # --- Descriptive names (self-explanatory) ---
     temperature_celsius = 22.4
@@ -61,7 +61,7 @@ def demo_naming() -> None:
     print(f"Station up  : {station_is_online}")
 
     # Suppressing the "unused variable" warning for the vague examples
-    _ = (t, w, s)
+    _ = (raw_a, raw_b, raw_c)
 
 
 # ---------------------------------------------------------------------------
@@ -153,7 +153,7 @@ def demo_operator_spacing() -> None:
     total = sum(readings)
     count = len(readings)
     average = total / count
-    variance = sum((r - average) ** 2 for r in readings) / count
+    variance = sum((reading_value - average) ** 2 for reading_value in readings) / count
 
     print(f"Total    : {total:.1f}")
     print(f"Count    : {count}")
@@ -198,7 +198,7 @@ def demo_comments() -> None:
 
     # Flag readings that differ from the mean by more than 1 degree
     threshold = 1.0
-    anomalies = [t for t in hourly_temps if abs(t - mean_temp) > threshold]
+    anomalies = [temp_value for temp_value in hourly_temps if abs(temp_value - mean_temp) > threshold]
 
     if anomalies:
         print(f"\nAnomalous readings (>{threshold} deg from mean): {anomalies}")

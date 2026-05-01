@@ -15,7 +15,8 @@ HELP_TEXT = """sample1.py
 
 Purpose
     Demonstrate basic data types (int, float, str, bool),
-    the type() function, and variable assignment / deletion.
+    the type() function, and variable assignment / deletion
+    using a coffee shop inventory as the working context.
 
 Usage
     python sample1.py
@@ -24,61 +25,70 @@ Usage
 
 def demo_data_types() -> None:
     """Show the four primary data types and arithmetic with them."""
+
     print("--- Numbers ---")
-    print(7)           # int
-    print(5.9)         # float
-    print(7 * 7)       # int arithmetic  → 49
-    print(5.2 + 6.8)   # float arithmetic → 12.0
+    print(48)              # int  — number of cups in stock
+    print(3.75)            # float — price per cup
+    print(48 * 3.75)       # int * float → float  (total stock value)
+    print(1.50 + 0.80)     # float arithmetic   (espresso + milk surcharge)
 
     print("\n--- Strings ---")
-    print("hello data science")
-    print('hello data science')   # single quotes work too
+    print("espresso")
+    print('flat white')    # single quotes work the same as double quotes
 
     print("\n--- Booleans in arithmetic ---")
-    print(True * 7)    # True == 1  → 7
-    print(False * 7)   # False == 0 → 0
+    print(True * 48)       # True == 1  →  48 (full stock)
+    print(False * 48)      # False == 0 →   0 (nothing available)
 
 
 def demo_type_function() -> None:
     """Show how type() reveals the data type of any value."""
+
     print("--- type() ---")
-    print(type(5.9))               # <class 'float'>
-    print(type(7))                 # <class 'int'>
-    print(type("hello data science"))  # <class 'str'>
-    print(type(True))              # <class 'bool'>
-    print(type(5.2 + 6.8))        # <class 'float'>
+    print(type(3.75))               # <class 'float'>
+    print(type(48))                 # <class 'int'>
+    print(type("espresso"))         # <class 'str'>
+    print(type(True))               # <class 'bool'>
+    print(type(1.50 + 0.80))        # <class 'float'>
 
 
 def demo_variables() -> None:
     """Show variable assignment, reassignment, del, and NameError."""
-    print("--- Assignment ---")
-    a = "november"
-    print(a)           # november
 
-    b = 9
-    c = 5.8
-    d = True
-    print(b, c, d)     # 9  5.8  True
+    print("--- Assignment ---")
+    menu_item = "latte"
+    print(menu_item)                # latte
+
+    units_in_stock = 48
+    unit_price_gbp = 3.75
+    item_is_available = True
+    print(units_in_stock, unit_price_gbp, item_is_available)   # 48  3.75  True
+
+    print("\n--- Arithmetic with variables ---")
+    # Variables hold the actual values, so maths works just like literals
+    addon_price = 0.50
+    checkout_total = unit_price_gbp + addon_price
+    print(checkout_total)           # 4.25
 
     print("\n--- Reassignment ---")
-    a = "october"
-    print(a)           # october — previous value is gone
+    menu_item = "flat white"
+    print(menu_item)                # flat white — previous value is gone
 
     print("\n--- del and NameError ---")
-    a = "september"
-    print(a)           # september
-    del a
-    # Accessing a now would raise:
-    #   NameError: name 'a' is not defined
-    # Tip: comment out `del a` above if you need to reuse the variable later.
+    menu_item = "cappuccino"
+    print(menu_item)                # cappuccino
+    del menu_item
+    # Accessing menu_item now raises:
+    #   NameError: name 'menu_item' is not defined
+    # Tip: comment out del menu_item above if you need to reuse it later.
 
     print("\n--- type() on variables ---")
-    b = 9
-    c = 5.8
-    d = True
-    print(type(b))     # <class 'int'>
-    print(type(c))     # <class 'float'>
-    print(type(d))     # <class 'bool'>
+    units_in_stock = 48
+    unit_price_gbp = 3.75
+    item_is_available = True
+    print(type(units_in_stock))     # <class 'int'>
+    print(type(unit_price_gbp))     # <class 'float'>
+    print(type(item_is_available))  # <class 'bool'>
 
 
 def main(argv: list[str]) -> int:
