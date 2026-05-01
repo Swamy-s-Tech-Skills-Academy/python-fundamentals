@@ -4,21 +4,24 @@
 # Global variable
 name = "Alice"
 
+
 def greet():
     # Can read global variable
     print(f"Hello, {name}!")
+
 
 greet()  # Hello, Alice!
 
 # Modifying global
 count = 0
 
+
 def increment():
     global count
     count = count + 1
     print(f"Count: {count}")
 
+
 increment()  # Count: 1
 increment()  # Count: 2
 print(f"Final: {count}")  # Final: 2
-

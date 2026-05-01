@@ -27,29 +27,29 @@ def demo_data_types() -> None:
     """Show the four primary data types and arithmetic with them."""
 
     print("--- Numbers ---")
-    print(48)              # int  — number of cups in stock
-    print(3.75)            # float — price per cup
-    print(48 * 3.75)       # int * float → float  (total stock value)
-    print(1.50 + 0.80)     # float arithmetic   (espresso + milk surcharge)
+    print(48)  # int  — number of cups in stock
+    print(3.75)  # float — price per cup
+    print(48 * 3.75)  # int * float → float  (total stock value)
+    print(1.50 + 0.80)  # float arithmetic   (espresso + milk surcharge)
 
     print("\n--- Strings ---")
     print("espresso")
-    print('flat white')    # single quotes work the same as double quotes
+    print("flat white")  # single quotes work the same as double quotes
 
     print("\n--- Booleans in arithmetic ---")
-    print(True * 48)       # True == 1  →  48 (full stock)
-    print(False * 48)      # False == 0 →   0 (nothing available)
+    print(True * 48)  # True == 1  →  48 (full stock)
+    print(False * 48)  # False == 0 →   0 (nothing available)
 
 
 def demo_type_function() -> None:
     """Show how type() reveals the data type of any value."""
 
     print("--- type() ---")
-    print(type(3.75))               # <class 'float'>
-    print(type(48))                 # <class 'int'>
-    print(type("espresso"))         # <class 'str'>
-    print(type(True))               # <class 'bool'>
-    print(type(1.50 + 0.80))        # <class 'float'>
+    print(type(3.75))  # <class 'float'>
+    print(type(48))  # <class 'int'>
+    print(type("espresso"))  # <class 'str'>
+    print(type(True))  # <class 'bool'>
+    print(type(1.50 + 0.80))  # <class 'float'>
 
 
 def demo_variables() -> None:
@@ -57,26 +57,26 @@ def demo_variables() -> None:
 
     print("--- Assignment ---")
     menu_item = "latte"
-    print(menu_item)                # latte
+    print(menu_item)  # latte
 
     units_in_stock = 48
     unit_price_gbp = 3.75
     item_is_available = True
-    print(units_in_stock, unit_price_gbp, item_is_available)   # 48  3.75  True
+    print(units_in_stock, unit_price_gbp, item_is_available)  # 48  3.75  True
 
     print("\n--- Arithmetic with variables ---")
     # Variables hold the actual values, so maths works just like literals
     addon_price = 0.50
     checkout_total = unit_price_gbp + addon_price
-    print(checkout_total)           # 4.25
+    print(checkout_total)  # 4.25
 
     print("\n--- Reassignment ---")
     menu_item = "flat white"
-    print(menu_item)                # flat white — previous value is gone
+    print(menu_item)  # flat white — previous value is gone
 
     print("\n--- del and NameError ---")
     menu_item = "cappuccino"
-    print(menu_item)                # cappuccino
+    print(menu_item)  # cappuccino
     del menu_item
     # Accessing menu_item now raises:
     #   NameError: name 'menu_item' is not defined
@@ -86,8 +86,8 @@ def demo_variables() -> None:
     units_in_stock = 48
     unit_price_gbp = 3.75
     item_is_available = True
-    print(type(units_in_stock))     # <class 'int'>
-    print(type(unit_price_gbp))     # <class 'float'>
+    print(type(units_in_stock))  # <class 'int'>
+    print(type(unit_price_gbp))  # <class 'float'>
     print(type(item_is_available))  # <class 'bool'>
 
 

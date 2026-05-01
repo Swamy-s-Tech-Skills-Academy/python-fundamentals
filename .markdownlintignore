@@ -30,3 +30,6 @@
 **/*.yaml
 **/*.toml
 **/*.json
+
+# Internal instructor intake notes (not publish-facing docs)
+source-material/**

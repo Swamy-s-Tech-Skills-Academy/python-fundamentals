@@ -88,7 +88,7 @@ entries = [
     "User logged in",
     "Data loaded successfully",
     "Report generated",
-    "User logged out"
+    "User logged out",
 ]
 
 for entry in entries:
@@ -169,11 +169,7 @@ def show_todos(filename):
 
 
 # Demo the todo system
-my_todos = [
-    "Learn Python file handling",
-    "Practice writing code",
-    "Build a project"
-]
+my_todos = ["Learn Python file handling", "Practice writing code", "Build a project"]
 
 save_todos("todos.txt", my_todos)
 add_todo("todos.txt", "Review and celebrate!")

@@ -6,7 +6,7 @@ numbers = [x for x in range(10)]
 print("Numbers 0-9:", numbers)
 
 # Square each number
-squares = [x ** 2 for x in range(1, 11)]
+squares = [x**2 for x in range(1, 11)]
 print("Squares 1-10:", squares)
 
 # Double each number
@@ -17,4 +17,3 @@ print("Doubled 0-4:", doubled)
 words = ["hello", "world", "python"]
 uppercase = [word.upper() for word in words]
 print("Uppercase words:", uppercase)
-

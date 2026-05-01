@@ -18,6 +18,7 @@ Usage
 # Section 1 — Complex Assignment
 # ---------------------------------------------------------------------------
 
+
 def demo_complex_assignment() -> None:
     """Illustrate chained and multiple-target assignment."""
 
@@ -48,16 +49,17 @@ def demo_complex_assignment() -> None:
 # Section 2 — Type Conversion
 # ---------------------------------------------------------------------------
 
+
 def demo_type_conversion() -> None:
     """Show how str(), int(), float(), and bool() convert between types."""
 
     print("\n=== Type Conversion ===\n")
 
     # Original variables and their types
-    sensor_code = "HUMIDITY_02"   # str
-    zone_number = 5               # int
-    humidity_percent = 63.4       # float
-    is_alert_active = False       # bool
+    sensor_code = "HUMIDITY_02"  # str
+    zone_number = 5  # int
+    humidity_percent = 63.4  # float
+    is_alert_active = False  # bool
 
     print("Original values and types:")
     variables = (
@@ -73,15 +75,21 @@ def demo_type_conversion() -> None:
 
     # int  →  str  (e.g. building a log message)
     zone_as_text = str(zone_number)
-    print(f"str({zone_number})          -> {zone_as_text!r}  ({type(zone_as_text).__name__})")
+    print(
+        f"str({zone_number})          -> {zone_as_text!r}  ({type(zone_as_text).__name__})"
+    )
 
     # float  →  int  (truncates decimal — useful for whole-number comparisons)
     humidity_whole = int(humidity_percent)
-    print(f"int({humidity_percent})       -> {humidity_whole}    ({type(humidity_whole).__name__})")
+    print(
+        f"int({humidity_percent})       -> {humidity_whole}    ({type(humidity_whole).__name__})"
+    )
 
     # bool  →  float  (False == 0.0, used in weighted calculations)
     alert_weight = float(is_alert_active)
-    print(f"float({is_alert_active})   -> {alert_weight}   ({type(alert_weight).__name__})")
+    print(
+        f"float({is_alert_active})   -> {alert_weight}   ({type(alert_weight).__name__})"
+    )
 
     # str (numeric)  →  int  (reading a value stored as text)
     raw_port = "8080"
@@ -101,6 +109,7 @@ def demo_type_conversion() -> None:
 # ---------------------------------------------------------------------------
 # Entry point
 # ---------------------------------------------------------------------------
+
 
 def main(argv: list[str]) -> int:
     if any(arg in {"-h", "--help"} for arg in argv[1:]):

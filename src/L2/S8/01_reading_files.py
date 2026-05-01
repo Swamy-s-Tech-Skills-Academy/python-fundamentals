@@ -53,10 +53,10 @@ with open("sample.txt", "r") as file:
     print("Reading lines one by one:")
     line1 = file.readline()
     print(f"Line 1: {line1!r}")  # !r shows the \n character
-    
+
     line2 = file.readline()
     print(f"Line 2: {line2!r}")
-    
+
     line3 = file.readline()
     print(f"Line 3: {line3!r}")
 
@@ -95,7 +95,7 @@ with open("sample.txt", "r") as file:
         # .strip() removes the \n and any whitespace
         clean_line = line.strip()
         word_count = len(clean_line.split())
-        print(f"Line {line_number}: {word_count} words - \"{clean_line}\"")
+        print(f'Line {line_number}: {word_count} words - "{clean_line}"')
         line_number += 1
 print()
 

@@ -1,6 +1,7 @@
 # Filename: src/L2/S7/03_code_organization.py
 # Session 6: Functions - Code Organization
 
+
 def get_user_input():
     """Get and validate user input."""
     name = input("Enter name: ")
@@ -11,9 +12,11 @@ def get_user_input():
         age = -1  # validate_age() will reject this
     return name, age
 
+
 def validate_age(age):
     """Check if age is valid."""
     return age >= 0 and age <= 120
+
 
 def display_info(name, age):
     """Display user information."""
@@ -24,6 +27,7 @@ def display_info(name, age):
     else:
         print("Status: Minor")
 
+
 # Main program
 def main():
     name, age = get_user_input()
@@ -32,5 +36,5 @@ def main():
     else:
         print("Invalid age!")
 
-main()
 
+main()

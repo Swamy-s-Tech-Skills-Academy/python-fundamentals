@@ -18,7 +18,6 @@ Why PEP 8 matters:
 
 import sys
 
-
 HELP_TEXT = """pep8_style.py
 
 Purpose
@@ -47,9 +46,9 @@ def demo_naming() -> None:
     print("=== 1. Naming Conventions ===\n")
 
     # --- Vague names (hard to understand at a glance) ---
-    raw_a = 22.4      # What is this measuring? Units?
-    raw_b = 14.0      # Wind? Weight? Width?
-    raw_c = True      # Status of what?
+    raw_a = 22.4  # What is this measuring? Units?
+    raw_b = 14.0  # Wind? Weight? Width?
+    raw_c = True  # Status of what?
 
     # --- Descriptive names (self-explanatory) ---
     temperature_celsius = 22.4
@@ -73,11 +72,7 @@ def demo_naming() -> None:
 #       extra indent level (not on the same line as the opening bracket).
 
 
-def record_reading(
-        station_id,
-        temperature_celsius,
-        humidity_percent,
-        wind_speed_kmh):
+def record_reading(station_id, temperature_celsius, humidity_percent, wind_speed_kmh):
     """Return a formatted string summarising one weather reading."""
     # Each line of the function body is indented 4 spaces from `def`
     summary = (
@@ -181,6 +176,7 @@ def demo_operator_spacing() -> None:
 # temperature readings. It finds the min, max, and mean, then flags
 # any reading that deviates from the mean by more than one degree.
 
+
 def demo_comments() -> None:
     """Show comment placement and formatting conventions."""
 
@@ -188,8 +184,8 @@ def demo_comments() -> None:
 
     hourly_temps = [17.2, 18.0, 19.5, 21.3, 22.4, 21.8, 20.1, 18.6]
 
-    min_temp = min(hourly_temps)     # lowest reading of the day
-    max_temp = max(hourly_temps)     # highest reading of the day
+    min_temp = min(hourly_temps)  # lowest reading of the day
+    max_temp = max(hourly_temps)  # highest reading of the day
     mean_temp = sum(hourly_temps) / len(hourly_temps)
 
     print(f"Min  : {min_temp} C")
@@ -198,7 +194,11 @@ def demo_comments() -> None:
 
     # Flag readings that differ from the mean by more than 1 degree
     threshold = 1.0
-    anomalies = [temp_value for temp_value in hourly_temps if abs(temp_value - mean_temp) > threshold]
+    anomalies = [
+        temp_value
+        for temp_value in hourly_temps
+        if abs(temp_value - mean_temp) > threshold
+    ]
 
     if anomalies:
         print(f"\nAnomalous readings (>{threshold} deg from mean): {anomalies}")
@@ -209,6 +209,7 @@ def demo_comments() -> None:
 # ---------------------------------------------------------------------------
 # Entry point
 # ---------------------------------------------------------------------------
+
 
 def main(argv: list[str]) -> int:
     if any(arg in {"-h", "--help"} for arg in argv[1:]):

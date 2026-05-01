@@ -20,6 +20,7 @@ def safe_average(values):
         return None
     return sum(values) / len(values)
 
+
 # len() - Length
 print("\n--- len() Examples ---")
 print(f"Scores list: {scores}")

@@ -2,12 +2,7 @@
 
 print("=== Dictionary Iteration Demo ===\n")
 
-grades = {
-    "Alice": 95,
-    "Bob": 87,
-    "Charlie": 92,
-    "Diana": 88
-}
+grades = {"Alice": 95, "Bob": 87, "Charlie": 92, "Diana": 88}
 
 # Iterating over keys
 print("--- Iterating Over Keys ---")

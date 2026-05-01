@@ -12,11 +12,10 @@ long_words = [word for word in words if len(word) > 5]
 print("Long words:", long_words)
 
 # Square only even numbers
-even_squares = [n ** 2 for n in range(1, 11) if n % 2 == 0]
+even_squares = [n**2 for n in range(1, 11) if n % 2 == 0]
 print("Squares of evens:", even_squares)
 
 # Get positive scores
 scores = [85, -10, 92, -5, 88, 0, 95]
 positive = [score for score in scores if score > 0]
 print("Positive scores:", positive)
-

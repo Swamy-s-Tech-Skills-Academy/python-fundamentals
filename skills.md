@@ -1,0 +1,17 @@
+# skills.md
+
+Repository-level skill index for contributors and AI assistants.
+
+## Core Skills
+
+1. Educational content design for beginner Python (30-minute session blocks).
+2. Zero-copy transformation workflow from instructor intake notes.
+3. Session-to-practice alignment (`docs/sessions/L{level}/S{session}.md` <-> `src/L{level}/S{session}/`).
+4. Markdown quality and link integrity checks.
+5. Python quality checks with pedagogy-aware lint policy.
+
+## Guardrails
+
+- Treat `source-material/` as internal intake only.
+- Do not copy source text verbatim into publish-facing documentation.
+- Keep references on formal curriculum paths, not sandbox paths.

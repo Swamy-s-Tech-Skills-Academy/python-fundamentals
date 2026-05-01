@@ -21,7 +21,7 @@ def collect_list_items(prompt, item_name):
     items = []
     while True:
         item = input(f"  {item_name}: ").strip()
-        if item.lower() == 'done':
+        if item.lower() == "done":
             break
         if item:
             items.append(item)
@@ -45,7 +45,7 @@ def create_profile():
 
     # Check if name already exists
     for p in profiles:
-        if p['name'].lower() == name.lower():
+        if p["name"].lower() == name.lower():
             print(f"⚠️ Profile for '{name}' already exists!")
             return None
 
@@ -77,7 +77,7 @@ def create_profile():
         "age": age,
         "city": city,
         "hobbies": hobbies,
-        "goals": goals
+        "goals": goals,
     }
 
     return profile
@@ -93,8 +93,8 @@ def display_profile(profile):
     print(f"║ City:    {profile['city']:<38}║")
     print("╠" + "═" * 48 + "╣")
     print(f"║{'🎨 Hobbies':^48}║")
-    if profile['hobbies'] and profile['hobbies'] != ["Not specified"]:
-        for hobby in profile['hobbies']:
+    if profile["hobbies"] and profile["hobbies"] != ["Not specified"]:
+        for hobby in profile["hobbies"]:
             # Truncate long hobbies
             display_hobby = hobby[:40] if len(hobby) > 40 else hobby
             print(f"║   • {display_hobby:<42}║")
@@ -102,8 +102,8 @@ def display_profile(profile):
         print(f"║   {'(No hobbies listed)':<43}║")
     print("╠" + "═" * 48 + "╣")
     print(f"║{'🎯 Goals':^48}║")
-    if profile['goals'] and profile['goals'] != ["Not specified"]:
-        for goal in profile['goals']:
+    if profile["goals"] and profile["goals"] != ["Not specified"]:
+        for goal in profile["goals"]:
             # Truncate long goals
             display_goal = goal[:40] if len(goal) > 40 else goal
             print(f"║   • {display_goal:<42}║")
@@ -160,7 +160,7 @@ def search_profiles():
 
     found = []
     for p in profiles:
-        if search in p['name'].lower():
+        if search in p["name"].lower():
             found.append(p)
 
     if found:
@@ -191,7 +191,7 @@ def edit_profile():
             # Edit name
             new_name = input(f"Name [{profile['name']}]: ").strip()
             if new_name:
-                profile['name'] = new_name
+                profile["name"] = new_name
 
             # Edit age
             new_age = input(f"Age [{profile['age']}]: ").strip()
@@ -199,7 +199,7 @@ def edit_profile():
                 try:
                     age = int(new_age)
                     if 1 <= age <= 150:
-                        profile['age'] = age
+                        profile["age"] = age
                     else:
                         print("Invalid age range, keeping current value")
                 except ValueError:
@@ -208,17 +208,17 @@ def edit_profile():
             # Edit city
             new_city = input(f"City [{profile['city']}]: ").strip()
             if new_city:
-                profile['city'] = new_city
+                profile["city"] = new_city
 
             # Option to edit hobbies
             edit_hobbies = input("Edit hobbies? (y/n): ").strip().lower()
-            if edit_hobbies == 'y':
-                profile['hobbies'] = collect_list_items("Enter new hobbies", "Hobby")
+            if edit_hobbies == "y":
+                profile["hobbies"] = collect_list_items("Enter new hobbies", "Hobby")
 
             # Option to edit goals
             edit_goals = input("Edit goals? (y/n): ").strip().lower()
-            if edit_goals == 'y':
-                profile['goals'] = collect_list_items("Enter new goals", "Goal")
+            if edit_goals == "y":
+                profile["goals"] = collect_list_items("Enter new goals", "Goal")
 
             print("✅ Profile updated!")
             display_profile(profile)
@@ -243,7 +243,7 @@ def delete_profile():
         if 1 <= num <= len(profiles):
             profile = profiles[num - 1]
             confirm = input(f"Delete '{profile['name']}'? (y/n): ").strip().lower()
-            if confirm == 'y':
+            if confirm == "y":
                 removed = profiles.pop(num - 1)
                 print(f"🗑️ Deleted profile: {removed['name']}")
             else:
@@ -268,20 +268,20 @@ def show_statistics():
     print(f"\n👥 Total profiles: {len(profiles)}")
 
     # Average age
-    total_age = sum(p['age'] for p in profiles)
+    total_age = sum(p["age"] for p in profiles)
     avg_age = total_age / len(profiles)
     print(f"📅 Average age: {avg_age:.1f}")
 
     # Youngest and oldest
-    youngest = min(profiles, key=lambda p: p['age'])
-    oldest = max(profiles, key=lambda p: p['age'])
+    youngest = min(profiles, key=lambda p: p["age"])
+    oldest = max(profiles, key=lambda p: p["age"])
     print(f"👶 Youngest: {youngest['name']} ({youngest['age']})")
     print(f"👴 Oldest: {oldest['name']} ({oldest['age']})")
 
     # Cities
     cities = {}
     for p in profiles:
-        city = p['city']
+        city = p["city"]
         cities[city] = cities.get(city, 0) + 1
 
     print("\n🏙️ Profiles by city:")
@@ -292,30 +292,28 @@ def show_statistics():
     # Most common hobbies
     all_hobbies = {}
     for p in profiles:
-        for hobby in p['hobbies']:
+        for hobby in p["hobbies"]:
             if hobby != "Not specified":
                 all_hobbies[hobby] = all_hobbies.get(hobby, 0) + 1
 
     if all_hobbies:
         print("\n🎨 Top 5 hobbies:")
-        sorted_hobbies = sorted(all_hobbies.items(),
-                                key=lambda x: x[1],
-                                reverse=True)[:5]
+        sorted_hobbies = sorted(all_hobbies.items(), key=lambda x: x[1], reverse=True)[
+            :5
+        ]
         for hobby, count in sorted_hobbies:
             print(f"  • {hobby}: {count}")
 
     # Most common goals
     all_goals = {}
     for p in profiles:
-        for goal in p['goals']:
+        for goal in p["goals"]:
             if goal != "Not specified":
                 all_goals[goal] = all_goals.get(goal, 0) + 1
 
     if all_goals:
         print("\n🎯 Top 5 goals:")
-        sorted_goals = sorted(all_goals.items(),
-                              key=lambda x: x[1],
-                              reverse=True)[:5]
+        sorted_goals = sorted(all_goals.items(), key=lambda x: x[1], reverse=True)[:5]
         for goal, count in sorted_goals:
             print(f"  • {goal}: {count}")
 
@@ -330,29 +328,29 @@ def add_sample_profiles():
             "age": 28,
             "city": "New York",
             "hobbies": ["Reading", "Hiking", "Photography"],
-            "goals": ["Learn Python", "Travel to Japan"]
+            "goals": ["Learn Python", "Travel to Japan"],
         },
         {
             "name": "Bob Smith",
             "age": 35,
             "city": "San Francisco",
             "hobbies": ["Gaming", "Cooking", "Music"],
-            "goals": ["Start a business", "Run a marathon"]
+            "goals": ["Start a business", "Run a marathon"],
         },
         {
             "name": "Carol Davis",
             "age": 24,
             "city": "Boston",
             "hobbies": ["Painting", "Yoga", "Reading"],
-            "goals": ["Get a promotion", "Learn Spanish"]
+            "goals": ["Get a promotion", "Learn Spanish"],
         },
         {
             "name": "David Lee",
             "age": 42,
             "city": "New York",
             "hobbies": ["Golf", "Photography", "Cooking"],
-            "goals": ["Retire early", "Write a book"]
-        }
+            "goals": ["Retire early", "Write a book"],
+        },
     ]
 
     profiles.extend(sample_profiles)

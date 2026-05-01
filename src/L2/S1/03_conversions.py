@@ -23,4 +23,3 @@ coordinates = (10, 20, 30)
 coordinates_list = list(coordinates)
 coordinates_list.append(40)  # Can modify now
 print("Coordinates list:", coordinates_list)
-
