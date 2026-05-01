@@ -26,11 +26,17 @@ def demo_complex_assignment() -> None:
     # --- Chained assignment: same value to multiple names ---
     # Standard delivery zones all share a 2-business-day lead time.
     north = south = central = east = 2
-    print(f"Standard zones (days) — North: {north}, East: {east}")
+    print(
+        "Standard zones (days) — "
+        f"North: {north}, South: {south}, Central: {central}, East: {east}"
+    )
 
     # Remote delivery zones share a 5-business-day lead time.
     highland = island = offshore = border = 5
-    print(f"Remote zones   (days) — Highland: {highland}, Island: {island}")
+    print(
+        "Remote zones   (days) — "
+        f"Highland: {highland}, Island: {island}, Offshore: {offshore}, Border: {border}"
+    )
 
     # --- Multiple targets, different values in one line (tuple unpacking) ---
     # Pair a city with its nearest fulfilment hub in a single statement.
