@@ -92,7 +92,7 @@
 
 **Mini Projects:**
 
-- **Simple Calculator** - Command-line calculator with input validation and continuous operation
+- **Simple Calculator** - Command-line one-run calculator with operation choice, input validation, and divide-by-zero handling
 - **Personal Profile Generator** - Interactive profile system using dictionaries and lists with data validation
 
 **Learning Outcome:** "I can write basic Python programs with proper structure, understand error messages, and I'm genuinely curious to learn more!"
