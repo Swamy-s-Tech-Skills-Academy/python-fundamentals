@@ -17,6 +17,15 @@
 ✅ **ALWAYS** write fresh, minimal code from first principles  
 ✅ Brief quotations allowed ONLY with quotation marks and source citation
 
+### Internal Source Intake Rules
+
+✅ Borrow concepts and misconception patterns; do not reuse original wording, section order, or narration from source notes  
+✅ Treat `source-material/` as internal instructor intake only; curriculum output must be rewritten in fresh structure and voice  
+✅ Promote `src/Working/` examples only after cleanup, renaming, and session-outcome alignment  
+✅ Keep publish-facing references on formal paths (`src/L{level}/S{session}/`), never sandbox paths  
+✅ Apply the same quality gates to imported ideas: clarity, technical correctness, and beginner pedagogy  
+❌ Do not place internal intake-policy process blocks inside publish-facing curriculum docs
+
 ---
 
 ## 🔄 Transformative Workflow (Required Every Time)

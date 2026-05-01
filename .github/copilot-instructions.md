@@ -42,6 +42,15 @@
 
 **See `.cursor/rules/01_educational-content-rules.mdc` for complete Zero-Copy Policy and Transformative Workflow details.**
 
+### **5. 🔒 INTERNAL CONTENT INTAKE POLICY (Source Notes + Working Samples)**
+
+- **BORROW** concepts, misconceptions, and exercise patterns only; do not reuse exact wording, order, or narration.
+- Treat `source-material/` files as internal instructor notes; rewrite all curriculum text in a fresh structure and voice.
+- Promote sandbox examples from `src/Working/` only after cleanup, renaming, and alignment with session outcomes.
+- Keep published session references on formal paths (`src/L{level}/S{session}/`) and never on sandbox paths.
+- Apply normal quality gates to imported ideas: clarity, technical correctness, and beginner-level pedagogy.
+- This policy is internal operating guidance and should not be written into publish-facing curriculum docs.
+
 ---
 
 ## 📋 **PROJECT STRUCTURE OVERVIEW**

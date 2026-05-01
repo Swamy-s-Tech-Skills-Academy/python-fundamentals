@@ -11,6 +11,15 @@
 2. **Preserve existing structure** — Read the full file before editing. Make minimal, targeted changes.
 3. **Do not corrupt content** — If a change feels broad or risky, ask first.
 
+## 🔒 Internal Content Intake Policy (Source Notes + Working)
+
+- Borrow ideas and misconceptions, not exact text, section order, or narration.
+- Treat `source-material/` as internal instructor notes; rewrite explanations with original structure and wording.
+- Promote `src/Working/` examples only after cleanup, renaming, and fit-check against session outcomes.
+- Keep publish-facing session references on formal paths (`src/L{level}/S{session}/`) and never on sandbox paths.
+- Run normal quality checks on imported ideas: clarity, technical accuracy, and beginner pedagogy.
+- This policy is internal process guidance and should not appear as a process block in publish-facing curriculum docs.
+
 ---
 
 ## 📁 Repository Structure (Quick Reference)
