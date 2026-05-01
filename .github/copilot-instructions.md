@@ -75,14 +75,17 @@ python-fundamentals/
 │   │   ├── S2/ ... S8/      # Session 2-8 practice files
 │   │   ├── MP1/             # Mini Project 1 files
 │   │   │   ├── 01_simple_calculator.py
-│   │   │   ├── 02_simple_calculator_loop.py
 │   │   │   └── calculator_utils.py
 │   │   └── MP2/             # Mini Project 2 files
 │   │       └── profile_generator.py
-│   └── L2/                  # Level 2 practice files
-│       ├── S1/ ... S8/
-│       ├── MP1/
-│       └── MP2/
+│   ├── L2/                  # Level 2 practice files
+│   │   ├── S1/ ... S8/
+│   │   ├── MP1/
+│   │   └── MP2/
+│   └── Working/             # Sandbox staging area for live-coding samples
+│       ├── day1/            # Day 1 session samples (informal, exploratory)
+│       ├── day2/            # Day 2 session samples
+│       └── dayN/            # Subsequent day samples (bucket into L{n}/S{n}/ when ready)
 └── README.md                # Project overview and quick start
 ```
 
@@ -94,6 +97,52 @@ python-fundamentals/
 - `docs/sessions/L2/_Plan.md` → Overall curriculum structure
 - `docs/01_Python-Fundamentals-MasterPlan.md` → Master roadmap across all levels
 - `README.md` → Entry point with navigation links
+- `src/Working/dayN/` → Sandbox samples; promoted to `src/L{level}/S{session}/` when ready
+
+---
+
+## 🗂️ `src/Working/` — Sandbox Staging Area
+
+`src/Working/` is the **live-coding and experiment zone** — used during teaching sessions to write and run code informally. Files here may later be **promoted** into the formal `src/L{level}/S{session}/` structure.
+
+| `src/Working/` | `src/L{level}/S{session}/` |
+|---|---|
+| Informal, exploratory, day-based folders (`day1/`, `day2/`) | Formal, numbered, tested practice files |
+| Flexible file names (`hello_world.py`, `sample1.py`) | `01_name.py` convention, polished |
+| Work-in-progress | Production-quality curriculum |
+
+### Promotion workflow
+
+1. Identify which `L{level}/S{session}/` the file belongs to.
+2. Rename to `01_name.py` (or next available number).
+3. Add standard file header, clean comments, verify it runs.
+4. Move to `src/L{level}/S{session}/`.
+5. Reference the new file in the matching `docs/sessions/L{level}/S{session}.md`.
+
+### Standard file template
+
+The pattern from `src/Working/day1/hello_world.py` is the **preferred template** for both Working and promoted files:
+
+```python
+"""Module docstring explaining what the file demonstrates."""
+
+import sys
+
+HELP_TEXT = """..."""
+
+def main(argv: list[str]) -> int:
+    # implementation
+    return 0
+
+raise SystemExit(main(sys.argv))
+```
+
+### Rules for Copilot / AI assistants
+
+- ✅ `src/Working/` files are informal — apply relaxed quality expectations
+- ✅ When asked to promote / bucket a Working file, follow the promotion workflow
+- ❌ Do **not** reference `src/Working/` paths in `docs/sessions/` — only promoted `src/L{level}/S{session}/` paths belong there
+- ❌ Do **not** apply CI lint failures on Working files as blockers
 
 ---
 

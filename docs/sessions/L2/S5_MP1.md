@@ -206,12 +206,12 @@ if __name__ == "__main__":
 
 ## 🧪 **Complete Example Solution**
 
-🧪 *Deliverable*: `src/L2/MP1/data_processor.py`
+🧪 *Deliverable*: `src/L2/S5_MP1/data_processor.py`
 
-Here's a complete working example:
+Here's a complete working example (extends the walkthrough above with an `average` statistic):
 
 ```python
-# Filename: src/L2/MP1/data_processor.py
+# Filename: src/L2/S5_MP1/data_processor.py
 # Mini Project 1: Data Processor
 
 def get_scores():
@@ -247,8 +247,8 @@ def process_scores(scores):
     # Transform: get only scores above 70 using comprehension
     passing_scores = [score for score in unique_scores if score >= 70]
     
-    # Calculate average using comprehension and built-in functions
-    average = sum(unique_scores) / len(unique_scores) if unique_scores else 0
+    # Calculate average of ALL original scores (not just unique values)
+    average = sum(scores) / len(scores) if scores else 0
     
     return unique_scores, score_tuples, passing_scores, average
 
