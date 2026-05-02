@@ -81,14 +81,14 @@ python-fundamentals/
 │   │   │   ├── 01_hello.py
 │   │   │   ├── 02_interactive_hello.py
 │   │   │   └── bytecode_demo.py
-│   │   ├── S2/ ... S9/      # Session-aligned folders (S6-S9 map to Sessions 5-8; MPs are separate)
+│   │   ├── S2/ ... S9/      # Numbered session folders for regular sessions (mini projects are separate)
 │   │   ├── S5_MP1/          # Session 5 Mini Project 1 files
 │   │   │   ├── 01_simple_calculator.py
 │   │   │   └── calculator_utils.py
 │   │   └── S10_MP2/         # Session 10 Mini Project 2 files
 │   │       └── profile_generator.py
 │   ├── L2/                  # Level 2 practice files
-│   │   ├── S1/ ... S9/      # Session-aligned folders (S6-S9 map to Sessions 5-8; MPs are separate)
+│   │   ├── S1/ ... S9/      # Numbered session folders for regular sessions (mini projects are separate)
 │   │   ├── S5_MP1/
 │   │   └── S10_MP2/
 │   └── Working/             # Sandbox staging area for live-coding samples
