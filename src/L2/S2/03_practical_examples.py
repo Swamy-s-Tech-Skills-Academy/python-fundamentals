@@ -13,11 +13,10 @@ print("First letters:", first_letters)
 
 # Convert Celsius to Fahrenheit
 celsius = [0, 10, 20, 30, 40]
-fahrenheit = [(temp * 9/5) + 32 for temp in celsius]
+fahrenheit = [(temp * 9 / 5) + 32 for temp in celsius]
 print("Fahrenheit:", fahrenheit)
 
 # Remove duplicates and sort
 numbers = [3, 1, 4, 1, 5, 9, 2, 6, 5, 3]
 unique_sorted = sorted([n for n in set(numbers)])
 print("Unique sorted:", unique_sorted)
-

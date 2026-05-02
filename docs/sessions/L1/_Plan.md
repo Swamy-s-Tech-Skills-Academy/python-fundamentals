@@ -371,7 +371,7 @@ By completing Level 1, you will:
 
 **Mini Project Success Indicators:**
 
-* Calculator works with all four operations, validates input, runs continuously.
+* Calculator works with all four operations, validates input, and handles divide-by-zero safely.
 * Profile generator collects + displays user data, supports multiple profiles, validates inputs.
 
 ---

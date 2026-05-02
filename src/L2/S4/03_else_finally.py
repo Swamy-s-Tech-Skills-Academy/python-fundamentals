@@ -4,7 +4,7 @@
 # Using else clause
 try:
     number = int(input("Enter a number: "))
-    result = number ** 2
+    result = number**2
 except ValueError:
     print("Invalid input!")
 else:

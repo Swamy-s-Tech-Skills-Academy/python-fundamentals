@@ -42,6 +42,15 @@
 
 **See `.cursor/rules/01_educational-content-rules.mdc` for complete Zero-Copy Policy and Transformative Workflow details.**
 
+### **5. 🔒 INTERNAL CONTENT INTAKE POLICY (Source Notes + Working Samples)**
+
+- **BORROW** concepts, misconceptions, and exercise patterns only; do not reuse exact wording, order, or narration.
+- Treat `source-material/` files as internal instructor notes; rewrite all curriculum text in a fresh structure and voice.
+- Promote sandbox examples from `src/Working/` only after cleanup, renaming, and alignment with session outcomes.
+- Keep published session references on formal paths (`src/L{level}/S{session}/`) and never on sandbox paths.
+- Apply normal quality gates to imported ideas: clarity, technical correctness, and beginner-level pedagogy.
+- This policy is internal operating guidance and should not be written into publish-facing curriculum docs.
+
 ---
 
 ## 📋 **PROJECT STRUCTURE OVERVIEW**
@@ -72,16 +81,16 @@ python-fundamentals/
 │   │   │   ├── 01_hello.py
 │   │   │   ├── 02_interactive_hello.py
 │   │   │   └── bytecode_demo.py
-│   │   ├── S2/ ... S8/      # Session 2-8 practice files
-│   │   ├── MP1/             # Mini Project 1 files
+│   │   ├── S2/ ... S9/      # Session 2-9 practice files
+│   │   ├── S5_MP1/          # Session 5 Mini Project 1 files
 │   │   │   ├── 01_simple_calculator.py
 │   │   │   └── calculator_utils.py
-│   │   └── MP2/             # Mini Project 2 files
+│   │   └── S10_MP2/         # Session 10 Mini Project 2 files
 │   │       └── profile_generator.py
 │   ├── L2/                  # Level 2 practice files
-│   │   ├── S1/ ... S8/
-│   │   ├── MP1/
-│   │   └── MP2/
+│   │   ├── S1/ ... S9/
+│   │   ├── S5_MP1/
+│   │   └── S10_MP2/
 │   └── Working/             # Sandbox staging area for live-coding samples
 │       ├── day1/            # Day 1 session samples (informal, exploratory)
 │       ├── day2/            # Day 2 session samples

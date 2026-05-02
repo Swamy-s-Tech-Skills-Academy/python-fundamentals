@@ -18,10 +18,5 @@ name, age, job = person
 print(f"{name} is {age} years old and works as a {job}")
 
 # Using tuple as dictionary key
-locations = {
-    (0, 0): "Origin",
-    (10, 20): "Home",
-    (30, 40): "Office"
-}
+locations = {(0, 0): "Origin", (10, 20): "Home", (30, 40): "Office"}
 print("Location at (10, 20):", locations[(10, 20)])
-

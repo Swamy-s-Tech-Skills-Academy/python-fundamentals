@@ -22,7 +22,6 @@ Try it:
 
 import sys
 
-
 HELP_TEXT = """hello_world.py
 
 Purpose
@@ -54,7 +53,9 @@ def main(argv: list[str]) -> int:
 
     print("""Hello Data Science""")
 
-    print('the name of the python programming language does not come from "python snake"')
+    print(
+        'the name of the python programming language does not come from "python snake"'
+    )
 
     print("It's my pleasure")
 

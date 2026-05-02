@@ -25,7 +25,7 @@ Usage
 def demo_del_and_name_error() -> None:
     """Show what happens when you delete a variable and then reference it."""
     season = "October"
-    print("Before del:", season)          # → October
+    print("Before del:", season)  # → October
 
     del season
     # Uncommenting the next line causes NameError: name 'season' is not defined
@@ -35,10 +35,10 @@ def demo_del_and_name_error() -> None:
 
 def demo_bool_arithmetic() -> None:
     """Show that True == 1 and False == 0 in numeric operations."""
-    print("True * 7  =", True * 7)        # → 7
-    print("False * 7 =", False * 7)       # → 0
-    print("True + True =", True + True)   # → 2  (1 + 1)
-    print("type(True) =", type(True))     # → <class 'bool'>
+    print("True * 7  =", True * 7)  # → 7
+    print("False * 7 =", False * 7)  # → 0
+    print("True + True =", True + True)  # → 2  (1 + 1)
+    print("type(True) =", type(True))  # → <class 'bool'>
 
     # Practical note: bool is a subtype of int in Python
     print("isinstance(True, int):", isinstance(True, int))  # → True

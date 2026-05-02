@@ -122,7 +122,7 @@ print(f"   Result: {result}")
 print("\n2️⃣ Method 2: Import specific functions")
 print("   from string_utils import reverse_string, is_palindrome")
 
-from string_utils import reverse_string, is_palindrome
+from string_utils import is_palindrome, reverse_string
 
 print(f"   reverse_string('Python'): {reverse_string('Python')}")
 print(f"   is_palindrome('radar'): {is_palindrome('radar')}")
@@ -183,23 +183,25 @@ def analyze_text(text):
     """Analyze text using our string_utils module."""
     print("\n📊 TEXT ANALYSIS REPORT")
     print("=" * 40)
-    print(f"Original text: {text[:50]}..." if len(text) > 50 else f"Original text: {text}")
+    print(
+        f"Original text: {text[:50]}..." if len(text) > 50 else f"Original text: {text}"
+    )
     print("-" * 40)
-    
+
     # Use our module functions
     print(f"📏 Word count: {string_utils.count_words(text)}")
     print(f"📏 Character count: {len(text)}")
-    
+
     # Check for palindromes
     words = text.split()
     palindromes = [w for w in words if string_utils.is_palindrome(w) and len(w) > 1]
     print(f"🔄 Palindrome words: {palindromes if palindromes else 'None found'}")
-    
+
     # Word frequency
     freq = string_utils.word_frequency(text)
     most_common = max(freq.items(), key=lambda x: x[1])
     print(f"📈 Most common word: '{most_common[0]}' ({most_common[1]} times)")
-    
+
     # Title case version
     print(f"📝 Title case: {string_utils.capitalize_words(text[:30])}...")
     print("=" * 40)

@@ -77,17 +77,17 @@ def file_info(filename):
     """Get information about a file."""
     if os.path.exists(filename):
         print(f"✅ '{filename}' exists!")
-        
+
         # Get file size
         size = os.path.getsize(filename)
         print(f"   Size: {size} bytes")
-        
+
         # Check if it's a file or directory
         if os.path.isfile(filename):
             print("   Type: File")
         elif os.path.isdir(filename):
             print("   Type: Directory")
-        
+
         return True
     else:
         print(f"❌ '{filename}' does not exist")
@@ -179,7 +179,7 @@ def update_high_score(filename, new_score):
 # Demo the high score system
 print("\n--- High Score Demo ---")
 update_high_score("highscore.txt", 100)
-update_high_score("highscore.txt", 75)   # Won't update
+update_high_score("highscore.txt", 75)  # Won't update
 update_high_score("highscore.txt", 150)  # Will update!
 update_high_score("highscore.txt", 125)  # Won't update
 
@@ -196,7 +196,7 @@ def log(filename, message, level="INFO"):
     """Add a timestamped log entry."""
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     entry = f"[{timestamp}] [{level}] {message}\n"
-    
+
     with open(filename, "a") as file:
         file.write(entry)
 
@@ -206,18 +206,18 @@ def show_log(filename, last_n=None):
     try:
         with open(filename, "r") as file:
             lines = file.readlines()
-            
+
             if last_n:
                 lines = lines[-last_n:]
                 print(f"\n📋 Last {last_n} log entries:")
             else:
                 print(f"\n📋 All log entries:")
-            
+
             print("-" * 60)
             for line in lines:
                 print(line.strip())
             print("-" * 60)
-            
+
     except FileNotFoundError:
         print("No log file found.")
 

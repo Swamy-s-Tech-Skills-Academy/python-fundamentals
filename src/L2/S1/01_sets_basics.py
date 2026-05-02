@@ -24,4 +24,3 @@ print("Common colors:", common)
 # All unique colors
 all_colors = my_colors | friend_colors
 print("All colors:", all_colors)
-

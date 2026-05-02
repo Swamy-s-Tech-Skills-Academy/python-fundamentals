@@ -4,11 +4,7 @@ print("=== Dictionary Basics Demo ===\n")
 
 # Creating dictionaries
 print("--- Creating Dictionaries ---")
-person = {
-    "name": "Alice",
-    "age": 25,
-    "city": "New York"
-}
+person = {"name": "Alice", "age": 25, "city": "New York"}
 print(f"Person: {person}")
 
 # Using dict() constructor
@@ -52,10 +48,7 @@ profile = {
     "age": 30,
     "scores": [95, 87, 92],
     "active": True,
-    "address": {
-        "city": "Boston",
-        "zip": "02101"
-    }
+    "address": {"city": "Boston", "zip": "02101"},
 }
 print(f"Profile: {profile}")
 print(f"First score: {profile['scores'][0]}")

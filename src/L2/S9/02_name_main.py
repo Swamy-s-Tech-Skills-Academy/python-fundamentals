@@ -225,6 +225,7 @@ print("-" * 40)
 # Clear cached module so this import uses the generated file for this run.
 sys.modules.pop("calculator_module", None)
 import calculator_module
+
 print("(no output - tests didn't run)")
 print("-" * 40)
 

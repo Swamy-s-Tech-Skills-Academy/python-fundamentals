@@ -397,9 +397,14 @@ sys.path.insert(0, project_dir)
 
 # Manually run the test code (simulating direct execution)
 import importlib.util
-spec = importlib.util.spec_from_file_location("operations", f"{project_dir}/operations.py")
+
+spec = importlib.util.spec_from_file_location(
+    "operations", f"{project_dir}/operations.py"
+)
 if spec is None:
-    raise ImportError(f"Could not create module spec. Ensure {project_dir}/operations.py exists.")
+    raise ImportError(
+        f"Could not create module spec. Ensure {project_dir}/operations.py exists."
+    )
 if spec.loader is None:
     module_name = spec.name or "unknown module"
     module_origin = spec.origin or "unknown origin"
@@ -457,7 +462,7 @@ try:
 except (EOFError, OSError):
     keep_project = "n"
 
-if keep_project != 'y':
+if keep_project != "y":
     if os.path.exists(project_dir):
         shutil.rmtree(project_dir)
         print(f"Removed {project_dir}/ folder")

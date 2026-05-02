@@ -55,3 +55,9 @@ See: `01_educational-content-rules.mdc` for complete details.
 4. ✅ **Verify paths**: All references use correct `L{level}/S{session}/` structure
 
 **Self-Check Question**: "Do all file references use the correct L{level}/S{session}/ format?" - If no, FIX immediately.
+
+### 5. Internal Intake Policy Placement (CRITICAL)
+
+✅ Maintain source-intake and sandbox-promotion policy in internal instruction surfaces only (`.github/`, `.cursor/rules/`, `CLAUDE.md`)  
+✅ Keep publish-facing curriculum docs focused on learner content, outcomes, and exercises  
+❌ Do not publish internal process-policy blocks in `docs/` content
