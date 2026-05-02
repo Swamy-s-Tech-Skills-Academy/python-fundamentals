@@ -198,7 +198,7 @@ Cursor AI configuration:
 
 - Format: `{number}_{descriptive_name}.py`
 - Examples: `01_hello.py`, `02_interactive_hello.py`, `03_type_conversion.py`
-- Location: `src/L{level}/S{session}/` or `src/L{level}/MP{number}/`
+- Location: `src/L{level}/S{session}/` (including session-aligned mini-project folders such as `S5_MP1/` and `S10_MP2/`)
 
 ### Session Documentation
 
@@ -206,6 +206,7 @@ Cursor AI configuration:
 - Plan: `_Plan.md` (underscore prefix sorts first)
 - Examples: `S1.md`, `S5_MP1.md`, `_Plan.md`
 - Location: `docs/sessions/L{level}/`
+- Note: pedagogical session numbers can differ from filename order because mini projects are stored as `S5_MP1.md` and `S10_MP2.md` in the same sequence.
 
 ### Images
 
