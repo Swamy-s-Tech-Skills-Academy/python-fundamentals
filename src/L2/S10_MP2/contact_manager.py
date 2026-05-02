@@ -19,7 +19,7 @@ import os
 # ============================================================
 # CONSTANTS
 # ============================================================
-CONTACTS_FILE = "contacts.txt"
+CONTACTS_FILE = os.path.join(os.path.dirname(__file__), "contacts.txt")
 SEPARATOR = "|"
 
 
