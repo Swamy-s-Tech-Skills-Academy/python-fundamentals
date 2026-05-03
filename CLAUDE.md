@@ -32,7 +32,7 @@ python-fundamentals/
 │   ├── 01_Python-Fundamentals-MasterPlan.md   # 18-level course roadmap
 │   ├── RepositoryStructure.md                 # Authoritative structure doc
 │   └── sessions/
-│       ├── L1/   # Noob → Nerd (S1–S8, S5_MP1, S10_MP2, _Plan.md)
+│       ├── L1/   # Noob → Nerd (S1–S9, S5_MP1, S10_MP2, _Plan.md)
 │       └── L2/   # Nerd → Novice
 ├── src/
 │   ├── L1/       # Formal practice files: src/L1/S1/01_name.py
