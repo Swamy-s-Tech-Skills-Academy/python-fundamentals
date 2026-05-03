@@ -155,6 +155,31 @@ flowchart TB
     class B5,C5 project
 ```
 
+ASCII fallback:
+
+```text
+[🎯 Nerd]
+    |
+    v
+[📘 Phase A: Advanced Foundations]
+    ├─ [📚 Session 1: Sets & Tuples]
+    ├─ [📚 Session 2: List Comprehensions]
+    ├─ [🔧 Session 3: Functions Basics]
+    ├─ [🛡️ Session 4: Error Handling]
+    └─ [🚀 MP1: Mini Project 1: Data Processor]
+    |
+    v
+[📘 Phase B: File Operations & Advanced Functions]
+    ├─ [🔧 Session 5: Functions: Parameters]
+    ├─ [🔧 Session 6: Functions: Scope]
+    ├─ [📁 Session 7: Text File I/O]
+    ├─ [📦 Session 8: Modules Deep Dive]
+    └─ [🚀 MP2: Mini Project 2: Contact Manager]
+    |
+    v
+[🎓 Novice]
+```
+
 ---
 
 ## 📅 **Session-by-Session Breakdown**
