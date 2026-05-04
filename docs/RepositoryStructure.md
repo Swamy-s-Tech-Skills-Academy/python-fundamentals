@@ -66,7 +66,8 @@ python-fundamentals/
 │       ├── S7/                 # Session 6 practice files
 │       │   ├── 01_error_examples.py
 │       │   ├── 02_debug_practice.py
-│       │   └── 03_builtin_functions.py
+│       │   ├── 03_builtin_functions.py
+│       │   └── 04_pep8_style_refactor.py
 │       ├── S8/                 # Session 7 practice files
 │       │   ├── 01_list_basics.py
 │       │   ├── 02_list_methods.py
@@ -255,7 +256,7 @@ Cursor AI configuration:
 | 4 | `S4.md` | Conditionals & Modules | 3 files |
 | 5 | `S5_MP1.md` | Mini Project: Calculator | 2 files |
 | 6 | `S6.md` | Loops & Iteration | 4 files |
-| 7 | `S7.md` | Debugging & Built-ins | 3 files |
+| 7 | `S7.md` | Debugging & Built-ins | 4 files |
 | 8 | `S8.md` | Lists & Loops | 3 files |
 | 9 | `S9.md` | Dictionaries & Testing | 3 files |
 | 10 | `S10_MP2.md` | Mini Project: Profile Generator | 1 file |
