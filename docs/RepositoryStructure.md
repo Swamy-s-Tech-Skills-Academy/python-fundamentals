@@ -66,7 +66,8 @@ python-fundamentals/
 │       ├── S7/                 # Session 6 practice files
 │       │   ├── 01_error_examples.py
 │       │   ├── 02_debug_practice.py
-│       │   └── 03_builtin_functions.py
+│       │   ├── 03_builtin_functions.py
+│       │   └── 04_pep8_style_refactor.py
 │       ├── S8/                 # Session 7 practice files
 │       │   ├── 01_list_basics.py
 │       │   ├── 02_list_methods.py
