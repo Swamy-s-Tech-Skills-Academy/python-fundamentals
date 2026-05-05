@@ -39,22 +39,22 @@ def demo_chained_assignment() -> None:
     # Reading right-to-left: 2 is stored in east, then central, south, north.
     north = south = central = east = 2
     print(
-        "Standard zones (days) — "
+        "Standard zones (days) - "
         f"North: {north}, South: {south}, Central: {central}, East: {east}"
     )
 
     # Remote delivery zones share a 5-business-day lead time.
     highland = island = offshore = border = 5
     print(
-        "Remote zones   (days) — "
+        "Remote zones   (days) - "
         f"Highland: {highland}, Island: {island}, "
         f"Offshore: {offshore}, Border: {border}"
     )
 
     print()
-    print("👉 Use chained assignment when several names share one starting value.")
-    print("   Changing any name later does NOT change the others — they just")
-    print("   started equal; they are independent variables after assignment.")
+    print("Note: Use chained assignment when several names share one starting value.")
+    print("      Changing any name later does NOT change the others -- they just")
+    print("      started equal; they are independent variables after assignment.")
 
 
 # ---------------------------------------------------------------------------
@@ -73,10 +73,10 @@ def demo_multi_target_assignment() -> None:
 
     # Unpack three related values at once — avoids three separate lines.
     product, category, price = "Laptop", "Electronics", 54999
-    print(f"Product: {product!r},  Category: {category!r},  Price: ₹{price}")
+    print(f"Product: {product!r},  Category: {category!r},  Price: Rs.{price}")
 
     print()
-    print("👉 The number of names on the left must match the number of values")
+    print("Note: The number of names on the left must match the number of values")
     print("   on the right, or Python raises a ValueError.")
 
 
@@ -101,7 +101,7 @@ def demo_swap() -> None:
     print(f"After swap : warehouse_a={warehouse_a}, warehouse_b={warehouse_b}")
 
     print()
-    print("👉 This works because Python packs the right side into a tuple first,")
+    print("Note: This works because Python packs the right side into a tuple first,")
     print("   then unpacks it into the names on the left.")
 
 
