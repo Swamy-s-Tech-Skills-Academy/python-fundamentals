@@ -31,7 +31,7 @@ print(f"float({d})  -> {converted_d}   type={type(converted_d).__name__}  (True 
 # ---------------------------------------------------------------------------
 # int() on a non-numeric string → ValueError
 # ---------------------------------------------------------------------------
-print("\n=== int() on a word string — expected ValueError ===")
+print("\n=== int() on a word string -- expected ValueError ===")
 try:
     converted_a = int(a)      # "september" has no numeric value
 except ValueError as err:
@@ -41,7 +41,7 @@ print("Takeaway: int() only works when the string contains digits.")
 # ---------------------------------------------------------------------------
 # int() on a numeric string — this DOES work
 # ---------------------------------------------------------------------------
-print("\n=== int() on a numeric string — works fine ===")
+print("\n=== int() on a numeric string -- works fine ===")
 e = "8"
 converted_e = int(e)
 print(f"int({e!r}) -> {converted_e}  type={type(converted_e).__name__}")
