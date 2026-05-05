@@ -43,9 +43,9 @@ def demo_truncation() -> None:
         print(f"  int({r}) = {int(r)}")
 
     print()
-    print("👉 int() always moves toward zero, regardless of the decimal.")
-    print("   int(5.8) is 5, not 6.  int(-3.9) is -3, not -4.")
-    print("   Use round() when you need conventional rounding.")
+    print("Note: int() always moves toward zero, regardless of the decimal.")
+    print("      int(5.8) is 5, not 6.  int(-3.9) is -3, not -4.")
+    print("      Use round() when you need conventional rounding.")
 
 
 # ---------------------------------------------------------------------------
@@ -69,8 +69,8 @@ def demo_bool_to_float() -> None:
     print(f"  float(sensor_active) * weight = {effective_weight}")
 
     print()
-    print("👉 bool is a subtype of int in Python (True==1, False==0).")
-    print("   float() simply promotes that integer value to a float.")
+    print("Note: bool is a subtype of int in Python (True==1, False==0).")
+    print("      float() simply promotes that integer value to a float.")
 
 
 # ---------------------------------------------------------------------------
@@ -101,10 +101,10 @@ def demo_value_error() -> None:
     print(f"  Result: {converted}  type={type(converted).__name__}")
 
     print()
-    print("👉 int() succeeds only when the string contains digits")
-    print("   (optionally preceded by + or -).")
-    print("   This is the same error you get from bad input() data —")
-    print("   int(input('Enter a number: ')) crashes if the user types words.")
+    print("Note: int() succeeds only when the string contains digits")
+    print("      (optionally preceded by + or -).")
+    print("      This is the same error you get from bad input() data --")
+    print("      int(input('Enter a number: ')) crashes if the user types words.")
 
 
 # ---------------------------------------------------------------------------
