@@ -104,16 +104,10 @@ def demo_long_expressions() -> None:
     hourly_temps = [17.2, 18.0, 19.5, 21.3, 22.4, 21.8, 20.1, 18.6]
 
     # ✅ GOOD: wrap inside parentheses — Python joins lines automatically.
-    mean_temp = (
-        sum(hourly_temps)
-        / len(hourly_temps)
-    )
+    mean_temp = sum(hourly_temps) / len(hourly_temps)
 
     # ✅ GOOD: long condition split across lines for readability.
-    high_alert = (
-        mean_temp > 20.0
-        and max(hourly_temps) > 22.0
-    )
+    high_alert = mean_temp > 20.0 and max(hourly_temps) > 22.0
 
     print(f"Mean temperature : {mean_temp:.2f} C")
     print(f"High-alert flag  : {high_alert}")
