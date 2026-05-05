@@ -206,7 +206,7 @@ ASCII fallback:
 * Type conversion and casting
 
 🧪 *Practice Files*:  
-`src/L1/S2/01_variables.py`, `src/L1/S2/02_data_types.py`, `src/L1/S2/03_type_conversion.py`
+`src/L1/S2/01_variables.py`, `src/L1/S2/02_data_types.py`, `src/L1/S2/03_type_conversion.py`, `src/L1/S2/04_del_and_bool_arithmetic.py`, `src/L1/S2/05_values_to_variables.py`
 
 📖 *Documentation*: [S2.md](S2.md)
 
@@ -255,7 +255,7 @@ ASCII fallback:
 * Addition, subtraction, multiplication, division
 * User-friendly input handling
 * Input validation
-* Runs until user quits
+* One-run calculator flow (single calculation per execution)
 * Clean, structured code
 
 🧪 *Practice Pack*: `src/L1/S5_MP1/01_simple_calculator.py`, `src/L1/S5_MP1/calculator_utils.py`  
