@@ -35,7 +35,7 @@ Usage
 def demo_truncation() -> None:
     """Show that int() drops the decimal part rather than rounding."""
 
-    print("=== 1. int(float) — truncation, not rounding ===\n")
+    print("=== 1. int(float) - truncation, not rounding ===\n")
 
     readings = [5.2, 5.8, 5.5, -3.9]
 
@@ -56,7 +56,7 @@ def demo_truncation() -> None:
 def demo_bool_to_float() -> None:
     """Show that True and False carry their integer value into float()."""
 
-    print("\n=== 2. float(bool) — True is 1.0, False is 0.0 ===\n")
+    print("\n=== 2. float(bool) - True is 1.0, False is 0.0 ===\n")
 
     print(f"  float(True)  = {float(True)}")
     print(f"  float(False) = {float(False)}")
@@ -81,7 +81,7 @@ def demo_bool_to_float() -> None:
 def demo_value_error() -> None:
     """Show what happens when int() cannot parse the string it receives."""
 
-    print("\n=== 3. ValueError — when conversion is impossible ===\n")
+    print("\n=== 3. ValueError - when conversion is impossible ===\n")
 
     # A word string has no numeric meaning → int() raises ValueError.
     label = "september"
