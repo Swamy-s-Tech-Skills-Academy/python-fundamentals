@@ -293,4 +293,4 @@ Cursor AI configuration:
 
 ---
 
-**Last Updated**: April 2026
+**Last Updated**: May 2026
