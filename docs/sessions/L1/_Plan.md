@@ -206,7 +206,7 @@ ASCII fallback:
 * Type conversion and casting
 
 🧪 *Practice Files*:  
-`src/L1/S2/01_variables.py`, `src/L1/S2/02_data_types.py`, `src/L1/S2/03_type_conversion.py`, `src/L1/S2/04_del_and_bool_arithmetic.py`, `src/L1/S2/05_values_to_variables.py`
+`src/L1/S2/01_variables.py`, `src/L1/S2/02_data_types.py`, `src/L1/S2/03_type_conversion.py`, `src/L1/S2/04_del_and_bool_arithmetic.py`, `src/L1/S2/05_values_to_variables.py`, `src/L1/S2/06_chained_and_multi_assignment.py`, `src/L1/S2/07_conversion_limits.py`
 
 📖 *Documentation*: [S2.md](S2.md)
 
