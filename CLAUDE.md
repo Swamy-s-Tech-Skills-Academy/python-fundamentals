@@ -35,14 +35,14 @@ python-fundamentals/
 │   ├── 01_Python-Fundamentals-MasterPlan.md   # 18-level course roadmap
 │   ├── RepositoryStructure.md                 # Authoritative structure doc
 │   └── sessions/
-│       ├── L1/   # Noob → Nerd (S1–S9, S5_MP1, S10_MP2, _Plan.md)
+│       ├── L1/   # Noob → Nerd (S1–S9, S5, S10, _Plan.md)
 │       └── L2/   # Nerd → Novice
 ├── src/
 │   ├── L1/       # Formal practice files: src/L1/S1/01_name.py
 │   ├── L2/
 │   └── Working/  # Sandbox — see docs/RepositoryStructure.md (src/Working/)
 │       ├── Module1/   # Foundational drafts → L1/S1 or S2
-│       ├── S5_MP1/ … S10_MP2/  # Staging → matching L1 folders
+│       ├── S5/ … S10/  # Staging → matching L1 folders
 ├── .cursor/rules/          # Cursor AI rule files
 ├── .github/
 │   ├── copilot-instructions.md
@@ -54,7 +54,7 @@ python-fundamentals/
 
 ## 🗂️ `src/Working/` — Sandbox Staging Area
 
-`src/Working/` holds **informal drafts**: `Module1/` for sessions 1–2 style samples, and **`S5_MP1/` through `S10_MP2/`** as staging lanes that match formal `src/L1/…` folders. See **`docs/RepositoryStructure.md`** (section **src/Working/**) for layout and promotion expectations. Promote into `src/L{level}/S{session}/` when ready.
+`src/Working/` holds **informal drafts**: `Module1/` for sessions 1–2 style samples, and **`S5/` through `S10/`** as staging lanes that match formal `src/L1/…` folders. See **`docs/RepositoryStructure.md`** (section **src/Working/**) for layout and promotion expectations. Promote into `src/L{level}/S{session}/` when ready.
 
 ### Working vs Formal
 

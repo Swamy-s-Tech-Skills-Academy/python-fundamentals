@@ -4,7 +4,7 @@ This file demonstrates the five key PEP 8 naming and spacing rules
 that make Python code clean, readable, and professional.
 """
 
-# Filename: src/L1/S5_MP1/01_PEP8_naming_and_spacing.py
+# Filename: src/L1/S5/01_PEP8_naming_and_spacing.py
 
 import sys
 

@@ -55,7 +55,7 @@ sessions:
     duration: "30–45 min"
     type: "Project"
     status: "Ready"
-    file: "docs/sessions/L2/S5_MP1.md"
+    file: "docs/sessions/L2/S5.md"
   - session: 5
     topic: "Functions: Parameters & Return Values"
     duration: "30 min"
@@ -85,7 +85,7 @@ sessions:
     duration: "30–45 min"
     type: "Project"
     status: "Ready"
-    file: "docs/sessions/L2/S10_MP2.md"
+    file: "docs/sessions/L2/S10.md"
 ---
 
 # 🔧 Level 2: Nerd → Novice - Python Fundamentals
@@ -255,7 +255,7 @@ ASCII fallback:
 * Organize code into reusable functions
 * Display processed results
 
-🧪 *Deliverable*: `src/L2/S5_MP1/data_processor.py`
+🧪 *Deliverable*: `src/L2/S5/data_processor.py`
 
 🎯 *Stretch Goals*:
 
@@ -341,7 +341,7 @@ ASCII fallback:
 * (Optional) Split code into a module
 * Use proper error handling throughout
 
-🧪 *Deliverable*: `src/L2/S10_MP2/contact_manager.py`
+🧪 *Deliverable*: `src/L2/S10/contact_manager.py`
 
 🎯 *Stretch Goals*:
 

@@ -6,7 +6,7 @@ What you practice here:
 - Seeing how True and False behave as 1 and 0 in numeric expressions
 """
 
-# Filename: src/L1/S5_MP1/02_del_and_bool_arithmetic.py
+# Filename: src/L1/S5/02_del_and_bool_arithmetic.py
 
 import sys
 
@@ -18,7 +18,7 @@ Purpose
     2. bool values (True / False) act as 1 / 0 in arithmetic.
 
 Usage
-    python src/L1/S5_MP1/02_del_and_bool_arithmetic.py
+    python src/L1/S5/02_del_and_bool_arithmetic.py
 """
 
 

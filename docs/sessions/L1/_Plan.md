@@ -52,7 +52,7 @@ sessions:
     duration: "30–45 min"
     type: "Project"
     status: "Ready"
-    file: "docs/sessions/L1/S5_MP1.md"
+    file: "docs/sessions/L1/S5.md"
   - session: 6
     topic: "Loops & Iteration"
     duration: "30 min"
@@ -82,7 +82,7 @@ sessions:
     duration: "30–45 min"
     type: "Project"
     status: "Ready"
-    file: "docs/sessions/L1/S10_MP2.md"
+    file: "docs/sessions/L1/S10.md"
 ---
 
 # 🐍 Level 1: Noob → Nerd - Python Fundamentals
@@ -258,8 +258,8 @@ ASCII fallback:
 * One-run calculator flow (single calculation per execution)
 * Clean, structured code
 
-🧪 *Practice Pack*: `src/L1/S5_MP1/01_PEP8_naming_and_spacing.py`, `src/L1/S5_MP1/02_del_and_bool_arithmetic.py`, `src/L1/S5_MP1/03_simple_calculator.py`, `src/L1/S5_MP1/calculator_utils.py`
-📖 *Project Guide*: [S5_MP1.md](S5_MP1.md)
+🧪 *Practice Pack*: `src/L1/S5/01_PEP8_naming_and_spacing.py`, `src/L1/S5/02_del_and_bool_arithmetic.py`, `src/L1/S5/03_simple_calculator.py`, `src/L1/S5/calculator_utils.py`
+📖 *Project Guide*: [S5.md](S5.md)
 
 🎯 *Stretch Goals*:
 
@@ -352,7 +352,7 @@ ASCII fallback:
 * Handle multiple profiles
 * Basic input validation
 
-🧪 *Deliverable*: `src/L1/S10_MP2/profile_generator.py`
+🧪 *Deliverable*: `src/L1/S10/profile_generator.py`
 
 🎯 *Stretch Goals*:
 
@@ -411,7 +411,7 @@ After Level 1, you’re ready to explore:
 
 ## Sandbox (`src/Working/`)
 
-New **draft** scripts and meetup scribbles belong in the Working tree first. Folder names mirror formal targets (`Module1/` for early foundations, `S5_MP1/` … `S10_MP2/` for later sessions). **Learner-facing session write-ups only link promoted files under `src/L1/…`.** See [`docs/RepositoryStructure.md`](../../RepositoryStructure.md) (section **src/Working/**) for the Working sandbox layout and promotion expectations.
+New **draft** scripts and meetup scribbles belong in the Working tree first. Folder names mirror formal targets (`Module1/` for early foundations, `S5/` … `S10/` for later sessions). **Learner-facing session write-ups only link promoted files under `src/L1/…`.** See [`docs/RepositoryStructure.md`](../../RepositoryStructure.md) (section **src/Working/**) for the Working sandbox layout and promotion expectations.
 
 ---
 

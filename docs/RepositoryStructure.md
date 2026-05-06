@@ -20,24 +20,24 @@ python-fundamentals/
 │       │   ├── S2.md        # Session 2: Variables & Data Types
 │       │   ├── S3.md        # Session 3: Operators & Expressions
 │       │   ├── S4.md        # Session 4: Conditionals & Modules
-│       │   ├── S5_MP1.md       # Mini Project 1: Simple Calculator
+│       │   ├── S5.md       # Mini Project 1: Simple Calculator
 │       │   ├── S6.md        # Session 5: Loops & Iteration
 │       │   ├── S7.md        # Session 6: Debugging & Built-ins
 │       │   ├── S8.md        # Session 7: Lists & Loops
 │       │   ├── S9.md        # Session 8: Dictionaries & Testing
-│       │   └── S10_MP2.md       # Mini Project 2: Profile Generator
+│       │   └── S10.md       # Mini Project 2: Profile Generator
 │       └── L2/                 # Level 2: Nerd → Novice
 │           ├── _Plan.md        # Complete Level 2 curriculum plan
 │           ├── S1.md        # Session 1: Sets & Tuples
 │           ├── S2.md        # Session 2: List Comprehensions
 │           ├── S3.md        # Session 3: Functions Basics
 │           ├── S4.md        # Session 4: Error Handling
-│           ├── S5_MP1.md       # Mini Project 1: Data Processor
+│           ├── S5.md       # Mini Project 1: Data Processor
 │           ├── S6.md        # Session 5: Functions Parameters
 │           ├── S7.md        # Session 6: Functions Scope
 │           ├── S8.md        # Session 7: File Handling
 │           ├── S9.md        # Session 8: Modules Deep Dive
-│           └── S10_MP2.md       # Mini Project 2: Contact Manager
+│           └── S10.md       # Mini Project 2: Contact Manager
 ├── 💻 src/
 │   ├── L1/
 │       ├── S1/                 # Session 1 practice files
@@ -79,12 +79,12 @@ python-fundamentals/
 │       │   ├── 01_dict_basics.py
 │       │   ├── 02_dict_iteration.py
 │       │   └── 03_gradebook.py
-│       ├── S5_MP1/             # Session 5 Mini Project 1
+│       ├── S5/             # Session 5 Mini Project 1
 │       │   ├── 01_PEP8_naming_and_spacing.py
 │       │   ├── 02_del_and_bool_arithmetic.py
 │       │   ├── 03_simple_calculator.py
 │       │   └── calculator_utils.py
-│       └── S10_MP2/            # Session 10 Mini Project 2
+│       └── S10/            # Session 10 Mini Project 2
 │           └── profile_generator.py
 │   └── L2/
 │       ├── S1/                 # Session 1 practice files
@@ -119,19 +119,19 @@ python-fundamentals/
 │       │   ├── 01_creating_modules.py
 │       │   ├── 02_name_main.py
 │       │   └── 03_multi_file_project.py
-│       ├── S5_MP1/             # Session 5 Mini Project 1
+│       ├── S5/             # Session 5 Mini Project 1
 │       │   └── data_processor.py
-│       └── S10_MP2/            # Session 10 Mini Project 2
+│       └── S10/            # Session 10 Mini Project 2
 │           └── contact_manager.py
 │   └── Working/                # Sandbox — bucketing guide: see § `src/Working/` below
 │       ├── References.md
 │       ├── Module1/            # Foundational drafts → promote to `src/L1/S1/` or `S2/`
-│       ├── S5_MP1/             # Staging → promote to `src/L1/S5_MP1/`
+│       ├── S5/             # Staging → promote to `src/L1/S5/`
 │       ├── S6/                 # Staging → `src/L1/S6/`
 │       ├── S7/                 # Staging → `src/L1/S7/`
 │       ├── S8/                 # Staging → `src/L1/S8/`
 │       ├── S9/                 # Staging → `src/L1/S9/`
-│       └── S10_MP2/            # Staging → `src/L1/S10_MP2/`
+│       └── S10/            # Staging → `src/L1/S10/`
 ├── 🔧 scripts/                 # Development and utility scripts
 │   ├── docs-lint.ps1           # Markdown linting script
 │   ├── docs-links.ps1          # Link validation script
@@ -160,14 +160,14 @@ Contains all educational documentation:
   - Each level contains:
     - `_Plan.md`: Complete level curriculum plan (underscore sorts first)
     - `S1.md`, `S2.md`, etc.: Session documentation files
-    - `S5_MP1.md`, `S10_MP2.md`: Mini project documentation
+    - `S5.md`, `S10.md`: Mini project documentation
 
 ### `src/`
 
 Contains all practice code files:
 
 - Organized by level (`L1/`, `L2/`, etc.)
-- Each level contains session-aligned directories (`S1/`, `S5_MP1/`, `S10_MP2/`, etc.)
+- Each level contains session-aligned directories (`S1/`, `S5/`, `S10/`, etc.)
 - Practice files use numeric prefixes: `01_name.py`, `02_name.py`, etc.
 
 ### `src/Working/`
@@ -175,7 +175,7 @@ Contains all practice code files:
 Sandbox staging area for **informal live-coding drafts** before promotion into formal `src/L{level}/S{session}/`.
 
 - **`Module1/`**: drafts aligned with Level 1 sessions 1–2 (informal samples such as `01_sample.py`).
-- **`S5_MP1/`, `S6/` … `S10_MP2/`**: staging folders that mirror formal Level 1 targets; drop new `.py` drafts here first, then promote and link from `docs/sessions/`.
+- **`S5/`, `S6/` … `S10/`**: staging folders that mirror formal Level 1 targets; drop new `.py` drafts here first, then promote and link from `docs/sessions/`.
 - See `CLAUDE.md` for the promotion workflow (cleanup, numbering, headers, session doc links).
 
 ### `scripts/`
@@ -208,15 +208,15 @@ Cursor AI configuration:
 
 - Format: `{number}_{descriptive_name}.py`
 - Examples: `01_hello.py`, `02_interactive_hello.py`, `03_type_conversion.py`
-- Location: `src/L{level}/S{session}/` (including session-aligned mini-project folders such as `S5_MP1/` and `S10_MP2/`)
+- Location: `src/L{level}/S{session}/` (including session-aligned mini-project folders such as `S5/` and `S10/`)
 
 ### Session Documentation
 
 - Format: `S{session}.md` or `S{session}_MP{number}.md`
 - Plan: `_Plan.md` (underscore prefix sorts first)
-- Examples: `S1.md`, `S5_MP1.md`, `_Plan.md`
+- Examples: `S1.md`, `S5.md`, `_Plan.md`
 - Location: `docs/sessions/L{level}/`
-- Note: pedagogical session numbers can differ from filename order because mini projects are stored as `S5_MP1.md` and `S10_MP2.md` in the same sequence.
+- Note: pedagogical session numbers can differ from filename order because mini projects are stored as `S5.md` and `S10.md` in the same sequence.
 
 ### Images
 
@@ -232,8 +232,8 @@ Cursor AI configuration:
 
 ```markdown
 `src/L1/S1/01_hello.py`
-`src/L1/S5_MP1/03_simple_calculator.py`
-`src/L1/S5_MP1/calculator_utils.py`
+`src/L1/S5/03_simple_calculator.py`
+`src/L1/S5/calculator_utils.py`
 ```
 
 ### Session Documentation References
@@ -241,7 +241,7 @@ Cursor AI configuration:
 ```markdown
 [Session 1](docs/sessions/L1/S1.md)
 [Level 1 Plan](docs/sessions/L1/_Plan.md)
-[Mini Project 1](docs/sessions/L1/S5_MP1.md)
+[Mini Project 1](docs/sessions/L1/S5.md)
 ```
 
 ### Image References
@@ -263,12 +263,12 @@ Cursor AI configuration:
 | 2 | `S2.md` | Variables & Data Types | 7 files |
 | 3 | `S3.md` | Operators & Expressions | 3 files |
 | 4 | `S4.md` | Conditionals & Modules | 3 files |
-| 5 | `S5_MP1.md` | Mini Project: Calculator | 2 files |
+| 5 | `S5.md` | Mini Project: Calculator | 2 files |
 | 6 | `S6.md` | Loops & Iteration | 4 files |
 | 7 | `S7.md` | Debugging & Built-ins | 5 files |
 | 8 | `S8.md` | Lists & Loops | 3 files |
 | 9 | `S9.md` | Dictionaries & Testing | 3 files |
-| 10 | `S10_MP2.md` | Mini Project: Profile Generator | 1 file |
+| 10 | `S10.md` | Mini Project: Profile Generator | 1 file |
 
 ### Level 2 (Nerd → Novice) - ✅ Complete
 
@@ -279,12 +279,12 @@ Cursor AI configuration:
 | 2 | `S2.md` | List Comprehensions | 3 files |
 | 3 | `S3.md` | Functions: Definition & Basics | 3 files |
 | 4 | `S4.md` | Error Handling: try/except | 3 files |
-| 5 | `S5_MP1.md` | Mini Project: Data Processor | 1 file |
+| 5 | `S5.md` | Mini Project: Data Processor | 1 file |
 | 6 | `S6.md` | Functions: Parameters & Return | 3 files |
 | 7 | `S7.md` | Functions: Scope & Organization | 3 files |
 | 8 | `S8.md` | File Handling: Read & Write | 3 files |
 | 9 | `S9.md` | Modules Deep Dive | 3 files |
-| 10 | `S10_MP2.md` | Mini Project: Contact Manager | 1 file |
+| 10 | `S10.md` | Mini Project: Contact Manager | 1 file |
 
 ### Future Levels
 

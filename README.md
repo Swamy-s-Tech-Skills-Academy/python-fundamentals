@@ -47,7 +47,7 @@ A comprehensive, transformation-focused Python curriculum designed to take you f
 - **📖 Level 1 & Level 2 Sessions:** Full content with practice files  
   - [**View Level 1 Session 1**](docs/sessions/L1/S1.md)  
   - [**View Level 2 Session 1**](docs/sessions/L2/S1.md)
-- **🚀 Mini Projects:** Calculator (L1/S5_MP1), Profile Generator (L1/S10_MP2), Data Processor (L2/S5_MP1), and Contact Manager (L2/S10_MP2) complete
+- **🚀 Mini Projects:** Calculator (L1/S5), Profile Generator (L1/S10), Data Processor (L2/S5), and Contact Manager (L2/S10) complete
 - **🔧 Development Infrastructure:** Documentation quality automation with CI/CD pipeline
 
 ### **🚧 In Development:**

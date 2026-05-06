@@ -67,24 +67,24 @@ python-fundamentals/
 │       │   ├── S2.md        # Session 2: Variables & Data Types
 │       │   ├── S3.md        # Session 3: Operators & Expressions
 │       │   ├── S4.md        # Session 4: Conditionals & Modules
-│       │   ├── S5_MP1.md       # Mini Project 1: Simple Calculator
+│       │   ├── S5.md       # Mini Project 1: Simple Calculator
 │       │   ├── S6.md        # Session 5: Loops & Iteration
 │       │   ├── S7.md        # Session 6: Debugging & Built-ins
 │       │   ├── S8.md        # Session 7: Lists & Loops
 │       │   ├── S9.md        # Session 8: Dictionaries & Testing
-│       │   └── S10_MP2.md       # Mini Project 2: Profile Generator
+│       │   └── S10.md       # Mini Project 2: Profile Generator
 │       └── L2/                 # Level 2: Nerd → Novice
 │           ├── _Plan.md        # Complete Level 2 curriculum plan
 │           ├── S1.md        # Session 1: Sets & Tuples
 │           ├── S2.md        # Session 2: List Comprehensions
 │           ├── S3.md        # Session 3: Functions Basics
 │           ├── S4.md        # Session 4: Error Handling
-│           ├── S5_MP1.md       # Mini Project 1: Data Processor
+│           ├── S5.md       # Mini Project 1: Data Processor
 │           ├── S6.md        # Session 5: Functions Parameters
 │           ├── S7.md        # Session 6: Functions Scope
 │           ├── S8.md        # Session 7: File Handling
 │           ├── S9.md        # Session 8: Modules Deep Dive
-│           └── S10_MP2.md       # Mini Project 2: Contact Manager
+│           └── S10.md       # Mini Project 2: Contact Manager
 ├── 💻 src/
 │   ├── L1/
 │       ├── S1/                 # Session 1 practice files
@@ -120,10 +120,10 @@ python-fundamentals/
 │       │   ├── 01_dict_basics.py
 │       │   ├── 02_dict_iteration.py
 │       │   └── 03_gradebook.py
-│       ├── S5_MP1/             # Session 5 Mini Project 1
+│       ├── S5/             # Session 5 Mini Project 1
 │       │   ├── 01_simple_calculator.py
 │       │   └── calculator_utils.py
-│       └── S10_MP2/            # Session 10 Mini Project 2
+│       └── S10/            # Session 10 Mini Project 2
 │           └── profile_generator.py
 │   └── L2/
 │       ├── S1/                 # Session 1 practice files
@@ -158,9 +158,9 @@ python-fundamentals/
 │       │   ├── 01_creating_modules.py
 │       │   ├── 02_name_main.py
 │       │   └── 03_multi_file_project.py
-│       ├── S5_MP1/             # Session 5 Mini Project 1
+│       ├── S5/             # Session 5 Mini Project 1
 │       │   └── data_processor.py
-│       └── S10_MP2/            # Session 10 Mini Project 2
+│       └── S10/            # Session 10 Mini Project 2
 │           └── contact_manager.py
 │   └── Working/                # Sandbox staging area (live-coding samples)
 │       ├── day1/               # Day 1 session samples (e.g. hello_world.py)
@@ -237,7 +237,7 @@ The above block matches the “Complete Repository Structure” code fence in [`
 |---|---|
 | Quick experiments, live demos, scratchpad code | `src/L{level}/S{session}/` — production-quality practice files |
 | Flexible file names, evolving content | `01_name.py` numbering, complete, tested |
-| Named by staging lane: `Module1/`, `S5_MP1/` … `S10_MP2/` (see `docs/RepositoryStructure.md`, section **src/Working/**) | Named by session in `src/L{level}/` |
+| Named by staging lane: `Module1/`, `S5/` … `S10/` (see `docs/RepositoryStructure.md`, section **src/Working/**) | Named by session in `src/L{level}/` |
 
 ### Promotion workflow
 
@@ -252,8 +252,8 @@ When a `src/Working/` draft is ready to become a formal practice file:
 
 ### File structure convention in `src/Working/`
 
-- **`docs/RepositoryStructure.md`** (this **src/Working/** section) documents topic routing from `S5_MP1` through `S10_MP2` toward formal `src/L1/…` folders.
-- **`Module1/`** holds foundational drafts; **`S5_MP1/` … `S10_MP2/`** mirror formal Level 1 targets for inbox staging.
+- **`docs/RepositoryStructure.md`** (this **src/Working/** section) documents topic routing from `S5` through `S10` toward formal `src/L1/…` folders.
+- **`Module1/`** holds foundational drafts; **`S5/` … `S10/`** mirror formal Level 1 targets for inbox staging.
 - File names stay informal inside Working; rename to `01_name.py` on promotion.
 
 - The **`main(argv)` / `HELP_TEXT` / `raise SystemExit`** pattern (`src/Working/Module1/01_sample.py`, `src/L1/S1/01_hello.py`) is the preferred template for new drafts and polished practice files.
