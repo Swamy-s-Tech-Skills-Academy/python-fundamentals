@@ -49,7 +49,9 @@ python-fundamentals/
 │       │   ├── 02_data_types.py
 │       │   ├── 03_type_conversion.py
 │       │   ├── 04_del_and_bool_arithmetic.py
-│       │   └── 05_values_to_variables.py
+│       │   ├── 05_values_to_variables.py
+│       │   ├── 06_chained_and_multi_assignment.py
+│       │   └── 07_conversion_limits.py
 │       ├── S3/                 # Session 3 practice files
 │       │   ├── 01_arithmetic.py
 │       │   ├── 02_comparisons.py
@@ -67,7 +69,8 @@ python-fundamentals/
 │       │   ├── 01_error_examples.py
 │       │   ├── 02_debug_practice.py
 │       │   ├── 03_builtin_functions.py
-│       │   └── 04_pep8_style_refactor.py
+│       │   ├── 04_pep8_style_refactor.py
+│       │   └── 05_pep8_indentation.py
 │       ├── S8/                 # Session 7 practice files
 │       │   ├── 01_list_basics.py
 │       │   ├── 02_list_methods.py
@@ -251,12 +254,12 @@ Cursor AI configuration:
 |---|------|-------|----------------|
 | - | `_Plan.md` | Level Overview | - |
 | 1 | `S1.md` | Python Introduction & Environment | 3 files |
-| 2 | `S2.md` | Variables & Data Types | 5 files |
+| 2 | `S2.md` | Variables & Data Types | 7 files |
 | 3 | `S3.md` | Operators & Expressions | 3 files |
 | 4 | `S4.md` | Conditionals & Modules | 3 files |
 | 5 | `S5_MP1.md` | Mini Project: Calculator | 2 files |
 | 6 | `S6.md` | Loops & Iteration | 4 files |
-| 7 | `S7.md` | Debugging & Built-ins | 4 files |
+| 7 | `S7.md` | Debugging & Built-ins | 5 files |
 | 8 | `S8.md` | Lists & Loops | 3 files |
 | 9 | `S9.md` | Dictionaries & Testing | 3 files |
 | 10 | `S10_MP2.md` | Mini Project: Profile Generator | 1 file |
@@ -293,4 +296,4 @@ Cursor AI configuration:
 
 ---
 
-**Last Updated**: April 2026
+**Last Updated**: May 2026
