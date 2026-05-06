@@ -96,7 +96,9 @@ python-fundamentals/
 │   │   │   └── bytecode_demo.py
 │   │   ├── S2/ ... S9/      # Numbered session folders for regular sessions (mini projects are separate)
 │   │   ├── S5_MP1/          # Session 5 Mini Project 1 files
-│   │   │   ├── 01_simple_calculator.py
+│   │   │   ├── 01_PEP8_naming_and_spacing.py
+│   │   │   ├── 02_del_and_bool_arithmetic.py
+│   │   │   ├── 03_simple_calculator.py
 │   │   │   └── calculator_utils.py
 │   │   └── S10_MP2/         # Session 10 Mini Project 2 files
 │   │       └── profile_generator.py

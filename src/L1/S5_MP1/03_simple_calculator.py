@@ -1,6 +1,6 @@
-# Filename: src/L1/S5_MP1/01_simple_calculator.py
+# Filename: src/L1/S5_MP1/03_simple_calculator.py
 # Mini Project 1: Simple Calculator (single run)
-# Run from any directory: python src/L1/S5_MP1/01_simple_calculator.py
+# Run from any directory: python src/L1/S5_MP1/03_simple_calculator.py
 
 import os
 import sys

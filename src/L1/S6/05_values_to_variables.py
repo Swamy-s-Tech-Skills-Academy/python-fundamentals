@@ -10,18 +10,18 @@ Teaching arc:
 Promoted from: src/Working/Module1/02_sample.py (prior draft: sample1.py)
 """
 
-# Filename: src/L1/S6/01_values_to_variables.py
+# Filename: src/L1/S6/05_values_to_variables.py
 
 import sys
 
-HELP_TEXT = """01_values_to_variables.py
+HELP_TEXT = """05_values_to_variables.py
 
 Purpose
     Walk through Python's four primary data types as raw values first,
     then show why variables are the natural next step.
 
 Usage
-    python 01_values_to_variables.py
+    python src/L1/S6/05_values_to_variables.py
 """
 
 

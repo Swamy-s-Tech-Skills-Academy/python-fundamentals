@@ -32,7 +32,9 @@ def demo_rule1_meaningful_names() -> None:
     first_number = 10
     second_number = 5
     result = first_number + second_number
-    print(f"✅ Good names: operation={operation}, first_number={first_number}, second_number={second_number}")
+    print(
+        f"✅ Good names: operation={operation}, first_number={first_number}, second_number={second_number}"
+    )
     print(f"   Result: {result}\n")
 
     # ❌ POOR: Single letters don't explain intent
@@ -55,10 +57,10 @@ def demo_rule2_spaces_around_operators() -> None:
     print(f"✅ Good spacing: x = {x}, y = {y}, is_valid = {is_valid}\n")
 
     # ❌ POOR: No spaces makes it hard to read
-    x=10
-    y=20
-    is_valid=x<y and y>0
-    print(f"❌ Poor spacing: x={x}, y={y}, is_valid={is_valid}\n")
+    # x=10          ← missing spaces around =
+    # y=20
+    # is_valid=x<y and y>0
+    print("❌ Poor spacing: x=10, y=20, is_valid=x<y — hard to parse at a glance\n")
 
 
 def demo_rule3_no_spaces_in_parens() -> None:
@@ -67,13 +69,13 @@ def demo_rule3_no_spaces_in_parens() -> None:
 
     # ✅ GOOD: No space after ( or before )
     result1 = float("123.45")
-    user_input = input("Enter name: ")
-    print(f"✅ Good: float(\"123.45\") = {result1}\n")
+    print(f'✅ Good: float("123.45") = {result1}')
+    print('✅ Good: input("Enter name: ") — no spaces inside parens\n')
 
     # ❌ POOR: Extra spaces inside parentheses
-    # result2 = float( "123.45" )  # ← spacing is awkward
-    # user_input = input( "Enter name: " )
-    print(f"❌ Poor: float( \"123.45\" ) has awkward spacing inside parentheses\n")
+    # float( "123.45" )       ← awkward spaces inside parens
+    # input( "Enter name: " ) ← same issue
+    print('❌ Poor: float( "123.45" ) — spaces inside parentheses are incorrect\n')
 
 
 def demo_rule4_space_after_commas() -> None:
@@ -81,14 +83,12 @@ def demo_rule4_space_after_commas() -> None:
     print("=== Rule 4: Space After Commas ===\n")
 
     # ✅ GOOD: Space after every comma
-    operations = {"+", "-", "*", "/"}
-    values = (10, 20, 30)
-    print(f"✅ Good: {{'+', '-', '*', '/'}} and (10, 20, 30)\n")
+    print("✅ Good: {'+', '-', '*', '/'} and (10, 20, 30)\n")
 
     # ❌ POOR: No space after commas
-    # operations = {"+","-","*","/"}
-    # values = (10,20,30)
-    print(f"❌ Poor: {{'+','-','*','/'}} and (10,20,30) — hard to read\n")
+    # {"+","-","*","/"}   ← missing spaces after commas
+    # (10,20,30)
+    print("❌ Poor: {'+','-','*','/'} and (10,20,30) — hard to read\n")
 
 
 def demo_rule5_comments_explain_why() -> None:
@@ -99,7 +99,9 @@ def demo_rule5_comments_explain_why() -> None:
     # # check if second is zero
     # if second == 0:
     #     print("Cannot divide")
-    print("❌ Bad comment: '# check if second is zero' — we can see that from the code\n")
+    print(
+        "❌ Bad comment: '# check if second is zero' — we can see that from the code\n"
+    )
 
     # ✅ GOOD: Comment explains the reason (WHY)
     second = 0

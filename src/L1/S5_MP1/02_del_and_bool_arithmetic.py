@@ -6,11 +6,11 @@ What you practice here:
 - Seeing how True and False behave as 1 and 0 in numeric expressions
 """
 
-# Filename: src/L1/S5_MP1/01_del_and_bool_arithmetic.py
+# Filename: src/L1/S5_MP1/02_del_and_bool_arithmetic.py
 
 import sys
 
-HELP_TEXT = """01_del_and_bool_arithmetic.py
+HELP_TEXT = """02_del_and_bool_arithmetic.py
 
 Purpose
     Explore two extra concepts from Session 2:
