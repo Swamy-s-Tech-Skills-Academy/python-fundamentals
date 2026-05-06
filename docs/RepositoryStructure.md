@@ -56,22 +56,25 @@ python-fundamentals/
 │       │   ├── 01_conditionals.py
 │       │   ├── 02_boolean_logic.py
 │       │   └── 03_number_guessing_game.py
-│       ├── S6/                 # Session 5 practice files
+│       ├── S6/                 # Session 6 practice files
 │       │   ├── 01_for_loops.py
 │       │   ├── 02_while_loops.py
 │       │   ├── 03_loop_controls_fizzbuzz.py
-│       │   └── 04_calculator_loop.py
-│       ├── S7/                 # Session 6 practice files
+│       │   ├── 04_calculator_loop.py
+│       │   ├── 05_values_to_variables.py
+│       │   ├── 06_chained_and_multi_assignment.py
+│       │   └── 07_conversion_limits.py
+│       ├── S7/                 # Session 7 practice files
 │       │   ├── 01_error_examples.py
 │       │   ├── 02_debug_practice.py
 │       │   ├── 03_builtin_functions.py
 │       │   ├── 04_pep8_style_refactor.py
 │       │   └── 05_pep8_indentation.py
-│       ├── S8/                 # Session 7 practice files
+│       ├── S8/                 # Session 8 practice files
 │       │   ├── 01_list_basics.py
 │       │   ├── 02_list_methods.py
 │       │   └── 03_task_manager.py
-│       ├── S9/                 # Session 8 practice files
+│       ├── S9/                 # Session 9 practice files
 │       │   ├── 01_dict_basics.py
 │       │   ├── 02_dict_iteration.py
 │       │   └── 03_gradebook.py
@@ -99,19 +102,19 @@ python-fundamentals/
 │       │   ├── 01_basic_error_handling.py
 │       │   ├── 02_multiple_exceptions.py
 │       │   └── 03_else_finally.py
-│       ├── S6/                 # Session 5 practice files
+│       ├── S6/                 # Session 6 practice files
 │       │   ├── 01_basic_parameters.py
 │       │   ├── 02_parameter_types.py
 │       │   └── 03_return_values.py
-│       ├── S7/                 # Session 6 practice files
+│       ├── S7/                 # Session 7 practice files
 │       │   ├── 01_local_scope.py
 │       │   ├── 02_global_scope.py
 │       │   └── 03_code_organization.py
-│       ├── S8/                 # Session 7 practice files
+│       ├── S8/                 # Session 8 practice files
 │       │   ├── 01_reading_files.py
 │       │   ├── 02_writing_files.py
 │       │   └── 03_file_operations.py
-│       ├── S9/                 # Session 8 practice files
+│       ├── S9/                 # Session 9 practice files
 │       │   ├── 01_creating_modules.py
 │       │   ├── 02_name_main.py
 │       │   └── 03_multi_file_project.py
@@ -121,13 +124,7 @@ python-fundamentals/
 │           └── contact_manager.py
 │   └── Working/                # Sandbox — bucketing guide: see § `src/Working/` below
 │       ├── References.md
-│       ├── Module1/            # Foundational drafts → promote to `src/L1/S1/` or `S2/`
-│       ├── S5/             # Staging → promote to `src/L1/S5/`
-│       ├── S6/                 # Staging → `src/L1/S6/`
-│       ├── S7/                 # Staging → `src/L1/S7/`
-│       ├── S8/                 # Staging → `src/L1/S8/`
-│       ├── S9/                 # Staging → `src/L1/S9/`
-│       └── S10/            # Staging → `src/L1/S10/`
+│       └── Module1/            # Foundational drafts → promote to `src/L1/S1/` or `S2/`
 ├── 🔧 scripts/                 # Development and utility scripts
 │   ├── docs-lint.ps1           # Markdown linting script
 │   ├── docs-links.ps1          # Link validation script
@@ -171,7 +168,8 @@ Contains all practice code files:
 Sandbox staging area for **informal live-coding drafts** before promotion into formal `src/L{level}/S{session}/`.
 
 - **`Module1/`**: drafts aligned with Level 1 sessions 1–2 (informal samples such as `01_sample.py`).
-- **`S5/`, `S6/` … `S10/`**: staging folders that mirror formal Level 1 targets; drop new `.py` drafts here first, then promote and link from `docs/sessions/`.
+- **`References.md`**: links to source material and reference repositories.
+- **`S5/` … `S10/`**: staging folders to be created as needed, mirroring formal Level 1 targets.
 - See `CLAUDE.md` for the promotion workflow (cleanup, numbering, headers, session doc links).
 
 ### `scripts/`
@@ -259,8 +257,8 @@ Cursor AI configuration:
 | 2 | `S2.md` | Variables & Data Types | 7 files |
 | 3 | `S3.md` | Operators & Expressions | 3 files |
 | 4 | `S4.md` | Conditionals & Modules | 3 files |
-| 5 | `S5.md` | Mini Project: Calculator | 2 files |
-| 6 | `S6.md` | Loops & Iteration | 4 files |
+| 5 | `S5.md` | Mini Project: Calculator | 4 files |
+| 6 | `S6.md` | Loops & Iteration | 7 files |
 | 7 | `S7.md` | Debugging & Built-ins | 5 files |
 | 8 | `S8.md` | Lists & Loops | 3 files |
 | 9 | `S9.md` | Dictionaries & Testing | 3 files |
