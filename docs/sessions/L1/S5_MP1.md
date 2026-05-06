@@ -177,6 +177,39 @@ Check that at least one comment per major decision explains the *reason*, not ju
 
 ---
 
+## 📚 Appendix concepts from Session 2
+
+These materials extend Session 2 knowledge:
+
+### `del` and `NameError` (extra)
+
+You can remove a variable with `del`. After deletion, any reference to it raises a `NameError` — the same error you get when you use a name before assigning it.
+
+```python
+season = "October"
+print(season)   # → October
+
+del season
+print(season)   # → NameError: name 'season' is not defined
+```
+
+**Practical tip:** If you `del` a variable and later re-run a cell or script that assigns it again, the deletion runs again too. Comment out the `del` line once you no longer need the cleanup.
+
+### `bool` in arithmetic (extra)
+
+`True` and `False` are Python objects that behave as `1` and `0` in numeric operations.
+This rarely comes up in beginner code, but it demystifies why `bool` is a subtype of `int`:
+
+```python
+print(True * 7)   # → 7   (True treated as 1)
+print(False * 7)  # → 0   (False treated as 0)
+print(type(True)) # → <class 'bool'>
+```
+
+**Why it matters:** Conditional expressions in loops and filters silently rely on this — good to know it exists even if you don't use it directly yet.
+
+---
+
 ## 🔍 Project acceptance checklist
 
 Use this to verify your implementation:
