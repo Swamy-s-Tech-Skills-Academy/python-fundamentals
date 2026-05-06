@@ -167,10 +167,10 @@ ASCII fallback:
     |
     v
 [📘 Phase B: Expanding Skills]
-    ├─ [🔄 Session 5: Loops & Iteration]
-    ├─ [🐛 Session 6: Debugging & Built-ins]
-    ├─ [📋 Session 7: Lists & Loops]
-    ├─ [📚 Session 8: Dicts & Testing]
+    ├─ [🔄 Session 6: Loops & Iteration]
+    ├─ [🐛 Session 7: Debugging & Built-ins]
+    ├─ [📋 Session 8: Lists & Loops]
+    ├─ [📚 Session 9: Dicts & Testing]
     └─ [🚀 MP2: Mini Project 2: Profile Generator]
     |
     v
@@ -270,7 +270,7 @@ ASCII fallback:
 
 ## 📅 **Phase B: Expanding Skills + Mini Project 2**
 
-### ✅ Session 5: Loops & Iteration
+### ✅ Session 6: Loops & Iteration
 
 * `for` loops with `range()` and iterables
 * `while` loops and loop conditions
@@ -287,7 +287,7 @@ ASCII fallback:
 
 ---
 
-### ✅ Session 6: Basic Debugging & Built-in Functions *(Ready)*
+### ✅ Session 7: Basic Debugging & Built-in Functions *(Ready)*
 
 * Error types: syntax vs runtime
 * Reading error messages
@@ -305,7 +305,7 @@ ASCII fallback:
 
 ---
 
-### ✅ Session 7: Lists & Loops *(Ready)*
+### ✅ Session 8: Lists & Loops *(Ready)*
 
 * List creation, indexing, slicing, basic methods
 * Operations: `append()`, `remove()`, `len()`, accessing elements
@@ -322,7 +322,7 @@ ASCII fallback:
 
 ---
 
-### ✅ Session 8: Dictionaries & Basic Testing *(Ready)*
+### ✅ Session 9: Dictionaries & Basic Testing *(Ready)*
 
 * Dictionaries: creation, update, deletion
 * Methods: `.keys()`, `.values()`, `.items()`, `.get()`
