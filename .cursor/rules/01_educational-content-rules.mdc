@@ -23,8 +23,15 @@
 ✅ Treat `source-material/` as internal instructor intake only; curriculum output must be rewritten in fresh structure and voice  
 ✅ Promote `src/Working/` examples only after cleanup, renaming, and session-outcome alignment  
 ✅ Keep publish-facing references on formal paths (`src/L{level}/S{session}/`), never sandbox paths  
+✅ Route newly added content to planned/new sessions first; avoid backfilling completed sessions by default  
 ✅ Apply the same quality gates to imported ideas: clarity, technical correctness, and beginner pedagogy  
 ❌ Do not place internal intake-policy process blocks inside publish-facing curriculum docs
+
+### Completed Session Permission Rule
+
+✅ Use `docs/meetup/L1/meetup-sessions.md` status table as placement context for Level 1 meetup updates  
+❌ Do not insert new learning content into sessions marked completed without explicit user permission  
+✅ If there is any ambiguity in status or target session, ask before placing content
 
 ---
 

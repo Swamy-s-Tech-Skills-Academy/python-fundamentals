@@ -51,6 +51,13 @@
 - Apply normal quality gates to imported ideas: clarity, technical correctness, and beginner-level pedagogy.
 - This policy is internal operating guidance and should not be written into publish-facing curriculum docs.
 
+### **6. 🗂️ SESSION BUCKETING SAFETY (New Content Placement)**
+
+- Treat `docs/meetup/L1/meetup-sessions.md` (status table) as the placement guard for Level 1 meetup updates.
+- New content from `source-material/` or `src/Working/` must be added to planned/new sessions by default.
+- Do **not** inject new educational content into already completed sessions unless the user explicitly approves it.
+- If status is ambiguous, stop and ask for permission before placing content.
+
 ---
 
 ## 📋 **PROJECT STRUCTURE OVERVIEW**

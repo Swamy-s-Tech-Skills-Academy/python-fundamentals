@@ -10,6 +10,7 @@
 1. **Zero-Copy Policy** — All educational content must be original and transformative. Never copy verbatim from transcripts, books, or third-party material. See `.cursor/rules/01_educational-content-rules.mdc`.
 2. **Preserve existing structure** — Read the full file before editing. Make minimal, targeted changes.
 3. **Do not corrupt content** — If a change feels broad or risky, ask first.
+4. **Session-bucketing safety** — New content should go to planned/new sessions by default. Do not add new material to completed sessions without explicit user approval.
 
 ## 🔒 Internal Content Intake Policy (Source Notes + Working)
 
@@ -17,6 +18,7 @@
 - Treat `source-material/` as internal instructor notes; rewrite explanations with original structure and wording.
 - Promote `src/Working/` examples only after cleanup, renaming, and fit-check against session outcomes.
 - Keep publish-facing session references on formal paths (`src/L{level}/S{session}/`) and never on sandbox paths.
+- When in doubt about target placement, use the meetup status table in `docs/meetup/L1/meetup-sessions.md` and ask for permission before touching completed sessions.
 - Run normal quality checks on imported ideas: clarity, technical accuracy, and beginner pedagogy.
 - This policy is internal process guidance and should not appear as a process block in publish-facing curriculum docs.
 

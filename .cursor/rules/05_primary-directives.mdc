@@ -61,3 +61,10 @@ See: `01_educational-content-rules.mdc` for complete details.
 ✅ Maintain source-intake and sandbox-promotion policy in internal instruction surfaces only (`.github/`, `.cursor/rules/`, `CLAUDE.md`)  
 ✅ Keep publish-facing curriculum docs focused on learner content, outcomes, and exercises  
 ❌ Do not publish internal process-policy blocks in `docs/` content
+
+### 6. Completed Session Protection (CRITICAL)
+
+✅ Treat `docs/meetup/L1/meetup-sessions.md` as the session-status guard for meetup-facing placement decisions  
+✅ Bucket new content into planned/new sessions by default  
+❌ Do not add newly authored content into completed sessions unless explicit user permission is received in the current request  
+✅ If status or destination is uncertain, ask before editing completed-session content
