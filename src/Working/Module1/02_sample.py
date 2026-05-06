@@ -7,7 +7,7 @@ What you practice here:
 - Deleting a variable with del and understanding NameError
 """
 
-# Filename: src/Working/S1/02_sample.py
+# Filename: src/Working/Module1/02_sample.py
 
 import sys
 

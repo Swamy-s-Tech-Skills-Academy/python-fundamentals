@@ -11,7 +11,7 @@ This directory contains modular rule files for Cursor AI, customized for the Pyt
 
 ### `01_educational-content-rules.mdc`
 **Priority**: MANDATORY  
-**Content**: Zero-Copy Policy, internal source-intake rules (`source-material/` + `src/Working/`), Transformative Workflow, 30-minute sessions, session structure requirements, educational excellence standards, Python code standards
+**Content**: Zero-Copy Policy, internal source-intake rules (`source-material/` + `src/Working/` — hands-off unless Swamy asks), Transformative Workflow, 30-minute sessions, session structure requirements, educational excellence standards, Python code standards
 
 ### `02_repository-structure.mdc`
 **Content**: Python Fundamentals repository context, structure overview (L{level}/S{session}/), support resources
@@ -23,7 +23,7 @@ This directory contains modular rule files for Cursor AI, customized for the Pyt
 **Content**: Markdown authoring standards, session documentation structure, file reference validation, encoding requirements
 
 ### `05_primary-directives.mdc`
-**Content**: Primary directives, automation-first approach, update verification protocol, file naming validation, and internal-policy placement guardrails
+**Content**: Primary directives, automation-first approach, update verification protocol, file naming validation, internal-policy placement guardrails, hands-off `src/Working/` unless Swamy requests
 
 ### `06_cross-level-integration.mdc`
 **Content**: Cross-level integration requirements, session connection patterns, prerequisite relationships

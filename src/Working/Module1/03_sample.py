@@ -14,7 +14,7 @@ Why PEP 8 matters:
     person wrote it — making collaboration and maintenance far easier.
 """
 
-# Filename: src/Working/S1/03_sample.py
+# Filename: src/Working/Module1/03_sample.py
 
 import sys
 

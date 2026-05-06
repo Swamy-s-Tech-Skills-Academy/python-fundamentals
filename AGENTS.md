@@ -21,6 +21,12 @@ Repository agent guidance for automation and code assistants.
 - Publish-facing docs must be transformative and original.
 - Avoid copying wording, sequence, or examples directly from intake notes.
 
+## `src/Working/` modification policy (Swamy-owned sandbox)
+
+- **Do not** create, edit, move, rename, or delete files under `src/Working/` **unless Swamy explicitly asks** for that change in the current task (e.g. “update `src/Working/Module1/02_sample.py`” or “add a draft under Working”).
+- You may still **read** `src/Working/README.md` (or other paths) for routing context when advising on promotion into `src/L{level}/S{session}/`.
+- Routine automation (formatting entire `src/`, mass refactors) must **exclude** or skip `src/Working/` unless the task scope includes it by name.
+
 ## Session Bucket Safety Policy
 
 - Treat `docs/meetup/L1/meetup-sessions.md` table as the delivery-status signal for Level 1 meetup sessions.

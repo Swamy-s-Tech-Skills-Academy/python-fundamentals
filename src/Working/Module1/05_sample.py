@@ -1,4 +1,4 @@
-# Filename: src/Working/S1/05_sample.py
+# Filename: src/Working/Module1/05_sample.py
 # Type conversion sandbox (S1–S2 scope) — str(), int(), float(), bool(); valid vs invalid conversions
 
 # ---------------------------------------------------------------------------

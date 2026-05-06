@@ -68,3 +68,10 @@ See: `01_educational-content-rules.mdc` for complete details.
 ✅ Bucket new content into planned/new sessions by default  
 ❌ Do not add newly authored content into completed sessions unless explicit user permission is received in the current request  
 ✅ If status or destination is uncertain, ask before editing completed-session content
+
+### 7. Hands-off: `src/Working/` (CRITICAL)
+
+❌ Do **not** create, edit, move, rename, or delete files under `src/Working/` **unless Swamy explicitly requests** that Working path or folder in the current task  
+✅ Use formal `src/L{level}/S{session}/` and `docs/sessions/` for routine curriculum work  
+✅ You may **read** `src/Working/README.md` (or other Working files) for routing context when explaining promotion — without modifying them unless asked  
+❌ Do not include `src/Working/` in mass refactors or repo-wide formatting unless the task scope names it

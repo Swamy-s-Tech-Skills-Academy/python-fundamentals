@@ -411,7 +411,7 @@ After Level 1, you’re ready to explore:
 
 ## Sandbox (`src/Working/`)
 
-New **draft** scripts and meetup scribbles belong in the Working tree first. Folder names mirror formal targets (`S1/` for early foundations, `S5_MP1/` … `S10_MP2/` for later sessions). **Learner-facing session write-ups only link promoted files under `src/L1/…`.** See the routing table and promotion checklist in [`src/Working/README.md`](../../../src/Working/README.md).
+New **draft** scripts and meetup scribbles belong in the Working tree first. Folder names mirror formal targets (`Module1/` for early foundations, `S5_MP1/` … `S10_MP2/` for later sessions). **Learner-facing session write-ups only link promoted files under `src/L1/…`.** See the routing table and promotion checklist in [`src/Working/README.md`](../../../src/Working/README.md).
 
 ---
 

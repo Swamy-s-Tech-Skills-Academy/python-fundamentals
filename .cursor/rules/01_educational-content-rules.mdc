@@ -21,7 +21,7 @@
 
 ✅ Borrow concepts and misconception patterns; do not reuse original wording, section order, or narration from source notes  
 ✅ Treat `source-material/` as internal instructor intake only; curriculum output must be rewritten in fresh structure and voice  
-✅ Promote `src/Working/` examples only after cleanup, renaming, and session-outcome alignment  
+✅ Promote `src/Working/` examples only after cleanup, renaming, and session-outcome alignment — **and only when Swamy explicitly asks** you to edit or promote those Working files (otherwise leave `src/Working/` unchanged)  
 ✅ Keep publish-facing references on formal paths (`src/L{level}/S{session}/`), never sandbox paths  
 ✅ Route newly added content to planned/new sessions first; avoid backfilling completed sessions by default  
 ✅ Apply the same quality gates to imported ideas: clarity, technical correctness, and beginner pedagogy  

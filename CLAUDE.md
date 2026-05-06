@@ -11,12 +11,13 @@
 2. **Preserve existing structure** — Read the full file before editing. Make minimal, targeted changes.
 3. **Do not corrupt content** — If a change feels broad or risky, ask first.
 4. **Session-bucketing safety** — New content should go to planned/new sessions by default. Do not add new material to completed sessions without explicit user approval.
+5. **`src/Working/` hands-off** — Do not add, edit, move, rename, or delete files under `src/Working/` unless **Swamy explicitly asks** for that Working change in the current message. Read `src/Working/README.md` for context only when needed; do all curriculum edits in `src/L{level}/S{session}/` and `docs/` unless Working is in scope by name.
 
 ## 🔒 Internal Content Intake Policy (Source Notes + Working)
 
 - Borrow ideas and misconceptions, not exact text, section order, or narration.
 - Treat `source-material/` as internal instructor notes; rewrite explanations with original structure and wording.
-- Promote `src/Working/` examples only after cleanup, renaming, and fit-check against session outcomes.
+- Promote `src/Working/` examples only after cleanup, renaming, and fit-check against session outcomes — and only when Swamy has asked you to touch or promote those Working files.
 - Keep publish-facing session references on formal paths (`src/L{level}/S{session}/`) and never on sandbox paths.
 - When in doubt about target placement, use the meetup status table in `docs/meetup/L1/meetup-sessions.md` and ask for permission before touching completed sessions.
 - Run normal quality checks on imported ideas: clarity, technical accuracy, and beginner pedagogy.
@@ -40,7 +41,7 @@ python-fundamentals/
 │   ├── L1/       # Formal practice files: src/L1/S1/01_name.py
 │   ├── L2/
 │   └── Working/  # Sandbox — see src/Working/README.md
-│       ├── S1/   # Foundational drafts → L1/S1 or S2
+│       ├── Module1/   # Foundational drafts → L1/S1 or S2
 │       ├── S5_MP1/ … S10_MP2/  # Staging → matching L1 folders
 ├── .cursor/rules/          # Cursor AI rule files
 ├── .github/
@@ -53,7 +54,7 @@ python-fundamentals/
 
 ## 🗂️ `src/Working/` — Sandbox Staging Area
 
-`src/Working/` holds **informal drafts**: `S1/` for sessions 1–2 style samples, and **`S5_MP1/` through `S10_MP2/`** as staging lanes that match formal `src/L1/…` folders. See **`src/Working/README.md`** for the routing table and promotion checklist. Promote into `src/L{level}/S{session}/` when ready.
+`src/Working/` holds **informal drafts**: `Module1/` for sessions 1–2 style samples, and **`S5_MP1/` through `S10_MP2/`** as staging lanes that match formal `src/L1/…` folders. See **`src/Working/README.md`** for the routing table and promotion checklist. Promote into `src/L{level}/S{session}/` when ready.
 
 ### Working vs Formal
 
@@ -73,7 +74,7 @@ python-fundamentals/
 
 ### Standard file template
 
-Modelled on the `main` / `HELP_TEXT` pattern in `src/Working/S1/01_sample.py` and formal files such as `src/L1/S1/01_hello.py`:
+Modelled on the `main` / `HELP_TEXT` pattern in `src/Working/Module1/01_sample.py` and formal files such as `src/L1/S1/01_hello.py`:
 
 ```python
 """Module docstring — what this file demonstrates."""
