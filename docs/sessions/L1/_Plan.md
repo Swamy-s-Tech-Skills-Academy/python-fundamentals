@@ -258,7 +258,7 @@ ASCII fallback:
 * One-run calculator flow (single calculation per execution)
 * Clean, structured code
 
-🧪 *Practice Pack*: `src/L1/S5_MP1/01_simple_calculator.py`, `src/L1/S5_MP1/calculator_utils.py`  
+🧪 *Practice Pack*: `src/L1/S5_MP1/01_PEP8_naming_and_spacing.py`, `src/L1/S5_MP1/02_del_and_bool_arithmetic.py`, `src/L1/S5_MP1/03_simple_calculator.py`, `src/L1/S5_MP1/calculator_utils.py`
 📖 *Project Guide*: [S5_MP1.md](S5_MP1.md)
 
 🎯 *Stretch Goals*:

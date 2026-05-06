@@ -10,11 +10,11 @@ Teaching arc:
 Promoted from: src/Working/Module1/05_sample.py
 """
 
-# Filename: src/L1/S6/03_conversion_limits.py
+# Filename: src/L1/S6/07_conversion_limits.py
 
 import sys
 
-HELP_TEXT = """03_conversion_limits.py
+HELP_TEXT = """07_conversion_limits.py
 
 Purpose
     Explore three conversion edge-cases that trip up beginners:
@@ -22,7 +22,7 @@ Purpose
     and int() on a word string raises ValueError.
 
 Usage
-    python 03_conversion_limits.py
+    python src/L1/S6/07_conversion_limits.py
 """
 
 

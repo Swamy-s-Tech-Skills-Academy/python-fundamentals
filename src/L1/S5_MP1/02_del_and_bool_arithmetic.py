@@ -18,7 +18,7 @@ Purpose
     2. bool values (True / False) act as 1 / 0 in arithmetic.
 
 Usage
-    python 01_del_and_bool_arithmetic.py
+    python src/L1/S5_MP1/02_del_and_bool_arithmetic.py
 """
 
 

@@ -80,7 +80,9 @@ python-fundamentals/
 │       │   ├── 02_dict_iteration.py
 │       │   └── 03_gradebook.py
 │       ├── S5_MP1/             # Session 5 Mini Project 1
-│       │   ├── 01_simple_calculator.py
+│       │   ├── 01_PEP8_naming_and_spacing.py
+│       │   ├── 02_del_and_bool_arithmetic.py
+│       │   ├── 03_simple_calculator.py
 │       │   └── calculator_utils.py
 │       └── S10_MP2/            # Session 10 Mini Project 2
 │           └── profile_generator.py
@@ -230,7 +232,7 @@ Cursor AI configuration:
 
 ```markdown
 `src/L1/S1/01_hello.py`
-`src/L1/S5_MP1/01_simple_calculator.py`
+`src/L1/S5_MP1/03_simple_calculator.py`
 `src/L1/S5_MP1/calculator_utils.py`
 ```
 

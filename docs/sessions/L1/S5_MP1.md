@@ -147,7 +147,7 @@ The code already shows *what* it does. Use `#` comments to explain *why* a decis
 # Why: dividing by zero is undefined — guard before attempting division
 ```
 
-Your `01_simple_calculator.py` already has `# Why:` comments.
+Your `03_simple_calculator.py` already has `# Why:` comments.
 Check that at least one comment per major decision explains the *reason*, not just the action.
 
 ---

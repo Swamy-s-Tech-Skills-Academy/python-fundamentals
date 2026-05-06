@@ -9,18 +9,18 @@ Teaching arc:
 Promoted from: src/Working/Module1/04_sample.py
 """
 
-# Filename: src/L1/S6/02_chained_and_multi_assignment.py
+# Filename: src/L1/S6/06_chained_and_multi_assignment.py
 
 import sys
 
-HELP_TEXT = """02_chained_and_multi_assignment.py
+HELP_TEXT = """06_chained_and_multi_assignment.py
 
 Purpose
     Demonstrate two compact assignment forms: chained assignment for
     a shared value and tuple unpacking for paired or swapped values.
 
 Usage
-    python 02_chained_and_multi_assignment.py
+    python src/L1/S6/06_chained_and_multi_assignment.py
 """
 
 
