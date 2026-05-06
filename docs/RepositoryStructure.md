@@ -254,7 +254,7 @@ Cursor AI configuration:
 |---|------|-------|----------------|
 | - | `_Plan.md` | Level Overview | - |
 | 1 | `S1.md` | Python Introduction & Environment | 3 files |
-| 2 | `S2.md` | Variables & Data Types | 7 files |
+| 2 | `S2.md` | Variables & Data Types | 3 files |
 | 3 | `S3.md` | Operators & Expressions | 3 files |
 | 4 | `S4.md` | Conditionals & Modules | 3 files |
 | 5 | `S5.md` | Mini Project: Calculator | 4 files |
