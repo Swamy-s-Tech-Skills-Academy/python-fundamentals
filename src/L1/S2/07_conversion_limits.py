@@ -88,7 +88,7 @@ def demo_value_error() -> None:
     print(f"  Attempting int({label!r}) ...")
     try:
         result = int(label)
-        print(f"  Result: {result}")          # never reached
+        print(f"  Result: {result}")  # never reached
     except ValueError as err:
         print(f"  ValueError caught: {err}")
 
