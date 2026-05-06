@@ -8,9 +8,10 @@
 | Session 2 | Completed |
 | Session 3 | Completed |
 | Session 4 | Completed |
-| Session 5 | Planned |
+| Session 5 (MP1) | Ready |
+| Session 6 | Planned |
 
-## Level 1 - Session 5: Loops & Iteration
+## Level 1 - Session 6: Loops & Iteration
 
 Date: To be announced (planned)
 
@@ -18,7 +19,7 @@ Event URL: To be announced (planned)
 
 🔹 Session Agenda:
 
-Level: Noob → Nerd (Level 1, Session 5)  
+Level: Noob → Nerd (Level 1, Session 6)  
 Format: Live Coding + Interactive Q&A  
 Duration: 30 Minutes  
 Prerequisites: Completed Session 4 (Decision Making in Python)

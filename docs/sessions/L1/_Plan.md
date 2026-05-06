@@ -53,25 +53,25 @@ sessions:
     type: "Project"
     status: "Ready"
     file: "docs/sessions/L1/S5_MP1.md"
-  - session: 5
+  - session: 6
     topic: "Loops & Iteration"
     duration: "30 min"
     type: "Knowledge"
     status: "Ready"
     file: "docs/sessions/L1/S6.md"
-  - session: 6
+  - session: 7
     topic: "Basic Debugging, Reading Errors & Built-in Functions"
     duration: "30 min"
     type: "Knowledge"
     status: "Ready"
     file: "docs/sessions/L1/S7.md"
-  - session: 7
+  - session: 8
     topic: "Lists & Loops"
     duration: "30 min"
     type: "Knowledge"
     status: "Ready"
     file: "docs/sessions/L1/S8.md"
-  - session: 8
+  - session: 9
     topic: "Dictionaries & Basic Testing"
     duration: "30 min"
     type: "Knowledge"
@@ -109,11 +109,11 @@ sessions:
 | A     | 3       | Operators & Expressions                                | 30 min    | 📚 Knowledge | ✅ Ready   |
 | A     | 4       | Conditionals, Indentation & Introduction to Modules    | 30 min    | 📚 Knowledge | ✅ Ready   |
 | A     | 🚀 MP1  | Mini Project 1: Simple Calculator *(after Session 4)*  | 30–45 min | 🛠️ Project   | ✅ Ready   |
-| B     | 5       | Loops & Iteration                                      | 30 min    | 📚 Knowledge | ✅ Ready   |
-| B     | 6       | Basic Debugging, Reading Errors & Built-in Functions   | 30 min    | 📚 Knowledge | ✅ Ready   |
-| B     | 7       | Lists & Loops                                          | 30 min    | 📚 Knowledge | ✅ Ready   |
-| B     | 8       | Dictionaries & Basic Testing                           | 30 min    | 📚 Knowledge | ✅ Ready   |
-| B     | 🚀 MP2  | Mini Project 2: Personal Profile Generator *(after 8)* | 30–45 min | 🛠️ Project   | ✅ Ready   |
+| B     | 6       | Loops & Iteration                                      | 30 min    | 📚 Knowledge | ✅ Ready   |
+| B     | 7       | Basic Debugging, Reading Errors & Built-in Functions   | 30 min    | 📚 Knowledge | ✅ Ready   |
+| B     | 8       | Lists & Loops                                          | 30 min    | 📚 Knowledge | ✅ Ready   |
+| B     | 9       | Dictionaries & Basic Testing                           | 30 min    | 📚 Knowledge | ✅ Ready   |
+| B     | 🚀 MP2  | Mini Project 2: Personal Profile Generator *(after Session 9)* | 30–45 min | 🛠️ Project   | ✅ Ready   |
 
 ---
 
@@ -135,10 +135,10 @@ flowchart TB
     end
 
     subgraph PhaseB[📘 Phase B: Expanding Skills]
-        C1[🔄 Session 5<br/>Loops & Iteration]
-        C2[🐛 Session 6<br/>Debugging & Built-ins]
-        C3[📋 Session 7<br/>Lists & Loops]
-        C4[📚 Session 8<br/>Dicts & Testing]
+        C1[🔄 Session 6<br/>Loops & Iteration]
+        C2[🐛 Session 7<br/>Debugging & Built-ins]
+        C3[📋 Session 8<br/>Lists & Loops]
+        C4[📚 Session 9<br/>Dicts & Testing]
         C5[🚀 MP2<br/>Mini Project 2: Profile Generator]
         C1 --> C2 --> C3 --> C4 --> C5
     end
