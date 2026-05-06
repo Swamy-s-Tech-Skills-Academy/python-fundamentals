@@ -27,6 +27,7 @@ Repository agent guidance for automation and code assistants.
 - New curriculum content derived from `source-material/` or `src/Working/` must be bucketed into planned/new sessions by default.
 - Do not add new learning content to already completed sessions unless the user gives explicit approval in the current task.
 - If session status is unclear, pause and ask permission before placing content.
+- **Topic → folder map (L1 from `S5_MP1` onward):** `src/Working/README.md`
 
 ## Notes
 

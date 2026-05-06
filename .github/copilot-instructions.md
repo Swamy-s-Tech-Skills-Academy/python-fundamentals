@@ -98,10 +98,9 @@ python-fundamentals/
 │   │   ├── S1/ ... S9/      # Numbered session folders for regular sessions (mini projects are separate)
 │   │   ├── S5_MP1/
 │   │   └── S10_MP2/
-│   └── Working/             # Sandbox staging area for live-coding samples
-│       ├── day1/            # Day 1 session samples (informal, exploratory)
-│       ├── day2/            # Day 2 session samples
-│       └── dayN/            # Subsequent day samples (bucket into L{n}/S{n}/ when ready)
+│   └── Working/             # Sandbox — bucketing guide: src/Working/README.md
+│       ├── S1/              # Foundational drafts (→ L1/S1 or L1/S2)
+│       └── S5_MP1/ … S10_MP2/  # Staging → matching formal L1 folders
 └── README.md                # Project overview and quick start
 ```
 
@@ -113,7 +112,7 @@ python-fundamentals/
 - `docs/sessions/L2/_Plan.md` → Overall curriculum structure
 - `docs/01_Python-Fundamentals-MasterPlan.md` → Master roadmap across all levels
 - `README.md` → Entry point with navigation links
-- `src/Working/dayN/` → Sandbox samples; promoted to `src/L{level}/S{session}/` when ready
+- `src/Working/README.md` → routing from staging (`S1/`, `S5_MP1/` … `S10_MP2/`) to formal `src/L{level}/S{session}/`
 
 ---
 
@@ -123,7 +122,7 @@ python-fundamentals/
 
 | `src/Working/` | `src/L{level}/S{session}/` |
 |---|---|
-| Informal, exploratory, day-based folders (`day1/`, `day2/`) | Formal, numbered, tested practice files |
+| Informal staging (`S1/`, `S5_MP1/` … `S10_MP2/`; see `src/Working/README.md`) | Formal, numbered, tested practice files |
 | Flexible file names (`hello_world.py`, `sample1.py`) | `01_name.py` convention, polished |
 | Work-in-progress | Production-quality curriculum |
 
@@ -137,7 +136,7 @@ python-fundamentals/
 
 ### Standard file template
 
-The pattern from `src/Working/day1/hello_world.py` is the **preferred template** for both Working and promoted files:
+The `main(argv)` / `HELP_TEXT` / `raise SystemExit` pattern (see `src/Working/S1/01_sample.py` or `src/L1/S1/01_hello.py`) is the **preferred template** for Working drafts and promoted files:
 
 ```python
 """Module docstring explaining what the file demonstrates."""

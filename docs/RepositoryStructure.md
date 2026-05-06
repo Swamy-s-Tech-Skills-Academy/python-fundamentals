@@ -121,10 +121,16 @@ python-fundamentals/
 │       │   └── data_processor.py
 │       └── S10_MP2/            # Session 10 Mini Project 2
 │           └── contact_manager.py
-│   └── Working/                # Sandbox staging area (live-coding samples)
-│       ├── day1/               # Day 1 session samples (e.g. hello_world.py)
-│       ├── day2/               # Day 2 session samples (e.g. sample1.py)
-│       └── dayN/               # Subsequent day samples — promote to L{n}/S{n}/ when ready
+│   └── Working/                # Sandbox — bucketing guide: src/Working/README.md
+│       ├── README.md
+│       ├── References.md
+│       ├── S1/                 # Foundational drafts → promote to `src/L1/S1/` or `S2/`
+│       ├── S5_MP1/             # Staging → promote to `src/L1/S5_MP1/`
+│       ├── S6/                 # Staging → `src/L1/S6/`
+│       ├── S7/                 # Staging → `src/L1/S7/`
+│       ├── S8/                 # Staging → `src/L1/S8/`
+│       ├── S9/                 # Staging → `src/L1/S9/`
+│       └── S10_MP2/            # Staging → `src/L1/S10_MP2/`
 ├── 🔧 scripts/                 # Development and utility scripts
 │   ├── docs-lint.ps1           # Markdown linting script
 │   ├── docs-links.ps1          # Link validation script
@@ -165,12 +171,12 @@ Contains all practice code files:
 
 ### `src/Working/`
 
-Sandbox staging area for **informal live-coding samples** written during teaching sessions.
+Sandbox staging area for **informal live-coding drafts** before promotion into formal `src/L{level}/S{session}/`.
 
-- Subdirectories named by day: `day1/`, `day2/`, `dayN/`
-- File names are descriptive but informal: `hello_world.py`, `sample1.py`
-- Files here are **work-in-progress** — promote to `src/L{level}/S{session}/` when polished
-- See `CLAUDE.md` for the full promotion workflow
+- **`README.md`**: topic-to-folder routing from `S5_MP1` through `S10_MP2`, plus promotion checklist.
+- **`S1/`**: drafts aligned with Level 1 sessions 1–2 (informal samples such as `01_sample.py`).
+- **`S5_MP1/`, `S6/` … `S10_MP2/`**: staging folders that mirror formal Level 1 targets; drop new `.py` drafts here first, then promote and link from `docs/sessions/`.
+- See `CLAUDE.md` for the promotion workflow (cleanup, numbering, headers, session doc links).
 
 ### `scripts/`
 

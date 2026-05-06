@@ -39,10 +39,9 @@ python-fundamentals/
 ├── src/
 │   ├── L1/       # Formal practice files: src/L1/S1/01_name.py
 │   ├── L2/
-│   └── Working/  # Sandbox staging area (see below)
-│       ├── day1/ # Live-coding samples for Day 1
-│       ├── day2/ # Live-coding samples for Day 2
-│       └── dayN/
+│   └── Working/  # Sandbox — see src/Working/README.md
+│       ├── S1/   # Foundational drafts → L1/S1 or S2
+│       ├── S5_MP1/ … S10_MP2/  # Staging → matching L1 folders
 ├── .cursor/rules/          # Cursor AI rule files
 ├── .github/
 │   ├── copilot-instructions.md
@@ -54,14 +53,14 @@ python-fundamentals/
 
 ## 🗂️ `src/Working/` — Sandbox Staging Area
 
-`src/Working/dayN/` holds **informal live-coding samples** written during teaching sessions. Files here may be promoted to `src/L{level}/S{session}/` when ready.
+`src/Working/` holds **informal drafts**: `S1/` for sessions 1–2 style samples, and **`S5_MP1/` through `S10_MP2/`** as staging lanes that match formal `src/L1/…` folders. See **`src/Working/README.md`** for the routing table and promotion checklist. Promote into `src/L{level}/S{session}/` when ready.
 
 ### Working vs Formal
 
-| `src/Working/dayN/` | `src/L{level}/S{session}/` |
+| `src/Working/` staging | `src/L{level}/S{session}/` |
 |---|---|
 | Informal, exploratory | Formal, tested, complete |
-| Flexible names (`hello_world.py`) | Numbered names (`01_hello.py`) |
+| Flexible names (`sample.py`, `01_sample.py`) | Numbered names (`01_hello.py`) |
 | Work-in-progress | Production curriculum |
 
 ### Promotion workflow (Working → Formal)
@@ -74,7 +73,7 @@ python-fundamentals/
 
 ### Standard file template
 
-Modelled on `src/Working/day1/hello_world.py`:
+Modelled on the `main` / `HELP_TEXT` pattern in `src/Working/S1/01_sample.py` and formal files such as `src/L1/S1/01_hello.py`:
 
 ```python
 """Module docstring — what this file demonstrates."""

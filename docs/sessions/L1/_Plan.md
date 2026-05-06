@@ -295,6 +295,11 @@ ASCII fallback:
 * Debugging with `print()`
 * Built-in functions: `len()`, `max()`, `min()`, `sum()`, `abs()`, `round()`
 
+🧪 *Practice Files*:  
+`src/L1/S7/01_error_examples.py`, `src/L1/S7/02_debug_practice.py`, `src/L1/S7/03_builtin_functions.py`, `src/L1/S7/04_pep8_style_refactor.py`, `src/L1/S7/05_pep8_indentation.py`
+
+📖 *Documentation*: [S7.md](S7.md)
+
 🧪 *Mini Practice*: Debug broken code samples.  
 📌 *Feeds into Mini Project 2*: Debugging profile input.
 
@@ -306,6 +311,11 @@ ASCII fallback:
 * Operations: `append()`, `remove()`, `len()`, accessing elements
 * Iteration with lists
 * Practical list usage: filtering, modifying, building from user input
+
+🧪 *Practice Files*:  
+`src/L1/S8/01_list_basics.py`, `src/L1/S8/02_list_methods.py`, `src/L1/S8/03_task_manager.py`
+
+📖 *Documentation*: [S8.md](S8.md)
 
 🧪 *Mini Practice*: Task list manager with lists + loops.  
 📌 *Feeds into Mini Project 2*: Storing multiple hobbies or goals.
@@ -319,6 +329,11 @@ ASCII fallback:
 * Iterating over dictionaries
 * Why testing matters
 * Manual testing vs using `assert`
+
+🧪 *Practice Files*:  
+`src/L1/S9/01_dict_basics.py`, `src/L1/S9/02_dict_iteration.py`, `src/L1/S9/03_gradebook.py`
+
+📖 *Documentation*: [S9.md](S9.md)
 
 🧪 *Mini Practice*: Student gradebook with dictionaries + asserts.  
 📌 *Feeds into Mini Project 2*: User profiles as dictionaries + validation.
@@ -391,6 +406,12 @@ After Level 1, you’re ready to explore:
 * VS Code with Python extension
 * Git for version control
 * (Optional) Jupyter Notebook, PyCharm, Replit
+
+---
+
+## Sandbox (`src/Working/`)
+
+New **draft** scripts and meetup scribbles belong in the Working tree first. Folder names mirror formal targets (`S1/` for early foundations, `S5_MP1/` … `S10_MP2/` for later sessions). **Learner-facing session write-ups only link promoted files under `src/L1/…`.** See the routing table and promotion checklist in [`src/Working/README.md`](../../../src/Working/README.md).
 
 ---
 

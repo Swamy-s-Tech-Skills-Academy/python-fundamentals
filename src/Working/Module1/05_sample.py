@@ -1,5 +1,5 @@
-# Type Conversion — Working / day4 sample
-# Concepts: str(), int(), float(), bool() | what can and cannot convert
+# Filename: src/Working/S1/05_sample.py
+# Type conversion sandbox (S1–S2 scope) — str(), int(), float(), bool(); valid vs invalid conversions
 
 # ---------------------------------------------------------------------------
 # Starting variables — one of each core type
