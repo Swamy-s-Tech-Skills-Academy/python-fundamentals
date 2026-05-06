@@ -121,8 +121,7 @@ python-fundamentals/
 │       │   └── data_processor.py
 │       └── S10_MP2/            # Session 10 Mini Project 2
 │           └── contact_manager.py
-│   └── Working/                # Sandbox — bucketing guide: src/Working/README.md
-│       ├── README.md
+│   └── Working/                # Sandbox — bucketing guide: see § `src/Working/` below
 │       ├── References.md
 │       ├── Module1/            # Foundational drafts → promote to `src/L1/S1/` or `S2/`
 │       ├── S5_MP1/             # Staging → promote to `src/L1/S5_MP1/`
@@ -173,7 +172,6 @@ Contains all practice code files:
 
 Sandbox staging area for **informal live-coding drafts** before promotion into formal `src/L{level}/S{session}/`.
 
-- **`README.md`**: topic-to-folder routing from `S5_MP1` through `S10_MP2`, plus promotion checklist.
 - **`Module1/`**: drafts aligned with Level 1 sessions 1–2 (informal samples such as `01_sample.py`).
 - **`S5_MP1/`, `S6/` … `S10_MP2/`**: staging folders that mirror formal Level 1 targets; drop new `.py` drafts here first, then promote and link from `docs/sessions/`.
 - See `CLAUDE.md` for the promotion workflow (cleanup, numbering, headers, session doc links).

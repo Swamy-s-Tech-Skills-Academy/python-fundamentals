@@ -11,5 +11,5 @@ This file defers to the repository root `CLAUDE.md` and `AGENTS.md`.
 
 ## `src/Working/` — do not modify unless asked
 
-- Do **not** change files under `src/Working/` (including `Module1/`, staging lanes, or `README.md` there) unless **Swamy explicitly requests** that Working path or folder in the current task.
+- Do **not** change files under `src/Working/` (including `Module1/` and staging lanes) unless **Swamy explicitly requests** that Working path or folder in the current task.
 - Prefer edits in formal `src/L{level}/S{session}/` and `docs/sessions/` for curriculum work.

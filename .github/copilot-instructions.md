@@ -61,7 +61,7 @@
 ### **7. 🛑 HANDS-OFF: `src/Working/` (unless Swamy requests it)**
 
 - **Do not** create, edit, move, rename, or delete anything under `src/Working/` **unless Swamy explicitly asks** for that Working path or folder in the current task.
-- Use `src/L{level}/S{session}/` and `docs/sessions/` for routine curriculum fixes; read `src/Working/README.md` only for routing context when advising on promotion.
+- Use `src/L{level}/S{session}/` and `docs/sessions/` for routine curriculum fixes; read **`docs/RepositoryStructure.md`** (section **src/Working/**) only for routing context when advising on promotion.
 - Mass refactors or repo-wide formatting must **not** touch `src/Working/` unless the task scope names it.
 
 ---
@@ -104,7 +104,7 @@ python-fundamentals/
 │   │   ├── S1/ ... S9/      # Numbered session folders for regular sessions (mini projects are separate)
 │   │   ├── S5_MP1/
 │   │   └── S10_MP2/
-│   └── Working/             # Sandbox — bucketing guide: src/Working/README.md (hands-off unless Swamy asks)
+│   └── Working/             # Sandbox — see docs/RepositoryStructure.md (hands-off unless Swamy asks)
 │       ├── Module1/         # Foundational drafts (→ L1/S1 or L1/S2)
 │       └── S5_MP1/ … S10_MP2/  # Staging → matching formal L1 folders
 └── README.md                # Project overview and quick start
@@ -118,7 +118,7 @@ python-fundamentals/
 - `docs/sessions/L2/_Plan.md` → Overall curriculum structure
 - `docs/01_Python-Fundamentals-MasterPlan.md` → Master roadmap across all levels
 - `README.md` → Entry point with navigation links
-- `src/Working/README.md` → routing from staging (`Module1/`, `S5_MP1/` … `S10_MP2/`) to formal `src/L{level}/S{session}/` (do not edit Working files unless Swamy requests)
+- `docs/RepositoryStructure.md` (**src/Working/**) → routing from staging (`Module1/`, `S5_MP1/` … `S10_MP2/`) to formal `src/L{level}/S{session}/` (do not edit Working files unless Swamy requests)
 
 ---
 
@@ -128,7 +128,7 @@ python-fundamentals/
 
 | `src/Working/` | `src/L{level}/S{session}/` |
 |---|---|
-| Informal staging (`Module1/`, `S5_MP1/` … `S10_MP2/`; see `src/Working/README.md`; **hands-off unless Swamy asks**) | Formal, numbered, tested practice files |
+| Informal staging (`Module1/`, `S5_MP1/` … `S10_MP2/`; see `docs/RepositoryStructure.md`; **hands-off unless Swamy asks**) | Formal, numbered, tested practice files |
 | Flexible file names (`hello_world.py`, `sample1.py`) | `01_name.py` convention, polished |
 | Work-in-progress | Production-quality curriculum |
 
