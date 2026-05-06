@@ -94,21 +94,23 @@ python-fundamentals/
 │   │   │   ├── 01_hello.py
 │   │   │   ├── 02_interactive_hello.py
 │   │   │   └── bytecode_demo.py
-│   │   ├── S2/ ... S9/      # Numbered session folders for regular sessions (mini projects are separate)
-│   │   ├── S5_MP1/          # Session 5 Mini Project 1 files
+│   │   ├── S2/ ... S4/      # Sessions 2–4 practice files
+│   │   ├── S5/              # Session 5 – Mini Project 1 files
 │   │   │   ├── 01_PEP8_naming_and_spacing.py
 │   │   │   ├── 02_del_and_bool_arithmetic.py
 │   │   │   ├── 03_simple_calculator.py
 │   │   │   └── calculator_utils.py
-│   │   └── S10_MP2/         # Session 10 Mini Project 2 files
+│   │   ├── S6/ ... S9/      # Sessions 6–9 practice files
+│   │   └── S10/             # Session 10 – Mini Project 2 files
 │   │       └── profile_generator.py
 │   ├── L2/                  # Level 2 practice files
-│   │   ├── S1/ ... S9/      # Numbered session folders for regular sessions (mini projects are separate)
-│   │   ├── S5_MP1/
-│   │   └── S10_MP2/
+│   │   ├── S1/ ... S4/      # Sessions 1–4 practice files
+│   │   ├── S5/              # Session 5 – Mini Project 1 files
+│   │   ├── S6/ ... S9/      # Sessions 6–9 practice files
+│   │   └── S10/             # Session 10 – Mini Project 2 files
 │   └── Working/             # Sandbox — see docs/RepositoryStructure.md (hands-off unless Swamy asks)
 │       ├── Module1/         # Foundational drafts (→ L1/S1 or L1/S2)
-│       └── S5_MP1/ … S10_MP2/  # Staging → matching formal L1 folders
+│       └── S5/ … S10/           # Staging → matching formal L1 folders
 └── README.md                # Project overview and quick start
 ```
 
@@ -120,7 +122,7 @@ python-fundamentals/
 - `docs/sessions/L2/_Plan.md` → Overall curriculum structure
 - `docs/01_Python-Fundamentals-MasterPlan.md` → Master roadmap across all levels
 - `README.md` → Entry point with navigation links
-- `docs/RepositoryStructure.md` (**src/Working/**) → routing from staging (`Module1/`, `S5_MP1/` … `S10_MP2/`) to formal `src/L{level}/S{session}/` (do not edit Working files unless Swamy requests)
+- `docs/RepositoryStructure.md` (**src/Working/**) → routing from staging (`Module1/`, `S5/` … `S10/`) to formal `src/L{level}/S{session}/` (do not edit Working files unless Swamy requests)
 
 ---
 
@@ -130,7 +132,7 @@ python-fundamentals/
 
 | `src/Working/` | `src/L{level}/S{session}/` |
 |---|---|
-| Informal staging (`Module1/`, `S5_MP1/` … `S10_MP2/`; see `docs/RepositoryStructure.md`; **hands-off unless Swamy asks**) | Formal, numbered, tested practice files |
+| Informal staging (`Module1/`, `S5/` … `S10/`; see `docs/RepositoryStructure.md`; **hands-off unless Swamy asks**) | Formal, numbered, tested practice files |
 | Flexible file names (`hello_world.py`, `sample1.py`) | `01_name.py` convention, polished |
 | Work-in-progress | Production-quality curriculum |
 
@@ -318,7 +320,7 @@ docs/sessions/L1/S1.md
 
 **CRITICAL**: All file references must:
 
-- ✅ Keep Python practice file prefixes (`01_`, `02_`, etc.) and use exact existing session doc names (`S1.md`, `S5_MP1.md`, etc.)
+- ✅ Keep Python practice file prefixes (`01_`, `02_`, etc.) and use exact existing session doc names (`S1.md`, `S5.md`, `S10.md`, etc.)
 - ✅ Use correct `L{level}/S{session}/` directory structure
 - ✅ Match actual file names exactly
 - ✅ Be verified before committing

@@ -47,11 +47,7 @@ python-fundamentals/
 │       ├── S2/                 # Session 2 practice files
 │       │   ├── 01_variables.py
 │       │   ├── 02_data_types.py
-│       │   ├── 03_type_conversion.py
-│       │   ├── 04_del_and_bool_arithmetic.py
-│       │   ├── 05_values_to_variables.py
-│       │   ├── 06_chained_and_multi_assignment.py
-│       │   └── 07_conversion_limits.py
+│       │   └── 03_type_conversion.py
 │       ├── S3/                 # Session 3 practice files
 │       │   ├── 01_arithmetic.py
 │       │   ├── 02_comparisons.py
