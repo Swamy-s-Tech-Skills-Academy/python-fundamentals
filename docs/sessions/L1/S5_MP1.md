@@ -8,10 +8,12 @@ prerequisites:
 estimated_time: "30 minutes"
 session_type: "Project"
 learning_objectives:
+  - "Understand PEP 8 style rules for writing clean, readable code"
+  - "Revisit core scalar concepts: del, bool arithmetic, and type conversion edge cases"
   - "Build a working CLI calculator that performs basic arithmetic operations"
   - "Validate and convert user input before calculation to avoid type-related failures"
   - "Use if/elif/else branching to select operations and handle divide-by-zero safely"
-  - "Apply PEP 8 naming, spacing, and comment rules to write clean, readable code"
+  - "Apply PEP 8 naming, spacing, and comment rules throughout your project"
 related_topics:
   prerequisites:
     - "docs/sessions/L1/S1.md"
@@ -26,9 +28,9 @@ related_topics:
 
 # Mini Project 1: Simple Calculator
 
-**Duration:** 30 minutes  
-**Type:** 🛠️ Project  
-**Level:** Noob → Nerd  
+**Duration:** 30 minutes
+**Type:** 🛠️ Project
+**Level:** Noob → Nerd
 **Session:** MP1
 
 ---
@@ -50,12 +52,13 @@ This project is the first "full-flow" integration point for Sessions 1–4:
 
 By the end of this mini project, you should be able to:
 
+- Understand and apply PEP 8 style guidelines to your code
+- Recall and apply core scalar concepts (del, bool arithmetic, type conversion)
 - Build a CLI calculator that supports `+`, `-`, `*`, `/`
 - Validate number input before conversion
 - Use branching to route operations
 - Guard against divide-by-zero
-- Apply PEP 8 rules to write clean, readable code
-- Explain why validation and branching make the program safer
+- Explain why validation, branching, and style make programs safer and more readable
 
 ---
 
@@ -74,42 +77,14 @@ This project then builds toward:
 
 ---
 
-## 🧪 Practice file mapping
-
-**Project practice folder:** `src/L1/S5_MP1/`
-
-| File | Purpose |
-| --- | --- |
-| `src/L1/S5_MP1/calculator_utils.py` | Shared helper: `is_valid_number_text()` validates numeric input (imported by the calculator) |
-| `src/L1/S5_MP1/01_simple_calculator.py` | One-run calculator with operation choice, numeric validation, and divide-by-zero handling |
-
----
-
-## 🛠️ Build path
-
-### Step 1: Core one-run calculator
-
-Start with `01_simple_calculator.py`:
-
-1. Ask for operation (`+`, `-`, `*`, `/`)
-2. Ask for two numbers
-3. Validate that both inputs are numeric text — uses `is_valid_number_text()` from `calculator_utils.py`
-4. Convert to `float`
-5. Use `if/elif/else` to choose operation
-6. Handle divide-by-zero explicitly
-
-> **About the import:** `calculator_utils.py` is a small helper file in the same folder.
-> `from calculator_utils import is_valid_number_text` loads that one function into your script.
-> This is the same `import` pattern from Session 4 — now applied to your own file instead of a built-in module.
-
-### Step 2: PEP 8 style review
+## 📌 PEP 8 Style Review
 
 PEP 8 is Python's official style guide, written by Guido van Rossum (Python's creator).
 It covers naming, spacing, and commenting rules that make code readable — for yourself and for anyone who reads your code later.
 
-Your calculator already works. Now open `01_simple_calculator.py` and check it against each rule below.
+Your calculator already works. Now review it against each rule below.
 
-#### Rule 1 — Meaningful variable names
+### Rule 1 — Meaningful variable names
 
 Names should describe what they hold. Use lowercase with underscores for multi-word names.
 
@@ -120,7 +95,7 @@ Names should describe what they hold. Use lowercase with underscores for multi-w
 | `second_raw` | `b` |
 | `first_is_number` | `check` |
 
-#### Rule 2 — Spaces around operators
+### Rule 2 — Spaces around operators
 
 One space on each side of `=`, `+`, `-`, `*`, `/`, `==`, `not`.
 
@@ -134,7 +109,7 @@ result=first+second
 first_is_number=is_valid_number_text(first_raw)
 ```
 
-#### Rule 3 — No spaces inside parentheses or brackets
+### Rule 3 — No spaces inside parentheses or brackets
 
 No space immediately after `(` or before `)`.
 
@@ -148,7 +123,7 @@ float( first_raw )
 input( "Enter first number: " )
 ```
 
-#### Rule 4 — Space after commas
+### Rule 4 — Space after commas
 
 One space after every comma in function calls and collections.
 
@@ -160,7 +135,7 @@ One space after every comma in function calls and collections.
 {"+","-","*","/"}
 ```
 
-#### Rule 5 — Comments explain *why*, not *what*
+### Rule 5 — Comments explain *why*, not *what*
 
 The code already shows *what* it does. Use `#` comments to explain *why* a decision was made.
 
@@ -177,11 +152,11 @@ Check that at least one comment per major decision explains the *reason*, not ju
 
 ---
 
-## 📚 Appendix concepts from Session 2
+## 📚 Revisiting Core Concepts
 
-These materials extend Session 2 knowledge:
+These materials deepen your understanding of scalar concepts from earlier sessions.
 
-### `del` and `NameError` (extra)
+### `del` and `NameError`
 
 You can remove a variable with `del`. After deletion, any reference to it raises a `NameError` — the same error you get when you use a name before assigning it.
 
@@ -195,7 +170,9 @@ print(season)   # → NameError: name 'season' is not defined
 
 **Practical tip:** If you `del` a variable and later re-run a cell or script that assigns it again, the deletion runs again too. Comment out the `del` line once you no longer need the cleanup.
 
-### `bool` in arithmetic (extra)
+**Practice file:** `src/L1/S5_MP1/02_del_and_bool_arithmetic.py` includes this concept.
+
+### `bool` in arithmetic
 
 `True` and `False` are Python objects that behave as `1` and `0` in numeric operations.
 This rarely comes up in beginner code, but it demystifies why `bool` is a subtype of `int`:
@@ -207,6 +184,52 @@ print(type(True)) # → <class 'bool'>
 ```
 
 **Why it matters:** Conditional expressions in loops and filters silently rely on this — good to know it exists even if you don't use it directly yet.
+
+**Practice file:** `src/L1/S5_MP1/02_del_and_bool_arithmetic.py` includes this concept.
+
+---
+
+## 🛠️ Core One-Run Calculator
+
+### Step 1: Build the calculator
+
+Start with `03_simple_calculator.py`:
+
+1. Ask for operation (`+`, `-`, `*`, `/`)
+2. Ask for two numbers
+3. Validate that both inputs are numeric text — uses `is_valid_number_text()` from `calculator_utils.py`
+4. Convert to `float`
+5. Use `if/elif/else` to choose operation
+6. Handle divide-by-zero explicitly
+
+> **About the import:** `calculator_utils.py` is a small helper file in the same folder.
+> `from calculator_utils import is_valid_number_text` loads that one function into your script.
+> This is the same `import` pattern from Session 4 — now applied to your own file instead of a built-in module.
+
+### Step 2: Apply PEP 8 style
+
+Your calculator already works. Now open `03_simple_calculator.py` and check it against the **5 PEP 8 rules** above.
+
+---
+
+## 🧪 Practice file mapping
+
+**Project practice folder:** `src/L1/S5_MP1/`
+
+| File | Purpose |
+| --- | --- |
+| `src/L1/S5_MP1/01_PEP8_naming_and_spacing.py` | Demonstrate the 5 key PEP 8 rules with examples |
+| `src/L1/S5_MP1/02_del_and_bool_arithmetic.py` | Demo of `del` and `bool` arithmetic (exploratory, for deepening) |
+| `src/L1/S5_MP1/03_simple_calculator.py` | One-run calculator with operation choice, numeric validation, and divide-by-zero handling |
+| `src/L1/S5_MP1/calculator_utils.py` | Shared helper: `is_valid_number_text()` validates numeric input (imported by the calculator) |
+
+Run examples from repo root:
+
+```bash
+python src/L1/S5_MP1/01_PEP8_naming_and_spacing.py
+python src/L1/S5_MP1/02_del_and_bool_arithmetic.py
+python src/L1/S5_MP1/03_simple_calculator.py
+```
 
 ---
 
@@ -233,13 +256,13 @@ Use this to verify your implementation:
 | `ValueError` on conversion | Input text was not numeric | Validate first, then convert |
 | Wrong branch runs | Condition order/logic issue | Re-check `if/elif` flow |
 | Crash on division | Denominator is `0` | Add explicit divide-by-zero guard |
-| `ModuleNotFoundError` on import | Running from wrong directory | Run with `python src/L1/S5_MP1/01_simple_calculator.py` from repo root |
+| `ModuleNotFoundError` on import | Running from wrong directory | Run with `python src/L1/S5_MP1/03_simple_calculator.py` from repo root |
 
 ---
 
 ## 🧠 Why this project matters
 
-This project is your first full program with clear input → validation → decision → output flow.  
+This project is your first full program with clear input → validation → decision → output flow.
 It sets up the same pattern you will reuse in every bigger project.
 
 ---
@@ -252,5 +275,6 @@ After this project, you can say:
 - "I know why input validation matters before doing arithmetic."
 - "I can combine operators and conditionals in one complete script."
 - "I can apply PEP 8 rules to make my code clean and readable."
+- "I understand `del` and how `bool` works in arithmetic."
 
 Next: take loop skills further in [S6.md](S6.md), then apply the same validated-input pattern in Mini Project 2.
