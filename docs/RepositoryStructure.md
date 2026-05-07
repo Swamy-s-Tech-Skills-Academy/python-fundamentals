@@ -20,12 +20,12 @@ python-fundamentals/
 │       │   ├── S2.md        # Session 2: Variables & Data Types
 │       │   ├── S3.md        # Session 3: Operators & Expressions
 │       │   ├── S4.md        # Session 4: Conditionals & Modules
-│       │   ├── S5.md       # Mini Project 1: Simple Calculator
-│       │   ├── S6.md        # Session 5: Loops & Iteration
-│       │   ├── S7.md        # Session 6: Debugging & Built-ins
-│       │   ├── S8.md        # Session 7: Lists & Loops
-│       │   ├── S9.md        # Session 8: Dictionaries & Testing
-│       │   └── S10.md       # Mini Project 2: Profile Generator
+│       │   ├── S5.md       # Session 5 - Mini Project 1: Simple Calculator
+│       │   ├── S6.md        # Session 6: Loops & Iteration
+│       │   ├── S7.md        # Session 7: Debugging & Built-ins
+│       │   ├── S8.md        # Session 8: Lists & Loops
+│       │   ├── S9.md        # Session 9: Dictionaries & Testing
+│       │   └── S10.md       # Session 10 - Mini Project 2: Profile Generator
 │       └── L2/                 # Level 2: Nerd → Novice
 │           ├── _Plan.md        # Complete Level 2 curriculum plan
 │           ├── S1.md        # Session 1: Sets & Tuples
@@ -33,10 +33,10 @@ python-fundamentals/
 │           ├── S3.md        # Session 3: Functions Basics
 │           ├── S4.md        # Session 4: Error Handling
 │           ├── S5.md       # Mini Project 1: Data Processor
-│           ├── S6.md        # Session 5: Functions Parameters
-│           ├── S7.md        # Session 6: Functions Scope
-│           ├── S8.md        # Session 7: File Handling
-│           ├── S9.md        # Session 8: Modules Deep Dive
+│           ├── S6.md        # Session 6: Functions Parameters
+│           ├── S7.md        # Session 7: Functions Scope
+│           ├── S8.md        # Session 8: File Handling
+│           ├── S9.md        # Session 9: Modules Deep Dive
 │           └── S10.md       # Mini Project 2: Contact Manager
 ├── 💻 src/
 │   ├── L1/

@@ -1,5 +1,5 @@
 # Filename: src/L1/S4/03_number_guessing_game.py
-# Session 4: Hero demo — one guess only; loops for multiple tries come in Session 5.
+# Session 4: Hero demo — one guess only; loops for multiple tries come in Session 6.
 
 import random
 
@@ -8,7 +8,7 @@ print("🎯 NUMBER GUESSING GAME 🎯")
 print("=" * 40)
 print("\nI'm thinking of a number between 1 and 10.")
 print("Can you guess it?\n")
-print("One attempt in this script—next session we add loops for many tries.\n")
+print("One attempt in this script—Session 6 (loops) adds many tries.\n")
 print(
     "Use a whole number for your guess (letters will error until we learn handling).\n"
 )

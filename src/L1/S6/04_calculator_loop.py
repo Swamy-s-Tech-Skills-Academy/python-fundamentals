@@ -1,11 +1,11 @@
 # Filename: src/L1/S6/04_calculator_loop.py
-# Session 5 Capstone: Loop Calculator
+# Session 6 capstone: Loop Calculator
 # Run from any directory: python src/L1/S6/04_calculator_loop.py
 #
 # Concepts practised: while True, break, continue
 # Builds on: Mini Project 1 (one-run calculator)
 
-print("=== Session 5 Capstone: Loop Calculator ===")
+print("=== Session 6 Capstone: Loop Calculator ===")
 print("Operations: +  -  *  /")
 print("Type q to quit.\n")
 
