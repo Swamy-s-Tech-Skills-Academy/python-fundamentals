@@ -1,17 +1,19 @@
-"""Day 2: Basic Data Types and Variables.
+"""Day 2: Basic data types and variables.
+
+Builds on Day 1: instead of only printing literals, you give values names and
+inspect them with type().
 
 What you practice here:
-- Python's four primary data types: int, float, str, bool
-- Using the type() function to inspect any value
-- Assigning values to variables and reassigning them
-- Deleting a variable with del and understanding NameError
+- Core types you will use everywhere: int, float, str, bool
+- type() to see what kind of value you are holding
+- Assignment, reassignment, and (briefly) del / NameError
 """
 
 # Filename: src/Working/Module1/02_sample.py
 
 import sys
 
-HELP_TEXT = """sample1.py
+HELP_TEXT = """02_sample.py
 
 Purpose
     Demonstrate basic data types (int, float, str, bool),
@@ -19,32 +21,35 @@ Purpose
     using a coffee shop inventory as the working context.
 
 Usage
-    python sample1.py
+    python 02_sample.py
+
+Next script
+    03_sample.py - make names and layout readable (PEP 8 style).
 """
 
 
 def demo_data_types() -> None:
     """Show the four primary data types and arithmetic with them."""
 
-    print("--- Numbers ---")
-    print(48)  # int  — number of cups in stock
-    print(3.75)  # float — price per cup
-    print(48 * 3.75)  # int * float → float  (total stock value)
-    print(1.50 + 0.80)  # float arithmetic   (espresso + milk surcharge)
+    print("=== Numbers ===")
+    print(48)  # int - number of cups in stock
+    print(3.75)  # float - price per cup
+    print(48 * 3.75)  # int * float -> float (total stock value)
+    print(1.50 + 0.80)  # float arithmetic (espresso + milk surcharge)
 
-    print("\n--- Strings ---")
+    print("\n=== Strings ===")
     print("espresso")
-    print("flat white")  # single quotes work the same as double quotes
+    print("flat white")  # could also use 'flat white' - same string type
 
-    print("\n--- Booleans in arithmetic ---")
-    print(True * 48)  # True == 1  →  48 (full stock)
-    print(False * 48)  # False == 0 →   0 (nothing available)
+    print("\n=== Booleans in arithmetic ===")
+    print(True * 48)  # True counts as 1 in numeric context -> 48 (full stock)
+    print(False * 48)  # False counts as 0 -> 0 (nothing available)
 
 
 def demo_type_function() -> None:
     """Show how type() reveals the data type of any value."""
 
-    print("--- type() ---")
+    print("=== type() ===")
     print(type(3.75))  # <class 'float'>
     print(type(48))  # <class 'int'>
     print(type("espresso"))  # <class 'str'>
@@ -55,7 +60,7 @@ def demo_type_function() -> None:
 def demo_variables() -> None:
     """Show variable assignment, reassignment, del, and NameError."""
 
-    print("--- Assignment ---")
+    print("=== Assignment ===")
     menu_item = "latte"
     print(menu_item)  # latte
 
@@ -64,17 +69,17 @@ def demo_variables() -> None:
     item_is_available = True
     print(units_in_stock, unit_price_gbp, item_is_available)  # 48  3.75  True
 
-    print("\n--- Arithmetic with variables ---")
+    print("\n=== Arithmetic with variables ===")
     # Variables hold the actual values, so maths works just like literals
     addon_price = 0.50
     checkout_total = unit_price_gbp + addon_price
     print(checkout_total)  # 4.25
 
-    print("\n--- Reassignment ---")
+    print("\n=== Reassignment ===")
     menu_item = "flat white"
-    print(menu_item)  # flat white — previous value is gone
+    print(menu_item)  # flat white - previous string is replaced
 
-    print("\n--- del and NameError ---")
+    print("\n=== del and NameError ===")
     menu_item = "cappuccino"
     print(menu_item)  # cappuccino
     del menu_item
@@ -82,7 +87,7 @@ def demo_variables() -> None:
     #   NameError: name 'menu_item' is not defined
     # Tip: comment out del menu_item above if you need to reuse it later.
 
-    print("\n--- type() on variables ---")
+    print("\n=== type() on variables ===")
     units_in_stock = 48
     unit_price_gbp = 3.75
     item_is_available = True
@@ -95,6 +100,10 @@ def main(argv: list[str]) -> int:
     if any(arg in {"-h", "--help"} for arg in argv[1:]):
         print(HELP_TEXT)
         return 0
+
+    print(
+        "Day 2: Give values names, then use type() to check what you stored.\n"
+    )
 
     demo_data_types()
     print()

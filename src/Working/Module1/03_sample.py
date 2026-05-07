@@ -1,31 +1,35 @@
-"""Day 2: PEP 8 — Writing Readable Python Code.
+"""Day 3: PEP 8 - writing readable Python code.
+
+Builds on Day 2: you already know int, float, str, and bool. Here the focus is
+how to *name* and *layout* that data so other humans (and future-you) can scan
+the file quickly.
 
 What you practice here:
-- Choosing meaningful, descriptive variable names
-- Using snake_case (underscores, no spaces)
-- Applying 4-space indentation correctly
-- Spacing rules around brackets and operators
-- Writing clear, well-formed comments
+- Meaningful names and snake_case
+- Four-space indentation and tidy line breaks
+- Spacing near brackets, commas, and operators
+- Comments that explain intent, not noise
 
 Why PEP 8 matters:
-    PEP 8 (Python Enhancement Proposal 8) is the official style guide
-    for Python, authored by Guido van Rossum in 2001. It exists so
-    that code written by many different people still reads as if one
-    person wrote it — making collaboration and maintenance far easier.
+    PEP 8 is the community style guide. Shared habits mean every file in a
+    team project feels familiar, which makes reviews and debugging faster.
 """
 
 # Filename: src/Working/Module1/03_sample.py
 
 import sys
 
-HELP_TEXT = """pep8_style.py
+HELP_TEXT = """03_sample.py
 
 Purpose
     Demonstrate PEP 8 naming, indentation, spacing, and comment rules
     using a weather-station data scenario as the working context.
 
 Usage
-    python pep8_style.py
+    python 03_sample.py
+
+Next script
+    04_sample.py - chain assignments and convert between types on purpose.
 """
 
 
@@ -33,11 +37,11 @@ Usage
 # 1. Naming Conventions
 # ---------------------------------------------------------------------------
 # Rule: names should be specific enough that a reader knows exactly
-#       what the variable holds — avoid single letters or vague words.
+#       what the variable holds - avoid single letters or vague words.
 # Rule: use underscores to separate words in a name (snake_case).
 #
-#   BAD  → t, temp, data, val
-#   GOOD → temperature_celsius, wind_speed_kmh, station_is_online
+#   BAD:  t, temp, data, val
+#   GOOD: temperature_celsius, wind_speed_kmh, station_is_online
 
 
 def demo_naming() -> None:
@@ -64,11 +68,11 @@ def demo_naming() -> None:
 
 
 # ---------------------------------------------------------------------------
-# 2. Indentation — 4 spaces per level
+# 2. Indentation - 4 spaces per level
 # ---------------------------------------------------------------------------
 # Rule: each inner block is indented by exactly 4 spaces.
 # Rule: when a function call has too many arguments to fit on one line,
-#       wrap them — starting the continuation on the NEXT line with an
+#       wrap them - starting the continuation on the NEXT line with an
 #       extra indent level (not on the same line as the opening bracket).
 
 
@@ -105,11 +109,11 @@ def demo_indentation() -> None:
 # Rule: NO space immediately before ) or ] or }
 # Rule: NO space before a comma or colon; ONE space after them
 #
-#   BAD  → readings[ 0 ]   or   readings [0]
-#   GOOD → readings[0]
+#   BAD:  readings[ 0 ]   or   readings [0]
+#   GOOD: readings[0]
 #
-#   BAD  → record_reading( "WS-04" , 22.4 )
-#   GOOD → record_reading("WS-04", 22.4)
+#   BAD:  record_reading( "WS-04" , 22.4 )
+#   GOOD: record_reading("WS-04", 22.4)
 
 
 def demo_bracket_spacing() -> None:
@@ -134,8 +138,8 @@ def demo_bracket_spacing() -> None:
 # Rule: put ONE space on each side of binary operators
 #       (+  -  *  /  //  %  **  =  ==  !=  <  >  <=  >=)
 #
-#   BAD  → avg=total/count   or   avg=total /count
-#   GOOD → avg = total / count
+#   BAD:  avg=total/count   or   avg=total /count
+#   GOOD: avg = total / count
 
 
 def demo_operator_spacing() -> None:
@@ -215,6 +219,10 @@ def main(argv: list[str]) -> int:
     if any(arg in {"-h", "--help"} for arg in argv[1:]):
         print(HELP_TEXT)
         return 0
+
+    print(
+        "Day 3: Syntax still works with messy style - PEP 8 keeps it readable.\n"
+    )
 
     demo_naming()
     print()

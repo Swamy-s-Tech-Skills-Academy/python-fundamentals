@@ -1,4 +1,8 @@
-"""Day 7: Exploring print() arguments in depth."""
+"""Day 7: print() with sep and end.
+
+Builds on Day 1: plain print(items) prints each piece with spaces and ends with a
+new line by default. This file tweaks those defaults for cleaner output.
+"""
 
 # Filename: src/Working/Module1/07_sample.py
 
@@ -14,8 +18,11 @@ Usage
 
 Topics Covered
     - Printing multiple values with commas
-    - Using sep to customize separators
-    - Using end to control line breaks
+    - sep to change what goes between pieces
+    - end to suppress or extend the trailing newline
+
+Next script
+    08_sample.py - escapes inside strings (including \\n in text).
 """
 
 
@@ -23,6 +30,10 @@ def main(argv: list[str]) -> int:
     if any(arg in {"-h", "--help"} for arg in argv[1:]):
         print(HELP_TEXT)
         return 0
+
+    print(
+        "Day 7: print can join values and choose what happens after the line.\n"
+    )
 
     age = 29
     sentence = "My age is"
