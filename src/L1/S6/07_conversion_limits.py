@@ -7,11 +7,10 @@ Teaching arc:
   3. try/except ValueError — catch a conversion that cannot succeed
      and explain why (preview of formal error-handling in S7)
 
-Promoted from: src/Working/day4/sample.py
+Promoted from: src/Working/Module1/05_sample.py
 """
 
-# Filename: src/L1/S2/07_conversion_limits.py
-# Session 2: Variables & Data Types
+# Filename: src/L1/S6/07_conversion_limits.py
 
 import sys
 
@@ -23,7 +22,7 @@ Purpose
     and int() on a word string raises ValueError.
 
 Usage
-    python 07_conversion_limits.py
+    python src/L1/S6/07_conversion_limits.py
 """
 
 
@@ -88,7 +87,7 @@ def demo_value_error() -> None:
     print(f"  Attempting int({label!r}) ...")
     try:
         result = int(label)
-        print(f"  Result: {result}")          # never reached
+        print(f"  Result: {result}")  # never reached
     except ValueError as err:
         print(f"  ValueError caught: {err}")
 

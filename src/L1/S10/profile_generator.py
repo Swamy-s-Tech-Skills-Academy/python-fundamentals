@@ -1,4 +1,4 @@
-# Filename: src/L1/S10_MP2/profile_generator.py
+# Filename: src/L1/S10/profile_generator.py
 
 """
 👤 Personal Profile Generator

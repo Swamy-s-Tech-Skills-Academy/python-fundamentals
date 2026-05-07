@@ -46,10 +46,23 @@
 
 - **BORROW** concepts, misconceptions, and exercise patterns only; do not reuse exact wording, order, or narration.
 - Treat `source-material/` files as internal instructor notes; rewrite all curriculum text in a fresh structure and voice.
-- Promote sandbox examples from `src/Working/` only after cleanup, renaming, and alignment with session outcomes.
+- Promote sandbox examples from `src/Working/` only after cleanup, renaming, and alignment with session outcomes — and only when Swamy explicitly asks you to edit or promote those Working files.
 - Keep published session references on formal paths (`src/L{level}/S{session}/`) and never on sandbox paths.
 - Apply normal quality gates to imported ideas: clarity, technical correctness, and beginner-level pedagogy.
 - This policy is internal operating guidance and should not be written into publish-facing curriculum docs.
+
+### **6. 🗂️ SESSION BUCKETING SAFETY (New Content Placement)**
+
+- Treat `docs/meetup/L1/meetup-sessions.md` (status table) as the placement guard for Level 1 meetup updates.
+- New content from `source-material/` or `src/Working/` must be added to planned/new sessions by default.
+- Do **not** inject new educational content into already completed sessions unless the user explicitly approves it.
+- If status is ambiguous, stop and ask for permission before placing content.
+
+### **7. 🛑 HANDS-OFF: `src/Working/` (unless Swamy requests it)**
+
+- **Do not** create, edit, move, rename, or delete anything under `src/Working/` **unless Swamy explicitly asks** for that Working path or folder in the current task.
+- Use `src/L{level}/S{session}/` and `docs/sessions/` for routine curriculum fixes; read **`docs/RepositoryStructure.md`** (section **src/Working/**) only for routing context when advising on promotion.
+- Mass refactors or repo-wide formatting must **not** touch `src/Working/` unless the task scope names it.
 
 ---
 
@@ -81,20 +94,23 @@ python-fundamentals/
 │   │   │   ├── 01_hello.py
 │   │   │   ├── 02_interactive_hello.py
 │   │   │   └── bytecode_demo.py
-│   │   ├── S2/ ... S9/      # Numbered session folders for regular sessions (mini projects are separate)
-│   │   ├── S5_MP1/          # Session 5 Mini Project 1 files
-│   │   │   ├── 01_simple_calculator.py
+│   │   ├── S2/ ... S4/      # Sessions 2–4 practice files
+│   │   ├── S5/              # Session 5 – Mini Project 1 files
+│   │   │   ├── 01_PEP8_naming_and_spacing.py
+│   │   │   ├── 02_del_and_bool_arithmetic.py
+│   │   │   ├── 03_simple_calculator.py
 │   │   │   └── calculator_utils.py
-│   │   └── S10_MP2/         # Session 10 Mini Project 2 files
+│   │   ├── S6/ ... S9/      # Sessions 6–9 practice files
+│   │   └── S10/             # Session 10 – Mini Project 2 files
 │   │       └── profile_generator.py
 │   ├── L2/                  # Level 2 practice files
-│   │   ├── S1/ ... S9/      # Numbered session folders for regular sessions (mini projects are separate)
-│   │   ├── S5_MP1/
-│   │   └── S10_MP2/
-│   └── Working/             # Sandbox staging area for live-coding samples
-│       ├── day1/            # Day 1 session samples (informal, exploratory)
-│       ├── day2/            # Day 2 session samples
-│       └── dayN/            # Subsequent day samples (bucket into L{n}/S{n}/ when ready)
+│   │   ├── S1/ ... S4/      # Sessions 1–4 practice files
+│   │   ├── S5/              # Session 5 – Mini Project 1 files
+│   │   ├── S6/ ... S9/      # Sessions 6–9 practice files
+│   │   └── S10/             # Session 10 – Mini Project 2 files
+│   └── Working/             # Sandbox — see docs/RepositoryStructure.md (hands-off unless Swamy asks)
+│       ├── Module1/         # Foundational drafts (→ L1/S1 or L1/S2)
+│       └── S5/ … S10/           # Staging → matching formal L1 folders
 └── README.md                # Project overview and quick start
 ```
 
@@ -106,7 +122,7 @@ python-fundamentals/
 - `docs/sessions/L2/_Plan.md` → Overall curriculum structure
 - `docs/01_Python-Fundamentals-MasterPlan.md` → Master roadmap across all levels
 - `README.md` → Entry point with navigation links
-- `src/Working/dayN/` → Sandbox samples; promoted to `src/L{level}/S{session}/` when ready
+- `docs/RepositoryStructure.md` (**src/Working/**) → routing from staging (`Module1/`, `S5/` … `S10/`) to formal `src/L{level}/S{session}/` (do not edit Working files unless Swamy requests)
 
 ---
 
@@ -116,7 +132,7 @@ python-fundamentals/
 
 | `src/Working/` | `src/L{level}/S{session}/` |
 |---|---|
-| Informal, exploratory, day-based folders (`day1/`, `day2/`) | Formal, numbered, tested practice files |
+| Informal staging (`Module1/`, `S5/` … `S10/`; see `docs/RepositoryStructure.md`; **hands-off unless Swamy asks**) | Formal, numbered, tested practice files |
 | Flexible file names (`hello_world.py`, `sample1.py`) | `01_name.py` convention, polished |
 | Work-in-progress | Production-quality curriculum |
 
@@ -130,7 +146,7 @@ python-fundamentals/
 
 ### Standard file template
 
-The pattern from `src/Working/day1/hello_world.py` is the **preferred template** for both Working and promoted files:
+The `main(argv)` / `HELP_TEXT` / `raise SystemExit` pattern (see `src/Working/Module1/01_sample.py` or `src/L1/S1/01_hello.py`) is the **preferred template** for Working drafts and promoted files:
 
 ```python
 """Module docstring explaining what the file demonstrates."""
@@ -304,7 +320,7 @@ docs/sessions/L1/S1.md
 
 **CRITICAL**: All file references must:
 
-- ✅ Keep Python practice file prefixes (`01_`, `02_`, etc.) and use exact existing session doc names (`S1.md`, `S5_MP1.md`, etc.)
+- ✅ Keep Python practice file prefixes (`01_`, `02_`, etc.) and use exact existing session doc names (`S1.md`, `S5.md`, `S10.md`, etc.)
 - ✅ Use correct `L{level}/S{session}/` directory structure
 - ✅ Match actual file names exactly
 - ✅ Be verified before committing

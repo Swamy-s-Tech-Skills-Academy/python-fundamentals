@@ -21,10 +21,17 @@
 
 ✅ Borrow concepts and misconception patterns; do not reuse original wording, section order, or narration from source notes  
 ✅ Treat `source-material/` as internal instructor intake only; curriculum output must be rewritten in fresh structure and voice  
-✅ Promote `src/Working/` examples only after cleanup, renaming, and session-outcome alignment  
+✅ Promote `src/Working/` examples only after cleanup, renaming, and session-outcome alignment — **and only when Swamy explicitly asks** you to edit or promote those Working files (otherwise leave `src/Working/` unchanged)  
 ✅ Keep publish-facing references on formal paths (`src/L{level}/S{session}/`), never sandbox paths  
+✅ Route newly added content to planned/new sessions first; avoid backfilling completed sessions by default  
 ✅ Apply the same quality gates to imported ideas: clarity, technical correctness, and beginner pedagogy  
 ❌ Do not place internal intake-policy process blocks inside publish-facing curriculum docs
+
+### Completed Session Permission Rule
+
+✅ Use `docs/meetup/L1/meetup-sessions.md` status table as placement context for Level 1 meetup updates  
+❌ Do not insert new learning content into sessions marked completed without explicit user permission  
+✅ If there is any ambiguity in status or target session, ask before placing content
 
 ---
 
@@ -240,9 +247,9 @@ Every session documentation file MUST include:
 - ✅ Example: `01_hello.py`, `02_interactive_hello.py`, `bytecode_demo.py`
 
 **Session Documentation** (docs/sessions/L{level}/):
-- ✅ Use existing session doc naming: `S1.md`, `S2.md`, `S5_MP1.md`, `S10_MP2.md`, `_Plan.md`
+- ✅ Use existing session doc naming: `S1.md`, `S2.md`, `S5.md`, `S10.md`, `_Plan.md`
 - ✅ Format: `S{session}.md`, `S{session}_MP{number}.md`, or `_Plan.md` (underscore prefix sorts first)
-- ✅ Example: `L1/S1.md`, `L1/S2.md`, `L1/S5_MP1.md`, `L1/_Plan.md`
+- ✅ Example: `L1/S1.md`, `L1/S2.md`, `L1/S5.md`, `L1/_Plan.md`
 
 **Directory Structure**:
 - ✅ Levels: Always use `L{number}` format (L1, L2, L3, etc.)
@@ -390,7 +397,7 @@ print('Hello, World!')
 
 **Session Documentation** (docs/sessions/L{level}/):
 - Store all session documentation in `docs/sessions/L{level}/` directories
-- Format: `S1.md`, `S2.md`, `S5_MP1.md`, `S10_MP2.md`, `_Plan.md` (underscore prefix sorts first)
+- Format: `S1.md`, `S2.md`, `S5.md`, `S10.md`, `_Plan.md` (underscore prefix sorts first)
 - Each session should reference practice files in `src/L{level}/S{session}/`
 
 **Practice Code** (src/L{level}/S{session}/):
@@ -583,7 +590,7 @@ Before committing:
 
 #### 3. File Naming Review
 - [ ] Python files use numeric prefixes: `01_`, `02_`, etc.
-- [ ] Session docs use format: `S1.md`, `S2.md`, `S5_MP1.md`, `S10_MP2.md`, `_Plan.md`
+- [ ] Session docs use format: `S1.md`, `S2.md`, `S5.md`, `S10.md`, `_Plan.md`
 - [ ] Directory structure uses: `L{level}/S{session}/`
 - [ ] All paths are consistent
 

@@ -1,4 +1,4 @@
-# Filename: src/L2/S10_MP2/contact_manager.py
+# Filename: src/L2/S10/contact_manager.py
 
 """
 📱 Contact Manager - Level 2 Mini Project 2

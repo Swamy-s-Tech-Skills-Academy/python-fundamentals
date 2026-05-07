@@ -6,11 +6,10 @@ Teaching arc:
      to different names in a single statement
   3. Variable swap — swap two values without a temporary variable
 
-Promoted from: src/Working/day3/sample.py
+Promoted from: src/Working/Module1/04_sample.py
 """
 
-# Filename: src/L1/S2/06_chained_and_multi_assignment.py
-# Session 2: Variables & Data Types
+# Filename: src/L1/S6/06_chained_and_multi_assignment.py
 
 import sys
 
@@ -21,7 +20,7 @@ Purpose
     a shared value and tuple unpacking for paired or swapped values.
 
 Usage
-    python 06_chained_and_multi_assignment.py
+    python src/L1/S6/06_chained_and_multi_assignment.py
 """
 
 
