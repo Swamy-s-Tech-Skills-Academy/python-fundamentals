@@ -2,7 +2,7 @@
 
 """
 🔄 Complete File Operations with Error Handling
-Level 2, Session 7: File Handling
+Level 2, Session 8: File Handling
 
 This file demonstrates practical file operations including
 error handling, file existence checks, and real-world patterns.

@@ -1,5 +1,5 @@
 # Filename: src/L2/S6/03_return_values.py
-# Session 5: Functions - Return Values
+# Session 6: Functions - Return Values
 
 
 # Function that returns a value

@@ -1,5 +1,5 @@
 # Filename: src/L2/S7/01_local_scope.py
-# Session 6: Functions - Local Scope
+# Session 7: Functions - Local Scope
 
 
 def function_a():

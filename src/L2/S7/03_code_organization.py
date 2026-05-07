@@ -1,5 +1,5 @@
 # Filename: src/L2/S7/03_code_organization.py
-# Session 6: Functions - Code Organization
+# Session 7: Functions - Code Organization
 
 
 def get_user_input():

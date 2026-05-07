@@ -2,7 +2,7 @@
 
 """
 🔑 Understanding __name__ and __main__
-Level 2, Session 8: Modules Deep Dive & Code Organization
+Level 2, Session 9: Modules Deep Dive & Code Organization
 
 This file demonstrates the important __name__ == "__main__" pattern
 that controls when code runs.
