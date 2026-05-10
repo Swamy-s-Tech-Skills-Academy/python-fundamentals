@@ -8,12 +8,12 @@
 | Session 2 | Completed |
 | Session 3 | Completed |
 | Session 4 | Completed |
-| Session 5 (MP1) | Ready |
+| Session 5 (MP 1) | Ready |
 | Session 6 | Planned |
 | Session 7 | Pending |
 | Session 8 | Pending |
 | Session 9 | Pending |
-| Session 10 | Pending |
+| Session 10 (MP 2) | Pending |
 
 ## Level 1 - Session 6: Loops & Iteration
 
@@ -58,7 +58,7 @@ Perfect For:
 
 ---
 
-## Level 1 - Session 5 (MP1): Mini Project 1 — Simple Calculator
+## Level 1 - Session 5 (MP 1): Mini Project 1 — Simple Calculator
 
 Date: To be announced (ready)
 
