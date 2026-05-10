@@ -59,6 +59,8 @@ def main(argv: list[str]) -> int:
     print("\n=== Expression precedence (inner parens first) ===")
     a = (2 + 5) ** (2 ** (1 * 4 / 4) / 2)
     print("a =", a)
+    print("-3 ** 2 =", -3**2, "(same as -(3**2))")
+    print("(-3) ** 2 =", (-3) ** 2, "(parentheses change the base)")
 
     return 0
 
