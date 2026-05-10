@@ -1,4 +1,4 @@
-"""Session 6 (S7): PEP 8 — Indentation and multi-line argument wrapping.
+"""Session 7: PEP 8 — Indentation and multi-line argument wrapping.
 
 Teaching arc:
   1. The 4-space rule — every nested block indents by exactly 4 spaces
@@ -11,7 +11,7 @@ Promoted from: src/Working/Module1/03_sample.py (prior draft: pep8_style.py)
 """
 
 # Filename: src/L1/S7/05_pep8_indentation.py
-# Session 6 (file S7): Debugging & Built-ins
+# Session 7: Debugging & Built-ins
 
 import sys
 

@@ -2,7 +2,7 @@
 
 """
 🏗️ Building a Multi-File Project
-Level 2, Session 8: Modules Deep Dive & Code Organization
+Level 2, Session 9: Modules Deep Dive & Code Organization
 
 This file demonstrates how to organize code across multiple files
 for a real-world project structure.

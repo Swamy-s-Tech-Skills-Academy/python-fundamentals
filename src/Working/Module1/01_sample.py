@@ -16,27 +16,33 @@ Why we need single quotes, double quotes, and triple quotes:
     It keeps blocks like help text, banners, and explanations easy to read.
 
 Try it:
-- Run: `python hello_world.py`
-- Help: `python hello_world.py --help`
+- Run: `python 01_sample.py`
+- Help: `python 01_sample.py --help`
+
+Next idea:
+- Once printing feels easy, compare `02_sample.py` (values, types, and variables).
 """
 
 # Filename: src/Working/Module1/01_sample.py
 
 import sys
 
-HELP_TEXT = """hello_world.py
+HELP_TEXT = """01_sample.py
 
 Purpose
     Practice printing text to the screen.
 
 Usage
-    python hello_world.py
+    python 01_sample.py
 
 Notes
     - Edit the messages and run again to see changes.
     - The examples show different ways to write string literals.
     - `'...'` and `"..."` are one-line strings; choose what avoids escaping.
     - Triple quotes are useful for multi-line strings and documentation.
+
+Next script
+    02_sample.py - store values in variables and ask what type they are.
 """
 
 
@@ -45,24 +51,24 @@ def main(argv: list[str]) -> int:
         print(HELP_TEXT)
         return 0
 
-    print("Hello Data Science")
+    print("Day 1: Printing is your first feedback loop - you see what Python evaluated.\n")
 
+    print("=== Basic print() examples ===")
+    print("Hello Data Science")
     print("Hello Friends")
-
     print("Hello Data Science")
-
     print("Hello Data Science")
-
     print("""Hello Data Science""")
 
     print(
         'the name of the python programming language does not come from "python snake"'
     )
 
+    print("\n=== Quote style examples ===")
     print("It's my pleasure")
-
     print("""It's my pleasure""")
 
+    print("\n=== Multi-line banner (triple quotes) ===")
     print("""
 [H]=========ALICVDR=======[-][o][x]
 |                                 |

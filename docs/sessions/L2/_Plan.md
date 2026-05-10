@@ -170,10 +170,10 @@ ASCII fallback:
     |
     v
 [📘 Phase B: File Operations & Advanced Functions]
-    ├─ [🔧 Session 5: Functions: Parameters]
-    ├─ [🔧 Session 6: Functions: Scope]
-    ├─ [📁 Session 7: Text File I/O]
-    ├─ [📦 Session 8: Modules Deep Dive]
+    ├─ [🔧 Session 6: Functions: Parameters]
+    ├─ [🔧 Session 7: Functions: Scope]
+    ├─ [📁 Session 8: Text File I/O]
+    ├─ [📦 Session 9: Modules Deep Dive]
     └─ [🚀 MP2: Mini Project 2: Contact Manager]
     |
     v
@@ -267,7 +267,7 @@ ASCII fallback:
 
 ## 📅 **Phase B: File Operations & Advanced Functions**
 
-### 🔄 Session 5: Functions: Parameters & Return Values
+### 🔄 Session 6: Functions: Parameters & Return Values
 
 * Function parameters: positional, keyword, default values
 * Multiple parameters and parameter order
@@ -281,7 +281,7 @@ ASCII fallback:
 
 ---
 
-### 🔄 Session 6: Functions: Scope & Code Organization
+### 🔄 Session 7: Functions: Scope & Code Organization
 
 * Variable scope: local vs global
 * When to use global variables (rarely!)
@@ -295,7 +295,7 @@ ASCII fallback:
 
 ---
 
-### 🔄 Session 7: File Handling: Reading & Writing Text Files
+### 🔄 Session 8: File Handling: Reading & Writing Text Files
 
 * Opening files: `open()` function
 * File modes: `'r'`, `'w'`, `'a'`, `'x'`
@@ -311,7 +311,7 @@ ASCII fallback:
 
 ---
 
-### 🔄 Session 8: Modules Deep Dive & Code Organization
+### 🔄 Session 9: Modules Deep Dive & Code Organization
 
 * Creating your own modules
 * `__name__` and `__main__`: Understanding module execution

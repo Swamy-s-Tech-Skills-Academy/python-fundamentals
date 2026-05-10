@@ -1,6 +1,6 @@
 # Filename: src/L1/S7/04_pep8_style_refactor.py
 
-"""PEP 8 warm-up demo for Session 6.
+"""PEP 8 warm-up demo for Session 7.
 
 Focus:
 - meaningful names

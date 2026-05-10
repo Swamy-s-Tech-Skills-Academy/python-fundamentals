@@ -1,5 +1,5 @@
 # Filename: src/L2/S7/02_global_scope.py
-# Session 6: Functions - Global Scope
+# Session 7: Functions - Global Scope
 
 # Global variable
 name = "Alice"

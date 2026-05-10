@@ -1,5 +1,5 @@
 # Filename: src/L2/S6/02_parameter_types.py
-# Session 5: Functions - Parameter Types
+# Session 6: Functions - Parameter Types
 
 
 # Default parameters

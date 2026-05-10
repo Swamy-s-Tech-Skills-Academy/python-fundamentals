@@ -2,7 +2,7 @@
 
 """
 ✍️ Writing Text Files in Python
-Level 2, Session 7: File Handling
+Level 2, Session 8: File Handling
 
 This file demonstrates how to write and append to text files.
 """

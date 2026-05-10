@@ -1,5 +1,5 @@
 # Filename: src/L2/S6/01_basic_parameters.py
-# Session 5: Functions - Parameters
+# Session 6: Functions - Parameters
 
 
 # Function with one parameter
