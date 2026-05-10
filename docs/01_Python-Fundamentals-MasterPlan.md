@@ -89,7 +89,7 @@
 - **PEP 8 intro** (naming, spacing, comments) + **Error reading skills** and built-in functions (`len()`, `max()`, `min()`, `sum()`, `abs()`, `round()`)
 - Lists fundamentals with iteration and basic operations
 - Dictionaries (key-value pairs) with **basic testing using `assert`**
-- **Mini Project 2: Personal Profile Generator** - Applying Sessions 5-8 concepts
+- **Mini Project 2: Personal Profile Generator** - Applying Sessions 5-9 concepts
 
 **Mini Projects:**
 
