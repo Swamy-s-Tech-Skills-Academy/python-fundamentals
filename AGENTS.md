@@ -17,7 +17,7 @@ Repository agent guidance for automation and code assistants.
 
 ## Source Intake Policy
 
-- `source-material/` is internal instructor intake.
+- `source-material/` is an internal, read-only intake folder for instructor notes.
 - Publish-facing docs must be transformative and original.
 - Avoid copying wording, sequence, or examples directly from intake notes.
 

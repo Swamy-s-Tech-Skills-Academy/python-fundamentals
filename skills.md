@@ -13,7 +13,7 @@ Repository-level skill index for contributors and AI assistants.
 
 ## Guardrails
 
-- Treat `source-material/` as internal intake only.
+- Treat `source-material/` as an internal, read-only intake folder.
 - Do not copy source text verbatim into publish-facing documentation.
 - Keep references on formal curriculum paths, not sandbox paths.
 - Default new additions to planned/new sessions; do not inject into completed sessions without explicit user permission.
