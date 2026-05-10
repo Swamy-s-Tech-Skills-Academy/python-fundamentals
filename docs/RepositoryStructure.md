@@ -56,6 +56,11 @@ python-fundamentals/
 │       │   ├── 01_conditionals.py
 │       │   ├── 02_boolean_logic.py
 │       │   └── 03_number_guessing_game.py
+│       ├── S5/             # Session 5 Mini Project 1
+│       │   ├── 01_PEP8_naming_and_spacing.py
+│       │   ├── 02_del_and_bool_arithmetic.py
+│       │   ├── 03_simple_calculator.py
+│       │   └── calculator_utils.py
 │       ├── S6/                 # Session 6 practice files
 │       │   ├── 01_for_loops.py
 │       │   ├── 02_while_loops.py
@@ -78,11 +83,6 @@ python-fundamentals/
 │       │   ├── 01_dict_basics.py
 │       │   ├── 02_dict_iteration.py
 │       │   └── 03_gradebook.py
-│       ├── S5/             # Session 5 Mini Project 1
-│       │   ├── 01_PEP8_naming_and_spacing.py
-│       │   ├── 02_del_and_bool_arithmetic.py
-│       │   ├── 03_simple_calculator.py
-│       │   └── calculator_utils.py
 │       └── S10/            # Session 10 Mini Project 2
 │           └── profile_generator.py
 │   └── L2/
@@ -102,6 +102,8 @@ python-fundamentals/
 │       │   ├── 01_basic_error_handling.py
 │       │   ├── 02_multiple_exceptions.py
 │       │   └── 03_else_finally.py
+│       ├── S5/             # Session 5 Mini Project 1
+│       │   └── data_processor.py
 │       ├── S6/                 # Session 6 practice files
 │       │   ├── 01_basic_parameters.py
 │       │   ├── 02_parameter_types.py
@@ -118,8 +120,6 @@ python-fundamentals/
 │       │   ├── 01_creating_modules.py
 │       │   ├── 02_name_main.py
 │       │   └── 03_multi_file_project.py
-│       ├── S5/             # Session 5 Mini Project 1
-│       │   └── data_processor.py
 │       └── S10/            # Session 10 Mini Project 2
 │           └── contact_manager.py
 │   └── Working/                # Sandbox — bucketing guide: see § `src/Working/` below
