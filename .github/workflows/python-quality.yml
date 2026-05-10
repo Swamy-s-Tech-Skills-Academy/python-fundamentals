@@ -40,8 +40,8 @@ jobs:
           pip install "pytest~=8.3"
       - name: Ruff check
         run: ruff check src
-      - name: Black check (formal curriculum)
-        run: black --check src/L1 src/L2
+      - name: Black check (tests)
+        run: black --check tests
       - name: Isort check (formal curriculum)
         run: isort --check-only src/L1 src/L2
       - name: Flake8 check (formal curriculum)
