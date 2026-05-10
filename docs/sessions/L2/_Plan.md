@@ -56,25 +56,25 @@ sessions:
     type: "Project"
     status: "Ready"
     file: "docs/sessions/L2/S5.md"
-  - session: 5
+  - session: 6
     topic: "Functions: Parameters & Return Values"
     duration: "30 min"
     type: "Knowledge"
     status: "Ready"
     file: "docs/sessions/L2/S6.md"
-  - session: 6
+  - session: 7
     topic: "Functions: Scope & Code Organization"
     duration: "30 min"
     type: "Knowledge"
     status: "Ready"
     file: "docs/sessions/L2/S7.md"
-  - session: 7
+  - session: 8
     topic: "File Handling: Reading & Writing Text Files"
     duration: "30 min"
     type: "Knowledge"
     status: "Ready"
     file: "docs/sessions/L2/S8.md"
-  - session: 8
+  - session: 9
     topic: "Modules Deep Dive & Code Organization"
     duration: "30 min"
     type: "Knowledge"
@@ -112,10 +112,10 @@ sessions:
 | A     | 3       | Functions: Definition & Basics                         | 30 min    | 📚 Knowledge | ✅ Ready 📂    |
 | A     | 4       | Error Handling: try/except Basics                      | 30 min    | 📚 Knowledge | ✅ Ready 📂    |
 | A     | 5 (MP 1) | Mini Project 1: Data Processor *(after Session 4)*   | 30–45 min | 🛠️ Project  | ✅ Ready 📂    |
-| B     | 5       | Functions: Parameters & Return Values                 | 30 min    | 📚 Knowledge | ✅ Ready 📂    |
-| B     | 6       | Functions: Scope & Code Organization                   | 30 min    | 📚 Knowledge | ✅ Ready 📂    |
-| B     | 7       | File Handling: Reading & Writing Text Files           | 30 min    | 📚 Knowledge | ✅ Ready 📂    |
-| B     | 8       | Modules Deep Dive & Code Organization                 | 30 min    | 📚 Knowledge | ✅ Ready 📂    |
+| B     | 6       | Functions: Parameters & Return Values                 | 30 min    | 📚 Knowledge | ✅ Ready 📂    |
+| B     | 7       | Functions: Scope & Code Organization                   | 30 min    | 📚 Knowledge | ✅ Ready 📂    |
+| B     | 8       | File Handling: Reading & Writing Text Files           | 30 min    | 📚 Knowledge | ✅ Ready 📂    |
+| B     | 9       | Modules Deep Dive & Code Organization                 | 30 min    | 📚 Knowledge | ✅ Ready 📂    |
 | B     | 10 (MP 2) | Mini Project 2: Contact Manager *(after 8)*           | 30–45 min | 🛠️ Project  | ✅ Ready 📂    |
 
 ---
@@ -138,10 +138,10 @@ flowchart TB
     end
 
     subgraph PhaseB[📘 Phase B: File Operations & Advanced Functions]
-        C1[🔧 Session 5<br/>Functions: Parameters]
-        C2[🔧 Session 6<br/>Functions: Scope]
-        C3[📁 Session 7<br/>Text File I/O]
-        C4[📦 Session 8<br/>Modules Deep Dive]
+        C1[🔧 Session 6<br/>Functions: Parameters]
+        C2[🔧 Session 7<br/>Functions: Scope]
+        C3[📁 Session 8<br/>Text File I/O]
+        C4[📦 Session 9<br/>Modules Deep Dive]
         C5[🚀 Session 10 (MP 2)<br/>Mini Project 2: Contact Manager]
         C1 --> C2 --> C3 --> C4 --> C5
     end
@@ -170,10 +170,10 @@ ASCII fallback:
     |
     v
 [📘 Phase B: File Operations & Advanced Functions]
-    ├─ [🔧 Session 5: Functions: Parameters]
-    ├─ [🔧 Session 6: Functions: Scope]
-    ├─ [📁 Session 7: Text File I/O]
-    ├─ [📦 Session 8: Modules Deep Dive]
+    ├─ [🔧 Session 6: Functions: Parameters]
+    ├─ [🔧 Session 7: Functions: Scope]
+    ├─ [📁 Session 8: Text File I/O]
+    ├─ [📦 Session 9: Modules Deep Dive]
     └─ [🚀 Session 10 (MP 2): Mini Project 2: Contact Manager]
     |
     v
