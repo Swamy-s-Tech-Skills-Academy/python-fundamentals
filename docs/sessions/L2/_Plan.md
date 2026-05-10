@@ -170,10 +170,10 @@ ASCII fallback:
     |
     v
 [📘 Phase B: File Operations & Advanced Functions]
-    ├─ [🔧 Session 6: Functions: Parameters]
-    ├─ [🔧 Session 7: Functions: Scope]
-    ├─ [📁 Session 8: Text File I/O]
-    ├─ [📦 Session 9: Modules Deep Dive]
+    ├─ [🔧 Session 5: Functions: Parameters]
+    ├─ [🔧 Session 6: Functions: Scope]
+    ├─ [📁 Session 7: Text File I/O]
+    ├─ [📦 Session 8: Modules Deep Dive]
     └─ [🚀 MP2: Mini Project 2: Contact Manager]
     |
     v

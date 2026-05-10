@@ -302,4 +302,4 @@ print("=" * 50)
 
 cleanup_demo_files()
 
-print("\n✨ Session 7 complete! You've learned file handling! 📁")
+print("\n✨ Session 8 complete! You've learned file handling! 📁")
