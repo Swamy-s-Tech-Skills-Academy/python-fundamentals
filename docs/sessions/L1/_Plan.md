@@ -47,7 +47,7 @@ sessions:
     type: "Knowledge"
     status: "Ready"
     file: "docs/sessions/L1/S4.md"
-  - session: "MP1"
+  - session: "5 (MP 1)"
     topic: "Mini Project 1: Simple Calculator"
     duration: "30–45 min"
     type: "Project"
@@ -77,7 +77,7 @@ sessions:
     type: "Knowledge"
     status: "Ready"
     file: "docs/sessions/L1/S9.md"
-  - session: "MP2"
+  - session: "10 (MP 2)"
     topic: "Mini Project 2: Personal Profile Generator"
     duration: "30–45 min"
     type: "Project"
@@ -108,12 +108,12 @@ sessions:
 | A     | 2       | Variables & Data Types                                 | 30 min    | 📚 Knowledge | ✅ Ready   |
 | A     | 3       | Operators & Expressions                                | 30 min    | 📚 Knowledge | ✅ Ready   |
 | A     | 4       | Conditionals, Indentation & Introduction to Modules    | 30 min    | 📚 Knowledge | ✅ Ready   |
-| A     | 🚀 MP1  | Mini Project 1: Simple Calculator *(after Session 4)*  | 30–45 min | 🛠️ Project   | ✅ Ready   |
+| A     | 5 (MP 1) | Mini Project 1: Simple Calculator *(after Session 4)*  | 30–45 min | 🛠️ Project   | ✅ Ready   |
 | B     | 6       | Loops & Iteration                                      | 30 min    | 📚 Knowledge | ✅ Ready   |
 | B     | 7       | Basic Debugging, Reading Errors & Built-in Functions   | 30 min    | 📚 Knowledge | ✅ Ready   |
 | B     | 8       | Lists & Loops                                          | 30 min    | 📚 Knowledge | ✅ Ready   |
 | B     | 9       | Dictionaries & Basic Testing                           | 30 min    | 📚 Knowledge | ✅ Ready   |
-| B     | 🚀 MP2  | Mini Project 2: Personal Profile Generator *(after Session 9)* | 30–45 min | 🛠️ Project   | ✅ Ready   |
+| B     | 10 (MP 2) | Mini Project 2: Personal Profile Generator *(after Session 9)* | 30–45 min | 🛠️ Project   | ✅ Ready   |
 
 ---
 
@@ -130,7 +130,7 @@ flowchart TB
         B2[📚 Session 2<br/>Variables & Data Types]
         B3[🔢 Session 3<br/>Operators & Expressions]
         B4[🤔 Session 4<br/>Conditionals & Modules]
-        B5[🚀 MP1<br/>Mini Project 1: Calculator]
+        B5[🚀 Session 5 (MP 1)<br/>Mini Project 1: Calculator]
         B1 --> B2 --> B3 --> B4 --> B5
     end
 
@@ -139,7 +139,7 @@ flowchart TB
         C2[🐛 Session 7<br/>Debugging & Built-ins]
         C3[📋 Session 8<br/>Lists & Loops]
         C4[📚 Session 9<br/>Dicts & Testing]
-        C5[🚀 MP2<br/>Mini Project 2: Profile Generator]
+        C5[🚀 Session 10 (MP 2)<br/>Mini Project 2: Profile Generator]
         C1 --> C2 --> C3 --> C4 --> C5
     end
 
@@ -163,7 +163,7 @@ ASCII fallback:
     ├─ [📚 Session 2: Variables & Data Types]
     ├─ [🔢 Session 3: Operators & Expressions]
     ├─ [🤔 Session 4: Conditionals & Modules]
-    └─ [🚀 MP1: Mini Project 1: Calculator]
+    └─ [🚀 Session 5 (MP 1): Mini Project 1: Calculator]
     |
     v
 [📘 Phase B: Expanding Skills]
@@ -171,7 +171,7 @@ ASCII fallback:
     ├─ [🐛 Session 7: Debugging & Built-ins]
     ├─ [📋 Session 8: Lists & Loops]
     ├─ [📚 Session 9: Dicts & Testing]
-    └─ [🚀 MP2: Mini Project 2: Profile Generator]
+    └─ [🚀 Session 10 (MP 2): Mini Project 2: Profile Generator]
     |
     v
 [🎓 Nerd]
