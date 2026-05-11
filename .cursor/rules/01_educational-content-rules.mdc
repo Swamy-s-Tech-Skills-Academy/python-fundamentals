@@ -248,7 +248,7 @@ Every session documentation file MUST include:
 
 **Session Documentation** (docs/sessions/L{level}/):
 - ✅ Use existing session doc naming: `S1.md`, `S2.md`, `S5.md`, `S10.md`, `_Plan.md`
-- ✅ Format: `S{session}.md`, `S{session}_MP{number}.md`, or `_Plan.md` (underscore prefix sorts first)
+- ✅ Format: `S{session}.md` or `_Plan.md` (underscore prefix sorts first)
 - ✅ Example: `L1/S1.md`, `L1/S2.md`, `L1/S5.md`, `L1/_Plan.md`
 
 **Directory Structure**:
@@ -274,16 +274,16 @@ Every session documentation file MUST include:
 3. **S3**: Operators & Expressions - Calculations and logic
 4. **S4**: Conditionals, Indentation & Modules - Control flow
 5. **MP1**: Mini Project 1: Simple Calculator - Apply Sessions 1-4
-6. **S5**: Loops & Iteration - Repetition and iteration
-7. **S6**: Basic Debugging & Built-in Functions - Error handling
-8. **S7**: Lists & Loops - Data structures
-9. **S8**: Dictionaries & Basic Testing - Advanced data structures
-10. **MP2**: Mini Project 2: Personal Profile Generator - Apply Sessions 5-8
+6. **S6**: Loops & Iteration - Repetition and iteration
+7. **S7**: Basic Debugging & Built-in Functions - Error handling
+8. **S8**: Lists & Loops - Data structures
+9. **S9**: Dictionaries & Basic Testing - Advanced data structures
+10. **MP2**: Mini Project 2: Personal Profile Generator - Apply Sessions 6-9
 
 **Why This Order Matters**:
 
 - Variables (S2) must come BEFORE Operators (S3) - need to understand data storage first
-- Conditionals (S4) must come BEFORE Loops (S5) - loops use conditional logic
+- Conditionals (S4) must come BEFORE Loops (S6) - loops use conditional logic
 - Lists (S7) must come BEFORE Dictionaries (S8) - dictionaries build on list concepts
 - Mini Projects consolidate learning from previous sessions
 
@@ -411,7 +411,7 @@ print('Hello, World!')
 
 **Content Workflow**:
 
-1. **Create Session Documentation**: Write session content in `docs/sessions/L{level}/S{session}.md` (or `S{session}_MP{number}.md` for mini projects)
+1. **Create Session Documentation**: Write session content in `docs/sessions/L{level}/S{session}.md`
 2. **Create Practice Files**: Write working Python code in `src/L{level}/S{session}/`
 3. **Link Together**: Reference practice files in session documentation
 4. **Test Everything**: Ensure all code runs and all links work
