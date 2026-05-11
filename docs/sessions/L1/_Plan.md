@@ -278,7 +278,7 @@ ASCII fallback:
 * Nested loops and performance considerations
 
 🧪 *Practice Files*:  
-`src/L1/S6/01_for_loops.py`, `src/L1/S6/02_while_loops.py`, `src/L1/S6/03_loop_controls_fizzbuzz.py`, `src/L1/S6/04_calculator_loop.py`, `src/L1/S6/05_values_to_variables.py`, `src/L1/S6/06_chained_and_multi_assignment.py`, `src/L1/S6/07_conversion_limits.py`
+`src/L1/S6/01_for_loops.py`, `src/L1/S6/02_while_loops.py`, `src/L1/S6/03_loop_controls_fizzbuzz.py`, `src/L1/S6/04_calculator_loop.py`, `src/L1/S6/05_values_to_variables.py`, `src/L1/S6/06_chained_and_multi_assignment.py`, `src/L1/S6/07_conversion_limits.py`, `src/L1/S6/08_boolean_logic_precedence.py`, `src/L1/S6/09_non_bool_values.py`
 
 📖 *Documentation*: [S6.md](S6.md)
 

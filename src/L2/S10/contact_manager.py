@@ -56,11 +56,7 @@ def load_contacts(filename):
                         "name": parts[0],
                         "phone": parts[1],
                         "email": parts[2] if len(parts) > 2 else "",
-                        "tags": (
-                            set(parts[3].split(","))
-                            if len(parts) > 3 and parts[3]
-                            else set()
-                        ),
+                        "tags": (set(parts[3].split(",")) if len(parts) > 3 and parts[3] else set()),
                     }
                     contacts.append(contact)
 

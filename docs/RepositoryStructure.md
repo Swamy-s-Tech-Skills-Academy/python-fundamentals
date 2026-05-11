@@ -11,7 +11,8 @@ python-fundamentals/
 ├── 📚 docs/
 │   ├── 01_Python-Fundamentals-MasterPlan.md  # Complete 18-level course master plan
 │   ├── images/                 # Screenshots and educational images
-│   │   └── S1/                 # Session 1 images
+│   │   ├── S1/                 # Session 1 images
+│   │   └── S6/                 # Session 6 images
 │   ├── RepositoryStructure.md  # This file
 │   └── sessions/
 │       ├── L1/                 # Level 1: Noob → Nerd
@@ -69,7 +70,8 @@ python-fundamentals/
 │       │   ├── 05_values_to_variables.py
 │       │   ├── 06_chained_and_multi_assignment.py
 │       │   ├── 07_conversion_limits.py
-│       │   └── 08_boolean_logic_precedence.py
+│       │   ├── 08_boolean_logic_precedence.py
+│       │   └── 09_non_bool_values.py
 │       ├── S7/                 # Session 7 practice files
 │       │   ├── 01_error_examples.py
 │       │   ├── 02_debug_practice.py

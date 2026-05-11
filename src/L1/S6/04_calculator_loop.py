@@ -31,14 +31,10 @@ while True:
     second_clean = second_raw[1:] if second_raw.startswith("-") else second_raw
 
     first_valid = (
-        first_clean not in {"", "."}
-        and first_clean.count(".") <= 1
-        and first_clean.replace(".", "", 1).isdigit()
+        first_clean not in {"", "."} and first_clean.count(".") <= 1 and first_clean.replace(".", "", 1).isdigit()
     )
     second_valid = (
-        second_clean not in {"", "."}
-        and second_clean.count(".") <= 1
-        and second_clean.replace(".", "", 1).isdigit()
+        second_clean not in {"", "."} and second_clean.count(".") <= 1 and second_clean.replace(".", "", 1).isdigit()
     )
 
     if not first_valid or not second_valid:

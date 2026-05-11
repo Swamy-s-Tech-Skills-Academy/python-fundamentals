@@ -298,9 +298,7 @@ def show_statistics():
 
     if all_hobbies:
         print("\n🎨 Top 5 hobbies:")
-        sorted_hobbies = sorted(all_hobbies.items(), key=lambda x: x[1], reverse=True)[
-            :5
-        ]
+        sorted_hobbies = sorted(all_hobbies.items(), key=lambda x: x[1], reverse=True)[:5]
         for hobby, count in sorted_hobbies:
             print(f"  • {hobby}: {count}")
 

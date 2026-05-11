@@ -51,6 +51,7 @@ We'll write and run three focused practice scripts:
 Optional reinforcement (compound `while` conditions / boolean order):
 
 - `src/L1/S6/08_boolean_logic_precedence.py` – `and` / `or` / `not` precedence + a small compound `while` demo
+- `src/L1/S6/09_non_bool_values.py` – truthy/falsy values + short-circuit evaluation with non-bool operands
 
 Perfect For:
 

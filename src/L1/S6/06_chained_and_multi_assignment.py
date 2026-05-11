@@ -37,17 +37,12 @@ def demo_chained_assignment() -> None:
     # Standard delivery zones all share a 2-business-day lead time.
     # Reading right-to-left: 2 is stored in east, then central, south, north.
     north = south = central = east = 2
-    print(
-        "Standard zones (days) - "
-        f"North: {north}, South: {south}, Central: {central}, East: {east}"
-    )
+    print("Standard zones (days) - " f"North: {north}, South: {south}, Central: {central}, East: {east}")
 
     # Remote delivery zones share a 5-business-day lead time.
     highland = island = offshore = border = 5
     print(
-        "Remote zones   (days) - "
-        f"Highland: {highland}, Island: {island}, "
-        f"Offshore: {offshore}, Border: {border}"
+        "Remote zones   (days) - " f"Highland: {highland}, Island: {island}, " f"Offshore: {offshore}, Border: {border}"
     )
 
     print()

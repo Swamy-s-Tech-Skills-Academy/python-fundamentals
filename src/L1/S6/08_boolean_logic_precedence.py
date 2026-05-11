@@ -5,7 +5,18 @@ Pairs with Session 6 while-loops: messy headers are a common source of
 "why does my loop never run?" bugs. Use parentheses when in doubt.
 """
 
-from __future__ import annotations
+import sys
+
+HELP_TEXT = """08_boolean_logic_precedence.py
+
+Purpose
+    Demonstrate how Python evaluates compound boolean conditions:
+    operator precedence (not -> and -> or), parentheses override,
+    and compound while-loop conditions.
+
+Usage
+    python src/L1/S6/08_boolean_logic_precedence.py
+"""
 
 
 def demo_truth_tables() -> None:
@@ -78,7 +89,11 @@ def demo_compound_while() -> None:
     print("  Loop exited because one side of 'and' became false.")
 
 
-def main() -> None:
+def main(argv: list[str]) -> int:
+    if any(arg in {"-h", "--help"} for arg in argv[1:]):
+        print(HELP_TEXT)
+        return 0
+
     demo_truth_tables()
     demo_precedence_simple()
     demo_precedence_step_by_step()
@@ -86,7 +101,7 @@ def main() -> None:
     demo_compound_while()
     print("\n=== Done ===")
     print("Experiment: wrap parts of a condition in () and predict the result before running.")
+    return 0
 
 
-if __name__ == "__main__":
-    main()
+raise SystemExit(main(sys.argv))
