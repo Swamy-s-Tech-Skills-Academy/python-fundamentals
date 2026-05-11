@@ -217,7 +217,7 @@ Cursor AI configuration:
 
 ### Session Documentation
 
-- Format: `S{session}.md` or `S{session}_MP{number}.md`
+- Format: `S{session}.md`
 - Plan: `_Plan.md` (underscore prefix sorts first)
 - Examples: `S1.md`, `S5.md`, `_Plan.md`
 - Location: `docs/sessions/L{level}/`
@@ -269,7 +269,7 @@ Cursor AI configuration:
 | 3 | `S3.md` | Operators & Expressions | 3 files |
 | 4 | `S4.md` | Conditionals & Modules | 3 files |
 | 5 | `S5.md` | Mini Project: Calculator | 4 files |
-| 6 | `S6.md` | Loops & Iteration | 7 files |
+| 6 | `S6.md` | Loops & Iteration | 9 files |
 | 7 | `S7.md` | Debugging & Built-ins | 7 files |
 | 8 | `S8.md` | Lists & Loops | 3 files |
 | 9 | `S9.md` | Dictionaries & Testing | 3 files |

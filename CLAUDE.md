@@ -19,7 +19,7 @@
 - Treat `source-material/` as internal, read-only instructor notes; rewrite explanations with original structure and wording.
 - Promote `src/Working/` examples only after cleanup, renaming, and fit-check against session outcomes — and only when Swamy has asked you to touch or promote those Working files.
 - Keep publish-facing session references on formal paths (`src/L{level}/S{session}/`) and never on sandbox paths.
-- When in doubt about target placement, use the meetup status table in `docs/meetup/L1/meetup-sessions.md` and ask for permission before touching completed sessions.
+- When in doubt about target placement, use the meetup status table in `docs/meetup/L1/sessions.md` and ask for permission before touching completed sessions.
 - Run normal quality checks on imported ideas: clarity, technical accuracy, and beginner pedagogy.
 - This policy is internal process guidance and should not appear as a process block in publish-facing curriculum docs.
 
@@ -41,8 +41,8 @@ python-fundamentals/
 │   ├── L1/       # Formal practice files: src/L1/S1/01_name.py
 │   ├── L2/
 │   └── Working/  # Sandbox — see docs/RepositoryStructure.md (src/Working/)
-│       ├── Module1/   # Foundational drafts → L1/S1 or S2
-│       ├── S5/ … S10/  # Staging → matching L1 folders
+│       ├── module3/   # Informal drafts for promotion to formal sessions
+│       ├── module4/   # Informal drafts for promotion to formal sessions
 ├── .cursor/rules/          # Cursor AI rule files
 ├── .github/
 │   ├── copilot-instructions.md
@@ -54,7 +54,7 @@ python-fundamentals/
 
 ## 🗂️ `src/Working/` — Sandbox Staging Area
 
-`src/Working/` holds **informal drafts**: `Module1/` for sessions 1–2 style samples, and **`S5/` through `S10/`** as staging lanes that match formal `src/L1/…` folders. See **`docs/RepositoryStructure.md`** (section **src/Working/**) for layout and promotion expectations. Promote into `src/L{level}/S{session}/` when ready.
+`src/Working/` holds **informal drafts** in `module3/` and `module4/`, which are promoted into formal `src/L{level}/S{session}/` folders when ready. See **`docs/RepositoryStructure.md`** (section **src/Working/**) for layout and promotion expectations.
 
 ### Working vs Formal
 
@@ -74,7 +74,7 @@ python-fundamentals/
 
 ### Standard file template
 
-Modelled on the `main` / `HELP_TEXT` pattern in `src/Working/Module1/01_sample.py` and formal files such as `src/L1/S1/01_hello.py`:
+Modelled on the `main` / `HELP_TEXT` pattern in `src/Working/module4/01_sample.py` and formal files such as `src/L1/S1/01_hello.py`:
 
 ```python
 """Module docstring — what this file demonstrates."""

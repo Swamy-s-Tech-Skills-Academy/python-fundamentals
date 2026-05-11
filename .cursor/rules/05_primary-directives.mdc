@@ -64,7 +64,7 @@ See: `01_educational-content-rules.mdc` for complete details.
 
 ### 6. Completed Session Protection (CRITICAL)
 
-✅ Treat `docs/meetup/L1/meetup-sessions.md` as the session-status guard for meetup-facing placement decisions  
+✅ Treat `docs/meetup/L1/sessions.md` as the session-status guard for meetup-facing placement decisions  
 ✅ Bucket new content into planned/new sessions by default  
 ❌ Do not add newly authored content into completed sessions unless explicit user permission is received in the current request  
 ✅ If status or destination is uncertain, ask before editing completed-session content

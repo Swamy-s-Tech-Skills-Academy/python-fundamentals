@@ -29,7 +29,7 @@
 
 ### Completed Session Permission Rule
 
-✅ Use `docs/meetup/L1/meetup-sessions.md` status table as placement context for Level 1 meetup updates  
+✅ Use `docs/meetup/L1/sessions.md` status table as placement context for Level 1 meetup updates  
 ❌ Do not insert new learning content into sessions marked completed without explicit user permission  
 ✅ If there is any ambiguity in status or target session, ask before placing content
 
