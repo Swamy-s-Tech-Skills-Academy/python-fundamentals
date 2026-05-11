@@ -296,7 +296,7 @@ ASCII fallback:
 * Built-in functions: `len()`, `max()`, `min()`, `sum()`, `abs()`, `round()`
 
 🧪 *Practice Files*:  
-`src/L1/S7/01_error_examples.py`, `src/L1/S7/02_debug_practice.py`, `src/L1/S7/03_builtin_functions.py`, `src/L1/S7/04_pep8_style_refactor.py`, `src/L1/S7/05_pep8_indentation.py`
+`src/L1/S7/01_error_examples.py`, `src/L1/S7/02_debug_practice.py`, `src/L1/S7/03_builtin_functions.py`, `src/L1/S7/04_pep8_style_refactor.py`, `src/L1/S7/05_pep8_indentation.py`, `src/L1/S7/06_print_sep_end.py`, `src/L1/S7/07_escape_sequences.py`
 
 📖 *Documentation*: [S7.md](S7.md)
 

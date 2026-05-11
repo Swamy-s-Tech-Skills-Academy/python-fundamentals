@@ -77,7 +77,9 @@ python-fundamentals/
 │       │   ├── 02_debug_practice.py
 │       │   ├── 03_builtin_functions.py
 │       │   ├── 04_pep8_style_refactor.py
-│       │   └── 05_pep8_indentation.py
+│       │   ├── 05_pep8_indentation.py
+│       │   ├── 06_print_sep_end.py
+│       │   └── 07_escape_sequences.py
 │       ├── S8/                 # Session 8 practice files
 │       │   ├── 01_list_basics.py
 │       │   ├── 02_list_methods.py
@@ -268,7 +270,7 @@ Cursor AI configuration:
 | 4 | `S4.md` | Conditionals & Modules | 3 files |
 | 5 | `S5.md` | Mini Project: Calculator | 4 files |
 | 6 | `S6.md` | Loops & Iteration | 7 files |
-| 7 | `S7.md` | Debugging & Built-ins | 5 files |
+| 7 | `S7.md` | Debugging & Built-ins | 7 files |
 | 8 | `S8.md` | Lists & Loops | 3 files |
 | 9 | `S9.md` | Dictionaries & Testing | 3 files |
 | 10 | `S10.md` | Mini Project: Profile Generator | 1 file |
