@@ -34,3 +34,13 @@ ignore = [
 
 [tool.ruff.lint.isort]
 known-first-party = []
+
+[tool.black]
+line-length = 120
+exclude = '''
+/(
+    \.git
+  | \.venv
+  | src/Working
+)/
+'''

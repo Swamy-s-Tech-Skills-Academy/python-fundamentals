@@ -22,8 +22,8 @@ permissions:
   contents: read
 
 jobs:
-  ruff-and-compile:
-    name: Ruff + compileall
+  python-quality:
+    name: Python quality checks
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -31,9 +31,22 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.13"
-      - name: Install Ruff
-        run: pip install "ruff~=0.8.0"
+      - name: Install quality tools
+        run: |
+          pip install "ruff~=0.8.0"
+          pip install "black~=25.1"
+          pip install "isort~=6.0"
+          pip install "flake8~=7.1"
+          pip install "pytest~=8.3"
       - name: Ruff check
         run: ruff check src
+      - name: Black check (tests)
+        run: black --check tests
+      - name: Isort check (formal curriculum)
+        run: isort --check-only src/L1 src/L2
+      - name: Flake8 check (formal curriculum)
+        run: flake8 src/L1 src/L2
       - name: Byte-compile all practice modules
         run: python -m compileall -q src
+      - name: Run backend tests
+        run: pytest -q

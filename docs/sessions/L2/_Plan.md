@@ -50,37 +50,37 @@ sessions:
     type: "Knowledge"
     status: "Ready"
     file: "docs/sessions/L2/S4.md"
-  - session: "MP1"
+  - session: "5 (MP 1)"
     topic: "Mini Project 1: Data Processor"
     duration: "30–45 min"
     type: "Project"
     status: "Ready"
     file: "docs/sessions/L2/S5.md"
-  - session: 5
+  - session: 6
     topic: "Functions: Parameters & Return Values"
     duration: "30 min"
     type: "Knowledge"
     status: "Ready"
     file: "docs/sessions/L2/S6.md"
-  - session: 6
+  - session: 7
     topic: "Functions: Scope & Code Organization"
     duration: "30 min"
     type: "Knowledge"
     status: "Ready"
     file: "docs/sessions/L2/S7.md"
-  - session: 7
+  - session: 8
     topic: "File Handling: Reading & Writing Text Files"
     duration: "30 min"
     type: "Knowledge"
     status: "Ready"
     file: "docs/sessions/L2/S8.md"
-  - session: 8
+  - session: 9
     topic: "Modules Deep Dive & Code Organization"
     duration: "30 min"
     type: "Knowledge"
     status: "Ready"
     file: "docs/sessions/L2/S9.md"
-  - session: "MP2"
+  - session: "10 (MP 2)"
     topic: "Mini Project 2: Contact Manager"
     duration: "30–45 min"
     type: "Project"
@@ -111,12 +111,12 @@ sessions:
 | A     | 2       | List Comprehensions                                    | 30 min    | 📚 Knowledge | ✅ Ready 📂    |
 | A     | 3       | Functions: Definition & Basics                         | 30 min    | 📚 Knowledge | ✅ Ready 📂    |
 | A     | 4       | Error Handling: try/except Basics                      | 30 min    | 📚 Knowledge | ✅ Ready 📂    |
-| A     | 🚀 MP1  | Mini Project 1: Data Processor *(after Session 4)*   | 30–45 min | 🛠️ Project  | ✅ Ready 📂    |
-| B     | 5       | Functions: Parameters & Return Values                 | 30 min    | 📚 Knowledge | ✅ Ready 📂    |
-| B     | 6       | Functions: Scope & Code Organization                   | 30 min    | 📚 Knowledge | ✅ Ready 📂    |
-| B     | 7       | File Handling: Reading & Writing Text Files           | 30 min    | 📚 Knowledge | ✅ Ready 📂    |
-| B     | 8       | Modules Deep Dive & Code Organization                 | 30 min    | 📚 Knowledge | ✅ Ready 📂    |
-| B     | 🚀 MP2  | Mini Project 2: Contact Manager *(after 8)*           | 30–45 min | 🛠️ Project  | ✅ Ready 📂    |
+| A     | 5 (MP 1) | Mini Project 1: Data Processor *(after Session 4)*   | 30–45 min | 🛠️ Project  | ✅ Ready 📂    |
+| B     | 6       | Functions: Parameters & Return Values                 | 30 min    | 📚 Knowledge | ✅ Ready 📂    |
+| B     | 7       | Functions: Scope & Code Organization                   | 30 min    | 📚 Knowledge | ✅ Ready 📂    |
+| B     | 8       | File Handling: Reading & Writing Text Files           | 30 min    | 📚 Knowledge | ✅ Ready 📂    |
+| B     | 9       | Modules Deep Dive & Code Organization                 | 30 min    | 📚 Knowledge | ✅ Ready 📂    |
+| B     | 10 (MP 2) | Mini Project 2: Contact Manager *(after 8)*           | 30–45 min | 🛠️ Project  | ✅ Ready 📂    |
 
 ---
 
@@ -133,16 +133,16 @@ flowchart TB
         B2[📚 Session 2<br/>List Comprehensions]
         B3[🔧 Session 3<br/>Functions Basics]
         B4[🛡️ Session 4<br/>Error Handling]
-        B5[🚀 MP1<br/>Mini Project 1: Data Processor]
+        B5[🚀 Session 5 (MP 1)<br/>Mini Project 1: Data Processor]
         B1 --> B2 --> B3 --> B4 --> B5
     end
 
     subgraph PhaseB[📘 Phase B: File Operations & Advanced Functions]
-        C1[🔧 Session 5<br/>Functions: Parameters]
-        C2[🔧 Session 6<br/>Functions: Scope]
-        C3[📁 Session 7<br/>Text File I/O]
-        C4[📦 Session 8<br/>Modules Deep Dive]
-        C5[🚀 MP2<br/>Mini Project 2: Contact Manager]
+        C1[🔧 Session 6<br/>Functions: Parameters]
+        C2[🔧 Session 7<br/>Functions: Scope]
+        C3[📁 Session 8<br/>Text File I/O]
+        C4[📦 Session 9<br/>Modules Deep Dive]
+        C5[🚀 Session 10 (MP 2)<br/>Mini Project 2: Contact Manager]
         C1 --> C2 --> C3 --> C4 --> C5
     end
 
@@ -166,7 +166,7 @@ ASCII fallback:
     ├─ [📚 Session 2: List Comprehensions]
     ├─ [🔧 Session 3: Functions Basics]
     ├─ [🛡️ Session 4: Error Handling]
-    └─ [🚀 MP1: Mini Project 1: Data Processor]
+    └─ [🚀 Session 5 (MP 1): Mini Project 1: Data Processor]
     |
     v
 [📘 Phase B: File Operations & Advanced Functions]
@@ -174,7 +174,7 @@ ASCII fallback:
     ├─ [🔧 Session 7: Functions: Scope]
     ├─ [📁 Session 8: Text File I/O]
     ├─ [📦 Session 9: Modules Deep Dive]
-    └─ [🚀 MP2: Mini Project 2: Contact Manager]
+    └─ [🚀 Session 10 (MP 2): Mini Project 2: Contact Manager]
     |
     v
 [🎓 Novice]

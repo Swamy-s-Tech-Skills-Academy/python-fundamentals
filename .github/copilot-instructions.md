@@ -45,7 +45,7 @@
 ### **5. 🔒 INTERNAL CONTENT INTAKE POLICY (Source Notes + Working Samples)**
 
 - **BORROW** concepts, misconceptions, and exercise patterns only; do not reuse exact wording, order, or narration.
-- Treat `source-material/` files as internal instructor notes; rewrite all curriculum text in a fresh structure and voice.
+- Treat `source-material/` files as internal, read-only instructor notes; rewrite all curriculum text in a fresh structure and voice.
 - Promote sandbox examples from `src/Working/` only after cleanup, renaming, and alignment with session outcomes — and only when Swamy explicitly asks you to edit or promote those Working files.
 - Keep published session references on formal paths (`src/L{level}/S{session}/`) and never on sandbox paths.
 - Apply normal quality gates to imported ideas: clarity, technical correctness, and beginner-level pedagogy.

@@ -16,7 +16,7 @@
 ## 🔒 Internal Content Intake Policy (Source Notes + Working)
 
 - Borrow ideas and misconceptions, not exact text, section order, or narration.
-- Treat `source-material/` as internal instructor notes; rewrite explanations with original structure and wording.
+- Treat `source-material/` as internal, read-only instructor notes; rewrite explanations with original structure and wording.
 - Promote `src/Working/` examples only after cleanup, renaming, and fit-check against session outcomes — and only when Swamy has asked you to touch or promote those Working files.
 - Keep publish-facing session references on formal paths (`src/L{level}/S{session}/`) and never on sandbox paths.
 - When in doubt about target placement, use the meetup status table in `docs/meetup/L1/meetup-sessions.md` and ask for permission before touching completed sessions.
