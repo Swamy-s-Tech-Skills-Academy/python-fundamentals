@@ -11,9 +11,13 @@ Repository agent guidance for automation and code assistants.
 ## Required Checks Before Completion
 
 1. `ruff check src`
-2. `python -m compileall -q src`
-3. `npx --yes markdownlint-cli2 "README.md" "docs/**/*.md" ".github/**/*.md"`
-4. `./scripts/docs-links.ps1` (Docker required)
+2. `black --check tests`
+3. `isort --check-only src/L1 src/L2`
+4. `flake8 src/L1 src/L2`
+5. `python -m compileall -q src`
+6. `pytest -q`
+7. `npx --yes markdownlint-cli2 "README.md" "docs/**/*.md" ".github/**/*.md"`
+8. `./scripts/docs-links.ps1` (Docker required)
 
 ## Source Intake Policy
 

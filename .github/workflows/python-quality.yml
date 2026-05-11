@@ -5,12 +5,14 @@ on:
   pull_request:
     paths:
       - "src/**/*.py"
+      - "tests/**/*.py"
       - "pyproject.toml"
       - ".github/workflows/python-quality.yml"
   push:
     branches: [main]
     paths:
       - "src/**/*.py"
+      - "tests/**/*.py"
       - "pyproject.toml"
       - ".github/workflows/python-quality.yml"
 

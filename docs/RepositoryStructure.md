@@ -124,7 +124,10 @@ python-fundamentals/
 │           └── contact_manager.py
 │   └── Working/                # Sandbox — bucketing guide: see § `src/Working/` below
 │       ├── References.md
-│       └── Module1/            # Foundational drafts → promote to `src/L1/S1/` or `S2/`
+│       ├── module3/            # Informal drafts (promote into formal `src/L{level}/S{session}/`)
+│       └── module4/            # Informal drafts (promote into formal `src/L{level}/S{session}/`)
+├── 🧪 tests/
+│   └── test_curriculum_smoke.py  # Smoke: formal `src/L1` + `src/L2` files compile
 ├── 🔧 scripts/                 # Development and utility scripts
 │   ├── docs-lint.ps1           # Markdown linting script
 │   ├── docs-links.ps1          # Link validation script
@@ -167,10 +170,13 @@ Contains all practice code files:
 
 Sandbox staging area for **informal live-coding drafts** before promotion into formal `src/L{level}/S{session}/`.
 
-- **`Module1/`**: drafts aligned with Level 1 sessions 1–2 (informal samples such as `01_sample.py`).
+- **`module3/`**, **`module4/`**: informal numbered samples (e.g. `01_sample.py`) staged before cleanup and promotion.
 - **`References.md`**: links to source material and reference repositories.
-- **`S5/` … `S10/`**: staging folders to be created as needed, mirroring formal Level 1 targets.
 - See `CLAUDE.md` for the promotion workflow (cleanup, numbering, headers, session doc links).
+
+### `tests/`
+
+Lightweight **pytest** checks for repository health (for example, that all formal curriculum `.py` files under `src/L1/` and `src/L2/` compile). Does not replace running lesson scripts while learning.
 
 ### `scripts/`
 
