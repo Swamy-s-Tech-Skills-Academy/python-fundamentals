@@ -411,7 +411,7 @@ After Level 1, you’re ready to explore:
 
 ## Sandbox (`src/Working/`)
 
-New **draft** scripts and meetup scribbles belong in the Working tree first. Folder names mirror formal targets (`Module1/` for early foundations, `S5/` … `S10/` for later sessions). **Learner-facing session write-ups only link promoted files under `src/L1/…`.** See [`docs/RepositoryStructure.md`](../../RepositoryStructure.md) (section **src/Working/**) for the Working sandbox layout and promotion expectations.
+New **draft** scripts and meetup scribbles belong in the Working tree first. Use the current Working lanes (`module3/`, `module4/`) and promote polished files into formal folders under `src/L1/…`. **Learner-facing session write-ups only link promoted files under `src/L1/…`.** See [`docs/RepositoryStructure.md`](../../RepositoryStructure.md) (section **src/Working/**) for the Working sandbox layout and promotion expectations.
 
 ---
 
