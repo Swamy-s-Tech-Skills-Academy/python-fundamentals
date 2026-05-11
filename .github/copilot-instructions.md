@@ -53,7 +53,7 @@
 
 ### **6. 🗂️ SESSION BUCKETING SAFETY (New Content Placement)**
 
-- Treat `docs/meetup/L1/meetup-sessions.md` (status table) as the placement guard for Level 1 meetup updates.
+- Treat `docs/meetup/L1/sessions.md` (status table) as the placement guard for Level 1 meetup updates.
 - New content from `source-material/` or `src/Working/` must be added to planned/new sessions by default.
 - Do **not** inject new educational content into already completed sessions unless the user explicitly approves it.
 - If status is ambiguous, stop and ask for permission before placing content.
@@ -109,8 +109,8 @@ python-fundamentals/
 │   │   ├── S6/ ... S9/      # Sessions 6–9 practice files
 │   │   └── S10/             # Session 10 – Mini Project 2 files
 │   └── Working/             # Sandbox — see docs/RepositoryStructure.md (hands-off unless Swamy asks)
-│       ├── Module1/         # Foundational drafts (→ L1/S1 or L1/S2)
-│       └── S5/ … S10/           # Staging → matching formal L1 folders
+│       ├── module3/         # Foundational drafts (promote into formal session folders)
+│       └── module4/         # Foundational drafts (promote into formal session folders)
 └── README.md                # Project overview and quick start
 ```
 
@@ -122,7 +122,7 @@ python-fundamentals/
 - `docs/sessions/L2/_Plan.md` → Overall curriculum structure
 - `docs/01_Python-Fundamentals-MasterPlan.md` → Master roadmap across all levels
 - `README.md` → Entry point with navigation links
-- `docs/RepositoryStructure.md` (**src/Working/**) → routing from staging (`Module1/`, `S5/` … `S10/`) to formal `src/L{level}/S{session}/` (do not edit Working files unless Swamy requests)
+- `docs/RepositoryStructure.md` (**src/Working/**) → routing from staging (`module3/`, `module4/`) to formal `src/L{level}/S{session}/` (do not edit Working files unless Swamy requests)
 
 ---
 
@@ -132,7 +132,7 @@ python-fundamentals/
 
 | `src/Working/` | `src/L{level}/S{session}/` |
 |---|---|
-| Informal staging (`Module1/`, `S5/` … `S10/`; see `docs/RepositoryStructure.md`; **hands-off unless Swamy asks**) | Formal, numbered, tested practice files |
+| Informal staging (`module3/`, `module4/`; see `docs/RepositoryStructure.md`; **hands-off unless Swamy asks**) | Formal, numbered, tested practice files |
 | Flexible file names (`hello_world.py`, `sample1.py`) | `01_name.py` convention, polished |
 | Work-in-progress | Production-quality curriculum |
 
@@ -146,7 +146,7 @@ python-fundamentals/
 
 ### Standard file template
 
-The `main(argv)` / `HELP_TEXT` / `raise SystemExit` pattern (see `src/Working/Module1/01_sample.py` or `src/L1/S1/01_hello.py`) is the **preferred template** for Working drafts and promoted files:
+The `main(argv)` / `HELP_TEXT` / `raise SystemExit` pattern (see `src/Working/module4/01_sample.py` or `src/L1/S1/01_hello.py`) is the **preferred template** for Working drafts and promoted files:
 
 ```python
 """Module docstring explaining what the file demonstrates."""

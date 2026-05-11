@@ -33,12 +33,7 @@ Usage
 
 def format_reading(station_id, temperature_celsius, humidity_percent, wind_speed_kmh):
     """Return a one-line summary of a weather-station reading."""
-    return (
-        f"[{station_id}]  "
-        f"{temperature_celsius} C  |  "
-        f"{humidity_percent}% RH  |  "
-        f"{wind_speed_kmh} km/h"
-    )
+    return f"[{station_id}]  " f"{temperature_celsius} C  |  " f"{humidity_percent}% RH  |  " f"{wind_speed_kmh} km/h"
 
 
 # ---------------------------------------------------------------------------

@@ -278,7 +278,7 @@ ASCII fallback:
 * Nested loops and performance considerations
 
 🧪 *Practice Files*:  
-`src/L1/S6/01_for_loops.py`, `src/L1/S6/02_while_loops.py`, `src/L1/S6/03_loop_controls_fizzbuzz.py`, `src/L1/S6/04_calculator_loop.py`, `src/L1/S6/05_values_to_variables.py`, `src/L1/S6/06_chained_and_multi_assignment.py`, `src/L1/S6/07_conversion_limits.py`
+`src/L1/S6/01_for_loops.py`, `src/L1/S6/02_while_loops.py`, `src/L1/S6/03_loop_controls_fizzbuzz.py`, `src/L1/S6/04_calculator_loop.py`, `src/L1/S6/05_values_to_variables.py`, `src/L1/S6/06_chained_and_multi_assignment.py`, `src/L1/S6/07_conversion_limits.py`, `src/L1/S6/08_boolean_logic_precedence.py`, `src/L1/S6/09_non_bool_values.py`
 
 📖 *Documentation*: [S6.md](S6.md)
 
@@ -296,7 +296,7 @@ ASCII fallback:
 * Built-in functions: `len()`, `max()`, `min()`, `sum()`, `abs()`, `round()`
 
 🧪 *Practice Files*:  
-`src/L1/S7/01_error_examples.py`, `src/L1/S7/02_debug_practice.py`, `src/L1/S7/03_builtin_functions.py`, `src/L1/S7/04_pep8_style_refactor.py`, `src/L1/S7/05_pep8_indentation.py`
+`src/L1/S7/01_error_examples.py`, `src/L1/S7/02_debug_practice.py`, `src/L1/S7/03_builtin_functions.py`, `src/L1/S7/04_pep8_style_refactor.py`, `src/L1/S7/05_pep8_indentation.py`, `src/L1/S7/06_print_sep_end.py`, `src/L1/S7/07_escape_sequences.py`
 
 📖 *Documentation*: [S7.md](S7.md)
 
@@ -411,7 +411,7 @@ After Level 1, you’re ready to explore:
 
 ## Sandbox (`src/Working/`)
 
-New **draft** scripts and meetup scribbles belong in the Working tree first. Folder names mirror formal targets (`Module1/` for early foundations, `S5/` … `S10/` for later sessions). **Learner-facing session write-ups only link promoted files under `src/L1/…`.** See [`docs/RepositoryStructure.md`](../../RepositoryStructure.md) (section **src/Working/**) for the Working sandbox layout and promotion expectations.
+New **draft** scripts and meetup scribbles belong in the Working tree first. Use the current Working lanes (`module3/`, `module4/`) and promote polished files into formal folders under `src/L1/…`. **Learner-facing session write-ups only link promoted files under `src/L1/…`.** See [`docs/RepositoryStructure.md`](../../RepositoryStructure.md) (section **src/Working/**) for the Working sandbox layout and promotion expectations.
 
 ---
 

@@ -11,7 +11,8 @@ python-fundamentals/
 ├── 📚 docs/
 │   ├── 01_Python-Fundamentals-MasterPlan.md  # Complete 18-level course master plan
 │   ├── images/                 # Screenshots and educational images
-│   │   └── S1/                 # Session 1 images
+│   │   ├── S1/                 # Session 1 images
+│   │   └── S6/                 # Session 6 images
 │   ├── RepositoryStructure.md  # This file
 │   └── sessions/
 │       ├── L1/                 # Level 1: Noob → Nerd
@@ -68,13 +69,17 @@ python-fundamentals/
 │       │   ├── 04_calculator_loop.py
 │       │   ├── 05_values_to_variables.py
 │       │   ├── 06_chained_and_multi_assignment.py
-│       │   └── 07_conversion_limits.py
+│       │   ├── 07_conversion_limits.py
+│       │   ├── 08_boolean_logic_precedence.py
+│       │   └── 09_non_bool_values.py
 │       ├── S7/                 # Session 7 practice files
 │       │   ├── 01_error_examples.py
 │       │   ├── 02_debug_practice.py
 │       │   ├── 03_builtin_functions.py
 │       │   ├── 04_pep8_style_refactor.py
-│       │   └── 05_pep8_indentation.py
+│       │   ├── 05_pep8_indentation.py
+│       │   ├── 06_print_sep_end.py
+│       │   └── 07_escape_sequences.py
 │       ├── S8/                 # Session 8 practice files
 │       │   ├── 01_list_basics.py
 │       │   ├── 02_list_methods.py
@@ -124,7 +129,10 @@ python-fundamentals/
 │           └── contact_manager.py
 │   └── Working/                # Sandbox — bucketing guide: see § `src/Working/` below
 │       ├── References.md
-│       └── Module1/            # Foundational drafts → promote to `src/L1/S1/` or `S2/`
+│       ├── module3/            # Informal drafts (promote into formal `src/L{level}/S{session}/`)
+│       └── module4/            # Informal drafts (promote into formal `src/L{level}/S{session}/`)
+├── 🧪 tests/
+│   └── test_curriculum_smoke.py  # Smoke: formal `src/L1` + `src/L2` files compile
 ├── 🔧 scripts/                 # Development and utility scripts
 │   ├── docs-lint.ps1           # Markdown linting script
 │   ├── docs-links.ps1          # Link validation script
@@ -167,10 +175,13 @@ Contains all practice code files:
 
 Sandbox staging area for **informal live-coding drafts** before promotion into formal `src/L{level}/S{session}/`.
 
-- **`Module1/`**: drafts aligned with Level 1 sessions 1–2 (informal samples such as `01_sample.py`).
+- **`module3/`**, **`module4/`**: informal numbered samples (e.g. `01_sample.py`) staged before cleanup and promotion.
 - **`References.md`**: links to source material and reference repositories.
-- **`S5/` … `S10/`**: staging folders to be created as needed, mirroring formal Level 1 targets.
 - See `CLAUDE.md` for the promotion workflow (cleanup, numbering, headers, session doc links).
+
+### `tests/`
+
+Lightweight **pytest** checks for repository health (for example, that all formal curriculum `.py` files under `src/L1/` and `src/L2/` compile). Does not replace running lesson scripts while learning.
 
 ### `scripts/`
 
@@ -206,7 +217,7 @@ Cursor AI configuration:
 
 ### Session Documentation
 
-- Format: `S{session}.md` or `S{session}_MP{number}.md`
+- Format: `S{session}.md`
 - Plan: `_Plan.md` (underscore prefix sorts first)
 - Examples: `S1.md`, `S5.md`, `_Plan.md`
 - Location: `docs/sessions/L{level}/`
@@ -258,8 +269,8 @@ Cursor AI configuration:
 | 3 | `S3.md` | Operators & Expressions | 3 files |
 | 4 | `S4.md` | Conditionals & Modules | 3 files |
 | 5 | `S5.md` | Mini Project: Calculator | 4 files |
-| 6 | `S6.md` | Loops & Iteration | 7 files |
-| 7 | `S7.md` | Debugging & Built-ins | 5 files |
+| 6 | `S6.md` | Loops & Iteration | 9 files |
+| 7 | `S7.md` | Debugging & Built-ins | 7 files |
 | 8 | `S8.md` | Lists & Loops | 3 files |
 | 9 | `S9.md` | Dictionaries & Testing | 3 files |
 | 10 | `S10.md` | Mini Project: Profile Generator | 1 file |

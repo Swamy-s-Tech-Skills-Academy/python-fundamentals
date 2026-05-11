@@ -148,8 +148,13 @@ docker run --rm -w /input -v "${PWD}:/input" lycheeverse/lychee:latest --config 
 Run static quality checks on practice scripts. Use **Python 3.13+** to match `requires-python` in `pyproject.toml` and GitHub Actions (on Windows, e.g. `py -3.13`).
 
 ```powershell
-ruff check src
-python -m compileall -q src
+# Full local parity with CI/AGENTS checks:
+ruff check src/L1 src/L2
+black --check tests
+isort --check-only src/L1 src/L2
+flake8 src/L1 src/L2
+python -m compileall -q src/L1 src/L2
+pytest -q
 ```
 
 Configuration: `pyproject.toml`  

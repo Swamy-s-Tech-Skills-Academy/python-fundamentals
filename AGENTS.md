@@ -10,10 +10,14 @@ Repository agent guidance for automation and code assistants.
 
 ## Required Checks Before Completion
 
-1. `ruff check src`
-2. `python -m compileall -q src`
-3. `npx --yes markdownlint-cli2 "README.md" "docs/**/*.md" ".github/**/*.md"`
-4. `./scripts/docs-links.ps1` (Docker required)
+1. `ruff check src/L1 src/L2`
+2. `black --check tests`
+3. `isort --check-only src/L1 src/L2`
+4. `flake8 src/L1 src/L2`
+5. `python -m compileall -q src/L1 src/L2`
+6. `pytest -q`
+7. `npx --yes markdownlint-cli2 "README.md" "docs/**/*.md" ".github/**/*.md"`
+8. `./scripts/docs-links.ps1` (Docker required)
 
 ## Source Intake Policy
 
@@ -23,13 +27,13 @@ Repository agent guidance for automation and code assistants.
 
 ## `src/Working/` modification policy (Swamy-owned sandbox)
 
-- **Do not** create, edit, move, rename, or delete files under `src/Working/` **unless Swamy explicitly asks** for that change in the current task (e.g. “update `src/Working/Module1/02_sample.py`” or “add a draft under Working”).
+- **Do not** create, edit, move, rename, or delete files under `src/Working/` **unless Swamy explicitly asks** for that change in the current task (e.g. “update `src/Working/module3/02_sample.py`” or “add a draft under Working”).
 - You may still **read** `docs/RepositoryStructure.md` (section **src/Working/**) for routing context when advising on promotion into `src/L{level}/S{session}/`.
 - Routine automation (formatting entire `src/`, mass refactors) must **exclude** or skip `src/Working/` unless the task scope includes it by name.
 
 ## Session Bucket Safety Policy
 
-- Treat `docs/meetup/L1/meetup-sessions.md` table as the delivery-status signal for Level 1 meetup sessions.
+- Treat `docs/meetup/L1/sessions.md` table as the delivery-status signal for Level 1 meetup sessions.
 - New curriculum content derived from `source-material/` or `src/Working/` must be bucketed into planned/new sessions by default.
 - Do not add new learning content to already completed sessions unless the user gives explicit approval in the current task.
 - If session status is unclear, pause and ask permission before placing content.

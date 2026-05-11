@@ -48,6 +48,11 @@ We'll write and run three focused practice scripts:
 - `src/L1/S6/02_while_loops.py` – `while` loops, conditions, and safe loop updates
 - `src/L1/S6/03_loop_controls_fizzbuzz.py` – `break` / `continue` / `pass` and beginner FizzBuzz
 
+Optional reinforcement (compound `while` conditions / boolean order):
+
+- `src/L1/S6/08_boolean_logic_precedence.py` – `and` / `or` / `not` precedence + a small compound `while` demo
+- `src/L1/S6/09_non_bool_values.py` – truthy/falsy values + short-circuit evaluation with non-bool operands
+
 Perfect For:
 
 - Learners who completed Session 5 (Mini Project 1) and are ready to eliminate repetitive code
@@ -55,6 +60,56 @@ Perfect For:
 - Anyone preparing for upcoming sessions that combine loops with collections
 
 📢 Join us to master repetition in Python with confidence and clarity, building a core skill used in almost every real program.
+
+---
+
+## Level 1 - Session 7: Basic Debugging & Built-in Functions
+
+Date: To be announced (pending)
+
+Event URL: To be announced (pending)
+
+🔹 Session Agenda:
+
+Level: Noob → Nerd (Level 1, Session 7)
+Format: Live Coding + Interactive Q&A
+Duration: 30 Minutes
+Prerequisites: Completed Session 6 (Loops & Iteration)
+
+- Optional: Watch the recording/playlist: [Python Fundamentals – Level 1 (YouTube playlist)](https://www.youtube.com/watch?v=Cy6DqbRjsF0&list=PLdLQDTLMjAzpRBxP4q1XJOuLhFG4pSfBB)
+
+🎙️ Speaker: Viswanatha Swamy — Swamy's Tech Skills Academy
+🕘 Time: 09:00 AM – 09:30 AM
+
+What You'll Learn:
+
+- Apply core PEP 8 rules for naming, spacing, and comments
+- Distinguish syntax errors from runtime errors
+- Read and interpret Python tracebacks quickly
+- Use `print()` strategically for debugging
+- Apply essential built-in functions: `len()`, `max()`, `min()`, `sum()`, `abs()`, `round()`
+
+Hands-on Practice:
+We'll write and run five focused practice scripts:
+
+- `src/L1/S7/01_error_examples.py` – guided examples of common runtime exceptions
+- `src/L1/S7/02_debug_practice.py` – bug-hunt exercises with print-debugging
+- `src/L1/S7/03_builtin_functions.py` – built-in function demonstrations
+- `src/L1/S7/04_pep8_style_refactor.py` – PEP 8 naming, spacing, and comment quality
+- `src/L1/S7/05_pep8_indentation.py` – PEP 8 indentation rules and multi-line wrapping
+
+Optional reinforcement (Concepts Revisited from Session 1):
+
+- `src/L1/S7/06_print_sep_end.py` – `print()` `sep` / `end` parameters for readable debug output
+- `src/L1/S7/07_escape_sequences.py` – `\n`, `\t`, and quote escaping for structured output
+
+Perfect For:
+
+- Learners who completed Session 6 and want to debug loops and conditions confidently
+- Beginners ready to write cleaner, more readable code
+- Anyone preparing for Session 8 where list indexing bugs are common
+
+📢 Join us to develop a fast, reliable debugging habit and build the built-in function toolkit you'll use in every Python program.
 
 ---
 

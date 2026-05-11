@@ -183,9 +183,7 @@ def analyze_text(text):
     """Analyze text using our string_utils module."""
     print("\n📊 TEXT ANALYSIS REPORT")
     print("=" * 40)
-    print(
-        f"Original text: {text[:50]}..." if len(text) > 50 else f"Original text: {text}"
-    )
+    print(f"Original text: {text[:50]}..." if len(text) > 50 else f"Original text: {text}")
     print("-" * 40)
 
     # Use our module functions
