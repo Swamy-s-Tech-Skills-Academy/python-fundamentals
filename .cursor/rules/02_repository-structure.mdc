@@ -64,7 +64,7 @@ python-fundamentals/
 ├── src/
 │   ├── L1/ (S1 ... S10 practice folders)
 │   ├── L2/ (S1 ... S10 practice folders)
-│   └── Working/ (Module1 plus staging lanes S5 ... S10)
+│   └── Working/ (module3 and module4 staging lanes)
 ├── scripts/ (docs-lint.ps1, docs-links.ps1, show-tree.ps1)
 ├── .github/ (workflows, copilot-instructions.md)
 ├── README.md

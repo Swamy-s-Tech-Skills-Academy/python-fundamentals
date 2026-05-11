@@ -149,11 +149,11 @@ Run static quality checks on practice scripts. Use **Python 3.13+** to match `re
 
 ```powershell
 # Full local parity with CI/AGENTS checks:
-ruff check src
+ruff check src/L1 src/L2
 black --check tests
 isort --check-only src/L1 src/L2
 flake8 src/L1 src/L2
-python -m compileall -q src
+python -m compileall -q src/L1 src/L2
 pytest -q
 ```
 

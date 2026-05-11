@@ -40,15 +40,15 @@ jobs:
           pip install "isort~=6.0"
           pip install "flake8~=7.1"
           pip install "pytest~=8.3"
-      - name: Ruff check
-        run: ruff check src
+      - name: Ruff check (formal curriculum)
+        run: ruff check src/L1 src/L2
       - name: Black check (tests)
         run: black --check tests
       - name: Isort check (formal curriculum)
         run: isort --check-only src/L1 src/L2
       - name: Flake8 check (formal curriculum)
         run: flake8 src/L1 src/L2
-      - name: Byte-compile all practice modules
-        run: python -m compileall -q src
+      - name: Byte-compile formal practice modules
+        run: python -m compileall -q src/L1 src/L2
       - name: Run backend tests
         run: pytest -q
