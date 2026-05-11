@@ -79,10 +79,10 @@ def demo_non_bool_values():
     print(f"not 0            => {not 0}   (not always returns a bool)")
 
     print(f'\n1 and "france" and "italy"  => {1 and "france" and "italy"}')
-    print("  (all truthy → returns rightmost value)")
+    print("  (all truthy => returns rightmost value)")
 
     print(f'\n"" and "france" and "italy" and []  => {repr("" and "france" and "italy" and [])}')
-    print('  (empty string is falsy → returns first falsy: "")')
+    print('  (empty string is falsy => returns first falsy: "")')
 
 
 def demo_falsy_values():
