@@ -1,4 +1,4 @@
-# Meetup Session: Python for Beginners | Nerd → Novice - Level 2
+# Meetup Session: Python for Beginners | Novice → Object Thinker - Level 3
 
 ## Table
 
