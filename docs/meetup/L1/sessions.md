@@ -11,7 +11,7 @@
 | Session 5 (MP 1) | Ready |
 | Session 6 | Planned |
 | Session 7 | Pending |
-| Session 8 | Pending |
+| Session 8 | Planned |
 | Session 9 | Pending |
 | Session 10 (MP 2) | Pending |
 
@@ -110,6 +110,55 @@ Perfect For:
 - Anyone preparing for Session 8 where list indexing bugs are common
 
 📢 Join us to develop a fast, reliable debugging habit and build the built-in function toolkit you'll use in every Python program.
+
+---
+
+## Level 1 - Session 8: Lists & Loops
+
+Date: To be announced (pending)
+
+Event URL: To be announced (pending)
+
+🔹 Session Agenda:
+
+Level: Noob → Nerd (Level 1, Session 8)
+Format: Live Coding + Interactive Q&A
+Duration: 30 Minutes
+Prerequisites: Completed Session 7 (Basic Debugging & Built-in Functions)
+
+- Optional: Watch the recording/playlist: [Python Fundamentals – Level 1 (YouTube playlist)](https://www.youtube.com/watch?v=Cy6DqbRjsF0&list=PLdLQDTLMjAzpRBxP4q1XJOuLhFG4pSfBB)
+
+🎙️ Speaker: Viswanatha Swamy — Swamy's Tech Skills Academy
+🕘 Time: 09:00 AM – 09:30 AM
+
+What You'll Learn:
+
+- Create lists and understand their ordered, mutable structure
+- Access and modify list elements using indexing and slicing
+- Apply essential list methods: `append()`, `remove()`, `pop()`, `insert()`
+- Iterate over lists with `for` loops and `enumerate()`
+- Build lists dynamically from user input
+
+Hands-on Practice:
+We'll write and run three focused practice scripts:
+
+- `src/L1/S8/01_list_basics.py` – list creation, indexing, slicing, and modification
+- `src/L1/S8/02_list_methods.py` – adding, removing, finding, and sorting items
+- `src/L1/S8/03_task_manager.py` – interactive task list manager combining lists and loops
+
+Optional reinforcement (Strings as Sequences — revisit before lists):
+
+- `src/L1/S8/04_string_basics.py` – string operators: `+`, `*`, and TypeError
+- `src/L1/S8/05_string_len.py` – `len()` on strings — spaces count as characters
+- `src/L1/S8/06_string_methods.py` – `startswith()` / `endswith()` with optional index bounds
+
+Perfect For:
+
+- Learners who completed Session 7 and are ready to work with ordered collections
+- Beginners who want to store and process multiple related values cleanly
+- Anyone preparing for Session 9 where dictionaries extend the collection toolkit
+
+📢 Join us to unlock lists — the workhorse collection you'll use in nearly every Python program you write.
 
 ---
 

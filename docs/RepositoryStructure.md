@@ -83,7 +83,10 @@ python-fundamentals/
 │       ├── S8/                 # Session 8 practice files
 │       │   ├── 01_list_basics.py
 │       │   ├── 02_list_methods.py
-│       │   └── 03_task_manager.py
+│       │   ├── 03_task_manager.py
+│       │   ├── 04_string_basics.py
+│       │   ├── 05_string_len.py
+│       │   └── 06_string_methods.py
 │       ├── S9/                 # Session 9 practice files
 │       │   ├── 01_dict_basics.py
 │       │   ├── 02_dict_iteration.py
@@ -130,7 +133,8 @@ python-fundamentals/
 │   └── Working/                # Sandbox — bucketing guide: see § `src/Working/` below
 │       ├── References.md
 │       ├── module3/            # Informal drafts (promote into formal `src/L{level}/S{session}/`)
-│       └── module4/            # Informal drafts (promote into formal `src/L{level}/S{session}/`)
+│       ├── module4/            # Informal drafts (promote into formal `src/L{level}/S{session}/`)
+│       └── module5/            # Informal drafts (promote into formal `src/L{level}/S{session}/`)
 ├── 🧪 tests/
 │   └── test_curriculum_smoke.py  # Smoke: formal `src/L1` + `src/L2` files compile
 ├── 🔧 scripts/                 # Development and utility scripts
@@ -175,7 +179,7 @@ Contains all practice code files:
 
 Sandbox staging area for **informal live-coding drafts** before promotion into formal `src/L{level}/S{session}/`.
 
-- **`module3/`**, **`module4/`**: informal numbered samples (e.g. `01_sample.py`) staged before cleanup and promotion.
+- **`module3/`**, **`module4/`**, **`module5/`**: informal numbered samples (e.g. `01_sample.py`) staged before cleanup and promotion.
 - **`References.md`**: links to source material and reference repositories.
 - See `CLAUDE.md` for the promotion workflow (cleanup, numbering, headers, session doc links).
 

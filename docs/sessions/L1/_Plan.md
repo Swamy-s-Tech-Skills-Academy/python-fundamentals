@@ -315,6 +315,9 @@ ASCII fallback:
 🧪 *Practice Files*:  
 `src/L1/S8/01_list_basics.py`, `src/L1/S8/02_list_methods.py`, `src/L1/S8/03_task_manager.py`
 
+Optional reinforcement (Strings as Sequences):  
+`src/L1/S8/04_string_basics.py`, `src/L1/S8/05_string_len.py`, `src/L1/S8/06_string_methods.py`
+
 📖 *Documentation*: [S8.md](S8.md)
 
 🧪 *Mini Practice*: Task list manager with lists + loops.  
