@@ -1,4 +1,4 @@
-# Meetup Session: Python for Absolute Beginners | Noob → Nerd - Level 1
+# Meetup Session: Python for Beginners | Nerd → Novice - Level 2
 
 ## Table
 
