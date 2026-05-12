@@ -110,7 +110,8 @@ python-fundamentals/
 │   │   └── S10/             # Session 10 – Mini Project 2 files
 │   └── Working/             # Sandbox — see docs/RepositoryStructure.md (hands-off unless Swamy asks)
 │       ├── module3/         # Foundational drafts (promote into formal session folders)
-│       └── module4/         # Foundational drafts (promote into formal session folders)
+│       ├── module4/         # Foundational drafts (promote into formal session folders)
+│       └── module5/         # Foundational drafts (promote into formal session folders)
 └── README.md                # Project overview and quick start
 ```
 
@@ -122,7 +123,7 @@ python-fundamentals/
 - `docs/sessions/L2/_Plan.md` → Overall curriculum structure
 - `docs/01_Python-Fundamentals-MasterPlan.md` → Master roadmap across all levels
 - `README.md` → Entry point with navigation links
-- `docs/RepositoryStructure.md` (**src/Working/**) → routing from staging (`module3/`, `module4/`) to formal `src/L{level}/S{session}/` (do not edit Working files unless Swamy requests)
+- `docs/RepositoryStructure.md` (**src/Working/**) → routing from staging (`module3/`, `module4/`, `module5/`) to formal `src/L{level}/S{session}/` (do not edit Working files unless Swamy requests)
 
 ---
 
@@ -132,7 +133,7 @@ python-fundamentals/
 
 | `src/Working/` | `src/L{level}/S{session}/` |
 |---|---|
-| Informal staging (`module3/`, `module4/`; see `docs/RepositoryStructure.md`; **hands-off unless Swamy asks**) | Formal, numbered, tested practice files |
+| Informal staging (`module3/`, `module4/`, `module5/`; see `docs/RepositoryStructure.md`; **hands-off unless Swamy asks**) | Formal, numbered, tested practice files |
 | Flexible file names (`hello_world.py`, `sample1.py`) | `01_name.py` convention, polished |
 | Work-in-progress | Production-quality curriculum |
 
@@ -146,7 +147,7 @@ python-fundamentals/
 
 ### Standard file template
 
-The `main(argv)` / `HELP_TEXT` / `raise SystemExit` pattern (see `src/Working/module4/01_sample.py` or `src/L1/S1/01_hello.py`) is the **preferred template** for Working drafts and promoted files:
+The `main(argv)` / `HELP_TEXT` / `raise SystemExit` pattern (see `src/Working/module4/01_sample.py` or `src/L1/S6/08_boolean_logic_precedence.py`) is the **preferred template** for Working drafts and promoted files:
 
 ```python
 """Module docstring explaining what the file demonstrates."""
