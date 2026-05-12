@@ -275,7 +275,7 @@ Cursor AI configuration:
 | 5 | `S5.md` | Mini Project: Calculator | 4 files |
 | 6 | `S6.md` | Loops & Iteration | 9 files |
 | 7 | `S7.md` | Debugging & Built-ins | 7 files |
-| 8 | `S8.md` | Lists & Loops | 3 files |
+| 8 | `S8.md` | Lists & Loops | 6 files (3 core + 3 optional) |
 | 9 | `S9.md` | Dictionaries & Testing | 3 files |
 | 10 | `S10.md` | Mini Project: Profile Generator | 1 file |
 
