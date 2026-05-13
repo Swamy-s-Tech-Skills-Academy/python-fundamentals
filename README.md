@@ -173,7 +173,7 @@ GitHub Actions automatically runs quality checks on:
 1. Open GitHub → Actions → "Docs Quality" workflow
 2. (Optional) Open "Python Quality" workflow
 3. Click "Run workflow" (no inputs required)
-4. View markdownlint + Lychee results and/or Ruff + compileall results
+4. View markdownlint + Lychee results and/or Ruff + Black + isort + Flake8 + compileall + pytest results
 
 ### **Repository Structure Generation**
 
