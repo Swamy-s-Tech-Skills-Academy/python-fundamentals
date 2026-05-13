@@ -6,7 +6,6 @@ Teaching arc:
      to different names in a single statement
   3. Variable swap — swap two values without a temporary variable
 
-Promoted from: src/Working/module3/04_sample.py
 """
 
 # Filename: src/L1/S6/06_chained_and_multi_assignment.py

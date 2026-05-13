@@ -7,7 +7,6 @@ Teaching arc:
   4. Why variables? — avoid rewriting the same value repeatedly
   5. Assignment, reassignment, and del
 
-Promoted from: src/Working/module3/02_sample.py (prior draft: sample1.py)
 """
 
 # Filename: src/L1/S6/05_values_to_variables.py

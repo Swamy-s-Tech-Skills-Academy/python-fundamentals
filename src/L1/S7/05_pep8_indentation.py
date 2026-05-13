@@ -7,7 +7,6 @@ Teaching arc:
   3. Long expressions — use implicit line continuation inside brackets
      instead of the backslash continuation style
 
-Promoted from: src/Working/module3/03_sample.py (prior draft: pep8_style.py)
 """
 
 # Filename: src/L1/S7/05_pep8_indentation.py
