@@ -86,7 +86,10 @@ python-fundamentals/
 │       │   ├── 03_task_manager.py
 │       │   ├── 04_string_basics.py
 │       │   ├── 05_string_len.py
-│       │   └── 06_string_methods.py
+│       │   ├── 06_string_methods.py
+│       │   ├── 07_string_replace.py
+│       │   ├── 08_string_case_methods.py
+│       │   └── 09_string_strip_methods.py
 │       ├── S9/                 # Session 9 practice files
 │       │   ├── 01_dict_basics.py
 │       │   ├── 02_dict_iteration.py
@@ -275,7 +278,7 @@ Cursor AI configuration:
 | 5 | `S5.md` | Mini Project: Calculator | 4 files |
 | 6 | `S6.md` | Loops & Iteration | 9 files |
 | 7 | `S7.md` | Debugging & Built-ins | 7 files |
-| 8 | `S8.md` | Lists & Loops | 6 files (3 core + 3 optional) |
+| 8 | `S8.md` | Lists & Loops | 9 files (3 list core + 6 string optional) |
 | 9 | `S9.md` | Dictionaries & Testing | 3 files |
 | 10 | `S10.md` | Mini Project: Profile Generator | 1 file |
 
