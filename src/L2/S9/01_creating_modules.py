@@ -28,7 +28,8 @@ print("\n" + "=" * 60)
 print("📚 PART 1: Understanding Modules")
 print("=" * 60)
 
-print("""
+print(
+    """
 A module is simply a .py file containing code you can reuse!
 
 You've already used built-in modules:
@@ -37,7 +38,8 @@ You've already used built-in modules:
     from datetime import datetime
 
 Now let's create our OWN module!
-""")
+"""
+)
 
 
 # ============================================================
@@ -217,7 +219,8 @@ print("\n" + "=" * 60)
 print("✅ MODULE BEST PRACTICES")
 print("=" * 60)
 
-print("""
+print(
+    """
 1️⃣ USE DESCRIPTIVE MODULE NAMES
    ✅ string_utils.py, file_operations.py, data_processing.py
    ❌ stuff.py, my_code.py, temp.py
@@ -241,7 +244,8 @@ print("""
    
 6️⃣ ONE PURPOSE PER MODULE
    Keep related functions together!
-""")
+"""
+)
 
 
 # ============================================================

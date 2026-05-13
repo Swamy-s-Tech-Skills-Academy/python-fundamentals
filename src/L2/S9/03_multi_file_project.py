@@ -25,7 +25,8 @@ print("\n" + "=" * 60)
 print("📁 PART 1: Project Structure")
 print("=" * 60)
 
-print("""
+print(
+    """
 For larger projects, split code into multiple files:
 
     my_calculator/
@@ -35,7 +36,8 @@ For larger projects, split code into multiple files:
     └── config.py         # Configuration settings
 
 Let's build this project!
-""")
+"""
+)
 
 
 # ============================================================
@@ -290,7 +292,8 @@ print("\n" + "=" * 60)
 print("📁 PART 3: Project Structure Created")
 print("=" * 60)
 
-print(f"""
+print(
+    f"""
 {project_dir}/
 ├── config.py      - Settings and constants
 ├── operations.py  - Math calculation functions
@@ -300,7 +303,8 @@ print(f"""
 To run the calculator:
     cd {project_dir}
     python main.py
-""")
+"""
+)
 
 
 # ============================================================
@@ -310,7 +314,8 @@ print("=" * 60)
 print("🔗 PART 4: How the Files Connect")
 print("=" * 60)
 
-print("""
+print(
+    """
 File Relationships:
                                     
     ┌─────────────┐
@@ -332,7 +337,8 @@ Import statements in each file:
 • utils.py:      import config
 • operations.py: (no imports - standalone)
 • config.py:     (no imports - just constants)
-""")
+"""
+)
 
 
 # ============================================================
@@ -342,7 +348,8 @@ print("=" * 60)
 print("✅ PART 5: Multi-File Project Best Practices")
 print("=" * 60)
 
-print("""
+print(
+    """
 1️⃣ CLEAR RESPONSIBILITIES
    • config.py    → Settings only
    • operations.py → Business logic/calculations
@@ -364,7 +371,8 @@ print("""
 5️⃣ DOCUMENT YOUR MODULES
    • Module docstrings explain purpose
    • Function docstrings explain usage
-""")
+"""
+)
 
 
 # ============================================================
@@ -374,7 +382,8 @@ print("=" * 60)
 print("🧪 PART 6: Each Module Can Be Tested Alone")
 print("=" * 60)
 
-print("""
+print(
+    """
 Because each module has `if __name__ == "__main__":`,
 you can test them individually:
 
@@ -388,7 +397,8 @@ you can test them individually:
     python main.py
 
 This makes debugging much easier!
-""")
+"""
+)
 
 # Actually run the operations module test
 print("Running operations.py test code:")
@@ -423,7 +433,8 @@ print("\n" + "=" * 60)
 print("📋 SUMMARY")
 print("=" * 60)
 
-print("""
+print(
+    """
 🏗️ Multi-File Project Structure:
 
 1. Split code by RESPONSIBILITY
@@ -443,7 +454,8 @@ print("""
 5. Keep DEPENDENCIES simple
    • Avoid circular imports
    • config.py has no dependencies
-""")
+"""
+)
 
 
 # ============================================================
@@ -463,13 +475,15 @@ if keep_project != "y":
         shutil.rmtree(project_dir)
         print(f"Removed {project_dir}/ folder")
 else:
-    print(f"""
+    print(
+        f"""
 ✅ Kept {project_dir}/ folder!
 
 To try it out:
     cd {project_dir}
     python main.py
-""")
+"""
+    )
 
 if project_dir in sys.path:
     sys.path.remove(project_dir)

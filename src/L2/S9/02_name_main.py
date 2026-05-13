@@ -27,7 +27,8 @@ print("\n" + "=" * 60)
 print("📚 PART 1: What is __name__?")
 print("=" * 60)
 
-print(f"""
+print(
+    f"""
 Every Python file has a special variable called __name__.
 
 Its value depends on HOW the file is run:
@@ -38,7 +39,8 @@ Its value depends on HOW the file is run:
 | import file (as module)    | "file" (filename) |
 
 Current file's __name__ = "{__name__}"
-""")
+"""
+)
 
 # Show current __name__
 print(f"Right now, __name__ = '{__name__}'")
@@ -240,7 +242,8 @@ print("\n" + "=" * 60)
 print("📋 PART 5: Common Pattern - main() Function")
 print("=" * 60)
 
-print("""
+print(
+    """
 A common and clean pattern is to create a main() function:
 
     def main():
@@ -257,7 +260,8 @@ Why use this pattern?
 2. ✅ Testable - you can call main() in tests
 3. ✅ Clean - separates "what to do" from "when to do it"
 4. ✅ Professional - industry standard pattern
-""")
+"""
+)
 
 
 # ============================================================
@@ -267,7 +271,8 @@ print("\n" + "=" * 60)
 print("📚 QUICK REFERENCE")
 print("=" * 60)
 
-print("""
+print(
+    """
 ┌────────────────────────────────────────────────────────┐
 │ THE __name__ == "__main__" PATTERN                     │
 ├────────────────────────────────────────────────────────┤
@@ -290,7 +295,8 @@ print("""
 │   • "__main__" → file is run directly                  │
 │   • "module_name" → file is imported                   │
 └────────────────────────────────────────────────────────┘
-""")
+"""
+)
 
 
 # ============================================================

@@ -166,7 +166,8 @@ with open("spaces.txt", "r") as file:
 print("\n" + "=" * 50)
 print("📋 SUMMARY: Choosing the Right Method")
 print("=" * 50)
-print("""
+print(
+    """
 | Method           | Use When                           |
 |------------------|-----------------------------------|
 | read()           | Need entire file as one string    |
@@ -175,7 +176,8 @@ print("""
 | for line in file | Large files (memory efficient)    |
 
 💡 Best Practice: Use 'for line in file' for most cases!
-""")
+"""
+)
 
 # Cleanup: remove the test files we created
 for filename in ["sample.txt", "numbers.txt", "spaces.txt"]:
