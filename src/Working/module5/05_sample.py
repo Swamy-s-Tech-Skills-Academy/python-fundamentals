@@ -1,14 +1,24 @@
-Spelling Substitution Methods in String
-sentence = "I Live ın United states"
-sentence.swapcase()
-'i lIVE IN uNITED STATES'
-sentence.capitalize()
-'I live ın united states'
-sentence.upper()
-'I LIVE IN UNITED STATES'
-sentence.lower()
-'i live ın united states'
-sentence.title()
-'I Live In United States'
-sentence.title().swapcase()
-'i lIVE iN uNITED sTATES'
+"""Module 5 sample 05 — case helpers: swapcase, capitalize, upper, lower, title.
+
+Run: python src/Working/module5/05_sample.py
+"""
+
+from __future__ import annotations
+
+
+def main() -> None:
+    sentence = "I Live In United States"
+    print(f"original: {sentence!r}\n")
+
+    print("swapcase()   ->", repr(sentence.swapcase()))
+    print("capitalize() ->", repr(sentence.capitalize()))
+    print("upper()      ->", repr(sentence.upper()))
+    print("lower()      ->", repr(sentence.lower()))
+    print("title()      ->", repr(sentence.title()))
+    print("title().swapcase() ->", repr(sentence.title().swapcase()))
+
+    print("\n=== Done ===")
+
+
+if __name__ == "__main__":
+    main()
