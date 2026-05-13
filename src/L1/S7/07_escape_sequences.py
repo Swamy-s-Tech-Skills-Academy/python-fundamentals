@@ -27,24 +27,24 @@ Topics Covered
 
 def demo_newline() -> None:
     print("=== New line (\\n) ===")
-    print("My name is Joseph\nI'm 29 years old")
+    print("Course: Python Fundamentals\nTrack: Beginner Practice")
 
 
 def demo_tab() -> None:
     print("\n=== Tab (\\t) ===")
-    print("My name is Joseph\tI'm 29 years old")
-    print("My name is Joseph\t\tI'm 29 years old")
+    print("Name:\tPython Fundamentals")
+    print("Level:\t\tBeginner")
 
 
 def demo_backspace() -> None:
     print("\n=== Backspace (\\b) ===")
-    print("My name is Joseph\bI'm 29 years old")
+    print("Plan A\bB")
 
 
 def demo_escaping_quotes() -> None:
     print("\n=== Escaping apostrophe ===")
-    print("Using double quotes:", "I'm 29 years old")
-    print("Using escape in single quotes:", "I'm 29 years old")
+    print("Using double quotes:", "I'm building Python skills")
+    print("Using escape in single quotes:", "I'm building Python skills")
 
 
 def main(argv: list[str]) -> int:

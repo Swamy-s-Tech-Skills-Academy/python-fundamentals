@@ -18,7 +18,7 @@ def main(argv: list[str]) -> int:
         print(HELP_TEXT)
         return 0
 
-    sentence = "i live in the united states"
+    sentence = "i enjoy learning python"
     print(f"original      -> {sentence!r}")
     print("swapcase()    ->", repr(sentence.swapcase()))
     print("capitalize()  ->", repr(sentence.capitalize()))

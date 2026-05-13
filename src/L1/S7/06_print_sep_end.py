@@ -26,32 +26,32 @@ Topics Covered
 
 
 def demo_multiple_values() -> None:
-    age = 29
-    sentence = "My age is"
+    lesson_number = 7
+    sentence = "Current lesson"
     print("=== Multiple values in print() ===")
-    print(sentence, age)
+    print(sentence, lesson_number)
 
 
 def demo_sep() -> None:
-    age = 29
-    sentence = "My age is"
+    lesson_number = 7
+    sentence = "Current lesson"
     print("\n=== Using sep ===")
-    print(sentence, age, sep="-")
-    print(sentence, age, sep=" | ")
+    print(sentence, lesson_number, sep="-")
+    print(sentence, lesson_number, sep=" | ")
 
 
 def demo_end() -> None:
-    age = 29
-    sentence = "My age is"
+    lesson_number = 7
+    sentence = "Current lesson"
     print("\n=== Using end ===")
-    print(sentence, age, sep="-", end="  <-- same line ->  ")
-    print(sentence, age, sep="-")
+    print(sentence, lesson_number, sep="-", end="  <-- same line ->  ")
+    print(sentence, lesson_number, sep="-")
 
 
 def demo_common_mistake() -> None:
     print("\n=== Common beginner mistake ===")
-    print("Wrong:  print(sentence age)")
-    print("Right:  print(sentence, age)")
+    print("Wrong:  print(sentence lesson_number)")
+    print("Right:  print(sentence, lesson_number)")
 
 
 def main(argv: list[str]) -> int:
