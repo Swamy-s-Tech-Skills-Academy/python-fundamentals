@@ -43,6 +43,7 @@ python-fundamentals/
 │   └── Working/  # Sandbox — see docs/RepositoryStructure.md (src/Working/)
 │       ├── module3/   # Informal drafts for promotion to formal sessions
 │       ├── module4/   # Informal drafts for promotion to formal sessions
+│       └── module5/   # Informal drafts for promotion to formal sessions
 ├── .cursor/rules/          # Cursor AI rule files
 ├── .github/
 │   ├── copilot-instructions.md
@@ -54,7 +55,7 @@ python-fundamentals/
 
 ## 🗂️ `src/Working/` — Sandbox Staging Area
 
-`src/Working/` holds **informal drafts** in `module3/` and `module4/`, which are promoted into formal `src/L{level}/S{session}/` folders when ready. See **`docs/RepositoryStructure.md`** (section **src/Working/**) for layout and promotion expectations.
+`src/Working/` holds **informal drafts** in `module3/`, `module4/`, and `module5/`, which are promoted into formal `src/L{level}/S{session}/` folders when ready. See **`docs/RepositoryStructure.md`** (section **src/Working/**) for layout and promotion expectations.
 
 ### Working vs Formal
 

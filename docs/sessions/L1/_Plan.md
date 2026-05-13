@@ -241,6 +241,11 @@ ASCII fallback:
 * Importing modules (`import`, `from...import`)
 * `random` module: random numbers, choices, shuffling
 
+🧪 *Practice Files*:  
+`src/L1/S4/01_conditionals.py`, `src/L1/S4/02_boolean_logic.py`, `src/L1/S4/03_number_guessing_game.py`
+
+📖 *Documentation*: [S4.md](S4.md)
+
 🧪 *Mini Practice*: Build a number guessing game using conditionals + `random`.  
 📌 *Feeds into Mini Project 1*: Conditional checks & input handling.
 
@@ -314,6 +319,9 @@ ASCII fallback:
 
 🧪 *Practice Files*:  
 `src/L1/S8/01_list_basics.py`, `src/L1/S8/02_list_methods.py`, `src/L1/S8/03_task_manager.py`
+
+Optional reinforcement (Strings as Sequences):  
+`src/L1/S8/04_string_basics.py`, `src/L1/S8/05_string_len.py`, `src/L1/S8/06_string_methods.py`
 
 📖 *Documentation*: [S8.md](S8.md)
 

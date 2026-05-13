@@ -64,7 +64,7 @@ python-fundamentals/
 ├── src/
 │   ├── L1/ (S1 ... S10 practice folders)
 │   ├── L2/ (S1 ... S10 practice folders)
-│   └── Working/ (module3 and module4 staging lanes)
+│   └── Working/ (module3, module4, and module5 staging lanes)
 ├── scripts/ (docs-lint.ps1, docs-links.ps1, show-tree.ps1)
 ├── .github/ (workflows, copilot-instructions.md)
 ├── README.md
@@ -128,7 +128,7 @@ This block is intentionally compact. Use [`docs/RepositoryStructure.md`](../../d
 |---|---|
 | Quick experiments, live demos, scratchpad code | `src/L{level}/S{session}/` — production-quality practice files |
 | Flexible file names, evolving content | `01_name.py` numbering, complete, tested |
-| Named by staging lane: `module3/`, `module4/` (see `docs/RepositoryStructure.md`, section **src/Working/**) | Named by session in `src/L{level}/` |
+| Named by staging lane: `module3/`, `module4/`, `module5/` (see `docs/RepositoryStructure.md`, section **src/Working/**) | Named by session in `src/L{level}/` |
 
 ### Promotion workflow
 
@@ -144,10 +144,10 @@ When a `src/Working/` draft is ready to become a formal practice file:
 ### File structure convention in `src/Working/`
 
 - **`docs/RepositoryStructure.md`** (this **src/Working/** section) documents the current working lanes and promotion expectations toward formal `src/L1/…` folders.
-- **`module3/`** and **`module4/`** hold foundational drafts for inbox staging before promotion.
+- **`module3/`**, **`module4/`**, and **`module5/`** hold foundational drafts for inbox staging before promotion.
 - File names stay informal inside Working; rename to `01_name.py` on promotion.
 
-- The **`main(argv)` / `HELP_TEXT` / `raise SystemExit`** pattern (`src/Working/module4/01_sample.py`, `src/L1/S1/01_hello.py`) is the preferred template for new drafts and polished practice files.
+- The **`main(argv)` / `HELP_TEXT` / `raise SystemExit`** pattern (`src/Working/module4/01_sample.py`, `src/L1/S6/08_boolean_logic_precedence.py`) is the preferred template for new drafts and polished practice files.
 
 ### Rules for AI assistants
 
