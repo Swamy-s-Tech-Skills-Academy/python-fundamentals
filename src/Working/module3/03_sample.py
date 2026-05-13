@@ -15,7 +15,7 @@ Why PEP 8 matters:
     team project feels familiar, which makes reviews and debugging faster.
 """
 
-# Filename: src/Working/Module1/03_sample.py
+# Filename: src/Working/module3/03_sample.py
 
 import sys
 
@@ -26,10 +26,10 @@ Purpose
     using a weather-station data scenario as the working context.
 
 Usage
-    python 03_sample.py
+    python src/Working/module3/03_sample.py
 
 Next script
-    04_sample.py - chain assignments and convert between types on purpose.
+    src/Working/module3/04_sample.py - chain assignments and convert between types on purpose.
 """
 
 
@@ -80,10 +80,7 @@ def record_reading(station_id, temperature_celsius, humidity_percent, wind_speed
     """Return a formatted string summarising one weather reading."""
     # Each line of the function body is indented 4 spaces from `def`
     summary = (
-        f"Station {station_id}: "
-        f"{temperature_celsius}C | "
-        f"{humidity_percent}% RH | "
-        f"{wind_speed_kmh} km/h"
+        f"Station {station_id}: " f"{temperature_celsius}C | " f"{humidity_percent}% RH | " f"{wind_speed_kmh} km/h"
     )
     return summary
 
@@ -198,11 +195,7 @@ def demo_comments() -> None:
 
     # Flag readings that differ from the mean by more than 1 degree
     threshold = 1.0
-    anomalies = [
-        temp_value
-        for temp_value in hourly_temps
-        if abs(temp_value - mean_temp) > threshold
-    ]
+    anomalies = [temp_value for temp_value in hourly_temps if abs(temp_value - mean_temp) > threshold]
 
     if anomalies:
         print(f"\nAnomalous readings (>{threshold} deg from mean): {anomalies}")
@@ -220,9 +213,7 @@ def main(argv: list[str]) -> int:
         print(HELP_TEXT)
         return 0
 
-    print(
-        "Day 3: Syntax still works with messy style - PEP 8 keeps it readable.\n"
-    )
+    print("Day 3: Syntax still works with messy style - PEP 8 keeps it readable.\n")
 
     demo_naming()
     print()

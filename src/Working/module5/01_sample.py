@@ -1,4 +1,4 @@
-"""Module 5 sample 01 — strings: quotes, comments, type(), +, *, and TypeError demos.
+"""Working draft: strings, comments, type(), +, *, and TypeError demos.
 
 Run: python src/Working/module5/01_sample.py
 """
@@ -16,7 +16,7 @@ def show_type_error(label: str, fn) -> None:
 
 def main() -> None:
     print("=== Quotes and comments ===")
-    print('A bare phrase like hello world is a SyntaxError in code; use quotes or # for notes.')
+    print("A bare phrase like practice time is a SyntaxError in code; use quotes or # for notes.")
     # hello world  (this line is a comment — Python ignores it)
 
     print("\n=== Numeric literal vs numeric text ===")
@@ -24,17 +24,17 @@ def main() -> None:
     print('type("987")      ->', type("987"))
 
     print("\n=== String concatenation (+) ===")
-    print('"hello" + "data"     ->', repr("hello" + "data"))
-    print('"hello" + " data"    ->', repr("hello" + " data"))
-    print('"hello" + " " + "data" ->', repr("hello" + " " + "data"))
+    print('"python" + "class"     ->', repr("python" + "class"))
+    print('"python" + " class"    ->', repr("python" + " class"))
+    print('"python" + " " + "class" ->', repr("python" + " " + "class"))
 
-    show_type_error('Minus between strings (not supported)', lambda: "hello" - " data")
+    show_type_error("Minus between strings (not supported)", lambda: "python" - " class")
 
     print("\n=== Repetition with * (int times str) ===")
-    print('"hello" * 3      ->', repr("hello" * 3))
+    print('"go" * 3      ->', repr("go" * 3))
 
-    show_type_error("Multiply str * str (invalid)", lambda: "hello" * "hello")
-    show_type_error("Divide str / int", lambda: "hello" / 3)
+    show_type_error("Multiply str * str (invalid)", lambda: "go" * "go")
+    show_type_error("Divide str / int", lambda: "go" / 3)
 
     print("\n=== Done ===")
 

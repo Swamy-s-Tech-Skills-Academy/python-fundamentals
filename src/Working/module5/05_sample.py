@@ -1,4 +1,4 @@
-"""Module 5 sample 05 — case helpers: swapcase, capitalize, upper, lower, title.
+"""Working draft: case helpers: swapcase, capitalize, upper, lower, title.
 
 Run: python src/Working/module5/05_sample.py
 """
@@ -7,7 +7,7 @@ from __future__ import annotations
 
 
 def main() -> None:
-    sentence = "I Live In United States"
+    sentence = "i enjoy learning python"
     print(f"original: {sentence!r}\n")
 
     print("swapcase()   ->", repr(sentence.swapcase()))

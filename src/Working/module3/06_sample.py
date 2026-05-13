@@ -4,7 +4,7 @@ Builds on Day 2 and Day 5: you already combine ints and floats. Here you meet
 modulo, floor division, powers, shorthand +=, and a compact precedence puzzle.
 """
 
-# Filename: src/Working/Module1/06_sample.py
+# Filename: src/Working/module3/06_sample.py
 
 import sys
 
@@ -14,7 +14,7 @@ Purpose
     Practice arithmetic operators and expression priority in Python.
 
 Usage
-    python 06_sample.py
+    python src/Working/module3/06_sample.py
 
 Topics Covered
     - Modulo (%): remainder after division
@@ -24,7 +24,7 @@ Topics Covered
     - Operator priority in expressions
 
 Next script
-    07_sample.py - control spacing and line breaks inside print().
+    src/Working/module3/07_sample.py - control spacing and line breaks inside print().
 """
 
 
@@ -33,9 +33,7 @@ def main(argv: list[str]) -> int:
         print(HELP_TEXT)
         return 0
 
-    print(
-        "Day 6: Build on Days 2 and 5 - combine numbers with %, //, **, and +=.\n"
-    )
+    print("Day 6: Build on Days 2 and 5 - combine numbers with %, //, **, and +=.\n")
 
     print("=== Arithmetic operators ===")
     print("29 % 7 =", 29 % 7)
@@ -59,7 +57,7 @@ def main(argv: list[str]) -> int:
     print("\n=== Expression precedence (inner parens first) ===")
     a = (2 + 5) ** (2 ** (1 * 4 / 4) / 2)
     print("a =", a)
-    print("-3 ** 2 =", -3**2, "(same as -(3**2))")
+    print("-3 ** 2 =", -(3**2), "(same as -(3**2))")
     print("(-3) ** 2 =", (-3) ** 2, "(parentheses change the base)")
 
     return 0

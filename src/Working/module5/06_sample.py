@@ -1,4 +1,4 @@
-"""Module 5 sample 06 — strip, rstrip, lstrip (trim spaces or custom chars).
+"""Working draft: strip, rstrip, lstrip (trim spaces or custom chars).
 
 Run: python src/Working/module5/06_sample.py
 """
@@ -7,14 +7,14 @@ from __future__ import annotations
 
 
 def main() -> None:
-    space = "   example   "
-    print(f"space = {space!r}\n")
+    padded_text = "   practice   "
+    print(f"padded_text = {padded_text!r}\n")
 
-    print("strip()   ->", repr(space.strip()))
-    print("rstrip()  ->", repr(space.rstrip()))
-    print("lstrip()  ->", repr(space.lstrip()))
+    print("strip()   ->", repr(padded_text.strip()))
+    print("rstrip()  ->", repr(padded_text.rstrip()))
+    print("lstrip()  ->", repr(padded_text.lstrip()))
 
-    inner = space.strip()
+    inner = padded_text.strip()
     print(f"\nAfter strip: {inner!r}")
     print('strip("e") removes leading/trailing e from that result ->', repr(inner.strip("e")))
 

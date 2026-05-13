@@ -1,4 +1,4 @@
-"""Module 5 sample 04 — str.replace(old, new, count=-1).
+"""Working draft: str.replace(old, new, count=-1).
 
 `count` limits how many non-overlapping replacements run; default replaces all.
 
@@ -9,16 +9,25 @@ from __future__ import annotations
 
 
 def main() -> None:
-    name = "j-o-s-e-p-h"
-    print(f"name = {name!r}")
-    print("replace('-', '') once (preview, name unchanged) ->", repr(name.replace("-", "")))
-    name = name.replace("-", "")
-    print("after name = name.replace('-', '')            ->", repr(name))
+    code_word = "p-y-t-h-o-n"
+    print(f"code_word = {code_word!r}")
+    print(
+        "replace('-', '') once (preview, word unchanged) ->",
+        repr(code_word.replace("-", "")),
+    )
+    code_word = code_word.replace("-", "")
+    print("after code_word = code_word.replace('-', '')  ->", repr(code_word))
 
-    university = "h-ar-w-a-r-d"
-    print(f"\nuniversity = {university!r}")
-    print("replace('-', '', 2)  (only first two hyphens) ->", repr(university.replace("-", "", 2)))
-    print("replace('-', '')   (all hyphens)             ->", repr(university.replace("-", "")))
+    course_name = "b-e-g-i-n-n-e-r"
+    print(f"\ncourse_name = {course_name!r}")
+    print(
+        "replace('-', '', 2)  (only first two hyphens) ->",
+        repr(course_name.replace("-", "", 2)),
+    )
+    print(
+        "replace('-', '')   (all hyphens)             ->",
+        repr(course_name.replace("-", "")),
+    )
 
     print("\n=== Done ===")
 
