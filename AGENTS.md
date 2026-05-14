@@ -25,6 +25,13 @@ Repository agent guidance for automation and code assistants.
 - Publish-facing docs must be transformative and original.
 - Avoid copying wording, sequence, or examples directly from intake notes.
 
+## Python File Templates
+
+- Use `docs/PythonFileTemplates.md` as the source of truth for Python file structure.
+- Prefer the CLI lesson template for `src/Working/` and runnable lesson files in `src/L1/S5/` through `src/L1/S8/`.
+- Preserve teaching-script files in earlier sessions unless the task explicitly calls for template conversion.
+- Keep helper modules and app-style entry points on the helper/app template; do not force them into the CLI lesson template.
+
 ## `src/Working/` modification policy (Swamy-owned sandbox)
 
 - **Do not** create, edit, move, rename, or delete files under `src/Working/` **unless Swamy explicitly asks** for that change in the current task (e.g. “update `src/Working/module3/02_sample.py`” or “add a draft under Working”).
@@ -42,4 +49,4 @@ Repository agent guidance for automation and code assistants.
 ## Notes
 
 - This file is repository-local and complements `.github/copilot-instructions.md` and `CLAUDE.md`.
-- If guidance conflicts, follow this precedence: `docs/RepositoryStructure.md` (structure source of truth) → `.github/copilot-instructions.md` → `CLAUDE.md` → this file.
+- If guidance conflicts, follow this precedence: `docs/RepositoryStructure.md` (structure source of truth) → `docs/PythonFileTemplates.md` (Python file shapes) → `.github/copilot-instructions.md` → `CLAUDE.md` → this file.
