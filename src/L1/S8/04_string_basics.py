@@ -1,5 +1,7 @@
 """String basics — quoting, type(), concatenation (+), repetition (*), TypeError."""
 
+# Filename: src/L1/S8/04_string_basics.py
+
 import sys
 
 HELP_TEXT = """04_string_basics.py

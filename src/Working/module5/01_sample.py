@@ -1,5 +1,7 @@
 """Working draft: strings, comments, type(), +, *, and TypeError demos."""
 
+# Filename: src/Working/module5/01_sample.py
+
 import sys
 
 HELP_TEXT = """01_sample.py

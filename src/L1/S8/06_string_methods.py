@@ -1,5 +1,7 @@
 """String methods — startswith() and endswith() with optional index bounds."""
 
+# Filename: src/L1/S8/06_string_methods.py
+
 import sys
 
 HELP_TEXT = """06_string_methods.py

@@ -1,5 +1,7 @@
 """Working draft: strip(), lstrip(), and rstrip()."""
 
+# Filename: src/Working/module5/06_sample.py
+
 import sys
 
 HELP_TEXT = """06_sample.py

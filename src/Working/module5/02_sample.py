@@ -1,5 +1,7 @@
 """Working draft: len() on strings (spaces count as characters)."""
 
+# Filename: src/Working/module5/02_sample.py
+
 import sys
 
 HELP_TEXT = """02_sample.py

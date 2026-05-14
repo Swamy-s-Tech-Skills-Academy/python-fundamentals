@@ -1,5 +1,7 @@
 """String length — len() counts every character, including spaces."""
 
+# Filename: src/L1/S8/05_string_len.py
+
 import sys
 
 HELP_TEXT = """05_string_len.py

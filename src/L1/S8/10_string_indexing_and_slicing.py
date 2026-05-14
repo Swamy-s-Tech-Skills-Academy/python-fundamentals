@@ -1,5 +1,7 @@
 """String indexing and slicing — positive, negative, and stepped access."""
 
+# Filename: src/L1/S8/10_string_indexing_and_slicing.py
+
 import sys
 
 HELP_TEXT = """10_string_indexing_and_slicing.py
