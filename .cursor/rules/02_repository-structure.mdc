@@ -51,7 +51,7 @@ When including code examples in session documentation:
 
 > **Single source of truth:** [`docs/RepositoryStructure.md`](../../docs/RepositoryStructure.md) — if this embedded tree and that file differ, **update the doc first**, then mirror the block here.
 
-**CI / tooling:** `.github/workflows/docs-quality.yml` (markdownlint + Lychee) and `python-quality.yml` (Ruff + `compileall`). `requires-python` is in `pyproject.toml` (e.g. `py -3.13` on Windows to match GitHub Actions).
+**CI / tooling:** `.github/workflows/docs-quality.yml` (markdownlint + Lychee) and `python-quality.yml` (Ruff, Black, isort, Flake8, `compileall`, and `pytest`). `requires-python` is in `pyproject.toml` (e.g. `py -3.13` on Windows to match GitHub Actions).
 
 **Python file shapes:** [`docs/PythonFileTemplates.md`](../../docs/PythonFileTemplates.md) defines the approved Teaching Script, CLI Lesson Script, and Helper/App templates.
 

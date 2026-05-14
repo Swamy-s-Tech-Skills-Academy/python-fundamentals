@@ -64,13 +64,12 @@
 | A     | 2       | **Variables & Data Types**                                 | 📚 Knowledge | ✅ **Ready**   |
 | A     | 3       | **Operators & Expressions**                                | 📚 Knowledge | ✅ **Ready**   |
 | A     | 4       | **Conditionals, Indentation & Introduction to Modules**    | 📚 Knowledge | ✅ **Ready**   |
-| A     | MP1     | **🚀 Mini Project 1: Simple Calculator**                   | 🛠️ Project   | ✅ **Ready**   |
-| B     | 5       | **PEP 8 & Code Quality Warm-up**                           | 📚 Knowledge | ✅ **Ready**   |
+| A     | 5 (MP1) | **🚀 Mini Project 1: Simple Calculator**                   | 🛠️ Project   | ✅ **Ready**   |
 | B     | 6       | **Loops & Iteration**                                      | 📚 Knowledge | ✅ **Ready**   |
 | B     | 7       | **Basic Debugging & Built-in Functions**                   | 📚 Knowledge | ✅ **Ready**   |
 | B     | 8       | **Lists & Loops**                                          | 📚 Knowledge | ✅ **Ready**   |
 | B     | 9       | **Dictionaries & Testing**                                 | 📚 Knowledge | ✅ **Ready**   |
-| B     | MP2     | **🚀 Mini Project 2: Personal Profile Generator**           | 🛠️ Project   | ✅ **Ready**   |
+| B     | 10 (MP2) | **🚀 Mini Project 2: Personal Profile Generator**          | 🛠️ Project   | ✅ **Ready**   |
 
 **Key Learning Focus:**
 
@@ -83,13 +82,13 @@
 - Introduction to modules and the `random` module
 - **Mini Project 1: Simple Calculator** - Applying Sessions 1-4 concepts
 
-**Phase B (Sessions 5-9 + MP2):**
+**Phase B (Sessions 6-9 + MP2):**
 
 - Loops (`for`, `while`) with `range()`, `break`, `continue` controls
 - **PEP 8 intro** (naming, spacing, comments) + **Error reading skills** and built-in functions (`len()`, `max()`, `min()`, `sum()`, `abs()`, `round()`)
 - Lists fundamentals with iteration and basic operations
 - Dictionaries (key-value pairs) with **basic testing using `assert`**
-- **Mini Project 2: Personal Profile Generator** - Applying Sessions 5-9 concepts
+- **Mini Project 2: Personal Profile Generator** - Applying Sessions 6-9 concepts
 
 **Mini Projects:**
 

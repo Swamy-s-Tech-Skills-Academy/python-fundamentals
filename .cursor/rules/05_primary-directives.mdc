@@ -41,7 +41,7 @@ See: `01_educational-content-rules.mdc` for complete details.
 2. ✅ `README.md` - Repository Structure section
 3. ✅ Relevant documentation files
 4. ✅ Test all Python code files still work
-5. ✅ Run markdownlint: `npx --yes markdownlint-cli2 "docs/**/*.md"`
+5. ✅ Run markdownlint: `npx --yes markdownlint-cli2 "README.md" "docs/**/*.md" ".github/**/*.md"`
 
 **Self-Check Question**: "Did I update the instruction file?" - If no, STOP and do it NOW.
 
