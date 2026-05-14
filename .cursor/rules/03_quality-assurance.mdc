@@ -32,7 +32,7 @@
 - [ ] **File naming validated**: Python files use `01_`, `02_`, etc. prefixes
 - [ ] **Directory structure validated**: Uses `L{level}/S{session}/` format
 - [ ] **Python code tested**: All `.py` files run without syntax errors
-- [ ] Markdownlint passes: `npx --yes markdownlint-cli2 "docs/**/*.md"`
+- [ ] Markdownlint passes: `npx --yes markdownlint-cli2 "README.md" "docs/**/*.md" ".github/**/*.md"`
 - [ ] Lychee link check passes: Use lychee with `lychee.toml` configuration
 - [ ] Code fences have language specified (`python`, `powershell`, `bash`, etc.)
 - [ ] Blank lines proper (MD022/031/032)

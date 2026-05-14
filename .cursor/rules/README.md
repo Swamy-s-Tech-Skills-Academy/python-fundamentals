@@ -82,7 +82,7 @@ This rule set is customized for the **Python Fundamentals** repository:
 
 **Quality Checks**:
 
-- Markdown linting: `npx --yes markdownlint-cli2 "docs/**/*.md"`
+- Markdown linting: `npx --yes markdownlint-cli2 "README.md" "docs/**/*.md" ".github/**/*.md"`
 - Link checking: Use lychee with `lychee.toml`
 - Python testing: Test all `.py` files manually
 

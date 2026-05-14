@@ -297,7 +297,7 @@ Every session documentation file MUST include:
 
 - Variables (S2) must come BEFORE Operators (S3) - need to understand data storage first
 - Conditionals (S4) must come BEFORE Loops (S6) - loops use conditional logic
-- Lists (S7) must come BEFORE Dictionaries (S8) - dictionaries build on list concepts
+- Lists (S8) must come BEFORE Dictionaries (S9) - dictionaries build on list concepts
 - Mini Projects consolidate learning from previous sessions
 
 **When Creating New Content**:
@@ -519,7 +519,7 @@ Before committing:
 - [ ] Navigation links work in markdown preview
 - [ ] All Python code files run without errors
 - [ ] All image references resolve correctly
-- [ ] Run markdownlint: `npx --yes markdownlint-cli2 "docs/**/*.md"`
+- [ ] Run markdownlint: `npx --yes markdownlint-cli2 "README.md" "docs/**/*.md" ".github/**/*.md"`
 - [ ] Run link checker: Use lychee with `lychee.toml` configuration
 
 ---
@@ -712,7 +712,7 @@ Before committing:
 
 **Use these tools for comprehensive review**:
 
-- Markdown linting: `npx --yes markdownlint-cli2 "docs/**/*.md"`
+- Markdown linting: `npx --yes markdownlint-cli2 "README.md" "docs/**/*.md" ".github/**/*.md"`
 - Link checking: Use lychee with `lychee.toml` configuration
 - Python syntax: Test all `.py` files manually or with scripts
 
