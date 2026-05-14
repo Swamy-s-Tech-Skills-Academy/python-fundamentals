@@ -89,4 +89,3 @@ This rule set is customized for the **Python Fundamentals** repository:
 ---
 
 **Note**: Cursor AI automatically reads all `.mdc` files in `.cursor/rules/` directory. No additional configuration needed.
-
