@@ -57,7 +57,7 @@ def main(argv: list[str]) -> int:
     # Example 5: ZeroDivisionError
     print("--- ZeroDivisionError Example ---")
     try:
-        result = 10 / 0
+        print(10 / 0)
     except ZeroDivisionError as e:
         print(f"ZeroDivisionError: {e}")
         print("Fix: Check if divisor is zero before dividing\n")
