@@ -56,6 +56,17 @@ See: `01_educational-content-rules.mdc` for complete details.
 
 **Self-Check Question**: "Do all file references use the correct L{level}/S{session}/ format?" - If no, FIX immediately.
 
+### 4a. Python Template Validation (CRITICAL)
+
+**Before creating or refactoring ANY Python file, validate the template choice**:
+
+1. ✅ Check `docs/PythonFileTemplates.md` first
+2. ✅ Use the CLI Lesson Script template for runnable Working samples and later-session lesson scripts unless the file is intentionally simpler or import-oriented
+3. ✅ Use the Teaching Script template only when top-level linear execution is part of the pedagogy
+4. ✅ Use the Helper/App template for importable helpers and application-style entry points
+
+**Self-Check Question**: "Am I using the correct template from docs/PythonFileTemplates.md for this file's purpose?" - If no, FIX immediately.
+
 ### 5. Internal Intake Policy Placement (CRITICAL)
 
 ✅ Maintain source-intake and sandbox-promotion policy in internal instruction surfaces only (`.github/`, `.cursor/rules/`, `CLAUDE.md`)  
