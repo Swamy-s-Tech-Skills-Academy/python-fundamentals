@@ -26,7 +26,7 @@ def main(argv: list[str]) -> int:
     print()
     print(f'len("")         -> {len("")}')
     print(f'len("python")   -> {len("python")}')
-    print(f'len("hi there") -> {len("hi there")}")
+    print(f'len("hi there") -> {len("hi there")}')
     return 0
 
 
