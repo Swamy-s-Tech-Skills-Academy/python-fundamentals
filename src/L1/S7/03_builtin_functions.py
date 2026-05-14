@@ -22,7 +22,6 @@ def safe_average(values):
     return sum(values) / len(values)
 
 
-
 def main(argv: list[str]) -> int:
     if any(arg in {"-h", "--help"} for arg in argv[1:]):
         print(HELP_TEXT)

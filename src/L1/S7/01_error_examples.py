@@ -32,7 +32,7 @@ def main(argv: list[str]) -> int:
     # Example 2: TypeError
     print("--- TypeError Example ---")
     try:
-        result = "Hello" + 5
+        print("Hello" + 5)
     except TypeError as e:
         print(f"TypeError: {e}")
         print("Fix: Convert to same type - 'Hello' + str(5)\n")
@@ -40,7 +40,7 @@ def main(argv: list[str]) -> int:
     # Example 3: ValueError
     print("--- ValueError Example ---")
     try:
-        number = int("hello")
+        print(int("hello"))
     except ValueError as e:
         print(f"ValueError: {e}")
         print("Fix: Make sure string contains a valid number\n")
