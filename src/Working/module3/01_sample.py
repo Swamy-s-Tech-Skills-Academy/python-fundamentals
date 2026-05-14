@@ -16,14 +16,14 @@ Why we need single quotes, double quotes, and triple quotes:
     It keeps blocks like help text, banners, and explanations easy to read.
 
 Try it:
-- Run: `python 01_sample.py`
-- Help: `python 01_sample.py --help`
+- Run: `python src/Working/module3/01_sample.py`
+- Help: `python src/Working/module3/01_sample.py --help`
 
 Next idea:
 - Once printing feels easy, compare `02_sample.py` (values, types, and variables).
 """
 
-# Filename: src/Working/Module1/01_sample.py
+# Filename: src/Working/module3/01_sample.py
 
 import sys
 
@@ -33,7 +33,7 @@ Purpose
     Practice printing text to the screen.
 
 Usage
-    python 01_sample.py
+    python src/Working/module3/01_sample.py
 
 Notes
     - Edit the messages and run again to see changes.
@@ -42,7 +42,7 @@ Notes
     - Triple quotes are useful for multi-line strings and documentation.
 
 Next script
-    02_sample.py - store values in variables and ask what type they are.
+    src/Working/module3/02_sample.py - store values in variables and inspect their types.
 """
 
 
@@ -54,29 +54,28 @@ def main(argv: list[str]) -> int:
     print("Day 1: Printing is your first feedback loop - you see what Python evaluated.\n")
 
     print("=== Basic print() examples ===")
-    print("Hello Data Science")
-    print("Hello Friends")
-    print("Hello Data Science")
-    print("Hello Data Science")
-    print("""Hello Data Science""")
+    print("Hello Python learners")
+    print("Welcome to today's practice")
+    print("Printing gives immediate feedback")
+    print("Edit this message and run again")
+    print("""Triple quotes can also hold one line""")
 
-    print(
-        'the name of the python programming language does not come from "python snake"'
-    )
+    print("Python programs become easier to trust when you run tiny examples often.")
 
     print("\n=== Quote style examples ===")
     print("It's my pleasure")
     print("""It's my pleasure""")
 
     print("\n=== Multi-line banner (triple quotes) ===")
-    print("""
-[H]=========ALICVDR=======[-][o][x]
-|                                 |
-|       Welcome to program!       |
-|           version 5             |                          
-|     Tap anywhere to continue    |
-|                                 |
-|=================================| """)
+    print(
+        """
++-------------------------------+
+|      Practice Console         |
+|      Python Sandbox           |
+|      Ready for input          |
++-------------------------------+
+"""
+    )
 
     return 0
 

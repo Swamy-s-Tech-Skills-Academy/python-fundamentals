@@ -248,7 +248,8 @@ print("\n" + "=" * 50)
 print("📚 FILE MODES REFERENCE")
 print("=" * 50)
 
-print("""
+print(
+    """
 | Mode  | Description              | Creates? | Erases? |
 |-------|--------------------------|----------|---------|
 | 'r'   | Read only                | No       | No      |
@@ -262,7 +263,8 @@ print("""
    • 'r'  - Reading existing files
    • 'w'  - Creating new files / overwriting
    • 'a'  - Adding to logs / appending data
-""")
+"""
+)
 
 
 # ============================================================
@@ -272,7 +274,8 @@ print("=" * 50)
 print("✅ BEST PRACTICES SUMMARY")
 print("=" * 50)
 
-print("""
+print(
+    """
 1. 🛡️ ALWAYS use 'with' statement
    → Ensures files are closed properly
 
@@ -290,7 +293,8 @@ print("""
 
 6. 🛡️ HANDLE errors
    → FileNotFoundError, PermissionError
-""")
+"""
+)
 
 
 # ============================================================

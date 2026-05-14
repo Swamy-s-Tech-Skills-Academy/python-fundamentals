@@ -183,7 +183,8 @@ print("\n" + "=" * 50)
 print("📊 COMPARISON: Write ('w') vs Append ('a')")
 print("=" * 50)
 
-print("""
+print(
+    """
 | Mode | Symbol | File Exists?          | File Doesn't Exist? |
 |------|--------|----------------------|---------------------|
 | Write| 'w'    | ERASES and writes    | Creates new file    |
@@ -192,7 +193,8 @@ print("""
 💡 Key Insight:
    - Use 'w' when you want to START FRESH
    - Use 'a' when you want to ADD MORE
-""")
+"""
+)
 
 
 # ============================================================
@@ -202,7 +204,8 @@ print("=" * 50)
 print("✅ BEST PRACTICE: Always use 'with'")
 print("=" * 50)
 
-print("""
+print(
+    """
 ❌ AVOID (manual close):
     file = open("data.txt", "w")
     file.write("content")
@@ -217,7 +220,8 @@ Why? The 'with' statement:
 • Automatically closes the file
 • Closes even if errors occur
 • Cleaner, safer code
-""")
+"""
+)
 
 
 # ============================================================

@@ -5,7 +5,7 @@ to several names at once, then move data between str, int, float, and bool when
 a task needs a different shape (log line vs math vs flag).
 """
 
-# Filename: src/Working/Module1/04_sample.py
+# Filename: src/Working/module3/04_sample.py
 
 import sys
 
@@ -17,10 +17,10 @@ Purpose
       2. Conversion with str(), int(), float(), and bool()
 
 Usage
-    python 04_sample.py
+    python src/Working/module3/04_sample.py
 
 Next script
-    05_sample.py - shorter conversion drill on the same skills.
+    src/Working/module3/05_sample.py - shorter conversion drill on the same skills.
 """
 
 
@@ -37,17 +37,11 @@ def demo_complex_assignment() -> None:
     # --- Chained assignment: same value to multiple names ---
     # Standard delivery zones all share a 2-business-day lead time.
     north = south = central = east = 2
-    print(
-        "Standard zones (days) - "
-        f"North: {north}, South: {south}, Central: {central}, East: {east}"
-    )
+    print("Standard zones (days) - " f"North: {north}, South: {south}, Central: {central}, East: {east}")
 
     # Remote delivery zones share a 5-business-day lead time.
     highland = island = offshore = border = 5
-    print(
-        "Remote zones   (days) - "
-        f"Highland: {highland}, Island: {island}, Offshore: {offshore}, Border: {border}"
-    )
+    print("Remote zones   (days) - " f"Highland: {highland}, Island: {island}, Offshore: {offshore}, Border: {border}")
 
     # --- Multiple targets, different values in one line (tuple unpacking) ---
     # Pair a city with its nearest fulfilment hub in a single statement.
@@ -85,21 +79,15 @@ def demo_type_conversion() -> None:
 
     # int  ->  str  (e.g. building a log message)
     zone_as_text = str(zone_number)
-    print(
-        f"str({zone_number})          -> {zone_as_text!r}  ({type(zone_as_text).__name__})"
-    )
+    print(f"str({zone_number})          -> {zone_as_text!r}  ({type(zone_as_text).__name__})")
 
     # float  ->  int  (truncates decimal - useful for whole-number comparisons)
     humidity_whole = int(humidity_percent)
-    print(
-        f"int({humidity_percent})       -> {humidity_whole}    ({type(humidity_whole).__name__})"
-    )
+    print(f"int({humidity_percent})       -> {humidity_whole}    ({type(humidity_whole).__name__})")
 
     # bool  ->  float  (False == 0.0, used in weighted calculations)
     alert_weight = float(is_alert_active)
-    print(
-        f"float({is_alert_active})   -> {alert_weight}   ({type(alert_weight).__name__})"
-    )
+    print(f"float({is_alert_active})   -> {alert_weight}   ({type(alert_weight).__name__})")
 
     # str (numeric)  ->  int  (reading a value stored as text)
     raw_port = "8080"
@@ -113,9 +101,7 @@ def demo_type_conversion() -> None:
         _ = int(sensor_code)
     except ValueError as err:
         print(f"  ValueError: {err}")
-        print(
-            "  (The string must be parseable as a number, not a random word.)"
-        )
+        print("  (The string must be parseable as a number, not a random word.)")
 
 
 # ---------------------------------------------------------------------------
@@ -128,9 +114,7 @@ def main(argv: list[str]) -> int:
         print(HELP_TEXT)
         return 0
 
-    print(
-        "Day 4: One line can set many variables; conversions bridge types.\n"
-    )
+    print("Day 4: One line can set many variables; conversions bridge types.\n")
 
     demo_complex_assignment()
     demo_type_conversion()

@@ -19,21 +19,21 @@ def main(argv: list[str]) -> int:
         print(HELP_TEXT)
         return 0
 
-    url = "www.datascience.com"
+    url = "www.learnpython.dev"
     print(f"url = {url!r}\n")
 
     # Basic prefix and suffix checks
     print("startswith('www')      ->", url.startswith("www"))
     print("startswith('com')      ->", url.startswith("com"))
-    print("endswith('.com')       ->", url.endswith(".com"))
+    print("endswith('.dev')       ->", url.endswith(".dev"))
 
     # Optional (start, end) bounds — indexes are 0-based, end is exclusive.
-    # url[4:12] evaluates to "datascie"; does it start with "data"?
+    # url[4:12] evaluates to "learnpyt"; does it start with "learn"?
     print("\n--- Optional index bounds (start inclusive, end exclusive) ---")
-    print("startswith('data', 4, 12) ->", url.startswith("data", 4, 12))
+    print("startswith('learn', 4, 12) ->", url.startswith("learn", 4, 12))
 
-    # url[4:15] evaluates to "datascience"; does it end with "ence"?
-    print("endswith('ence', 4, 15)   ->", url.endswith("ence", 4, 15))
+    # url[4:15] evaluates to "learnpython"; does it end with "python"?
+    print("endswith('python', 4, 15)   ->", url.endswith("python", 4, 15))
 
     print("\nTip: in the REPL, type  url.startswith(  then press Shift+Tab to read the docstring.")
 

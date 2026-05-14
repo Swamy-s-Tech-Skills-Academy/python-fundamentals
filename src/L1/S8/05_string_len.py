@@ -18,7 +18,7 @@ def main(argv: list[str]) -> int:
         print(HELP_TEXT)
         return 0
 
-    role = "data scientist"
+    role = "python coach"
     n = len(role)
     print(f"role        = {role!r}")
     print(f"len(role)   = {n}  (spaces inside count as characters)")

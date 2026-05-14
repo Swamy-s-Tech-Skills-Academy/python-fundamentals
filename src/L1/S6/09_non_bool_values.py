@@ -30,8 +30,8 @@ def demo_and_or_return_actual_value() -> None:
     print()
     print("  -- and returns the first falsy value, or the last value if all truthy --")
     print(f"  1 and 0             -> {repr(1 and 0):<10}  (0 is falsy; stops there)")
-    print(f"  1 and 'france'      -> {repr(1 and 'france'):<10}  (all truthy; returns last)")
-    print(f"  1 and 'france' and 'italy' -> {repr(1 and 'france' and 'italy'):<10}  (all truthy; returns last)")
+    print(f"  1 and 'loop'        -> {repr(1 and 'loop'):<10}  (all truthy; returns last)")
+    print(f"  1 and 'loop' and 'list' -> {repr(1 and 'loop' and 'list'):<10}  (all truthy; returns last)")
 
     print()
     print("  -- or returns the first truthy value, or the last value if all falsy --")
@@ -43,11 +43,11 @@ def demo_and_or_return_actual_value() -> None:
 def demo_and_first_falsy_wins() -> None:
     print("\n=== 3) and - first falsy value is returned ===")
     # All three are evaluated left-to-right; empty string '' is first falsy
-    result = "" and "france" and "italy" and []
-    print(f'  "" and "france" and "italy" and []')
+    result = "" and "loop" and "list" and []
+    print(f'  "" and "loop" and "list" and []')
     print(f"  -> {repr(result)}")
     print("  ('' is falsy; Python stops immediately and returns '')")
-    print("  (does NOT reach 'france', 'italy', or [])")
+    print("  (does NOT reach 'loop', 'list', or [])")
 
 
 def demo_falsy_values() -> None:

@@ -4,7 +4,7 @@ Builds on Day 4: same conversion tools (str, int, float, bool), in a shorter
 story so you can read the patterns without delivery-zone context.
 """
 
-# Filename: src/Working/Module1/05_sample.py
+# Filename: src/Working/module3/05_sample.py
 
 import sys
 
@@ -14,7 +14,7 @@ Purpose
     Practice str(), int(), float(), and bool() conversions.
 
 Usage
-    python 05_sample.py
+    python src/Working/module3/05_sample.py
 
 Topics Covered
     - Reading type() alongside the value you stored
@@ -22,7 +22,7 @@ Topics Covered
     - ValueError when int() cannot parse the string as an integer
 
 Next script
-    06_sample.py - combine numbers with arithmetic operators.
+    src/Working/module3/06_sample.py - combine numbers with arithmetic operators.
 """
 
 
@@ -31,9 +31,7 @@ def main(argv: list[str]) -> int:
         print(HELP_TEXT)
         return 0
 
-    print(
-        "Day 5: Same casts as Day 4 - repeat until int('8') feels obvious.\n"
-    )
+    print("Day 5: Same casts as Day 4 - repeat until int('8') feels obvious.\n")
 
     print("=== Original values and types ===")
     month_name = "september"  # str
@@ -51,18 +49,12 @@ def main(argv: list[str]) -> int:
     converted_discount_rate = int(discount_rate)  # float -> int (truncates)
     converted_is_active = float(is_active)  # bool -> float (True -> 1.0)
 
-    print(
-        f"str({month_number}) -> {converted_month_number!r} "
-        f"(type={type(converted_month_number).__name__})"
-    )
+    print(f"str({month_number}) -> {converted_month_number!r} " f"(type={type(converted_month_number).__name__})")
     print(
         f"int({discount_rate}) -> {converted_discount_rate} "
         f"(type={type(converted_discount_rate).__name__}, truncated)"
     )
-    print(
-        f"float({is_active}) -> {converted_is_active} "
-        f"(type={type(converted_is_active).__name__})"
-    )
+    print(f"float({is_active}) -> {converted_is_active} " f"(type={type(converted_is_active).__name__})")
 
     print("\n=== Invalid conversion example ===")
     try:

@@ -13,7 +13,7 @@ Usage
 """
 
 
-def demo_basic_operators():
+def demo_basic_operators() -> None:
     print("=" * 50)
     print("1. BASIC BOOLEAN OPERATORS")
     print("=" * 50)
@@ -38,7 +38,7 @@ def demo_basic_operators():
     print(f"not False => {not False}")
 
 
-def demo_operator_precedence():
+def demo_operator_precedence() -> None:
     print("\n" + "=" * 50)
     print("2. OPERATOR PRECEDENCE  ( () > not > and > or )")
     print("=" * 50)
@@ -68,7 +68,7 @@ def demo_operator_precedence():
     print(f"\n(True or False) and (not True or False) => {result3}")
 
 
-def demo_non_bool_values():
+def demo_non_bool_values() -> None:
     print("\n" + "=" * 50)
     print("3. NON-BOOL VALUES WITH BOOLEAN OPERATORS")
     print("=" * 50)
@@ -78,14 +78,14 @@ def demo_non_bool_values():
     print(f"not 1            => {not 1}  (not always returns a bool)")
     print(f"not 0            => {not 0}   (not always returns a bool)")
 
-    print(f'\n1 and "france" and "italy"  => {1 and "france" and "italy"}')
+    print(f'\n1 and "loop" and "list"  => {1 and "loop" and "list"}')
     print("  (all truthy => returns rightmost value)")
 
-    print(f'\n"" and "france" and "italy" and []  => {repr("" and "france" and "italy" and [])}')
+    print(f'\n"" and "loop" and "list" and []  => {repr("" and "loop" and "list" and [])}')
     print('  (empty string is falsy => returns first falsy: "")')
 
 
-def demo_falsy_values():
+def demo_falsy_values() -> None:
     print("\n" + "=" * 50)
     print("4. FALSY VALUES IN PYTHON")
     print("=" * 50)
@@ -97,7 +97,7 @@ def demo_falsy_values():
     print("\n  Everything else is truthy (non-zero numbers, non-empty strings/collections).")
 
 
-def demo_short_circuit():
+def demo_short_circuit() -> None:
     print("\n" + "=" * 50)
     print("5. SHORT-CIRCUIT EVALUATION")
     print("=" * 50)

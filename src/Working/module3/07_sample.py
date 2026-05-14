@@ -4,7 +4,7 @@ Builds on Day 1: plain print(items) prints each piece with spaces and ends with 
 new line by default. This file tweaks those defaults for cleaner output.
 """
 
-# Filename: src/Working/Module1/07_sample.py
+# Filename: src/Working/module3/07_sample.py
 
 import sys
 
@@ -14,7 +14,7 @@ Purpose
     Understand how print() handles multiple values, separators, and line endings.
 
 Usage
-    python 07_sample.py
+    python src/Working/module3/07_sample.py
 
 Topics Covered
     - Printing multiple values with commas
@@ -22,7 +22,7 @@ Topics Covered
     - end to suppress or extend the trailing newline
 
 Next script
-    08_sample.py - escapes inside strings (including \\n in text).
+    src/Working/module3/08_sample.py - escapes inside strings (including \\n in text).
 """
 
 
@@ -31,27 +31,25 @@ def main(argv: list[str]) -> int:
         print(HELP_TEXT)
         return 0
 
-    print(
-        "Day 7: print can join values and choose what happens after the line.\n"
-    )
+    print("Day 7: print can join values and choose what happens after the line.\n")
 
-    age = 29
-    sentence = "My age is"
+    lesson_number = 7
+    sentence = "Current lesson"
 
     print("=== Multiple values in print() ===")
-    print(sentence, age)
+    print(sentence, lesson_number)
 
     print("\n=== Using sep ===")
-    print(sentence, age, sep="-")
-    print(sentence, age, sep=" | ")
+    print(sentence, lesson_number, sep="-")
+    print(sentence, lesson_number, sep=" | ")
 
     print("\n=== Using end ===")
-    print(sentence, age, sep="-", end="  <-- same line ->  ")
-    print(sentence, age, sep="-")
+    print(sentence, lesson_number, sep="-", end="  <-- same line ->  ")
+    print(sentence, lesson_number, sep="-")
 
     print("\n=== Common beginner mistake ===")
-    print("Wrong:  print(sentence age)")
-    print("Right:  print(sentence, age)")
+    print("Wrong:  print(sentence lesson_number)")
+    print("Right:  print(sentence, lesson_number)")
 
     return 0
 

@@ -9,7 +9,7 @@ What you practice here:
 - Assignment, reassignment, and (briefly) del / NameError
 """
 
-# Filename: src/Working/Module1/02_sample.py
+# Filename: src/Working/module3/02_sample.py
 
 import sys
 
@@ -21,10 +21,10 @@ Purpose
     using a coffee shop inventory as the working context.
 
 Usage
-    python 02_sample.py
+    python src/Working/module3/02_sample.py
 
 Next script
-    03_sample.py - make names and layout readable (PEP 8 style).
+    src/Working/module3/03_sample.py - make names and layout readable (PEP 8 style).
 """
 
 
@@ -101,9 +101,7 @@ def main(argv: list[str]) -> int:
         print(HELP_TEXT)
         return 0
 
-    print(
-        "Day 2: Give values names, then use type() to check what you stored.\n"
-    )
+    print("Day 2: Give values names, then use type() to check what you stored.\n")
 
     demo_data_types()
     print()
