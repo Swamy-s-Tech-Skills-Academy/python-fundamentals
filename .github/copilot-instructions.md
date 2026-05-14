@@ -69,7 +69,6 @@
 ## 📋 **PROJECT STRUCTURE OVERVIEW**
 
 > **📋 Single Source of Truth**: For the most detailed and up-to-date repository structure, see [`docs/RepositoryStructure.md`](../docs/RepositoryStructure.md). This section provides a quick overview for AI assistants.
-
 > **🐍 Python File Templates**: For approved Python file shapes, see [`docs/PythonFileTemplates.md`](../docs/PythonFileTemplates.md). Use it when creating or refactoring lesson scripts, Working samples, helper modules, or app entry points.
 
 ### **Current Organization:**
