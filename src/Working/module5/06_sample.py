@@ -1,12 +1,23 @@
-"""Working draft: strip, rstrip, lstrip (trim spaces or custom chars).
+"""Working draft: strip(), lstrip(), and rstrip()."""
 
-Run: python src/Working/module5/06_sample.py
+import sys
+
+HELP_TEXT = """06_sample.py
+
+Purpose
+    Demonstrate how strip(), lstrip(), and rstrip() remove whitespace or
+    chosen leading and trailing characters.
+
+Usage
+    python src/Working/module5/06_sample.py
 """
 
-from __future__ import annotations
 
+def main(argv: list[str]) -> int:
+    if any(arg in {"-h", "--help"} for arg in argv[1:]):
+        print(HELP_TEXT)
+        return 0
 
-def main() -> None:
     padded_text = "   practice   "
     print(f"padded_text = {padded_text!r}\n")
 
@@ -21,7 +32,7 @@ def main() -> None:
     print("\nTip: help(str.strip) in the REPL explains the optional chars argument.")
 
     print("\n=== Done ===")
+    return 0
 
 
-if __name__ == "__main__":
-    main()
+raise SystemExit(main(sys.argv))

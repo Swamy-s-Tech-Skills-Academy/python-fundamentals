@@ -1,14 +1,23 @@
-"""Working draft: str.replace(old, new, count=-1).
+"""Working draft: str.replace(old, new, count=-1)."""
 
-`count` limits how many non-overlapping replacements run; default replaces all.
+import sys
 
-Run: python src/Working/module5/04_sample.py
+HELP_TEXT = """04_sample.py
+
+Purpose
+    Show how replace() swaps text and how the optional count argument limits
+    how many replacements happen.
+
+Usage
+    python src/Working/module5/04_sample.py
 """
 
-from __future__ import annotations
 
+def main(argv: list[str]) -> int:
+    if any(arg in {"-h", "--help"} for arg in argv[1:]):
+        print(HELP_TEXT)
+        return 0
 
-def main() -> None:
     code_word = "p-y-t-h-o-n"
     print(f"code_word = {code_word!r}")
     print(
@@ -30,7 +39,7 @@ def main() -> None:
     )
 
     print("\n=== Done ===")
+    return 0
 
 
-if __name__ == "__main__":
-    main()
+raise SystemExit(main(sys.argv))
