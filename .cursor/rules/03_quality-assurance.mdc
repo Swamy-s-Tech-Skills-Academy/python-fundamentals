@@ -45,6 +45,26 @@
 - [ ] ✅ Related documentation updated
 - [ ] ✅ All practice file references in session docs are correct
 
+### Python Quality Scope (Formal Curriculum)
+
+- Blocking Python quality checks target formal curriculum paths `src/L1` and `src/L2`.
+- Keep `src/Working/` non-blocking unless the task explicitly includes Working paths.
+
+### Test-Depth Roadmap (Non-Blocking Improvement Plan)
+
+- Keep smoke checks in `tests/test_curriculum_smoke.py`.
+- Expand with behavioral tests for key mini projects:
+  - `src/L1/S5/03_simple_calculator.py`: invalid numeric input, operator validation, divide-by-zero behavior.
+  - `src/L1/S10/profile_generator.py`: required input handling and output contract checks.
+  - `src/L2/S5/data_processor.py`: representative transformation/summary path checks.
+  - `src/L2/S10/contact_manager.py`: end-to-end contact CRUD workflow checks.
+
+### CI Hardening Roadmap (GitHub Actions)
+
+- Pin third-party actions in `.github/workflows/*.yml` to immutable commit SHAs.
+- Track readable upstream version tags in comments.
+- Review and refresh action pins on a regular cadence and after security advisories.
+
 ### File Reference Validation (CRITICAL)
 
 - [ ] ✅ **All file references validated**: Check all practice file references in session documentation

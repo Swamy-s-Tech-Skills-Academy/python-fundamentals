@@ -57,7 +57,7 @@ A comprehensive, transformation-focused Python curriculum designed to take you f
 ### **📊 Repository Health:**
 
 - ✅ **Documentation Quality:** Automated linting and link checking
-- ✅ **Code Quality:** Python static checks (lint + byte-compile) available for `src/`
+- ✅ **Code Quality:** Python static checks (lint + byte-compile) available for formal curriculum paths `src/L1` and `src/L2`
 - ✅ **CI/CD Pipeline:** Automated docs and Python quality checks on PRs
 - ✅ **Educational Structure:** Progressive 30-minute sessions
 
