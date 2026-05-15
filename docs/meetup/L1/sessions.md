@@ -115,9 +115,9 @@ Perfect For:
 
 ## Level 1 - Session 8: Lists & Loops
 
-Date: To be announced (pending)
+Date: To be announced (planned)
 
-Event URL: To be announced (pending)
+Event URL: To be announced (planned)
 
 🔹 Session Agenda:
 
