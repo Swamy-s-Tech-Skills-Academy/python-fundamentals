@@ -21,7 +21,7 @@ Purpose
     correct multi-line wrapping of function calls and expressions.
 
 Usage
-    python 05_pep8_indentation.py
+    python src/L1/S7/05_pep8_indentation.py
 """
 
 

@@ -77,15 +77,15 @@ def demo_non_bool_values() -> None:
 
     # With and/or Python may return the actual value, not True/False
     print(f"\n1 and 0          => {1 and 0}   (int 0 = falsy; and returns first falsy)")
-    print(f"not 1            => {not 1}   (not always returns True or False)")
-    print(f"not 0            => {not 0}    (not always returns True or False)")
+    print(f"not 1            => {not 1}   (the not operator always returns True or False)")
+    print(f"not 0            => {not 0}    (the not operator always returns True or False)")
 
     print(f'\n1 and "loop" and "list"  => {1 and "loop" and "list"}')
     print("  (all truthy => returns rightmost value)")
 
     print(f'\n"" and "loop" and "list" and []  => {repr("" and "loop" and "list" and [])}')
     print('  (empty string is falsy => returns first falsy: "")')
-    print("  Unlike and/or, not always returns a Boolean result.")
+    print("  Unlike and/or, the not operator always returns a Boolean result.")
 
 
 def demo_falsy_values() -> None:
