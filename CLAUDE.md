@@ -12,6 +12,7 @@
 3. **Do not corrupt content** — If a change feels broad or risky, ask first.
 4. **Session-bucketing safety** — New content should go to planned/new sessions by default. Do not add new material to completed sessions without explicit user approval.
 5. **`src/Working/` hands-off** — Do not add, edit, move, rename, or delete files under `src/Working/` unless **Swamy explicitly asks** for that Working change in the current message. For Working layout and promotion expectations, read **`docs/RepositoryStructure.md`** (section **src/Working/**); do all curriculum edits in `src/L{level}/S{session}/` and `docs/` unless Working is in scope by name.
+6. **Formal quality scope** — Treat blocking Python quality checks as scoped to formal curriculum paths (`src/L1`, `src/L2`) unless Swamy explicitly includes `src/Working/`.
 
 ## 🔒 Internal Content Intake Policy (Source Notes + Working)
 

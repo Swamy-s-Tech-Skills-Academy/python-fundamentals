@@ -12,7 +12,6 @@ python-fundamentals/
 │   ├── 01_Python-Fundamentals-MasterPlan.md  # Complete 18-level course master plan
 │   ├── images/                 # Screenshots and educational images
 │   │   ├── S1/                 # Session 1 images
-│   │   └── S6/                 # Session 6 images
 │   ├── PythonFileTemplates.md  # Approved Python file templates for lessons and helpers
 │   ├── RepositoryStructure.md  # This file
 │   └── sessions/
@@ -165,7 +164,7 @@ python-fundamentals/
 
 Contains all educational documentation:
 
-- **`images/`**: Educational images organized by session (S1, S2, etc.)
+- **`images/`**: Educational images organized by session folders (currently `S1/`)
 - **`sessions/`**: Session documentation organized by level (L1, L2, etc.)
   - Each level contains:
     - `_Plan.md`: Complete level curriculum plan (underscore sorts first)
@@ -187,7 +186,6 @@ Sandbox staging area for **informal live-coding drafts** before promotion into f
 
 - **`module3/`**, **`module4/`**, **`module5/`**: informal numbered samples (e.g. `01_sample.py`) staged before cleanup and promotion.
 - **`References.md`**: links to source material and reference repositories.
-- See `CLAUDE.md` for the promotion workflow (cleanup, numbering, headers, session doc links).
 - Working Python samples should default to the CLI lesson template in `docs/PythonFileTemplates.md`.
 
 ### `tests/`
@@ -208,13 +206,13 @@ PowerShell utility scripts for development:
 GitHub configuration:
 
 - **`workflows/`**: CI/CD pipelines for quality assurance
-- **`copilot-instructions.md`**: AI assistant guidelines
+- **`copilot-instructions.md`**: Internal contributor/automation guidance
 
 ### `.cursor/`
 
-Cursor AI configuration:
+Cursor configuration:
 
-- **`rules/`**: Modular rule files for Cursor AI
+- **`rules/`**: Modular internal rule files
 
 ---
 

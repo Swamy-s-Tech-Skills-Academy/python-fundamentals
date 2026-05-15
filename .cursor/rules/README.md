@@ -84,7 +84,7 @@ This rule set is customized for the **Python Fundamentals** repository:
 
 - Markdown linting: `npx --yes markdownlint-cli2 "README.md" "docs/**/*.md" ".github/**/*.md"`
 - Link checking: Use lychee with `lychee.toml`
-- Python testing: Test all `.py` files manually
+- Python checks (formal curriculum scope): `ruff check src/L1 src/L2`, `black --check tests`, `isort --check-only src/L1 src/L2`, `flake8 src/L1 src/L2`, `python -m compileall -q src/L1 src/L2`, `pytest -q`
 
 ---
 
