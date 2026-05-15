@@ -291,7 +291,7 @@ Before committing any file with references:
 
 ```powershell
 # Lint markdown files
-npx --yes markdownlint-cli2 "docs/**/*.md"
+npx --yes markdownlint-cli2 "README.md" "docs/**/*.md" ".github/**/*.md"
 
 # Check links (using lychee)
 docker run --rm -w /input -v "${PWD}:/input" lycheeverse/lychee:latest --config lychee.toml --no-progress README.md docs/**/*.md

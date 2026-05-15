@@ -69,6 +69,7 @@
 ## 📋 **PROJECT STRUCTURE OVERVIEW**
 
 > **📋 Single Source of Truth**: For the most detailed and up-to-date repository structure, see [`docs/RepositoryStructure.md`](../docs/RepositoryStructure.md). This section provides a quick overview for AI assistants.
+> **🐍 Python File Templates**: For approved Python file shapes, see [`docs/PythonFileTemplates.md`](../docs/PythonFileTemplates.md). Use it when creating or refactoring lesson scripts, Working samples, helper modules, or app entry points.
 
 ### **Current Organization:**
 
@@ -147,7 +148,7 @@ python-fundamentals/
 
 ### Standard file template
 
-The `main(argv)` / `HELP_TEXT` / `raise SystemExit` pattern (see `src/Working/module4/01_sample.py` or `src/L1/S6/08_boolean_logic_precedence.py`) is the **preferred template** for Working drafts and promoted files:
+The `main(argv)` / `HELP_TEXT` / `raise SystemExit` pattern (see `src/Working/module4/01_sample.py` or `src/L1/S6/08_boolean_logic_precedence.py`) is the **preferred template** for Working drafts and promoted files. For the full policy, including teaching-script and helper/app exceptions, see [`docs/PythonFileTemplates.md`](../docs/PythonFileTemplates.md):
 
 ```python
 """Module docstring explaining what the file demonstrates."""

@@ -2,6 +2,8 @@
 
 This file defers to the repository root `CLAUDE.md` and `AGENTS.md`.
 
+Also use `docs/PythonFileTemplates.md` when creating or refactoring Python files.
+
 ## Additional placement guardrail
 
 - For new curriculum additions, default to planned/new sessions.

@@ -13,6 +13,7 @@ python-fundamentals/
 │   ├── images/                 # Screenshots and educational images
 │   │   ├── S1/                 # Session 1 images
 │   │   └── S6/                 # Session 6 images
+│   ├── PythonFileTemplates.md  # Approved Python file templates for lessons and helpers
 │   ├── RepositoryStructure.md  # This file
 │   └── sessions/
 │       ├── L1/                 # Level 1: Noob → Nerd
@@ -89,7 +90,8 @@ python-fundamentals/
 │       │   ├── 06_string_methods.py
 │       │   ├── 07_string_replace.py
 │       │   ├── 08_string_case_methods.py
-│       │   └── 09_string_strip_methods.py
+│       │   ├── 09_string_strip_methods.py
+│       │   └── 10_string_indexing_and_slicing.py
 │       ├── S9/                 # Session 9 practice files
 │       │   ├── 01_dict_basics.py
 │       │   ├── 02_dict_iteration.py
@@ -177,6 +179,7 @@ Contains all practice code files:
 - Organized by level (`L1/`, `L2/`, etc.)
 - Each level contains session-aligned directories (`S1/`, `S5/`, `S10/`, etc.)
 - Practice files use numeric prefixes: `01_name.py`, `02_name.py`, etc.
+- Python file shapes follow the three approved templates in `docs/PythonFileTemplates.md`
 
 ### `src/Working/`
 
@@ -185,6 +188,7 @@ Sandbox staging area for **informal live-coding drafts** before promotion into f
 - **`module3/`**, **`module4/`**, **`module5/`**: informal numbered samples (e.g. `01_sample.py`) staged before cleanup and promotion.
 - **`References.md`**: links to source material and reference repositories.
 - See `CLAUDE.md` for the promotion workflow (cleanup, numbering, headers, session doc links).
+- Working Python samples should default to the CLI lesson template in `docs/PythonFileTemplates.md`.
 
 ### `tests/`
 

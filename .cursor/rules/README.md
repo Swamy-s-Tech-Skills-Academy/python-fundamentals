@@ -10,22 +10,28 @@ This directory contains modular rule files for Cursor AI, customized for the Pyt
 ## 📋 Rule Files
 
 ### `01_educational-content-rules.mdc`
+
 **Priority**: MANDATORY  
 **Content**: Zero-Copy Policy, internal source-intake rules (`source-material/` + `src/Working/` — hands-off unless Swamy asks), Transformative Workflow, 30-minute sessions, session structure requirements, educational excellence standards, Python code standards
 
 ### `02_repository-structure.mdc`
-**Content**: Python Fundamentals repository context, structure overview (L{level}/S{session}/), support resources
+
+**Content**: Python Fundamentals repository context, structure overview (L{level}/S{session}/), Python file template references, support resources
 
 ### `03_quality-assurance.mdc`
+
 **Content**: Quality checklists (content, technical, documentation), Python code testing requirements
 
 ### `04_markdown-standards.mdc`
+
 **Content**: Markdown authoring standards, session documentation structure, file reference validation, encoding requirements
 
 ### `05_primary-directives.mdc`
-**Content**: Primary directives, automation-first approach, update verification protocol, file naming validation, internal-policy placement guardrails, hands-off `src/Working/` unless Swamy requests
+
+**Content**: Primary directives, automation-first approach, update verification protocol, file naming validation, Python template validation, internal-policy placement guardrails, hands-off `src/Working/` unless Swamy requests
 
 ### `06_cross-level-integration.mdc`
+
 **Content**: Cross-level integration requirements, session connection patterns, prerequisite relationships
 
 ---
@@ -54,6 +60,7 @@ This rule set is customized for the **Python Fundamentals** repository:
 ## 🔗 Related Files
 
 - **GitHub Copilot**: `.github/copilot-instructions.md` (similar rules for GitHub Copilot)
+- **Python templates**: `docs/PythonFileTemplates.md` (approved lesson/helper Python file shapes)
 - **Main README**: `README.md` (repository overview and structure)
 - **Session Documentation**: `docs/sessions/L1/_Plan.md` (Level 1 curriculum plan)
 
@@ -62,21 +69,23 @@ This rule set is customized for the **Python Fundamentals** repository:
 ## 🚀 Quick Reference
 
 **File Naming**:
+
 - Python files: `01_name.py`, `02_name.py`
 - Session docs: `S1.md`, `S2.md`, `_Plan.md` (underscore prefix sorts first)
 - Directories: `L1/S1/`, `L1/S2/`
 
 **Path References**:
+
 - Practice files: `src/L1/S1/01_hello.py`
 - Session docs: `docs/sessions/L1/S1.md`
 - Images: `docs/images/S1/Help_V1.PNG`
 
 **Quality Checks**:
-- Markdown linting: `npx --yes markdownlint-cli2 "docs/**/*.md"`
+
+- Markdown linting: `npx --yes markdownlint-cli2 "README.md" "docs/**/*.md" ".github/**/*.md"`
 - Link checking: Use lychee with `lychee.toml`
 - Python testing: Test all `.py` files manually
 
 ---
 
 **Note**: Cursor AI automatically reads all `.mdc` files in `.cursor/rules/` directory. No additional configuration needed.
-

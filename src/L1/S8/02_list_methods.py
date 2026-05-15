@@ -1,61 +1,85 @@
+"""Session 8: adding, removing, finding, and sorting list items."""
+
 # Filename: src/L1/S8/02_list_methods.py
 
-print("=== List Methods Demo ===\n")
+import sys
 
-# Adding items
-print("--- Adding Items ---")
-fruits = ["apple"]
-print(f"Start: {fruits}")
+HELP_TEXT = """02_list_methods.py
 
-fruits.append("banana")
-print(f"After append('banana'): {fruits}")
+Purpose
+    Demonstrate common list methods for adding, removing, finding, and sorting
+    items.
 
-fruits.insert(1, "blueberry")
-print(f"After insert(1, 'blueberry'): {fruits}")
+Usage
+    python src/L1/S8/02_list_methods.py
+"""
 
-fruits.extend(["cherry", "date"])
-print(f"After extend(['cherry', 'date']): {fruits}")
 
-# Removing items
-print("\n--- Removing Items ---")
-fruits = ["apple", "banana", "cherry", "date"]
-print(f"Start: {fruits}")
+def main(argv: list[str]) -> int:
+    if any(arg in {"-h", "--help"} for arg in argv[1:]):
+        print(HELP_TEXT)
+        return 0
 
-fruits.remove("banana")
-print(f"After remove('banana'): {fruits}")
+    print("=== List Methods Demo ===\n")
 
-removed = fruits.pop()
-print(f"pop() returned: {removed}")
-print(f"After pop(): {fruits}")
+    # Adding items
+    print("--- Adding Items ---")
+    fruits = ["apple"]
+    print(f"Start: {fruits}")
 
-removed = fruits.pop(0)
-print(f"pop(0) returned: {removed}")
-print(f"After pop(0): {fruits}")
+    fruits.append("banana")
+    print(f"After append('banana'): {fruits}")
 
-# Finding items
-print("\n--- Finding Items ---")
-numbers = [10, 20, 30, 20, 40, 20]
-print(f"numbers = {numbers}")
-print(f"index(30) = {numbers.index(30)}")
-print(f"count(20) = {numbers.count(20)}")
+    fruits.insert(1, "blueberry")
+    print(f"After insert(1, 'blueberry'): {fruits}")
 
-# Sorting
-print("\n--- Sorting ---")
-unsorted = [3, 1, 4, 1, 5, 9, 2, 6]
-print(f"Original: {unsorted}")
+    fruits.extend(["cherry", "date"])
+    print(f"After extend(['cherry', 'date']): {fruits}")
 
-unsorted.sort()
-print(f"After sort(): {unsorted}")
+    # Removing items
+    print("\n--- Removing Items ---")
+    fruits = ["apple", "banana", "cherry", "date"]
+    print(f"Start: {fruits}")
 
-unsorted.sort(reverse=True)
-print(f"After sort(reverse=True): {unsorted}")
+    fruits.remove("banana")
+    print(f"After remove('banana'): {fruits}")
 
-unsorted.reverse()
-print(f"After reverse(): {unsorted}")
+    removed = fruits.pop()
+    print(f"pop() returned: {removed}")
+    print(f"After pop(): {fruits}")
 
-# sorted() vs sort()
-print("\n--- sorted() vs sort() ---")
-original = [3, 1, 4, 1, 5]
-new_list = sorted(original)
-print(f"Original: {original}")
-print(f"sorted(original): {new_list}")
+    removed = fruits.pop(0)
+    print(f"pop(0) returned: {removed}")
+    print(f"After pop(0): {fruits}")
+
+    # Finding items
+    print("\n--- Finding Items ---")
+    numbers = [10, 20, 30, 20, 40, 20]
+    print(f"numbers = {numbers}")
+    print(f"index(30) = {numbers.index(30)}")
+    print(f"count(20) = {numbers.count(20)}")
+
+    # Sorting
+    print("\n--- Sorting ---")
+    unsorted = [3, 1, 4, 1, 5, 9, 2, 6]
+    print(f"Original: {unsorted}")
+
+    unsorted.sort()
+    print(f"After sort(): {unsorted}")
+
+    unsorted.sort(reverse=True)
+    print(f"After sort(reverse=True): {unsorted}")
+
+    unsorted.reverse()
+    print(f"After reverse(): {unsorted}")
+
+    # sorted() vs sort()
+    print("\n--- sorted() vs sort() ---")
+    original = [3, 1, 4, 1, 5]
+    new_list = sorted(original)
+    print(f"Original: {original}")
+    print(f"sorted(original): {new_list}")
+    return 0
+
+
+raise SystemExit(main(sys.argv))

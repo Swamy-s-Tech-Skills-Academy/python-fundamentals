@@ -51,7 +51,9 @@ When including code examples in session documentation:
 
 > **Single source of truth:** [`docs/RepositoryStructure.md`](../../docs/RepositoryStructure.md) — if this embedded tree and that file differ, **update the doc first**, then mirror the block here.
 
-**CI / tooling:** `.github/workflows/docs-quality.yml` (markdownlint + Lychee) and `python-quality.yml` (Ruff + `compileall`). `requires-python` is in `pyproject.toml` (e.g. `py -3.13` on Windows to match GitHub Actions).
+**CI / tooling:** `.github/workflows/docs-quality.yml` (markdownlint + Lychee) and `python-quality.yml` (Ruff, Black, isort, Flake8, `compileall`, and `pytest`). `requires-python` is in `pyproject.toml` (e.g. `py -3.13` on Windows to match GitHub Actions).
+
+**Python file shapes:** [`docs/PythonFileTemplates.md`](../../docs/PythonFileTemplates.md) defines the approved Teaching Script, CLI Lesson Script, and Helper/App templates.
 
 ```text
 python-fundamentals/
@@ -83,6 +85,7 @@ This block is intentionally compact. Use [`docs/RepositoryStructure.md`](../../d
 **Location**: `docs/sessions/L{level}/`
 
 **Structure**:
+
 - `_Plan.md` - Complete level curriculum plan (underscore prefix sorts first)
 - `S1.md`, `S2.md`, etc. - Session documentation files
 - Each session document references practice files in `src/L{level}/S{session}/`
@@ -92,15 +95,18 @@ This block is intentionally compact. Use [`docs/RepositoryStructure.md`](../../d
 **Location**: `src/L{level}/S{session}/`
 
 **Structure**:
+
 - Numbered practice files: `01_name.py`, `02_name.py`, etc.
 - All files must be working and tested
 - File headers include filename and session reference
+- Use `docs/PythonFileTemplates.md` to choose the correct file shape before creating or refactoring Python files
 
 ### Images and Assets
 
 **Location**: `docs/images/S{session}/`
 
 **Structure**:
+
 - Educational images organized by session
 - Reference images in session documentation using relative paths
 - Example: `../../images/S1/Help_V1.PNG`
@@ -110,6 +116,7 @@ This block is intentionally compact. Use [`docs/RepositoryStructure.md`](../../d
 **Important**: Level and session directories are created **as needed** when content is ready.
 
 **Policy**:
+
 - ✅ Create `L{level}/S{session}/` directories when you have content ready to add
 - ✅ Follow the multi-level progression structure (currently L1 through L18) and keep level references in sync with the master plan
 - ✅ Each level contains 10 sessions (S1 through S10) plus 2 mini projects
@@ -148,6 +155,7 @@ When a `src/Working/` draft is ready to become a formal practice file:
 - File names stay informal inside Working; rename to `01_name.py` on promotion.
 
 - The **`main(argv)` / `HELP_TEXT` / `raise SystemExit`** pattern (`src/Working/module4/01_sample.py`, `src/L1/S6/08_boolean_logic_precedence.py`) is the preferred template for new drafts and polished practice files.
+- See `docs/PythonFileTemplates.md` for when to keep a Teaching Script or Helper/App template instead of forcing the CLI pattern.
 
 ### Rules for AI assistants
 
@@ -177,12 +185,15 @@ When a `src/Working/` draft is ready to become a formal practice file:
 - **Repository**: Python Fundamentals (Swamy's Tech Skills Academy)
 - **Main Documentation**: `README.md`
 - **📋 Single Source of Truth**: `docs/RepositoryStructure.md` - **This is the authoritative repository structure documentation**
+- **🐍 Python File Templates**: `docs/PythonFileTemplates.md` - approved Python file structures for lesson scripts, Working samples, and helper/app modules
 - **Level 1 Plan**: `docs/sessions/L1/_Plan.md`
 - **Session 1**: `docs/sessions/L1/S1.md`
 - **GitHub Copilot Instructions**: `.github/copilot-instructions.md` (should reference `docs/RepositoryStructure.md`)
 - **Utility Scripts**: `scripts/` directory
 
-**Note**: 
+**Note**:
+
 - `docs/RepositoryStructure.md` is the **single source of truth** for repository structure
+- `docs/PythonFileTemplates.md` is the source of truth for Python file shapes
 - `.cursor/rules/` and `.github/copilot-instructions.md` should reference `docs/RepositoryStructure.md` for structure details
 - Both provide guidance for AI assistants working with this repository

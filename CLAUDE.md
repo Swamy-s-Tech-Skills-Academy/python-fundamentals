@@ -28,6 +28,7 @@
 ## 📁 Repository Structure (Quick Reference)
 
 Full structure: `docs/RepositoryStructure.md` (single source of truth).
+Python file shapes: `docs/PythonFileTemplates.md`.
 
 ```text
 python-fundamentals/
@@ -122,6 +123,7 @@ raise SystemExit(main(sys.argv))
 - Files named `01_name.py`, `02_name.py`, …
 - All files must run without errors.
 - Include a file-header comment: `# Filename: src/L1/S2/01_variables.py`.
+- When creating or refactoring Python files, follow `docs/PythonFileTemplates.md` for the approved teaching-script, CLI lesson, and helper/app templates.
 
 ---
 

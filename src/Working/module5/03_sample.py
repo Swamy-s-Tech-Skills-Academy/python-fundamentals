@@ -1,12 +1,25 @@
-"""Working draft: str.startswith / str.endswith and optional start, end slices.
+"""Working draft: str.startswith() and str.endswith()."""
 
-Run: python src/Working/module5/03_sample.py
+# Filename: src/Working/module5/03_sample.py
+
+import sys
+
+HELP_TEXT = """03_sample.py
+
+Purpose
+    Demonstrate prefix and suffix checks, including the optional start and end
+    bounds that limit the search to part of a string.
+
+Usage
+    python src/Working/module5/03_sample.py
 """
 
-from __future__ import annotations
 
+def main(argv: list[str]) -> int:
+    if any(arg in {"-h", "--help"} for arg in argv[1:]):
+        print(HELP_TEXT)
+        return 0
 
-def main() -> None:
     web_address = "www.learnpython.dev"
 
     print(f"web_address = {web_address!r}\n")
@@ -22,7 +35,7 @@ def main() -> None:
     print("endswith('python', 4, 15)   ->", web_address.endswith("python", 4, 15))
 
     print("\nTip: in the REPL, type web_address.startswith( then Shift+Tab to read the docstring.")
+    return 0
 
 
-if __name__ == "__main__":
-    main()
+raise SystemExit(main(sys.argv))

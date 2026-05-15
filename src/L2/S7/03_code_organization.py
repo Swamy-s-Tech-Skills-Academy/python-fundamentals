@@ -1,5 +1,6 @@
+"""Session 7: organize input, validation, and display into separate functions."""
+
 # Filename: src/L2/S7/03_code_organization.py
-# Session 7: Functions - Code Organization
 
 
 def get_user_input():
@@ -29,7 +30,7 @@ def display_info(name, age):
 
 
 # Main program
-def main():
+def main() -> None:
     name, age = get_user_input()
     if validate_age(age):
         display_info(name, age)
@@ -37,4 +38,5 @@ def main():
         print("Invalid age!")
 
 
-main()
+if __name__ == "__main__":
+    main()

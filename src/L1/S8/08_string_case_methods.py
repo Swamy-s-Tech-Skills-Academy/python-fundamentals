@@ -1,5 +1,7 @@
 """String case helpers: swapcase, capitalize, upper, lower, title."""
 
+# Filename: src/L1/S8/08_string_case_methods.py
+
 import sys
 
 HELP_TEXT = """08_string_case_methods.py

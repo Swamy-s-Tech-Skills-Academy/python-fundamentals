@@ -1,5 +1,7 @@
 """String trimming with strip(), lstrip(), and rstrip()."""
 
+# Filename: src/L1/S8/09_string_strip_methods.py
+
 import sys
 
 HELP_TEXT = """09_string_strip_methods.py
