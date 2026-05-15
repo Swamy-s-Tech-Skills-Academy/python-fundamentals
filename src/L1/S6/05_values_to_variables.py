@@ -36,7 +36,7 @@ def demo_raw_values() -> None:
 
     print("\n--- String literals ---")
     print("hello python learners")  # double quotes
-    print("hello python learners")  # single quotes — same result
+    print('hello python learners')  # single quotes — same result
 
     print("\n--- Boolean in arithmetic ---")
     print(True * 7)  # 7  (True == 1)
