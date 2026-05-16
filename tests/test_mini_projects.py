@@ -4,6 +4,8 @@ from __future__ import annotations
 
 import importlib.util
 from pathlib import Path
+import subprocess
+import sys
 
 import pytest
 
@@ -22,44 +24,48 @@ def load_module(relative_path: str, module_name: str):
     return module
 
 
-def test_simple_calculator_rejects_invalid_operation(
-    monkeypatch: pytest.MonkeyPatch, capsys: pytest.CaptureFixture[str]
-) -> None:
-    calculator = load_module("src/L1/S5/03_simple_calculator.py", "simple_calculator_invalid_operation")
-    answers = iter(["x"])
-    monkeypatch.setattr("builtins.input", lambda _prompt="": next(answers))
+def test_simple_calculator_rejects_invalid_operation() -> None:
+    script_path = REPO_ROOT / "src/L1/S5/03_simple_calculator.py"
+    completed = subprocess.run(
+        [sys.executable, str(script_path)],
+        input="x\n",
+        text=True,
+        capture_output=True,
+        check=False,
+    )
 
-    assert calculator.main(["03_simple_calculator.py"]) == 0
-
-    output = capsys.readouterr().out
+    assert completed.returncode == 0
+    output = completed.stdout
     assert "Invalid operation" in output
 
 
-def test_simple_calculator_rejects_invalid_number_text(
-    monkeypatch: pytest.MonkeyPatch,
-    capsys: pytest.CaptureFixture[str],
-) -> None:
-    calculator = load_module("src/L1/S5/03_simple_calculator.py", "simple_calculator_invalid_number")
-    answers = iter(["+", "abc", "5"])
-    monkeypatch.setattr("builtins.input", lambda _prompt="": next(answers))
+def test_simple_calculator_rejects_invalid_number_text() -> None:
+    script_path = REPO_ROOT / "src/L1/S5/03_simple_calculator.py"
+    completed = subprocess.run(
+        [sys.executable, str(script_path)],
+        input="+\nabc\n5\n",
+        text=True,
+        capture_output=True,
+        check=False,
+    )
 
-    assert calculator.main(["03_simple_calculator.py"]) == 0
-
-    output = capsys.readouterr().out
+    assert completed.returncode == 0
+    output = completed.stdout
     assert "Invalid number input" in output
 
 
-def test_simple_calculator_blocks_divide_by_zero(
-    monkeypatch: pytest.MonkeyPatch,
-    capsys: pytest.CaptureFixture[str],
-) -> None:
-    calculator = load_module("src/L1/S5/03_simple_calculator.py", "simple_calculator_divide_by_zero")
-    answers = iter(["/", "10", "0"])
-    monkeypatch.setattr("builtins.input", lambda _prompt="": next(answers))
+def test_simple_calculator_blocks_divide_by_zero() -> None:
+    script_path = REPO_ROOT / "src/L1/S5/03_simple_calculator.py"
+    completed = subprocess.run(
+        [sys.executable, str(script_path)],
+        input="/\n10\n0\n",
+        text=True,
+        capture_output=True,
+        check=False,
+    )
 
-    assert calculator.main(["03_simple_calculator.py"]) == 0
-
-    output = capsys.readouterr().out
+    assert completed.returncode == 0
+    output = completed.stdout
     assert "Cannot divide by zero." in output
 
 
