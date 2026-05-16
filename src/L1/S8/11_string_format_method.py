@@ -30,17 +30,23 @@ def main(argv: list[str]) -> int:
 
     fixture_template = "{} vs {} finished {} - {}."
     normal_order = fixture_template.format("Lions", "Tigers", 4, 3)
-    indexed_order = "{3} vs {2} finished {1} - {0}.".format(3, 4, "Tigers", "Lions")
+    reordered_template = "{home_team} vs {away_team} finished {home_score} - {away_score}."
+    reordered_output = reordered_template.format(
+        away_score=3,
+        home_score=4,
+        away_team="Tigers",
+        home_team="Lions",
+    )
 
     print("\n=== Match examples ===")
     print(normal_order)
-    print(indexed_order)
+    print(reordered_output)
 
     print("\nRemember:")
     print("- Empty braces {} are filled from left to right.")
     print("- .format() can receive variables or direct values.")
-    print("- Numbered placeholders such as {0} and {3} let you reorder values.")
-    print("- The numbers refer to argument positions inside .format().")
+    print("- Named placeholders such as {home_team} let you map values by label.")
+    print("- Keyword arguments make reordered output easier to read.")
 
     return 0
 
