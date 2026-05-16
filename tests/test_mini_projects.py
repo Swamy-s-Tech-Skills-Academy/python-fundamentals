@@ -22,7 +22,9 @@ def load_module(relative_path: str, module_name: str):
     return module
 
 
-def test_simple_calculator_rejects_invalid_operation(monkeypatch: pytest.MonkeyPatch, capsys: pytest.CaptureFixture[str]) -> None:
+def test_simple_calculator_rejects_invalid_operation(
+    monkeypatch: pytest.MonkeyPatch, capsys: pytest.CaptureFixture[str]
+) -> None:
     calculator = load_module("src/L1/S5/03_simple_calculator.py", "simple_calculator_invalid_operation")
     answers = iter(["x"])
     monkeypatch.setattr("builtins.input", lambda _prompt="": next(answers))
