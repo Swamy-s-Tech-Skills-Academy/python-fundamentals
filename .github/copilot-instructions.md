@@ -64,6 +64,11 @@
 - Use `src/L{level}/S{session}/` and `docs/sessions/` for routine curriculum fixes; read **`docs/RepositoryStructure.md`** (section **src/Working/**) only for routing context when advising on promotion.
 - Mass refactors or repo-wide formatting must **not** touch `src/Working/` unless the task scope names it.
 
+### **8. ✅ FORMAL PYTHON QUALITY SCOPE**
+
+- Treat blocking Python quality checks as scoped to formal curriculum paths: `src/L1` and `src/L2`.
+- Do not treat `src/Working/` quality findings as blocking unless Swamy explicitly includes Working paths in scope.
+
 ---
 
 ## 📋 **PROJECT STRUCTURE OVERVIEW**

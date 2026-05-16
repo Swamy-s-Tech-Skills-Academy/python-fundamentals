@@ -294,7 +294,7 @@ Before committing any file with references:
 npx --yes markdownlint-cli2 "README.md" "docs/**/*.md" ".github/**/*.md"
 
 # Check links (using lychee)
-docker run --rm -w /input -v "${PWD}:/input" lycheeverse/lychee:latest --config lychee.toml --no-progress README.md docs/**/*.md
+docker run --rm -w /input -v "${PWD}:/input" lycheeverse/lychee:latest --config lychee.toml --no-progress README.md docs/**/*.md .github/**/*.md
 ```
 
 **Or use provided scripts:**

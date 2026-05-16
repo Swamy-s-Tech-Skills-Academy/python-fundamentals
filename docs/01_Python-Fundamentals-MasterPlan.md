@@ -129,12 +129,12 @@ Before moving to Level 2, you should be able to:
 | A     | 2       | **List Comprehensions**                                    | 📚 Knowledge | ✅ **Ready**   |
 | A     | 3       | **Functions: Definition & Basics**                         | 📚 Knowledge | ✅ **Ready**   |
 | A     | 4       | **Error Handling: try/except Basics**                      | 📚 Knowledge | ✅ **Ready**   |
-| A     | MP1     | **🚀 Mini Project 1: Data Processor**                      | 🛠️ Project   | ✅ **Ready**   |
-| B     | 5       | **Functions: Parameters & Return Values**                    | 📚 Knowledge | ✅ **Ready**   |
-| B     | 6       | **Functions: Scope & Code Organization**                   | 📚 Knowledge | ✅ **Ready**   |
-| B     | 7       | **File Handling: Reading & Writing Text Files**            | 📚 Knowledge | ✅ **Ready**   |
-| B     | 8       | **Modules Deep Dive & Code Organization**                  | 📚 Knowledge | ✅ **Ready**   |
-| B     | MP2     | **🚀 Mini Project 2: Contact Manager**                     | 🛠️ Project   | ✅ **Ready**   |
+| A     | 5 (MP1) | **🚀 Mini Project 1: Data Processor**                      | 🛠️ Project   | ✅ **Ready**   |
+| B     | 6       | **Functions: Parameters & Return Values**                  | 📚 Knowledge | ✅ **Ready**   |
+| B     | 7       | **Functions: Scope & Code Organization**                   | 📚 Knowledge | ✅ **Ready**   |
+| B     | 8       | **File Handling: Reading & Writing Text Files**            | 📚 Knowledge | ✅ **Ready**   |
+| B     | 9       | **Modules Deep Dive & Code Organization**                  | 📚 Knowledge | ✅ **Ready**   |
+| B     | 10 (MP2) | **🚀 Mini Project 2: Contact Manager**                    | 🛠️ Project   | ✅ **Ready**   |
 
 **Key Learning Focus:**
 
@@ -146,13 +146,13 @@ Before moving to Level 2, you should be able to:
 - **Error handling**: try/except blocks, handling common errors gracefully
 - **Mini Project 1: Data Processor** - Applying Sessions 1-4 concepts
 
-**Phase B (Sessions 5-8 + MP2):**
+**Phase B (Sessions 6-9 + MP2):**
 
 - **Functions advanced**: Parameters (positional, keyword, default), return values, multiple returns
 - **Functions scope**: Local vs global scope, variable visibility, best practices
 - **File handling**: Reading from and writing to text files, file modes, context managers
 - **Modules deep dive**: Creating modules, `__name__` and `__main__`, organizing code into modules
-- **Mini Project 2: Contact Manager** - Applying Sessions 5-8 concepts
+- **Mini Project 2: Contact Manager** - Applying Sessions 6-9 concepts
 
 **Mini Projects:**
 

@@ -44,7 +44,7 @@ def demo_backspace() -> None:
 def demo_escaping_quotes() -> None:
     print("\n=== Escaping apostrophe ===")
     print("Using double quotes:", "I'm building Python skills")
-    print("Using escape in single quotes:", "I'm building Python skills")
+    print('Using escape in single quotes:', 'I\'m building Python skills')
 
 
 def main(argv: list[str]) -> int:

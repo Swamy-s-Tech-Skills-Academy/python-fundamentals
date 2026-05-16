@@ -48,7 +48,7 @@ def main(argv: list[str]) -> int:
 
     print("\n=== Escaping apostrophe ===")
     print("Using double quotes:", "I'm building Python skills")
-    print("Using escape in single quotes:", "I'm building Python skills")
+    print('Using escape in single quotes:', 'I\'m building Python skills')
 
     return 0
 

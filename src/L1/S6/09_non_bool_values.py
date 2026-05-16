@@ -14,12 +14,13 @@ Usage
 """
 
 
-def demo_not_always_returns_bool() -> None:
-    print("=== 1) not always returns a bool ===")
+def demo_not_returns_bool() -> None:
+    print("=== 1) not always returns a Boolean result ===")
     print(f"  not 1    -> {not 1}   (1 is truthy, so not 1 is False)")
     print(f"  not 0    -> {not 0}    (0 is falsy,  so not 0 is True)")
     print(f"  not 'hi' -> {not 'hi'}   (non-empty string is truthy)")
     print(f"  not ''   -> {not ''}    (empty string is falsy)")
+    print("  Unlike and/or, not always returns True or False.")
 
 
 def demo_and_or_return_actual_value() -> None:
@@ -88,7 +89,7 @@ def main(argv: list[str]) -> int:
         print(HELP_TEXT)
         return 0
 
-    demo_not_always_returns_bool()
+    demo_not_returns_bool()
     demo_and_or_return_actual_value()
     demo_and_first_falsy_wins()
     demo_falsy_values()

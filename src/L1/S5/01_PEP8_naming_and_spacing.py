@@ -19,7 +19,7 @@ Purpose
     5. Comments explain WHY, not WHAT
 
 Usage
-    python 01_PEP8_naming_and_spacing.py
+    python src/L1/S5/01_PEP8_naming_and_spacing.py
 """
 
 

@@ -19,6 +19,27 @@ Repository agent guidance for automation and code assistants.
 7. `npx --yes markdownlint-cli2 "README.md" "docs/**/*.md" ".github/**/*.md"`
 8. `./scripts/docs-links.ps1` (Docker required)
 
+## Python Quality Scope
+
+- Treat Python quality checks as scoped to formal curriculum paths: `src/L1` and `src/L2`.
+- Keep `src/Working/` out of blocking quality gates unless a task explicitly includes Working paths.
+
+## Test-Depth Roadmap (Next Step, Non-Blocking)
+
+- Keep existing smoke coverage in `tests/test_curriculum_smoke.py`.
+- Add targeted behavioral tests for mini projects:
+  - `src/L1/S5/03_simple_calculator.py`: invalid-number text handling, operator validation, divide-by-zero path.
+  - `src/L1/S10/profile_generator.py`: required-field validation and output structure checks.
+  - `src/L2/S5/data_processor.py`: representative input-processing and summary-flow assertions.
+  - `src/L2/S10/contact_manager.py`: add/search/update/delete workflow checks.
+
+## CI Hardening Roadmap (Actions Pinning)
+
+- Audit third-party GitHub Actions in `.github/workflows/*.yml` and pin each to immutable commit SHAs.
+- Keep a companion comment with upstream version tags for readability.
+- Refresh pinned SHAs on a scheduled cadence (e.g., monthly) or immediately for security advisories.
+- Validate workflow behavior after each pin update before merge.
+
 ## Source Intake Policy
 
 - `source-material/` is an internal, read-only intake folder for instructor notes.
