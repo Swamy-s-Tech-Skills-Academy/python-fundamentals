@@ -90,7 +90,9 @@ python-fundamentals/
 │       │   ├── 07_string_replace.py
 │       │   ├── 08_string_case_methods.py
 │       │   ├── 09_string_strip_methods.py
-│       │   └── 10_string_indexing_and_slicing.py
+│       │   ├── 10_string_indexing_and_slicing.py
+│       │   ├── 11_string_format_method.py
+│       │   └── 12_f_strings.py
 │       ├── S9/                 # Session 9 practice files
 │       │   ├── 01_dict_basics.py
 │       │   ├── 02_dict_iteration.py
