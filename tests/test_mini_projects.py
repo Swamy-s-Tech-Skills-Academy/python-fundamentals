@@ -13,7 +13,15 @@ REPO_ROOT = Path(__file__).resolve().parents[1]
 
 
 def load_module(relative_path: str, module_name: str):
-    """Load a lesson script from a file path for direct function testing."""
+    """Load a lesson script from a file path for direct function testing.
+
+    Args:
+        relative_path: Repository-relative path to the lesson script.
+        module_name: Unique module name to use for the loaded module object.
+
+    Returns:
+        The loaded Python module object.
+    """
     module_path = REPO_ROOT / relative_path
     spec = importlib.util.spec_from_file_location(module_name, module_path)
     assert spec is not None
@@ -69,7 +77,9 @@ def test_simple_calculator_blocks_divide_by_zero() -> None:
     assert "Cannot divide by zero." in output
 
 
-def test_profile_generator_requires_name(monkeypatch: pytest.MonkeyPatch, capsys: pytest.CaptureFixture[str]) -> None:
+def test_profile_generator_rejects_empty_name(
+    monkeypatch: pytest.MonkeyPatch, capsys: pytest.CaptureFixture[str]
+) -> None:
     profile_generator = load_module("src/L1/S10/profile_generator.py", "profile_generator_required_name")
     monkeypatch.setattr("builtins.input", lambda _prompt="": "")
 
@@ -146,7 +156,7 @@ def test_data_processor_processes_scores_and_displays_summary(capsys: pytest.Cap
     assert "Average score: 70.00" in output
 
 
-def test_contact_manager_requires_name_when_adding_contact(
+def test_contact_manager_requires_name(
     monkeypatch: pytest.MonkeyPatch,
     capsys: pytest.CaptureFixture[str],
 ) -> None:
