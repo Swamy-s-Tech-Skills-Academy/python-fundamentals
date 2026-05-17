@@ -2,92 +2,92 @@
 learning_level: "Novice → Object Thinker"
 level_number: 3
 prerequisites:
-	- "docs/sessions/L2/_Plan.md"
+  - "docs/sessions/L2/_Plan.md"
 total_duration: "~5–6 hours"
 format: "2 phases × (4 sessions + 1 mini project) = 10 sessions total"
 outcome: "2 Mini Projects to shift from script thinking to object thinking"
 transformation_focus: "Evolving from writing function-driven scripts to modeling problems with small, purposeful classes and objects"
 learning_objectives:
-	- "Understand when classes help more than plain scripts or dictionaries"
-	- "Define classes and create objects with confidence"
-	- "Initialize and manage object state with __init__ and instance attributes"
-	- "Write instance methods that act on object state"
-	- "Model simple has-a relationships between objects"
-	- "Store and work with collections of objects"
-	- "Use __str__ and __repr__ to make objects easier to inspect"
-	- "Refactor an existing script into a small class-based design"
-	- "Complete 2 mini projects demonstrating beginner-friendly OOP design"
-	- "Be ready for Level 4: Object Thinker → Design Learner"
+  - "Understand when classes help more than plain scripts or dictionaries"
+  - "Define classes and create objects with confidence"
+  - "Initialize and manage object state with __init__ and instance attributes"
+  - "Write instance methods that act on object state"
+  - "Model simple has-a relationships between objects"
+  - "Store and work with collections of objects"
+  - "Use __str__ and __repr__ to make objects easier to inspect"
+  - "Refactor an existing script into a small class-based design"
+  - "Complete 2 mini projects demonstrating beginner-friendly OOP design"
+  - "Be ready for Level 4: Object Thinker → Design Learner"
 related_topics:
-	prerequisites:
-		- "docs/sessions/L2/_Plan.md"
-	builds_upon:
-		- "docs/sessions/L1/_Plan.md"
-		- "docs/sessions/L2/_Plan.md"
-	enables:
-		- "docs/01_Python-Fundamentals-MasterPlan.md"
-	cross_refs: []
+  prerequisites:
+    - "docs/sessions/L2/_Plan.md"
+  builds_upon:
+    - "docs/sessions/L1/_Plan.md"
+    - "docs/sessions/L2/_Plan.md"
+  enables:
+    - "docs/01_Python-Fundamentals-MasterPlan.md"
+  cross_refs: []
 sessions:
-	- session: 1
-		topic: "Why OOP? From Scripts to Objects"
-		duration: "30 min"
-		type: "Knowledge"
-		status: "Planned"
-		file: "docs/sessions/L3/S1.md"
-	- session: 2
-		topic: "Defining Classes & Creating Objects"
-		duration: "30 min"
-		type: "Knowledge"
-		status: "Planned"
-		file: "docs/sessions/L3/S2.md"
-	- session: 3
-		topic: "__init__, Attributes & Basic Encapsulation"
-		duration: "30 min"
-		type: "Knowledge"
-		status: "Planned"
-		file: "docs/sessions/L3/S3.md"
-	- session: 4
-		topic: "Instance Methods & Working with Object State"
-		duration: "30 min"
-		type: "Knowledge"
-		status: "Planned"
-		file: "docs/sessions/L3/S4.md"
-	- session: "5 (MP 1)"
-		topic: "Mini Project 1: Object-Based Profile Manager"
-		duration: "30–45 min"
-		type: "Project"
-		status: "Planned"
-		file: "docs/sessions/L3/S5.md"
-	- session: 6
-		topic: "Composing Multiple Objects (Has-a Relationships)"
-		duration: "30 min"
-		type: "Knowledge"
-		status: "Planned"
-		file: "docs/sessions/L3/S6.md"
-	- session: 7
-		topic: "Collections of Objects (Lists of Objects)"
-		duration: "30 min"
-		type: "Knowledge"
-		status: "Planned"
-		file: "docs/sessions/L3/S7.md"
-	- session: 8
-		topic: "User-Friendly Objects with __str__ / __repr__"
-		duration: "30 min"
-		type: "Knowledge"
-		status: "Planned"
-		file: "docs/sessions/L3/S8.md"
-	- session: 9
-		topic: "Refactoring Scripts into Classes (OOP in Practice)"
-		duration: "30 min"
-		type: "Knowledge"
-		status: "Planned"
-		file: "docs/sessions/L3/S9.md"
-	- session: "10 (MP 2)"
-		topic: "Mini Project 2: Object-Oriented Task / Inventory App"
-		duration: "30–45 min"
-		type: "Project"
-		status: "Planned"
-		file: "docs/sessions/L3/S10.md"
+  - session: 1
+    topic: "Why OOP? From Scripts to Objects"
+    duration: "30 min"
+    type: "Knowledge"
+    status: "Planned"
+    file: "docs/sessions/L3/S1.md"
+  - session: 2
+    topic: "Defining Classes & Creating Objects"
+    duration: "30 min"
+    type: "Knowledge"
+    status: "Planned"
+    file: "docs/sessions/L3/S2.md"
+  - session: 3
+    topic: "__init__, Attributes & Basic Encapsulation"
+    duration: "30 min"
+    type: "Knowledge"
+    status: "Planned"
+    file: "docs/sessions/L3/S3.md"
+  - session: 4
+    topic: "Instance Methods & Working with Object State"
+    duration: "30 min"
+    type: "Knowledge"
+    status: "Planned"
+    file: "docs/sessions/L3/S4.md"
+  - session: "5 (MP 1)"
+    topic: "Mini Project 1: Object-Based Profile Manager"
+    duration: "30–45 min"
+    type: "Project"
+    status: "Planned"
+    file: "docs/sessions/L3/S5.md"
+  - session: 6
+    topic: "Composing Multiple Objects (Has-a Relationships)"
+    duration: "30 min"
+    type: "Knowledge"
+    status: "Planned"
+    file: "docs/sessions/L3/S6.md"
+  - session: 7
+    topic: "Collections of Objects (Lists of Objects)"
+    duration: "30 min"
+    type: "Knowledge"
+    status: "Planned"
+    file: "docs/sessions/L3/S7.md"
+  - session: 8
+    topic: "User-Friendly Objects with __str__ / __repr__"
+    duration: "30 min"
+    type: "Knowledge"
+    status: "Planned"
+    file: "docs/sessions/L3/S8.md"
+  - session: 9
+    topic: "Refactoring Scripts into Classes (OOP in Practice)"
+    duration: "30 min"
+    type: "Knowledge"
+    status: "Planned"
+    file: "docs/sessions/L3/S9.md"
+  - session: "10 (MP 2)"
+    topic: "Mini Project 2: Object-Oriented Task / Inventory App"
+    duration: "30–45 min"
+    type: "Project"
+    status: "Planned"
+    file: "docs/sessions/L3/S10.md"
 ---
 
 # Level 3: Novice → Object Thinker
@@ -126,35 +126,35 @@ sessions:
 
 ```mermaid
 flowchart TB
-	A["Novice"] --> PhaseA
+  A["Novice"] --> PhaseA
     PhaseA --> PhaseB
-	PhaseB --> K["Object Thinker"]
+  PhaseB --> K["Object Thinker"]
 
-	subgraph PhaseA["Phase A: OOP Foundations"]
-		B1["Session 1<br>Why OOP?"]
-		B2["Session 2<br>Classes & Objects"]
-		B3["Session 3<br>__init__ & Attributes"]
-		B4["Session 4<br>Instance Methods"]
-		B5["Session 5 (MP 1)<br>Object-Based Profile Manager"]
+  subgraph PhaseA["Phase A: OOP Foundations"]
+    B1["Session 1<br>Why OOP?"]
+    B2["Session 2<br>Classes & Objects"]
+    B3["Session 3<br>__init__ & Attributes"]
+    B4["Session 4<br>Instance Methods"]
+    B5["Session 5 (MP 1)<br>Object-Based Profile Manager"]
         B1 --> B2 --> B3 --> B4 --> B5
     end
 
-	subgraph PhaseB["Phase B: OOP in Practice"]
-		C1["Session 6<br>Composition"]
-		C2["Session 7<br>Collections of Objects"]
-		C3["Session 8<br>__str__ / __repr__"]
-		C4["Session 9<br>Refactoring into Classes"]
-		C5["Session 10 (MP 2)<br>Task / Inventory App"]
+  subgraph PhaseB["Phase B: OOP in Practice"]
+    C1["Session 6<br>Composition"]
+    C2["Session 7<br>Collections of Objects"]
+    C3["Session 8<br>__str__ / __repr__"]
+    C4["Session 9<br>Refactoring into Classes"]
+    C5["Session 10 (MP 2)<br>Task / Inventory App"]
         C1 --> C2 --> C3 --> C4 --> C5
     end
 
-	classDef startEnd fill:#eef6ff,stroke:#86a9cf,stroke-width:2px,color:#1f2a37
-	classDef session fill:#f6f0ff,stroke:#b39ddb,stroke-width:2px,color:#2d1f3d
-	classDef project fill:#eef9f0,stroke:#93c5a1,stroke-width:2px,color:#1f3527
+  classDef startEnd fill:#eef6ff,stroke:#86a9cf,stroke-width:2px,color:#1f2a37
+  classDef session fill:#f5faff,stroke:#a8bfdc,stroke-width:2px,color:#1f2a37
+  classDef project fill:#ddeeff,stroke:#6f90bd,stroke-width:2px,color:#1f2a37
 
-	class A,K startEnd
-	class B1,B2,B3,B4,C1,C2,C3,C4 session
-	class B5,C5 project
+  class A,K startEnd
+  class B1,B2,B3,B4,C1,C2,C3,C4 session
+  class B5,C5 project
 ```
 
 ASCII fallback:

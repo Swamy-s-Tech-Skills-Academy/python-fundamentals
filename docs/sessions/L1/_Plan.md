@@ -144,8 +144,8 @@ flowchart TB
     end
 
     classDef startEnd fill:#eef6ff,stroke:#86a9cf,stroke-width:2px,color:#1f2a37
-    classDef session fill:#f6f0ff,stroke:#b39ddb,stroke-width:2px,color:#2d1f3d
-    classDef project fill:#eef9f0,stroke:#93c5a1,stroke-width:2px,color:#1f3527
+    classDef session fill:#f5faff,stroke:#a8bfdc,stroke-width:2px,color:#1f2a37
+    classDef project fill:#ddeeff,stroke:#6f90bd,stroke-width:2px,color:#1f2a37
 
     class A,K startEnd
     class B1,B2,B3,B4,C1,C2,C3,C4 session
