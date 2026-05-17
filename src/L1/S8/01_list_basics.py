@@ -26,10 +26,10 @@ def main(argv: list[str]) -> int:
     print("--- Creating Lists ---")
     numbers = [1, 2, 3, 4, 5]
     fruits = ["apple", "banana", "cherry"]
-    premier_league = ["Manchester", "Chelsea", "Arsenal", "Liverpool", "Everton"]
-    mixed = [42, "hello", 3.14, True, premier_league]
+    study_topics = ["variables", "conditions", "loops", "functions"]
+    mixed = [42, "hello", 3.14, True, study_topics]
     empty = []
-    tuple_values = (20, 7.8, "football", premier_league)
+    tuple_values = ("practice", 25, False, study_topics)
     converted = list(tuple_values)
 
     print(f"Numbers: {numbers}")
