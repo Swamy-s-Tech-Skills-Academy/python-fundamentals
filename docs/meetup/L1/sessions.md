@@ -10,7 +10,7 @@
 | Session 4 | Completed |
 | Session 5 (MP 1) | Ready |
 | Session 6 | Planned |
-| Session 7 | Pending |
+| Session 7 | Planned |
 | Session 8 | Planned |
 | Session 9 | Pending |
 | Session 10 (MP 2) | Pending |
@@ -159,6 +159,48 @@ Perfect For:
 - Anyone preparing for Session 9 where dictionaries extend the collection toolkit
 
 📢 Join us to unlock lists — the workhorse collection you'll use in nearly every Python program you write.
+
+---
+
+## Level 1 - Session 9: Dictionaries & Basic Testing
+
+Date: To be announced (pending)
+
+Event URL: To be announced (pending)
+
+🔹 Session Agenda:
+
+Level: Noob → Nerd (Level 1, Session 9)
+Format: Live Coding + Interactive Q&A
+Duration: 30 Minutes
+Prerequisites: Completed Session 8 (Lists & Loops)
+
+- Session details are pending final meetup scheduling.
+- Curriculum source: `docs/sessions/L1/S9.md`
+- Practice files:
+  - `src/L1/S9/01_dict_basics.py`
+  - `src/L1/S9/02_dict_iteration.py`
+  - `src/L1/S9/03_gradebook.py`
+
+---
+
+## Level 1 - Session 10 (MP 2): Mini Project 2 — Personal Profile Generator
+
+Date: To be announced (pending)
+
+Event URL: To be announced (pending)
+
+🔹 Session Agenda:
+
+Level: Noob → Nerd (Level 1, Session 10 — Mini Project 2)
+Format: Live Coding + Interactive Q&A
+Duration: 30–45 Minutes
+Prerequisites: Completed Session 9 (Dictionaries & Basic Testing)
+
+- Session details are pending final meetup scheduling.
+- Curriculum source: `docs/sessions/L1/S10.md`
+- Practice file:
+  - `src/L1/S10/profile_generator.py`
 
 ---
 

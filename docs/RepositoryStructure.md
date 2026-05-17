@@ -12,6 +12,25 @@ python-fundamentals/
 │   ├── 01_Python-Fundamentals-MasterPlan.md  # Complete 18-level course master plan
 │   ├── images/                 # Screenshots and educational images
 │   │   ├── S1/                 # Session 1 images
+│   ├── meetup/                 # Meetup planning and scheduling notes
+│   │   ├── L1/
+│   │   │   └── sessions.md
+│   │   ├── L2/
+│   │   │   └── sessions.md
+│   │   ├── L3/
+│   │   │   └── sessions.md
+│   │   ├── L4/
+│   │   │   └── sessions.md
+│   │   ├── L5/
+│   │   │   └── sessions.md
+│   │   ├── L6/
+│   │   │   └── sessions.md
+│   │   ├── L7/
+│   │   │   └── sessions.md
+│   │   ├── L8/
+│   │   │   └── sessions.md
+│   │   └── L9/
+│   │       └── sessions.md
 │   ├── PythonFileTemplates.md  # Approved Python file templates for lessons and helpers
 │   ├── RepositoryStructure.md  # This file
 │   └── sessions/
@@ -39,6 +58,20 @@ python-fundamentals/
 │           ├── S8.md        # Session 8: File Handling
 │           ├── S9.md        # Session 9: Modules Deep Dive
 │           └── S10.md       # Mini Project 2: Contact Manager
+│       ├── L3/                 # Level 3 planning scaffold
+│       │   └── _Plan.md
+│       ├── L4/                 # Level 4 planning scaffold
+│       │   └── _Plan.md
+│       ├── L5/                 # Level 5 planning scaffold
+│       │   └── _Plan.md
+│       ├── L6/                 # Level 6 planning scaffold
+│       │   └── _Plan.md
+│       ├── L7/                 # Level 7 planning scaffold
+│       │   └── _Plan.md
+│       ├── L8/                 # Level 8 planning scaffold
+│       │   └── _Plan.md
+│       └── L9/                 # Level 9 planning scaffold
+│           └── _Plan.md
 ├── 💻 src/
 │   ├── L1/
 │       ├── S1/                 # Session 1 practice files
@@ -136,13 +169,22 @@ python-fundamentals/
 │       │   └── 03_multi_file_project.py
 │       └── S10/            # Session 10 Mini Project 2
 │           └── contact_manager.py
+│   ├── L3/                     # Future formal practice files (placeholder)
+│   ├── L4/                     # Future formal practice files (placeholder)
+│   ├── L5/                     # Future formal practice files (placeholder)
+│   ├── L6/                     # Future formal practice files (placeholder)
+│   ├── L7/                     # Future formal practice files (placeholder)
+│   ├── L8/                     # Future formal practice files (placeholder)
+│   ├── L9/                     # Future formal practice files (placeholder)
 │   └── Working/                # Sandbox — bucketing guide: see § `src/Working/` below
 │       ├── References.md
 │       ├── module3/            # Informal drafts (promote into formal `src/L{level}/S{session}/`)
 │       ├── module4/            # Informal drafts (promote into formal `src/L{level}/S{session}/`)
-│       └── module5/            # Informal drafts (promote into formal `src/L{level}/S{session}/`)
+│       ├── module5/            # Informal drafts (promote into formal `src/L{level}/S{session}/`)
+│       └── module6/            # Informal drafts (promote into formal `src/L{level}/S{session}/`)
 ├── 🧪 tests/
-│   └── test_curriculum_smoke.py  # Smoke: formal `src/L1` + `src/L2` files compile
+│   ├── test_curriculum_smoke.py  # Smoke: formal `src/L1` + `src/L2` files compile
+│   └── test_mini_projects.py     # Behavioral regression tests for the mini projects
 ├── 🔧 scripts/                 # Development and utility scripts
 │   ├── docs-lint.ps1           # Markdown linting script
 │   ├── docs-links.ps1          # Link validation script
@@ -167,7 +209,8 @@ python-fundamentals/
 Contains all educational documentation:
 
 - **`images/`**: Educational images organized by session folders (currently `S1/`)
-- **`sessions/`**: Session documentation organized by level (L1, L2, etc.)
+- **`meetup/`**: Meetup planning/status files organized by level (`sessions.md` per level)
+- **`sessions/`**: Session documentation organized by level (currently `L1` and `L2` are complete; `L3`–`L9` contain planning scaffolds)
   - Each level contains:
     - `_Plan.md`: Complete level curriculum plan (underscore sorts first)
     - `S1.md`, `S2.md`, etc.: Session documentation files
@@ -181,18 +224,19 @@ Contains all practice code files:
 - Each level contains session-aligned directories (`S1/`, `S5/`, `S10/`, etc.)
 - Practice files use numeric prefixes: `01_name.py`, `02_name.py`, etc.
 - Python file shapes follow the three approved templates in `docs/PythonFileTemplates.md`
+- Future levels `L3/` through `L9/` currently exist as placeholders for formal practice content.
 
 ### `src/Working/`
 
 Sandbox staging area for **informal live-coding drafts** before promotion into formal `src/L{level}/S{session}/`.
 
-- **`module3/`**, **`module4/`**, **`module5/`**: informal numbered samples (e.g. `01_sample.py`) staged before cleanup and promotion.
+- **`module3/`**, **`module4/`**, **`module5/`**, **`module6/`**: informal numbered samples (e.g. `01_sample.py`) staged before cleanup and promotion.
 - **`References.md`**: links to source material and reference repositories.
 - Working Python samples should default to the CLI lesson template in `docs/PythonFileTemplates.md`.
 
 ### `tests/`
 
-Lightweight **pytest** checks for repository health (for example, that all formal curriculum `.py` files under `src/L1/` and `src/L2/` compile). Does not replace running lesson scripts while learning.
+Lightweight **pytest** checks for repository health, including smoke compilation for formal curriculum files and targeted behavioral coverage for the mini projects. Does not replace running lesson scripts while learning.
 
 ### `scripts/`
 
