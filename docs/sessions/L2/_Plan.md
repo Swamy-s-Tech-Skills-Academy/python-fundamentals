@@ -124,31 +124,31 @@ sessions:
 
 ```mermaid
 flowchart TB
-    A[🎯 Nerd] --> PhaseA
+  A["🎯 Nerd"] --> PhaseA
     PhaseA --> PhaseB
-    PhaseB --> K[🎓 Novice]
+  PhaseB --> K["🎓 Novice"]
 
-    subgraph PhaseA[📘 Phase A: Advanced Foundations]
-        B1[📚 Session 1<br/>Sets & Tuples]
-        B2[📚 Session 2<br/>List Comprehensions]
-        B3[🔧 Session 3<br/>Functions Basics]
-        B4[🛡️ Session 4<br/>Error Handling]
-        B5[🚀 Session 5 (MP 1)<br/>Mini Project 1: Data Processor]
+  subgraph PhaseA["📘 Phase A: Advanced Foundations"]
+    B1["📚 Session 1<br>Sets & Tuples"]
+    B2["📚 Session 2<br>List Comprehensions"]
+    B3["🔧 Session 3<br>Functions Basics"]
+    B4["🛡️ Session 4<br>Error Handling"]
+    B5["🚀 Session 5 (MP 1)<br>Mini Project 1: Data Processor"]
         B1 --> B2 --> B3 --> B4 --> B5
     end
 
-    subgraph PhaseB[📘 Phase B: File Operations & Advanced Functions]
-        C1[🔧 Session 6<br/>Functions: Parameters]
-        C2[🔧 Session 7<br/>Functions: Scope]
-        C3[📁 Session 8<br/>Text File I/O]
-        C4[📦 Session 9<br/>Modules Deep Dive]
-        C5[🚀 Session 10 (MP 2)<br/>Mini Project 2: Contact Manager]
+  subgraph PhaseB["📘 Phase B: File Operations & Advanced Functions"]
+    C1["🔧 Session 6<br>Functions: Parameters"]
+    C2["🔧 Session 7<br>Functions: Scope"]
+    C3["📁 Session 8<br>Text File I/O"]
+    C4["📦 Session 9<br>Modules Deep Dive"]
+    C5["🚀 Session 10 (MP 2)<br>Mini Project 2: Contact Manager"]
         C1 --> C2 --> C3 --> C4 --> C5
     end
 
-    classDef startEnd fill:#e1f5fe,stroke:#01579b,stroke-width:3px,color:#000
-    classDef session fill:#f3e5f5,stroke:#4a148c,stroke-width:2px,color:#000
-    classDef project fill:#e8f5e8,stroke:#1b5e20,stroke-width:3px,color:#000
+    classDef startEnd fill:#eef6ff,stroke:#86a9cf,stroke-width:2px,color:#1f2a37
+    classDef session fill:#f6f0ff,stroke:#b39ddb,stroke-width:2px,color:#2d1f3d
+    classDef project fill:#eef9f0,stroke:#93c5a1,stroke-width:2px,color:#1f3527
 
     class A,K startEnd
     class B1,B2,B3,B4,C1,C2,C3,C4 session

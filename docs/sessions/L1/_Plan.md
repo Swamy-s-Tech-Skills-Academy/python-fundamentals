@@ -121,31 +121,31 @@ sessions:
 
 ```mermaid
 flowchart TB
-    A[🎯 Noob] --> PhaseA
+  A["🎯 Noob"] --> PhaseA
     PhaseA --> PhaseB
-    PhaseB --> K[🎓 Nerd]
+  PhaseB --> K["🎓 Nerd"]
 
-    subgraph PhaseA[📘 Phase A: Core Foundations]
-        B1[📚 Session 1<br/>Intro & Environment]
-        B2[📚 Session 2<br/>Variables & Data Types]
-        B3[🔢 Session 3<br/>Operators & Expressions]
-        B4[🤔 Session 4<br/>Conditionals & Modules]
-        B5[🚀 Session 5 (MP 1)<br/>Mini Project 1: Calculator]
+  subgraph PhaseA["📘 Phase A: Core Foundations"]
+    B1["📚 Session 1<br>Intro & Environment"]
+    B2["📚 Session 2<br>Variables & Data Types"]
+    B3["🔢 Session 3<br>Operators & Expressions"]
+    B4["🤔 Session 4<br>Conditionals & Modules"]
+    B5["🚀 Session 5 (MP 1)<br>Mini Project 1: Calculator"]
         B1 --> B2 --> B3 --> B4 --> B5
     end
 
-    subgraph PhaseB[📘 Phase B: Expanding Skills]
-        C1[🔄 Session 6<br/>Loops & Iteration]
-        C2[🐛 Session 7<br/>Debugging & Built-ins]
-        C3[📋 Session 8<br/>Lists & Loops]
-        C4[📚 Session 9<br/>Dicts & Testing]
-        C5[🚀 Session 10 (MP 2)<br/>Mini Project 2: Profile Generator]
+  subgraph PhaseB["📘 Phase B: Expanding Skills"]
+    C1["🔄 Session 6<br>Loops & Iteration"]
+    C2["🐛 Session 7<br>Debugging & Built-ins"]
+    C3["📋 Session 8<br>Lists & Loops"]
+    C4["📚 Session 9<br>Dicts & Testing"]
+    C5["🚀 Session 10 (MP 2)<br>Mini Project 2: Profile Generator"]
         C1 --> C2 --> C3 --> C4 --> C5
     end
 
-    classDef startEnd fill:#e1f5fe,stroke:#01579b,stroke-width:3px,color:#000
-    classDef session fill:#f3e5f5,stroke:#4a148c,stroke-width:2px,color:#000
-    classDef project fill:#e8f5e8,stroke:#1b5e20,stroke-width:3px,color:#000
+    classDef startEnd fill:#eef6ff,stroke:#86a9cf,stroke-width:2px,color:#1f2a37
+    classDef session fill:#f6f0ff,stroke:#b39ddb,stroke-width:2px,color:#2d1f3d
+    classDef project fill:#eef9f0,stroke:#93c5a1,stroke-width:2px,color:#1f3527
 
     class A,K startEnd
     class B1,B2,B3,B4,C1,C2,C3,C4 session

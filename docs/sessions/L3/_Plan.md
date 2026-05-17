@@ -126,51 +126,59 @@ sessions:
 
 ```mermaid
 flowchart TB
-		A[Novice] --> PhaseA
-		PhaseA --> PhaseB
-		PhaseB --> K[Object Thinker]
+	A["Novice"] --> PhaseA
+    PhaseA --> PhaseB
+	PhaseB --> K["Object Thinker"]
 
-		subgraph PhaseA[Phase A: OOP Foundations]
-				B1[Session 1<br/>Why OOP?]
-				B2[Session 2<br/>Classes & Objects]
-				B3[Session 3<br/>__init__ & Attributes]
-				B4[Session 4<br/>Instance Methods]
-				B5[Session 5 (MP 1)<br/>Object-Based Profile Manager]
-				B1 --> B2 --> B3 --> B4 --> B5
-		end
+	subgraph PhaseA["Phase A: OOP Foundations"]
+		B1["Session 1<br>Why OOP?"]
+		B2["Session 2<br>Classes & Objects"]
+		B3["Session 3<br>__init__ & Attributes"]
+		B4["Session 4<br>Instance Methods"]
+		B5["Session 5 (MP 1)<br>Object-Based Profile Manager"]
+        B1 --> B2 --> B3 --> B4 --> B5
+    end
 
-		subgraph PhaseB[Phase B: OOP in Practice]
-				C1[Session 6<br/>Composition]
-				C2[Session 7<br/>Collections of Objects]
-				C3[Session 8<br/>__str__ / __repr__]
-				C4[Session 9<br/>Refactoring into Classes]
-				C5[Session 10 (MP 2)<br/>Task / Inventory App]
-				C1 --> C2 --> C3 --> C4 --> C5
-		end
+	subgraph PhaseB["Phase B: OOP in Practice"]
+		C1["Session 6<br>Composition"]
+		C2["Session 7<br>Collections of Objects"]
+		C3["Session 8<br>__str__ / __repr__"]
+		C4["Session 9<br>Refactoring into Classes"]
+		C5["Session 10 (MP 2)<br>Task / Inventory App"]
+        C1 --> C2 --> C3 --> C4 --> C5
+    end
+
+	classDef startEnd fill:#eef6ff,stroke:#86a9cf,stroke-width:2px,color:#1f2a37
+	classDef session fill:#f6f0ff,stroke:#b39ddb,stroke-width:2px,color:#2d1f3d
+	classDef project fill:#eef9f0,stroke:#93c5a1,stroke-width:2px,color:#1f3527
+
+	class A,K startEnd
+	class B1,B2,B3,B4,C1,C2,C3,C4 session
+	class B5,C5 project
 ```
 
 ASCII fallback:
 
 ```text
 [Novice]
-		|
-		v
+    |
+    v
 [Phase A: OOP Foundations]
-		|- [Session 1: Why OOP?]
-		|- [Session 2: Classes & Objects]
-		|- [Session 3: __init__ & Attributes]
-		|- [Session 4: Instance Methods]
-		`- [Session 5 (MP 1): Object-Based Profile Manager]
-		|
-		v
+    |- [Session 1: Why OOP?]
+    |- [Session 2: Classes & Objects]
+    |- [Session 3: __init__ & Attributes]
+    |- [Session 4: Instance Methods]
+    `- [Session 5 (MP 1): Object-Based Profile Manager]
+    |
+    v
 [Phase B: OOP in Practice]
-		|- [Session 6: Composition]
-		|- [Session 7: Collections of Objects]
-		|- [Session 8: __str__ / __repr__]
-		|- [Session 9: Refactoring into Classes]
-		`- [Session 10 (MP 2): Task / Inventory App]
-		|
-		v
+    |- [Session 6: Composition]
+    |- [Session 7: Collections of Objects]
+    |- [Session 8: __str__ / __repr__]
+    |- [Session 9: Refactoring into Classes]
+    `- [Session 10 (MP 2): Task / Inventory App]
+    |
+    v
 [Object Thinker]
 ```
 
