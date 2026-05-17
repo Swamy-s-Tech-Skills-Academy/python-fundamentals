@@ -20,22 +20,22 @@ def main(argv: list[str]) -> int:
 		print(HELP_TEXT)
 		return 0
 
-	countries = ["USA", "Germany", "Turkey", "Egypt"]
+	weekend_plan = ["wash bottle", "pack notebook", "charge laptop", "review agenda"]
 
 	print("=== Working Module 6: Updating Lists ===\n")
-	print(f"Start: {countries}")
+	print(f"Start: {weekend_plan}")
 
-	countries = countries + ["Greece"]
-	print(f"After adding one item with +: {countries}")
+	weekend_plan.append("set alarm")
+	print(f"After append('set alarm'): {weekend_plan}")
 
-	countries[0] = "France"
-	print(f"After countries[0] = 'France': {countries}")
+	weekend_plan[0] = "fill water bottle"
+	print(f"After weekend_plan[0] = 'fill water bottle': {weekend_plan}")
 
-	countries[0:3] = ["Japan", "Syria", "Italy"]
-	print(f"After replacing the first three items: {countries}")
+	weekend_plan[1:3] = ["print checklist", "pack charger"]
+	print(f"After replacing a slice: {weekend_plan}")
 
-	del countries[-1]
-	print(f"After del countries[-1]: {countries}")
+	del weekend_plan[-1]
+	print(f"After del weekend_plan[-1]: {weekend_plan}")
 	return 0
 
 

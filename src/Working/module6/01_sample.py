@@ -22,18 +22,18 @@ def main(argv: list[str]) -> int:
 
 	print("=== Working Module 6: Creating Lists ===\n")
 
-	premier_league = ["Manchester", "Chelsea", "Arsenal", "Liverpool", "Everton"]
-	print("Premier League teams:")
-	print(premier_league)
-	print(f"Type: {type(premier_league).__name__}")
+	study_topics = ["variables", "conditions", "loops", "functions"]
+	print("Study topics list:")
+	print(study_topics)
+	print(f"Type: {type(study_topics).__name__}")
 
-	mixed_list = [20, 7.8, True, "football", premier_league]
-	print("\nMixed list with a nested list:")
-	print(mixed_list)
-	print(f"Length: {len(mixed_list)}")
+	lesson_snapshot = [3, "Wednesday", True, study_topics]
+	print("\nMixed list with a nested topic list:")
+	print(lesson_snapshot)
+	print(f"Length: {len(lesson_snapshot)}")
 
-	values = (20, 7.8, "football", premier_league)
-	converted_list = list(values)
+	reminder_tuple = ("practice", 25, False, study_topics)
+	converted_list = list(reminder_tuple)
 	print("\nTuple converted into a list:")
 	print(converted_list)
 	print(f"Converted type: {type(converted_list).__name__}")
