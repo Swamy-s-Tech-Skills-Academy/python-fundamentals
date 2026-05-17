@@ -1,4 +1,4 @@
-"""Session 8: list creation, indexing, slicing, and item replacement."""
+"""Session 8: list creation, indexing, slicing, and nested list access."""
 
 # Filename: src/L1/S8/01_list_basics.py
 
@@ -7,8 +7,8 @@ import sys
 HELP_TEXT = """01_list_basics.py
 
 Purpose
-    Demonstrate how to create lists, inspect them, access items by index, slice
-    ranges, and replace one item.
+    Demonstrate how to create lists, inspect them, access items by index,
+    reach nested list values, slice ranges, and convert a tuple into a list.
 
 Usage
     python src/L1/S8/01_list_basics.py
@@ -26,13 +26,17 @@ def main(argv: list[str]) -> int:
     print("--- Creating Lists ---")
     numbers = [1, 2, 3, 4, 5]
     fruits = ["apple", "banana", "cherry"]
-    mixed = [42, "hello", 3.14, True]
+    premier_league = ["Manchester", "Chelsea", "Arsenal", "Liverpool", "Everton"]
+    mixed = [42, "hello", 3.14, True, premier_league]
     empty = []
+    tuple_values = (20, 7.8, "football", premier_league)
+    converted = list(tuple_values)
 
     print(f"Numbers: {numbers}")
     print(f"Fruits: {fruits}")
     print(f"Mixed: {mixed}")
     print(f"Empty: {empty}")
+    print(f"Tuple converted to list: {converted}")
 
     # List properties
     print("\n--- List Properties ---")
@@ -45,6 +49,7 @@ def main(argv: list[str]) -> int:
     print(f"fruits[0] = {fruits[0]}")
     print(f"fruits[1] = {fruits[1]}")
     print(f"fruits[-1] = {fruits[-1]}")
+    print(f"mixed[4][0] = {mixed[4][0]}")
 
     # Slicing
     print("\n--- Slicing ---")
@@ -55,6 +60,12 @@ def main(argv: list[str]) -> int:
     print(f"numbers[6:] = {numbers[6:]}")
     print(f"numbers[::2] = {numbers[::2]}")
     print(f"numbers[::-1] = {numbers[::-1]}")
+
+    print("\n--- Safe Error Demo ---")
+    try:
+        print(fruits[10])
+    except IndexError as error:
+        print(f"Accessing fruits[10] raises: {error}")
 
     # Modifying
     print("\n--- Modifying ---")
