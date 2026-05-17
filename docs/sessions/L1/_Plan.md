@@ -312,8 +312,8 @@ ASCII fallback:
 
 ### ✅ Session 8: Lists & Loops *(Ready)*
 
-* List creation, indexing, slicing, basic methods
-* Operations: `append()`, `remove()`, `len()`, accessing elements
+* List creation, indexing, nested indexing, slicing, and tuple-to-list conversion
+* Operations: `append()`, `remove()`, `len()`, slice replacement, and accessing elements
 * Iteration with lists
 * Practical list usage: filtering, modifying, building from user input
 
