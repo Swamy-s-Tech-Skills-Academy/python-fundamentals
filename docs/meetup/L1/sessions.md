@@ -152,6 +152,12 @@ Optional reinforcement (Strings as Sequences — revisit before lists):
 - `src/L1/S8/05_string_len.py` – `len()` on strings — spaces count as characters
 - `src/L1/S8/06_string_methods.py` – `startswith()` / `endswith()` with optional index bounds
 
+Optional reinforcement (focused list-method drills):
+
+- `src/L1/S8/13_list_append_remove.py` – inspect list methods, then practice `append()` and `remove()`
+- `src/L1/S8/14_list_insert_pop.py` – target list positions with `insert()` and `pop()`
+- `src/L1/S8/15_list_sort_reverse.py` – practice `sort()` and `reverse()` with numbers and strings
+
 Perfect For:
 
 - Learners who completed Session 7 and are ready to work with ordered collections

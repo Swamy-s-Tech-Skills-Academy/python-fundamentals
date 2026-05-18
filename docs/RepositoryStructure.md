@@ -125,7 +125,10 @@ python-fundamentals/
 │       │   ├── 09_string_strip_methods.py
 │       │   ├── 10_string_indexing_and_slicing.py
 │       │   ├── 11_string_format_method.py
-│       │   └── 12_f_strings.py
+│       │   ├── 12_f_strings.py
+│       │   ├── 13_list_append_remove.py
+│       │   ├── 14_list_insert_pop.py
+│       │   └── 15_list_sort_reverse.py
 │       ├── S9/                 # Session 9 practice files
 │       │   ├── 01_dict_basics.py
 │       │   ├── 02_dict_iteration.py
