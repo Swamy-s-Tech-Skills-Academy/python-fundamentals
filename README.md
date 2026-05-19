@@ -94,8 +94,8 @@ A comprehensive, transformation-focused Python curriculum designed to take you f
 
 ## 📚 **Additional Resources**
 
-- 🌐 **Official Python Tutorial:** [docs.python.org/tutorial](https://docs.python.org/tutorial/)
-- 📖 **Python.org Beginner's Guide:** [python.org/about/gettingstarted](https://python.org/about/gettingstarted/)
+- 🌐 **Official Python Tutorial:** [docs.python.org/tutorial](https://docs.python.org/3/tutorial/)
+- 📖 **Python.org Beginner's Guide:** [python.org/about/gettingstarted](https://www.python.org/about/gettingstarted/)
 - 🎥 **Python Installation Video:** Search "Python installation [your OS]"
 - 💬 **Community:** r/learnpython, Python Discord, Stack Overflow
 
