@@ -86,7 +86,7 @@
 
 - Loops (`for`, `while`) with `range()`, `break`, `continue` controls
 - **PEP 8 intro** (naming, spacing, comments) + **Error reading skills** and built-in functions (`len()`, `max()`, `min()`, `sum()`, `abs()`, `round()`)
-- Lists fundamentals with iteration and basic operations
+- Lists fundamentals with iteration, nested access, slice replacement, and basic operations
 - Dictionaries (key-value pairs) with **basic testing using `assert`**
 - **Mini Project 2: Personal Profile Generator** - Applying Sessions 6-9 concepts
 

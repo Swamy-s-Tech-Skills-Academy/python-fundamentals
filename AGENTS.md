@@ -24,10 +24,10 @@ Repository agent guidance for automation and code assistants.
 - Treat Python quality checks as scoped to formal curriculum paths: `src/L1` and `src/L2`.
 - Keep `src/Working/` out of blocking quality gates unless a task explicitly includes Working paths.
 
-## Test-Depth Roadmap (Next Step, Non-Blocking)
+## Current Test Coverage
 
 - Keep existing smoke coverage in `tests/test_curriculum_smoke.py`.
-- Add targeted behavioral tests for mini projects:
+- Maintain targeted behavioral tests in `tests/test_mini_projects.py` for:
   - `src/L1/S5/03_simple_calculator.py`: invalid-number text handling, operator validation, divide-by-zero path.
   - `src/L1/S10/profile_generator.py`: required-field validation and output structure checks.
   - `src/L2/S5/data_processor.py`: representative input-processing and summary-flow assertions.

@@ -1,4 +1,4 @@
-"""Session 8: adding, removing, finding, and sorting list items."""
+"""Session 8: adding, replacing, removing, finding, and sorting list items."""
 
 # Filename: src/L1/S8/02_list_methods.py
 
@@ -7,7 +7,7 @@ import sys
 HELP_TEXT = """02_list_methods.py
 
 Purpose
-    Demonstrate common list methods for adding, removing, finding, and sorting
+    Demonstrate common ways to add, replace, remove, find, and sort list
     items.
 
 Usage
@@ -27,6 +27,9 @@ def main(argv: list[str]) -> int:
     fruits = ["apple"]
     print(f"Start: {fruits}")
 
+    fruits = fruits + ["apricot"]
+    print(f"After fruits + ['apricot']: {fruits}")
+
     fruits.append("banana")
     print(f"After append('banana'): {fruits}")
 
@@ -35,6 +38,13 @@ def main(argv: list[str]) -> int:
 
     fruits.extend(["cherry", "date"])
     print(f"After extend(['cherry', 'date']): {fruits}")
+
+    print("\n--- Replacing Items ---")
+    fruits[0] = "avocado"
+    print(f"After fruits[0] = 'avocado': {fruits}")
+
+    fruits[1:3] = ["blackberry", "clementine"]
+    print(f"After fruits[1:3] = ['blackberry', 'clementine']: {fruits}")
 
     # Removing items
     print("\n--- Removing Items ---")
@@ -51,6 +61,12 @@ def main(argv: list[str]) -> int:
     removed = fruits.pop(0)
     print(f"pop(0) returned: {removed}")
     print(f"After pop(0): {fruits}")
+
+    del fruits[0]
+    print(f"After del fruits[0]: {fruits}")
+
+    fruits.clear()
+    print(f"After clear(): {fruits}")
 
     # Finding items
     print("\n--- Finding Items ---")
