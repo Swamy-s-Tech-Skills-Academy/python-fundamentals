@@ -8,7 +8,7 @@ format: "2 phases × (4 sessions + 1 mini project) = 10 sessions total"
 outcome: "2 Mini Projects to cement your foundation"
 transformation_focus: "Evolving mindset from complete beginner to someone genuinely curious about programming"
 curriculum_status: "Validated"
-delivery_status: "S1–S4 completed; S5–S10 pending (see docs/meetup/L1/sessions.md)"
+delivery_status: "S1–S5 completed; S6–S10 pending (see docs/meetup/L1/sessions.md)"
 repository_status: "Implemented"
 master_plan: "docs/01_Python-Fundamentals-MasterPlan.md"
 learning_objectives:
@@ -66,7 +66,7 @@ sessions:
     duration: "30–45 min"
     type: "Project"
     curriculum: "Validated"
-    delivery: "Ready"
+    delivery: "Completed"
     file: "docs/sessions/L1/S5.md"
   - session: 6
     topic: "Loops & Iteration"
@@ -138,7 +138,7 @@ sessions:
 | A     | 2       | Variables & Data Types                                 | 30 min    | 📚 Knowledge | Validated  | Completed  |
 | A     | 3       | Operators & Expressions                                | 30 min    | 📚 Knowledge | Validated  | Completed  |
 | A     | 4       | Conditionals, Indentation & Introduction to Modules    | 30 min    | 📚 Knowledge | Validated  | Completed  |
-| A     | 5 (MP 1) | Mini Project 1: Simple Calculator *(after Session 4)*  | 30–45 min | 🛠️ Project   | Validated  | Ready      |
+| A     | 5 (MP 1) | Mini Project 1: Simple Calculator *(after Session 4)*  | 30–45 min | 🛠️ Project   | Validated  | Completed  |
 | B     | 6       | Loops & Iteration                                      | 30 min    | 📚 Knowledge | Validated  | Planned    |
 | B     | 7       | Basic Debugging, Reading Errors & Built-in Functions   | 30 min    | 📚 Knowledge | Validated  | Planned    |
 | B     | 8       | Lists, Iteration & String Sequences                    | 30 min    | 📚 Knowledge | Validated  | Planned    |
@@ -282,7 +282,7 @@ ASCII fallback:
 
 ---
 
-### 🚀 Mini Project 1: Simple Calculator *(Validated · delivery: Ready)*
+### 🚀 Mini Project 1: Simple Calculator *(Validated · delivery: Completed)*
 
 **Goal:** Build a command-line calculator for basic arithmetic.
 
