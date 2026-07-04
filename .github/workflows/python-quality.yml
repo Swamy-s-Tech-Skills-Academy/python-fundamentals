@@ -3,6 +3,7 @@ name: Python Quality
 on:
   workflow_dispatch: {}
   pull_request:
+    branches: [main, "swamy/*"]
     paths:
       - "src/L1/**/*.py"
       - "src/L2/**/*.py"
@@ -10,7 +11,7 @@ on:
       - "pyproject.toml"
       - ".github/workflows/python-quality.yml"
   push:
-    branches: [main]
+    branches: [main, "swamy/*"]
     paths:
       - "src/L1/**/*.py"
       - "src/L2/**/*.py"

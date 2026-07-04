@@ -4,6 +4,7 @@ on:
   # Manual run capability (use Run workflow button in GitHub UI)
   workflow_dispatch: {}
   pull_request:
+    branches: [main, "swamy/*"]
     paths:
       - "README.md"
       - "docs/**/*.md"
@@ -12,7 +13,7 @@ on:
       - ".markdownlint.*"
       - ".github/workflows/docs-quality.yml"
   push:
-    branches: [main]
+    branches: [main, "swamy/*"]
     paths:
       - "README.md"
       - "docs/**/*.md"
