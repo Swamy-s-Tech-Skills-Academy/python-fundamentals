@@ -11,7 +11,9 @@ Machine-readable guidance lives in **`.cursor/`** and the root entry files. [Cur
 | [`AGENTS.md`](AGENTS.md) | Agent entry: policies, ReAct/CoT, where rules live |
 | [`.cursor/rules/`](.cursor/rules/) | Modular `.mdc` rules (educational content, QA, markdown, directives) |
 | [`.cursor/skills/`](.cursor/skills/) | One project skill: [`python-fundamentals-curriculum/SKILL.md`](.cursor/skills/python-fundamentals-curriculum/SKILL.md) — when to read which doc before editing the course |
-| [`.cursor/agents/`](.cursor/agents/) | Custom subagents: session docs, `src/L1`/`src/L2` practice code, doc verification (read-only) |
+| [`.cursor/agents/`](.cursor/agents/) | Cursor subagents: `session-content`, `python-practice-code`, `docs-verifier` |
+| [`.clinerules/agents/`](.clinerules/agents/) | Cline mirrors: `agent-ci-verify`, `session-roadmap-review`, `python-practice-code`, `docs-originality-review` |
+| [`.opencode/agents/`](.opencode/agents/) | OpenCode mirrors (same four agent roles) |
 | [`.github/copilot-instructions.md`](.github/copilot-instructions.md) | GitHub Copilot alignment with the same curriculum rules |
 | [`CLAUDE.md`](CLAUDE.md) | Short brief for Claude-oriented tools |
 | [`.clinerules/`](.clinerules/) | Cline-facing entry, agents, skills, workflows; canonical policy remains root/`.cursor` |

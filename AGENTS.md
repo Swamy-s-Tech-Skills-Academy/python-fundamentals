@@ -24,7 +24,9 @@ Repository agent guidance for automation and code assistants.
 | **Structure (authoritative)** | `docs/RepositoryStructure.md` | Definitive tree, naming, status |
 | **Agent entry (this file)** | `AGENTS.md` | How agents should behave; pointers to all rules |
 | **Skills pointer** | `skills.md` | Index; project skill in `.cursor/skills/python-fundamentals-curriculum/SKILL.md` |
-| **Cursor subagents** | `.cursor/agents/*.md` | Optional custom subagents (session content, practice code, doc verification) |
+| **Cursor subagents** | `.cursor/agents/*.md` | Session content, practice code, docs verification |
+| **Cline subagents** | `.clinerules/agents/*.md` | Same roles: CI verify, session roadmap, practice code, docs originality |
+| **OpenCode agents** | `.opencode/agents/*.md` | Same roles as Cline mirrors |
 | **Claude / Anthropic (short form)** | `CLAUDE.md` (repo root) | Condensed guardrails; same project as this file |
 | **Claude Code folder (optional)** | `.claude/CLAUDE.md` | Confirms root instructions; use when tools expect `.claude/` |
 | **Cursor (modular rules)** | `.cursor/rules/*.mdc` | Mandatory and scoped rules; see `.cursor/rules/README.md` |

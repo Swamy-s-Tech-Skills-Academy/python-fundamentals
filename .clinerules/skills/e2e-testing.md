@@ -17,7 +17,7 @@ This repository has no web service or end-to-end browser flow. Use script-level 
 ### 1. Compile all practice scripts
 
 ```powershell
-python -m compileall -q src
+python -m compileall -q src/L1 src/L2
 ```
 
 ### 2. Mini calculator
