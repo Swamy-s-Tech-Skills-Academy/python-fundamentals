@@ -43,7 +43,7 @@ python-fundamentals/
 │       │   ├── S5.md       # Session 5 - Mini Project 1: Simple Calculator
 │       │   ├── S6.md        # Session 6: Loops & Iteration
 │       │   ├── S7.md        # Session 7: Debugging & Built-ins
-│       │   ├── S8.md        # Session 8: Lists & Loops
+│       │   ├── S8.md        # Session 8: Lists, Iteration & String Sequences
 │       │   ├── S9.md        # Session 9: Dictionaries & Testing
 │       │   └── S10.md       # Session 10 - Mini Project 2: Profile Generator
 │       └── L2/                 # Level 2: Nerd → Novice
@@ -330,7 +330,7 @@ Cursor configuration:
 | 5 | `S5.md` | Mini Project: Calculator | 4 files |
 | 6 | `S6.md` | Loops & Iteration | 9 files |
 | 7 | `S7.md` | Debugging & Built-ins | 7 files |
-| 8 | `S8.md` | Lists & Loops | 16 files (3 list core + 13 optional string/list drills) |
+| 8 | `S8.md` | Lists, Iteration & String Sequences | 16 files (3 list core + 13 optional string/list drills) |
 | 9 | `S9.md` | Dictionaries & Testing | 3 files |
 | 10 | `S10.md` | Mini Project: Profile Generator | 1 file |
 

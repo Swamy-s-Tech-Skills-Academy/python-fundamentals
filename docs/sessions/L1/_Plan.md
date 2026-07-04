@@ -105,35 +105,45 @@ sessions:
     file: "docs/sessions/L1/S10.md"
 ---
 
-# 🐍 Level 1: Noob → Nerd - Python Fundamentals
+# 🐍 Level 1: Noob → Nerd — Python Fundamentals
 
 ## From clueless to curious: Your first exposure to Python programming
 
+> **Stage:** Part 1 — Python Fundamentals (Levels 1–6) · **Program:** [Python Software Engineering Journey](../../01_Python-Fundamentals-MasterPlan.md)
+>
 > 1. **Level:** Noob → Nerd *(first exposure, installing Python, printing output)*
 > 1. **Format:** 2 phases × (4 sessions + 1 mini project) = 10 sessions total
-> 1. **Outcome:** 2 Mini Projects to cement your foundation  
-> 1. **Total Duration:** ~5–6 hours (8 × 30 min + 2 × 30–45 min)
+> 1. **Outcome:** 2 Mini Projects to cement your foundation
+> 1. **Core guided time:** ~5–6 hours (8 × 30 min + 2 × 30–45 min MPs) — optional S6/S8 drills add practice time
 
 ## Powered by ShyvnTech & Swamy's Tech Skills Academy
 
-> **Transformation Focus**: This isn't just about learning Python syntax - it's about evolving your mindset from complete beginner to someone genuinely curious about programming. Each session builds confidence and practical skills.
+> **Transformation Focus:** This is not only syntax — it is evolving your mindset from complete beginner to someone genuinely curious about programming.
+
+### Level 1 status (three axes)
+
+| Axis | Status |
+| --- | --- |
+| **Curriculum** | Validated — session docs + practice files complete |
+| **Delivery** | S1–S4 completed · S5 ready · S6–S8 planned · S9–S10 pending ([meetup table](../../meetup/L1/sessions.md)) |
+| **Repository** | Implemented — `src/L1/S1` through `S10` |
 
 ---
 
 ## 🎯 **Level 1 Learning Path (Noob → Nerd)**
 
-| Phase | Session | Topic                                                  | Duration  | Type         | Status     |
-| ----- | ------- | ------------------------------------------------------ | --------- | ------------ | ---------- |
-| A     | 1       | Python Introduction, Environment & Built-in Functions  | 30 min    | 📚 Knowledge | ✅ Ready   |
-| A     | 2       | Variables & Data Types                                 | 30 min    | 📚 Knowledge | ✅ Ready   |
-| A     | 3       | Operators & Expressions                                | 30 min    | 📚 Knowledge | ✅ Ready   |
-| A     | 4       | Conditionals, Indentation & Introduction to Modules    | 30 min    | 📚 Knowledge | ✅ Ready   |
-| A     | 5 (MP 1) | Mini Project 1: Simple Calculator *(after Session 4)*  | 30–45 min | 🛠️ Project   | ✅ Ready   |
-| B     | 6       | Loops & Iteration                                      | 30 min    | 📚 Knowledge | ✅ Ready   |
-| B     | 7       | Basic Debugging, Reading Errors & Built-in Functions   | 30 min    | 📚 Knowledge | ✅ Ready   |
-| B     | 8       | Lists & Loops                                          | 30 min    | 📚 Knowledge | ✅ Ready   |
-| B     | 9       | Dictionaries & Basic Testing                           | 30 min    | 📚 Knowledge | ✅ Ready   |
-| B     | 10 (MP 2) | Mini Project 2: Personal Profile Generator *(after Session 9)* | 30–45 min | 🛠️ Project   | ✅ Ready   |
+| Phase | Session | Topic                                                  | Duration  | Type         | Curriculum | Delivery   |
+| ----- | ------- | ------------------------------------------------------ | --------- | ------------ | ---------- | ---------- |
+| A     | 1       | Python Introduction, Environment & Built-in Functions  | 30 min    | 📚 Knowledge | Validated  | Completed  |
+| A     | 2       | Variables & Data Types                                 | 30 min    | 📚 Knowledge | Validated  | Completed  |
+| A     | 3       | Operators & Expressions                                | 30 min    | 📚 Knowledge | Validated  | Completed  |
+| A     | 4       | Conditionals, Indentation & Introduction to Modules    | 30 min    | 📚 Knowledge | Validated  | Completed  |
+| A     | 5 (MP 1) | Mini Project 1: Simple Calculator *(after Session 4)*  | 30–45 min | 🛠️ Project   | Validated  | Ready      |
+| B     | 6       | Loops & Iteration                                      | 30 min    | 📚 Knowledge | Validated  | Planned    |
+| B     | 7       | Basic Debugging, Reading Errors & Built-in Functions   | 30 min    | 📚 Knowledge | Validated  | Planned    |
+| B     | 8       | Lists, Iteration & String Sequences                    | 30 min    | 📚 Knowledge | Validated  | Planned    |
+| B     | 9       | Dictionaries & Basic Testing                           | 30 min    | 📚 Knowledge | Validated  | Pending    |
+| B     | 10 (MP 2) | Mini Project 2: Personal Profile Generator *(after Session 9)* | 30–45 min | 🛠️ Project   | Validated  | Pending    |
 
 ---
 
@@ -157,7 +167,7 @@ flowchart TB
   subgraph PhaseB["📘 Phase B: Expanding Skills"]
     C1["🔄 Session 6<br>Loops & Iteration"]
     C2["🐛 Session 7<br>Debugging & Built-ins"]
-    C3["📋 Session 8<br>Lists & Loops"]
+    C3["📋 Session 8<br>Lists & String Sequences"]
     C4["📚 Session 9<br>Dicts & Testing"]
     C5["🚀 Session 10 (MP 2)<br>Mini Project 2: Profile Generator"]
         C1 --> C2 --> C3 --> C4 --> C5
@@ -189,7 +199,7 @@ ASCII fallback:
 [📘 Phase B: Expanding Skills]
     ├─ [🔄 Session 6: Loops & Iteration]
     ├─ [🐛 Session 7: Debugging & Built-ins]
-    ├─ [📋 Session 8: Lists & Loops]
+    ├─ [📋 Session 8: Lists & String Sequences]
     ├─ [📚 Session 9: Dicts & Testing]
     └─ [🚀 Session 10 (MP 2): Mini Project 2: Profile Generator]
     |
@@ -224,6 +234,7 @@ ASCII fallback:
 * Data types: `int`, `float`, `str`, `bool`
 * Dynamic typing, `type()`, `isinstance()`
 * Type conversion and casting
+* Optional bridge: values as objects (`type()` inspects objects; full OOP in L3)
 
 🧪 *Practice Files*:  
 `src/L1/S2/01_variables.py`, `src/L1/S2/02_data_types.py`, `src/L1/S2/03_type_conversion.py`
@@ -271,7 +282,7 @@ ASCII fallback:
 
 ---
 
-### 🚀 Mini Project 1: Simple Calculator *(Ready)*
+### 🚀 Mini Project 1: Simple Calculator *(Validated · delivery: Ready)*
 
 **Goal:** Build a command-line calculator for basic arithmetic.
 
@@ -282,6 +293,7 @@ ASCII fallback:
 * Input validation
 * One-run calculator flow (single calculation per execution)
 * Clean, structured code
+* **PEP 8 introduction** (naming, spacing, comments) — *spiral: reinforced in Session 7*
 
 🧪 *Practice Pack*: `src/L1/S5/01_PEP8_naming_and_spacing.py`, `src/L1/S5/02_del_and_bool_arithmetic.py`, `src/L1/S5/03_simple_calculator.py`, `src/L1/S5/calculator_utils.py`
 📖 *Project Guide*: [S5.md](S5.md)
@@ -295,7 +307,7 @@ ASCII fallback:
 
 ## 📅 **Phase B: Expanding Skills + Mini Project 2**
 
-### ✅ Session 6: Loops & Iteration
+### ✅ Session 6: Loops & Iteration *(Validated · delivery: Planned)*
 
 * `for` loops with `range()` and iterables
 * `while` loops and loop conditions
@@ -303,7 +315,10 @@ ASCII fallback:
 * Nested loops and performance considerations
 
 🧪 *Practice Files*:  
-`src/L1/S6/01_for_loops.py`, `src/L1/S6/02_while_loops.py`, `src/L1/S6/03_loop_controls_fizzbuzz.py`, `src/L1/S6/04_calculator_loop.py`, `src/L1/S6/05_values_to_variables.py`, `src/L1/S6/06_chained_and_multi_assignment.py`, `src/L1/S6/07_conversion_limits.py`, `src/L1/S6/08_boolean_logic_precedence.py`, `src/L1/S6/09_non_bool_values.py`
+`src/L1/S6/01_for_loops.py`, `src/L1/S6/02_while_loops.py`, `src/L1/S6/03_loop_controls_fizzbuzz.py`, `src/L1/S6/04_calculator_loop.py`, `src/L1/S6/05_values_to_variables.py`, `src/L1/S6/06_chained_and_multi_assignment.py`, `src/L1/S6/07_conversion_limits.py`
+
+Optional reinforcement (boolean precedence & truthy/falsy):  
+`src/L1/S6/08_boolean_logic_precedence.py`, `src/L1/S6/09_non_bool_values.py`
 
 📖 *Documentation*: [S6.md](S6.md)
 
@@ -312,13 +327,14 @@ ASCII fallback:
 
 ---
 
-### ✅ Session 7: Basic Debugging & Built-in Functions *(Ready)*
+### ✅ Session 7: Basic Debugging & Built-in Functions *(Validated · delivery: Planned)*
 
 * Error types: syntax vs runtime
 * Reading error messages
 * Common beginner mistakes
 * Debugging with `print()`
 * Built-in functions: `len()`, `max()`, `min()`, `sum()`, `abs()`, `round()`
+* **PEP 8 reinforcement** (warm-up — full intro was in MP1)
 
 🧪 *Practice Files*:  
 `src/L1/S7/01_error_examples.py`, `src/L1/S7/02_debug_practice.py`, `src/L1/S7/03_builtin_functions.py`, `src/L1/S7/04_pep8_style_refactor.py`, `src/L1/S7/05_pep8_indentation.py`, `src/L1/S7/06_print_sep_end.py`, `src/L1/S7/07_escape_sequences.py`
@@ -330,18 +346,23 @@ ASCII fallback:
 
 ---
 
-### ✅ Session 8: Lists & Loops *(Ready)*
+### ✅ Session 8: Lists, Iteration & String Sequences *(Validated · delivery: Planned)*
+
+**Core (30-minute session):**
 
 * List creation, indexing, nested indexing, slicing, and tuple-to-list conversion
 * Operations: `append()`, `remove()`, `len()`, slice replacement, and accessing elements
 * Iteration with lists
 * Practical list usage: filtering, modifying, building from user input
 
-🧪 *Practice Files*:  
+🧪 *Core practice files*:  
 `src/L1/S8/01_list_basics.py`, `src/L1/S8/02_list_methods.py`, `src/L1/S8/03_task_manager.py`
 
-Optional reinforcement (Strings as Sequences):  
-`src/L1/S8/04_string_basics.py`, `src/L1/S8/05_string_len.py`, `src/L1/S8/06_string_methods.py`, `src/L1/S8/07_string_replace.py`, `src/L1/S8/08_string_case_methods.py`, `src/L1/S8/09_string_strip_methods.py`, `src/L1/S8/10_string_indexing_and_slicing.py`, `src/L1/S8/11_string_format_method.py`, `src/L1/S8/12_f_strings.py`, `src/L1/S8/16_percent_formatting.py`, `src/L1/S8/13_list_append_remove.py`, `src/L1/S8/14_list_insert_pop.py`, `src/L1/S8/15_list_sort_reverse.py`
+Optional reinforcement — **Strings as Sequences** (run before or after core):  
+`src/L1/S8/04_string_basics.py`, `src/L1/S8/05_string_len.py`, `src/L1/S8/06_string_methods.py`, `src/L1/S8/07_string_replace.py`, `src/L1/S8/08_string_case_methods.py`, `src/L1/S8/09_string_strip_methods.py`, `src/L1/S8/10_string_indexing_and_slicing.py`, `src/L1/S8/11_string_format_method.py`, `src/L1/S8/12_f_strings.py`, `src/L1/S8/16_percent_formatting.py`
+
+Optional reinforcement — **List method drills**:  
+`src/L1/S8/13_list_append_remove.py`, `src/L1/S8/14_list_insert_pop.py`, `src/L1/S8/15_list_sort_reverse.py`
 
 📖 *Documentation*: [S8.md](S8.md)
 
@@ -350,7 +371,7 @@ Optional reinforcement (Strings as Sequences):
 
 ---
 
-### ✅ Session 9: Dictionaries & Basic Testing *(Ready)*
+### ✅ Session 9: Dictionaries & Basic Testing *(Validated · delivery: Pending)*
 
 * Dictionaries: creation, update, deletion
 * Methods: `.keys()`, `.values()`, `.items()`, `.get()`
@@ -368,7 +389,7 @@ Optional reinforcement (Strings as Sequences):
 
 ---
 
-### 🚀 Mini Project 2: Personal Profile Generator *(Ready)*
+### 🚀 Mini Project 2: Personal Profile Generator *(Validated · delivery: Pending)*
 
 **Goal:** Create an interactive profile generator and display system.
 
@@ -380,7 +401,10 @@ Optional reinforcement (Strings as Sequences):
 * Handle multiple profiles
 * Basic input validation
 
-🧪 *Deliverable*: `src/L1/S10/profile_generator.py`
+🧪 *Deliverable*: `src/L1/S10/profile_generator.py`  
+📖 *Project Guide*: [S10.md](S10.md)
+
+📌 *Bridge to Level 3:* Profile Generator is a **refactor target** for L3 MP1 (object-based profile manager).
 
 🎯 *Stretch Goals*:
 
@@ -399,11 +423,33 @@ By completing Level 1, you will:
 * ✅ Use built-in functions effectively
 * ✅ Work with variables, operators, and conditionals
 * ✅ Control program flow with loops
+* ✅ Apply PEP 8 habits (introduced in MP1, reinforced in S7)
 * ✅ Debug errors using messages and print statements
 * ✅ Store/manipulate data using lists & dictionaries
 * ✅ Apply basic testing with asserts
 * ✅ Complete 2 mini projects showing your skills
 * ✅ Be ready for **Level 2: Nerd → Novice**
+
+### Exit criteria (before Level 2)
+
+* ✅ Write a Python script using variables, conditionals, and loops without syntax errors
+* ✅ Read and understand basic error messages (NameError, TypeError, IndentationError)
+* ✅ Use lists and dictionaries to store and retrieve data
+* ✅ Use `assert` for simple manual checks
+* ✅ Explain why Python uses indentation instead of braces
+
+### Common anti-patterns (Level 1)
+
+* ❌ **Copy-paste without understanding** — explain each line before running
+* ❌ **Ignoring error messages** — read tracebacks bottom-up
+* ❌ **Magic numbers everywhere** — name values with clear variables
+* ❌ **No `# Why:` comments** on non-obvious decisions
+
+### Reflection (Level 1)
+
+* What surprised you about Python's indentation or `input()` always returning strings?
+* What debugging habit will you keep after Session 7?
+* Which optional S8 drill helped most — lists or strings?
 
 ---
 
