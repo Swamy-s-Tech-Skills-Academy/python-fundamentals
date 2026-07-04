@@ -1,17 +1,23 @@
 ---
 learning_level: "Noob → Nerd"
 level_number: 1
+stage_part: "Part 1 — Python Fundamentals"
 prerequisites: []
-total_duration: "~5–6 hours"
+total_duration: "~5–6 hours core guided instruction (+ optional reinforcement)"
 format: "2 phases × (4 sessions + 1 mini project) = 10 sessions total"
 outcome: "2 Mini Projects to cement your foundation"
 transformation_focus: "Evolving mindset from complete beginner to someone genuinely curious about programming"
+curriculum_status: "Validated"
+delivery_status: "S1–S4 completed; S5–S10 pending (see docs/meetup/L1/sessions.md)"
+repository_status: "Implemented"
+master_plan: "docs/01_Python-Fundamentals-MasterPlan.md"
 learning_objectives:
   - "Set up Python environment confidently"
   - "Write & run first Python scripts"
   - "Use built-in functions effectively"
   - "Work with variables, operators, and conditionals"
   - "Control program flow with loops"
+  - "Apply PEP 8 habits (introduced in MP1, reinforced in S7)"
   - "Debug errors using messages and print statements"
   - "Store/manipulate data using lists & dictionaries"
   - "Apply basic testing with asserts"
@@ -20,68 +26,82 @@ learning_objectives:
 related_topics:
   prerequisites: []
   builds_upon: []
-  enables: []
-  cross_refs: []
+  enables:
+    - "docs/sessions/L2/_Plan.md"
+    - "docs/sessions/L3/_Plan.md"
+  cross_refs:
+    - "docs/01_Python-Fundamentals-MasterPlan.md"
+    - "docs/meetup/L1/sessions.md"
 sessions:
   - session: 1
     topic: "Python Introduction, Environment & Built-in Functions"
     duration: "30 min"
     type: "Knowledge"
-    status: "Ready"
+    curriculum: "Validated"
+    delivery: "Completed"
     file: "docs/sessions/L1/S1.md"
   - session: 2
     topic: "Variables & Data Types"
     duration: "30 min"
     type: "Knowledge"
-    status: "Ready"
+    curriculum: "Validated"
+    delivery: "Completed"
     file: "docs/sessions/L1/S2.md"
   - session: 3
     topic: "Operators & Expressions"
     duration: "30 min"
     type: "Knowledge"
-    status: "Ready"
+    curriculum: "Validated"
+    delivery: "Completed"
     file: "docs/sessions/L1/S3.md"
   - session: 4
     topic: "Conditionals, Indentation & Introduction to Modules"
     duration: "30 min"
     type: "Knowledge"
-    status: "Ready"
+    curriculum: "Validated"
+    delivery: "Completed"
     file: "docs/sessions/L1/S4.md"
   - session: "5 (MP 1)"
     topic: "Mini Project 1: Simple Calculator"
     duration: "30–45 min"
     type: "Project"
-    status: "Ready"
+    curriculum: "Validated"
+    delivery: "Ready"
     file: "docs/sessions/L1/S5.md"
   - session: 6
     topic: "Loops & Iteration"
     duration: "30 min"
     type: "Knowledge"
-    status: "Ready"
+    curriculum: "Validated"
+    delivery: "Planned"
     file: "docs/sessions/L1/S6.md"
   - session: 7
     topic: "Basic Debugging, Reading Errors & Built-in Functions"
     duration: "30 min"
     type: "Knowledge"
-    status: "Ready"
+    curriculum: "Validated"
+    delivery: "Planned"
     file: "docs/sessions/L1/S7.md"
   - session: 8
-    topic: "Lists & Loops"
+    topic: "Lists, Iteration & String Sequences"
     duration: "30 min"
     type: "Knowledge"
-    status: "Ready"
+    curriculum: "Validated"
+    delivery: "Planned"
     file: "docs/sessions/L1/S8.md"
   - session: 9
     topic: "Dictionaries & Basic Testing"
     duration: "30 min"
     type: "Knowledge"
-    status: "Ready"
+    curriculum: "Validated"
+    delivery: "Pending"
     file: "docs/sessions/L1/S9.md"
   - session: "10 (MP 2)"
     topic: "Mini Project 2: Personal Profile Generator"
     duration: "30–45 min"
     type: "Project"
-    status: "Ready"
+    curriculum: "Validated"
+    delivery: "Pending"
     file: "docs/sessions/L1/S10.md"
 ---
 

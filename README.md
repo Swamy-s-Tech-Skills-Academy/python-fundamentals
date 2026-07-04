@@ -10,7 +10,7 @@ A comprehensive, transformation-focused Python curriculum designed to take you f
 
 📖 **See:** [docs/RepositoryStructure.md](docs/RepositoryStructure.md) — Complete structure documentation (single source of truth)
 
-📋 **See:** [docs/01_Python-Fundamentals-MasterPlan.md](docs/01_Python-Fundamentals-MasterPlan.md) — Complete 18-level course master plan
+📋 **See:** [docs/01_Python-Fundamentals-MasterPlan.md](docs/01_Python-Fundamentals-MasterPlan.md) — **Python Software Engineering Journey** (18-level master plan: Fundamentals → Professional Python → Systems Engineering)
 
 ---
 

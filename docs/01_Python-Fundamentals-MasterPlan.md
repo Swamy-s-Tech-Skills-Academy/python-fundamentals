@@ -173,7 +173,7 @@ Template: **Context → Decision → Consequences**. Stored in project `docs/adr
 
 ## 🎯 **The 18-Level Transformation Journey**
 
-### **🌱 Level 1: Noob → Nerd** _(Foundation Building — Part 1)_
+### **🌱 Level 1: Noob → Nerd** *(Foundation Building — Part 1)*
 
 **Focus:** Environment setup, basic syntax, curiosity ignition  
 **Duration:** ~5 hours core sessions + optional reinforcement  
@@ -253,7 +253,7 @@ Before moving to Level 2, you should be able to:
 
 ---
 
-### **🔧 Level 2: Nerd → Novice** _(Skill Development — Part 1)_
+### **🔧 Level 2: Nerd → Novice** *(Skill Development — Part 1)*
 
 **Focus:** Functions, error handling, file operations, modular programming  
 **Duration:** ~5–6 hours core sessions + MPs  
@@ -326,7 +326,7 @@ Before moving to Level 3, you should be able to:
 
 ---
 
-### **🔢 Level 3: Novice → Object Thinker** _(Core OOP Fundamentals — Part 1)_
+### **🔢 Level 3: Novice → Object Thinker** *(Core OOP Fundamentals — Part 1)*
 
 **Focus:** Solidify **core OOP thinking** — moving from scripts to well‑modeled objects.  
 **Duration:** ~5 hours core sessions + MPs  
@@ -397,7 +397,7 @@ Before moving to Level 4, you should be able to:
 
 ---
 
-### **🏗️ Level 4: Object Thinker → Design Learner** _(OOP Design & Clean Code Intro)_
+### **🏗️ Level 4: Object Thinker → Design Learner** *(OOP Design & Clean Code Intro)*
 
 **Focus:** Turn basic OOP skills into **good small designs** and introduce clean‑code thinking.  
 **Duration:** 5 hours (10 sessions × 30 min)  
@@ -466,10 +466,9 @@ Before moving to Level 5, you should be able to:
 - What would I redesign in my mini project?
 - What could I explain to a peer in five minutes?
 
-
 ---
 
-### **📂 Level 5: Design Learner → Data Wrangler** _(Files & Data Formats)_
+### **📂 Level 5: Design Learner → Data Wrangler** *(Files & Data Formats)*
 
 **Focus:** Become fluent with **real‑world files and data formats** (text, CSV, JSON, simple serialization).  
 **Duration:** 5 hours (10 sessions × 30 min)  
@@ -524,9 +523,16 @@ Before moving to Level 6, you should be able to:
 - ✅ **Can you** handle missing or malformed data gracefully (without crashing)?
 - ✅ **Can you** explain when to use CSV vs JSON for storing data?
 
+**Reflection (Level 5):**
+
+- What surprised me at this level?
+- What was hardest — and what habit will I keep?
+- What would I redesign in my mini project?
+- What could I explain to a peer in five minutes?
+
 ---
 
-### **🗃️ Level 6: Data Wrangler → DB Beginner** _(Relational Databases with SQLite)_
+### **🗃️ Level 6: Data Wrangler → DB Beginner** *(Relational Databases with SQLite)*
 
 **Focus:** Build a strong **relational database (SQL + SQLite)** foundation and connect it to Python programs.  
 **Duration:** 5 hours (10 sessions × 30 min)  
@@ -581,9 +587,16 @@ Before moving to Level 7, you should be able to:
 - ✅ **Can you** use parameterized queries to prevent SQL injection?
 - ✅ **Can you** explain when to use a database vs a JSON/CSV file?
 
+**Reflection (Level 6):**
+
+- What surprised me at this level?
+- What was hardest — and what habit will I keep?
+- What would I redesign in my mini project?
+- What could I explain to a peer in five minutes?
+
 ---
 
-### **🌐 Level 7: DB Beginner → Integration Novice** _(Intro to NoSQL & HTTP/JSON APIs)_
+### **🌐 Level 7: DB Beginner → Integration Novice** *(Intro to NoSQL & HTTP/JSON APIs)*
 
 **Focus:** Gently introduce **NoSQL‑style thinking** and **HTTP/JSON APIs**, and show how to integrate external data with local storage.  
 **Duration:** 5 hours (10 sessions × 30 min)  
@@ -638,9 +651,16 @@ Before moving to Level 8, you should be able to:
 - ✅ **Can you** handle API errors (timeouts, 404s, rate limits) gracefully?
 - ✅ **Can you** make a GET request to a JSON API and parse the response?
 
+**Reflection (Level 7):**
+
+- What surprised me at this level?
+- What was hardest — and what habit will I keep?
+- What would I redesign in my mini project?
+- What could I explain to a peer in five minutes?
+
 ---
 
-### **🧹 Level 8: Integration Novice → Practitioner** _(Clean Code & Tooling — Part 2)_
+### **🧹 Level 8: Integration Novice → Practitioner** *(Clean Code & Tooling — Part 2)*
 
 **Focus:** Turn learners into **working practitioners** — clean-code habits, CLI tooling, Git, testing, optional **ADRs**.  
 **Duration:** ~5 hours core + guided practice  
@@ -710,30 +730,6 @@ Before moving to Level 9, you should be able to:
 - ✅ **AI is a reasoning accelerator, not a correctness oracle** – verify everything
 - ❌ **Don't**: Copy-paste AI code without understanding, rely on AI for core learning, skip manual practice
 
-**Reflection (Level 5):**
-
-- What surprised me at this level?
-- What was hardest — and what habit will I keep?
-- What would I redesign in my mini project?
-- What could I explain to a peer in five minutes?
-
-
-**Reflection (Level 6):**
-
-- What surprised me at this level?
-- What was hardest — and what habit will I keep?
-- What would I redesign in my mini project?
-- What could I explain to a peer in five minutes?
-
-
-**Reflection (Level 7):**
-
-- What surprised me at this level?
-- What was hardest — and what habit will I keep?
-- What would I redesign in my mini project?
-- What could I explain to a peer in five minutes?
-
-
 **Reflection (Level 8):**
 
 - What surprised me at this level?
@@ -742,10 +738,9 @@ Before moving to Level 9, you should be able to:
 - What could I explain to a peer in five minutes?
 - What one ADR would I write for MP1 or MP2?
 
-
 ---
 
-### **🏛️ Level 9: Practitioner → Patterned Coder** _(Design Patterns & Architecture)_
+### **🏛️ Level 9: Practitioner → Patterned Coder** *(Design Patterns & Architecture)*
 
 **Focus:** Learn a small, practical set of **design patterns and architectural habits** for building clearer, more maintainable small applications.  
 **Duration:** 5 hours (10 sessions × 30 min)  
@@ -755,7 +750,7 @@ Before moving to Level 9, you should be able to:
 
 | Phase | Session | Topic                                                                  | Type         | Status         |
 | ----- | ------- | ---------------------------------------------------------------------- | ------------ | -------------- |
-| A     | 1       | **Why Patterns? When & When _Not_ to Use Them**                       | 📚 Knowledge | 🔄 **Planned** |
+| A     | 1       | **Why Patterns? When & When *Not* to Use Them**                       | 📚 Knowledge | 🔄 **Planned** |
 | A     | 2       | **Strategy Pattern: Swappable Behaviours Without `if` Everywhere**    | 📚 Knowledge | 🔄 **Planned** |
 | A     | 3       | **Factory / Creator Functions: Centralizing Object Creation**         | 📚 Knowledge | 🔄 **Planned** |
 | A     | 4       | **Observer / Pub‑Sub (Intro to Event‑Driven Thinking)**               | 📚 Knowledge | 🔄 **Planned** |
@@ -826,10 +821,9 @@ This builds architectural communication skills essential for professional develo
 - What could I explain to a peer in five minutes?
 - What one ADR would I write for MP1 or MP2?
 
-
 ---
 
-### **🧰 Level 10: Patterned Coder → Stdlib Specialist** _(Python Standard Library Mastery)_
+### **🧰 Level 10: Patterned Coder → Stdlib Specialist** *(Python Standard Library Mastery)*
 
 **Focus:** Become confident with the **core Python Standard Library** so you reach for built‑in tools instead of reinventing them.  
 **Duration:** 5 hours (10 sessions × 30 min)  
@@ -884,9 +878,17 @@ Before moving to Level 11, you should be able to:
 - ✅ **Can you** use `collections.Counter` or `defaultdict` to simplify a data-processing task?
 - ✅ **Can you** explain why you'd use stdlib modules instead of writing custom code?
 
+**Reflection (Level 10):**
+
+- What surprised me at this level?
+- What was hardest — and what habit will I keep?
+- What would I redesign in my mini project?
+- What could I explain to a peer in five minutes?
+- What one ADR would I write for MP1 or MP2?
+
 ---
 
-### **🔌 Level 11: Stdlib Specialist → Pro Toolsmith** _(Third‑Party Ecosystem)_
+### **🔌 Level 11: Stdlib Specialist → Pro Toolsmith** *(Third‑Party Ecosystem)*
 
 **Focus:** Get comfortable with a **curated set of third‑party libraries and tools** that show up in real Python projects (HTTP, spreadsheets, CLIs, testing, config).  
 **Duration:** 5 hours (10 sessions × 30 min)  
@@ -941,9 +943,17 @@ Before moving to Level 12, you should be able to:
 - ✅ **Can you** use `click` to build a CLI with commands and options?
 - ✅ **Can you** explain when to add a third-party library vs using stdlib?
 
+**Reflection (Level 11):**
+
+- What surprised me at this level?
+- What was hardest — and what habit will I keep?
+- What would I redesign in my mini project?
+- What could I explain to a peer in five minutes?
+- What one ADR would I write for MP1 or MP2?
+
 ---
 
-### **🚀 Level 12: Pro Toolsmith → Curious Learner** _(Advanced Features & Packaging Capstone)_
+### **🚀 Level 12: Pro Toolsmith → Curious Learner** *(Advanced Features & Packaging Capstone)*
 
 **Focus:** Explore **advanced Python features and packaging**, and build a small, shareable project that ties the entire journey together.  
 **Duration:** 5 hours (10 sessions × 30 min)  
@@ -998,9 +1008,17 @@ Before moving to Level 13, you should be able to:
 - ✅ **Can you** create a simple installable package with `pyproject.toml`?
 - ✅ **Can you** measure performance with `timeit` and identify a bottleneck?
 
+**Reflection (Level 12):**
+
+- What surprised me at this level?
+- What was hardest — and what habit will I keep?
+- What would I redesign in my mini project?
+- What could I explain to a peer in five minutes?
+- What one ADR would I write for MP1 or MP2?
+
 ---
 
-### **🗄️ Level 13: Curious Learner → Data Platform Explorer** _(Production Relational Databases — Part 3)_
+### **🗄️ Level 13: Curious Learner → Data Platform Explorer** *(Production Relational Databases — Part 3)*
 
 **Focus:** Production-grade relational databases (SQL Server, PostgreSQL) from Python.  
 **Duration:** 10 × 30 min guided + **~6–10 h guided labs** (setup, port, SQLAlchemy)  
@@ -1047,9 +1065,17 @@ Before moving to Level 13, you should be able to:
 
 **Learning Outcome:** "I can connect Python applications to production‑grade relational databases (SQL Server and PostgreSQL), design sensible schemas with keys and indexes, and build a small, reusable data layer that prepares me for real backend work."
 
+**Reflection (Level 13):**
+
+- What surprised me at this level?
+- What was hardest — and what habit will I keep?
+- What would I redesign in my mini project?
+- What could I explain to a peer in five minutes?
+- What one ADR would I write for MP1 or MP2?
+
 ---
 
-### **🧱 Level 14: Data Platform Explorer → Data Systems Builder** _(Document DBs & Caching)_
+### **🧱 Level 14: Data Platform Explorer → Data Systems Builder** *(Document DBs & Caching)*
 
 **Focus:** Learn to **model data for a document database** and use **Redis as a cache/key‑value store**, understanding when and why to choose them and how to integrate them with your existing relational stack.  
 **Duration:** 5 hours (10 sessions × 30 min)  
@@ -1095,9 +1121,17 @@ Before moving to Level 13, you should be able to:
 
 **Learning Outcome:** "I can choose when to use a document database versus a relational database, integrate a Mongo‑style document store and Redis into a Python application, and design small systems that use the right data store for the right job."
 
+**Reflection (Level 14):**
+
+- What surprised me at this level?
+- What was hardest — and what habit will I keep?
+- What would I redesign in my mini project?
+- What could I explain to a peer in five minutes?
+- What one ADR would I write for MP1 or MP2?
+
 ---
 
-### **📡 Level 15: Data Systems Builder → Service Integrator** _(Messaging, Streaming & Deep Testing)_
+### **📡 Level 15: Data Systems Builder → Service Integrator** *(Messaging, Streaming & Deep Testing)*
 
 **Focus:** Understand **messaging and streaming systems** (RabbitMQ & Kafka) and learn how to design, test, and debug small **message‑driven Python services** with solid unit and integration tests.  
 **Duration:** 5 hours (10 sessions × 30 min)  
@@ -1143,9 +1177,17 @@ Before moving to Level 13, you should be able to:
 
 **Learning Outcome:** "I can design small message‑driven Python services that use RabbitMQ and Kafka, and I know how to write unit, integration, and basic contract tests so that these services remain reliable as they evolve."
 
+**Reflection (Level 15):**
+
+- What surprised me at this level?
+- What was hardest — and what habit will I keep?
+- What would I redesign in my mini project?
+- What could I explain to a peer in five minutes?
+- What one ADR would I write for MP1 or MP2?
+
 ---
 
-### **🌐 Level 16: Service Integrator → Service Builder** _(End‑to‑End Service Foundations)_
+### **🌐 Level 16: Service Integrator → Service Builder** *(End‑to‑End Service Foundations)*
 
 **Focus:** Build a **small, end‑to‑end HTTP service** that exposes APIs, talks to real databases, and is structured with clear layers and tests – turning all previous levels into a working service.  
 **Duration:** 5 hours (10 sessions × 30 min)  
@@ -1191,9 +1233,17 @@ Before moving to Level 13, you should be able to:
 
 **Learning Outcome:** "I can design and implement a small, well‑structured HTTP API service in Python that talks to real databases, has clear layers, and is covered by meaningful tests and documentation."
 
+**Reflection (Level 16):**
+
+- What surprised me at this level?
+- What was hardest — and what habit will I keep?
+- What would I redesign in my mini project?
+- What could I explain to a peer in five minutes?
+- What one ADR would I write for MP1 or MP2?
+
 ---
 
-### **🛡️ Level 17: Service Builder → Systems Crafter** _(Service Hardening & Observability)_
+### **🛡️ Level 17: Service Builder → Systems Crafter** *(Service Hardening & Observability)*
 
 **Focus:** Make services **robust and observable** by improving configuration, logging, metrics, health checks, and learning how to run them in **Docker‑based environments** that feel closer to production.  
 **Duration:** 5 hours (10 sessions × 30 min)  
@@ -1239,9 +1289,17 @@ Before moving to Level 13, you should be able to:
 
 **Learning Outcome:** "I can take a working Python service and harden it with better configuration, logging, health checks, metrics, and Docker‑based deployment so it behaves more like a real production system."
 
+**Reflection (Level 17):**
+
+- What surprised me at this level?
+- What was hardest — and what habit will I keep?
+- What would I redesign in my mini project?
+- What could I explain to a peer in five minutes?
+- What one ADR would I write for MP1 or MP2?
+
 ---
 
-### **🏁 Level 18: Systems Crafter → Curious Professional** _(Capstone Project & Portfolio)_
+### **🏁 Level 18: Systems Crafter → Curious Professional** *(Capstone Project & Portfolio)*
 
 **Focus:** Consolidate everything into a **single capstone project** with real‑world structure, docs, tests, packaging, and CI/CD – and turn it into a strong **portfolio piece and learning roadmap**.  
 **Duration:** 5 hours (10 sessions × 30 min)  
@@ -1311,6 +1369,13 @@ To complete Level 18, you should have:
 - ❌ Try to build every feature you can imagine
 - ❌ Add complexity "just because" (violates YAGNI)
 - ❌ Burn out trying to make it perfect – **done is better than perfect**
+
+**Reflection (Level 18):**
+
+- What one user journey did I ship end-to-end?
+- What would I cut if I had half the time?
+- What is in my portfolio case study headline?
+- What one ADR best explains my capstone architecture?
 
 **Remember:** A small, well‑executed project is far more impressive than a large, half‑finished one.
 
