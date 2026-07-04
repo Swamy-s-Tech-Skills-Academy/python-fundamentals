@@ -142,7 +142,7 @@ while True:
             if name in gradebook:
                 score = gradebook[name]
                 letter = get_letter_grade(score)
-                print(f"\n📋 Student Info:")
+                print("\n📋 Student Info:")
                 print(f"   Name: {name}")
                 print(f"   Score: {score}")
                 print(f"   Grade: {letter}")

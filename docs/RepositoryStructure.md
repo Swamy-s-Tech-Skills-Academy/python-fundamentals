@@ -276,6 +276,20 @@ Sandbox staging area for **informal live-coding drafts** before promotion into f
 - **`References.md`**: links to source material and reference repositories.
 - Working Python samples should default to the CLI lesson template in `docs/PythonFileTemplates.md`.
 
+#### Topic → session routing (L1, from `S5` onward)
+
+Intake notes in gitignored `source-material/Module3`–`Module6` map to Working lanes, then to formal sessions. Use this table when promoting or auditing migration — rewrite content; never copy intake verbatim.
+
+| Working lane | Intake topics (summary) | Formal destination |
+| --- | --- | --- |
+| `module3/` | PEP 8 style; assignment patterns; type conversion; arithmetic; `print(sep=, end=)`; escape sequences | `S5` (PEP 8, `del`/bool), `S6` (optional assignment/conversion drills), `S7` (PEP 8 revisit, print/escape) |
+| `module4/` | Boolean precedence; truthy/falsy; short-circuit evaluation | `S4` (core boolean logic), `S6/08`, `S6/09` (optional reinforcement) |
+| `module5/` | Strings as sequences: operators, `len`, methods, indexing/slicing, formatting (`%`, `.format()`, f-strings) | `S8/04`–`S8/12`, `S8/16` (optional string reinforcement) |
+| `module6/` | Lists: creation, indexing, methods (`append`, `remove`, `insert`, `pop`, `sort`, `reverse`) | `S8/01`–`S8/03` (core), `S8/13`–`S8/15` (optional list-method drills) |
+| *(no Working lane)* | Core loops, debugging, built-ins, dictionaries, `assert`, Profile Generator capstone | `S6/01`–`S6/04`, `S7/01`–`S7/03`, `S9/*`, `S10/*` (authored directly into formal paths) |
+
+After promotion, Working copies may remain as instructor scratch until explicitly retired — do not reference `src/Working/` paths in publish-facing session docs.
+
 ### `tests/`
 
 Lightweight **pytest** checks for repository health, including smoke compilation for formal curriculum files and targeted behavioral coverage for the mini projects. Does not replace running lesson scripts while learning.

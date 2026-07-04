@@ -22,7 +22,7 @@ Repository agent guidance for automation and code assistants.
 
 **Workflow:** Author and validate in **`python-fundamentals` first** → sync the scoped meetup band (currently Level 1 S1–S6) into **`python-fundamentals-in-practice`** → align delivery status in both repos when a session is completed. Do not treat the in-practice repo as authoritative for new curriculum authoring.
 
-**Single source of truth for folder layout, naming, and file inventory:** `docs/RepositoryStructure.md` — when structure or conventions change, update this document first, then align references (README, copilot instructions, and this file). — when structure or conventions change, update that document first, then align references (README, copilot instructions, and this file).
+**Single source of truth for folder layout, naming, and file inventory:** `docs/RepositoryStructure.md` — when structure or conventions change, update this document first, then align references (README, copilot instructions, and this file).
 
 ---
 
