@@ -8,7 +8,7 @@ format: "2 phases × (4 sessions + 1 mini project) = 10 sessions total"
 outcome: "2 Mini Projects to cement your foundation"
 transformation_focus: "Evolving mindset from complete beginner to someone genuinely curious about programming"
 curriculum_status: "Validated"
-delivery_status: "S1–S5 completed; S6 ready; S7–S10 pending (see docs/meetup/L1/sessions.md)"
+delivery_status: "S1–S5 completed; S6 published; S7–S10 pending (see docs/meetup/L1/sessions.md)"
 repository_status: "Implemented"
 master_plan: "docs/01_Python-Fundamentals-MasterPlan.md"
 learning_objectives:
@@ -125,7 +125,7 @@ sessions:
 | Axis | Status |
 | --- | --- |
 | **Curriculum** | Validated — session docs + practice files complete |
-| **Delivery** | S1–S5 completed · S6 ready · S7–S8 planned · S9–S10 pending ([meetup table](../../meetup/L1/sessions.md)) |
+| **Delivery** | S1–S5 completed · S6 published · S7–S8 planned · S9–S10 pending ([meetup table](../../meetup/L1/sessions.md)) |
 | **Repository** | Implemented — `src/L1/S1` through `S10` |
 
 ---
@@ -307,7 +307,7 @@ ASCII fallback:
 
 ## 📅 **Phase B: Expanding Skills + Mini Project 2**
 
-### ✅ Session 6: Loops & Iteration *(Validated · delivery: Ready)*
+### ✅ Session 6: Loops & Iteration *(Validated · delivery: Published)*
 
 * `for` loops with `range()` and iterables
 * `while` loops and loop conditions
