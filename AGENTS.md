@@ -30,6 +30,11 @@ Repository agent guidance for automation and code assistants.
 | **Cursor (modular rules)** | `.cursor/rules/*.mdc` | Mandatory and scoped rules; see `.cursor/rules/README.md` |
 | **GitHub Copilot** | `.github/copilot-instructions.md` | In-browser / Copilot alignment with Cursor rules |
 | **Python file templates** | `docs/PythonFileTemplates.md` | Approved teaching-script, CLI lesson, and helper/app shapes |
+| **Copilot prompts (reusable)** | `.github/prompts/` | Agent-mode starters: `create-session`, `review-content`, `create-practice-file`, `fix-references` |
+| **Copilot instructions (scoped)** | `.github/instructions/` | File-scoped rules: `python-practice` → `src/**/*.py`; `session-docs` → `docs/sessions/**` |
+| **Contributing (humans + agents)** | `CONTRIBUTING.md` | How to contribute and review |
+| **Governance** | `CODE_OF_CONDUCT.md`, `SECURITY.md` | Community and security policies |
+| **Cline mirror** | `.clinerules/` | Cline-facing entry and subagents; canonical policy remains root/`.cursor` |
 | **CI (docs)** | `.github/workflows/docs-quality.yml` | Markdown lint + Lychee on doc paths |
 | **CI (Python)** | `.github/workflows/python-quality.yml` | Ruff, compileall, pytest on formal curriculum paths |
 

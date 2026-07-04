@@ -1,57 +1,50 @@
-# AGENTS.md - Cline Entry
+# AGENTS.md — Cline Entry
 
 **Canonical index:** root [`AGENTS.md`](../AGENTS.md).
 
-**Repository:** `python-fundamentals-in-practice`
+**Repository:** `python-fundamentals`
 
-Educational **Python Fundamentals** curriculum for Swamy's Tech Skills Academy. This repo is documentation plus beginner-friendly practice scripts, not a web application.
+Educational **Python Fundamentals** curriculum for Swamy's Tech Skills Academy. Documentation plus beginner-friendly practice scripts — not a web application.
 
 ## Python-only scope
 
-This repository is **Python fundamentals only**. All curriculum work belongs under `docs/sessions/`, `src/L{level}/`, and `docs/meetup/L1/`. Do **not** add or migrate AWS, cloud, Bedrock, or other non-Python course material. Non-Python intake in ignored `source-material/` stays out of this repo unless the user explicitly requests Python-related promotion.
+All curriculum work belongs under `docs/sessions/`, `src/L{level}/`, and `docs/meetup/`. Do **not** add AWS, cloud, Bedrock, or other non-Python course material. `source-material/` is gitignored instructor intake — transform only, never copy verbatim.
 
 ## Read First
 
-1. `AGENTS.md` - full agent map, ReAct/CoT, zero-copy and placement guardrails
-2. `docs/02_RepositoryStructure.md` - authoritative paths, names, and current inventory
-3. `.cursor/rules/*.mdc` - canonical modular rules
-4. `.github/copilot-instructions.md` - Copilot-aligned policy summary
-5. `CLAUDE.md` and `.claude/CLAUDE.md` - short Claude-oriented pointers
+1. `AGENTS.md` — full agent map, ReAct/CoT, zero-copy and placement guardrails
+2. `docs/RepositoryStructure.md` — authoritative paths, names, inventory
+3. `.cursor/rules/*.mdc` — canonical modular rules
+4. `.github/copilot-instructions.md` — Copilot-aligned policy
+5. `CLAUDE.md` and `.claude/CLAUDE.md` — short Claude pointers
 
 ## Structure
 
 ```text
-docs/sessions/L1/     src/L1/S1/     src/L1/S6/
-docs/images/S1/       tools/psscripts/
+docs/sessions/L1/     src/L1/S1/     src/L2/S1/
+docs/images/          scripts/
+tests/                src/Working/   (hands-off unless Swamy asks)
 ```
 
 ## Cline Subagents
 
-These are Cline-facing mirrors of the repo's current assistant roles.
-
 | Agent | Use when |
 | --- | --- |
 | `agent-ci-verify` | After docs, Python, or governance edits |
-| `session-roadmap-review` | Reviewing session docs, plans, and practice-file parity |
-| `docs-originality-review` | Checking docs for zero-copy and source-integrity risk |
+| `session-roadmap-review` | Reviewing session docs, plans, practice-file parity |
+| `docs-originality-review` | Checking docs for zero-copy risk |
 
 ## CI Workflows
 
 | Workflow | Scope |
 | --- | --- |
 | `docs-quality.yml` | Markdown lint + Lychee links |
-| `python-quality.yml` | Ruff, `compileall`, calculator smoke checks |
+| `python-quality.yml` | Ruff, compileall, pytest on `src/L1` + `src/L2` |
 
-Local runners: `./tools/psscripts/docs-lint.ps1`, `./tools/psscripts/docs-links.ps1`, `ruff check src`, and `python -m compileall -q src`.
-
-## Rules
-
-Canonical rules live in `.cursor/rules/`. Files under `.clinerules/rules/` are compact Cline-facing summaries.
+Local: `./scripts/docs-lint.ps1`, `./scripts/docs-links.ps1`, `ruff check src/L1 src/L2`, `pytest -q`.
 
 ## Do Not
 
-- Add AWS, cloud platforms, Bedrock, or other non-Python course tracks to this repository.
-- Migrate non-Python instructor intake from `source-material/` into `docs/` or `src/`.
-- Apply React, FastAPI, MCP, notebook, or demo-roadmap conventions from other repositories.
+- Edit `src/Working/` unless Swamy explicitly requests it.
+- Add new content to completed meetup sessions without explicit approval.
 - Use legacy `src/S1/` paths.
-- Add new Level 1 meetup content to completed sessions without explicit user approval.

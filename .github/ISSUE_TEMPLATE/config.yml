@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Educational Content Questions
+    url: https://github.com/Swamy-s-Tech-Skills-Academy/python-fundamentals/discussions
+    about: Ask questions about educational content, learning paths, or curriculum structure
