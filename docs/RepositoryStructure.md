@@ -22,6 +22,8 @@ If a mirror references another repo (`python-fundamentals-in-practice`), `docs/0
 
 Develop and validate here first; prompt or sync scoped content into the meetup replica when ready for delivery.
 
+**Meetup parity:** `docs/meetup/L1/sessions.md` in this repo and `python-fundamentals-in-practice` must stay identical — including status table, session agendas, and **event date/URL** fields after a session is scheduled or completed. Author meetup updates here first; if event details are captured during live delivery in the replica, back-sync them into this repo immediately.
+
 ---
 
 ## 📁 Complete Repository Structure
