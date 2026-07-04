@@ -185,7 +185,7 @@ flowchart TB
 * Core concepts for Why Patterns? When & When Not to Use Them (see master plan).
 
 🧪 *Practice / deliverable*: `src/L9/S1/` — planned  
-📖 *Documentation*: planned [S1.md](S1.md)
+📖 *Documentation*: planned `docs/sessions/L9/S1.md`
 
 ---
 
@@ -194,7 +194,7 @@ flowchart TB
 * Core concepts for Strategy Pattern: Swappable Behaviours Without if Everywhere (see master plan).
 
 🧪 *Practice / deliverable*: `src/L9/S2/` — planned  
-📖 *Documentation*: planned [S2.md](S2.md)
+📖 *Documentation*: planned `docs/sessions/L9/S2.md`
 
 ---
 
@@ -203,7 +203,7 @@ flowchart TB
 * Core concepts for Factory / Creator Functions: Centralizing Object Creation (see master plan).
 
 🧪 *Practice / deliverable*: `src/L9/S3/` — planned  
-📖 *Documentation*: planned [S3.md](S3.md)
+📖 *Documentation*: planned `docs/sessions/L9/S3.md`
 
 ---
 
@@ -212,7 +212,7 @@ flowchart TB
 * Core concepts for Observer / Pub-Sub (Intro to Event-Driven Thinking) (see master plan).
 
 🧪 *Practice / deliverable*: `src/L9/S4/` — planned  
-📖 *Documentation*: planned [S4.md](S4.md)
+📖 *Documentation*: planned `docs/sessions/L9/S4.md`
 
 ---
 
@@ -221,7 +221,7 @@ flowchart TB
 * Deliverable aligned to Mini Project 1: Refactor to Use One Core Pattern (see master plan).
 
 🧪 *Practice / deliverable*: `src/L9/S5/` — planned  
-📖 *Documentation*: planned [S5 (MP 1).md](S5 (MP 1).md)
+📖 *Documentation*: planned `docs/sessions/L9/S5 (MP 1).md`
 
 ---
 
@@ -232,7 +232,7 @@ flowchart TB
 * Core concepts for Separation of Concerns & Layering (UI / Logic / Data) (see master plan).
 
 🧪 *Practice / deliverable*: `src/L9/S6/` — planned  
-📖 *Documentation*: planned [S6.md](S6.md)
+📖 *Documentation*: planned `docs/sessions/L9/S6.md`
 
 ---
 
@@ -241,7 +241,7 @@ flowchart TB
 * Core concepts for Decorator vs Inheritance: Extending Behaviour Safely (see master plan).
 
 🧪 *Practice / deliverable*: `src/L9/S7/` — planned  
-📖 *Documentation*: planned [S7.md](S7.md)
+📖 *Documentation*: planned `docs/sessions/L9/S7.md`
 
 ---
 
@@ -250,7 +250,7 @@ flowchart TB
 * Core concepts for SOLID-Lite: SRP & Open/Closed in Small Python Projects (see master plan).
 
 🧪 *Practice / deliverable*: `src/L9/S8/` — planned  
-📖 *Documentation*: planned [S8.md](S8.md)
+📖 *Documentation*: planned `docs/sessions/L9/S8.md`
 
 ---
 
@@ -259,7 +259,7 @@ flowchart TB
 * Core concepts for Putting It Together: A Patterned, Layered Console Application (see master plan).
 
 🧪 *Practice / deliverable*: `src/L9/S9/` — planned  
-📖 *Documentation*: planned [S9.md](S9.md)
+📖 *Documentation*: planned `docs/sessions/L9/S9.md`
 
 ---
 
@@ -268,7 +268,7 @@ flowchart TB
 * Deliverable aligned to Mini Project 2: Patterned Console App / Plugin-Style Tool (see master plan).
 
 🧪 *Practice / deliverable*: `src/L9/S10/` — planned  
-📖 *Documentation*: planned [S10 (MP 2).md](S10 (MP 2).md)
+📖 *Documentation*: planned `docs/sessions/L9/S10 (MP 2).md`
 
 ---
 

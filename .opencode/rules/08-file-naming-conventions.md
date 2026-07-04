@@ -1,6 +1,6 @@
 # File Naming Conventions
 
-Canonical detail: `docs/02_RepositoryStructure.md`.
+Canonical detail: `docs/RepositoryStructure.md`.
 
 - Session docs: `docs/sessions/L{level}/S{session}.md`, with `_Plan.md` for level plans.
 - Practice files: `src/L{level}/S{session}/{nn}_{descriptive_name}.py`.

@@ -1,11 +1,11 @@
 ---
 name: agentic-engineering
-description: Legacy folder retained. Work on the Python Fundamentals in Practice repository - educational session docs, beginner Python practice files, repo structure, and assistant governance.
+description: Legacy folder retained. Work on the Python Fundamentals repository - educational session docs, beginner Python practice files, repo structure, and assistant governance.
 ---
 
 # Python Fundamentals Curriculum
 
-**Scope:** Python Fundamentals in Practice. See `AGENTS.md`, `skills.md`, `.cursor/skills/python-fundamentals-curriculum/SKILL.md`, and `docs/02_RepositoryStructure.md`.
+**Scope:** Python Fundamentals. See `AGENTS.md`, `skills.md`, `.cursor/skills/python-fundamentals-curriculum/SKILL.md`, and `docs/RepositoryStructure.md`.
 
 ## Layout
 
@@ -14,7 +14,7 @@ docs/sessions/L1/   # S1.md, S2.md, ..., _Plan.md
 docs/images/S1/     # session images
 src/L1/S1/          # beginner practice scripts
 src/L1/S6/          # loop and assignment practice scripts
-tools/psscripts/    # docs lint/link helpers
+scripts/    # docs lint/link helpers
 ```
 
 ## Teaching quality

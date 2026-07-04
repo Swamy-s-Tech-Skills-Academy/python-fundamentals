@@ -14,6 +14,6 @@ These Cline-facing summaries point back to the canonical Cursor rules and reposi
 | `08-file-naming-conventions.md` | Session, practice, and image naming |
 | `09-copilot-instructions-extract.md` | Condensed Copilot-aligned guardrails |
 
-Canonical files remain `.cursor/rules/*.mdc`, root `AGENTS.md`, and `docs/02_RepositoryStructure.md`.
+Canonical files remain `.cursor/rules/*.mdc`, root `AGENTS.md`, and `docs/RepositoryStructure.md`.
 
 **Python-only:** do not add or migrate AWS, cloud, Bedrock, or other non-Python course material into this repository.

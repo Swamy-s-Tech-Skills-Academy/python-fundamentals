@@ -6,7 +6,7 @@ Use this template when requesting a structured repository audit.
 
 ```json
 {
-  "repo_name": "python-fundamentals-in-practice",
+  "repo_name": "python-fundamentals",
   "audit_type": "workspace | session | ci | docs | practice-code | governance",
   "level": "L1",
   "session": "S6",

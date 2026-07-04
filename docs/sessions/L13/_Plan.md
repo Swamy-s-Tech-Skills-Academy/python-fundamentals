@@ -121,7 +121,6 @@ sessions:
 | **Delivery** | Not started (meetup schedule TBD) |
 | **Repository** | Planned — `_Plan.md` scaffold; session docs and practice code pending |
 
-
 📌 *Bridge:* Port Level 6 SQLite apps; stretch: full migration automation optional.
 
 ---
@@ -187,7 +186,7 @@ flowchart TB
 * Core concepts for SQL Server & PostgreSQL Overview: Architecture, Tools & Local Setup (see master plan).
 
 🧪 *Practice / deliverable*: `src/L13/S1/` — planned  
-📖 *Documentation*: planned [S1.md](S1.md)
+📖 *Documentation*: planned `docs/sessions/L13/S1.md`
 
 ---
 
@@ -196,7 +195,7 @@ flowchart TB
 * Core concepts for Connecting from Python: Drivers, Connection Strings & Parameterized Queries (see master plan).
 
 🧪 *Practice / deliverable*: `src/L13/S2/` — planned  
-📖 *Documentation*: planned [S2.md](S2.md)
+📖 *Documentation*: planned `docs/sessions/L13/S2.md`
 
 ---
 
@@ -205,7 +204,7 @@ flowchart TB
 * Core concepts for Schemas, Keys & Constraints in Production Databases (see master plan).
 
 🧪 *Practice / deliverable*: `src/L13/S3/` — planned  
-📖 *Documentation*: planned [S3.md](S3.md)
+📖 *Documentation*: planned `docs/sessions/L13/S3.md`
 
 ---
 
@@ -214,7 +213,7 @@ flowchart TB
 * Core concepts for Indexes & Query Performance 101 (Execution Plans at a Glance) (see master plan).
 
 🧪 *Practice / deliverable*: `src/L13/S4/` — planned  
-📖 *Documentation*: planned [S4.md](S4.md)
+📖 *Documentation*: planned `docs/sessions/L13/S4.md`
 
 ---
 
@@ -223,7 +222,7 @@ flowchart TB
 * Deliverable aligned to Mini Project 1: Port a SQLite App to PostgreSQL or SQL Server (see master plan).
 
 🧪 *Practice / deliverable*: `src/L13/S5/` — planned  
-📖 *Documentation*: planned [S5 (MP 1).md](S5 (MP 1).md)
+📖 *Documentation*: planned `docs/sessions/L13/S5 (MP 1).md`
 
 ---
 
@@ -234,7 +233,7 @@ flowchart TB
 * Core concepts for Working with SQLAlchemy (Core + Simple ORM Models) (see master plan).
 
 🧪 *Practice / deliverable*: `src/L13/S6/` — planned  
-📖 *Documentation*: planned [S6.md](S6.md)
+📖 *Documentation*: planned `docs/sessions/L13/S6.md`
 
 ---
 
@@ -243,7 +242,7 @@ flowchart TB
 * Core concepts for Environments & Migrations: Dev/Test/Prod, Alembic-Style Migration Basics (see master plan).
 
 🧪 *Practice / deliverable*: `src/L13/S7/` — planned  
-📖 *Documentation*: planned [S7.md](S7.md)
+📖 *Documentation*: planned `docs/sessions/L13/S7.md`
 
 ---
 
@@ -252,7 +251,7 @@ flowchart TB
 * Core concepts for Multi-Database Support & Vendor Differences (see master plan).
 
 🧪 *Practice / deliverable*: `src/L13/S8/` — planned  
-📖 *Documentation*: planned [S8.md](S8.md)
+📖 *Documentation*: planned `docs/sessions/L13/S8.md`
 
 ---
 
@@ -261,7 +260,7 @@ flowchart TB
 * Core concepts for Designing a Reusable Data Access Layer for a Small App (see master plan).
 
 🧪 *Practice / deliverable*: `src/L13/S9/` — planned  
-📖 *Documentation*: planned [S9.md](S9.md)
+📖 *Documentation*: planned `docs/sessions/L13/S9.md`
 
 ---
 
@@ -270,7 +269,7 @@ flowchart TB
 * Deliverable aligned to Mini Project 2: Production-Style Data Layer Library / Module (see master plan).
 
 🧪 *Practice / deliverable*: `src/L13/S10/` — planned  
-📖 *Documentation*: planned [S10 (MP 2).md](S10 (MP 2).md)
+📖 *Documentation*: planned `docs/sessions/L13/S10 (MP 2).md`
 
 ---
 

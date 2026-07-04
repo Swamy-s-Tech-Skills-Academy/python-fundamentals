@@ -1,35 +1,28 @@
-# Cline Core Context
+# agentic-core-context — Cline
 
-**Repository:** `python-fundamentals-in-practice`
+**Repository:** `python-fundamentals`
 
-## Purpose
+Educational Python fundamentals curriculum (L1–L18 roadmap; formal practice code L1–L2 today).
 
-Beginner-focused **Python fundamentals** curriculum with session documentation, runnable practice scripts, and governance files for multiple coding assistants.
+**Python-only boundary:** not for AWS, cloud, Bedrock, or other non-Python courses. Meetup tables live under `docs/meetup/L{level}/`. Transform `source-material/` intake only — never copy verbatim.
 
-**Python-only boundary:** this repo is not for AWS, cloud, Bedrock, or other non-Python courses. Meetup content here is `docs/meetup/L1/` only. Ignore or skip non-Python files in `source-material/`.
-
-| Area | Canonical path | Notes |
+| Layer | Path | Role |
 | --- | --- | --- |
-| Structure | `docs/02_RepositoryStructure.md` | Single source of truth for paths and inventory |
-| Session docs | `docs/sessions/L1/` | Level 1 sessions and plan |
-| Practice code | `src/L1/S*/` | Python 3.13+ beginner scripts |
-| Meetup status | `docs/meetup/L1/sessions.md` | Guard for completed vs planned content placement |
-| Tooling | `tools/psscripts/` | Docs lint/link helper scripts |
+| Structure | `docs/RepositoryStructure.md` | Paths, inventory, status |
+| Agent entry | `AGENTS.md` | Policies, ReAct/CoT, CI checklist |
+| Rules | `.cursor/rules/*.mdc` | Canonical modular rules |
+| Skills | `.cursor/skills/python-fundamentals-curriculum/` | Curriculum editing skill |
+| Tooling | `scripts/` | Docs lint/link helpers |
+| Tests | `tests/` | pytest smoke + mini-project behavior |
 
-## Governance Map
-
-- Root `AGENTS.md`: full policy and agent entry.
-- Root `CLAUDE.md` and `.claude/CLAUDE.md`: Claude-oriented brief and pointer.
-- `.cursor/rules/*.mdc`: canonical modular rules.
-- `.github/copilot-instructions.md`: Copilot alignment.
-- `skills.md`: skill and assistant-layer index.
-- `.clinerules/` and `.opencode/`: tool-specific mirrors and workflow notes.
-
-## Quality Commands
+## Local checks (formal curriculum)
 
 ```powershell
-./tools/psscripts/docs-lint.ps1
-./tools/psscripts/docs-links.ps1
-ruff check src
-python -m compileall -q src
+ruff check src/L1 src/L2
+python -m compileall -q src/L1 src/L2
+pytest -q
+./scripts/docs-lint.ps1
+./scripts/docs-links.ps1
 ```
+
+Canonical policy wins over this mirror if anything conflicts.

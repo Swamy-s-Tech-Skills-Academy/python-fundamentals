@@ -154,7 +154,7 @@ def render_level(data: dict) -> str:
 {body}
 
 🧪 *Practice / deliverable*: {practice}  
-📖 *Documentation*: planned [{doc.split('/')[-1]}]({doc.split('/')[-1]}){feeds_line}
+📖 *Documentation*: planned `{doc}`{feeds_line}
 
 ---"""
 
@@ -407,7 +407,7 @@ add({
             "Basic `class` syntax and creating instances",
             "Difference between a class and an object",
         ]},
-        {"num": 3, "title": "__init__, Attributes & Basic Encapsulation", "bullets": [
+        {"num": 3, "title": "`__init__`, Attributes & Basic Encapsulation", "bullets": [
             "Using `__init__` to set up object state",
             "Meaningful instance attributes and intro-level encapsulation",
         ]},
@@ -429,7 +429,7 @@ add({
         {"num": 7, "title": "Collections of Objects", "bullets": [
             "Lists of objects; loop, filter, and update collections",
         ]},
-        {"num": 8, "title": "User-Friendly Objects with __str__ / __repr__", "bullets": [
+        {"num": 8, "title": "User-Friendly Objects with `__str__` / `__repr__`", "bullets": [
             "Readable `__str__`; lightweight `__repr__` for debugging",
         ]},
         {"num": 9, "title": "Refactoring Scripts into Classes", "bullets": [

@@ -1,16 +1,13 @@
-# OpenCode Skills
+# OpenCode skills — pointer
 
-OpenCode-facing skill bundles for this **Python fundamentals** curriculum repository. Canonical skill guidance lives in `.cursor/skills/python-fundamentals-curriculum/SKILL.md` and `skills.md`.
+**Canonical skill:** `.cursor/skills/python-fundamentals-curriculum/SKILL.md`
 
-**Python-only:** not for AWS, cloud, Bedrock, or other non-Python tracks.
-
-| Skill | Purpose |
+| Folder / skill | Purpose |
 | --- | --- |
-| `agentic-engineering` | Legacy folder retained; now Python curriculum context |
-| `demo-companions` | Legacy folder retained; now session docs/practice parity |
-| `ci-checks` | Local docs and Python checks |
-| `docs-verification` | Docs structure, links, and originality checks |
-| `workspace-review` | Full audit checklist |
-| `e2e-testing` | Legacy folder retained; now practice-script smoke checks |
+| `ci-checks/` | Local CI runner aligned with `AGENTS.md` |
+| `docs-verification/` | Markdown, links, structure alignment |
+| `workspace-review/` | Full-repo audit checklist |
+| `demo-companions/` | Legacy folder name; content = **curriculum-practice-parity** |
+| `agentic-engineering/` | ReAct/CoT pointers for this repo |
 
-This repo does not maintain `.github/skills/` parity workflows. Keep `.opencode/` aligned with `.cursor/`, `.github/copilot-instructions.md`, root `AGENTS.md`, and `docs/02_RepositoryStructure.md`.
+Keep `.opencode/` aligned with `.cursor/`, root `AGENTS.md`, and `docs/RepositoryStructure.md`.

@@ -1,6 +1,6 @@
 ---
 name: workspace-review
-description: Comprehensive workspace review for Python Fundamentals in Practice - structure, curriculum status, governance mirrors, docs links, and Python practice health.
+description: Comprehensive workspace review for Python Fundamentals - structure, curriculum status, governance mirrors, docs links, and Python practice health.
 ---
 
 # Workspace Review
@@ -9,7 +9,7 @@ Full audit checklist for this repository.
 
 ## 1. Repository structure
 
-- [ ] Current tracked inventory matches `docs/02_RepositoryStructure.md`.
+- [ ] Current tracked inventory matches `docs/RepositoryStructure.md`.
 - [ ] Session docs use `docs/sessions/L{level}/S{session}.md`.
 - [ ] Practice files use `src/L{level}/S{session}/`.
 - [ ] No stale app-stack, demo-roadmap, notebook, or week-bundle conventions remain in agent docs.

@@ -49,7 +49,7 @@ sessions:
     delivery: "Pending"
     file: "docs/sessions/L3/S2.md"
   - session: 3
-    topic: "__init__, Attributes & Basic Encapsulation"
+    topic: "`__init__`, Attributes & Basic Encapsulation"
     duration: "30 min"
     type: "Knowledge"
     curriculum: "Draft"
@@ -84,7 +84,7 @@ sessions:
     delivery: "Pending"
     file: "docs/sessions/L3/S7.md"
   - session: 8
-    topic: "User-Friendly Objects with __str__ / __repr__"
+    topic: "User-Friendly Objects with `__str__` / `__repr__`"
     duration: "30 min"
     type: "Knowledge"
     curriculum: "Draft"
@@ -129,7 +129,6 @@ sessions:
 | **Delivery** | All sessions pending ([meetup table](../../meetup/L3/sessions.md)) |
 | **Repository** | Scaffolded — `_Plan.md` only; session docs and `src/L3/` pending |
 
-
 📌 *Bridge:* Refactor **L1 Profile Generator** and **L2 Contact Manager** from dict/file scripts into collaborating classes (MP1 target).
 
 ---
@@ -140,12 +139,12 @@ sessions:
 | ----- | ------- | ----- | -------- | ---- | ---------- | -------- |
 | A | 1 | Why OOP? From Scripts to Objects | 30 min | 📚 Knowledge | Draft | Pending |
 | A | 2 | Defining Classes & Creating Objects | 30 min | 📚 Knowledge | Draft | Pending |
-| A | 3 | __init__, Attributes & Basic Encapsulation | 30 min | 📚 Knowledge | Draft | Pending |
+| A | 3 | `__init__`, Attributes & Basic Encapsulation | 30 min | 📚 Knowledge | Draft | Pending |
 | A | 4 | Instance Methods & Working with Object State | 30 min | 📚 Knowledge | Draft | Pending |
 | A | 5 (MP 1) | Mini Project 1: Object-Based Profile Manager *(after Session 4)* | 30–45 min | 🛠️ Project | Draft | Pending |
 | B | 6 | Composing Multiple Objects (Has-a Relationships) | 30 min | 📚 Knowledge | Draft | Pending |
 | B | 7 | Collections of Objects (Lists of Objects) | 30 min | 📚 Knowledge | Draft | Pending |
-| B | 8 | User-Friendly Objects with __str__ / __repr__ | 30 min | 📚 Knowledge | Draft | Pending |
+| B | 8 | User-Friendly Objects with `__str__` / `__repr__` | 30 min | 📚 Knowledge | Draft | Pending |
 | B | 9 | Refactoring Scripts into Classes (OOP in Practice) | 30 min | 📚 Knowledge | Draft | Pending |
 | B | 10 (MP 2) | Mini Project 2: Object-Oriented Task / Inventory App *(after Session 9)* | 30–45 min | 🛠️ Project | Draft | Pending |
 
@@ -197,7 +196,7 @@ flowchart TB
 * When OOP helps and when a plain function is enough
 
 🧪 *Practice / deliverable*: `src/L3/S1/` — planned  
-📖 *Documentation*: planned [S1.md](S1.md)
+📖 *Documentation*: planned `docs/sessions/L3/S1.md`
 
 📌 *Feeds into MP1: choosing real-world things to model as objects*
 
@@ -209,17 +208,17 @@ flowchart TB
 * Difference between a class and an object
 
 🧪 *Practice / deliverable*: `src/L3/S2/` — planned  
-📖 *Documentation*: planned [S2.md](S2.md)
+📖 *Documentation*: planned `docs/sessions/L3/S2.md`
 
 ---
 
-### ✅ Session 3: __init__, Attributes & Basic Encapsulation *(Draft · delivery: Pending)*
+### ✅ Session 3: `__init__`, Attributes & Basic Encapsulation *(Draft · delivery: Pending)*
 
 * Using `__init__` to set up object state
 * Meaningful instance attributes and intro-level encapsulation
 
 🧪 *Practice / deliverable*: `src/L3/S3/` — planned  
-📖 *Documentation*: planned [S3.md](S3.md)
+📖 *Documentation*: planned `docs/sessions/L3/S3.md`
 
 ---
 
@@ -229,7 +228,7 @@ flowchart TB
 * Avoiding global data everywhere
 
 🧪 *Practice / deliverable*: `src/L3/S4/` — planned  
-📖 *Documentation*: planned [S4.md](S4.md)
+📖 *Documentation*: planned `docs/sessions/L3/S4.md`
 
 ---
 
@@ -240,7 +239,7 @@ flowchart TB
 * Refactor L1/L2 profile/contact ideas into classes
 
 🧪 *Practice / deliverable*: `src/L3/S5/` — planned  
-📖 *Documentation*: planned [S5 (MP 1).md](S5 (MP 1).md)
+📖 *Documentation*: planned `docs/sessions/L3/S5 (MP 1).md`
 
 📌 *Bridge from L1 Profile Generator and L2 Contact Manager*
 
@@ -254,7 +253,7 @@ flowchart TB
 * What belongs inside another object vs stays separate
 
 🧪 *Practice / deliverable*: `src/L3/S6/` — planned  
-📖 *Documentation*: planned [S6.md](S6.md)
+📖 *Documentation*: planned `docs/sessions/L3/S6.md`
 
 ---
 
@@ -263,16 +262,16 @@ flowchart TB
 * Lists of objects; loop, filter, and update collections
 
 🧪 *Practice / deliverable*: `src/L3/S7/` — planned  
-📖 *Documentation*: planned [S7.md](S7.md)
+📖 *Documentation*: planned `docs/sessions/L3/S7.md`
 
 ---
 
-### ✅ Session 8: User-Friendly Objects with __str__ / __repr__ *(Draft · delivery: Pending)*
+### ✅ Session 8: User-Friendly Objects with `__str__` / `__repr__` *(Draft · delivery: Pending)*
 
 * Readable `__str__`; lightweight `__repr__` for debugging
 
 🧪 *Practice / deliverable*: `src/L3/S8/` — planned  
-📖 *Documentation*: planned [S8.md](S8.md)
+📖 *Documentation*: planned `docs/sessions/L3/S8.md`
 
 ---
 
@@ -282,7 +281,7 @@ flowchart TB
 * Stop before over-designing
 
 🧪 *Practice / deliverable*: `src/L3/S9/` — planned  
-📖 *Documentation*: planned [S9.md](S9.md)
+📖 *Documentation*: planned `docs/sessions/L3/S9.md`
 
 ---
 
@@ -292,7 +291,7 @@ flowchart TB
 * Add, update, display, and remove entries via object behavior
 
 🧪 *Practice / deliverable*: `src/L3/S10/` — planned  
-📖 *Documentation*: planned [S10 (MP 2).md](S10 (MP 2).md)
+📖 *Documentation*: planned `docs/sessions/L3/S10 (MP 2).md`
 
 ---
 

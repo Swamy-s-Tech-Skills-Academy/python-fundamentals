@@ -121,7 +121,6 @@ sessions:
 | **Delivery** | Not started (meetup schedule TBD) |
 | **Repository** | Planned — `_Plan.md` scaffold; session docs and practice code pending |
 
-
 📌 *Bridge:* Integrates data layers from Levels 6, 13, and 14.
 
 ---
@@ -187,7 +186,7 @@ flowchart TB
 * Core concepts for From Scripts to Services: HTTP, REST & Resource Modeling Basics (see master plan).
 
 🧪 *Practice / deliverable*: `src/L16/S1/` — planned  
-📖 *Documentation*: planned [S1.md](S1.md)
+📖 *Documentation*: planned `docs/sessions/L16/S1.md`
 
 ---
 
@@ -196,7 +195,7 @@ flowchart TB
 * Core concepts for Designing API Endpoints & Request/Response Schemas (JSON Contracts) (see master plan).
 
 🧪 *Practice / deliverable*: `src/L16/S2/` — planned  
-📖 *Documentation*: planned [S2.md](S2.md)
+📖 *Documentation*: planned `docs/sessions/L16/S2.md`
 
 ---
 
@@ -205,7 +204,7 @@ flowchart TB
 * Core concepts for Implementing a Simple CRUD API with a Python Web Framework (see master plan).
 
 🧪 *Practice / deliverable*: `src/L16/S3/` — planned  
-📖 *Documentation*: planned [S3.md](S3.md)
+📖 *Documentation*: planned `docs/sessions/L16/S3.md`
 
 ---
 
@@ -214,7 +213,7 @@ flowchart TB
 * Core concepts for Hooking the API to the Data Layer (DB Repositories + Basic Validation) (see master plan).
 
 🧪 *Practice / deliverable*: `src/L16/S4/` — planned  
-📖 *Documentation*: planned [S4.md](S4.md)
+📖 *Documentation*: planned `docs/sessions/L16/S4.md`
 
 ---
 
@@ -223,7 +222,7 @@ flowchart TB
 * Deliverable aligned to Mini Project 1: CRUD Microservice for an Existing Domain (Tasks/Contacts/etc.) (see master plan).
 
 🧪 *Practice / deliverable*: `src/L16/S5/` — planned  
-📖 *Documentation*: planned [S5 (MP 1).md](S5 (MP 1).md)
+📖 *Documentation*: planned `docs/sessions/L16/S5 (MP 1).md`
 
 ---
 
@@ -234,7 +233,7 @@ flowchart TB
 * Core concepts for Service Structure: Routers/Controllers, Services & Repositories (see master plan).
 
 🧪 *Practice / deliverable*: `src/L16/S6/` — planned  
-📖 *Documentation*: planned [S6.md](S6.md)
+📖 *Documentation*: planned `docs/sessions/L16/S6.md`
 
 ---
 
@@ -243,7 +242,7 @@ flowchart TB
 * Core concepts for Basic Security & Guardrails: Simple Auth, Input Validation & Error Handling (see master plan).
 
 🧪 *Practice / deliverable*: `src/L16/S7/` — planned  
-📖 *Documentation*: planned [S7.md](S7.md)
+📖 *Documentation*: planned `docs/sessions/L16/S7.md`
 
 ---
 
@@ -252,7 +251,7 @@ flowchart TB
 * Core concepts for Testing the Service: Unit Tests for Logic, Functional Tests for Endpoints (see master plan).
 
 🧪 *Practice / deliverable*: `src/L16/S8/` — planned  
-📖 *Documentation*: planned [S8.md](S8.md)
+📖 *Documentation*: planned `docs/sessions/L16/S8.md`
 
 ---
 
@@ -261,7 +260,7 @@ flowchart TB
 * Core concepts for Running the Service Locally: Environments, Config & Simple Documentation (see master plan).
 
 🧪 *Practice / deliverable*: `src/L16/S9/` — planned  
-📖 *Documentation*: planned [S9.md](S9.md)
+📖 *Documentation*: planned `docs/sessions/L16/S9.md`
 
 ---
 
@@ -270,7 +269,7 @@ flowchart TB
 * Deliverable aligned to Mini Project 2: End-to-End Service with DB, Tests & API Documentation (see master plan).
 
 🧪 *Practice / deliverable*: `src/L16/S10/` — planned  
-📖 *Documentation*: planned [S10 (MP 2).md](S10 (MP 2).md)
+📖 *Documentation*: planned `docs/sessions/L16/S10 (MP 2).md`
 
 ---
 

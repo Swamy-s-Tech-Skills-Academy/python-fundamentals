@@ -1,5 +1,5 @@
-# Workspace Review (Cline Workflow)
+# Workflow: full workspace review
 
-Follow `.clinerules/skills/workspace-review.md`, root `AGENTS.md`, `skills.md`, and `docs/02_RepositoryStructure.md`.
+Follow `.clinerules/skills/workspace-review.md`, root `AGENTS.md`, `skills.md`, and `docs/RepositoryStructure.md`.
 
-Tags: `workspace-review`, `governance`, `curriculum`
+Use when Swamy requests a deep audit: rules parity, source-material migration status, path correctness, and CI alignment.

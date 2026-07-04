@@ -184,7 +184,7 @@ flowchart TB
 * Core concepts for Third-Party Libraries 101: pip, venvs & Choosing Dependencies (see master plan).
 
 🧪 *Practice / deliverable*: `src/L11/S1/` — planned  
-📖 *Documentation*: planned [S1.md](S1.md)
+📖 *Documentation*: planned `docs/sessions/L11/S1.md`
 
 ---
 
@@ -193,7 +193,7 @@ flowchart TB
 * Core concepts for HTTP & JSON APIs with requests (GET + Params + JSON) (see master plan).
 
 🧪 *Practice / deliverable*: `src/L11/S2/` — planned  
-📖 *Documentation*: planned [S2.md](S2.md)
+📖 *Documentation*: planned `docs/sessions/L11/S2.md`
 
 ---
 
@@ -202,7 +202,7 @@ flowchart TB
 * Core concepts for Working with Excel & Tabular Data using openpyxl (see master plan).
 
 🧪 *Practice / deliverable*: `src/L11/S3/` — planned  
-📖 *Documentation*: planned [S3.md](S3.md)
+📖 *Documentation*: planned `docs/sessions/L11/S3.md`
 
 ---
 
@@ -211,7 +211,7 @@ flowchart TB
 * Core concepts for Configuration & Secrets: .env, configparser, Basic Validation (see master plan).
 
 🧪 *Practice / deliverable*: `src/L11/S4/` — planned  
-📖 *Documentation*: planned [S4.md](S4.md)
+📖 *Documentation*: planned `docs/sessions/L11/S4.md`
 
 ---
 
@@ -220,7 +220,7 @@ flowchart TB
 * Deliverable aligned to Mini Project 1: API-to-Excel Reporter CLI (see master plan).
 
 🧪 *Practice / deliverable*: `src/L11/S5/` — planned  
-📖 *Documentation*: planned [S5 (MP 1).md](S5 (MP 1).md)
+📖 *Documentation*: planned `docs/sessions/L11/S5 (MP 1).md`
 
 ---
 
@@ -231,7 +231,7 @@ flowchart TB
 * Core concepts for Building Polished CLIs with click (see master plan).
 
 🧪 *Practice / deliverable*: `src/L11/S6/` — planned  
-📖 *Documentation*: planned [S6.md](S6.md)
+📖 *Documentation*: planned `docs/sessions/L11/S6.md`
 
 ---
 
@@ -240,7 +240,7 @@ flowchart TB
 * Core concepts for Better Terminal UX with rich and Progress with tqdm (see master plan).
 
 🧪 *Practice / deliverable*: `src/L11/S7/` — planned  
-📖 *Documentation*: planned [S7.md](S7.md)
+📖 *Documentation*: planned `docs/sessions/L11/S7.md`
 
 ---
 
@@ -249,7 +249,7 @@ flowchart TB
 * Core concepts for Everyday Testing with pytest (Basics & Parametrized Tests) (see master plan).
 
 🧪 *Practice / deliverable*: `src/L11/S8/` — planned  
-📖 *Documentation*: planned [S8.md](S8.md)
+📖 *Documentation*: planned `docs/sessions/L11/S8.md`
 
 ---
 
@@ -258,7 +258,7 @@ flowchart TB
 * Core concepts for Formatting & Linting in Practice (black, isort, flake8 Intro) (see master plan).
 
 🧪 *Practice / deliverable*: `src/L11/S9/` — planned  
-📖 *Documentation*: planned [S9.md](S9.md)
+📖 *Documentation*: planned `docs/sessions/L11/S9.md`
 
 ---
 
@@ -267,7 +267,7 @@ flowchart TB
 * Deliverable aligned to Mini Project 2: Fully Tooled CLI App in a Clean Repo (see master plan).
 
 🧪 *Practice / deliverable*: `src/L11/S10/` — planned  
-📖 *Documentation*: planned [S10 (MP 2).md](S10 (MP 2).md)
+📖 *Documentation*: planned `docs/sessions/L11/S10 (MP 2).md`
 
 ---
 

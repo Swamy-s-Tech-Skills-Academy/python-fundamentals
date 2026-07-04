@@ -125,7 +125,7 @@ Do not mix “complete,” “ready,” and “delivered.” Track separately:
 | 17 | Service Builder → Systems Crafter | Part 3 | Draft | Not started | Scaffolded |
 | 18 | Systems Crafter → Curious Professional | Part 3 | Draft | Not started | Scaffolded |
 
-**Level plan links:** [L1](sessions/L1/_Plan.md) · [L2](sessions/L2/_Plan.md) · [L3](sessions/L3/_Plan.md) · L4–L18 `_Plan.md` scaffolds under `docs/sessions/`
+**Level plan links:** [L1](sessions/L1/_Plan.md) · [L2](sessions/L2/_Plan.md) · [L3](sessions/L3/_Plan.md) · [L4](sessions/L4/_Plan.md) · [L5](sessions/L5/_Plan.md) · [L6](sessions/L6/_Plan.md) · [L7](sessions/L7/_Plan.md) · [L8](sessions/L8/_Plan.md) · [L9](sessions/L9/_Plan.md) · [L10](sessions/L10/_Plan.md) · [L11](sessions/L11/_Plan.md) · [L12](sessions/L12/_Plan.md) · [L13](sessions/L13/_Plan.md) · [L14](sessions/L14/_Plan.md) · [L15](sessions/L15/_Plan.md) · [L16](sessions/L16/_Plan.md) · [L17](sessions/L17/_Plan.md) · [L18](sessions/L18/_Plan.md)
 
 ---
 

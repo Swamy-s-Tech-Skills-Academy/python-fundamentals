@@ -121,7 +121,6 @@ sessions:
 | **Delivery** | Not started (meetup schedule TBD) |
 | **Repository** | Planned — `_Plan.md` scaffold; session docs and practice code pending |
 
-
 📌 *Bridge:* **Program capstone:** succeed with ONE end-to-end scenario; stretch goals only after the core works.
 
 ---
@@ -187,7 +186,7 @@ flowchart TB
 * Core concepts for Choosing & Scoping Your Capstone (Domain, Users, Success Criteria) (see master plan).
 
 🧪 *Practice / deliverable*: `src/L18/S1/` — planned  
-📖 *Documentation*: planned [S1.md](S1.md)
+📖 *Documentation*: planned `docs/sessions/L18/S1.md`
 
 ---
 
@@ -196,7 +195,7 @@ flowchart TB
 * Core concepts for Writing a Lightweight Design Doc (Architecture, Data, Interfaces) (see master plan).
 
 🧪 *Practice / deliverable*: `src/L18/S2/` — planned  
-📖 *Documentation*: planned [S2.md](S2.md)
+📖 *Documentation*: planned `docs/sessions/L18/S2.md`
 
 ---
 
@@ -205,7 +204,7 @@ flowchart TB
 * Core concepts for Integrating Building Blocks: DB, Caching, Messaging & HTTP APIs (see master plan).
 
 🧪 *Practice / deliverable*: `src/L18/S3/` — planned  
-📖 *Documentation*: planned [S3.md](S3.md)
+📖 *Documentation*: planned `docs/sessions/L18/S3.md`
 
 ---
 
@@ -214,7 +213,7 @@ flowchart TB
 * Core concepts for Capstone Implementation Sprint 1 (Core Functionality) (see master plan).
 
 🧪 *Practice / deliverable*: `src/L18/S4/` — planned  
-📖 *Documentation*: planned [S4.md](S4.md)
+📖 *Documentation*: planned `docs/sessions/L18/S4.md`
 
 ---
 
@@ -223,7 +222,7 @@ flowchart TB
 * Deliverable aligned to Mini Project 1: Capstone MVP (End-to-End Happy Path Working) (see master plan).
 
 🧪 *Practice / deliverable*: `src/L18/S5/` — planned  
-📖 *Documentation*: planned [S5 (MP 1).md](S5 (MP 1).md)
+📖 *Documentation*: planned `docs/sessions/L18/S5 (MP 1).md`
 
 ---
 
@@ -234,7 +233,7 @@ flowchart TB
 * Core concepts for Docs & Developer Experience: README, API Docs & Quickstart (see master plan).
 
 🧪 *Practice / deliverable*: `src/L18/S6/` — planned  
-📖 *Documentation*: planned [S6.md](S6.md)
+📖 *Documentation*: planned `docs/sessions/L18/S6.md`
 
 ---
 
@@ -243,7 +242,7 @@ flowchart TB
 * Core concepts for CI/CD Basics: Automated Tests, Linting & Simple Deployment Pipeline (e.g. GitHub Actions) (see master plan).
 
 🧪 *Practice / deliverable*: `src/L18/S7/` — planned  
-📖 *Documentation*: planned [S7.md](S7.md)
+📖 *Documentation*: planned `docs/sessions/L18/S7.md`
 
 ---
 
@@ -252,7 +251,7 @@ flowchart TB
 * Core concepts for Polishing & Refactoring: Code Quality Pass, Logging/Metrics Review, Packaging for Reuse (see master plan).
 
 🧪 *Practice / deliverable*: `src/L18/S8/` — planned  
-📖 *Documentation*: planned [S8.md](S8.md)
+📖 *Documentation*: planned `docs/sessions/L18/S8.md`
 
 ---
 
@@ -261,7 +260,7 @@ flowchart TB
 * Core concepts for Storytelling & Next Steps: Writing a Portfolio Case Study & Future Learning Roadmap (see master plan).
 
 🧪 *Practice / deliverable*: `src/L18/S9/` — planned  
-📖 *Documentation*: planned [S9.md](S9.md)
+📖 *Documentation*: planned `docs/sessions/L18/S9.md`
 
 ---
 
@@ -270,7 +269,7 @@ flowchart TB
 * Deliverable aligned to Mini Project 2: Capstone v1.0 Release (Tagged, Documented & Showcased in Portfolio) (see master plan).
 
 🧪 *Practice / deliverable*: `src/L18/S10/` — planned  
-📖 *Documentation*: planned [S10 (MP 2).md](S10 (MP 2).md)
+📖 *Documentation*: planned `docs/sessions/L18/S10 (MP 2).md`
 
 ---
 

@@ -121,7 +121,6 @@ sessions:
 | **Delivery** | Not started (meetup schedule TBD) |
 | **Repository** | Planned — `_Plan.md` scaffold; session docs and practice code pending |
 
-
 📌 *Bridge:* **Stage 2 portfolio checkpoint:** MP2 installable package showcases Levels 1–12 skills.
 
 ---
@@ -187,7 +186,7 @@ flowchart TB
 * Core concepts for When to Reach for Advanced Features (Trade-offs & Pitfalls) (see master plan).
 
 🧪 *Practice / deliverable*: `src/L12/S1/` — planned  
-📖 *Documentation*: planned [S1.md](S1.md)
+📖 *Documentation*: planned `docs/sessions/L12/S1.md`
 
 ---
 
@@ -196,7 +195,7 @@ flowchart TB
 * Core concepts for Generators, Iterators & Lazy Evaluation (Beyond for Loops) (see master plan).
 
 🧪 *Practice / deliverable*: `src/L12/S2/` — planned  
-📖 *Documentation*: planned [S2.md](S2.md)
+📖 *Documentation*: planned `docs/sessions/L12/S2.md`
 
 ---
 
@@ -205,7 +204,7 @@ flowchart TB
 * Core concepts for Concurrency Basics: threading vs multiprocessing (see master plan).
 
 🧪 *Practice / deliverable*: `src/L12/S3/` — planned  
-📖 *Documentation*: planned [S3.md](S3.md)
+📖 *Documentation*: planned `docs/sessions/L12/S3.md`
 
 ---
 
@@ -214,7 +213,7 @@ flowchart TB
 * Core concepts for Asyncio Intro: async/await and Event Loops (Conceptual) (see master plan).
 
 🧪 *Practice / deliverable*: `src/L12/S4/` — planned  
-📖 *Documentation*: planned [S4.md](S4.md)
+📖 *Documentation*: planned `docs/sessions/L12/S4.md`
 
 ---
 
@@ -223,7 +222,7 @@ flowchart TB
 * Deliverable aligned to Mini Project 1: Simple Concurrent / Async Fetcher or Worker (see master plan).
 
 🧪 *Practice / deliverable*: `src/L12/S5/` — planned  
-📖 *Documentation*: planned [S5 (MP 1).md](S5 (MP 1).md)
+📖 *Documentation*: planned `docs/sessions/L12/S5 (MP 1).md`
 
 ---
 
@@ -234,7 +233,7 @@ flowchart TB
 * Core concepts for Measuring Performance with timeit and cProfile (see master plan).
 
 🧪 *Practice / deliverable*: `src/L12/S6/` — planned  
-📖 *Documentation*: planned [S6.md](S6.md)
+📖 *Documentation*: planned `docs/sessions/L12/S6.md`
 
 ---
 
@@ -243,7 +242,7 @@ flowchart TB
 * Core concepts for Practical Optimization: Hot Spots, Caching & Small Refactors (see master plan).
 
 🧪 *Practice / deliverable*: `src/L12/S7/` — planned  
-📖 *Documentation*: planned [S7.md](S7.md)
+📖 *Documentation*: planned `docs/sessions/L12/S7.md`
 
 ---
 
@@ -252,7 +251,7 @@ flowchart TB
 * Core concepts for Packaging & Distribution: pyproject.toml, Wheels & venv Basics (see master plan).
 
 🧪 *Practice / deliverable*: `src/L12/S8/` — planned  
-📖 *Documentation*: planned [S8.md](S8.md)
+📖 *Documentation*: planned `docs/sessions/L12/S8.md`
 
 ---
 
@@ -261,7 +260,7 @@ flowchart TB
 * Core concepts for Sharing Your Work: Publishing, Docs, and Next-Step Roadmaps (see master plan).
 
 🧪 *Practice / deliverable*: `src/L12/S9/` — planned  
-📖 *Documentation*: planned [S9.md](S9.md)
+📖 *Documentation*: planned `docs/sessions/L12/S9.md`
 
 ---
 
@@ -270,7 +269,7 @@ flowchart TB
 * Deliverable aligned to Mini Project 2: Installable Capstone Package / CLI Tool (see master plan).
 
 🧪 *Practice / deliverable*: `src/L12/S10/` — planned  
-📖 *Documentation*: planned [S10 (MP 2).md](S10 (MP 2).md)
+📖 *Documentation*: planned `docs/sessions/L12/S10 (MP 2).md`
 
 ---
 

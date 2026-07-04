@@ -122,7 +122,6 @@ sessions:
 | **Delivery** | All sessions pending ([meetup table](../../meetup/L6/sessions.md)) |
 | **Repository** | Planned — `_Plan.md` scaffold; session docs and practice code pending |
 
-
 📌 *Bridge:* Migrate a Level 5 file-based app to SQLite in later sessions.
 
 ---
@@ -188,7 +187,7 @@ flowchart TB
 * Core concepts for Why Databases? From Files to Tables (see master plan).
 
 🧪 *Practice / deliverable*: `src/L6/S1/` — planned  
-📖 *Documentation*: planned [S1.md](S1.md)
+📖 *Documentation*: planned `docs/sessions/L6/S1.md`
 
 ---
 
@@ -197,7 +196,7 @@ flowchart TB
 * Core concepts for Tables, Rows & Keys: Designing a Simple Schema (see master plan).
 
 🧪 *Practice / deliverable*: `src/L6/S2/` — planned  
-📖 *Documentation*: planned [S2.md](S2.md)
+📖 *Documentation*: planned `docs/sessions/L6/S2.md`
 
 ---
 
@@ -206,7 +205,7 @@ flowchart TB
 * Core concepts for SQL Basics: SELECT, INSERT, UPDATE, DELETE (see master plan).
 
 🧪 *Practice / deliverable*: `src/L6/S3/` — planned  
-📖 *Documentation*: planned [S3.md](S3.md)
+📖 *Documentation*: planned `docs/sessions/L6/S3.md`
 
 ---
 
@@ -215,7 +214,7 @@ flowchart TB
 * Core concepts for Filtering & Ordering Data (WHERE, ORDER BY, LIMIT) (see master plan).
 
 🧪 *Practice / deliverable*: `src/L6/S4/` — planned  
-📖 *Documentation*: planned [S4.md](S4.md)
+📖 *Documentation*: planned `docs/sessions/L6/S4.md`
 
 ---
 
@@ -224,7 +223,7 @@ flowchart TB
 * Deliverable aligned to Mini Project 1: CLI over a Single-Table SQLite DB (see master plan).
 
 🧪 *Practice / deliverable*: `src/L6/S5/` — planned  
-📖 *Documentation*: planned [S5 (MP 1).md](S5 (MP 1).md)
+📖 *Documentation*: planned `docs/sessions/L6/S5 (MP 1).md`
 
 ---
 
@@ -235,7 +234,7 @@ flowchart TB
 * Core concepts for Connecting Python to SQLite (sqlite3 Fundamentals) (see master plan).
 
 🧪 *Practice / deliverable*: `src/L6/S6/` — planned  
-📖 *Documentation*: planned [S6.md](S6.md)
+📖 *Documentation*: planned `docs/sessions/L6/S6.md`
 
 ---
 
@@ -244,7 +243,7 @@ flowchart TB
 * Core concepts for Parameterized Queries & Avoiding SQL Injection (see master plan).
 
 🧪 *Practice / deliverable*: `src/L6/S7/` — planned  
-📖 *Documentation*: planned [S7.md](S7.md)
+📖 *Documentation*: planned `docs/sessions/L6/S7.md`
 
 ---
 
@@ -253,7 +252,7 @@ flowchart TB
 * Core concepts for Simple Joins & Multi-Table Designs (Intro Only) (see master plan).
 
 🧪 *Practice / deliverable*: `src/L6/S8/` — planned  
-📖 *Documentation*: planned [S8.md](S8.md)
+📖 *Documentation*: planned `docs/sessions/L6/S8.md`
 
 ---
 
@@ -262,7 +261,7 @@ flowchart TB
 * Core concepts for Migrating a File-Based App to SQLite (End-to-End) (see master plan).
 
 🧪 *Practice / deliverable*: `src/L6/S9/` — planned  
-📖 *Documentation*: planned [S9.md](S9.md)
+📖 *Documentation*: planned `docs/sessions/L6/S9.md`
 
 ---
 
@@ -271,7 +270,7 @@ flowchart TB
 * Deliverable aligned to Mini Project 2: SQLite-Backed Record Manager (see master plan).
 
 🧪 *Practice / deliverable*: `src/L6/S10/` — planned  
-📖 *Documentation*: planned [S10 (MP 2).md](S10 (MP 2).md)
+📖 *Documentation*: planned `docs/sessions/L6/S10 (MP 2).md`
 
 ---
 

@@ -34,7 +34,8 @@ Repository agent guidance for automation and code assistants.
 | **Copilot instructions (scoped)** | `.github/instructions/` | File-scoped rules: `python-practice` → `src/**/*.py`; `session-docs` → `docs/sessions/**` |
 | **Contributing (humans + agents)** | `CONTRIBUTING.md` | How to contribute and review |
 | **Governance** | `CODE_OF_CONDUCT.md`, `SECURITY.md` | Community and security policies |
-| **Cline mirror** | `.clinerules/` | Cline-facing entry and subagents; canonical policy remains root/`.cursor` |
+| **Cline mirror** | `.clinerules/` | Cline-facing entry, skills, agents, workflows; canonical policy remains root/`.cursor` |
+| **OpenCode config** | `.opencode/` | OpenCode plugin config plus tool-facing rules, skills, agents, and prompts |
 | **CI (docs)** | `.github/workflows/docs-quality.yml` | Markdown lint + Lychee on doc paths |
 | **CI (Python)** | `.github/workflows/python-quality.yml` | Ruff, compileall, pytest on formal curriculum paths |
 

@@ -122,7 +122,6 @@ sessions:
 | **Delivery** | All sessions pending ([meetup table](../../meetup/L8/sessions.md)) |
 | **Repository** | Planned — `_Plan.md` scaffold; session docs and practice code pending |
 
-
 📌 *Bridge:* **Portfolio checkpoint:** MP2 should be a clone-and-run CLI in a Git repo. Spiral reinforcement of pytest/Git/formatting after L4/L7.
 
 ---
@@ -188,7 +187,7 @@ flowchart TB
 * Core concepts for Practical KISS/DRY/YAGNI on Real Code (see master plan).
 
 🧪 *Practice / deliverable*: `src/L8/S1/` — planned  
-📖 *Documentation*: planned [S1.md](S1.md)
+📖 *Documentation*: planned `docs/sessions/L8/S1.md`
 
 ---
 
@@ -197,7 +196,7 @@ flowchart TB
 * Core concepts for Building User-Friendly CLIs (argparse / click Intro) (see master plan).
 
 🧪 *Practice / deliverable*: `src/L8/S2/` — planned  
-📖 *Documentation*: planned [S2.md](S2.md)
+📖 *Documentation*: planned `docs/sessions/L8/S2.md`
 
 ---
 
@@ -206,7 +205,7 @@ flowchart TB
 * Core concepts for Structuring Projects: Folders, Modules, and Entry Points (see master plan).
 
 🧪 *Practice / deliverable*: `src/L8/S3/` — planned  
-📖 *Documentation*: planned [S3.md](S3.md)
+📖 *Documentation*: planned `docs/sessions/L8/S3.md`
 
 ---
 
@@ -215,7 +214,7 @@ flowchart TB
 * Core concepts for Git Basics: Commits, Branches, and Clean Histories (see master plan).
 
 🧪 *Practice / deliverable*: `src/L8/S4/` — planned  
-📖 *Documentation*: planned [S4.md](S4.md)
+📖 *Documentation*: planned `docs/sessions/L8/S4.md`
 
 ---
 
@@ -224,7 +223,7 @@ flowchart TB
 * Deliverable aligned to Mini Project 1: CLI Wrapper Around an Existing Project (see master plan).
 
 🧪 *Practice / deliverable*: `src/L8/S5/` — planned  
-📖 *Documentation*: planned [S5 (MP 1).md](S5 (MP 1).md)
+📖 *Documentation*: planned `docs/sessions/L8/S5 (MP 1).md`
 
 ---
 
@@ -235,7 +234,7 @@ flowchart TB
 * Core concepts for Everyday Testing with pytest / unittest (No TDD Dogma) (see master plan).
 
 🧪 *Practice / deliverable*: `src/L8/S6/` — planned  
-📖 *Documentation*: planned [S6.md](S6.md)
+📖 *Documentation*: planned `docs/sessions/L8/S6.md`
 
 ---
 
@@ -244,7 +243,7 @@ flowchart TB
 * Core concepts for AI as Pair Programmer: Prompting for Refactoring & Code Review (see master plan).
 
 🧪 *Practice / deliverable*: `src/L8/S7/` — planned  
-📖 *Documentation*: planned [S7.md](S7.md)
+📖 *Documentation*: planned `docs/sessions/L8/S7.md`
 
 ---
 
@@ -253,7 +252,7 @@ flowchart TB
 * Core concepts for Formatting & Linting (black, isort, flake8 – Concept Intro) (see master plan).
 
 🧪 *Practice / deliverable*: `src/L8/S8/` — planned  
-📖 *Documentation*: planned [S8.md](S8.md)
+📖 *Documentation*: planned `docs/sessions/L8/S8.md`
 
 ---
 
@@ -262,7 +261,7 @@ flowchart TB
 * Core concepts for Polishing a Small Project: From Script to Mini Product (see master plan).
 
 🧪 *Practice / deliverable*: `src/L8/S9/` — planned  
-📖 *Documentation*: planned [S9.md](S9.md)
+📖 *Documentation*: planned `docs/sessions/L8/S9.md`
 
 ---
 
@@ -271,7 +270,7 @@ flowchart TB
 * Deliverable aligned to Mini Project 2: Polished, Tested CLI Tool in Git Repo (see master plan).
 
 🧪 *Practice / deliverable*: `src/L8/S10/` — planned  
-📖 *Documentation*: planned [S10 (MP 2).md](S10 (MP 2).md)
+📖 *Documentation*: planned `docs/sessions/L8/S10 (MP 2).md`
 
 ---
 

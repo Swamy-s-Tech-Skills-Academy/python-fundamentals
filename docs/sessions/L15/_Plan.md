@@ -184,7 +184,7 @@ flowchart TB
 * Core concepts for Messaging & Streaming 101: Queues, Topics & When to Use Them (see master plan).
 
 🧪 *Practice / deliverable*: `src/L15/S1/` — planned  
-📖 *Documentation*: planned [S1.md](S1.md)
+📖 *Documentation*: planned `docs/sessions/L15/S1.md`
 
 ---
 
@@ -193,7 +193,7 @@ flowchart TB
 * Core concepts for RabbitMQ from Python: Producers, Consumers & Acknowledgements (see master plan).
 
 🧪 *Practice / deliverable*: `src/L15/S2/` — planned  
-📖 *Documentation*: planned [S2.md](S2.md)
+📖 *Documentation*: planned `docs/sessions/L15/S2.md`
 
 ---
 
@@ -202,7 +202,7 @@ flowchart TB
 * Core concepts for Kafka from Python: Topics, Partitions & Simple Consumer Groups (see master plan).
 
 🧪 *Practice / deliverable*: `src/L15/S3/` — planned  
-📖 *Documentation*: planned [S3.md](S3.md)
+📖 *Documentation*: planned `docs/sessions/L15/S3.md`
 
 ---
 
@@ -211,7 +211,7 @@ flowchart TB
 * Core concepts for Designing Message-Driven Flows for a Small Application (see master plan).
 
 🧪 *Practice / deliverable*: `src/L15/S4/` — planned  
-📖 *Documentation*: planned [S4.md](S4.md)
+📖 *Documentation*: planned `docs/sessions/L15/S4.md`
 
 ---
 
@@ -220,7 +220,7 @@ flowchart TB
 * Deliverable aligned to Mini Project 1: RabbitMQ-Backed Background Worker for an Existing Feature (see master plan).
 
 🧪 *Practice / deliverable*: `src/L15/S5/` — planned  
-📖 *Documentation*: planned [S5 (MP 1).md](S5 (MP 1).md)
+📖 *Documentation*: planned `docs/sessions/L15/S5 (MP 1).md`
 
 ---
 
@@ -231,7 +231,7 @@ flowchart TB
 * Core concepts for Advanced Unit Testing: Mocks, Fakes & Testing Around Message Boundaries (see master plan).
 
 🧪 *Practice / deliverable*: `src/L15/S6/` — planned  
-📖 *Documentation*: planned [S6.md](S6.md)
+📖 *Documentation*: planned `docs/sessions/L15/S6.md`
 
 ---
 
@@ -240,7 +240,7 @@ flowchart TB
 * Core concepts for Integration Testing with Real Infrastructure (DB + RabbitMQ + Kafka via Containers) (see master plan).
 
 🧪 *Practice / deliverable*: `src/L15/S7/` — planned  
-📖 *Documentation*: planned [S7.md](S7.md)
+📖 *Documentation*: planned `docs/sessions/L15/S7.md`
 
 ---
 
@@ -249,7 +249,7 @@ flowchart TB
 * Core concepts for Contract & Schema Testing for Messages (Payload Validation & Backwards Compatibility) (see master plan).
 
 🧪 *Practice / deliverable*: `src/L15/S8/` — planned  
-📖 *Documentation*: planned [S8.md](S8.md)
+📖 *Documentation*: planned `docs/sessions/L15/S8.md`
 
 ---
 
@@ -258,7 +258,7 @@ flowchart TB
 * Core concepts for End-to-End Scenarios & Debugging Asynchronous Flows (see master plan).
 
 🧪 *Practice / deliverable*: `src/L15/S9/` — planned  
-📖 *Documentation*: planned [S9.md](S9.md)
+📖 *Documentation*: planned `docs/sessions/L15/S9.md`
 
 ---
 
@@ -267,7 +267,7 @@ flowchart TB
 * Deliverable aligned to Mini Project 2: Message-Driven Mini Service with Full Test Suite (see master plan).
 
 🧪 *Practice / deliverable*: `src/L15/S10/` — planned  
-📖 *Documentation*: planned [S10 (MP 2).md](S10 (MP 2).md)
+📖 *Documentation*: planned `docs/sessions/L15/S10 (MP 2).md`
 
 ---
 

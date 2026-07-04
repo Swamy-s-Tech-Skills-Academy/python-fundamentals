@@ -2,6 +2,17 @@
 
 This document provides a detailed overview of the Python Fundamentals repository structure.
 
+## Agent and tool governance (mirrors)
+
+| Layer | Path | Role |
+| --- | --- | --- |
+| **Canonical** | `AGENTS.md`, `.cursor/rules/`, `.cursor/skills/`, `.cursor/agents/` | Policies and curriculum skill |
+| **Cline** | `.clinerules/` | Entry, agents, skills, workflows — must match canonical paths (`docs/RepositoryStructure.md`, `scripts/`) |
+| **OpenCode** | `.opencode/` | Plugin config + same mirrors as Cline |
+| **Copilot** | `.github/copilot-instructions.md`, `.github/prompts/`, `.github/instructions/` | In-IDE alignment |
+
+If a mirror references another repo (`python-fundamentals-in-practice`), `docs/02_RepositoryStructure.md`, or `tools/psscripts/`, treat that as drift and fix the mirror — not this document.
+
 ---
 
 ## 📁 Complete Repository Structure
@@ -70,7 +81,25 @@ python-fundamentals/
 │       │   └── _Plan.md
 │       ├── L8/                 # Level 8 planning scaffold
 │       │   └── _Plan.md
-│       └── L9/                 # Level 9 planning scaffold
+│       ├── L9/                 # Level 9 planning scaffold
+│       │   └── _Plan.md
+│       ├── L10/                # Level 10 planning scaffold
+│       │   └── _Plan.md
+│       ├── L11/                # Level 11 planning scaffold
+│       │   └── _Plan.md
+│       ├── L12/                # Level 12 planning scaffold
+│       │   └── _Plan.md
+│       ├── L13/                # Level 13 planning scaffold
+│       │   └── _Plan.md
+│       ├── L14/                # Level 14 planning scaffold
+│       │   └── _Plan.md
+│       ├── L15/                # Level 15 planning scaffold
+│       │   └── _Plan.md
+│       ├── L16/                # Level 16 planning scaffold
+│       │   └── _Plan.md
+│       ├── L17/                # Level 17 planning scaffold
+│       │   └── _Plan.md
+│       └── L18/                # Level 18 planning scaffold (program capstone)
 │           └── _Plan.md
 ├── 💻 src/
 │   ├── L1/
@@ -214,7 +243,7 @@ Contains all educational documentation:
 
 - **`images/`**: Educational images organized by session folders (see `docs/images/README.md` for required S1 assets)
 - **`meetup/`**: Meetup planning/status files organized by level (`sessions.md` per level)
-- **`sessions/`**: Session documentation organized by level (currently `L1` and `L2` are complete; `L3`–`L9` contain planning scaffolds)
+- **`sessions/`**: Session documentation organized by level (`L1`–`L2` complete; `L3`–`L18` level plans aligned to master plan; session docs pending)
   - Each level contains:
     - `_Plan.md`: Complete level curriculum plan (underscore sorts first)
     - `S1.md`, `S2.md`, etc.: Session documentation files
@@ -228,7 +257,7 @@ Contains all practice code files:
 - Each level contains session-aligned directories (`S1/`, `S5/`, `S10/`, etc.)
 - Practice files use numeric prefixes: `01_name.py`, `02_name.py`, etc.
 - Python file shapes follow the three approved templates in `docs/PythonFileTemplates.md`
-- Future levels `L3/` through `L9/` currently exist as placeholders for formal practice content.
+- Future levels `L3/` through `L18/` currently exist as `_Plan.md` scaffolds; formal `S{n}.md` and `src/L{n}/` content is pending.
 
 ### `src/Working/`
 
@@ -350,9 +379,16 @@ Cursor configuration:
 | 9 | `S9.md` | Modules Deep Dive | 3 files |
 | 10 | `S10.md` | Mini Project: Contact Manager | 1 file |
 
-### Future Levels
+### Future Levels (L3–L18)
 
-- 🔄 **Level 3-18**: Planned for future development
+Level plans live at `docs/sessions/L{level}/_Plan.md` (three-axis status: Curriculum / Delivery / Repository). Session docs and practice code are **planned**, not yet authored, except where noted in each level plan.
+
+| Level | Plan | Stage |
+| --- | --- | --- |
+| 3 | [L3/_Plan.md](sessions/L3/_Plan.md) | Part 1 — OOP fundamentals |
+| 4–6 | [L4](sessions/L4/_Plan.md) · [L5](sessions/L5/_Plan.md) · [L6](sessions/L6/_Plan.md) | Part 1 — design, data, SQLite |
+| 7–12 | [L7](sessions/L7/_Plan.md) … [L12](sessions/L12/_Plan.md) | Part 2 — professional Python |
+| 13–18 | [L13](sessions/L13/_Plan.md) … [L18](sessions/L18/_Plan.md) | Part 3 — systems engineering |
 
 ---
 
@@ -361,6 +397,9 @@ Cursor configuration:
 - **Main README**: [README.md](../README.md)
 - **Level 1 Plan**: [docs/sessions/L1/_Plan.md](sessions/L1/_Plan.md)
 - **Level 2 Plan**: [docs/sessions/L2/_Plan.md](sessions/L2/_Plan.md)
+- **Level 3 Plan**: [docs/sessions/L3/_Plan.md](sessions/L3/_Plan.md)
+- **Level 18 Plan (capstone)**: [docs/sessions/L18/_Plan.md](sessions/L18/_Plan.md)
+- **Master plan**: [docs/01_Python-Fundamentals-MasterPlan.md](01_Python-Fundamentals-MasterPlan.md)
 - **L1 Session 1**: [docs/sessions/L1/S1.md](sessions/L1/S1.md)
 - **L2 Session 1**: [docs/sessions/L2/S1.md](sessions/L2/S1.md)
 

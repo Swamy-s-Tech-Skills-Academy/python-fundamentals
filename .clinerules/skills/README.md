@@ -1,16 +1,13 @@
-# Cline Skills
+# Cline skills — pointer
 
-Flat Cline-facing skill notes for this **Python fundamentals** curriculum repository. Canonical skill guidance lives in `.cursor/skills/python-fundamentals-curriculum/SKILL.md` and `skills.md`.
+**Canonical skill:** `.cursor/skills/python-fundamentals-curriculum/SKILL.md`
 
-**Python-only:** not for AWS, cloud, Bedrock, or other non-Python tracks.
-
-| File | Skill |
+| Mirror | Purpose |
 | --- | --- |
-| `agentic-engineering.md` | Legacy filename retained; now points to Python curriculum context |
-| `demo-companions.md` | Legacy filename retained; now session docs/practice parity |
-| `ci-checks.md` | Local docs and Python checks |
-| `docs-verification.md` | Documentation structure, links, and originality checks |
-| `workspace-review.md` | Full customization and curriculum audit |
-| `e2e-testing.md` | Legacy filename retained; now practice-script smoke checks |
+| `ci-checks.md` | Local CI runner aligned with `AGENTS.md` |
+| `docs-verification.md` | Markdown, links, structure alignment |
+| `workspace-review.md` | Full-repo audit checklist |
+| `demo-companions.md` | Legacy filename; content = **curriculum-practice-parity** |
+| `agentic-engineering.md` | ReAct/CoT pointers for this repo |
 
-Do not mirror `.github/skills/`; this repository currently keeps its project skill under `.cursor/skills/`.
+Do not treat mirrors as overriding `.cursor/rules/` or root `AGENTS.md`.

@@ -184,7 +184,7 @@ flowchart TB
 * Core concepts for Document Databases 101: Collections, Documents & When to Use Them (see master plan).
 
 🧪 *Practice / deliverable*: `src/L14/S1/` — planned  
-📖 *Documentation*: planned [S1.md](S1.md)
+📖 *Documentation*: planned `docs/sessions/L14/S1.md`
 
 ---
 
@@ -193,7 +193,7 @@ flowchart TB
 * Core concepts for Hands-On with a Mongo-Style Document DB from Python (CRUD & Simple Queries) (see master plan).
 
 🧪 *Practice / deliverable*: `src/L14/S2/` — planned  
-📖 *Documentation*: planned [S2.md](S2.md)
+📖 *Documentation*: planned `docs/sessions/L14/S2.md`
 
 ---
 
@@ -202,7 +202,7 @@ flowchart TB
 * Core concepts for Modeling in a Document DB: Embedding vs Referencing & Basic Aggregations (see master plan).
 
 🧪 *Practice / deliverable*: `src/L14/S3/` — planned  
-📖 *Documentation*: planned [S3.md](S3.md)
+📖 *Documentation*: planned `docs/sessions/L14/S3.md`
 
 ---
 
@@ -211,7 +211,7 @@ flowchart TB
 * Core concepts for Indexes, Query Patterns & Evolving Schemas in Document DBs (see master plan).
 
 🧪 *Practice / deliverable*: `src/L14/S4/` — planned  
-📖 *Documentation*: planned [S4.md](S4.md)
+📖 *Documentation*: planned `docs/sessions/L14/S4.md`
 
 ---
 
@@ -220,7 +220,7 @@ flowchart TB
 * Deliverable aligned to Mini Project 1: Document-Backed Feature for an Existing App (see master plan).
 
 🧪 *Practice / deliverable*: `src/L14/S5/` — planned  
-📖 *Documentation*: planned [S5 (MP 1).md](S5 (MP 1).md)
+📖 *Documentation*: planned `docs/sessions/L14/S5 (MP 1).md`
 
 ---
 
@@ -231,7 +231,7 @@ flowchart TB
 * Core concepts for Redis Fundamentals: Keys, Expiry & Basic Data Structures (see master plan).
 
 🧪 *Practice / deliverable*: `src/L14/S6/` — planned  
-📖 *Documentation*: planned [S6.md](S6.md)
+📖 *Documentation*: planned `docs/sessions/L14/S6.md`
 
 ---
 
@@ -240,7 +240,7 @@ flowchart TB
 * Core concepts for Caching Patterns with Redis: Read-Through, Write-Through & TTL-Based Caches (see master plan).
 
 🧪 *Practice / deliverable*: `src/L14/S7/` — planned  
-📖 *Documentation*: planned [S7.md](S7.md)
+📖 *Documentation*: planned `docs/sessions/L14/S7.md`
 
 ---
 
@@ -249,7 +249,7 @@ flowchart TB
 * Core concepts for Combining Relational + Document DB + Redis in a Small System (see master plan).
 
 🧪 *Practice / deliverable*: `src/L14/S8/` — planned  
-📖 *Documentation*: planned [S8.md](S8.md)
+📖 *Documentation*: planned `docs/sessions/L14/S8.md`
 
 ---
 
@@ -258,7 +258,7 @@ flowchart TB
 * Core concepts for Connection Management, Timeouts & Configuration for Doc DB + Redis (see master plan).
 
 🧪 *Practice / deliverable*: `src/L14/S9/` — planned  
-📖 *Documentation*: planned [S9.md](S9.md)
+📖 *Documentation*: planned `docs/sessions/L14/S9.md`
 
 ---
 
@@ -267,7 +267,7 @@ flowchart TB
 * Deliverable aligned to Mini Project 2: Hybrid Data Stack Demo (RDBMS + Document DB + Redis Cache) (see master plan).
 
 🧪 *Practice / deliverable*: `src/L14/S10/` — planned  
-📖 *Documentation*: planned [S10 (MP 2).md](S10 (MP 2).md)
+📖 *Documentation*: planned `docs/sessions/L14/S10 (MP 2).md`
 
 ---
 

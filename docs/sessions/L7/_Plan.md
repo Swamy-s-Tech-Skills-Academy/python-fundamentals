@@ -122,7 +122,6 @@ sessions:
 | **Delivery** | All sessions pending ([meetup table](../../meetup/L7/sessions.md)) |
 | **Repository** | Planned — `_Plan.md` scaffold; session docs and practice code pending |
 
-
 📌 *Bridge:* Prepares for practitioner tooling spiral in Level 8.
 
 ---
@@ -188,7 +187,7 @@ flowchart TB
 * Core concepts for From Tables to Documents: NoSQL Concepts with JSON (see master plan).
 
 🧪 *Practice / deliverable*: `src/L7/S1/` — planned  
-📖 *Documentation*: planned [S1.md](S1.md)
+📖 *Documentation*: planned `docs/sessions/L7/S1.md`
 
 ---
 
@@ -197,7 +196,7 @@ flowchart TB
 * Core concepts for Using JSON Files as a Simple Document Store (see master plan).
 
 🧪 *Practice / deliverable*: `src/L7/S2/` — planned  
-📖 *Documentation*: planned [S2.md](S2.md)
+📖 *Documentation*: planned `docs/sessions/L7/S2.md`
 
 ---
 
@@ -206,7 +205,7 @@ flowchart TB
 * Core concepts for Modeling Data in Documents (Keys, Collections, Nested Data) (see master plan).
 
 🧪 *Practice / deliverable*: `src/L7/S3/` — planned  
-📖 *Documentation*: planned [S3.md](S3.md)
+📖 *Documentation*: planned `docs/sessions/L7/S3.md`
 
 ---
 
@@ -215,7 +214,7 @@ flowchart TB
 * Core concepts for Query-Like Operations over In-Memory / File-Based Docs (see master plan).
 
 🧪 *Practice / deliverable*: `src/L7/S4/` — planned  
-📖 *Documentation*: planned [S4.md](S4.md)
+📖 *Documentation*: planned `docs/sessions/L7/S4.md`
 
 ---
 
@@ -224,7 +223,7 @@ flowchart TB
 * Deliverable aligned to Mini Project 1: JSON-Backed NoSQL Notes / Profile Store (see master plan).
 
 🧪 *Practice / deliverable*: `src/L7/S5/` — planned  
-📖 *Documentation*: planned [S5 (MP 1).md](S5 (MP 1).md)
+📖 *Documentation*: planned `docs/sessions/L7/S5 (MP 1).md`
 
 ---
 
@@ -235,7 +234,7 @@ flowchart TB
 * Core concepts for HTTP & REST Basics: Requests, Responses, Status Codes (see master plan).
 
 🧪 *Practice / deliverable*: `src/L7/S6/` — planned  
-📖 *Documentation*: planned [S6.md](S6.md)
+📖 *Documentation*: planned `docs/sessions/L7/S6.md`
 
 ---
 
@@ -244,7 +243,7 @@ flowchart TB
 * Core concepts for Consuming JSON APIs with requests (GET + Query Params) (see master plan).
 
 🧪 *Practice / deliverable*: `src/L7/S7/` — planned  
-📖 *Documentation*: planned [S7.md](S7.md)
+📖 *Documentation*: planned `docs/sessions/L7/S7.md`
 
 ---
 
@@ -253,7 +252,7 @@ flowchart TB
 * Core concepts for Handling API Errors, Timeouts & Basic Response Validation (see master plan).
 
 🧪 *Practice / deliverable*: `src/L7/S8/` — planned  
-📖 *Documentation*: planned [S8.md](S8.md)
+📖 *Documentation*: planned `docs/sessions/L7/S8.md`
 
 ---
 
@@ -262,7 +261,7 @@ flowchart TB
 * Core concepts for Combining APIs with Local Storage (Caching Remote Data) (see master plan).
 
 🧪 *Practice / deliverable*: `src/L7/S9/` — planned  
-📖 *Documentation*: planned [S9.md](S9.md)
+📖 *Documentation*: planned `docs/sessions/L7/S9.md`
 
 ---
 
@@ -271,7 +270,7 @@ flowchart TB
 * Deliverable aligned to Mini Project 2: API-Powered App with Local JSON Cache (see master plan).
 
 🧪 *Practice / deliverable*: `src/L7/S10/` — planned  
-📖 *Documentation*: planned [S10 (MP 2).md](S10 (MP 2).md)
+📖 *Documentation*: planned `docs/sessions/L7/S10 (MP 2).md`
 
 ---
 

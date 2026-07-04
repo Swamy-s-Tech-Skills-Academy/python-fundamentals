@@ -1,6 +1,6 @@
 ---
 name: docs-verification
-description: Verify markdown structure, links, file references, originality, and alignment with docs/02_RepositoryStructure.md for Python Fundamentals in Practice.
+description: Verify markdown structure, links, file references, originality, and alignment with docs/RepositoryStructure.md for Python Fundamentals.
 ---
 
 # Docs Verification
@@ -9,7 +9,7 @@ description: Verify markdown structure, links, file references, originality, and
 
 Compare against:
 
-- `docs/02_RepositoryStructure.md`
+- `docs/RepositoryStructure.md`
 - `README.md` quick start and structure section
 - `.cursor/rules/02_repository-structure.mdc`
 - `.cursor/rules/04_markdown-standards.mdc`

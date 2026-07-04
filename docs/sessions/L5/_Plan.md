@@ -122,7 +122,6 @@ sessions:
 | **Delivery** | All sessions pending ([meetup table](../../meetup/L5/sessions.md)) |
 | **Repository** | Planned — `_Plan.md` scaffold; session docs and practice code pending |
 
-
 📌 *Bridge:* Deepen file I/O from L2 S8; build on clean structure habits from L4.
 
 ---
@@ -188,7 +187,7 @@ flowchart TB
 * Core concepts for Reviewing File I/O: Text vs Binary, Paths, Encodings (see master plan).
 
 🧪 *Practice / deliverable*: `src/L5/S1/` — planned  
-📖 *Documentation*: planned [S1.md](S1.md)
+📖 *Documentation*: planned `docs/sessions/L5/S1.md`
 
 ---
 
@@ -197,7 +196,7 @@ flowchart TB
 * Core concepts for CSV Basics: Reading & Writing Tabular Data (see master plan).
 
 🧪 *Practice / deliverable*: `src/L5/S2/` — planned  
-📖 *Documentation*: planned [S2.md](S2.md)
+📖 *Documentation*: planned `docs/sessions/L5/S2.md`
 
 ---
 
@@ -206,7 +205,7 @@ flowchart TB
 * Core concepts for JSON Basics: Nested Structures & Config-Style Data (see master plan).
 
 🧪 *Practice / deliverable*: `src/L5/S3/` — planned  
-📖 *Documentation*: planned [S3.md](S3.md)
+📖 *Documentation*: planned `docs/sessions/L5/S3.md`
 
 ---
 
@@ -215,7 +214,7 @@ flowchart TB
 * Core concepts for From Raw Text to Structured Data (Parsing & Cleaning) (see master plan).
 
 🧪 *Practice / deliverable*: `src/L5/S4/` — planned  
-📖 *Documentation*: planned [S4.md](S4.md)
+📖 *Documentation*: planned `docs/sessions/L5/S4.md`
 
 ---
 
@@ -224,7 +223,7 @@ flowchart TB
 * Deliverable aligned to Mini Project 1: CSV/JSON Data Cleaner & Reporter (see master plan).
 
 🧪 *Practice / deliverable*: `src/L5/S5/` — planned  
-📖 *Documentation*: planned [S5 (MP 1).md](S5 (MP 1).md)
+📖 *Documentation*: planned `docs/sessions/L5/S5 (MP 1).md`
 
 ---
 
@@ -235,7 +234,7 @@ flowchart TB
 * Core concepts for Building Simple Data Pipelines (Read → Transform → Write) (see master plan).
 
 🧪 *Practice / deliverable*: `src/L5/S6/` — planned  
-📖 *Documentation*: planned [S6.md](S6.md)
+📖 *Documentation*: planned `docs/sessions/L5/S6.md`
 
 ---
 
@@ -244,7 +243,7 @@ flowchart TB
 * Core concepts for Basic Serialization & Settings Files (Configs & States) (see master plan).
 
 🧪 *Practice / deliverable*: `src/L5/S7/` — planned  
-📖 *Documentation*: planned [S7.md](S7.md)
+📖 *Documentation*: planned `docs/sessions/L5/S7.md`
 
 ---
 
@@ -253,7 +252,7 @@ flowchart TB
 * Core concepts for Robust File Handling: Errors, Missing Data & Validation (see master plan).
 
 🧪 *Practice / deliverable*: `src/L5/S8/` — planned  
-📖 *Documentation*: planned [S8.md](S8.md)
+📖 *Documentation*: planned `docs/sessions/L5/S8.md`
 
 ---
 
@@ -262,7 +261,7 @@ flowchart TB
 * Core concepts for End-to-End File-Based Mini App (Putting It All Together) (see master plan).
 
 🧪 *Practice / deliverable*: `src/L5/S9/` — planned  
-📖 *Documentation*: planned [S9.md](S9.md)
+📖 *Documentation*: planned `docs/sessions/L5/S9.md`
 
 ---
 
@@ -271,7 +270,7 @@ flowchart TB
 * Deliverable aligned to Mini Project 2: File-Based Data Dashboard / Reporter (see master plan).
 
 🧪 *Practice / deliverable*: `src/L5/S10/` — planned  
-📖 *Documentation*: planned [S10 (MP 2).md](S10 (MP 2).md)
+📖 *Documentation*: planned `docs/sessions/L5/S10 (MP 2).md`
 
 ---
 

@@ -1,6 +1,6 @@
 # Repository Purpose
 
-This repository (`python-fundamentals-in-practice`) is an educational Python fundamentals curriculum for Swamy's Tech Skills Academy.
+This repository (`python-fundamentals`) is an educational Python fundamentals curriculum for Swamy's Tech Skills Academy.
 
 1. **Progressive course material** - levels and sessions build from beginner concepts toward confident Python practice.
 2. **Docs plus runnable practice** - session write-ups live under `docs/sessions/L{level}/`; matching scripts live under `src/L{level}/S{session}/`.

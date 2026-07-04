@@ -121,7 +121,6 @@ sessions:
 | **Delivery** | Not started (meetup schedule TBD) |
 | **Repository** | Planned — `_Plan.md` scaffold; session docs and practice code pending |
 
-
 📌 *Bridge:* Harden the Level 16 service in MP1; compose full stack in MP2.
 
 ---
@@ -187,7 +186,7 @@ flowchart TB
 * Core concepts for Service Hardening 101: Failure Modes, Timeouts & Retries (see master plan).
 
 🧪 *Practice / deliverable*: `src/L17/S1/` — planned  
-📖 *Documentation*: planned [S1.md](S1.md)
+📖 *Documentation*: planned `docs/sessions/L17/S1.md`
 
 ---
 
@@ -196,7 +195,7 @@ flowchart TB
 * Core concepts for Structured Logging & Log Levels for Services (see master plan).
 
 🧪 *Practice / deliverable*: `src/L17/S2/` — planned  
-📖 *Documentation*: planned [S2.md](S2.md)
+📖 *Documentation*: planned `docs/sessions/L17/S2.md`
 
 ---
 
@@ -205,7 +204,7 @@ flowchart TB
 * Core concepts for Configuration Management: Env Vars, Config Files & 12-Factor Basics (see master plan).
 
 🧪 *Practice / deliverable*: `src/L17/S3/` — planned  
-📖 *Documentation*: planned [S3.md](S3.md)
+📖 *Documentation*: planned `docs/sessions/L17/S3.md`
 
 ---
 
@@ -214,7 +213,7 @@ flowchart TB
 * Core concepts for Health Checks & Basic Metrics (Counters, Timers, Gauges) (see master plan).
 
 🧪 *Practice / deliverable*: `src/L17/S4/` — planned  
-📖 *Documentation*: planned [S4.md](S4.md)
+📖 *Documentation*: planned `docs/sessions/L17/S4.md`
 
 ---
 
@@ -223,7 +222,7 @@ flowchart TB
 * Deliverable aligned to Mini Project 1: Harden an Existing Service (Timeouts, Logs, Health Endpoint) (see master plan).
 
 🧪 *Practice / deliverable*: `src/L17/S5/` — planned  
-📖 *Documentation*: planned [S5 (MP 1).md](S5 (MP 1).md)
+📖 *Documentation*: planned `docs/sessions/L17/S5 (MP 1).md`
 
 ---
 
@@ -234,7 +233,7 @@ flowchart TB
 * Core concepts for Docker for Python Services: Writing a Simple, Production-Friendly Dockerfile (see master plan).
 
 🧪 *Practice / deliverable*: `src/L17/S6/` — planned  
-📖 *Documentation*: planned [S6.md](S6.md)
+📖 *Documentation*: planned `docs/sessions/L17/S6.md`
 
 ---
 
@@ -243,7 +242,7 @@ flowchart TB
 * Core concepts for Docker Compose: Running Service + DB/Redis/RabbitMQ Together Locally (see master plan).
 
 🧪 *Practice / deliverable*: `src/L17/S7/` — planned  
-📖 *Documentation*: planned [S7.md](S7.md)
+📖 *Documentation*: planned `docs/sessions/L17/S7.md`
 
 ---
 
@@ -252,7 +251,7 @@ flowchart TB
 * Core concepts for Observability in Containers: Logs, Metrics & Simple Dashboards (see master plan).
 
 🧪 *Practice / deliverable*: `src/L17/S8/` — planned  
-📖 *Documentation*: planned [S8.md](S8.md)
+📖 *Documentation*: planned `docs/sessions/L17/S8.md`
 
 ---
 
@@ -261,7 +260,7 @@ flowchart TB
 * Core concepts for Production-Like Environments: Resource Limits, Readiness & Rollout Basics (see master plan).
 
 🧪 *Practice / deliverable*: `src/L17/S9/` — planned  
-📖 *Documentation*: planned [S9.md](S9.md)
+📖 *Documentation*: planned `docs/sessions/L17/S9.md`
 
 ---
 
@@ -270,7 +269,7 @@ flowchart TB
 * Deliverable aligned to Mini Project 2: Containerized, Observable Mini Stack (Service + Infra) (see master plan).
 
 🧪 *Practice / deliverable*: `src/L17/S10/` — planned  
-📖 *Documentation*: planned [S10 (MP 2).md](S10 (MP 2).md)
+📖 *Documentation*: planned `docs/sessions/L17/S10 (MP 2).md`
 
 ---
 

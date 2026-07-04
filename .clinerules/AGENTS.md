@@ -32,6 +32,7 @@ tests/                src/Working/   (hands-off unless Swamy asks)
 | --- | --- |
 | `agent-ci-verify` | After docs, Python, or governance edits |
 | `session-roadmap-review` | Reviewing session docs, plans, practice-file parity |
+| `python-practice-code` | Creating or changing `src/L1` / `src/L2` practice files |
 | `docs-originality-review` | Checking docs for zero-copy risk |
 
 ## CI Workflows

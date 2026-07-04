@@ -122,7 +122,6 @@ sessions:
 | **Delivery** | All sessions pending ([meetup table](../../meetup/L4/sessions.md)) |
 | **Repository** | Planned — `_Plan.md` scaffold; session docs and practice code pending |
 
-
 📌 *Bridge:* Refactor a Level 2/3 script (data processor or profile manager) in MP1.
 
 ---
@@ -188,7 +187,7 @@ flowchart TB
 * Core concepts for From Requirements to Classes (Thinking in Models) (see master plan).
 
 🧪 *Practice / deliverable*: `src/L4/S1/` — planned  
-📖 *Documentation*: planned [S1.md](S1.md)
+📖 *Documentation*: planned `docs/sessions/L4/S1.md`
 
 ---
 
@@ -197,7 +196,7 @@ flowchart TB
 * Core concepts for Designing Responsibilities & Avoiding God Classes (see master plan).
 
 🧪 *Practice / deliverable*: `src/L4/S2/` — planned  
-📖 *Documentation*: planned [S2.md](S2.md)
+📖 *Documentation*: planned `docs/sessions/L4/S2.md`
 
 ---
 
@@ -206,7 +205,7 @@ flowchart TB
 * Core concepts for Improving Class Interfaces (KISS for Methods & Classes) (see master plan).
 
 🧪 *Practice / deliverable*: `src/L4/S3/` — planned  
-📖 *Documentation*: planned [S3.md](S3.md)
+📖 *Documentation*: planned `docs/sessions/L4/S3.md`
 
 ---
 
@@ -215,7 +214,7 @@ flowchart TB
 * Core concepts for Intro to Refactoring: Making Existing Code Cleaner (see master plan).
 
 🧪 *Practice / deliverable*: `src/L4/S4/` — planned  
-📖 *Documentation*: planned [S4.md](S4.md)
+📖 *Documentation*: planned `docs/sessions/L4/S4.md`
 
 ---
 
@@ -224,7 +223,7 @@ flowchart TB
 * Deliverable aligned to Mini Project 1: Refactor a Script into a Class Design (see master plan).
 
 🧪 *Practice / deliverable*: `src/L4/S5/` — planned  
-📖 *Documentation*: planned [S5 (MP 1).md](S5 (MP 1).md)
+📖 *Documentation*: planned `docs/sessions/L4/S5 (MP 1).md`
 
 ---
 
@@ -235,7 +234,7 @@ flowchart TB
 * Core concepts for Clean Code Principles: KISS, DRY, YAGNI (Applied) (see master plan).
 
 🧪 *Practice / deliverable*: `src/L4/S6/` — planned  
-📖 *Documentation*: planned [S6.md](S6.md)
+📖 *Documentation*: planned `docs/sessions/L4/S6.md`
 
 ---
 
@@ -244,7 +243,7 @@ flowchart TB
 * Core concepts for Reading & Reviewing Code: Finding Smells in OOP Code (see master plan).
 
 🧪 *Practice / deliverable*: `src/L4/S7/` — planned  
-📖 *Documentation*: planned [S7.md](S7.md)
+📖 *Documentation*: planned `docs/sessions/L4/S7.md`
 
 ---
 
@@ -253,7 +252,7 @@ flowchart TB
 * Core concepts for Intro Unit Tests for Classes (Arrange–Act–Assert) (see master plan).
 
 🧪 *Practice / deliverable*: `src/L4/S8/` — planned  
-📖 *Documentation*: planned [S8.md](S8.md)
+📖 *Documentation*: planned `docs/sessions/L4/S8.md`
 
 ---
 
@@ -262,7 +261,7 @@ flowchart TB
 * Core concepts for Organizing a Small OOP Project (Modules & Packages) (see master plan).
 
 🧪 *Practice / deliverable*: `src/L4/S9/` — planned  
-📖 *Documentation*: planned [S9.md](S9.md)
+📖 *Documentation*: planned `docs/sessions/L4/S9.md`
 
 ---
 
@@ -271,7 +270,7 @@ flowchart TB
 * Deliverable aligned to Mini Project 2: Clean, Tested OOP Console Application (see master plan).
 
 🧪 *Practice / deliverable*: `src/L4/S10/` — planned  
-📖 *Documentation*: planned [S10 (MP 2).md](S10 (MP 2).md)
+📖 *Documentation*: planned `docs/sessions/L4/S10 (MP 2).md`
 
 ---
 

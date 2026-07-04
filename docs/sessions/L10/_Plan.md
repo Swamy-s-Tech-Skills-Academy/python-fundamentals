@@ -184,7 +184,7 @@ flowchart TB
 * Core concepts for Filesystem Essentials with os and pathlib (see master plan).
 
 🧪 *Practice / deliverable*: `src/L10/S1/` — planned  
-📖 *Documentation*: planned [S1.md](S1.md)
+📖 *Documentation*: planned `docs/sessions/L10/S1.md`
 
 ---
 
@@ -193,7 +193,7 @@ flowchart TB
 * Core concepts for Dates & Times with datetime and time (see master plan).
 
 🧪 *Practice / deliverable*: `src/L10/S2/` — planned  
-📖 *Documentation*: planned [S2.md](S2.md)
+📖 *Documentation*: planned `docs/sessions/L10/S2.md`
 
 ---
 
@@ -202,7 +202,7 @@ flowchart TB
 * Core concepts for Smart Collections: collections (Counter, defaultdict, etc.) (see master plan).
 
 🧪 *Practice / deliverable*: `src/L10/S3/` — planned  
-📖 *Documentation*: planned [S3.md](S3.md)
+📖 *Documentation*: planned `docs/sessions/L10/S3.md`
 
 ---
 
@@ -211,7 +211,7 @@ flowchart TB
 * Core concepts for Efficient Iteration with itertools (see master plan).
 
 🧪 *Practice / deliverable*: `src/L10/S4/` — planned  
-📖 *Documentation*: planned [S4.md](S4.md)
+📖 *Documentation*: planned `docs/sessions/L10/S4.md`
 
 ---
 
@@ -220,7 +220,7 @@ flowchart TB
 * Deliverable aligned to Mini Project 1: File & Data Utility Powered by Stdlib (see master plan).
 
 🧪 *Practice / deliverable*: `src/L10/S5/` — planned  
-📖 *Documentation*: planned [S5 (MP 1).md](S5 (MP 1).md)
+📖 *Documentation*: planned `docs/sessions/L10/S5 (MP 1).md`
 
 ---
 
@@ -231,7 +231,7 @@ flowchart TB
 * Core concepts for System & Environment Info with sys and platform (see master plan).
 
 🧪 *Practice / deliverable*: `src/L10/S6/` — planned  
-📖 *Documentation*: planned [S6.md](S6.md)
+📖 *Documentation*: planned `docs/sessions/L10/S6.md`
 
 ---
 
@@ -240,7 +240,7 @@ flowchart TB
 * Core concepts for Running Other Programs Safely with subprocess (see master plan).
 
 🧪 *Practice / deliverable*: `src/L10/S7/` — planned  
-📖 *Documentation*: planned [S7.md](S7.md)
+📖 *Documentation*: planned `docs/sessions/L10/S7.md`
 
 ---
 
@@ -249,7 +249,7 @@ flowchart TB
 * Core concepts for Structured Logging with logging (see master plan).
 
 🧪 *Practice / deliverable*: `src/L10/S8/` — planned  
-📖 *Documentation*: planned [S8.md](S8.md)
+📖 *Documentation*: planned `docs/sessions/L10/S8.md`
 
 ---
 
@@ -258,7 +258,7 @@ flowchart TB
 * Core concepts for Text & Pattern Matching with re (Regex Intro) (see master plan).
 
 🧪 *Practice / deliverable*: `src/L10/S9/` — planned  
-📖 *Documentation*: planned [S9.md](S9.md)
+📖 *Documentation*: planned `docs/sessions/L10/S9.md`
 
 ---
 
@@ -267,7 +267,7 @@ flowchart TB
 * Deliverable aligned to Mini Project 2: Stdlib-Powered System / Log Toolkit (see master plan).
 
 🧪 *Practice / deliverable*: `src/L10/S10/` — planned  
-📖 *Documentation*: planned [S10 (MP 2).md](S10 (MP 2).md)
+📖 *Documentation*: planned `docs/sessions/L10/S10 (MP 2).md`
 
 ---
 

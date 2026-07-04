@@ -14,7 +14,8 @@ Machine-readable guidance lives in **`.cursor/`** and the root entry files. [Cur
 | [`.cursor/agents/`](.cursor/agents/) | Custom subagents: session docs, `src/L1`/`src/L2` practice code, doc verification (read-only) |
 | [`.github/copilot-instructions.md`](.github/copilot-instructions.md) | GitHub Copilot alignment with the same curriculum rules |
 | [`CLAUDE.md`](CLAUDE.md) | Short brief for Claude-oriented tools |
-| [`.clinerules/`](.clinerules/) | Cline-facing entry and subagents; canonical policy remains root/`.cursor` |
+| [`.clinerules/`](.clinerules/) | Cline-facing entry, agents, skills, workflows; canonical policy remains root/`.cursor` |
+| [`.opencode/`](.opencode/) | OpenCode plugin config and tool-facing mirrors |
 | [`CONTRIBUTING.md`](CONTRIBUTING.md) | Human and agent contribution expectations |
 | [`docs/RepositoryStructure.md`](docs/RepositoryStructure.md) | Authoritative paths, naming, and current inventory |
 | [`docs/meetup/L1/sessions.md`](docs/meetup/L1/sessions.md) | Session status guard for meetup content placement (completed vs planned) |

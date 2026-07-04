@@ -1,13 +1,14 @@
-# OpenCode - Python Fundamentals in Practice
+# OpenCode — Python Fundamentals
 
-OpenCode plugin config for this repository. Canonical governance sources are root `AGENTS.md`, `docs/02_RepositoryStructure.md`, `.cursor/rules/`, and `.github/copilot-instructions.md`.
+OpenCode plugin config for **`python-fundamentals`**. Canonical governance: root `AGENTS.md`, `docs/RepositoryStructure.md`, `.cursor/rules/`, and `.github/copilot-instructions.md`.
 
-**Python-only:** this repo is the **Python Fundamentals in Practice** curriculum — not AWS, cloud, Bedrock, or other non-Python tracks.
+**Python-only:** session docs (`docs/sessions/`), practice code (`src/L1`, `src/L2`), meetup summaries (`docs/meetup/`). Not AWS, cloud, Bedrock, or other non-Python tracks.
 
 ## Layout
 
 ```text
-docs/sessions/L1/     src/L1/S*/     tools/psscripts/
+docs/sessions/L1/     src/L1/S*/     src/L2/S*/     scripts/
+tests/                docs/meetup/   .cursor/rules/
 ```
 
 ## Rules
@@ -16,23 +17,27 @@ docs/sessions/L1/     src/L1/S*/     tools/psscripts/
 
 ## Skills
 
-See `skills/README.md`. This repo's canonical project skill is `.cursor/skills/python-fundamentals-curriculum/SKILL.md`.
+See `skills/README.md`. Canonical project skill: `.cursor/skills/python-fundamentals-curriculum/SKILL.md`.
 
 ## Agents
 
-- `agent-ci-verify`
-- `demo-roadmap-review` (legacy name; reviews Python session parity)
-- `docs-originality-review`
-- `demo-code-audit` (legacy name; audits Python practice code alignment)
+| Agent | Use when |
+| --- | --- |
+| `agent-ci-verify` | After docs, Python, or governance edits |
+| `session-roadmap-review` | Session docs, `_Plan.md`, meetup parity |
+| `python-practice-code` | Creating or changing `src/L1` / `src/L2` practice files |
+| `docs-originality-review` | Zero-copy / source-integrity risk in docs |
 
-## CI Workflows
+Legacy filenames `demo-roadmap-review` and `demo-code-audit` are retired — use the agents above.
+
+## CI workflows
 
 | Workflow | Scope |
 | --- | --- |
-| `python-quality.yml` | Ruff, `compileall`, calculator smoke checks |
+| `python-quality.yml` | Ruff, compileall, pytest on `src/L1` + `src/L2` |
 | `docs-quality.yml` | Markdown lint + Lychee links |
 
-Local runner: `skills/ci-checks/SKILL.md`.
+Local runners: `./scripts/docs-lint.ps1`, `./scripts/docs-links.ps1`, `skills/ci-checks/SKILL.md`.
 
 ## Package
 

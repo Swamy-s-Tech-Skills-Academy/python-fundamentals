@@ -1,65 +1,46 @@
 ---
 name: ci-checks
-description: Run CI-aligned checks for Python Fundamentals in Practice - Ruff, compileall, calculator smoke checks, markdownlint, and Lychee. Use when asked to run CI, lint, or verify quality.
+description: Run CI-aligned checks for Python Fundamentals — Ruff, compileall, pytest, markdownlint, and Lychee. Use when asked to run CI, lint, or verify quality.
 ---
 
-# CI Checks - Local Runner
+# CI Checks — Local Runner
 
-Commands mirror `.github/workflows/python-quality.yml` and `.github/workflows/docs-quality.yml`.
-
-Run all checks from the repository root.
+Commands mirror `AGENTS.md` and `.github/workflows/*.yml`. Run from repository root.
 
 ## Policy
 
-- Quality expectations: `.cursor/rules/03_quality-assurance.mdc`, `.github/copilot-instructions.md`, and `README.md`.
+- Formal Python scope: `src/L1`, `src/L2`, and `tests/`
+- Docs scope: `README.md`, `docs/**/*.md`, `.github/**/*.md`
 
-## Prerequisites
+## Checks (report PASS / FAIL / SKIP)
 
-- **Python:** Python 3.13+ with Ruff installed or available on PATH.
-- **Node.js:** available for `markdownlint-cli2` through `npx`.
-- **Link checks:** Docker for `lycheeverse/lychee`, or skip locally and rely on CI if Docker is unavailable.
-
-## Checks to run
-
-Report each as PASS, FAIL, or SKIP.
-
-### 1. Ruff
+### Python
 
 ```powershell
-ruff check src
+ruff check src/L1 src/L2
+black --check tests
+isort --check-only src/L1 src/L2
+flake8 src/L1 src/L2
+python -m compileall -q src/L1 src/L2
+pytest -q
 ```
 
-### 2. Compileall
+### Docs
 
 ```powershell
-python -m compileall -q src
-```
-
-### 3. Runtime smoke checks
-
-```powershell
-printf "+\n10\n5\n" | python src/L1/S5/03_simple_calculator.py
-printf "+\n10\n5\nq\n" | python src/L1/S6/04_calculator_loop.py
-```
-
-### 4. markdownlint-cli2
-
-```powershell
-./tools/psscripts/docs-lint.ps1
-```
-
-### 5. Lychee
-
-```powershell
-./tools/psscripts/docs-links.ps1
+./scripts/docs-lint.ps1
+./scripts/docs-links.ps1
 ```
 
 ## Summary format
 
 | # | Check | Status | Notes |
-| --- | -------- | -------- | ------- |
+| --- | --- | --- | --- |
 | 1 | ruff | | |
-| 2 | compileall | | |
-| 3 | calculator smoke | | |
-| 4 | markdownlint | | |
-| 5 | Lychee | | |
+| 2 | black (tests) | | |
+| 3 | isort | | |
+| 4 | flake8 | | |
+| 5 | compileall | | |
+| 6 | pytest | | |
+| 7 | markdownlint | | |
+| 8 | Lychee | | |
