@@ -128,7 +128,8 @@ python-fundamentals/
 │       │   ├── 12_f_strings.py
 │       │   ├── 13_list_append_remove.py
 │       │   ├── 14_list_insert_pop.py
-│       │   └── 15_list_sort_reverse.py
+│       │   ├── 15_list_sort_reverse.py
+│       │   └── 16_percent_formatting.py
 │       ├── S9/                 # Session 9 practice files
 │       │   ├── 01_dict_basics.py
 │       │   ├── 02_dict_iteration.py
@@ -211,7 +212,7 @@ python-fundamentals/
 
 Contains all educational documentation:
 
-- **`images/`**: Educational images organized by session folders (currently `S1/`)
+- **`images/`**: Educational images organized by session folders (see `docs/images/README.md` for required S1 assets)
 - **`meetup/`**: Meetup planning/status files organized by level (`sessions.md` per level)
 - **`sessions/`**: Session documentation organized by level (currently `L1` and `L2` are complete; `L3`–`L9` contain planning scaffolds)
   - Each level contains:
@@ -329,7 +330,7 @@ Cursor configuration:
 | 5 | `S5.md` | Mini Project: Calculator | 4 files |
 | 6 | `S6.md` | Loops & Iteration | 9 files |
 | 7 | `S7.md` | Debugging & Built-ins | 7 files |
-| 8 | `S8.md` | Lists & Loops | 9 files (3 list core + 6 string optional) |
+| 8 | `S8.md` | Lists & Loops | 16 files (3 list core + 13 optional string/list drills) |
 | 9 | `S9.md` | Dictionaries & Testing | 3 files |
 | 10 | `S10.md` | Mini Project: Profile Generator | 1 file |
 

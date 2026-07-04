@@ -96,6 +96,8 @@ Optional reinforcement (Strings as Sequences — revisit before lists):
 - `src/L1/S8/05_string_len.py` – `len()` on strings — spaces count as characters
 - `src/L1/S8/06_string_methods.py` – `startswith()` / `endswith()` with optional index bounds
 
+See `docs/sessions/L1/S8.md` for the full optional reinforcement list (`07`–`16`).
+
 Optional reinforcement (focused list-method drills):
 
 - `src/L1/S8/13_list_append_remove.py` – inspect list methods, then practice `append()` and `remove()`

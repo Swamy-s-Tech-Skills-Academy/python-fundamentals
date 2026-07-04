@@ -1,20 +1,24 @@
-# skills.md
+# Skills — pointer for this repository
 
-Repository-level skill index for contributors and AI assistants.
+**Last updated:** July 2026
 
-## Core Skills
+Machine-readable guidance lives in **`.cursor/`** and the root entry files. [Cursor **skills**](https://cursor.com/docs) and [**subagents**](https://cursor.com/docs/subagents) add optional, discoverable layers on top of rules.
 
-1. Educational content design for beginner Python (30-minute session blocks).
-2. Zero-copy transformation workflow from instructor intake notes.
-3. Session-to-practice alignment (`docs/sessions/L{level}/S{session}.md` <-> `src/L{level}/S{session}/`).
-4. Markdown quality and link integrity checks.
-5. Python quality checks with pedagogy-aware lint policy.
-6. Session-bucketing discipline for new content (planned/new sessions first).
+**Python-only repository:** `python-fundamentals` teaches Python fundamentals only — session docs (`docs/sessions/`), practice scripts (`src/L{level}/`), meetup summaries (`docs/meetup/`), and formal L1–L2 curriculum. Not AWS, cloud, Bedrock, or other non-Python tracks. Do not migrate non-Python `source-material/` intake into this repo.
 
-## Guardrails
+| Location | Purpose |
+| --- | --- |
+| [`AGENTS.md`](AGENTS.md) | Agent entry: policies, ReAct/CoT, where rules live |
+| [`.cursor/rules/`](.cursor/rules/) | Modular `.mdc` rules (educational content, QA, markdown, directives) |
+| [`.cursor/skills/`](.cursor/skills/) | One project skill: [`python-fundamentals-curriculum/SKILL.md`](.cursor/skills/python-fundamentals-curriculum/SKILL.md) — when to read which doc before editing the course |
+| [`.cursor/agents/`](.cursor/agents/) | Custom subagents: session docs, `src/L1`/`src/L2` practice code, doc verification (read-only) |
+| [`.github/copilot-instructions.md`](.github/copilot-instructions.md) | GitHub Copilot alignment with the same curriculum rules |
+| [`CLAUDE.md`](CLAUDE.md) | Short brief for Claude-oriented tools |
+| [`docs/RepositoryStructure.md`](docs/RepositoryStructure.md) | Authoritative paths, naming, and current inventory |
+| [`docs/meetup/L1/sessions.md`](docs/meetup/L1/sessions.md) | Session status guard for meetup content placement (completed vs planned) |
 
-- Treat `source-material/` as an internal, read-only intake folder.
-- Do not copy source text verbatim into publish-facing documentation.
-- Keep references on formal curriculum paths, not sandbox paths.
-- Default new additions to planned/new sessions; do not inject into completed sessions without explicit user permission.
-- **`src/Working/` is hands-off:** do not modify anything under `src/Working/` unless Swamy explicitly requests that path or folder in the current task; prefer formal `src/L{level}/S{session}/` and `docs/sessions/` for changes.
+**Personal** skills can also live under your user `~/.cursor/skills/`; this repo's **policy** still comes from `AGENTS.md` and **`.cursor/rules/`** so those stay the single source of truth for policies.
+
+When adding new educational content, default placement is planned/new sessions; do not inject into completed sessions without explicit user permission. Only promote **Python fundamentals** material from `source-material/` or `src/Working/` into formal `src/L{level}/S{session}/` paths.
+
+**`src/Working/` is hands-off** unless Swamy explicitly requests that path in the current task.

@@ -321,7 +321,7 @@ ASCII fallback:
 `src/L1/S8/01_list_basics.py`, `src/L1/S8/02_list_methods.py`, `src/L1/S8/03_task_manager.py`
 
 Optional reinforcement (Strings as Sequences):  
-`src/L1/S8/04_string_basics.py`, `src/L1/S8/05_string_len.py`, `src/L1/S8/06_string_methods.py`
+`src/L1/S8/04_string_basics.py`, `src/L1/S8/05_string_len.py`, `src/L1/S8/06_string_methods.py`, `src/L1/S8/07_string_replace.py`, `src/L1/S8/08_string_case_methods.py`, `src/L1/S8/09_string_strip_methods.py`, `src/L1/S8/10_string_indexing_and_slicing.py`, `src/L1/S8/11_string_format_method.py`, `src/L1/S8/12_f_strings.py`, `src/L1/S8/16_percent_formatting.py`, `src/L1/S8/13_list_append_remove.py`, `src/L1/S8/14_list_insert_pop.py`, `src/L1/S8/15_list_sort_reverse.py`
 
 📖 *Documentation*: [S8.md](S8.md)
 
