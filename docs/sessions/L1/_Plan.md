@@ -8,7 +8,7 @@ format: "2 phases × (4 sessions + 1 mini project) = 10 sessions total"
 outcome: "2 Mini Projects to cement your foundation"
 transformation_focus: "Evolving mindset from complete beginner to someone genuinely curious about programming"
 curriculum_status: "Validated"
-delivery_status: "S1–S5 completed; S6–S10 pending (see docs/meetup/L1/sessions.md)"
+delivery_status: "S1–S5 completed; S6 ready; S7–S10 pending (see docs/meetup/L1/sessions.md)"
 repository_status: "Implemented"
 master_plan: "docs/01_Python-Fundamentals-MasterPlan.md"
 learning_objectives:
@@ -73,7 +73,7 @@ sessions:
     duration: "30 min"
     type: "Knowledge"
     curriculum: "Validated"
-    delivery: "Planned"
+    delivery: "Ready"
     file: "docs/sessions/L1/S6.md"
   - session: 7
     topic: "Basic Debugging, Reading Errors & Built-in Functions"
@@ -125,7 +125,7 @@ sessions:
 | Axis | Status |
 | --- | --- |
 | **Curriculum** | Validated — session docs + practice files complete |
-| **Delivery** | S1–S4 completed · S5 ready · S6–S8 planned · S9–S10 pending ([meetup table](../../meetup/L1/sessions.md)) |
+| **Delivery** | S1–S5 completed · S6 ready · S7–S8 planned · S9–S10 pending ([meetup table](../../meetup/L1/sessions.md)) |
 | **Repository** | Implemented — `src/L1/S1` through `S10` |
 
 ---
@@ -139,7 +139,7 @@ sessions:
 | A     | 3       | Operators & Expressions                                | 30 min    | 📚 Knowledge | Validated  | Completed  |
 | A     | 4       | Conditionals, Indentation & Introduction to Modules    | 30 min    | 📚 Knowledge | Validated  | Completed  |
 | A     | 5 (MP 1) | Mini Project 1: Simple Calculator *(after Session 4)*  | 30–45 min | 🛠️ Project   | Validated  | Completed  |
-| B     | 6       | Loops & Iteration                                      | 30 min    | 📚 Knowledge | Validated  | Planned    |
+| B     | 6       | Loops & Iteration                                      | 30 min    | 📚 Knowledge | Validated  | Ready      |
 | B     | 7       | Basic Debugging, Reading Errors & Built-in Functions   | 30 min    | 📚 Knowledge | Validated  | Planned    |
 | B     | 8       | Lists, Iteration & String Sequences                    | 30 min    | 📚 Knowledge | Validated  | Planned    |
 | B     | 9       | Dictionaries & Basic Testing                           | 30 min    | 📚 Knowledge | Validated  | Pending    |
@@ -307,7 +307,7 @@ ASCII fallback:
 
 ## 📅 **Phase B: Expanding Skills + Mini Project 2**
 
-### ✅ Session 6: Loops & Iteration *(Validated · delivery: Planned)*
+### ✅ Session 6: Loops & Iteration *(Validated · delivery: Ready)*
 
 * `for` loops with `range()` and iterables
 * `while` loops and loop conditions
