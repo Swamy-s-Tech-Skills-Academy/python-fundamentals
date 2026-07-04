@@ -18,6 +18,15 @@
 
 **Learning Framework**: multi-level progression (currently 18 levels) with 30-minute focused sessions and hands-on practice
 
+### Two-repository model (workspace)
+
+| Repository | Role |
+| --- | --- |
+| **`python-fundamentals`** (this repo) | **Single source of truth** — Swamy-only curriculum development, intake migration, formal L1–L2+ paths |
+| **`python-fundamentals-in-practice`** | **Meetup replica** — synced copy for live meetup delivery; not the authoring source |
+
+Author and validate in this repo first; sync scoped meetup content to the replica when ready.
+
 ### 🚨 CRITICAL: Repository Purpose & Code Organization
 
 **This repository (`python-fundamentals`) contains BOTH educational content AND practice code:**

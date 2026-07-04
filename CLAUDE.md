@@ -3,6 +3,8 @@
 **Project:** Python Fundamentals Curriculum (Swamy's Tech Skills Academy)
 **Purpose:** Educational content development, session documentation, and practice code.
 
+**Repository role:** **`python-fundamentals` is the single source of truth** (Swamy-only development). **`python-fundamentals-in-practice`** is the meetup replica — develop here first, then sync scoped content for live sessions.
+
 ---
 
 ## 🚨 Critical Rules

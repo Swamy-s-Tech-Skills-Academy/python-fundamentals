@@ -15,3 +15,8 @@ Also use `docs/PythonFileTemplates.md` when creating or refactoring Python files
 
 - Do **not** change files under `src/Working/` (including `module3/`, `module4/`, and other staging lanes) unless **Swamy explicitly requests** that Working path or folder in the current task.
 - Prefer edits in formal `src/L{level}/S{session}/` and `docs/sessions/` for curriculum work.
+
+## Two-repository model
+
+- **`python-fundamentals`** (root repo) = single source of truth (Swamy-only development).
+- **`python-fundamentals-in-practice`** = meetup replica — sync from the root repo; do not author new curriculum there first.

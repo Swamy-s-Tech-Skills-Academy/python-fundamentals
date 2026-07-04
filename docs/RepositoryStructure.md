@@ -13,6 +13,15 @@ This document provides a detailed overview of the Python Fundamentals repository
 
 If a mirror references another repo (`python-fundamentals-in-practice`), `docs/02_RepositoryStructure.md`, or `tools/psscripts/`, treat that as drift and fix the mirror — not this document.
 
+## Two-repository model (workspace)
+
+| Repository | Role |
+| --- | --- |
+| **`python-fundamentals`** (this repo) | **Single source of truth** for curriculum development — session docs, `src/L{level}/S{session}/`, master plan, intake migration, and meetup status tables |
+| **`python-fundamentals-in-practice`** | **Meetup replica** — synced copy used for live meetup sessions; not the authoring source |
+
+Develop and validate here first; prompt or sync scoped content into the meetup replica when ready for delivery.
+
 ---
 
 ## 📁 Complete Repository Structure

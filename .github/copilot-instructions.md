@@ -4,6 +4,8 @@
 **Owner:** Swamy's Tech Skills Academy  
 **Purpose:** Educational content development and maintenance
 
+**Two-repository model:** **`python-fundamentals`** (this repo) is the **single source of truth** for Swamy-only curriculum development. **`python-fundamentals-in-practice`** is the **meetup replica** — develop here first, then sync scoped session docs and practice code for live meetups.
+
 ---
 
 ## 🚨 **CRITICAL RULES - READ FIRST**

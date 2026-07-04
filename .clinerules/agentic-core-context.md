@@ -1,6 +1,8 @@
 # agentic-core-context — Cline
 
-**Repository:** `python-fundamentals`
+**Repository:** `python-fundamentals` (**single source of truth** — Swamy-only development)
+
+**Meetup replica:** `python-fundamentals-in-practice` — sync scoped content for live meetups; not the authoring source.
 
 Educational Python fundamentals curriculum (L1–L18 roadmap; formal practice code L1–L2 today).
 

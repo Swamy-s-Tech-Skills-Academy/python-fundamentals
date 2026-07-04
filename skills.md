@@ -6,6 +6,8 @@ Machine-readable guidance lives in **`.cursor/`** and the root entry files. [Cur
 
 **Python-only repository:** `python-fundamentals` teaches Python fundamentals only — session docs (`docs/sessions/`), practice scripts (`src/L{level}/`), meetup summaries (`docs/meetup/`), and formal L1–L2 curriculum. Not AWS, cloud, Bedrock, or other non-Python tracks. Do not migrate non-Python `source-material/` intake into this repo.
 
+**Two-repository model:** This repo is the **single source of truth** (Swamy-only development). `python-fundamentals-in-practice` is the **meetup replica** — sync from here; do not author new curriculum there first.
+
 | Location | Purpose |
 | --- | --- |
 | [`AGENTS.md`](AGENTS.md) | Agent entry: policies, ReAct/CoT, where rules live |
