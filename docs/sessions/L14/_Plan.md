@@ -56,7 +56,7 @@ sessions:
     file: "docs/sessions/L14/S4.md"
   - session: "5 (MP 1)"
     topic: "Mini Project 1: Document-Backed Feature for an Existing App"
-    duration: "30–45 min"
+    duration: "30 min"
     type: "Project"
     curriculum: "Draft"
     delivery: "Pending"
@@ -91,7 +91,7 @@ sessions:
     file: "docs/sessions/L14/S9.md"
   - session: "10 (MP 2)"
     topic: "Mini Project 2: Hybrid Data Stack Demo (RDBMS + Document DB + Redis Cache)"
-    duration: "30–45 min"
+    duration: "30 min"
     type: "Project"
     curriculum: "Draft"
     delivery: "Pending"
@@ -131,12 +131,12 @@ sessions:
 | A | 2 | Hands-On with a Mongo-Style Document DB from Python (CRUD & Simple Queries) | 30 min | 📚 Knowledge | Draft | Pending |
 | A | 3 | Modeling in a Document DB: Embedding vs Referencing & Basic Aggregations | 30 min | 📚 Knowledge | Draft | Pending |
 | A | 4 | Indexes, Query Patterns & Evolving Schemas in Document DBs | 30 min | 📚 Knowledge | Draft | Pending |
-| A | 5 (MP 1) | Mini Project 1: Document-Backed Feature for an Existing App *(after Session 4)* | 30–45 min | 🛠️ Project | Draft | Pending |
+| A | 5 (MP 1) | Mini Project 1: Document-Backed Feature for an Existing App *(after Session 4)* | 30 min | 🛠️ Project | Draft | Pending |
 | B | 6 | Redis Fundamentals: Keys, Expiry & Basic Data Structures | 30 min | 📚 Knowledge | Draft | Pending |
 | B | 7 | Caching Patterns with Redis: Read-Through, Write-Through & TTL-Based Caches | 30 min | 📚 Knowledge | Draft | Pending |
 | B | 8 | Combining Relational + Document DB + Redis in a Small System | 30 min | 📚 Knowledge | Draft | Pending |
 | B | 9 | Connection Management, Timeouts & Configuration for Doc DB + Redis | 30 min | 📚 Knowledge | Draft | Pending |
-| B | 10 (MP 2) | Mini Project 2: Hybrid Data Stack Demo (RDBMS + Document DB + Redis Cache) *(after Session 9)* | 30–45 min | 🛠️ Project | Draft | Pending |
+| B | 10 (MP 2) | Mini Project 2: Hybrid Data Stack Demo (RDBMS + Document DB + Redis Cache) *(after Session 9)* | 30 min | 🛠️ Project | Draft | Pending |
 
 ---
 

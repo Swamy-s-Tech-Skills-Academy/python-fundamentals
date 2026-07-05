@@ -4,7 +4,7 @@ level_number: 2
 stage_part: "Part 1 — Python Fundamentals"
 prerequisites:
   - "docs/sessions/L1/_Plan.md"
-total_duration: "~5–6 hours core guided instruction (+ MPs)"
+total_duration: "~5 hours core guided instruction (+ MPs)"
 format: "2 phases × (4 sessions + 1 mini project) = 10 sessions total"
 outcome: "2 Mini Projects to develop problem-solving skills"
 transformation_focus: "Evolving from someone who can write basic code to someone who can solve real problems with reusable functions and proper error handling"
@@ -63,7 +63,7 @@ sessions:
     file: "docs/sessions/L2/S4.md"
   - session: "5 (MP 1)"
     topic: "Mini Project 1: Data Processor"
-    duration: "30–45 min"
+    duration: "30 min"
     type: "Project"
     curriculum: "Validated"
     delivery: "Pending"
@@ -98,7 +98,7 @@ sessions:
     file: "docs/sessions/L2/S9.md"
   - session: "10 (MP 2)"
     topic: "Mini Project 2: Contact Manager"
-    duration: "30–45 min"
+    duration: "30 min"
     type: "Project"
     curriculum: "Validated"
     delivery: "Pending"
@@ -114,7 +114,7 @@ sessions:
 > 1. **Level:** Nerd → Novice *(building on Level 1 — functions, error handling, file operations)*
 > 1. **Format:** 2 phases × (4 sessions + 1 mini project) = 10 sessions total
 > 1. **Outcome:** 2 Mini Projects to develop problem-solving skills
-> 1. **Core guided time:** ~5–6 hours (8 × 30 min + 2 × 30–45 min MPs)
+> 1. **Core guided time:** ~5 hours (10 × 30 min sessions, including 2 mini projects)
 
 ## Powered by ShyvnTech & Swamy's Tech Skills Academy
 
@@ -138,12 +138,12 @@ sessions:
 | A     | 2       | List Comprehensions                                    | 30 min    | 📚 Knowledge | Validated  | Pending   |
 | A     | 3       | Functions: Definition & Basics                         | 30 min    | 📚 Knowledge | Validated  | Pending   |
 | A     | 4       | Error Handling: try/except Basics                      | 30 min    | 📚 Knowledge | Validated  | Pending   |
-| A     | 5 (MP 1) | Mini Project 1: Data Processor *(after Session 4)*   | 30–45 min | 🛠️ Project  | Validated  | Pending   |
+| A     | 5 (MP 1) | Mini Project 1: Data Processor *(after Session 4)*   | 30 min | 🛠️ Project  | Validated  | Pending   |
 | B     | 6       | Functions: Parameters & Return Values                 | 30 min    | 📚 Knowledge | Validated  | Pending   |
 | B     | 7       | Functions: Scope & Code Organization                   | 30 min    | 📚 Knowledge | Validated  | Pending   |
 | B     | 8       | File Handling: Reading & Writing Text Files           | 30 min    | 📚 Knowledge | Validated  | Pending   |
 | B     | 9       | Modules Deep Dive & Code Organization                 | 30 min    | 📚 Knowledge | Validated  | Pending   |
-| B     | 10 (MP 2) | Mini Project 2: Contact Manager *(after Session 9)*   | 30–45 min | 🛠️ Project  | Validated  | Pending   |
+| B     | 10 (MP 2) | Mini Project 2: Contact Manager *(after Session 9)*   | 30 min | 🛠️ Project  | Validated  | Pending   |
 
 ---
 

@@ -56,7 +56,7 @@ sessions:
     file: "docs/sessions/L17/S4.md"
   - session: "5 (MP 1)"
     topic: "Mini Project 1: Harden an Existing Service (Timeouts, Logs, Health Endpoint)"
-    duration: "30–45 min"
+    duration: "30 min"
     type: "Project"
     curriculum: "Draft"
     delivery: "Pending"
@@ -91,7 +91,7 @@ sessions:
     file: "docs/sessions/L17/S9.md"
   - session: "10 (MP 2)"
     topic: "Mini Project 2: Containerized, Observable Mini Stack (Service + Infra)"
-    duration: "30–45 min"
+    duration: "30 min"
     type: "Project"
     curriculum: "Draft"
     delivery: "Pending"
@@ -133,12 +133,12 @@ sessions:
 | A | 2 | Structured Logging & Log Levels for Services | 30 min | 📚 Knowledge | Draft | Pending |
 | A | 3 | Configuration Management: Env Vars, Config Files & 12-Factor Basics | 30 min | 📚 Knowledge | Draft | Pending |
 | A | 4 | Health Checks & Basic Metrics (Counters, Timers, Gauges) | 30 min | 📚 Knowledge | Draft | Pending |
-| A | 5 (MP 1) | Mini Project 1: Harden an Existing Service (Timeouts, Logs, Health Endpoint) *(after Session 4)* | 30–45 min | 🛠️ Project | Draft | Pending |
+| A | 5 (MP 1) | Mini Project 1: Harden an Existing Service (Timeouts, Logs, Health Endpoint) *(after Session 4)* | 30 min | 🛠️ Project | Draft | Pending |
 | B | 6 | Docker for Python Services: Writing a Simple, Production-Friendly Dockerfile | 30 min | 📚 Knowledge | Draft | Pending |
 | B | 7 | Docker Compose: Running Service + DB/Redis/RabbitMQ Together Locally | 30 min | 📚 Knowledge | Draft | Pending |
 | B | 8 | Observability in Containers: Logs, Metrics & Simple Dashboards | 30 min | 📚 Knowledge | Draft | Pending |
 | B | 9 | Production-Like Environments: Resource Limits, Readiness & Rollout Basics | 30 min | 📚 Knowledge | Draft | Pending |
-| B | 10 (MP 2) | Mini Project 2: Containerized, Observable Mini Stack (Service + Infra) *(after Session 9)* | 30–45 min | 🛠️ Project | Draft | Pending |
+| B | 10 (MP 2) | Mini Project 2: Containerized, Observable Mini Stack (Service + Infra) *(after Session 9)* | 30 min | 🛠️ Project | Draft | Pending |
 
 ---
 

@@ -56,7 +56,7 @@ sessions:
     file: "docs/sessions/L12/S4.md"
   - session: "5 (MP 1)"
     topic: "Mini Project 1: Simple Concurrent / Async Fetcher or Worker"
-    duration: "30–45 min"
+    duration: "30 min"
     type: "Project"
     curriculum: "Draft"
     delivery: "Pending"
@@ -91,7 +91,7 @@ sessions:
     file: "docs/sessions/L12/S9.md"
   - session: "10 (MP 2)"
     topic: "Mini Project 2: Installable Capstone Package / CLI Tool"
-    duration: "30–45 min"
+    duration: "30 min"
     type: "Project"
     curriculum: "Draft"
     delivery: "Pending"
@@ -133,12 +133,12 @@ sessions:
 | A | 2 | Generators, Iterators & Lazy Evaluation (Beyond for Loops) | 30 min | 📚 Knowledge | Draft | Pending |
 | A | 3 | Concurrency Basics: threading vs multiprocessing | 30 min | 📚 Knowledge | Draft | Pending |
 | A | 4 | Asyncio Intro: async/await and Event Loops (Conceptual) | 30 min | 📚 Knowledge | Draft | Pending |
-| A | 5 (MP 1) | Mini Project 1: Simple Concurrent / Async Fetcher or Worker *(after Session 4)* | 30–45 min | 🛠️ Project | Draft | Pending |
+| A | 5 (MP 1) | Mini Project 1: Simple Concurrent / Async Fetcher or Worker *(after Session 4)* | 30 min | 🛠️ Project | Draft | Pending |
 | B | 6 | Measuring Performance with timeit and cProfile | 30 min | 📚 Knowledge | Draft | Pending |
 | B | 7 | Practical Optimization: Hot Spots, Caching & Small Refactors | 30 min | 📚 Knowledge | Draft | Pending |
 | B | 8 | Packaging & Distribution: pyproject.toml, Wheels & venv Basics | 30 min | 📚 Knowledge | Draft | Pending |
 | B | 9 | Sharing Your Work: Publishing, Docs, and Next-Step Roadmaps | 30 min | 📚 Knowledge | Draft | Pending |
-| B | 10 (MP 2) | Mini Project 2: Installable Capstone Package / CLI Tool *(after Session 9)* | 30–45 min | 🛠️ Project | Draft | Pending |
+| B | 10 (MP 2) | Mini Project 2: Installable Capstone Package / CLI Tool *(after Session 9)* | 30 min | 🛠️ Project | Draft | Pending |
 
 ---
 

@@ -57,7 +57,7 @@ sessions:
     file: "docs/sessions/L8/S4.md"
   - session: "5 (MP 1)"
     topic: "Mini Project 1: CLI Wrapper Around an Existing Project"
-    duration: "30–45 min"
+    duration: "30 min"
     type: "Project"
     curriculum: "Draft"
     delivery: "Pending"
@@ -92,7 +92,7 @@ sessions:
     file: "docs/sessions/L8/S9.md"
   - session: "10 (MP 2)"
     topic: "Mini Project 2: Polished, Tested CLI Tool in Git Repo"
-    duration: "30–45 min"
+    duration: "30 min"
     type: "Project"
     curriculum: "Draft"
     delivery: "Pending"
@@ -134,12 +134,12 @@ sessions:
 | A | 2 | Building User-Friendly CLIs (argparse / click Intro) | 30 min | 📚 Knowledge | Draft | Pending |
 | A | 3 | Structuring Projects: Folders, Modules, and Entry Points | 30 min | 📚 Knowledge | Draft | Pending |
 | A | 4 | Git Basics: Commits, Branches, and Clean Histories | 30 min | 📚 Knowledge | Draft | Pending |
-| A | 5 (MP 1) | Mini Project 1: CLI Wrapper Around an Existing Project *(after Session 4)* | 30–45 min | 🛠️ Project | Draft | Pending |
+| A | 5 (MP 1) | Mini Project 1: CLI Wrapper Around an Existing Project *(after Session 4)* | 30 min | 🛠️ Project | Draft | Pending |
 | B | 6 | Everyday Testing with pytest / unittest (No TDD Dogma) | 30 min | 📚 Knowledge | Draft | Pending |
 | B | 7 | AI as Pair Programmer: Prompting for Refactoring & Code Review | 30 min | 📚 Knowledge | Draft | Pending |
 | B | 8 | Formatting & Linting (black, isort, flake8 – Concept Intro) | 30 min | 📚 Knowledge | Draft | Pending |
 | B | 9 | Polishing a Small Project: From Script to Mini Product | 30 min | 📚 Knowledge | Draft | Pending |
-| B | 10 (MP 2) | Mini Project 2: Polished, Tested CLI Tool in Git Repo *(after Session 9)* | 30–45 min | 🛠️ Project | Draft | Pending |
+| B | 10 (MP 2) | Mini Project 2: Polished, Tested CLI Tool in Git Repo *(after Session 9)* | 30 min | 🛠️ Project | Draft | Pending |
 
 ---
 

@@ -57,7 +57,7 @@ sessions:
     file: "docs/sessions/L9/S4.md"
   - session: "5 (MP 1)"
     topic: "Mini Project 1: Refactor to Use One Core Pattern"
-    duration: "30–45 min"
+    duration: "30 min"
     type: "Project"
     curriculum: "Draft"
     delivery: "Pending"
@@ -92,7 +92,7 @@ sessions:
     file: "docs/sessions/L9/S9.md"
   - session: "10 (MP 2)"
     topic: "Mini Project 2: Patterned Console App / Plugin-Style Tool"
-    duration: "30–45 min"
+    duration: "30 min"
     type: "Project"
     curriculum: "Draft"
     delivery: "Pending"
@@ -132,12 +132,12 @@ sessions:
 | A | 2 | Strategy Pattern: Swappable Behaviours Without if Everywhere | 30 min | 📚 Knowledge | Draft | Pending |
 | A | 3 | Factory / Creator Functions: Centralizing Object Creation | 30 min | 📚 Knowledge | Draft | Pending |
 | A | 4 | Observer / Pub-Sub (Intro to Event-Driven Thinking) | 30 min | 📚 Knowledge | Draft | Pending |
-| A | 5 (MP 1) | Mini Project 1: Refactor to Use One Core Pattern *(after Session 4)* | 30–45 min | 🛠️ Project | Draft | Pending |
+| A | 5 (MP 1) | Mini Project 1: Refactor to Use One Core Pattern *(after Session 4)* | 30 min | 🛠️ Project | Draft | Pending |
 | B | 6 | Separation of Concerns & Layering (UI / Logic / Data) | 30 min | 📚 Knowledge | Draft | Pending |
 | B | 7 | Decorator vs Inheritance: Extending Behaviour Safely | 30 min | 📚 Knowledge | Draft | Pending |
 | B | 8 | SOLID-Lite: SRP & Open/Closed in Small Python Projects | 30 min | 📚 Knowledge | Draft | Pending |
 | B | 9 | Putting It Together: A Patterned, Layered Console Application | 30 min | 📚 Knowledge | Draft | Pending |
-| B | 10 (MP 2) | Mini Project 2: Patterned Console App / Plugin-Style Tool *(after Session 9)* | 30–45 min | 🛠️ Project | Draft | Pending |
+| B | 10 (MP 2) | Mini Project 2: Patterned Console App / Plugin-Style Tool *(after Session 9)* | 30 min | 🛠️ Project | Draft | Pending |
 
 ---
 

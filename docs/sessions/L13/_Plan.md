@@ -56,7 +56,7 @@ sessions:
     file: "docs/sessions/L13/S4.md"
   - session: "5 (MP 1)"
     topic: "Mini Project 1: Port a SQLite App to PostgreSQL or SQL Server"
-    duration: "30–45 min"
+    duration: "30 min"
     type: "Project"
     curriculum: "Draft"
     delivery: "Pending"
@@ -91,7 +91,7 @@ sessions:
     file: "docs/sessions/L13/S9.md"
   - session: "10 (MP 2)"
     topic: "Mini Project 2: Production-Style Data Layer Library / Module"
-    duration: "30–45 min"
+    duration: "30 min"
     type: "Project"
     curriculum: "Draft"
     delivery: "Pending"
@@ -133,12 +133,12 @@ sessions:
 | A | 2 | Connecting from Python: Drivers, Connection Strings & Parameterized Queries | 30 min | 📚 Knowledge | Draft | Pending |
 | A | 3 | Schemas, Keys & Constraints in Production Databases | 30 min | 📚 Knowledge | Draft | Pending |
 | A | 4 | Indexes & Query Performance 101 (Execution Plans at a Glance) | 30 min | 📚 Knowledge | Draft | Pending |
-| A | 5 (MP 1) | Mini Project 1: Port a SQLite App to PostgreSQL or SQL Server *(after Session 4)* | 30–45 min | 🛠️ Project | Draft | Pending |
+| A | 5 (MP 1) | Mini Project 1: Port a SQLite App to PostgreSQL or SQL Server *(after Session 4)* | 30 min | 🛠️ Project | Draft | Pending |
 | B | 6 | Working with SQLAlchemy (Core + Simple ORM Models) | 30 min | 📚 Knowledge | Draft | Pending |
 | B | 7 | Environments & Migrations: Dev/Test/Prod, Alembic-Style Migration Basics | 30 min | 📚 Knowledge | Draft | Pending |
 | B | 8 | Multi-Database Support & Vendor Differences | 30 min | 📚 Knowledge | Draft | Pending |
 | B | 9 | Designing a Reusable Data Access Layer for a Small App | 30 min | 📚 Knowledge | Draft | Pending |
-| B | 10 (MP 2) | Mini Project 2: Production-Style Data Layer Library / Module *(after Session 9)* | 30–45 min | 🛠️ Project | Draft | Pending |
+| B | 10 (MP 2) | Mini Project 2: Production-Style Data Layer Library / Module *(after Session 9)* | 30 min | 🛠️ Project | Draft | Pending |
 
 ---
 
