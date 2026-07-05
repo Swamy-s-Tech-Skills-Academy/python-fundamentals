@@ -10,7 +10,7 @@
 | Session 4 | Completed |
 | Session 5 (MP 1) | Completed |
 | Session 6 | Published |
-| Session 7 | Planned |
+| Session 7 | Published |
 | Session 8 | Planned |
 | Session 9 | Pending |
 | Session 10 (MP 2) | Pending |
@@ -116,9 +116,9 @@ Perfect For:
 
 ## Level 1 - Session 7: Basic Debugging & Built-in Functions
 
-Date: To be announced (planned)
+Date: Wednesday, Jul 15 · 9:00 AM to 10:00 AM IST
 
-Event URL: To be announced (planned)
+Event URL: <https://www.meetup.com/dot-net-learners-house-hyderabad/events/315553582>
 
 🔹 Session Agenda:
 
@@ -130,7 +130,7 @@ Prerequisites: Completed Session 6 (Loops & Iteration)
 - Optional: Watch the recording/playlist: [Python Fundamentals – Level 1 (YouTube playlist)](https://www.youtube.com/watch?v=Cy6DqbRjsF0&list=PLdLQDTLMjAzpRBxP4q1XJOuLhFG4pSfBB)
 
 🎙️ Speaker: Viswanatha Swamy — Swamy's Tech Skills Academy
-🕘 Time: 09:00 AM – 09:30 AM
+🕘 Time: 9:00 AM – 10:00 AM IST
 
 What You'll Learn:
 
@@ -168,7 +168,7 @@ Perfect For:
 
 Date: Wednesday, Jul 8 · 9:00 AM to 9:30 AM IST
 
-Event URL: <https://www.meetup.com/dot-net-learners-house-hyderabad/events/315544328/>
+Event URL: <https://www.meetup.com/dot-net-learners-house-hyderabad/events/315544328>
 
 🔹 Session Agenda:
 
@@ -265,7 +265,7 @@ Perfect For:
 
 Date: Thursday, Apr 23 · 9:00 AM to 9:30 AM IST
 
-Event URL: <https://www.meetup.com/dot-net-learners-house-hyderabad/events/314378351/>  
+Event URL: <https://www.meetup.com/dot-net-learners-house-hyderabad/events/314378351>  
 
 🔹 Session Agenda:
 
@@ -309,7 +309,7 @@ Perfect For:
 
 Date: Sat, Dec 20, 2025 · 9:00 AM to 9:30 AM IST
 
-Event URL: <https://www.meetup.com/dot-net-learners-house-hyderabad/events/312511467/>  
+Event URL: <https://www.meetup.com/dot-net-learners-house-hyderabad/events/312511467>  
 
 🔹 Session Agenda:
 
@@ -355,7 +355,7 @@ Perfect For:
 
 Date: Wed, Dec 17, 2025 · 9:00 AM to 9:30 AM IST  
 
-Event URL: <https://www.meetup.com/dot-net-learners-house-hyderabad/events/312470860/?eventOrigin=group_events_list>  
+Event URL: <https://www.meetup.com/dot-net-learners-house-hyderabad/events/312470860>  
 
 🔹 Session Agenda:
 
@@ -400,7 +400,7 @@ Perfect For:
 
 Date: Sun, Dec 14, 2025 · 9:00 AM to 9:30 AM IST
 
-Event URL: <https://www.meetup.com/dot-net-learners-house-hyderabad/events/312432302/>  
+Event URL: <https://www.meetup.com/dot-net-learners-house-hyderabad/events/312432302>  
 
 🔹 Session Agenda:
 
