@@ -1,4 +1,4 @@
-# Meetup Session: Python for Beginners | Data Wrangler → DB Beginner - Level 6
+# Meetup Session: Python for Beginners | Curious Learner → Data Platform Explorer - Level 13
 
 ## Table
 

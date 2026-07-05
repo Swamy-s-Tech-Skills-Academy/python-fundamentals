@@ -1,4 +1,4 @@
-# Meetup Session: Python for Beginners | Design Learner → Data Wrangler - Level 5
+# Meetup Session: Python for Beginners | DB Beginner → Integration Novice - Level 7
 
 ## Table
 
