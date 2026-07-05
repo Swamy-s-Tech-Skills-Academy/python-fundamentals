@@ -3,6 +3,8 @@
 **Project:** Python Fundamentals Curriculum (Swamy's Tech Skills Academy)
 **Purpose:** Educational content development, session documentation, and practice code.
 
+**Repository role:** **`python-fundamentals` is the single source of truth** (Swamy-only development). **`python-fundamentals-in-practice`** is the meetup replica — develop here first, then sync scoped content for live sessions.
+
 ---
 
 ## 🚨 Critical Rules
@@ -45,7 +47,8 @@ python-fundamentals/
 │   └── Working/  # Sandbox — see docs/RepositoryStructure.md (src/Working/)
 │       ├── module3/   # Informal drafts for promotion to formal sessions
 │       ├── module4/   # Informal drafts for promotion to formal sessions
-│       └── module5/   # Informal drafts for promotion to formal sessions
+│       ├── module5/   # Informal drafts for promotion to formal sessions
+│       └── module6/   # Informal drafts for promotion to formal sessions
 ├── .cursor/rules/          # Cursor AI rule files
 ├── .github/
 │   ├── copilot-instructions.md
@@ -57,7 +60,7 @@ python-fundamentals/
 
 ## 🗂️ `src/Working/` — Sandbox Staging Area
 
-`src/Working/` holds **informal drafts** in `module3/`, `module4/`, and `module5/`, which are promoted into formal `src/L{level}/S{session}/` folders when ready. See **`docs/RepositoryStructure.md`** (section **src/Working/**) for layout and promotion expectations.
+`src/Working/` holds **informal drafts** in `module3/`, `module4/`, `module5/`, and `module6/`, which are promoted into formal `src/L{level}/S{session}/` folders when ready. See **`docs/RepositoryStructure.md`** (section **src/Working/**) for layout and promotion expectations.
 
 ### Working vs Formal
 

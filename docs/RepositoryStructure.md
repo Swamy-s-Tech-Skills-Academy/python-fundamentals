@@ -2,6 +2,28 @@
 
 This document provides a detailed overview of the Python Fundamentals repository structure.
 
+## Agent and tool governance (mirrors)
+
+| Layer | Path | Role |
+| --- | --- | --- |
+| **Canonical** | `AGENTS.md`, `.cursor/rules/`, `.cursor/skills/`, `.cursor/agents/` | Policies and curriculum skill |
+| **Cline** | `.clinerules/` | Entry, agents, skills, workflows — must match canonical paths (`docs/RepositoryStructure.md`, `scripts/`) |
+| **OpenCode** | `.opencode/` | Plugin config + same mirrors as Cline |
+| **Copilot** | `.github/copilot-instructions.md`, `.github/prompts/`, `.github/instructions/` | In-IDE alignment |
+
+If a mirror references another repo (`python-fundamentals-in-practice`), `docs/02_RepositoryStructure.md`, or `tools/psscripts/`, treat that as drift and fix the mirror — not this document.
+
+## Two-repository model (workspace)
+
+| Repository | Role |
+| --- | --- |
+| **`python-fundamentals`** (this repo) | **Single source of truth** for curriculum development — session docs, `src/L{level}/S{session}/`, master plan, intake migration, and meetup status tables |
+| **`python-fundamentals-in-practice`** | **Meetup replica** — synced copy used for live meetup sessions; not the authoring source |
+
+Develop and validate here first; prompt or sync scoped content into the meetup replica when ready for delivery.
+
+**Meetup parity:** `docs/meetup/L1/sessions.md` in this repo and `python-fundamentals-in-practice` must stay identical — including status table, session agendas, and **event date/URL** fields after a session is scheduled or completed. Author meetup updates here first; if event details are captured during live delivery in the replica, back-sync them into this repo immediately.
+
 ---
 
 ## 📁 Complete Repository Structure
@@ -43,7 +65,7 @@ python-fundamentals/
 │       │   ├── S5.md       # Session 5 - Mini Project 1: Simple Calculator
 │       │   ├── S6.md        # Session 6: Loops & Iteration
 │       │   ├── S7.md        # Session 7: Debugging & Built-ins
-│       │   ├── S8.md        # Session 8: Lists & Loops
+│       │   ├── S8.md        # Session 8: Lists, Iteration & String Sequences
 │       │   ├── S9.md        # Session 9: Dictionaries & Testing
 │       │   └── S10.md       # Session 10 - Mini Project 2: Profile Generator
 │       └── L2/                 # Level 2: Nerd → Novice
@@ -70,7 +92,25 @@ python-fundamentals/
 │       │   └── _Plan.md
 │       ├── L8/                 # Level 8 planning scaffold
 │       │   └── _Plan.md
-│       └── L9/                 # Level 9 planning scaffold
+│       ├── L9/                 # Level 9 planning scaffold
+│       │   └── _Plan.md
+│       ├── L10/                # Level 10 planning scaffold
+│       │   └── _Plan.md
+│       ├── L11/                # Level 11 planning scaffold
+│       │   └── _Plan.md
+│       ├── L12/                # Level 12 planning scaffold
+│       │   └── _Plan.md
+│       ├── L13/                # Level 13 planning scaffold
+│       │   └── _Plan.md
+│       ├── L14/                # Level 14 planning scaffold
+│       │   └── _Plan.md
+│       ├── L15/                # Level 15 planning scaffold
+│       │   └── _Plan.md
+│       ├── L16/                # Level 16 planning scaffold
+│       │   └── _Plan.md
+│       ├── L17/                # Level 17 planning scaffold
+│       │   └── _Plan.md
+│       └── L18/                # Level 18 planning scaffold (program capstone)
 │           └── _Plan.md
 ├── 💻 src/
 │   ├── L1/
@@ -128,7 +168,8 @@ python-fundamentals/
 │       │   ├── 12_f_strings.py
 │       │   ├── 13_list_append_remove.py
 │       │   ├── 14_list_insert_pop.py
-│       │   └── 15_list_sort_reverse.py
+│       │   ├── 15_list_sort_reverse.py
+│       │   └── 16_percent_formatting.py
 │       ├── S9/                 # Session 9 practice files
 │       │   ├── 01_dict_basics.py
 │       │   ├── 02_dict_iteration.py
@@ -211,9 +252,9 @@ python-fundamentals/
 
 Contains all educational documentation:
 
-- **`images/`**: Educational images organized by session folders (currently `S1/`)
+- **`images/`**: Educational images organized by session folders (see `docs/images/README.md` for required S1 assets)
 - **`meetup/`**: Meetup planning/status files organized by level (`sessions.md` per level)
-- **`sessions/`**: Session documentation organized by level (currently `L1` and `L2` are complete; `L3`–`L9` contain planning scaffolds)
+- **`sessions/`**: Session documentation organized by level (`L1`–`L2` complete; `L3`–`L18` level plans aligned to master plan; session docs pending)
   - Each level contains:
     - `_Plan.md`: Complete level curriculum plan (underscore sorts first)
     - `S1.md`, `S2.md`, etc.: Session documentation files
@@ -227,7 +268,7 @@ Contains all practice code files:
 - Each level contains session-aligned directories (`S1/`, `S5/`, `S10/`, etc.)
 - Practice files use numeric prefixes: `01_name.py`, `02_name.py`, etc.
 - Python file shapes follow the three approved templates in `docs/PythonFileTemplates.md`
-- Future levels `L3/` through `L9/` currently exist as placeholders for formal practice content.
+- Future levels `L3/` through `L18/` currently exist as `_Plan.md` scaffolds; formal `S{n}.md` and `src/L{n}/` content is pending.
 
 ### `src/Working/`
 
@@ -236,6 +277,20 @@ Sandbox staging area for **informal live-coding drafts** before promotion into f
 - **`module3/`**, **`module4/`**, **`module5/`**, **`module6/`**: informal numbered samples (e.g. `01_sample.py`) staged before cleanup and promotion.
 - **`References.md`**: links to source material and reference repositories.
 - Working Python samples should default to the CLI lesson template in `docs/PythonFileTemplates.md`.
+
+#### Topic → session routing (L1, from `S5` onward)
+
+Intake notes in gitignored `source-material/Module3`–`Module6` map to Working lanes, then to formal sessions. Use this table when promoting or auditing migration — rewrite content; never copy intake verbatim.
+
+| Working lane | Intake topics (summary) | Formal destination |
+| --- | --- | --- |
+| `module3/` | PEP 8 style; assignment patterns; type conversion; arithmetic; `print(sep=, end=)`; escape sequences | `S5` (PEP 8, `del`/bool), `S6` (optional assignment/conversion drills), `S7` (PEP 8 revisit, print/escape) |
+| `module4/` | Boolean precedence; truthy/falsy; short-circuit evaluation | `S4` (core boolean logic), `S6/08`, `S6/09` (optional reinforcement) |
+| `module5/` | Strings as sequences: operators, `len`, methods, indexing/slicing, formatting (`%`, `.format()`, f-strings) | `S8/04`–`S8/12`, `S8/16` (optional string reinforcement) |
+| `module6/` | Lists: creation, indexing, methods (`append`, `remove`, `insert`, `pop`, `sort`, `reverse`) | `S8/01`–`S8/03` (core), `S8/13`–`S8/15` (optional list-method drills) |
+| *(no Working lane)* | Core loops, debugging, built-ins, dictionaries, `assert`, Profile Generator capstone | `S6/01`–`S6/04`, `S7/01`–`S7/03`, `S9/*`, `S10/*` (authored directly into formal paths) |
+
+After promotion, Working copies may remain as instructor scratch until explicitly retired — do not reference `src/Working/` paths in publish-facing session docs.
 
 ### `tests/`
 
@@ -329,7 +384,7 @@ Cursor configuration:
 | 5 | `S5.md` | Mini Project: Calculator | 4 files |
 | 6 | `S6.md` | Loops & Iteration | 9 files |
 | 7 | `S7.md` | Debugging & Built-ins | 7 files |
-| 8 | `S8.md` | Lists & Loops | 9 files (3 list core + 6 string optional) |
+| 8 | `S8.md` | Lists, Iteration & String Sequences | 16 files (3 list core + 13 optional string/list drills) |
 | 9 | `S9.md` | Dictionaries & Testing | 3 files |
 | 10 | `S10.md` | Mini Project: Profile Generator | 1 file |
 
@@ -349,9 +404,16 @@ Cursor configuration:
 | 9 | `S9.md` | Modules Deep Dive | 3 files |
 | 10 | `S10.md` | Mini Project: Contact Manager | 1 file |
 
-### Future Levels
+### Future Levels (L3–L18)
 
-- 🔄 **Level 3-18**: Planned for future development
+Level plans live at `docs/sessions/L{level}/_Plan.md` (three-axis status: Curriculum / Delivery / Repository). Session docs and practice code are **planned**, not yet authored, except where noted in each level plan.
+
+| Level | Plan | Stage |
+| --- | --- | --- |
+| 3 | [L3/_Plan.md](sessions/L3/_Plan.md) | Part 1 — OOP fundamentals |
+| 4–6 | [L4](sessions/L4/_Plan.md) · [L5](sessions/L5/_Plan.md) · [L6](sessions/L6/_Plan.md) | Part 1 — design, data, SQLite |
+| 7–12 | [L7](sessions/L7/_Plan.md) … [L12](sessions/L12/_Plan.md) | Part 2 — professional Python |
+| 13–18 | [L13](sessions/L13/_Plan.md) … [L18](sessions/L18/_Plan.md) | Part 3 — systems engineering |
 
 ---
 
@@ -360,6 +422,9 @@ Cursor configuration:
 - **Main README**: [README.md](../README.md)
 - **Level 1 Plan**: [docs/sessions/L1/_Plan.md](sessions/L1/_Plan.md)
 - **Level 2 Plan**: [docs/sessions/L2/_Plan.md](sessions/L2/_Plan.md)
+- **Level 3 Plan**: [docs/sessions/L3/_Plan.md](sessions/L3/_Plan.md)
+- **Level 18 Plan (capstone)**: [docs/sessions/L18/_Plan.md](sessions/L18/_Plan.md)
+- **Master plan**: [docs/01_Python-Fundamentals-MasterPlan.md](01_Python-Fundamentals-MasterPlan.md)
 - **L1 Session 1**: [docs/sessions/L1/S1.md](sessions/L1/S1.md)
 - **L2 Session 1**: [docs/sessions/L2/S1.md](sessions/L2/S1.md)
 

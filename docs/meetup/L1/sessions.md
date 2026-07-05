@@ -8,8 +8,8 @@
 | Session 2 | Completed |
 | Session 3 | Completed |
 | Session 4 | Completed |
-| Session 5 (MP 1) | Ready |
-| Session 6 | Planned |
+| Session 5 (MP 1) | Completed |
+| Session 6 | Published |
 | Session 7 | Planned |
 | Session 8 | Planned |
 | Session 9 | Pending |
@@ -96,6 +96,8 @@ Optional reinforcement (Strings as Sequences — revisit before lists):
 - `src/L1/S8/05_string_len.py` – `len()` on strings — spaces count as characters
 - `src/L1/S8/06_string_methods.py` – `startswith()` / `endswith()` with optional index bounds
 
+See `docs/sessions/L1/S8.md` for the full optional reinforcement list (`07`–`16`).
+
 Optional reinforcement (focused list-method drills):
 
 - `src/L1/S8/13_list_append_remove.py` – inspect list methods, then practice `append()` and `remove()`
@@ -164,9 +166,9 @@ Perfect For:
 
 ## Level 1 - Session 6: Loops & Iteration
 
-Date: To be announced (planned)
+Date: Wednesday, Jul 8 · 9:00 AM to 10:00 AM IST
 
-Event URL: To be announced (planned)  
+Event URL: <https://www.meetup.com/dot-net-learners-house-hyderabad/events/315544328/>
 
 🔹 Session Agenda:
 
@@ -178,7 +180,7 @@ Prerequisites: Completed Session 5 (Mini Project 1: Simple Calculator), or Sessi
 - Optional: Watch the recording/playlist: [Python Fundamentals – Level 1 (YouTube playlist)](https://www.youtube.com/watch?v=Cy6DqbRjsF0&list=PLdLQDTLMjAzpRBxP4q1XJOuLhFG4pSfBB)
 
 🎙️ Speaker: Viswanatha Swamy — Swamy's Tech Skills Academy  
-🕘 Time: 09:00 AM – 09:30 AM
+🕘 Time: 9:00 AM – 10:00 AM IST
 
 What You'll Learn:
 
@@ -194,6 +196,10 @@ We'll write and run three focused practice scripts:
 - `src/L1/S6/01_for_loops.py` – `for` loops, `range()`, and iteration patterns
 - `src/L1/S6/02_while_loops.py` – `while` loops, conditions, and safe loop updates
 - `src/L1/S6/03_loop_controls_fizzbuzz.py` – `break` / `continue` / `pass` and beginner FizzBuzz
+
+Capstone (homework or extra time after the 30-minute session):
+
+- `src/L1/S6/04_calculator_loop.py` – loop-driven calculator using `while`, `break`, and `continue` together
 
 Optional reinforcement (compound `while` conditions / boolean order):
 
@@ -212,9 +218,9 @@ Perfect For:
 
 ## Level 1 - Session 5 (MP 1): Mini Project 1 — Simple Calculator
 
-Date: To be announced (ready)
+Date: Saturday, Jul 4 · 4:00 PM to 5:00 PM IST
 
-Event URL: To be announced (ready)
+Event URL: <https://www.meetup.com/dot-net-learners-house-hyderabad/events/315495266>
 
 🔹 Session Agenda:
 
@@ -226,7 +232,7 @@ Prerequisites: Completed Sessions 1–4 (Python setup, variables/types, operator
 - Optional: Watch the recording/playlist: [Python Fundamentals – Level 1 (YouTube playlist)](https://www.youtube.com/watch?v=Cy6DqbRjsF0&list=PLdLQDTLMjAzpRBxP4q1XJOuLhFG4pSfBB)
 
 🎙️ Speaker: Viswanatha Swamy — Swamy's Tech Skills Academy  
-🕘 Time: 09:00 AM – 09:30 AM
+🕘 Time: 4:00 PM – 5:00 PM IST
 
 What You'll Learn:
 

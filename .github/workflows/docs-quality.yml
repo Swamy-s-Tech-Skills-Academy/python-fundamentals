@@ -4,21 +4,26 @@ on:
   # Manual run capability (use Run workflow button in GitHub UI)
   workflow_dispatch: {}
   pull_request:
+    branches: [main, 'swamy/**']
     paths:
       - "README.md"
       - "docs/**/*.md"
       - ".github/**/*.md"
       - "lychee.toml"
       - ".markdownlint.*"
+      - ".markdownlint-cli2.yaml"
+      - ".markdownlintignore"
       - ".github/workflows/docs-quality.yml"
   push:
-    branches: [main]
+    branches: [main, 'swamy/**']
     paths:
       - "README.md"
       - "docs/**/*.md"
       - ".github/**/*.md"
       - "lychee.toml"
       - ".markdownlint.*"
+      - ".markdownlint-cli2.yaml"
+      - ".markdownlintignore"
       - ".github/workflows/docs-quality.yml"
 
 concurrency:
@@ -35,7 +40,7 @@ jobs:
     steps:
       - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
       - name: Run markdownlint-cli2
-        uses: DavidAnson/markdownlint-cli2-action@b4c9feab76d8025d1e83c653fa3990936df0e6c8 # v16
+        uses: DavidAnson/markdownlint-cli2-action@8de2aa07cae85fd17c0b35642db70cf5495f1d25 # v24.0.0
         with:
           globs: |
             README.md

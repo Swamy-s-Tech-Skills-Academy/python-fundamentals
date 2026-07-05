@@ -59,6 +59,8 @@ This rule set is customized for the **Python Fundamentals** repository:
 
 ## 🔗 Related Files
 
+- **Agent entry**: `AGENTS.md` and `skills.md` (pointers to `.cursor/skills/` and `.cursor/agents/`)
+- **Tool mirrors**: `.clinerules/` (Cline) and `.opencode/` (OpenCode) — same policies; canonical rules remain here
 - **GitHub Copilot**: `.github/copilot-instructions.md` (similar rules for GitHub Copilot)
 - **Python templates**: `docs/PythonFileTemplates.md` (approved lesson/helper Python file shapes)
 - **Main README**: `README.md` (repository overview and structure)
