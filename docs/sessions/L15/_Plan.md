@@ -56,7 +56,7 @@ sessions:
     file: "docs/sessions/L15/S4.md"
   - session: "5 (MP 1)"
     topic: "Mini Project 1: RabbitMQ-Backed Background Worker for an Existing Feature"
-    duration: "30–45 min"
+    duration: "30 min"
     type: "Project"
     curriculum: "Draft"
     delivery: "Pending"
@@ -91,7 +91,7 @@ sessions:
     file: "docs/sessions/L15/S9.md"
   - session: "10 (MP 2)"
     topic: "Mini Project 2: Message-Driven Mini Service with Full Test Suite"
-    duration: "30–45 min"
+    duration: "30 min"
     type: "Project"
     curriculum: "Draft"
     delivery: "Pending"
@@ -131,12 +131,12 @@ sessions:
 | A | 2 | RabbitMQ from Python: Producers, Consumers & Acknowledgements | 30 min | 📚 Knowledge | Draft | Pending |
 | A | 3 | Kafka from Python: Topics, Partitions & Simple Consumer Groups | 30 min | 📚 Knowledge | Draft | Pending |
 | A | 4 | Designing Message-Driven Flows for a Small Application | 30 min | 📚 Knowledge | Draft | Pending |
-| A | 5 (MP 1) | Mini Project 1: RabbitMQ-Backed Background Worker for an Existing Feature *(after Session 4)* | 30–45 min | 🛠️ Project | Draft | Pending |
+| A | 5 (MP 1) | Mini Project 1: RabbitMQ-Backed Background Worker for an Existing Feature *(after Session 4)* | 30 min | 🛠️ Project | Draft | Pending |
 | B | 6 | Advanced Unit Testing: Mocks, Fakes & Testing Around Message Boundaries | 30 min | 📚 Knowledge | Draft | Pending |
 | B | 7 | Integration Testing with Real Infrastructure (DB + RabbitMQ + Kafka via Containers) | 30 min | 📚 Knowledge | Draft | Pending |
 | B | 8 | Contract & Schema Testing for Messages (Payload Validation & Backwards Compatibility) | 30 min | 📚 Knowledge | Draft | Pending |
 | B | 9 | End-to-End Scenarios & Debugging Asynchronous Flows | 30 min | 📚 Knowledge | Draft | Pending |
-| B | 10 (MP 2) | Mini Project 2: Message-Driven Mini Service with Full Test Suite *(after Session 9)* | 30–45 min | 🛠️ Project | Draft | Pending |
+| B | 10 (MP 2) | Mini Project 2: Message-Driven Mini Service with Full Test Suite *(after Session 9)* | 30 min | 🛠️ Project | Draft | Pending |
 
 ---
 

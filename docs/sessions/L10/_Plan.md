@@ -56,7 +56,7 @@ sessions:
     file: "docs/sessions/L10/S4.md"
   - session: "5 (MP 1)"
     topic: "Mini Project 1: File & Data Utility Powered by Stdlib"
-    duration: "30–45 min"
+    duration: "30 min"
     type: "Project"
     curriculum: "Draft"
     delivery: "Pending"
@@ -91,7 +91,7 @@ sessions:
     file: "docs/sessions/L10/S9.md"
   - session: "10 (MP 2)"
     topic: "Mini Project 2: Stdlib-Powered System / Log Toolkit"
-    duration: "30–45 min"
+    duration: "30 min"
     type: "Project"
     curriculum: "Draft"
     delivery: "Pending"
@@ -131,12 +131,12 @@ sessions:
 | A | 2 | Dates & Times with datetime and time | 30 min | 📚 Knowledge | Draft | Pending |
 | A | 3 | Smart Collections: collections (Counter, defaultdict, etc.) | 30 min | 📚 Knowledge | Draft | Pending |
 | A | 4 | Efficient Iteration with itertools | 30 min | 📚 Knowledge | Draft | Pending |
-| A | 5 (MP 1) | Mini Project 1: File & Data Utility Powered by Stdlib *(after Session 4)* | 30–45 min | 🛠️ Project | Draft | Pending |
+| A | 5 (MP 1) | Mini Project 1: File & Data Utility Powered by Stdlib *(after Session 4)* | 30 min | 🛠️ Project | Draft | Pending |
 | B | 6 | System & Environment Info with sys and platform | 30 min | 📚 Knowledge | Draft | Pending |
 | B | 7 | Running Other Programs Safely with subprocess | 30 min | 📚 Knowledge | Draft | Pending |
 | B | 8 | Structured Logging with logging | 30 min | 📚 Knowledge | Draft | Pending |
 | B | 9 | Text & Pattern Matching with re (Regex Intro) | 30 min | 📚 Knowledge | Draft | Pending |
-| B | 10 (MP 2) | Mini Project 2: Stdlib-Powered System / Log Toolkit *(after Session 9)* | 30–45 min | 🛠️ Project | Draft | Pending |
+| B | 10 (MP 2) | Mini Project 2: Stdlib-Powered System / Log Toolkit *(after Session 9)* | 30 min | 🛠️ Project | Draft | Pending |
 
 ---
 

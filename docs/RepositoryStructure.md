@@ -51,7 +51,25 @@ python-fundamentals/
 │   │   │   └── sessions.md
 │   │   ├── L8/
 │   │   │   └── sessions.md
-│   │   └── L9/
+│   │   ├── L9/
+│   │   │   └── sessions.md
+│   │   ├── L10/
+│   │   │   └── sessions.md
+│   │   ├── L11/
+│   │   │   └── sessions.md
+│   │   ├── L12/
+│   │   │   └── sessions.md
+│   │   ├── L13/
+│   │   │   └── sessions.md
+│   │   ├── L14/
+│   │   │   └── sessions.md
+│   │   ├── L15/
+│   │   │   └── sessions.md
+│   │   ├── L16/
+│   │   │   └── sessions.md
+│   │   ├── L17/
+│   │   │   └── sessions.md
+│   │   └── L18/
 │   │       └── sessions.md
 │   ├── PythonFileTemplates.md  # Approved Python file templates for lessons and helpers
 │   ├── RepositoryStructure.md  # This file

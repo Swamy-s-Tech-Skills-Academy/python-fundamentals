@@ -56,7 +56,7 @@ sessions:
     file: "docs/sessions/L16/S4.md"
   - session: "5 (MP 1)"
     topic: "Mini Project 1: CRUD Microservice for an Existing Domain (Tasks/Contacts/etc.)"
-    duration: "30–45 min"
+    duration: "30 min"
     type: "Project"
     curriculum: "Draft"
     delivery: "Pending"
@@ -91,7 +91,7 @@ sessions:
     file: "docs/sessions/L16/S9.md"
   - session: "10 (MP 2)"
     topic: "Mini Project 2: End-to-End Service with DB, Tests & API Documentation"
-    duration: "30–45 min"
+    duration: "30 min"
     type: "Project"
     curriculum: "Draft"
     delivery: "Pending"
@@ -133,12 +133,12 @@ sessions:
 | A | 2 | Designing API Endpoints & Request/Response Schemas (JSON Contracts) | 30 min | 📚 Knowledge | Draft | Pending |
 | A | 3 | Implementing a Simple CRUD API with a Python Web Framework | 30 min | 📚 Knowledge | Draft | Pending |
 | A | 4 | Hooking the API to the Data Layer (DB Repositories + Basic Validation) | 30 min | 📚 Knowledge | Draft | Pending |
-| A | 5 (MP 1) | Mini Project 1: CRUD Microservice for an Existing Domain (Tasks/Contacts/etc.) *(after Session 4)* | 30–45 min | 🛠️ Project | Draft | Pending |
+| A | 5 (MP 1) | Mini Project 1: CRUD Microservice for an Existing Domain (Tasks/Contacts/etc.) *(after Session 4)* | 30 min | 🛠️ Project | Draft | Pending |
 | B | 6 | Service Structure: Routers/Controllers, Services & Repositories | 30 min | 📚 Knowledge | Draft | Pending |
 | B | 7 | Basic Security & Guardrails: Simple Auth, Input Validation & Error Handling | 30 min | 📚 Knowledge | Draft | Pending |
 | B | 8 | Testing the Service: Unit Tests for Logic, Functional Tests for Endpoints | 30 min | 📚 Knowledge | Draft | Pending |
 | B | 9 | Running the Service Locally: Environments, Config & Simple Documentation | 30 min | 📚 Knowledge | Draft | Pending |
-| B | 10 (MP 2) | Mini Project 2: End-to-End Service with DB, Tests & API Documentation *(after Session 9)* | 30–45 min | 🛠️ Project | Draft | Pending |
+| B | 10 (MP 2) | Mini Project 2: End-to-End Service with DB, Tests & API Documentation *(after Session 9)* | 30 min | 🛠️ Project | Draft | Pending |
 
 ---
 

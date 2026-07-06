@@ -57,7 +57,7 @@ sessions:
     file: "docs/sessions/L4/S4.md"
   - session: "5 (MP 1)"
     topic: "Mini Project 1: Refactor a Script into a Class Design"
-    duration: "30–45 min"
+    duration: "30 min"
     type: "Project"
     curriculum: "Draft"
     delivery: "Pending"
@@ -92,7 +92,7 @@ sessions:
     file: "docs/sessions/L4/S9.md"
   - session: "10 (MP 2)"
     topic: "Mini Project 2: Clean, Tested OOP Console Application"
-    duration: "30–45 min"
+    duration: "30 min"
     type: "Project"
     curriculum: "Draft"
     delivery: "Pending"
@@ -134,12 +134,12 @@ sessions:
 | A | 2 | Designing Responsibilities & Avoiding God Classes | 30 min | 📚 Knowledge | Draft | Pending |
 | A | 3 | Improving Class Interfaces (KISS for Methods & Classes) | 30 min | 📚 Knowledge | Draft | Pending |
 | A | 4 | Intro to Refactoring: Making Existing Code Cleaner | 30 min | 📚 Knowledge | Draft | Pending |
-| A | 5 (MP 1) | Mini Project 1: Refactor a Script into a Class Design *(after Session 4)* | 30–45 min | 🛠️ Project | Draft | Pending |
+| A | 5 (MP 1) | Mini Project 1: Refactor a Script into a Class Design *(after Session 4)* | 30 min | 🛠️ Project | Draft | Pending |
 | B | 6 | Clean Code Principles: KISS, DRY, YAGNI (Applied) | 30 min | 📚 Knowledge | Draft | Pending |
 | B | 7 | Reading & Reviewing Code: Finding Smells in OOP Code | 30 min | 📚 Knowledge | Draft | Pending |
 | B | 8 | Intro Unit Tests for Classes (Arrange–Act–Assert) | 30 min | 📚 Knowledge | Draft | Pending |
 | B | 9 | Organizing a Small OOP Project (Modules & Packages) | 30 min | 📚 Knowledge | Draft | Pending |
-| B | 10 (MP 2) | Mini Project 2: Clean, Tested OOP Console Application *(after Session 9)* | 30–45 min | 🛠️ Project | Draft | Pending |
+| B | 10 (MP 2) | Mini Project 2: Clean, Tested OOP Console Application *(after Session 9)* | 30 min | 🛠️ Project | Draft | Pending |
 
 ---
 

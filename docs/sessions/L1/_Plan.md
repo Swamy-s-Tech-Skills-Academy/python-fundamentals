@@ -3,12 +3,12 @@ learning_level: "Noob → Nerd"
 level_number: 1
 stage_part: "Part 1 — Python Fundamentals"
 prerequisites: []
-total_duration: "~5–6 hours core guided instruction (+ optional reinforcement)"
+total_duration: "~5 hours core guided instruction (+ optional reinforcement)"
 format: "2 phases × (4 sessions + 1 mini project) = 10 sessions total"
 outcome: "2 Mini Projects to cement your foundation"
 transformation_focus: "Evolving mindset from complete beginner to someone genuinely curious about programming"
 curriculum_status: "Validated"
-delivery_status: "S1–S5 completed; S6 published; S7–S8 planned; S9–S10 pending (see docs/meetup/L1/sessions.md)"
+delivery_status: "S1–S5 completed; S6–S8 published; S9–S10 pending (see docs/meetup/L1/sessions.md)"
 repository_status: "Implemented"
 master_plan: "docs/01_Python-Fundamentals-MasterPlan.md"
 learning_objectives:
@@ -63,7 +63,7 @@ sessions:
     file: "docs/sessions/L1/S4.md"
   - session: "5 (MP 1)"
     topic: "Mini Project 1: Simple Calculator"
-    duration: "30–45 min"
+    duration: "30 min"
     type: "Project"
     curriculum: "Validated"
     delivery: "Completed"
@@ -80,14 +80,14 @@ sessions:
     duration: "30 min"
     type: "Knowledge"
     curriculum: "Validated"
-    delivery: "Planned"
+    delivery: "Published"
     file: "docs/sessions/L1/S7.md"
   - session: 8
     topic: "Lists, Iteration & String Sequences"
     duration: "30 min"
     type: "Knowledge"
     curriculum: "Validated"
-    delivery: "Planned"
+    delivery: "Published"
     file: "docs/sessions/L1/S8.md"
   - session: 9
     topic: "Dictionaries & Basic Testing"
@@ -98,7 +98,7 @@ sessions:
     file: "docs/sessions/L1/S9.md"
   - session: "10 (MP 2)"
     topic: "Mini Project 2: Personal Profile Generator"
-    duration: "30–45 min"
+    duration: "30 min"
     type: "Project"
     curriculum: "Validated"
     delivery: "Pending"
@@ -114,7 +114,7 @@ sessions:
 > 1. **Level:** Noob → Nerd *(first exposure, installing Python, printing output)*
 > 1. **Format:** 2 phases × (4 sessions + 1 mini project) = 10 sessions total
 > 1. **Outcome:** 2 Mini Projects to cement your foundation
-> 1. **Core guided time:** ~5–6 hours (8 × 30 min + 2 × 30–45 min MPs) — optional S6/S8 drills add practice time
+> 1. **Core guided time:** ~5 hours (10 × 30 min sessions, including 2 mini projects) — optional S6/S8 drills add practice time
 
 ## Powered by ShyvnTech & Swamy's Tech Skills Academy
 
@@ -125,25 +125,25 @@ sessions:
 | Axis | Status |
 | --- | --- |
 | **Curriculum** | Validated — session docs + practice files complete |
-| **Delivery** | S1–S5 completed · S6 published · S7–S8 planned · S9–S10 pending ([meetup table](../../meetup/L1/sessions.md)) |
+| **Delivery** | S1–S5 completed · S6–S8 published · S9–S10 pending ([meetup table](../../meetup/L1/sessions.md)) |
 | **Repository** | Implemented — `src/L1/S1` through `S10` |
 
 ---
 
 ## 🎯 **Level 1 Learning Path (Noob → Nerd)**
 
-| Phase | Session | Topic                                                  | Duration  | Type         | Curriculum | Delivery   |
-| ----- | ------- | ------------------------------------------------------ | --------- | ------------ | ---------- | ---------- |
-| A     | 1       | Python Introduction, Environment & Built-in Functions  | 30 min    | 📚 Knowledge | Validated  | Completed  |
-| A     | 2       | Variables & Data Types                                 | 30 min    | 📚 Knowledge | Validated  | Completed  |
-| A     | 3       | Operators & Expressions                                | 30 min    | 📚 Knowledge | Validated  | Completed  |
-| A     | 4       | Conditionals, Indentation & Introduction to Modules    | 30 min    | 📚 Knowledge | Validated  | Completed  |
-| A     | 5 (MP 1) | Mini Project 1: Simple Calculator *(after Session 4)*  | 30–45 min | 🛠️ Project   | Validated  | Completed  |
-| B     | 6       | Loops & Iteration                                      | 30 min    | 📚 Knowledge | Validated  | Published  |
-| B     | 7       | Basic Debugging, Reading Errors & Built-in Functions   | 30 min    | 📚 Knowledge | Validated  | Planned    |
-| B     | 8       | Lists, Iteration & String Sequences                    | 30 min    | 📚 Knowledge | Validated  | Planned    |
-| B     | 9       | Dictionaries & Basic Testing                           | 30 min    | 📚 Knowledge | Validated  | Pending    |
-| B     | 10 (MP 2) | Mini Project 2: Personal Profile Generator *(after Session 9)* | 30–45 min | 🛠️ Project   | Validated  | Pending    |
+| Phase | Session     | Topic                                                          | Duration  | Type         | Curriculum | Delivery   |
+| ----- | ----------- | -------------------------------------------------------------- | --------- | ------------ | ---------- | ---------- |
+| A     | 1           | Python Introduction, Environment & Built-in Functions          | 30 min    | 📚 Knowledge  | Validated  | Completed  |
+| A     | 2           | Variables & Data Types                                         | 30 min    | 📚 Knowledge  | Validated  | Completed  |
+| A     | 3           | Operators & Expressions                                        | 30 min    | 📚 Knowledge  | Validated  | Completed  |
+| A     | 4           | Conditionals, Indentation & Introduction to Modules            | 30 min    | 📚 Knowledge  | Validated  | Completed  |
+| A     | 5 (MP 1)    | Mini Project 1: Simple Calculator *(after Session 4)*          | 30 min    | 🛠️ Project   | Validated  | Completed  |
+| B     | 6           | Loops & Iteration                                              | 30 min    | 📚 Knowledge  | Validated  | Published  |
+| B     | 7           | Basic Debugging, Reading Errors & Built-in Functions           | 30 min    | 📚 Knowledge  | Validated  | Published  |
+| B     | 8           | Lists, Iteration & String Sequences                            | 30 min    | 📚 Knowledge  | Validated  | Published  |
+| B     | 9           | Dictionaries & Basic Testing                                   | 30 min    | 📚 Knowledge  | Validated  | Pending    |
+| B     | 10 (MP 2)   | Mini Project 2: Personal Profile Generator *(after Session 9)* | 30 min    | 🛠️ Project   | Validated  | Pending    |
 
 ---
 
@@ -327,7 +327,7 @@ Optional reinforcement (boolean precedence & truthy/falsy):
 
 ---
 
-### ✅ Session 7: Basic Debugging & Built-in Functions *(Validated · delivery: Planned)*
+### ✅ Session 7: Basic Debugging & Built-in Functions *(Validated · delivery: Published)*
 
 * Error types: syntax vs runtime
 * Reading error messages
@@ -346,7 +346,7 @@ Optional reinforcement (boolean precedence & truthy/falsy):
 
 ---
 
-### ✅ Session 8: Lists, Iteration & String Sequences *(Validated · delivery: Planned)*
+### ✅ Session 8: Lists, Iteration & String Sequences *(Validated · delivery: Published)*
 
 **Core (30-minute session):**
 

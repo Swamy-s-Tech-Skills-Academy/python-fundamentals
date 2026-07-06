@@ -51,7 +51,7 @@ Authoring rule: **never invent paths** — align with [`RepositoryStructure.md`]
 | Band | Hours (approx.) | What it includes |
 | --- | --- | --- |
 | **Core guided instruction** | ~90 | 18 × 10 × 30 min sessions |
-| **Mini projects** | ~35–45 | 36 MPs at 30–45 min each |
+| **Mini projects** | ~18 | 36 MPs at 30 min each |
 | **Practice & optional reinforcement** | ~40–60 | Extra drills (e.g. L1 S8 strings/lists) |
 | **Guided labs (esp. L13–18)** | ~40–70 | Docker, DB setup, messaging, integration |
 | **Stretch & portfolio** | Optional | Capstone polish, portfolio case studies |
@@ -256,7 +256,7 @@ Before moving to Level 2, you should be able to:
 ### **🔧 Level 2: Nerd → Novice** *(Skill Development — Part 1)*
 
 **Focus:** Functions, error handling, file operations, modular programming  
-**Duration:** ~5–6 hours core sessions + MPs  
+**Duration:** ~5 hours (10 × 30 min sessions, including 2 mini projects)  
 **Curriculum:** Validated · **Delivery:** All pending · **Repository:** Implemented  
 **Level plan:** [docs/sessions/L2/_Plan.md](sessions/L2/_Plan.md)
 

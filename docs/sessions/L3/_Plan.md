@@ -64,7 +64,7 @@ sessions:
     file: "docs/sessions/L3/S4.md"
   - session: "5 (MP 1)"
     topic: "Mini Project 1: Object-Based Profile Manager"
-    duration: "30–45 min"
+    duration: "30 min"
     type: "Project"
     curriculum: "Draft"
     delivery: "Pending"
@@ -99,7 +99,7 @@ sessions:
     file: "docs/sessions/L3/S9.md"
   - session: "10 (MP 2)"
     topic: "Mini Project 2: Object-Oriented Task / Inventory App"
-    duration: "30–45 min"
+    duration: "30 min"
     type: "Project"
     curriculum: "Draft"
     delivery: "Pending"
@@ -141,12 +141,12 @@ sessions:
 | A | 2 | Defining Classes & Creating Objects | 30 min | 📚 Knowledge | Draft | Pending |
 | A | 3 | `__init__`, Attributes & Basic Encapsulation | 30 min | 📚 Knowledge | Draft | Pending |
 | A | 4 | Instance Methods & Working with Object State | 30 min | 📚 Knowledge | Draft | Pending |
-| A | 5 (MP 1) | Mini Project 1: Object-Based Profile Manager *(after Session 4)* | 30–45 min | 🛠️ Project | Draft | Pending |
+| A | 5 (MP 1) | Mini Project 1: Object-Based Profile Manager *(after Session 4)* | 30 min | 🛠️ Project | Draft | Pending |
 | B | 6 | Composing Multiple Objects (Has-a Relationships) | 30 min | 📚 Knowledge | Draft | Pending |
 | B | 7 | Collections of Objects (Lists of Objects) | 30 min | 📚 Knowledge | Draft | Pending |
 | B | 8 | User-Friendly Objects with `__str__` / `__repr__` | 30 min | 📚 Knowledge | Draft | Pending |
 | B | 9 | Refactoring Scripts into Classes (OOP in Practice) | 30 min | 📚 Knowledge | Draft | Pending |
-| B | 10 (MP 2) | Mini Project 2: Object-Oriented Task / Inventory App *(after Session 9)* | 30–45 min | 🛠️ Project | Draft | Pending |
+| B | 10 (MP 2) | Mini Project 2: Object-Oriented Task / Inventory App *(after Session 9)* | 30 min | 🛠️ Project | Draft | Pending |
 
 ---
 
