@@ -1,7 +1,7 @@
 # Repository Structure & Context
 
-**Version**: 1.1  
-**Last Updated**: April 2026
+**Version**: 1.2  
+**Last Updated**: July 2026
 
 ---
 
@@ -26,6 +26,10 @@
 | **`python-fundamentals-in-practice`** | **Meetup replica** — synced copy for live meetup delivery; not the authoring source |
 
 Author and validate in this repo first; sync scoped meetup content to the replica when ready.
+
+### Python-only repository scope
+
+This repository is **Python fundamentals curriculum only**. In-scope: `docs/sessions/`, `src/L{level}/`, `docs/images/`, `docs/meetup/`, intake migration (`source-material/`, `src/Working/`). Out of scope: AWS, cloud platforms, Bedrock, and other non-Python course tracks. Do not migrate non-Python files from ignored `source-material/` into formal curriculum paths.
 
 ### 🚨 CRITICAL: Repository Purpose & Code Organization
 
