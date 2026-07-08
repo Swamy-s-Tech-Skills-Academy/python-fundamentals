@@ -13,6 +13,19 @@ import shutil
 import sys
 import tempfile
 
+
+def _configure_console_encoding() -> None:
+    """Prefer UTF-8 stdout on Windows so lesson symbols print without UnicodeEncodeError."""
+    reconfigure = getattr(sys.stdout, "reconfigure", None)
+    if callable(reconfigure):
+        try:
+            reconfigure(encoding="utf-8")
+        except (OSError, ValueError):
+            pass
+
+
+_configure_console_encoding()
+
 demo_dir = tempfile.mkdtemp(prefix="pyfund_l2_s9_name_main_")
 
 print("=" * 60)
@@ -158,23 +171,23 @@ This module demonstrates the __name__ == "__main__" pattern
 for including test code that only runs during direct execution.
 """
 
-def add(a, b):
+def add(first_number, second_number):
     """Add two numbers."""
-    return a + b
+    return first_number + second_number
 
-def subtract(a, b):
-    """Subtract b from a."""
-    return a - b
+def subtract(first_number, second_number):
+    """Subtract second_number from first_number."""
+    return first_number - second_number
 
-def multiply(a, b):
+def multiply(first_number, second_number):
     """Multiply two numbers."""
-    return a * b
+    return first_number * second_number
 
-def divide(a, b):
-    """Divide a by b, returns None if b is zero."""
-    if b == 0:
+def divide(first_number, second_number):
+    """Divide first_number by second_number, returns None if second_number is zero."""
+    if second_number == 0:
         return None
-    return a / b
+    return first_number / second_number
 
 def power(base, exponent):
     """Raise base to the power of exponent."""

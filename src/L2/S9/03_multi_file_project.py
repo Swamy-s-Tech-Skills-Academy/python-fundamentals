@@ -13,6 +13,19 @@ import shutil
 import sys
 import tempfile
 
+
+def _configure_console_encoding() -> None:
+    """Prefer UTF-8 stdout on Windows so lesson symbols print without UnicodeEncodeError."""
+    reconfigure = getattr(sys.stdout, "reconfigure", None)
+    if callable(reconfigure):
+        try:
+            reconfigure(encoding="utf-8")
+        except (OSError, ValueError):
+            pass
+
+
+_configure_console_encoding()
+
 print("=" * 60)
 print("🏗️ BUILDING A MULTI-FILE PROJECT")
 print("=" * 60)
@@ -83,33 +96,33 @@ Mathematical operations module.
 Contains all the calculation functions for the calculator.
 """
 
-def add(a, b):
+def add(first_number, second_number):
     """Add two numbers."""
-    return a + b
+    return first_number + second_number
 
-def subtract(a, b):
-    """Subtract b from a."""
-    return a - b
+def subtract(first_number, second_number):
+    """Subtract second_number from first_number."""
+    return first_number - second_number
 
-def multiply(a, b):
+def multiply(first_number, second_number):
     """Multiply two numbers."""
-    return a * b
+    return first_number * second_number
 
-def divide(a, b):
-    """Divide a by b. Returns None if b is zero."""
-    if b == 0:
+def divide(first_number, second_number):
+    """Divide first_number by second_number. Returns None if second_number is zero."""
+    if second_number == 0:
         return None
-    return a / b
+    return first_number / second_number
 
 def power(base, exp):
     """Raise base to the power of exp."""
     return base ** exp
 
-def modulo(a, b):
-    """Get remainder of a divided by b."""
-    if b == 0:
+def modulo(first_number, second_number):
+    """Get remainder of first_number divided by second_number."""
+    if second_number == 0:
         return None
-    return a % b
+    return first_number % second_number
 
 
 # Test the operations when run directly
@@ -156,7 +169,7 @@ def format_result(value):
     return f"{value:.{config.DECIMAL_PLACES}f}"
 
 
-def display_result(operation, a, b, result):
+def display_result(operation, first_number, second_number, result):
     """Display a calculation result in a nice format."""
     symbols = {
         'add': '+',
@@ -168,7 +181,7 @@ def display_result(operation, a, b, result):
     }
     symbol = symbols.get(operation, '?')
     formatted = format_result(result)
-    print(f"  📊 {a} {symbol} {b} = {formatted}")
+    print(f"  📊 {first_number} {symbol} {second_number} = {formatted}")
 
 
 def show_menu():
@@ -225,20 +238,20 @@ import operations
 import utils
 
 
-def calculate(choice, a, b):
+def calculate(choice, first_number, second_number):
     """Perform the calculation based on user choice."""
     if choice == 1:
-        return operations.add(a, b), 'add'
+        return operations.add(first_number, second_number), 'add'
     elif choice == 2:
-        return operations.subtract(a, b), 'subtract'
+        return operations.subtract(first_number, second_number), 'subtract'
     elif choice == 3:
-        return operations.multiply(a, b), 'multiply'
+        return operations.multiply(first_number, second_number), 'multiply'
     elif choice == 4:
-        return operations.divide(a, b), 'divide'
+        return operations.divide(first_number, second_number), 'divide'
     elif choice == 5:
-        return operations.power(a, b), 'power'
+        return operations.power(first_number, second_number), 'power'
     elif choice == 6:
-        return operations.modulo(a, b), 'modulo'
+        return operations.modulo(first_number, second_number), 'modulo'
 
 
 def main():
@@ -262,18 +275,18 @@ def main():
             break
         
         # Get numbers
-        a = utils.get_number("Enter first number: ")
-        b = utils.get_number("Enter second number: ")
+        first_number = utils.get_number("Enter first number: ")
+        second_number = utils.get_number("Enter second number: ")
         
         # Calculate
-        result, op_name = calculate(choice, a, b)
+        result, op_name = calculate(choice, first_number, second_number)
         
         # Display result
-        utils.display_result(op_name, a, b, result)
+        utils.display_result(op_name, first_number, second_number, result)
         
         # Add to history
         formatted = utils.format_result(result)
-        history.append(f"{a} {op_name} {b} = {formatted}")
+        history.append(f"{first_number} {op_name} {second_number} = {formatted}")
 
 
 if __name__ == "__main__":

@@ -13,6 +13,19 @@ import shutil
 import sys
 import tempfile
 
+
+def _configure_console_encoding() -> None:
+    """Prefer UTF-8 stdout on Windows so lesson symbols print without UnicodeEncodeError."""
+    reconfigure = getattr(sys.stdout, "reconfigure", None)
+    if callable(reconfigure):
+        try:
+            reconfigure(encoding="utf-8")
+        except (OSError, ValueError):
+            pass
+
+
+_configure_console_encoding()
+
 demo_dir = tempfile.mkdtemp(prefix="pyfund_l2_s9_modules_")
 module_path = os.path.join(demo_dir, "string_utils.py")
 

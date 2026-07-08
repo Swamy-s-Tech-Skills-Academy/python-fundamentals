@@ -168,26 +168,26 @@ Before finalizing session documentation:
 `src/L1/S1/01_hello.py`, `src/L1/S1/02_interactive_hello.py`
 ```
 
-#### ❌ **ERROR: Mismatched File Names**
+#### ❌ **ERROR: Missing Numeric Prefixes**
 
 **Problem Pattern:**
 
 ```markdown
-# WRONG - Uses outdated session doc naming
-[Session 1](docs/sessions/L1/01_S1.md)
+# WRONG - Missing numeric prefix in reference
+[Session 1](docs/sessions/L1/S1.md)
 🧪 *Practice Files*: `src/L1/S1/hello.py`
 ```
 
 **Root Cause:**
 
-- References use outdated file names
+- References don't include numeric prefixes (`01_`, `02_`, etc.)
 - File names in references don't match actual file names
-- Need to use exact current file names
+- Need to use exact file names including prefixes
 
 **Correct Format:**
 
 ```markdown
-# CORRECT - Matches current file names
+# CORRECT - Includes numeric prefixes
 [Session 1](docs/sessions/L1/S1.md)
 🧪 *Practice Files*: `src/L1/S1/01_hello.py`
 ```

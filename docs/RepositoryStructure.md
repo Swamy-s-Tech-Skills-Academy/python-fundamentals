@@ -303,7 +303,7 @@ Intake notes in gitignored `source-material/Module3`–`Module6` map to Working 
 
 | Working lane | Intake topics (summary) | Formal destination |
 | --- | --- | --- |
-| `module3/` | PEP 8 style; assignment patterns; type conversion; arithmetic; `print(sep=, end=)`; escape sequences | `S5` (PEP 8, `del`/bool), `S6` (optional assignment/conversion drills), `S7` (PEP 8 revisit, print/escape) |
+| `module3/` | PEP 8 style; assignment patterns; type conversion; arithmetic; `print(sep=, end=)`; escape sequences | `S5` (PEP 8, `del`/bool), `S6` (optional assignment/conversion drills), `S7` (PEP 8 revisit, print/escape); arithmetic canonical home is **`S3/01_arithmetic.py`** |
 | `module4/` | Boolean precedence; truthy/falsy; short-circuit evaluation | `S4` (core boolean logic), `S6/08`, `S6/09` (optional reinforcement) |
 | `module5/` | Strings as sequences: operators, `len`, methods, indexing/slicing, formatting (`%`, `.format()`, f-strings) | `S8/04`–`S8/12`, `S8/16`–`S8/17` (optional string reinforcement) |
 | `module6/` | Lists: creation, indexing, methods (`append`, `remove`, `insert`, `pop`, `sort`, `reverse`) | `S8/01`–`S8/03` (core), `S8/13`–`S8/15` (optional list-method drills) |
