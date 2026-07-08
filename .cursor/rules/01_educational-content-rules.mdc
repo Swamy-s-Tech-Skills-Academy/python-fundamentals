@@ -1,7 +1,7 @@
 # Educational Content Rules (Python Fundamentals)
 
-**Version**: 1.0  
-**Last Updated**: December 2025  
+**Version**: 1.2  
+**Last Updated**: July 2026  
 **Priority**: MANDATORY - All content creation must follow these rules without exception
 
 ---
@@ -17,18 +17,17 @@
 ✅ **ALWAYS** write fresh, minimal code from first principles  
 ✅ Brief quotations allowed ONLY with quotation marks and source citation
 
-### Internal Source Intake Rules
+### Internal Source Intake and Session Placement Rules
 
 ✅ Borrow concepts and misconception patterns; do not reuse original wording, section order, or narration from source notes  
 ✅ Treat `source-material/` as internal, read-only instructor intake only; curriculum output must be rewritten in fresh structure and voice  
+✅ **Python-only intake:** promote material from `source-material/` or `src/Working/` only when it supports the **Python Fundamentals** curriculum (`docs/sessions/`, `src/L{level}/`)  
+❌ **Do not migrate** non-Python instructor intake (e.g. AWS, cloud, or Bedrock meetup outlines) into this repository — leave it in ignored `source-material/` or route to a separate repo  
 ✅ Promote `src/Working/` examples only after cleanup, renaming, and session-outcome alignment — **and only when Swamy explicitly asks** you to edit or promote those Working files (otherwise leave `src/Working/` unchanged)  
 ✅ Keep publish-facing references on formal paths (`src/L{level}/S{session}/`), never sandbox paths  
 ✅ Route newly added content to planned/new sessions first; avoid backfilling completed sessions by default  
 ✅ Apply the same quality gates to imported ideas: clarity, technical correctness, and beginner pedagogy  
-❌ Do not place internal intake-policy process blocks inside publish-facing curriculum docs
-
-### Completed Session Permission Rule
-
+❌ Do not place internal intake-policy process blocks inside publish-facing curriculum docs  
 ✅ Use `docs/meetup/L1/sessions.md` status table as placement context for Level 1 meetup updates  
 ❌ Do not insert new learning content into sessions marked completed without explicit user permission  
 ✅ If there is any ambiguity in status or target session, ask before placing content

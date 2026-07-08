@@ -9,9 +9,9 @@ Repository agent guidance for automation and code assistants.
 
 ## 1. What this repository is
 
-- **Purpose:** Educational **Python fundamentals** curriculum (progressive levels, ~30-minute sessions, practice code under `src/`, session write-ups under `docs/sessions/`, meetup summaries under `docs/meetup/`).
+- **Purpose:** Educational **Python fundamentals** curriculum only (progressive levels, ~30-minute sessions, practice code under `src/`, session write-ups under `docs/sessions/`, meetup summaries under `docs/meetup/`).
 - **Tone:** Beginner-friendly, hands-on, visually clear. Content must be **transformative**, not copied from third-party materials (see Zero-Copy Policy below).
-- **Non-goals:** This is not a production app repository; code teaches concepts and must remain runnable and readable.
+- **Non-goals:** This is not a production app repository; code teaches concepts and must remain runnable and readable. This is **not** a home for AWS, cloud, Bedrock, or other non-Python course tracks.
 
 ### Two-repository model (workspace)
 

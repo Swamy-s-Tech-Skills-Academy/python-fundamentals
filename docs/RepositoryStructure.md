@@ -187,7 +187,8 @@ python-fundamentals/
 │       │   ├── 13_list_append_remove.py
 │       │   ├── 14_list_insert_pop.py
 │       │   ├── 15_list_sort_reverse.py
-│       │   └── 16_percent_formatting.py
+│       │   ├── 16_percent_formatting.py
+│       │   └── 17_string_compound_operators.py
 │       ├── S9/                 # Session 9 practice files
 │       │   ├── 01_dict_basics.py
 │       │   ├── 02_dict_iteration.py
@@ -304,7 +305,7 @@ Intake notes in gitignored `source-material/Module3`–`Module6` map to Working 
 | --- | --- | --- |
 | `module3/` | PEP 8 style; assignment patterns; type conversion; arithmetic; `print(sep=, end=)`; escape sequences | `S5` (PEP 8, `del`/bool), `S6` (optional assignment/conversion drills), `S7` (PEP 8 revisit, print/escape) |
 | `module4/` | Boolean precedence; truthy/falsy; short-circuit evaluation | `S4` (core boolean logic), `S6/08`, `S6/09` (optional reinforcement) |
-| `module5/` | Strings as sequences: operators, `len`, methods, indexing/slicing, formatting (`%`, `.format()`, f-strings) | `S8/04`–`S8/12`, `S8/16` (optional string reinforcement) |
+| `module5/` | Strings as sequences: operators, `len`, methods, indexing/slicing, formatting (`%`, `.format()`, f-strings) | `S8/04`–`S8/12`, `S8/16`–`S8/17` (optional string reinforcement) |
 | `module6/` | Lists: creation, indexing, methods (`append`, `remove`, `insert`, `pop`, `sort`, `reverse`) | `S8/01`–`S8/03` (core), `S8/13`–`S8/15` (optional list-method drills) |
 | *(no Working lane)* | Core loops, debugging, built-ins, dictionaries, `assert`, Profile Generator capstone | `S6/01`–`S6/04`, `S7/01`–`S7/03`, `S9/*`, `S10/*` (authored directly into formal paths) |
 
