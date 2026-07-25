@@ -14,6 +14,10 @@ Teaching arc:
 
 import sys
 
+if hasattr(sys.stdout, "reconfigure"):
+    # Force UTF-8 so emoji/text samples run on common Windows terminals.
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+
 HELP_TEXT = """05_pep8_indentation.py
 
 Purpose

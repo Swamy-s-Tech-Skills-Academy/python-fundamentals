@@ -48,8 +48,8 @@ def main(argv: list[str]) -> int:
     # Example 4: IndexError
     print("--- IndexError Example ---")
     try:
-        my_list = [1, 2, 3]
-        print(my_list[10])
+        numbers = [1, 2, 3]
+        print(numbers[10])
     except IndexError as e:
         print(f"IndexError: {e}")
         print("Fix: Use valid index (0 to len-1)\n")
@@ -65,8 +65,8 @@ def main(argv: list[str]) -> int:
     # Example 6: KeyError
     print("--- KeyError Example ---")
     try:
-        my_dict = {"name": "Alice"}
-        print(my_dict["age"])
+        profile = {"name": "Alice"}
+        print(profile["age"])
     except KeyError as e:
         print(f"KeyError: {e}")
         print("Fix: Check if key exists or use .get() method\n")

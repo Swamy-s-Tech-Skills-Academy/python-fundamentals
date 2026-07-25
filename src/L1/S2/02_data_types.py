@@ -1,6 +1,12 @@
 # Filename: src/L1/S2/02_data_types.py
 # Session 2: The four common types — predict, then run
 
+import sys
+
+if hasattr(sys.stdout, "reconfigure"):
+    # Force UTF-8 so emoji/text samples run on common Windows terminals.
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+
 print("=== Python's four fundamental types ===\n")
 print("Guess the type before we print: int or float? str or int? (Ask → run → explain.)\n")
 

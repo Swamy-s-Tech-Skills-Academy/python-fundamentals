@@ -6,6 +6,11 @@
 # Preview: disassembly and functions — full story comes in later sessions.
 
 import dis
+import sys
+
+if hasattr(sys.stdout, "reconfigure"):
+    # Force UTF-8 so emoji/text samples run on common Windows terminals.
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
 print("🚀 Advanced Python Preview")
 print("=" * 50)
