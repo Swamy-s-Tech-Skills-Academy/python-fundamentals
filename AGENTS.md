@@ -97,6 +97,7 @@ This project **expects explicit reasoning** in learning material and in agent wo
 6. `pytest -q`
 7. `npx --yes markdownlint-cli2 "README.md" "docs/**/*.md" ".github/**/*.md"`
 8. `./scripts/docs-links.ps1` (Docker required)
+9. `python tools/verify-mirrors.py` (verify governance layer parity) — optional but recommended for governance or mirror file changes
 
 ---
 

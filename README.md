@@ -189,6 +189,20 @@ Generate current repository structure for documentation:
 
 `scripts/repo-structure.txt` is an optional local artifact and is not tracked by Git.
 
+### **Verify mirror parity** (governance files)
+
+Check that mirror layers (`.clinerules/`, `.opencode/`) stay in sync with canonical sources (`.cursor/`, `AGENTS.md`):
+
+```bash
+python tools/verify-mirrors.py
+```
+
+This script verifies:
+- Subdirectory structure across all layers
+- Agent and skill file inventory consistency
+- No stale references or secondary-source drift
+- No `src/Working/` paths in publish-facing documentation
+
 ---
 
 ## 🤝 **Contributing**

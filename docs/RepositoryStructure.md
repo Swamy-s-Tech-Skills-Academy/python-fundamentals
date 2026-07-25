@@ -11,7 +11,7 @@ This document provides a detailed overview of the Python Fundamentals repository
 | **OpenCode** | `.opencode/` | Plugin config + same mirrors as Cline |
 | **Copilot** | `.github/copilot-instructions.md`, `.github/prompts/`, `.github/instructions/` | In-IDE alignment |
 
-If a mirror references another repo (`python-fundamentals-in-practice`), `docs/02_RepositoryStructure.md`, or `tools/psscripts/`, treat that as drift and fix the mirror — not this document.
+**Drift safeguard:** If a mirror file references a secondary structure doc (e.g., `docs/02_RepositoryStructure.md`) or external tools (e.g., `tools/psscripts/`), that signals drift — mirrors should point only to this canonical doc, not alternatives or secondary sources. Fix the mirror, not this document.
 
 ## Two-repository model (workspace)
 
