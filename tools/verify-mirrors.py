@@ -30,7 +30,7 @@ def check_mirrors():
     }
 
     # 1. Check subdirectory parity
-    print("🔍 Checking subdirectory parity...")
+    print("[*] Checking subdirectory parity...")
     canonical_subdirs = {d.name for d in canonical_path.iterdir() if d.is_dir()}
 
     for mirror_name, mirror_path in mirrors.items():
@@ -40,11 +40,11 @@ def check_mirrors():
         missing = canonical_subdirs - mirror_subdirs
         if missing:
             issues.append(
-                f"  ⚠ {mirror_name} missing subdirs: {', '.join(missing)}"
+                f"  [WARNING] {mirror_name} missing subdirs: {', '.join(missing)}"
             )
 
     # 2. Check agent file counts in agents/ subdirectories
-    print("🔍 Checking agent file inventories...")
+    print("[*] Checking agent file inventories...")
     canonical_agents = set(
         f.name for f in (canonical_path / "agents").glob("*.md")
     )
@@ -60,12 +60,12 @@ def check_mirrors():
             # session-roadmap-review), but file count should be similar
             if len(mirror_agents) < len(canonical_agents) - 1:
                 issues.append(
-                    f"  ⚠ {mirror_name}/agents/ has significantly fewer files "
+                    f"  [WARNING] {mirror_name}/agents/ has significantly fewer files "
                     f"({len(mirror_agents)} vs {len(canonical_agents)} canonical)"
                 )
 
     # 3. Drift detection: check AGENTS.md files for stale references
-    print("🔍 Checking for stale/drift references in AGENTS.md files...")
+    print("[*] Checking for stale/drift references in AGENTS.md files...")
     agents_files = [
         repo_root / "AGENTS.md",
         repo_root / ".clinerules" / "AGENTS.md",
@@ -93,12 +93,12 @@ def check_mirrors():
             for pattern in ["docs/02_RepositoryStructure", "tools/psscripts"]:
                 if pattern in content:
                     issues.append(
-                        f"  ⚠ {agents_file.relative_to(repo_root)} references "
+                        f"  [WARNING] {agents_file.relative_to(repo_root)} references "
                         f"'{pattern}' (should not exist)"
                     )
 
     # 4. Check that core policy files exist and are not empty
-    print("🔍 Checking core policy files...")
+    print("[*] Checking core policy files...")
     required_files = [
         repo_root / "CLAUDE.md",
         repo_root / "AGENTS.md",
@@ -109,35 +109,35 @@ def check_mirrors():
 
     for file_path in required_files:
         if not file_path.exists():
-            issues.append(f"  ✗ Missing: {file_path.relative_to(repo_root)}")
+            issues.append(f"  [FAIL] Missing: {file_path.relative_to(repo_root)}")
         elif file_path.stat().st_size < 100:
             issues.append(
-                f"  ⚠ Suspiciously small (may be template): "
+                f"  [WARNING] Suspiciously small (may be template): "
                 f"{file_path.relative_to(repo_root)}"
             )
         else:
-            print(f"  ✓ {file_path.relative_to(repo_root)}")
+            print(f"  [OK] {file_path.relative_to(repo_root)}")
 
     # 5. Check that mirrors don't reference Working paths in publish-facing docs
-    print("🔍 Checking for Working/ paths in publish-facing docs...")
+    print("[*] Checking for Working/ paths in publish-facing docs...")
     session_docs = (repo_root / "docs" / "sessions").glob("**/*.md")
     for doc in session_docs:
         content = doc.read_text(encoding="utf-8")
         if "src/Working/" in content:
             issues.append(
-                f"  ✗ {doc.relative_to(repo_root)} contains reference to "
+                f"  [FAIL] {doc.relative_to(repo_root)} contains reference to "
                 f"src/Working/ (should not appear in publish-facing docs)"
             )
 
     # Report
     print("\n" + "=" * 70)
     if issues:
-        print(f"⚠️  Found {len(issues)} issue(s):\n")
+        print(f"[WARNING] Found {len(issues)} issue(s):\n")
         for issue in issues:
             print(issue)
         return 1
     else:
-        print("✅ All mirror parity checks passed!")
+        print("[SUCCESS] All mirror parity checks passed!")
         print("   - Subdirectories exist")
         print("   - Agent/skill files present")
         print("   - No stale references detected")
