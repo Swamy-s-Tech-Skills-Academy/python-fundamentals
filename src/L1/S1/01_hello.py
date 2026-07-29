@@ -1,6 +1,12 @@
 # Filename: src/L1/S1/01_hello.py
 # Session 1: Python Introduction & Environment Setup
 
+import sys
+
+if hasattr(sys.stdout, "reconfigure"):
+    # Force UTF-8 so emoji/text samples run on common Windows terminals.
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+
 print("Hello, World!")
 print("Welcome to Python Fundamentals!")
 print("This is Session 1")

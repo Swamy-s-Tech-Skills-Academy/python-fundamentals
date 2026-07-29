@@ -38,7 +38,7 @@ def demo_tab() -> None:
 
 def demo_backspace() -> None:
     print("\n=== Backspace (\\b) ===")
-    print("Plan A\bB")
+    print("Plan AC\bB")
 
 
 def demo_escaping_quotes() -> None:

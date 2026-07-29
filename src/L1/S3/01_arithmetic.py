@@ -1,6 +1,12 @@
 # Filename: src/L1/S3/01_arithmetic.py
 # Session 3: Arithmetic — predict first, then run
 
+import sys
+
+if hasattr(sys.stdout, "reconfigure"):
+    # Force UTF-8 so emoji/text samples run on common Windows terminals.
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+
 print("👉 Predict before running (ask: 15/4 vs 15//4; then run):\n")
 print("What is 15 / 4  ?  (true division)")
 print("What is 15 // 4 ?  (floor division)\n")

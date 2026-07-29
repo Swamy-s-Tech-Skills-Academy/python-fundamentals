@@ -471,7 +471,7 @@ print('Hello, World!')
 
 - ✅ Create `L{level}/S{session}/` directories when you have content ready to add
 - ✅ Follow the multi-level progression structure (currently L1 through L18) and keep level references in sync with the master plan
-- ✅ Each level contains 10 sessions (S1 through S10) plus 2 mini projects
+- ✅ Each level contains 10 total learning blocks: 8 sessions plus 2 mini projects (S1–S10, with mini projects occupying the S5 and S10 slots)
 - ✅ Add content progressively following Educational Content Rules
 - ✅ Create folder structure incrementally as curriculum develops
 
@@ -541,7 +541,7 @@ Before committing:
 **Examples of Mini Projects**:
 
 - **Level 1, MP1**: Simple Calculator (uses Sessions 1-4: variables, operators, conditionals)
-- **Level 1, MP2**: Personal Profile Generator (uses Sessions 5-8: loops, lists, dictionaries)
+- **Level 1, MP2**: Personal Profile Generator (uses Sessions 6-9: loops, debugging/built-ins, lists, dictionaries)
 
 **When Creating Mini Projects**:
 
